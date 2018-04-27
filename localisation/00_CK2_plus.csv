@@ -61,7 +61,7 @@ WAR_NAME_TRIBAL_INVASION;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 tribal_invasion_desc;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 RELEASE_FROM_PRISON_INTERACTION_1;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 HAS_LANDED_TITLE;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
-EVTNOCOUNCILREQUESTS;Do not bring such petitions before me ever again!;Ne me présentez plus jamais pareilles pétitions !;Bringen Sie solche Bitten niemals wieder vor!;Do not bring such petitions before me ever again!;No me traigas esas peticiones nunca más!;Do not bring such petitions before me ever again!;Do not bring such petitions before me ever again!;Do not bring such petitions before me ever again!;Do not bring such petitions before me ever again!;;;;;x
+EVTNOCOUNCILREQUESTS;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 ISNT_CLOSE_RELATIVE;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 THE_TORAH;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 depose_liege_desc;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
@@ -86,12 +86,12 @@ hold_grand_hunt_2_desc;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 succ_turkish_succession;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 succ_gavelkind_desc;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 holding_epic_tournament;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
-holding_grand_hunt;Hosting a Grand Hunt;Accueillir une grande chasse;Eine große Jagd veranstalten;Hosting a Grand Hunt;Acoger una gran caza;Hosting a Grand Hunt;Hosting a Grand Hunt;Hosting a Grand Hunt;Hosting a Grand Hunt;;;;;x
+holding_grand_hunt;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 holding_large_feast;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 civil_war;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
-wrong_religion_group_capital;Heathen Capital;Capitale de ceux qui n'ont pas la vraie foi;Heiden Hochburg;Heathen Capital;Capital pagana;Heathen Capital;;;;;;;;x
-wrong_religion_group_capital_desc;Reigning in a province that does not follow the true faith makes adminstration of your territories difficult.;Régner dans une province qui ne suit pas la vraie foi rend difficile l'administration de vos territoires.;Das Regieren in einer Provinz, die dem wahren Glauben nicht folgt, macht adminstration Ihrer Territorien schwierig.;Reigning in a province that does not follow the true faith makes adminstration of your territories difficult.;Reinar en una provincia que no sigue la fe verdadera hace dificil la administración de tus territorios.;Reigning in a province that does not follow the true faith makes adminstration of your territories difficult.;;;;;;;;x
-wrong_religion_capital;Heretic Capital;Capitale de ceux qui n'ont pas la vraie foi;Ketzer Hauptstadt;Heretic Capital;Capital hereje;Heretic Capital;;;;;;;;x
+wrong_religion_group_capital;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
+wrong_religion_group_capital_desc;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
+wrong_religion_capital;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 wrong_religion_capital_desc;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 vassal_ruler;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 vassal_ruler_desc;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
@@ -110,7 +110,7 @@ employ_chancellor_desc;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 employ_marshal;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 employ_marshal_desc;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 employ_spymaster;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
-employ_spymaster_desc;Invite a promising nobleman to court, to help run your spy network.;Inviter un noble prometteur à la cour, pour qu’il supervise votre réseaux d’espions.;Laden Sie einen Hofspitzel in den Rat ein der uns hilft ein Spitzelnetzwerk aufzubauen.;Invite a promising nobleman to court, to help run your spy network.;Invitar aun prometedor noble a la corte, para ayudar a tu red de espías.;Invite a promising nobleman to court, to help run your spy network.;;;;;;;;x
+employ_spymaster_desc;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 underhanded_rogue;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 underhanded_rogue_desc;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 controls_antipope;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
@@ -246,7 +246,7 @@ feudal_tax_3_desc;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 feudal_tax_4;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 feudal_tax_4_option;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 feudal_tax_4_desc;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
-feudal_contract_0;Minimal Feudal Levies;Troupes féodales minimales;Minimale Feudalaushebungen;Minimal Feudal Levies;Levas feudales mínimas;;Minimal Feudal Levies;;;;;;;x
+feudal_contract_0;Minimal Feudal Levies;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 feudal_contract_0_option;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 feudal_contract_0_desc;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 feudal_contract_1;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
@@ -261,7 +261,7 @@ feudal_contract_3_desc;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 feudal_contract_4;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 feudal_contract_4_option;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 feudal_contract_4_desc;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
-city_contract_0;Minimal City Levies;Troupes citadines minimales;Minimale Stadtaushebungen;Minimal City Levies;Levas de la villa mínimas;;Minimal City Levies;;;;;;;x
+city_contract_0;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 city_contract_0_option;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 city_contract_0_desc;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 city_contract_1;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
@@ -276,7 +276,7 @@ city_contract_3_desc;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 city_contract_4;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 city_contract_4_option;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 city_contract_4_desc;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
-temple_contract_0;Minimal Faith Levies;Troupes de la Foi minimales;Minimale Kirchaushebungen;Minimal Septs Levies;Levas de la Fe mínimas;;Minimal Septs Levies;;;;;;;x
+temple_contract_0;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 temple_contract_0_option;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 temple_contract_0_desc;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
 temple_contract_1;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
