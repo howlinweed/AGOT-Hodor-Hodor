@@ -1,0 +1,1698 @@
+##Merc Companies
+##ids 125000-129999
+
+###Golden Company
+125999 = { #dummy holder so history can be sorted
+	name="Hodor" 
+	martial = 8
+	religion=ruin_rel
+	culture=ruin		
+	
+	add_trait="tough_soldier"
+	
+	8100.1.1 = {
+		birth="8100.1.1"
+	}
+}
+
+125000 = {
+	name="Hodor" 
+	martial = 8
+	culture = summer_islander
+	religion = summer_rel 		
+	
+	add_trait="tough_soldier"
+	give_nickname=nick_black_walder
+	
+	8263.1.1 = {
+		birth="8263.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8282.1.1={
+		employer = 307 #Myles Toyne
+		add_trait="trained_warrior"
+	}
+	8297.1.1={
+		employer = 88241 #Harry Strickland
+	}
+}
+125001 = {
+	name="Hodor" 
+	dynasty=803031 #Byrne
+	religion="the_seven"	
+	culture="crownlander"	
+	
+	martial = 7
+	
+	add_trait="tough_soldier"
+	add_trait="patient"
+	
+	8260.1.1 = {
+		birth="8260.1.1"
+	}
+	8276.1.1 = {
+		add_trait="trained_warrior"
+		add_trait="knight"
+	}
+	8282.1.1={
+		employer = 307 #Myles Toyne
+	}
+	8297.1.1={
+		employer = 88241 #Harry Strickland
+	}
+}
+125002 = {
+	name="Hodor" 
+	dynasty=1007 #Cole
+	religion="the_seven"	
+	culture="crownlander"	
+	
+	add_trait="tough_soldier"
+	
+	father=60281007
+	mother=50281007
+	
+	8267.1.1 = {
+		birth="8267.1.1"
+	}
+	8282.1.1={
+		employer = 307 #Myles Toyne
+	}
+	8283.1.1 = {
+		add_trait="poor_warrior"
+	}
+	8297.1.1={
+		employer = 88241 #Harry Strickland
+	}
+}
+125003 = {
+	name="Hodor" 
+	dynasty=1007 #Cole
+	religion="the_seven"	
+	culture="crownlander"	
+	
+	add_trait="tough_soldier"
+	
+	father=60281007
+	mother=50281007
+	
+	8268.1.1 = {
+		birth="8268.1.1"
+	}
+	8282.1.1={
+		employer = 307 #Myles Toyne
+	}
+	8284.1.1 = {
+		add_trait="poor_warrior"
+	}
+	8297.1.1={
+		employer = 88241 #Harry Strickland
+	}
+}
+125004 = {
+	name="Hodor" 
+	dynasty=300538 #Edoryen
+	
+	stewardship=13
+	
+	culture = volantene
+	religion = rhllor 		
+	
+	add_trait="thrifty_clerk"
+	
+	8258.1.1 = {
+		birth="8258.1.1"
+	}
+	8282.1.1={
+		employer = 307 #Myles Toyne
+	}
+	8297.1.1={
+		employer = 88241 #Harry Strickland
+	}
+}
+125005 = {
+	name="Hodor" 
+	#dynasty=261 #Fossoway #Not ackknowledged#
+	
+	religion="the_seven"	
+	culture="reachman"	
+	
+	add_trait = "skilled_tactician"
+	add_trait = "proud"
+	add_trait = "wroth"
+	add_trait = "ruthless"
+	add_trait = "bastard"
+	give_nickname = nick_flowers
+	
+	8261.1.1 = {
+		birth="8261.1.1"
+		effect = {
+			c_262 = { ROOT = { set_real_father = PREV } }
+			dynasty = none
+		}
+	}
+	8276.1.1 = {
+		add_trait="trained_warrior"
+	}
+	8282.1.1={
+		employer = 307 #Myles Toyne
+		add_trait = knight
+		add_trait = scarred
+	}
+	8297.1.1={
+		employer = 88241 #Harry Strickland
+	}
+}
+125006 = {
+	name="Hodor" 
+	dynasty=300539 #Marr
+	
+	intrigue = 8
+	diplomacy = 7
+	martial = 1
+	stewardship = 4
+	learning = 8
+	
+	culture = lysene
+	religion = rhllor 		
+	
+	add_trait = intricate_webweaver
+	add_trait = fashionable
+	add_trait = gregarious
+	add_trait = deceitful
+	add_trait = diligent
+	
+	8255.1.1 = {
+		birth="8255.1.1"
+	}
+	8282.1.1={
+		employer = 307 #Myles Toyne
+	}
+	8297.1.1={
+		employer = 88241 #Harry Strickland
+	}
+}
+125007 = {
+	name="Hodor" 
+	dynasty=178451 #Mandrake
+	religion="the_seven"	
+	culture="riverlander"	
+	
+	add_trait="tough_soldier"
+	
+	8264.1.1 = {
+		birth="8264.1.1"
+	}
+	8280.1.1 = {
+		add_trait="trained_warrior"
+		add_trait="knight"
+		add_trait=former_slave
+	}
+	8282.1.1={
+		employer = 307 #Myles Toyne
+	}
+	8297.1.1={
+		employer = 88241 #Harry Strickland
+	}
+}
+125008 = {
+	name="Hodor" 
+	religion="the_seven"	
+	culture="riverlander"	
+	
+	add_trait="tough_soldier"
+	add_trait="bastard"
+	add_trait="ambitious"
+	add_trait="authoritative"
+	give_nickname = nick_rivers
+	
+	8251.1.1 = {
+		birth="8251.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8267.1.1 = {
+		add_trait="trained_warrior"
+		add_trait="knight"
+	}
+	8282.1.1={
+		employer = 307 #Myles Toyne
+	}
+	8297.1.1={
+		employer = 88241 #Harry Strickland
+	}
+}
+1250010 = {
+	name="Hodor"
+	martial = 1
+	culture = valeman
+	religion = the_seven		
+	
+	add_trait="bastard"
+	add_trait="trained_warrior"
+	give_nickname = nick_stone
+	
+	8265.1.1 = {
+		birth="8265.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8282.1.1={
+		employer = 307 #Myles Toyne
+	}
+	8297.1.1={
+		employer = 88241 #Harry Strickland
+	}
+}
+1250011 = {
+	name="Hodor"
+	martial = 1
+	culture = westerman
+	religion = the_seven		
+	
+	add_trait="bastard"
+	add_trait="trained_warrior"
+	give_nickname = nick_hill
+	
+	8265.1.1 = {
+		birth="8265.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8282.1.1={
+		employer = 307 #Myles Toyne
+	}
+	8297.1.1={
+		employer = 88241 #Harry Strickland
+	}
+}
+1250019 = {
+	name="Hodor"
+	dynasty = 356 # Strong
+	martial = 1
+	culture = riverlander
+	religion = the_seven		
+	
+	add_trait="trained_warrior"
+	
+	father=5580356
+	mother=4560356
+	
+	8260.1.1 = {
+		birth="8260.1.1"
+	}
+	8282.1.1={
+		employer = 307 #Myles Toyne
+	}
+	8297.1.1={
+		employer = 88241 #Harry Strickland
+	}
+}
+1250012 = {
+	name="Hodor"
+	dynasty = 356 # Strong
+	martial = 1
+	culture = riverlander
+	religion = the_seven		
+	
+	add_trait="trained_warrior"
+	
+	father=5580356
+	mother=4560356
+	
+	8262.1.1 = {
+		birth="8262.1.1"
+	}
+	8282.1.1={
+		employer = 307 #Myles Toyne
+	}
+	8297.1.1={
+		employer = 88241 #Harry Strickland
+	}
+}
+1250013 = {
+	name="Hodor" 
+	dynasty=355 # Lothston
+	religion="the_seven"	
+	culture="riverlander"	
+	
+	add_trait="tough_soldier"
+	
+	father=16355 # Lucas Lothston
+	
+	8259.7.6 = {
+		birth="8259.7.6"
+	}
+	8275.1.1 = {
+		add_trait="trained_warrior"
+	}
+	8282.1.1={
+		employer = 307 #Myles Toyne
+	}
+	8297.1.1={
+		employer = 88241 #Harry Strickland
+	}
+}
+1250014 = {
+	name="Hodor"
+	dynasty=174398 # Pease
+	martial = 1
+	culture = stormlander
+	religion = the_seven		
+	
+	add_trait="trained_warrior"
+	
+	8265.1.1 = {
+		birth="8265.1.1"
+	}
+	8282.1.1={
+		employer = 307 #Myles Toyne
+	}
+	8297.1.1={
+		employer = 88241 #Harry Strickland
+	}
+}
+1250015 = {
+	name="Hodor"
+	dynasty=174399 # Mudd
+	
+	martial = 5
+	
+	culture = riverlander
+	religion = old_gods		
+	
+	father=159174399
+	
+	add_trait="trained_warrior"
+	
+	8265.1.1 = {
+		birth="8265.1.1"
+	}
+	8282.1.1={
+		employer = 307 #Myles Toyne
+	}
+	8297.1.1={
+		employer = 88241 #Harry Strickland
+	}
+}
+1250016 = {
+	name="Hodor"
+	dynasty=174399 # Mudd
+	
+	martial = 6
+	diplomacy = 2
+	intrigue = 3
+	stewardship = 2
+	learning = 1
+	
+	culture = riverlander
+	religion = old_gods	
+
+	father=156174399
+		
+	add_trait="rude"
+	add_trait="cruel"
+	add_trait="proud"
+	
+	8270.1.1 = {
+		birth="8270.1.1"
+	}
+	8282.1.1={
+		employer = 307 #Myles Toyne
+		give_nickname = nick_the_young
+	}
+	8286.1.1={
+		add_trait="trained_warrior"
+		add_trait="tough_soldier"
+		add_trait="scarred"
+	}
+	8297.1.1={
+		employer = 88241 #Harry Strickland
+	}
+}
+1250017 = {
+	name="Hodor"
+	dynasty=174400
+	martial = 1
+	culture = tyroshi
+	religion = trios		
+	
+	add_trait="trained_warrior"
+	
+	8265.1.1 = {
+		birth="8265.1.1"
+	}
+	8282.1.1={
+		employer = 307 #Myles Toyne
+	}
+	8297.1.1={
+		employer = 88241 #Harry Strickland
+	}
+}
+1250018 = {
+	name="Hodor"
+	
+	martial = 5
+	diplomacy = 4
+	intrigue = 3
+	stewardship = 2
+	learning = 2
+	
+	culture = reachman
+	religion = the_seven
+
+	add_trait = tough_soldier
+	add_trait = authoritative
+	add_trait = rude
+	
+	8267.1.1 = {
+		birth="8267.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8282.1.1 = {
+		add_trait="trained_warrior"
+	}
+	8282.1.1={
+		employer = 307 #Myles Toyne
+	}
+	8297.1.1={
+		employer = 88241 #Harry Strickland
+	}
+}
+1250020 = {
+	name="Hodor"	#Maybe Ashara, maybe someone else. Placeholder character until GRRM reveals anything.
+	female=yes
+	diplomacy = 12
+	culture = crownlander
+	religion = the_seven
+	
+	8262.1.1 = {
+		birth="8262.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8276.1.1 = {add_trait=proud}
+	8278.1.1 = {add_trait=elusive_shadow}
+	8283.12.30 = {add_trait=depressed}
+	8284.1.1 = {
+		add_trait=septa
+		employer = 307 #Myles Toyne
+	}
+	8297.1.1={
+		employer = 88241 #Harry Strickland
+	}
+	8300.3.1={
+		employer = 125009 #Young Griff
+	}
+}
+1250021 = {
+	name="Hodor"	#
+	learning = 8
+	culture = crownlander
+	religion = the_seven
+	trait = martial_cleric
+	8255.1.1 = {
+		birth="8255.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8270.1.1 = {
+		add_trait = scholar
+		effect = {
+			if = {
+				limit = { NOT = { year = 8284 } }
+				c_the_citadel = { holder_scope = { ROOT = { move_character = PREV } } }
+				add_character_modifier = {
+					name = maester_education
+					duration = -1
+				}
+			}
+		}	
+	}
+	8284.1.1 = {
+		employer = 307 #Myles Toyne
+		give_nickname = nick_halfmaester
+	}
+	8297.1.1={
+		employer = 88241 #Harry Strickland
+	}
+	8300.3.1={
+		employer = 125009 #Young Griff
+		add_trait = maester
+	}
+}
+###Young Griff###
+125009 = {
+	name="Hodor" 
+	dna="alafkzgfaav"
+	properties="0f0eo"
+	
+	martial = 5
+	diplomacy = 7
+	intrigue = 4
+	stewardship = 7
+	learning = 7
+	
+	religion="the_seven"	
+	culture="high_valyrian"	
+	
+	add_trait=fair
+	add_trait=quick
+	add_trait=humble
+	add_trait=temperate
+	add_trait=tough_soldier
+	
+	add_trait=inspiring_leader
+	disallow_random_traits = yes
+	
+	mother=125099
+	
+	8282.1.1 = {
+		birth="8282.1.1"
+		effect = {	
+			if = {
+				limit = { NOT = { year = 8283 } }
+				remove_trait=fair
+				remove_trait=quick
+				death = yes
+			}
+			dynasty = none
+		}
+	}
+	8283.1.1={
+		#employer = 307 #Myles Toyne
+		effect = {
+			set_character_flag = high_valyrian
+			health = 2 
+			if = {
+				limit = { is_ruler = no }
+				k_golden_company = {
+					holder_scope = {
+						ROOT = { move_character = PREV }
+					}
+				}
+			}
+		}
+	}
+	8292.1.1={
+		add_trait=squire
+		effect = {
+			if = {
+				limit = { NOT = { age = 16 } }
+				random_courtier = {
+					limit = { character = 316 }
+					ROOT = { set_guardian = PREV }
+				}
+			}	
+		}
+	}
+	8297.1.1={
+		add_trait=scholar
+		add_trait=trained_warrior
+		add_trait=ambitious
+		add_trait=brave
+		effect = {
+			add_friend = 316 #JC
+			add_friend = 88149 #Rolly
+			add_friend = 600000040 #Illyrio
+		}
+	}
+	8299.1.1={
+		effect = {
+			random_friend = {
+				limit = { character = 316 }
+				character_event = { id = knight.19 days = 365 } #knighhood event
+			}
+		}
+	}
+	8300.3.1={	
+		dynasty = 497
+		effect = { 
+			dynasty = 497
+			if = {
+				limit = { ai = yes }
+				add_trait = forbid_marriage
+			}
+			# set_character_flag = rebel_leader
+			# add_trait = rebel_leader
+			set_defacto_liege = ROOT
+			e_iron_throne = {
+				add_pressed_claim = ROOT
+			}
+			add_weak_claim = k_stormlands 
+			304 = {
+				add_province_modifier = {
+					name = utterly_defeated
+					duration = 1800
+				}
+			}
+			spawn_unit = {
+				province = 303 #Griffins Roost
+				owner = ROOT
+				leader = 316 #Jon Connington
+				troops = {
+					archers = { 334 334 }
+					heavy_infantry = { 1000 1000 }
+					pikemen = { 1000 1000 }
+					light_infantry = { 334 334 }	
+					light_cavalry = { 233 233 }		
+					knights = { 334 334 }
+					war_elephants = { 10 10 }					
+				}
+			}
+			spawn_unit = {
+				province = 303 #Griffins Roost
+				owner = ROOT
+				leader = 88241 #Harry Strickland
+				troops = {
+					archers = { 334 334 }
+					heavy_infantry = { 1000 1000 }
+					pikemen = { 1000 1000 }
+					light_infantry = { 334 334 }	
+					light_cavalry = { 233 233 }		
+					knights = { 334 334 }
+					war_elephants = { 10 10 }					
+				}
+			}
+			spawn_unit = {
+				province = 303 #Griffins Roost
+				owner = ROOT
+				leader = 6298 #Laswell peake
+				troops = {
+					archers = { 334 334 }
+					heavy_infantry = { 1000 1000 }
+					pikemen = { 1000 1000 }
+					light_infantry = { 334 334 }	
+					light_cavalry = { 233 233 }		
+					knights = { 334 334 }
+					war_elephants = { 10 10 }					
+				}
+			}
+			k_dorne = {
+				holder_scope = {
+					opinion = {
+						who = ROOT
+						modifier = opinion_targaryen_loyalist
+						years = 15
+					}
+					any_dynasty_member = {
+						opinion = {
+							who = ROOT
+							modifier = opinion_targaryen_loyalist
+							years = 15
+						}
+					}						
+				}
+			}
+			e_iron_throne = {
+				holder_scope = {
+					reverse_opinion = {
+						modifier = opinion_usurped_title
+						who = ROOT
+					}			
+				}
+			}
+			d_dragonstone = {
+				holder_scope = {
+					reverse_opinion = {
+						modifier = opinion_usurped_title
+						who = ROOT
+					}			
+				}
+			}
+			k_westerlands = {
+				holder_scope = {
+					random_sibling = {
+						limit = { character = 3190 } #Jaime
+						reverse_opinion = {
+							modifier = opinion_vengeance
+							who = ROOT
+						}
+					}
+				}
+			}
+		}
+	}
+}
+125099 = { #mother to stop culling
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8262.1.1 = {
+		birth="8262.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8282.1.1 = {death="8282.1.1"}
+}
+
+1300016 = {
+	name="Hodor"
+	
+	martial = 3
+	diplomacy = 3
+	intrigue = 3
+	stewardship = 2
+	learning = 1
+	
+	culture = riverlander
+	religion = the_seven
+	
+	add_trait="tough_soldier"
+
+	8280.1.1 = {
+		birth="8280.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8282.1.1={
+		employer = 307 #Myles Toyne
+		add_trait="squire"
+	}
+	8296.1.1={
+		add_trait="trained_warrior"
+	}
+	8297.1.1={
+		employer = 88241 #Harry Strickland	
+	}
+}
+###Brave Companions
+80012560 = {
+	name="Hodor"
+	dynasty = 174354 
+	dna="bljkejkagau"
+	properties="cj0dcd0000"
+	martial = 8
+	culture = qohorik
+	religion = black_goat 		
+	 
+   	add_trait="tough_soldier"
+   	add_trait="lisp"
+   	add_trait="impaler"
+   	add_trait="wroth"
+   	add_trait="cruel"
+   	add_trait="authoritative"
+   	add_trait="rude"
+	add_trait="ruthless"
+	add_trait="lustful"
+	
+   	give_nickname = nick_the_goat
+	
+	8263.1.1 = {
+		birth="8263.1.1"
+	}
+	8279.1.1 = {
+		add_trait="skilled_warrior"
+	}
+}
+80012561 = {
+	name="Hodor" 
+	martial = 6
+	culture = qohorik
+	religion = black_goat 	
+	
+	add_trait="tough_soldier"
+	give_nickname = nick_the_faithfull
+	
+	8260.1.1 = {
+		birth="8260.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8276.1.1 = {
+		add_trait="trained_warrior"
+	}
+	8282.1.1={
+		employer = 80012560 #Vargo Hoat
+	}
+}
+80012562 = {
+	name="Hodor"
+	martial = 2
+	culture = crownlander
+	religion = the_seven		
+	
+	add_trait="cruel"
+	add_trait="homosexual"
+	add_trait="trained_warrior"
+	add_trait="deceitful"
+	add_trait="septon"
+	
+	8263.1.1 = {
+		birth="8263.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8282.1.1={
+		employer = 80012560 #Vargo Hoat
+	}
+}
+80012563 = {
+	name="Hodor" 
+	martial = 2
+	culture = qohorik
+	religion = black_goat  		
+	
+	add_trait="cruel"
+	add_trait="deceitful"
+	add_trait="lunatic"
+	
+	8263.1.1 = {
+		birth="8263.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8282.1.1={
+		employer = 80012560 #Vargo Hoat
+	}
+}
+80012564 = {
+	name="Hodor"
+	martial = 5
+	culture = dothraki
+	religion = dothraki_pagan 		
+	
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	give_nickname = nick_the_fat
+	
+	8263.1.1 = {
+		birth="8263.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8282.1.1={
+		employer = 80012560 #Vargo Hoat
+	}
+}
+80012565 = {
+	name="Hodor" 
+	martial = 6
+	culture = salt_dornish
+	religion = the_seven		
+	
+	add_trait="cruel"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	add_trait="deceitful"
+	
+	8263.1.1 = {
+		birth="8263.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8282.1.1={
+		employer = 80012560 #Vargo Hoat
+	}
+}
+80012566 = {
+	name="Hodor" 
+	martial = 4
+	culture = qohorik
+	religion = black_goat  		
+	
+	add_trait="cruel"
+	add_trait="trained_warrior"
+	add_trait="deceitful"
+	
+	8263.1.1 = {
+		birth="8263.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8282.1.1={
+		employer = 80012560 #Vargo Hoat
+	}
+}
+80012567 = {
+	name="Hodor"
+	martial = 8
+	culture = dothraki
+	religion = dothraki_pagan 		
+	
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	
+	8263.1.1 = {
+		birth="8263.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8282.1.1={
+		employer = 80012560 #Vargo Hoat
+	}
+}
+80012568 = {
+	name="Hodor"
+	martial = 3
+	culture = tyroshi
+	religion = trios 		
+	
+	add_trait="trained_warrior"
+	
+	8263.1.1 = {
+		birth="8263.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8282.1.1={
+		employer = 80012560 #Vargo Hoat
+	}
+}
+80012570 = {
+	name="Hodor"
+	dna="bmfkjqbbgag"
+	properties="ce0dbk0000"
+	martial = 1
+	culture = ibbenese
+	religion = gods_ibben 		
+	
+	add_trait="trained_warrior"
+	
+	8263.1.1 = {
+		birth="8263.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8282.1.1={
+		employer = 80012560 #Vargo Hoat
+	}
+}
+
+###Company of the Cat
+8876350 = {
+	name="Hodor" 
+	dna="ddkfdlghddg"
+	properties="ah0bbb0000"
+	martial = 8
+	culture = pentosi
+	religion = rhllor 		
+	
+	add_trait="cruel"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	add_trait="deceitful"
+	
+	8254.1.1 = {
+		birth="8254.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+}
+
+###Long Lances
+8876351 = {
+	name="Hodor"
+	dynasty = 174355 
+	martial = 8
+	culture = myrman
+	religion = rhllor 		
+	
+	father=130174355
+	mother=230174355
+	
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	add_trait="deceitful"
+	
+	8258.1.1 = {
+		birth="8258.1.1"
+	}
+}
+
+##Second Sons
+
+1660000 = {
+	name="Hodor" 
+	dynasty=174370
+	martial = 8
+	culture = braavosi
+	religion = moonsingers 		
+	
+	add_trait="cruel"
+	add_trait="tough_soldier"
+	add_trait="deceitful"
+	add_trait="wroth"
+	add_trait="ruthless"
+	add_trait="rude"
+	give_nickname = nick_the_titan
+	
+	8256.1.1 = {
+		birth="8256.1.1"
+	}
+	8272.1.1 = {
+		add_trait="trained_warrior"
+	}
+	8299.12.1 = {
+		death = {
+			death_reason = death_rabble
+		}
+	}
+}
+1660002 = {
+	name="Hodor" 
+	martial = 4
+	culture = braavosi
+	religion = moonsingers 		
+	
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	give_nickname = nick_the_cunning
+	
+	8266.1.1 = {
+		birth="8266.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8282.1.1 = {
+		employer = 1660000 #Mero
+	}
+	8300.1.1 = {
+		employer = 602226 #Brown Ben Plumm
+	}
+}
+1660003 = {
+	name="Hodor" 
+
+	culture = myrman
+	religion = rhllor 		
+	
+	add_trait="tough_soldier"
+	add_trait="scarred" # Not life-threatening
+	
+	8262.1.1 = {
+		birth="8262.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8282.1.1 = {
+		employer = 1660000 #Mero
+	}
+	8300.1.1 = {
+		employer = 602226 #Brown Ben Plumm
+	}
+}
+1660004 = {
+	name="Hodor" 
+
+	culture = myrman
+	religion = rhllor 		
+	
+	add_trait="tough_soldier"
+	
+	8262.1.1 = {
+		birth="8262.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8282.1.1 = {
+		employer = 1660000 #Mero
+	}
+	8300.1.1 = {
+		employer = 602226 #Brown Ben Plumm
+	}
+}
+1660005 = {
+	name="Hodor" 
+	martial = 2
+	culture = summer_islander
+	religion = summer_rel 		
+	
+	add_trait="tough_soldier"
+	
+	8262.1.1 = {
+		birth="8262.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8282.1.1 = {
+		employer = 1660000 #Mero
+	}
+	8300.1.1 = {
+		employer = 602226 #Brown Ben Plumm
+	}
+}
+1660006 = {
+	name="Hodor" 
+	dynasty=174360
+	dna="cblckdaggaq"
+	properties="cn0eik0000"
+	martial = 2
+	stewardship = 9
+	culture = pentosi
+	religion = rhllor 		
+	
+	add_trait="tough_soldier"
+	give_nickname = nick_inkpots
+	
+	8262.1.1 = {
+		birth="8262.1.1"
+	}
+	8282.1.1 = {
+		employer = 1660000 #Mero
+	}
+	8300.1.1 = {
+		employer = 602226 #Brown Ben Plumm
+	}
+}
+
+##Stormcrows
+
+1689230 = {
+	name="Hodor" 
+	dynasty = 174361
+	martial = 8
+	culture = ghiscari
+	religion = harpy 		
+	
+	add_trait="tough_soldier"
+	
+	8260.1.1 = {
+		birth="8260.1.1"
+	}
+	8300.1.1={
+		death = {
+			death_reason = death_battle
+			killer=16892322 # Daario
+		}
+	}
+}
+1689231 = {
+	name="Hodor" 
+	martial = 8
+	culture = qartheen
+	religion = qarth_warlocks 		
+	
+	add_trait="tough_soldier"
+	give_nickname = nick_the_bald
+	
+	8263.1.1 = {
+		birth="8263.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8282.1.1 = {
+		employer = 1689230
+	}
+	8300.1.1={
+		death = {
+			death_reason = death_battle
+			killer=16892322 # Daario
+		}
+	}
+}
+16892322 = {
+	name="Hodor"
+	dynasty = 300521 
+	dna="bhagnhpnalj"
+	properties="cd0ddk"
+	martial = 8
+	culture = tyroshi
+	religion = trios 		
+	
+	add_trait="tough_soldier"
+	add_trait=ruthless
+	add_trait=wroth
+	add_trait=fashionable
+	add_trait=ambitious
+	add_trait=brave
+	add_trait=fair
+	
+	8263.1.1 = {
+		birth="8263.1.1"
+	}
+	8279.1.1 = {
+		add_trait=skilled_warrior
+		effect = { add_artifact = daarios_ladies }
+	}		
+	8282.1.1 = {
+		employer = 1689230
+	}
+	8300.4.2 = {
+		effect = {
+			k_meereen = {
+				holder_scope = { add_lover = ROOT } #Daenerys
+			}
+		}
+	}
+}
+
+##Windblown
+
+1684230 = {
+	name="Hodor"
+	dynasty = 300508 
+	dna="chbfh0b0fe0" 
+	properties="0d00b0"
+	martial = 8
+	diplomacy = 6	
+	intrigue = 6	
+	stewardship = 6	
+	learning = 5
+	culture = pentosi
+	religion = rhllor 		
+	
+	add_trait="diligent"
+	add_trait="ambitious"
+	add_trait="quick"
+	add_trait="cynical"
+	add_trait="patient"
+	add_trait="authoritative"
+	add_trait="tough_soldier"
+	
+	8239.1.1 = {
+		birth="8239.1.1"
+	}
+	8255.1.1 = {
+		add_trait = trained_warrior
+	}
+	8262.1.1={
+		add_claim=d_prince_pentos
+	}
+}
+1684231 = {
+	name="Hodor" 
+	martial = 8
+	
+	religion="dothraki_pagan"	
+	culture="dothraki"	
+	
+
+	add_trait="trained_warrior"
+	add_trait="proud"
+	add_trait="valyrian_steel"
+	add_trait="wroth"
+	
+	8266.1.1 = {
+		birth="8266.1.1"
+		effect = { 
+			set_character_flag = owns_valyrian_steel_sword 
+			dynasty = none
+		}
+	}
+	8282.1.1={
+		employer = 1684230 #Tattered Prince
+	}
+}
+1684232 = {
+	name="Hodor" 
+	dynasty = 174356
+	stewardship = 6	
+	learning = 5
+	
+	religion="rhllor"	
+	culture = pentosi
+	
+	father=130174356
+	mother=430174356
+	
+	add_trait="trained_warrior"
+	add_trait="gregarious"
+	add_trait="poet"
+	
+	8256.1.1 = {
+		birth="8256.1.1"
+	}
+	8282.1.1={
+		employer = 1684230 #Tattered Prince
+	}
+}
+1684233 = {
+	name="Hodor"
+	female=yes
+	dna="clcjktjefcl"
+	properties="cg0ded0000"
+
+	martial = 7	
+	diplomacy = 5	
+	intrigue = 5	
+	
+	religion="the_seven"
+	culture="stormlander"
+
+	
+	add_trait="ugly"
+	add_trait="strong"
+	add_trait="deceitful"
+	add_trait="brave"
+	add_trait="tall"
+	add_trait="scarred"
+	
+	8265.1.1 = {
+		birth="8265.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8282.1.1={
+		employer = 1684230 #Tattered Prince
+	}
+	8290.1.1 = {
+		add_trait="trained_warrior"
+		add_trait="duelist"
+	}
+	8296.1.1 = { 
+		remove_trait="trained_warrior"
+		add_trait="skilled_warrior"
+		add_trait="tough_soldier"
+	}
+}
+1684234 = {
+	name="Hodor" 
+	religion="the_seven"	
+	culture="valeman"	
+	
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	add_trait="bastard"
+	give_nickname = nick_stone
+	
+	8264.1.1 = {
+		birth="8264.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8280.1.1 = {
+		add_trait="knight"
+	}
+	8282.1.1={
+		employer = 1684230 #Tattered Prince
+	}
+}
+1684235 = {
+	name="Hodor" 
+	dynasty = 174357
+	religion="the_seven"	
+	culture="riverlander"	
+	
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	
+	8264.1.1 = {
+		birth="8264.1.1"
+	}
+	8280.1.1 = {
+		add_trait="knight"
+	}
+	8282.1.1={
+		employer = 1684230 #Tattered Prince
+	}
+}
+1684236 = {
+	name="Hodor" 
+	religion="rhllor"	
+	culture="volantene"	
+	
+	add_trait="trained_warrior"
+	add_trait="diligent"
+	add_trait="scholar"
+
+	
+	8264.1.1 = {
+		birth="8264.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8282.1.1={
+		employer = 1684230 #Tattered Prince
+	}
+}
+1684237 = {
+	name="Hodor" 
+	religion="rhllor"	
+	culture="myrman"	
+	
+	add_trait="trained_warrior"
+	
+	8263.1.1 = {
+		birth="8263.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8282.1.1={
+		employer = 1684230 #Tattered Prince
+	}
+}
+1684238 = {
+	name="Hodor" # Their best archer
+	dynasty=174358
+	dna="chaf00b0fe0" 
+	properties="0e0000"
+	
+	religion="the_seven"	
+	culture="westerman"	
+
+	
+	
+	add_trait="tough_soldier"
+	add_trait="skilled_warrior"
+	
+	8266.1.1 = {
+		birth="8266.1.1"
+	}
+	8282.1.1={
+		employer = 1684230 #Tattered Prince
+	}
+}
+1684239 = {
+	name="Hodor" 
+	dynasty = 174369
+	religion="the_seven"	
+	culture="riverlander"	
+	
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	
+	8266.1.1 = {
+		birth="8266.1.1"
+	}
+	8282.1.1={
+		employer = 1684230 #Tattered Prince
+	}
+}
+1684240 = {
+	name="Hodor" 
+	dynasty=174366
+	
+	religion="rhllor"	
+	culture="pentosi"	
+
+	add_trait="tough_soldier"
+	add_trait="skilled_warrior"
+
+	father=130174366
+	mother=430174366
+	
+	8262.1.1 = {
+		birth="8262.1.1"
+	}
+	8282.1.1={
+		employer = 1684230 #Tattered Prince
+	}
+}
+1684241 = {
+	name="Hodor" 
+	#dynasty=174365
+	martial = 2
+	culture = "summer_islander"
+	religion = "summer_rel" 		
+	
+	add_trait="tough_soldier"
+	
+	8234.1.1 = {
+		birth="8234.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8282.1.1={
+		employer = 1684230 #Tattered Prince
+	}
+}
+1684242 = {
+	name="Hodor" 
+	dynasty = 238
+	religion="the_seven"	
+	culture="reachman"	
+	
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	
+	father=60100238
+	
+	add_trait=bastard
+	
+	8261.1.1 = {
+		birth="8261.1.1"
+	}
+	8282.1.1={
+		employer = 1684230 #Tattered Prince
+	}
+}
+1684243 = {
+	name="Hodor" 
+	dynasty = 174359
+	religion="the_seven"	
+	culture="riverlander"
+
+	diplomacy = 6	
+	intrigue = 6	
+	stewardship = 3	
+	learning = 5	
+	
+	add_trait="fashionable"
+	add_trait="trained_warrior"
+	add_trait="scarred"
+	#add_trait="deceitful"
+	
+	8258.1.1 = {
+		birth="8258.1.1"
+	}
+	8282.1.1={
+		employer = 1684230 #Tattered Prince
+	}
+}
+1684244 = {
+	name="Hodor" 
+	dna="dmffglbhdgp"
+	properties="0h00c"
+	religion="the_seven"	
+	culture="riverlander"	
+	
+	add_trait="trained_warrior"
+	give_nickname=nick_ginger
+	
+	8266.1.1 = {
+		birth="8266.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8282.1.1={
+		employer = 1684230 #Tattered Prince
+	}
+}
+1684245 = {
+	name="Hodor" 
+	religion="the_seven"	
+	culture="stormlander"	
+	
+	add_trait="trained_warrior"
+	give_nickname=nick_black_walder
+	
+	8260.1.1 = {
+		birth="8260.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8282.1.1={
+		employer = 1684230 #Tattered Prince
+	}
+}
+1684246 = {
+	name="Hodor" 
+	religion="the_seven"	
+	culture="stormlander"	
+	
+	add_trait="trained_warrior"
+	add_trait="scarred"
+	give_nickname=nick_redback
+	
+	8263.1.1 = {
+		birth="8263.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8282.1.1={
+		employer = 1684230 #Tattered Prince
+	}
+}
+1684247 = {
+	name="Hodor" 
+	dynasty = 174401
+	religion="the_seven"	
+	culture="crownlander"
+			
+	add_trait="trained_warrior"
+	add_trait="scarred"
+	#add_trait="deceitful"
+	
+	8251.1.1 = {
+		birth="8251.1.1"
+	}
+	8282.1.1={
+		employer = 1684230 #Tattered Prince
+	}
+}
+
+1684248 = {
+	name="Hodor" 
+	female = yes
+	
+	religion="harpy"	
+	culture="meereenese"
+			
+	add_trait = trained_warrior
+	add_trait = scarred
+	add_trait = rude
+	add_trait = brave
+	add_trait = wroth
+	add_trait = authoritative
+	
+	8280.1.1 = {
+		birth="8280.1.1"
+		add_trait = slave
+		effect = {	
+			dynasty = none
+		}
+	}
+	8290.1.1={
+		employer = 1684230 #Tattered Prince
+		add_trait = trained_warrior
+		remove_trait = slave
+		add_trait = former_slave
+	}
+	8296.1.1 = {
+		add_trait = tough_soldier
+	}
+	8297.1.1 = {
+		effect = { add_friend = 331443 } # Asher Forrester
+	}
+}

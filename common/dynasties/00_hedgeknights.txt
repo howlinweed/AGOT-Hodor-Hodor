@@ -1,0 +1,5118 @@
+## Non-Canon Hedge Knights Dynasties
+## HK North (201k+)
+201000 = {
+	name="Hodor"
+	culture = northman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 11
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+201001 = {
+	name="Hodor"
+	culture = northman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 12
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+201002 = {
+	name="Hodor"
+	culture = northman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 13
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+201003 = {
+	name="Hodor"
+	culture = northman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 14
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+201004 = {
+	name="Hodor"
+	culture = northman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 15
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+201005 = {
+	name="Hodor"
+	culture = northman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 16
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+201006 = {
+	name="Hodor"
+	culture = northman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 17
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+201007 = {
+	name="Hodor"
+	culture = northman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 60
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+201008 = {
+	name="Hodor"
+	culture = northman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+201009 = {
+	name="Hodor"
+	culture = northman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+201010 = {
+	name="Hodor"
+	culture = northman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+201011 = {
+	name="Hodor"
+	culture = northman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+201012 = {
+	name="Hodor"
+	culture = northman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+201013 = {
+	name="Hodor"
+	culture = northman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+201014 = {
+	name="Hodor"
+	culture = northman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+201015 = {
+	name="Hodor"
+	culture = northman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+201016 = {
+	name="Hodor"
+	culture = northman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 9
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+201017 = {
+	name="Hodor"
+	culture = northman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 10
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+201018 = {
+	name="Hodor"
+	culture = northman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 11
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+201019 = {
+	name="Hodor"
+	culture = northman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 12
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+201020 = {
+	name="Hodor"
+	culture = northman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 13
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+201021 = {
+	name="Hodor"
+	culture = northman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 14
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+201022 = {
+	name="Hodor"
+	culture = northman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 15
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+201023 = {
+	name="Hodor"
+	culture = northman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 16
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+201024 = {
+	name="Hodor"
+	culture = northman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 17
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+201025 = {
+	name="Hodor"
+	culture = northman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 58
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+201026 = {
+	name="Hodor"
+	culture = northman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 59
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+
+
+
+##Riverlands(202k+)
+202000 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 18
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202001 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 19
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202002 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 20
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202003 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 21
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202004 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 22
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202005 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 23
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202006 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 24
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202007 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 25
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202008 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 26
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202009 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 27
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202010 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 28
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202011 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 29
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202012 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 30
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202013 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 31
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202014 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 65
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202015 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 66
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202016 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 67
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202017 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 68
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202018 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 69
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202019 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 61
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202020 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202021 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 9
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202022 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 10
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202023 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 11
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202024 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 12
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202025 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 13
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202026 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 14
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202027 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 15
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202028 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 18
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202029 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 19
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202030 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 20
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202031 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 21
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202032 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 22
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202033 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 23
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202034 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 60
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202035 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 61
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202036 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 62
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202037 = {
+	name="Hodor"
+	culture = riverlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 63
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+
+
+
+## HK Vale (203k+)
+203000 = {
+	name="Hodor"
+	culture = valeman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 32
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+203001 = {
+	name="Hodor"
+	culture = valeman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 33
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+203002 = {
+	name="Hodor"
+	culture = valeman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 34
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+203003 = {
+	name="Hodor"
+	culture = valeman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 35
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+203004 = {
+	name="Hodor"
+	culture = valeman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 36
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+203005 = {
+	name="Hodor"
+	culture = valeman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 37
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+203006 = {
+	name="Hodor"
+	culture = valeman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 38
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+203007 = {
+	name="Hodor"
+	culture = valeman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 39
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+203008 = {
+	name="Hodor"
+	culture = valeman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 40
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+203009 = {
+	name="Hodor"
+	culture = valeman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 41
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+203010 = {
+	name="Hodor"
+	culture = valeman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 42
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+203011 = {
+	name="Hodor"
+	culture = valeman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 16
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+203012 = {
+	name="Hodor"
+	culture = valeman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 17
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+203013 = {
+	name="Hodor"
+	culture = valeman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 18
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+203014 = {
+	name="Hodor"
+	culture = valeman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 19
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+203015 = {
+	name="Hodor"
+	culture = valeman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 20
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+203016 = {
+	name="Hodor"
+	culture = valeman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 21
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+203017 = {
+	name="Hodor"
+	culture = valeman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 22
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+203018 = {
+	name="Hodor"
+	culture = valeman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 23
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+203019 = {
+	name="Hodor"
+	culture = valeman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 24
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+203020 = {
+	name="Hodor"
+	culture = valeman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 24
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+203021 = {
+	name="Hodor"
+	culture = valeman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 25
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+203022 = {
+	name="Hodor"
+	culture = valeman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 26
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+203023 = {
+	name="Hodor"
+	culture = valeman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 27
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+203024 = {
+	name="Hodor"
+	culture = valeman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 28
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+203025 = {
+	name="Hodor"
+	culture = valeman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 29
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+203026 = {
+	name="Hodor"
+	culture = valeman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 64
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+203027 = {
+	name="Hodor"
+	culture = valeman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 65
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+203028 = {
+	name="Hodor"
+	culture = valeman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 66
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+203029 = {
+	name="Hodor"
+	culture = valeman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 67
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+203030 = {
+	name="Hodor"
+	culture = valeman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 67
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+
+
+
+## HK Crownlands (204k+)
+204000 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 43
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204001 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 44
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204002 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 45
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204003 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 46
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204004 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 47
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204005 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 48
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204006 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 49
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204007 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 50
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204008 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 51
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204009 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 52
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204010 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 53
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204011 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 54
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204012 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 55
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204013 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 56
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204014 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 57
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204015 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 58
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204016 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 59
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204017 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 60
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204018 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 61
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204019 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 62
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204020 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 63
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204021 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 64
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204022 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 62
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204023 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 35
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204024 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 36
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204025 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 37
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204026 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 38
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204027 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 39
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204028 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 40
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204029 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 41
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204030 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 42
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204031 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 43
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204032 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 30
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204033 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 31
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204034 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 32
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204035 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 33
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204036 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 34
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204037 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 35
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204038 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 68
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204039 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 69
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204040 = {
+	name="Hodor"
+	culture = crownlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+## Westerlands (205k+)
+205000 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205001 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205002 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205003 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205004 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205005 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205006 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205007 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205008 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205009 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 9
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205010 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 10
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205011 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 11
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205012 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 12
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205013 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 13
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205014 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 14
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205015 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 15
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205016 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 16
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205017 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 17
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205018 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 25
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205019 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 26
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205020 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 27
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205021 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 28
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205022 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 29
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205023 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 30
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205024 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 31
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205025 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 32
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205026 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 33
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205027 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 34
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205028 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 36
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205029 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 37
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205030 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 38
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205031 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 39
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205032 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205033 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205034 = {
+	name="Hodor"
+	culture = westerman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+## Reach (206k+)
+206000 = {
+	name="Hodor"
+	culture = reachman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 18
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+206001 = {
+	name="Hodor"
+	culture = reachman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 19
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+206002 = {
+	name="Hodor"
+	culture = reachman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 20
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+206003 = {
+	name="Hodor"
+	culture = reachman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 21
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+206004 = {
+	name="Hodor"
+	culture = reachman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 22
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+206005 = {
+	name="Hodor"
+	culture = reachman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 23
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+206006 = {
+	name="Hodor"
+	culture = reachman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 24
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+206007 = {
+	name="Hodor"
+	culture = reachman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 25
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+206008 = {
+	name="Hodor"
+	culture = reachman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 26
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+206009 = {
+	name="Hodor"
+	culture = reachman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 27
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+206010 = {
+	name="Hodor"
+	culture = reachman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 28
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+206011 = {
+	name="Hodor"
+	culture = reachman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 29
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+206012 = {
+	name="Hodor"
+	culture = reachman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 30
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+206013 = {
+	name="Hodor"
+	culture = reachman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 31
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+206014 = {
+	name="Hodor"
+	culture = reachman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 32
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+206015 = {
+	name="Hodor"
+	culture = reachman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 51
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+206016 = {
+	name="Hodor"
+	culture = reachman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 52
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+206017 = {
+	name="Hodor"
+	culture = reachman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 53
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+206018 = {
+	name="Hodor"
+	culture = reachman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 54
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+206019 = {
+	name="Hodor"
+	culture = reachman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 55
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+206020 = {
+	name="Hodor"
+	culture = reachman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 56
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+206021 = {
+	name="Hodor"
+	culture = reachman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 57
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+206022 = {
+	name="Hodor"
+	culture = reachman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 58
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+206023 = {
+	name="Hodor"
+	culture = reachman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 40
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+206024 = {
+	name="Hodor"
+	culture = reachman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 41
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+206025 = {
+	name="Hodor"
+	culture = reachman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 42
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+206026 = {
+	name="Hodor"
+	culture = reachman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+206027 = {
+	name="Hodor"
+	culture = reachman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+206028 = {
+	name="Hodor"
+	culture = reachman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 68
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+
+## HK Stormlands (207k+)
+207000 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 33
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207001 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 34
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207002 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 35
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207003 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 36
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207004 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 37
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207005 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 38
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207006 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 39
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207007 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 40
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207008 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 41
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207009 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 42
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207010 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 43
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207011 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 44
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207012 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 45
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207013 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 46
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207014 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 47
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207015 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 48
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207016 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 59
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207017 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 60
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207018 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 61
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207019 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 62
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207020 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 63
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207021 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 64
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207022 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 65
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207023 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 66
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207024 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 67
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207025 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 68
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207026 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 69
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207027 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207028 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 43
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207029 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 44
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207030 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 45
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207031 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 46
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207032 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 47
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207033 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 48
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207034 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 49
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207035 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207036 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207037 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207038 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 9
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207039 = {
+	name="Hodor"
+	culture = stormlander can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 69
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+
+
+## Iron Islands (208k+)
+208000 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 49
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208001 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 50
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208002 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 51
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208003 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 52
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208004 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 53
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208005 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 54
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208006 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 55
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208007 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 63
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208008 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 64
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208009 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 65
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208010 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 66
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208011 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 67
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208012 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 68
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208013 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 69
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208014 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208015 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 44
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208016 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 45
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208017 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 46
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208018 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 47
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208019 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 48
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208020 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 49
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208021 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 50
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208022 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 50
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208023 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 51
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208024 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 52
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208025 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 53
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208026 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 54
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208027 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 55
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208028 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 10
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208029 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 11
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208030 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 12
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208031 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 13
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208032 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 14
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208033 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 15
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208034 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 16
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208035 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 17
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208036 = {
+	name="Hodor"
+	culture = ironborn can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 18
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+
+## HK Dorne (209k+)
+209000 = {
+	name="Hodor"
+	culture = salt_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 56
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209001 = {
+	name="Hodor"
+	culture = sand_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 57
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209002 = {
+	name="Hodor"
+	culture = stone_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 58
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209003 = {
+	name="Hodor"
+	culture = salt_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 59
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209004 = {
+	name="Hodor"
+	culture = sand_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209005 = {
+	name="Hodor"
+	culture = stone_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209006 = {
+	name="Hodor"
+	culture = salt_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209007 = {
+	name="Hodor"
+	culture = sand_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209008 = {
+	name="Hodor"
+	culture = stone_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209009 = {
+	name="Hodor"
+	culture = salt_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209010 = {
+	name="Hodor"
+	culture = sand_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209011 = {
+	name="Hodor"
+	culture = stone_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 56
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209012 = {
+	name="Hodor"
+	culture = salt_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 57
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209013 = {
+	name="Hodor"
+	culture = sand_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 19
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209014 = {
+	name="Hodor"
+	culture = stone_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 20
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209015 = {
+	name="Hodor"
+	culture = salt_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 21
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209016 = {
+	name="Hodor"
+	culture = sand_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 22
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209017 = {
+	name="Hodor"
+	culture = stone_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 23
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209018 = {
+	name="Hodor"
+	culture = salt_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 24
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209019 = {
+	name="Hodor"
+	culture = sand_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 25
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209020 = {
+	name="Hodor"
+	culture = stone_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 26
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209021 = {
+	name="Hodor"
+	culture = salt_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 27
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209022 = {
+	name="Hodor"
+	culture = sand_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 28
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209023 = {
+	name="Hodor"
+	culture = stone_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 29
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209024 = {
+	name="Hodor"
+	culture = salt_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 30
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209025 = {
+	name="Hodor"
+	culture = sand_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 31
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209026 = {
+	name="Hodor"
+	culture = stone_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 32
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209027 = {
+	name="Hodor"
+	culture = salt_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 33
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209028 = {
+	name="Hodor"
+	culture = sand_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 34
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209029 = {
+	name="Hodor"
+	culture = stone_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 35
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209030 = {
+	name="Hodor"
+	culture = salt_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 36
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209031 = {
+	name="Hodor"
+	culture = sand_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 37
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209032 = {
+	name="Hodor"
+	culture = stone_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 38
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209033 = {
+	name="Hodor"
+	culture = salt_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 39
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209034 = {
+	name="Hodor"
+	culture = sand_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 40
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209035 = {
+	name="Hodor"
+	culture = stone_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 41
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209036 = {
+	name="Hodor"
+	culture = salt_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 42
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209037 = {
+	name="Hodor"
+	culture = sand_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 43
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209038 = {
+	name="Hodor"
+	culture = stone_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 44
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209039 = {
+	name="Hodor"
+	culture = salt_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 45
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209040 = {
+	name="Hodor"
+	culture = sand_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 46
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209041 = {
+	name="Hodor"
+	culture = stone_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 47
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209042 = {
+	name="Hodor"
+	culture = salt_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 48
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209043 = {
+	name="Hodor"
+	culture = sand_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 49
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209044 = {
+	name="Hodor"
+	culture = stone_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 50
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209045 = {
+	name="Hodor"
+	culture = salt_dornish can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 51
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+## HK Crannogmen
+210000 = {
+	name="Hodor"
+	culture = crannogman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 52
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+210001 = {
+	name="Hodor"
+	culture = crannogman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 53
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+210002 = {
+	name="Hodor"
+	culture = crannogman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 54
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+210003 = {
+	name="Hodor"
+	culture = crannogman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 55
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+210004 = {
+	name="Hodor"
+	culture = crannogman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 56
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+210005 = {
+	name="Hodor"
+	culture = crannogman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 57
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+210006 = {
+	name="Hodor"
+	culture = crannogman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 58
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+210007 = {
+	name="Hodor"
+	culture = crannogman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 59
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+210008 = {
+	name="Hodor"
+	culture = crannogman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 60
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+210009 = {
+	name="Hodor"
+	culture = crannogman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 61
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+210010 = {
+	name="Hodor"
+	culture = crannogman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 62
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+210011 = {
+	name="Hodor"
+	culture = crannogman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 63
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+210012 = {
+	name="Hodor"
+	culture = crannogman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 64
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+210013 = {
+	name="Hodor"
+	culture = crannogman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 65
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+210014 = {
+	name="Hodor"
+	culture = crannogman can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 66
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}

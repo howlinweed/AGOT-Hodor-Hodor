@@ -1,0 +1,2272 @@
+###Izven of Lhazosh###
+10055916 = {
+	name="Hodor"	# a lord
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	7965.1.1 = {birth="7965.1.1"}
+	7981.1.1 = {add_trait=poor_warrior}
+	7983.1.1 = {add_spouse=40055916}
+	8018.1.1 = {death="8018.1.1"}
+}
+40055916 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	7965.1.1 = {birth="7965.1.1"}
+	8018.1.1 = {death="8018.1.1"}
+}
+10155916 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10055916
+	mother=40055916
+
+	7984.1.1 = {birth="7984.1.1"}
+	8048.1.1 = {death="8048.1.1"}
+}
+10255916 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10055916
+	mother=40055916
+
+	7986.1.1 = {birth="7986.1.1"}
+	8029.1.1 = {death="8029.1.1"}
+}
+10355916 = {
+	name="Hodor"	# a lord
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10055916
+	mother=40055916
+
+	7987.1.1 = {birth="7987.1.1"}
+	8003.1.1 = {add_trait=poor_warrior}
+	8005.1.1 = {add_spouse=40355916}
+	8035.1.1 = {death="8035.1.1"}
+}
+40355916 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	7987.1.1 = {birth="7987.1.1"}
+	8035.1.1 = {death="8035.1.1"}
+}
+10455916 = {
+	name="Hodor"	# not a lord
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10055916
+	mother=40055916
+
+	7988.1.1 = {birth="7988.1.1"}
+	8004.1.1 = {add_trait=poor_warrior}
+	8028.1.1 = {death="8028.1.1"}
+}
+10555916 = {
+	name="Hodor"	# not a lord
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10055916
+	mother=40055916
+
+	7990.1.1 = {birth="7990.1.1"}
+	8006.1.1 = {add_trait=poor_warrior}
+	8066.1.1 = {death="8066.1.1"}
+}
+10655916 = {
+	name="Hodor"	# a lord
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10355916
+	mother=40355916
+
+	8016.1.1 = {birth="8016.1.1"}
+	8032.1.1 = {add_trait=trained_warrior}
+	8034.1.1 = {add_spouse=40655916}
+	8087.1.1 = {death="8087.1.1"}
+}
+40655916 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8016.1.1 = {birth="8016.1.1"}
+	8087.1.1 = {death="8087.1.1"}
+}
+10755916 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10355916
+	mother=40355916
+
+	8017.1.1 = {birth="8017.1.1"}
+	8054.1.1 = {death="8054.1.1"}
+}
+10855916 = {
+	name="Hodor"	# a lord
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10655916
+	mother=40655916
+
+	8037.1.1 = {birth="8037.1.1"}
+	8053.1.1 = {add_trait=poor_warrior}
+	8055.1.1 = {add_spouse=40855916}
+	8094.1.1 = {death="8094.1.1"}
+}
+40855916 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8037.1.1 = {birth="8037.1.1"}
+	8094.1.1 = {death="8094.1.1"}
+}
+10955916 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10655916
+	mother=40655916
+
+	8040.1.1 = {birth="8040.1.1"}
+	8109.1.1 = {death="8109.1.1"}
+}
+11055916 = {
+	name="Hodor"	# not a lord
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10655916
+	mother=40655916
+
+	8041.1.1 = {birth="8041.1.1"}
+	8057.1.1 = {add_trait=trained_warrior}
+	8098.1.1 = {death="8098.1.1"}
+}
+11155916 = {
+	name="Hodor"	# a lord
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10855916
+	mother=40855916
+
+	8062.1.1 = {birth="8062.1.1"}
+	8078.1.1 = {add_trait=trained_warrior}
+	8080.1.1 = {add_spouse=41155916}
+	8138.1.1 = {death="8138.1.1"}
+}
+41155916 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8062.1.1 = {birth="8062.1.1"}
+	8138.1.1 = {death="8138.1.1"}
+}
+11255916 = {
+	name="Hodor"	# not a lord
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10855916
+	mother=40855916
+
+	8064.1.1 = {birth="8064.1.1"}
+	8080.1.1 = {add_trait=poor_warrior}
+	8082.1.1 = {add_spouse=41255916}
+	8125.1.1 = {death="8125.1.1"}
+}
+41255916 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8064.1.1 = {birth="8064.1.1"}
+	8125.1.1 = {death="8125.1.1"}
+}
+11355916 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=11155916
+	mother=41155916
+
+	8084.1.1 = {birth="8084.1.1"}
+	8163.1.1 = {death="8163.1.1"}
+}
+11455916 = {
+	name="Hodor"	# not a lord
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=11255916
+	mother=41255916
+
+	8089.1.1 = {birth="8089.1.1"}
+	8105.1.1 = {add_trait=trained_warrior}
+	8107.1.1 = {add_spouse=41455916}
+	8131.1.1 = {death="8131.1.1"}
+}
+41455916 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8089.1.1 = {birth="8089.1.1"}
+	8131.1.1 = {death="8131.1.1"}
+}
+11555916 = {
+	name="Hodor"	# not a lord
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=11255916
+	mother=41255916
+
+	8091.1.1 = {birth="8091.1.1"}
+	8107.1.1 = {add_trait=poor_warrior}
+	8144.1.1 = {death="8144.1.1"}
+}
+11655916 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=11255916
+	mother=41255916
+
+	8092.1.1 = {birth="8092.1.1"}
+	8157.1.1 = {death="8157.1.1"}
+}
+11755916 = {
+	name="Hodor"	# a lord
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=11455916
+	mother=41455916
+
+	8108.1.1 = {birth="8108.1.1"}
+	8124.1.1 = {add_trait=poor_warrior}
+	8126.1.1 = {add_spouse=41755916}
+	8176.1.1 = {death="8176.1.1"}
+}
+41755916 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8108.1.1 = {birth="8108.1.1"}
+	8176.1.1 = {death="8176.1.1"}
+}
+11855916 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=11455916
+	mother=41455916
+
+	8109.1.1 = {birth="8109.1.1"}
+	8167.1.1 = {death="8167.1.1"}
+}
+11955916 = {
+	name="Hodor"	# not a lord
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=11455916
+	mother=41455916
+
+	8111.1.1 = {birth="8111.1.1"}
+	8127.1.1 = {add_trait=poor_warrior}
+	8158.1.1 = {death="8158.1.1"}
+}
+12055916 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=11455916
+	mother=41455916
+
+	8113.1.1 = {birth="8113.1.1"}
+	8142.1.1 = {death = {death_reason = death_murder}}
+}
+12155916 = {
+	name="Hodor"	# a lord
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=11755916
+	mother=41755916
+
+	8127.1.1 = {birth="8127.1.1"}
+	8143.1.1 = {add_trait=trained_warrior}
+	8145.1.1 = {add_spouse=42155916}
+	8185.1.1 = {death="8185.1.1"}
+}
+42155916 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8127.1.1 = {birth="8127.1.1"}
+	8185.1.1 = {death="8185.1.1"}
+}
+12255916 = {
+	name="Hodor"	# not a lord
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=11755916
+	mother=41755916
+
+	8129.1.1 = {birth="8129.1.1"}
+	8145.1.1 = {add_trait=trained_warrior}
+	8160.1.1 = {death="8160.1.1"}
+}
+12355916 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=11755916
+	mother=41755916
+
+	8130.1.1 = {birth="8130.1.1"}
+	8178.1.1 = {death="8178.1.1"}
+}
+12455916 = {
+	name="Hodor"	# not a lord
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=11755916
+	mother=41755916
+
+	8132.1.1 = {birth="8132.1.1"}
+	8148.1.1 = {add_trait=poor_warrior}
+	8204.1.1 = {death="8204.1.1"}
+}
+12555916 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=11755916
+	mother=41755916
+
+	8133.1.1 = {birth="8133.1.1"}
+	8177.1.1 = {death="8177.1.1"}
+}
+12655916 = {
+	name="Hodor"	# a lord
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=12155916
+	mother=42155916
+
+	8153.1.1 = {birth="8153.1.1"}
+	8169.1.1 = {add_trait=poor_warrior}
+	8171.1.1 = {add_spouse=42655916}
+	8198.1.1 = {death="8198.1.1"}
+}
+42655916 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8153.1.1 = {birth="8153.1.1"}
+	8198.1.1 = {death="8198.1.1"}
+}
+12755916 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=12155916
+	mother=42155916
+
+	8154.1.1 = {birth="8154.1.1"}
+	8203.1.1 = {death="8203.1.1"}
+}
+12855916 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=12155916
+	mother=42155916
+
+	8155.1.1 = {birth="8155.1.1"}
+	8203.1.1 = {death = {death_reason = death_accident}}
+}
+12955916 = {
+	name="Hodor"	# a lord
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=12655916
+	mother=42655916
+
+	8174.1.1 = {birth="8174.1.1"}
+	8190.1.1 = {add_trait=trained_warrior}
+	8192.1.1 = {add_spouse=42955916}
+	8239.1.1 = {death="8239.1.1"}
+}
+42955916 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8174.1.1 = {birth="8174.1.1"}
+	8239.1.1 = {death="8239.1.1"}
+}
+13055916 = {
+	name="Hodor"	# not a lord
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=12655916
+	mother=42655916
+
+	8175.1.1 = {birth="8175.1.1"}
+	8191.1.1 = {add_trait=trained_warrior}
+	8193.1.1 = {add_spouse=43055916}
+	8225.1.1 = {death="8225.1.1"}
+}
+43055916 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8175.1.1 = {birth="8175.1.1"}
+	8225.1.1 = {death="8225.1.1"}
+}
+13155916 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=12655916
+	mother=42655916
+
+	8177.1.1 = {birth="8177.1.1"}
+	8227.1.1 = {death="8227.1.1"}
+}
+13255916 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=12955916
+	mother=42955916
+
+	8201.1.1 = {birth="8201.1.1"}
+	8245.1.1 = {death="8245.1.1"}
+}
+13355916 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=13055916
+	mother=43055916
+
+	8200.1.1 = {birth="8200.1.1"}
+	8276.1.1 = {death="8276.1.1"}
+}
+13455916 = {
+	name="Hodor"	# a lord
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=13055916
+	mother=43055916
+
+	8201.1.1 = {birth="8201.1.1"}
+	8217.1.1 = {add_trait=poor_warrior}
+	8219.1.1 = {add_spouse=43455916}
+	8266.1.1 = {death="8266.1.1"}
+}
+43455916 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8201.1.1 = {birth="8201.1.1"}
+	8266.1.1 = {death="8266.1.1"}
+}
+13555916 = {
+	name="Hodor"	# not a lord
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=13055916
+	mother=43055916
+
+	8202.1.1 = {birth="8202.1.1"}
+	8218.1.1 = {add_trait=poor_warrior}
+	8255.1.1 = {death="8255.1.1"}
+}
+13655916 = {
+	name="Hodor"	# a lord
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=13455916
+	mother=43455916
+
+	8234.1.1 = {birth="8234.1.1"}
+	8250.1.1 = {add_trait=trained_warrior}
+	8252.1.1 = {add_spouse=43655916}
+	8287.1.1 = {death="8287.1.1"}
+}
+43655916 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8234.1.1 = {birth="8234.1.1"}
+	8287.1.1 = {death="8287.1.1"}
+}
+13755916 = {
+	name="Hodor"	# not a lord
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=13455916
+	mother=43455916
+
+	8237.1.1 = {birth="8237.1.1"}
+	8253.1.1 = {add_trait=trained_warrior}
+	8255.1.1 = {add_spouse=43755916}
+	8269.1.1 = {death = {death_reason = death_murder}}
+}
+43755916 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8237.1.1 = {birth="8237.1.1"}
+	8269.1.1 = {death="8269.1.1"}
+}
+13855916 = {
+	name="Hodor"	# not a lord
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=13455916
+	mother=43455916
+
+	8240.1.1 = {birth="8240.1.1"}
+	8256.1.1 = {add_trait=poor_warrior}
+	8290.1.1 = {death="8290.1.1"}
+}
+13955916 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=13655916
+	mother=43655916
+
+	8258.1.1 = {birth="8258.1.1"}
+}
+14055916 = {
+	name="Hodor"	# a lord
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=13755916
+	mother=43755916
+
+	8257.1.1 = {birth="8257.1.1"}
+	8273.1.1 = {add_trait=poor_warrior}
+	8286.1.1 = {add_spouse=44055916}
+}
+44055916 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8268.1.1 = {birth="8268.1.1"}
+}
+14155916 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=13755916
+	mother=43755916
+
+	8260.1.1 = {birth="8260.1.1"}
+}
+14255916 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=14055916
+	mother=44055916
+
+	8294.1.1 = {birth="8294.1.1"}
+}
+14355916 = {
+	name="Hodor"	# not a lord
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=14055916
+	mother=44055916
+
+	8297.1.1 = {birth="8297.1.1"}
+	8313.1.1 = {add_trait=poor_warrior}
+}
+14455916 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=14055916
+	mother=44055916
+
+	8298.1.1 = {birth="8298.1.1"}
+}
+14555916 = {
+	name="Hodor"	# not a lord
+	dynasty=55916
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=14055916
+	mother=44055916
+
+	8299.1.1 = {birth="8299.1.1"}
+	8315.1.1 = {add_trait=poor_warrior}
+}
+###Sheqethi of Hesh###
+10055923 = {
+	name="Hodor"	# a lord
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	7953.1.1 = {birth="7953.1.1"}
+	7969.1.1 = {add_trait=poor_warrior}
+	7971.1.1 = {add_spouse=40055923}
+	8010.1.1 = {death="8010.1.1"}
+}
+40055923 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	7953.1.1 = {birth="7953.1.1"}
+	8010.1.1 = {death="8010.1.1"}
+}
+10155923 = {
+	name="Hodor"	# not a lord
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10055923
+	mother=40055923
+
+	7982.1.1 = {birth="7982.1.1"}
+	7998.1.1 = {add_trait=trained_warrior}
+	8053.1.1 = {death="8053.1.1"}
+}
+10255923 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10055923
+	mother=40055923
+
+	7984.1.1 = {birth="7984.1.1"}
+	8038.1.1 = {death="8038.1.1"}
+}
+10355923 = {
+	name="Hodor"	# a lord
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10055923
+	mother=40055923
+
+	7985.1.1 = {birth="7985.1.1"}
+	8001.1.1 = {add_trait=trained_warrior}
+	8003.1.1 = {add_spouse=40355923}
+	8057.1.1 = {death="8057.1.1"}
+}
+40355923 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	7985.1.1 = {birth="7985.1.1"}
+	8057.1.1 = {death="8057.1.1"}
+}
+10455923 = {
+	name="Hodor"	# not a lord
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10355923
+	mother=40355923
+
+	8003.1.1 = {birth="8003.1.1"}
+	8019.1.1 = {add_trait=poor_warrior}
+	8080.1.1 = {death="8080.1.1"}
+}
+10555923 = {
+	name="Hodor"	# a lord
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10355923
+	mother=40355923
+
+	8004.1.1 = {birth="8004.1.1"}
+	8020.1.1 = {add_trait=trained_warrior}
+	8022.1.1 = {add_spouse=40555923}
+	8064.1.1 = {death = {death_reason = death_accident}}
+}
+40555923 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8004.1.1 = {birth="8004.1.1"}
+	8064.1.1 = {death="8064.1.1"}
+}
+10655923 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10555923
+	mother=40555923
+
+	8023.1.1 = {birth="8023.1.1"}
+	8066.1.1 = {death="8066.1.1"}
+}
+10755923 = {
+	name="Hodor"	# a lord
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10555923
+	mother=40555923
+
+	8026.1.1 = {birth="8026.1.1"}
+	8042.1.1 = {add_trait=poor_warrior}
+	8044.1.1 = {add_spouse=40755923}
+	8082.1.1 = {death="8082.1.1"}
+}
+40755923 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8026.1.1 = {birth="8026.1.1"}
+	8082.1.1 = {death="8082.1.1"}
+}
+10855923 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10555923
+	mother=40555923
+
+	8027.1.1 = {birth="8027.1.1"}
+	8073.1.1 = {death="8073.1.1"}
+}
+10955923 = {
+	name="Hodor"	# a lord
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10555923
+	mother=40555923
+
+	8029.1.1 = {birth="8029.1.1"}
+	8045.1.1 = {add_trait=poor_warrior}
+	8047.1.1 = {add_spouse=40955923}
+	8076.1.1 = {death="8076.1.1"}
+}
+40955923 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8029.1.1 = {birth="8029.1.1"}
+	8076.1.1 = {death="8076.1.1"}
+}
+11055923 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10555923
+	mother=40555923
+
+	8032.1.1 = {birth="8032.1.1"}
+	8070.1.1 = {death="8070.1.1"}
+}
+11155923 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10955923
+	mother=40955923
+
+	8049.1.1 = {birth="8049.1.1"}
+	8115.1.1 = {death="8115.1.1"}
+}
+11255923 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10955923
+	mother=40955923
+
+	8051.1.1 = {birth="8051.1.1"}
+	8096.1.1 = {death="8096.1.1"}
+}
+11355923 = {
+	name="Hodor"	# not a lord
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10755923
+	mother=40755923
+
+	8047.1.1 = {birth="8047.1.1"}
+	8063.1.1 = {add_trait=trained_warrior}
+	8105.1.1 = {death="8105.1.1"}
+}
+11455923 = {
+	name="Hodor"	# not a lord
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10755923
+	mother=40755923
+
+	8048.1.1 = {birth="8048.1.1"}
+	8064.1.1 = {add_trait=trained_warrior}
+	8115.1.1 = {death="8115.1.1"}
+}
+11555923 = {
+	name="Hodor"	# a lord
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10755923
+	mother=40755923
+
+	8049.1.1 = {birth="8049.1.1"}
+	8065.1.1 = {add_trait=poor_warrior}
+	8067.1.1 = {add_spouse=41555923}
+	8124.1.1 = {death = {death_reason = death_accident}}
+}
+41555923 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8049.1.1 = {birth="8049.1.1"}
+	8124.1.1 = {death="8124.1.1"}
+}
+11655923 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10755923
+	mother=40755923
+
+	8052.1.1 = {birth="8052.1.1"}
+	8101.1.1 = {death="8101.1.1"}
+}
+11755923 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=11555923
+	mother=41555923
+
+	8074.1.1 = {birth="8074.1.1"}
+	8143.1.1 = {death="8143.1.1"}
+}
+11855923 = {
+	name="Hodor"	# not a lord
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=11555923
+	mother=41555923
+
+	8075.1.1 = {birth="8075.1.1"}
+	8091.1.1 = {add_trait=poor_warrior}
+	8093.1.1 = {add_spouse=41855923}
+	8124.1.1 = {death="8124.1.1"}
+}
+41855923 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8075.1.1 = {birth="8075.1.1"}
+	8124.1.1 = {death="8124.1.1"}
+}
+11955923 = {
+	name="Hodor"	# not a lord
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=11855923
+	mother=41855923
+
+	8096.1.1 = {birth="8096.1.1"}
+	8106.1.1 = {death = {death_reason = death_accident}}
+}
+12055923 = {
+	name="Hodor"	# not a lord
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=11855923
+	mother=41855923
+
+	8098.1.1 = {birth="8098.1.1"}
+	8114.1.1 = {add_trait=trained_warrior}
+	8172.1.1 = {death="8172.1.1"}
+}
+12155923 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=11855923
+	mother=41855923
+
+	8099.1.1 = {birth="8099.1.1"}
+	8144.1.1 = {death="8144.1.1"}
+}
+12255923 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=11855923
+	mother=41855923
+
+	8101.1.1 = {birth="8101.1.1"}
+	8110.1.1 = {death = {death_reason = death_accident}}
+}
+12355923 = {
+	name="Hodor"	# a lord
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=11855923
+	mother=41855923
+
+	8104.1.1 = {birth="8104.1.1"}
+	8120.1.1 = {add_trait=trained_warrior}
+	8122.1.1 = {add_spouse=42355923}
+	8160.1.1 = {death="8160.1.1"}
+}
+42355923 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8104.1.1 = {birth="8104.1.1"}
+	8160.1.1 = {death="8160.1.1"}
+}
+12455923 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=12355923
+	mother=42355923
+
+	8137.1.1 = {birth="8137.1.1"}
+	8190.1.1 = {death="8190.1.1"}
+}
+12555923 = {
+	name="Hodor"	# a lord
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=12355923
+	mother=42355923
+
+	8140.1.1 = {birth="8140.1.1"}
+	8156.1.1 = {add_trait=trained_warrior}
+	8158.1.1 = {add_spouse=42555923}
+	8173.1.1 = {death="8173.1.1"}
+}
+42555923 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8140.1.1 = {birth="8140.1.1"}
+	8173.1.1 = {death="8173.1.1"}
+}
+12655923 = {
+	name="Hodor"	# not a lord
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=12555923
+	mother=42555923
+
+	8164.1.1 = {birth="8164.1.1"}
+	8180.1.1 = {add_trait=trained_warrior}
+	8198.1.1 = {death="8198.1.1"}
+}
+12755923 = {
+	name="Hodor"	# not a lord
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=12555923
+	mother=42555923
+
+	8165.1.1 = {birth="8165.1.1"}
+	8181.1.1 = {add_trait=trained_warrior}
+	8208.1.1 = {death="8208.1.1"}
+}
+12855923 = {
+	name="Hodor"	# a lord
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=12555923
+	mother=42555923
+
+	8166.1.1 = {birth="8166.1.1"}
+	8182.1.1 = {add_trait=poor_warrior}
+	8184.1.1 = {add_spouse=42855923}
+	8220.1.1 = {death="8220.1.1"}
+}
+42855923 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8166.1.1 = {birth="8166.1.1"}
+	8220.1.1 = {death="8220.1.1"}
+}
+12955923 = {
+	name="Hodor"	# a lord
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=12855923
+	mother=42855923
+
+	8191.1.1 = {birth="8191.1.1"}
+	8207.1.1 = {add_trait=trained_warrior}
+	8209.1.1 = {add_spouse=42955923}
+	8232.1.1 = {death="8232.1.1"}
+}
+42955923 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8191.1.1 = {birth="8191.1.1"}
+	8232.1.1 = {death="8232.1.1"}
+}
+13055923 = {
+	name="Hodor"	# not a lord
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=12955923
+	mother=42955923
+
+	8215.1.1 = {birth="8215.1.1"}
+	8231.1.1 = {add_trait=trained_warrior}
+	8262.1.1 = {death = {death_reason = death_accident}}
+}
+13155923 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=12955923
+	mother=42955923
+
+	8216.1.1 = {birth="8216.1.1"}
+	8269.1.1 = {death="8269.1.1"}
+}
+13255923 = {
+	name="Hodor"	# a lord
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=12955923
+	mother=42955923
+
+	8218.1.1 = {birth="8218.1.1"}
+	8234.1.1 = {add_trait=trained_warrior}
+	8236.1.1 = {add_spouse=43255923}
+	8270.1.1 = {death="8270.1.1"}
+}
+43255923 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8218.1.1 = {birth="8218.1.1"}
+	8270.1.1 = {death="8270.1.1"}
+}
+13355923 = {
+	name="Hodor"	# not a lord
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=13255923
+	mother=43255923
+
+	8242.1.1 = {birth="8242.1.1"}
+	8258.1.1 = {add_trait=poor_warrior}
+}
+13455923 = {
+	name="Hodor"	# not a lord
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=13255923
+	mother=43255923
+
+	8245.1.1 = {birth="8245.1.1"}
+	8261.1.1 = {add_trait=poor_warrior}
+}
+13555923 = {
+	name="Hodor"	# a lord
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=13255923
+	mother=43255923
+
+	8246.1.1 = {birth="8246.1.1"}
+	8262.1.1 = {add_trait=trained_warrior}
+	8264.1.1 = {add_spouse=43555923}
+}
+43555923 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8246.1.1 = {birth="8246.1.1"}
+}
+13655923 = {
+	name="Hodor"	# not a lord
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=13555923
+	mother=43555923
+
+	8279.1.1 = {birth="8279.1.1"}
+	8295.1.1 = {add_trait=poor_warrior}
+}
+13755923 = {
+	name="Hodor"	# not a lord
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=13555923
+	mother=43555923
+
+	8281.1.1 = {birth="8281.1.1"}
+	8297.1.1 = {add_trait=poor_warrior}
+}
+13855923 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55923
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=13555923
+	mother=43555923
+
+	8283.1.1 = {birth="8283.1.1"}
+}
+###Drogikh of Kosrak###
+10055901 = {
+	name="Hodor"	# a lord
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	7932.1.1 = {birth="7932.1.1"}
+	7948.1.1 = {add_trait=trained_warrior}
+	7950.1.1 = {add_spouse=40055901}
+	8004.1.1 = {death="8004.1.1"}
+}
+40055901 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	7932.1.1 = {birth="7932.1.1"}
+	8004.1.1 = {death="8004.1.1"}
+}
+10155901 = {
+	name="Hodor"	# not a lord
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10055901
+	mother=40055901
+
+	7961.1.1 = {birth="7961.1.1"}
+	7977.1.1 = {add_trait=poor_warrior}
+	7979.1.1 = {add_spouse=40155901}
+	8025.1.1 = {death="8025.1.1"}
+}
+40155901 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	7961.1.1 = {birth="7961.1.1"}
+	8025.1.1 = {death="8025.1.1"}
+}
+10255901 = {
+	name="Hodor"	# not a lord
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10055901
+	mother=40055901
+
+	7963.1.1 = {birth="7963.1.1"}
+	7979.1.1 = {add_trait=poor_warrior}
+	8007.1.1 = {death="8007.1.1"}
+}
+10355901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10055901
+	mother=40055901
+
+	7964.1.1 = {birth="7964.1.1"}
+	8030.1.1 = {death="8030.1.1"}
+}
+10455901 = {
+	name="Hodor"	# a lord
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10055901
+	mother=40055901
+
+	7967.1.1 = {birth="7967.1.1"}
+	7983.1.1 = {add_trait=poor_warrior}
+	7985.1.1 = {add_spouse=40455901}
+	8046.1.1 = {death="8046.1.1"}
+}
+40455901 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	7967.1.1 = {birth="7967.1.1"}
+	8046.1.1 = {death="8046.1.1"}
+}
+10555901 = {
+	name="Hodor"	# not a lord
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10155901
+	mother=40155901
+
+	7989.1.1 = {birth="7989.1.1"}
+	8005.1.1 = {add_trait=poor_warrior}
+	8050.1.1 = {death="8050.1.1"}
+}
+10655901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10155901
+	mother=40155901
+
+	7990.1.1 = {birth="7990.1.1"}
+	8023.1.1 = {death="8023.1.1"}
+}
+10755901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10455901
+	mother=40455901
+
+	7995.1.1 = {birth="7995.1.1"}
+	8051.1.1 = {death="8051.1.1"}
+}
+10855901 = {
+	name="Hodor"	# a lord
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10455901
+	mother=40455901
+
+	7996.1.1 = {birth="7996.1.1"}
+	8012.1.1 = {add_trait=poor_warrior}
+	8014.1.1 = {add_spouse=40855901}
+	8047.1.1 = {death="8047.1.1"}
+}
+40855901 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	7996.1.1 = {birth="7996.1.1"}
+	8047.1.1 = {death="8047.1.1"}
+}
+10955901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10855901
+	mother=40855901
+
+	8028.1.1 = {birth="8028.1.1"}
+	8086.1.1 = {death = {death_reason = death_murder}}
+}
+11055901 = {
+	name="Hodor"	# not a lord
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10855901
+	mother=40855901
+
+	8029.1.1 = {birth="8029.1.1"}
+	8045.1.1 = {add_trait=poor_warrior}
+	8087.1.1 = {death="8087.1.1"}
+}
+11155901 = {
+	name="Hodor"	# a lord
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=10855901
+	mother=40855901
+
+	8031.1.1 = {birth="8031.1.1"}
+	8047.1.1 = {add_trait=trained_warrior}
+	8049.1.1 = {add_spouse=41155901}
+	8098.1.1 = {death="8098.1.1"}
+}
+41155901 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8031.1.1 = {birth="8031.1.1"}
+	8098.1.1 = {death="8098.1.1"}
+}
+11255901 = {
+	name="Hodor"	# not a lord
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=11155901
+	mother=41155901
+
+	8051.1.1 = {birth="8051.1.1"}
+	8067.1.1 = {add_trait=poor_warrior}
+	8069.1.1 = {add_spouse=41255901}
+	8083.1.1 = {death = {death_reason = death_battle}}
+}
+41255901 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8051.1.1 = {birth="8051.1.1"}
+	8083.1.1 = {death="8083.1.1"}
+}
+11355901 = {
+	name="Hodor"	# not a lord
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=11155901
+	mother=41155901
+
+	8054.1.1 = {birth="8054.1.1"}
+	8070.1.1 = {add_trait=poor_warrior}
+	8098.1.1 = {death="8098.1.1"}
+}
+11455901 = {
+	name="Hodor"	# a lord
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=11255901
+	mother=41255901
+
+	8074.1.1 = {birth="8074.1.1"}
+	8090.1.1 = {add_trait=poor_warrior}
+	8092.1.1 = {add_spouse=41455901}
+	8128.1.1 = {death="8128.1.1"}
+}
+41455901 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8074.1.1 = {birth="8074.1.1"}
+	8128.1.1 = {death="8128.1.1"}
+}
+11555901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=11255901
+	mother=41255901
+
+	8076.1.1 = {birth="8076.1.1"}
+	8098.1.1 = {death="8098.1.1"}
+}
+11655901 = {
+	name="Hodor"	# a lord
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=11255901
+	mother=41255901
+
+	8079.1.1 = {birth="8079.1.1"}
+	8095.1.1 = {add_trait=poor_warrior}
+	8097.1.1 = {add_spouse=41655901}
+	8110.1.1 = {death="8110.1.1"}
+}
+41655901 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8079.1.1 = {birth="8079.1.1"}
+	8110.1.1 = {death="8110.1.1"}
+}
+11755901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=11255901
+	mother=41255901
+
+	8082.1.1 = {birth="8082.1.1"}
+	8146.1.1 = {death="8146.1.1"}
+}
+11855901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=11655901
+	mother=41655901
+
+	8100.1.1 = {birth="8100.1.1"}
+	8140.1.1 = {death="8140.1.1"}
+}
+11955901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=11455901
+	mother=41455901
+
+	8096.1.1 = {birth="8096.1.1"}
+	8153.1.1 = {death="8153.1.1"}
+}
+12055901 = {
+	name="Hodor"	# not a lord
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=11455901
+	mother=41455901
+
+	8098.1.1 = {birth="8098.1.1"}
+	8114.1.1 = {add_trait=poor_warrior}
+	8161.1.1 = {death="8161.1.1"}
+}
+12155901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=11455901
+	mother=41455901
+
+	8100.1.1 = {birth="8100.1.1"}
+	8171.1.1 = {death="8171.1.1"}
+}
+12255901 = {
+	name="Hodor"	# a lord
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=11455901
+	mother=41455901
+
+	8103.1.1 = {birth="8103.1.1"}
+	8119.1.1 = {add_trait=poor_warrior}
+	8121.1.1 = {add_spouse=42255901}
+	8144.1.1 = {death="8144.1.1"}
+}
+42255901 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8103.1.1 = {birth="8103.1.1"}
+	8144.1.1 = {death="8144.1.1"}
+}
+12355901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=12255901
+	mother=42255901
+
+	8124.1.1 = {birth="8124.1.1"}
+	8173.1.1 = {death="8173.1.1"}
+}
+12455901 = {
+	name="Hodor"	# not a lord
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=12255901
+	mother=42255901
+
+	8127.1.1 = {birth="8127.1.1"}
+	8143.1.1 = {add_trait=trained_warrior}
+	8201.1.1 = {death="8201.1.1"}
+}
+12555901 = {
+	name="Hodor"	# a lord
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=12255901
+	mother=42255901
+
+	8129.1.1 = {birth="8129.1.1"}
+	8145.1.1 = {add_trait=poor_warrior}
+	8147.1.1 = {add_spouse=42555901}
+	8183.1.1 = {death="8183.1.1"}
+}
+42555901 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8129.1.1 = {birth="8129.1.1"}
+	8183.1.1 = {death="8183.1.1"}
+}
+12655901 = {
+	name="Hodor"	# not a lord
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=12555901
+	mother=42555901
+
+	8155.1.1 = {birth="8155.1.1"}
+	8171.1.1 = {add_trait=poor_warrior}
+	8221.1.1 = {death="8221.1.1"}
+}
+12755901 = {
+	name="Hodor"	# a lord
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=12555901
+	mother=42555901
+
+	8158.1.1 = {birth="8158.1.1"}
+	8174.1.1 = {add_trait=poor_warrior}
+	8176.1.1 = {add_spouse=42755901}
+	8217.1.1 = {death="8217.1.1"}
+}
+42755901 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8158.1.1 = {birth="8158.1.1"}
+	8217.1.1 = {death="8217.1.1"}
+}
+12855901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=12555901
+	mother=42555901
+
+	8159.1.1 = {birth="8159.1.1"}
+	8208.1.1 = {death="8208.1.1"}
+}
+12955901 = {
+	name="Hodor"	# not a lord
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=12755901
+	mother=42755901
+
+	8191.1.1 = {birth="8191.1.1"}
+	8207.1.1 = {add_trait=poor_warrior}
+	8248.1.1 = {death = {death_reason = death_murder}}
+}
+13055901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=12755901
+	mother=42755901
+
+	8194.1.1 = {birth="8194.1.1"}
+	8247.1.1 = {death="8247.1.1"}
+}
+13155901 = {
+	name="Hodor"	# a lord
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=12755901
+	mother=42755901
+
+	8195.1.1 = {birth="8195.1.1"}
+	8211.1.1 = {add_trait=trained_warrior}
+	8213.1.1 = {add_spouse=43155901}
+	8250.1.1 = {death="8250.1.1"}
+}
+43155901 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8195.1.1 = {birth="8195.1.1"}
+	8250.1.1 = {death="8250.1.1"}
+}
+13255901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=12755901
+	mother=42755901
+
+	8196.1.1 = {birth="8196.1.1"}
+	8236.1.1 = {death="8236.1.1"}
+}
+13355901 = {
+	name="Hodor"	# not a lord
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=13155901
+	mother=43155901
+
+	8228.1.1 = {birth="8228.1.1"}
+	8244.1.1 = {add_trait=trained_warrior}
+	8282.1.1 = {death="8282.1.1"}
+}
+13455901 = {
+	name="Hodor"	# not a lord
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=13155901
+	mother=43155901
+
+	8229.1.1 = {birth="8229.1.1"}
+	8245.1.1 = {add_trait=trained_warrior}
+	8299.1.1 = {death="8299.1.1"}
+}
+13555901 = {
+	name="Hodor"	# a lord
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=13155901
+	mother=43155901
+
+	8231.1.1 = {birth="8231.1.1"}
+	8247.1.1 = {add_trait=trained_warrior}
+	8249.1.1 = {add_spouse=43555901}
+	8279.1.1 = {death="8279.1.1"}
+}
+43555901 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8231.1.1 = {birth="8231.1.1"}
+	8279.1.1 = {death="8279.1.1"}
+}
+13655901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=13155901
+	mother=43155901
+
+	8234.1.1 = {birth="8234.1.1"}
+	8308.1.1 = {death="8308.1.1"}
+}
+13755901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=13555901
+	mother=43555901
+
+	8259.1.1 = {birth="8259.1.1"}
+}
+13855901 = {
+	name="Hodor"	# not a lord
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=13555901
+	mother=43555901
+
+	8262.1.1 = {birth="8262.1.1"}
+	8278.1.1 = {add_trait=poor_warrior}
+	8280.1.1 = {add_spouse=43855901}
+}
+43855901 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8262.1.1 = {birth="8262.1.1"}
+}
+13955901 = {
+	name="Hodor"	# a lord
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=13555901
+	mother=43555901
+
+	8264.1.1 = {birth="8264.1.1"}
+	8280.1.1 = {add_trait=poor_warrior}
+	8282.1.1 = {add_spouse=43955901}
+}
+43955901 = {
+	name="Hodor"
+	female=yes
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	8264.1.1 = {birth="8264.1.1"}
+}
+14055901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=13855901
+	mother=43855901
+
+	8281.1.1 = {birth="8281.1.1"}
+}
+14155901 = {
+	name="Hodor"	# not a lord
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=13955901
+	mother=43955901
+
+	8292.1.1 = {birth="8292.1.1"}
+	8308.1.1 = {add_trait=poor_warrior}
+}
+14255901 = {
+	name="Hodor"	# not a lord
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=13955901
+	mother=43955901
+
+	8295.1.1 = {birth="8295.1.1"}
+	8311.1.1 = {add_trait=trained_warrior}
+}
+14355901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=13955901
+	mother=43955901
+
+	8296.1.1 = {birth="8296.1.1"}
+}
+14455901 = {
+	name="Hodor"	# not a lord
+	dynasty=55901
+
+	religion="great_shepherd"
+	culture="lhazareen"
+
+	father=13955901
+	mother=43955901
+
+	8299.1.1 = {birth="8299.1.1"}
+	8315.1.1 = {add_trait=poor_warrior}
+}

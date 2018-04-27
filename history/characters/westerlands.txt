@@ -1,0 +1,7250 @@
+####Reorganised Westerlands inspired by the organisation of The Crownlands, by the_hdk###
+######################
+###House Lannisters###
+######################
+###THE Tywin###
+190 = {		
+	name="Hodor"	
+	dynasty=190
+	dna="chbfh0k0fe0" 
+	properties="0000h0"
+
+	martial = 7
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 14
+	learning = 5
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	add_trait="temperate"
+	add_trait="midas_touched"
+	add_trait="proud"	
+	add_trait="diligent"
+	add_trait="ambitious"
+	#add_trait="genius"
+	add_trait="quick"
+	add_trait="cynical"
+	add_trait="patient"
+	add_trait="authoritative"
+	add_trait="ruthless"
+	
+	add_trait=organizer
+	add_trait=back_seat_leader
+	disallow_random_traits = yes
+	
+	father = 1190
+	mother=90190
+	
+	8242.1.1 = {birth="8242.1.1" effect = { fertility = -0.4 } } #20 when he became hand
+	8252.1.1 = { #King's landing page
+		guardian = 77034 #Aegon V
+		add_trait = squire
+		effect = {
+			add_friend = 77037 #Aerys
+			add_friend = 3317 #Steffon
+		}
+	}
+	8258.1.1 = {
+		remove_trait = squire
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+	8259.1.1 = {
+		add_spouse=2190
+	}
+	8261.1.1 = {
+		effect = {
+			spouse = { add_lover = ROOT }
+			b_castamere = {
+				remove_building = ca_asoiaf_westerland_basevalue_1
+				remove_building = ca_asoiaf_westerland_basevalue_2
+				remove_building = ca_asoiaf_westerland_basevalue_3
+				remove_building = ca_asoiaf_westerland_basevalue_4
+				remove_building = ca_asoiaf_westerland_basevalue_5
+			}
+			b_tarbeck_hall = {
+				remove_building = ca_asoiaf_westerland_basevalue_1
+				remove_building = ca_asoiaf_westerland_basevalue_2
+				remove_building = ca_asoiaf_westerland_basevalue_3
+				remove_building = ca_asoiaf_westerland_basevalue_4
+			}
+			set_variable = { which = fear_actions value = 60 } #massacred Reynes
+		}
+	}
+	8262.1.1={ #becomes hand of the king
+		employer = 77037
+	}
+	8267.1.1 = {  
+		effect = { prestige = 1000 }
+		employer = 0
+	}	
+	8272.1.1 = {  
+		effect = { 
+			random_friend = {
+				limit = { character = 77037 }
+				remove_friend = ROOT #friendship deteriorates
+			}	
+		}
+	}
+	8273.1.1 = {
+		add_trait="widowed"
+		effect = {
+			set_character_flag = dead_spouse_was_lover
+			add_friend = 7190 #Kevan
+		}
+	}
+	8282.9.15 = { #RR
+		effect = {
+			if = {
+				limit = { NOT = { year = 8284 } }
+				character_event = { id = roberts_rebellion.8 }
+			}
+			any_vassal = { 
+				set_character_flag = neutral
+				clr_character_flag = supporting_king
+				clr_character_flag = against_king
+			}
+			set_character_flag = neutral
+			clr_character_flag = supporting_king
+			clr_character_flag = against_king
+			set_character_flag = tywin_lannister
+			set_character_flag = warden_of_the_west
+			c_77037 = {
+				opinion = {
+					modifier = opinion_dithered
+					who = ROOT
+					years = 5
+				}		
+			}
+		}
+	}	
+	8284.1.1 = { #CS
+		effect = {
+			if = {
+				limit = { NOT = { year = 8288 } }
+				character_event = { id = roberts_rebellion.16 }
+			}
+			any_vassal = { clr_character_flag = neutral  }
+			clr_character_flag = neutral
+			clr_character_flag = warden_of_the_west
+			e_iron_throne = {
+				holder_scope = { 
+					remove_opinion = {
+						modifier = opinion_dithered
+						who = ROOT
+					}
+				}
+			}
+			k_dorne = {
+				holder_scope = {
+					any_dynasty_member = {
+						limit = { is_alive = yes }
+						opinion = {
+							who = ROOT
+							modifier = opinion_vengeance
+						}
+					}
+				}
+			}
+		}
+	}
+	8287.1.1 = {
+		effect = { 
+			any_child = {
+				limit = { 	
+					is_female = no
+					trait = dwarf
+				}
+				opinion = {
+					modifier = opinion_resentful_agot
+					who = ROOT
+					years = 100
+				}
+			}	
+		}
+	}
+	8294.1.1 = { #Lends Iron Throne gold
+		effect = {
+			set_character_flag = liege_loan_500
+			add_character_modifier = {
+				name = "liege_loan"
+				duration = "1825"
+			}
+			e_iron_throne = {
+				holder_scope = {
+					reverse_opinion = {
+						who = ROOT
+						modifier = opinion_liege_loan
+						years = 100
+					}
+				}
+			}
+		}
+	}	
+	8299.2.1 = { #takes it from Ilyn Payne
+		add_trait=ice
+	}
+	8299.2.11 = { #ACoK
+		# raise_levies = {
+			# location = 107 #Harrenhal
+			# force_mult = 1
+		# }
+		effect = {
+			character_event = { id = clash_of_kings.503 }
+			set_character_flag = mega_war_liege_loan
+			set_character_flag = supporting_king 
+			any_vassal = { set_character_flag = supporting_king }
+			set_character_flag = warden_of_the_west
+			e_iron_throne = {
+				holder_scope = {
+					opinion = {
+						who = ROOT
+						modifier = opinion_loyal_to_crown
+						years = 5
+					}
+					opinion = {
+						who = ROOT
+						modifier = opinion_grandfather
+						years = 100
+					}
+					reverse_opinion = {
+						who = ROOT
+						modifier = opinion_with_king
+						years = 100
+					}	
+				}
+			}
+			# troops = -0.5
+			# any_realm_character = {
+				# limit = {
+					# at_location = ROOT
+					# in_command = yes
+				# }
+				# troops = -0.6
+			# }
+			# spawn_unit = {
+				# province = 174 #Golden Tooth
+				# scaled_by_biggest_garrison = 2.2
+				# owner = ROOT
+				# leader = 9189 #Stafford Lannister
+				# troops = {
+					# archers = { 10 10 }
+					# heavy_infantry = { 36 36 }
+					# light_infantry = { 44 44 }	
+					# light_cavalry = { 8 8 }		
+					# knights = { 1 1 }						
+				# }
+				# attrition = 1.0
+			# }
+		}
+	}
+	8299.2.21 = {
+		# raise_levies = {
+			# dismiss = yes
+			# location = 107 #Harrenhal
+			# force_mult = 1
+		# }
+		effect = { disband_event_forces = yes }
+	}
+	8299.6.1 = {
+		raise_levies = {
+			location = 226 # King's Landing
+			force_mult = 1
+		}
+	}
+	8299.12.1 = {remove_trait=ice} #reforges Ice into Widow's Wail and Oathkeeper	
+	8300.2.9={
+		# Killed by Tyrion, spoiler alert.    #I dont remmber the famous toilet duel scene... I guess some stuff were lost in the translations.
+		death = { 
+			death_reason = death_murder
+			killer = 5190
+		}
+	}
+}
+###THE Cercei###
+4190 = {		
+	name="Hodor"
+	female=yes	
+	dynasty=190
+	#dna="ddfab0dcfe0" 
+	#dna="dddga0jcfe0" 
+	#properties="0b00h0"	#After shaming: "0m00h0"
+	dna="ddbjbhdefbc"
+	properties="ab0ack"
+
+	martial = 2	
+	diplomacy = 8 #5	
+	intrigue = 5 #8	
+	stewardship = 6	
+	learning = 4	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	add_trait="twin"
+	add_trait="fair"
+	add_trait="flamboyant_schemer" #add_trait="intricate_webweaver"
+	
+	add_trait="greedy"	
+	add_trait="proud"	
+	#add_trait="envious" #bit too much maybe?
+	add_trait="deceitful"	
+	#add_trait="gregarious"
+	add_trait="ambitious"
+	#add_trait="rude" #how
+	add_trait="wroth"
+	add_trait="arbitrary"
+	
+	disallow_random_traits = yes
+	
+	father = 190
+	mother = 2190	
+	
+	8266.1.1 = { birth="8266.1.1" }
+	8274.1.1 = {
+		effect = {
+			set_character_flag = cersei_lannister
+			add_rival = 5190 #Tyrion
+			add_friend = 24414 #Melara Heatherspoon
+		}
+	}
+	8279.1.1 = { 
+		effect = {
+			any_sibling = {
+				limit = { 	
+					is_female = no
+					NOT = { trait = dwarf }
+				}
+				add_lover = ROOT
+			}
+		}	
+	}
+	8284.1.1 = { 
+		effect = {
+			k_dorne = {
+				holder_scope = {
+					any_dynasty_member = {
+						limit = { is_alive = yes }
+						opinion = {
+							who = ROOT
+							modifier = opinion_vengeance
+						}
+					}
+				}
+			}
+		}	
+	}	
+	8298.11.1 = { 
+		add_trait="widowed" #She can remary #readded so she doesnt end up in bywater within a month
+		employer = 9316
+	}
+	8298.11.2 = {
+		effect = {
+			c_winterfell = {
+				holder_scope = {
+					if = {
+						limit = { dynasty = 59 }
+						opinion = {
+							who = ROOT
+							modifier = opinion_vengeance
+						}
+						mother = {
+							opinion = {
+								who = ROOT
+								modifier = opinion_vengeance
+							}
+						}
+						any_sibling = {
+							opinion = {
+								who = ROOT
+								modifier = opinion_vengeance
+							}
+						}	
+					}	
+				}
+			}
+			k_vale = {
+				holder_scope = {
+					opinion = {
+						who = ROOT
+						modifier = opinion_vengeance
+					}
+					mother = {
+						opinion = {
+							who = ROOT
+							modifier = opinion_vengeance
+						}
+					}
+				}
+			}
+		}
+	}
+	8300.2.9 = {
+		employer = 4190	
+		add_trait = drunkard
+		add_trait = paranoid
+		remove_trait = greedy #to keep 6 traits
+		effect = { 
+			k_stormlands = {
+				holder_scope = { 
+					opinion = {
+						modifier = opinion_traitor
+						who = ROOT
+					}
+				}
+			}
+			b_castamere = {
+				remove_building = ca_asoiaf_westerland_basevalue_1
+				remove_building = ca_asoiaf_westerland_basevalue_2
+				remove_building = ca_asoiaf_westerland_basevalue_3
+				remove_building = ca_asoiaf_westerland_basevalue_4
+				remove_building = ca_asoiaf_westerland_basevalue_5
+			}
+			b_tarbeck_hall = {
+				remove_building = ca_asoiaf_westerland_basevalue_1
+				remove_building = ca_asoiaf_westerland_basevalue_2
+				remove_building = ca_asoiaf_westerland_basevalue_3
+				remove_building = ca_asoiaf_westerland_basevalue_4
+			}
+			set_character_flag = liege_loan_500
+			set_character_flag = mega_war_liege_loan
+			add_character_modifier = {
+				name = "liege_loan"
+				duration = "1825"
+			}
+			e_iron_throne = {
+				holder_scope = {
+					reverse_opinion = {
+						who = ROOT
+						modifier = opinion_liege_loan
+						years = 100
+					}
+				}
+			}
+			d_nightswatch = { #Stark-Lannister Blood Feud
+				holder_scope = {
+					random_courtier = {
+						limit = { dynasty = 59 }
+						set_dynasty_flag = in_blood_feud
+						add_trait = blood_feud #blood feud tracker
+						character_event = { id = feast_for_crows.30 days = 1 } 
+						any_dynasty_member = {
+							limit = {
+								is_alive = yes
+								NOT = { character = PREV }
+							}
+							character_event = { id = feast_for_crows.30 days = 1 } 
+						}
+					}	
+				}
+			}
+		}	
+	}
+}
+###The Kingslayer###
+3190 = {		
+	name="Hodor"
+	dynasty=190
+	dna="chaf00b0fe0" 
+	properties="0b0000"	#After losing hand = "0i00i0"
+
+	martial = 9	
+	diplomacy = 4	
+	intrigue = 3	
+	stewardship = 4	
+	learning = 4
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	add_trait="cynical"
+	add_trait="fair"
+	add_trait="proud"
+	add_trait="twin"
+	add_trait="tough_soldier"
+	add_trait="master_warrior"
+	add_trait="duelist"
+	add_trait="brave"
+	
+	add_trait=unyielding_leader
+	disallow_random_traits = yes
+	
+	father = 190
+	mother = 2190
+	
+	8266.1.1 = { birth="8266.1.1" }
+	8277.1.1 = { add_trait = "squire" } #old Lord Sumner Crakehall 
+	8279.1.1 = { 
+		effect = {
+			any_sibling = {
+				limit = { 	
+					is_female = yes
+				}
+				add_lover = ROOT
+			}
+		}	
+		add_trait = "chaste"
+	}
+	8280.1.1 = { effect = { add_artifact = jaimes_sword } }
+	8281.1.1 = {
+		remove_trait = "squire"
+		add_trait = "knight" #Ser Arthur Dayn
+		employer=56  #Joined the kingsguard.
+		add_trait="kingsguard"
+		add_trait = "aggressive_leader"
+	}
+	8282.1.1 = {
+		effect = {
+			set_character_flag = jaime_lannister
+			add_friend = 5190 #Tyrion
+		}	
+	}	
+	8284.1.1 = {
+		#add_trait = "dishonorable1"
+		give_nickname = nick_the_kingslayer
+		employer=201302 # Barristan Selmy (Became Roberts kingsguard)
+		effect = {
+			set_variable = { which = "dishonorable" value = 10 }
+			hidden_tooltip = { character_event = { id = maintenance.3 } }#dishonour trait
+			k_dorne = {
+				holder_scope = {
+					any_dynasty_member = {
+						limit = { is_alive = yes }
+						opinion = {
+							who = ROOT
+							modifier = opinion_vengeance
+						}
+					}
+				}
+			}
+		}	
+	}
+	8298.11.2 = {
+		add_trait=assign_mission_target #so he can be set as father to his children
+		effect = {
+			c_winterfell = {
+				holder_scope = {
+					if = {
+						limit = { dynasty = 59 }
+						opinion = {
+							who = ROOT
+							modifier = opinion_vengeance
+						}
+						mother = {
+							opinion = {
+								who = ROOT
+								modifier = opinion_vengeance
+							}
+						}
+						any_sibling = {
+							opinion = {
+								who = ROOT
+								modifier = opinion_vengeance
+							}
+						}	
+					}	
+				}
+			}
+			k_vale = {
+				holder_scope = {
+					opinion = {
+						who = ROOT
+						modifier = opinion_vengeance
+					}
+					mother = {
+						opinion = {
+							who = ROOT
+							modifier = opinion_vengeance
+						}
+					}
+				}
+			}
+		}
+	}
+	8299.2.11 = {
+		effect = {
+			e_north = {
+				holder_scope = {
+					ROOT = { 
+						imprison = PREV 
+						set_character_flag = captured_in_battle
+					}
+				}
+			}
+		}
+	}	
+	8299.9.2 = { #fights left handed now
+		effect = {
+			prisoner = no
+			if = {
+				limit = { has_dlc = "Reapers" }
+				add_trait = one_handed
+				character_event = { id = RIP.29301 days = 3 } #Becoming ambidextrous
+			}
+			if = {
+				limit = { NOT = { has_dlc = "Reapers" } }
+				add_trait = "disfigured_AGOT"
+			}
+		}
+		remove_trait = "proud"
+		add_trait = "humble"
+	}
+	8299.12.1 = { #given Oathkeeper by Tywin
+		add_trait=oathkeeper
+	}
+	8299.12.7 = {
+		remove_trait=oathkeeper #gives Oathkeeper to Brienne
+	}
+	8300.3.1 = {
+		effect = {
+			if = {
+				limit = { has_dlc = "Reapers" }
+				add_character_modifier = {
+					name = golden_hand 
+					duration = -1
+				}
+			}
+		}
+	}
+}
+###The Imp###
+5190 = {		
+	name="Hodor"	
+	dynasty=190
+	dna="aiadh0bbfe0" 
+	properties="0f0000"	#After exile: "0f00l0"
+
+	martial = 2	
+	diplomacy = 12	
+	intrigue = 10	
+	stewardship = 10	
+	learning = 10
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	add_trait="ugly"
+	add_trait="dwarf"	
+	add_trait="genius"
+	add_trait="elusive_shadow"
+	add_trait="cynical"	
+	add_trait="proud"
+	add_trait="gregarious"	
+	#add_trait="deceitful"
+	add_trait="just"
+	
+	disallow_random_traits = yes
+
+	father = 190	
+	mother = 2190
+	
+	8273.1.1 = {
+		birth="8273.1.1"
+		effect = {
+			set_character_flag = tyrion_lannister
+			father = {
+				opinion = {
+					modifier = opinion_resentful_agot
+					who = ROOT
+					years = 100
+					multiplier = 2
+				}
+			}	
+			add_rival = 4190 #Cersei
+		}
+	}
+	8274.1.1 = {give_nickname = nick_the_imp}
+	8282.1.1 = {
+		effect = {
+			add_friend = 3190 #Jaime
+		}	
+	}	
+	8287.1.1 = { 
+		add_trait="widowed" 
+		add_trait="scholar"
+		add_trait="drunkard"
+		add_trait="hedonist"
+	}
+	8298.11.2 = {
+		employer=9316 # Joffrey Baratheon
+		remove_trait = "hedonist"
+		remove_trait = "widowed"
+		add_trait = "diligent"
+		effect = {
+			c_winterfell = {
+				holder_scope = {
+					if = {
+						limit = { dynasty = 59 }
+						opinion = {
+							who = ROOT
+							modifier = opinion_vengeance
+						}
+						mother = {
+							opinion = {
+								who = ROOT
+								modifier = opinion_vengeance
+							}
+						}
+						any_sibling = {
+							opinion = {
+								who = ROOT
+								modifier = opinion_vengeance
+							}
+						}	
+					}	
+				}
+			}
+			k_vale = {
+				holder_scope = {
+					opinion = {
+						who = ROOT
+						modifier = opinion_vengeance
+					}
+					mother = {
+						opinion = {
+							who = ROOT
+							modifier = opinion_vengeance
+						}
+					}
+				}
+			}
+		}
+	}
+	8299.7.1 = {
+		add_trait = "poor_warrior"
+		add_spouse = 6059 #sansa
+		#add_trait = "chaste" moved to sansa (she is, not him)
+		add_trait = "disinherited"
+		effect = {
+			if = { # Blackwater
+				limit = { has_dlc = "Reapers" }
+				add_trait = disfigured
+			}
+			if = {
+				limit = { NOT = { has_dlc = "Reapers" } }
+				add_trait = "scarred"
+			}
+			k_westerlands = {
+				add_pressed_claim = ROOT
+			}
+			father = {
+				reverse_opinion = {
+					who = ROOT
+					modifier = opinion_mad_as_hell
+				}
+			}
+		}
+	}
+	8300.2.9 = {
+		remove_spouse = 6059 #sansa
+		add_trait="kinslayer"
+		add_trait="excommunicated"
+		effect = {
+			k_pentos = {
+				holder_scope = { reverse_banish = ROOT }
+			}
+			any_dynasty_member = {
+				limit = {
+					is_close_relative = ROOT
+					is_alive = yes
+				}
+				opinion = {
+					who = ROOT
+					modifier = opinion_vengeance
+				}
+			}
+		}
+	}
+}
+##Tywin's SIblings##
+6190 = {		
+	name="Hodor"	#Married A Frey
+	female=yes	
+	dynasty=190
+	dna="ddfab0dcfe0" 
+	properties="0b00h0"
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	add_trait="proud"
+	add_trait="authoritative"
+	add_trait="cynical"
+	add_trait="gluttonous"
+	
+	disallow_random_traits = yes
+	
+	father = 1190
+	mother=90190
+	
+	8245.1.1 = {birth="8245.1.1"}	#7 years old at time of wedding
+	8267.1.1 = {	
+		employer=190 # Tywin
+	}
+	8300.2.9={
+		employer=4190 #Cersei
+	}
+}
+#Tywins Brother, THE Kevan###
+7190 = {		
+	name="Hodor" 
+	dynasty=190
+	dna="cccfaoejfbx" 
+	properties="0k0cik"
+
+	martial = 7	#8
+	diplomacy = 10 #7
+	intrigue = 10 #7
+	stewardship = 8 #7
+	learning = 7
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	add_trait="thrifty_clerk"	
+	add_trait="proud"
+	#add_trait="content"
+	#add_trait="brave"
+	add_trait="quick"
+	add_trait="patient"
+	add_trait="diligent"
+	add_trait="authoritative"
+	add_trait="honorable"
+	
+	father = 1190
+	mother=90190
+	
+	8247.1.1 = {
+		birth="8247.1.1"
+		effect = {
+			set_character_flag = kevan_lannister
+		}
+	}
+	8257.1.1 = {
+		guardian=197 #Roger Reyne
+		add_trait=squire
+	}
+	8260.1.1 = { 
+		add_trait="knight"
+		remove_trait=squire
+		add_trait="poor_warrior"
+	}
+	8261.1.1 = { guardian=0 }
+	8263.1.1 = {
+		remove_trait="poor_warrior"
+		add_trait="trained_warrior"
+	}
+	8267.1.1 = {
+		wealth = 400 #Large inheritance and incomes
+	}	
+	8279.1.1 = {
+		add_spouse = 3228 #Dorna Swift
+		effect = { add_lover = 3228 }
+	}
+	8284.1.1 = { 
+		effect = {
+			k_dorne = {
+				holder_scope = {
+					any_dynasty_member = {
+						limit = { is_alive = yes }
+						opinion = {
+							who = ROOT
+							modifier = opinion_vengeance
+						}
+					}
+				}
+			}
+		}	
+	}	
+	8298.1.1={employer=190}
+	8299.7.1 = { 
+		employer = 9316 #Master of Laws
+	}
+	8300.1.2 = { employer = 7316 } #Tommen I "Baratheon", Becomes Regent
+	#8300.1.2 = { employer = 8190 } #Lancel
+	#8300.4.1 = { employer = 9190 } #Martyn
+	#8300.7.1 = { employer = 7316 } #Tommen I "Baratheon", Becomes Regent
+	8300.10.1={ 
+		# Killed by Varys, Spoiler alert.
+		death = {
+			death_reason = death_murder
+			killer = 696969101
+		}
+	}
+}	
+#Tywins other somewhat unmentioned brother, yet Jamie is compared to him in fighting prowess. Envied Tywin. Died of the Pox have no idea when. Was a good friend to Tyrion###	
+5189 = {		
+	name="Hodor" 
+	dynasty=190
+
+	dna="aeafbfkftbt" 
+	properties="0g0eek"	
+	
+	martial = 9
+	diplomacy = 6	
+	intrigue = 4	
+	stewardship = 4	
+	learning = 4
+	
+	religion="the_seven"	
+	culture="westerman"	
+		
+	father=1190
+	mother=90190	
+	
+	8250.1.1 = {birth="8250.1.1"}
+	8266.1.1 = {
+		add_trait=knight
+		add_trait=skilled_warrior
+		add_trait=tough_soldier
+		add_trait=proud
+		add_trait=kind
+	}
+	8270.1.1 = {add_trait=envious add_trait=wroth}
+	8281.1.1 = {add_spouse=2212} #Darlessa Marbrand
+	8282.1.1 = {add_trait="has_small_pox"}
+	8286.6.1={
+		# Died of some sickness
+		death = {
+			death_reason = death_trait
+		}
+	}
+}
+#Tywins youngest brother, went missing looking for birghtroar. Was Jamies and Tyrions famorite uncle###
+7189 = {		
+	name="Hodor"	
+	dynasty=190
+	dna="chaf00b0fe0" 
+	properties="0e00b0"
+	
+	martial = 5	
+	diplomacy = 8	
+	intrigue = 5	
+	stewardship = 2	
+	learning = 10
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	add_trait="brave"	
+	add_trait="tough_soldier"
+	add_trait="kind"
+	add_trait="gregarious" #quick to laugh and to make other laugh
+	add_trait="lustful"
+	#add_trait="proud" #not bothered about being overshadowed by tywin
+	add_trait="ambitious" #went on a quest
+	
+	father = 1190
+	mother=90190
+	
+	8255.1.1 = {birth="8255.1.1"}
+	8271.1.1 = { 
+		add_trait="trained_warrior" 
+		add_trait=knight
+	}
+	8291.1.1={
+		death = { death_reason = death_missing } #went missing looking for birghtroar, bastard daughter is 11 years old in 299
+	}
+}
+##Issue of Kevan
+#1st son, Will Know Cercei from the inside and turn Devout
+8190 = {		
+	name="Hodor"	
+	dna="chaf00b0fe0" 
+	properties="0e0000"	#After vows: "0a0000"
+	dynasty=190	
+
+	martial = 6	
+	diplomacy = 6	
+	intrigue = 4	
+	stewardship = 5	
+	learning = 6
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	add_trait="flamboyant_schemer"
+	add_trait="fair"
+	add_trait="trusting"
+	add_trait="proud"
+
+	father = 7190	
+	mother = 3228
+	
+	8280.1.1 = { birth="8280.1.1"}	
+	8294.1.1 = { 
+		add_trait="squire" 
+		guardian=317
+		employer=317
+	}
+	8296.1.1 = { 
+		add_trait="poor_warrior" 
+	}	
+	8298.10.28 = {
+		employer = 9316 
+		#guardian=0
+	}
+	8298.12.1 = { 
+		add_trait="knight"
+		remove_trait="squire" 
+		effect = {
+			if = {
+				limit = {
+					NOT = { year = 8300 }
+					OR = {
+						year = 8298
+						NOT = { month = 6 }
+					}
+				}	
+				k_westerlands = {
+					holder_scope = {
+						random_child = {
+							limit = { is_female = yes }
+							ROOT = { add_lover = PREV }
+						}
+					}
+				}
+			}	
+		}
+	}	
+	8299.7.1 = { 
+		add_trait="scarred"
+		add_trait="zealous"	
+		add_trait="celibate"
+		remove_trait="proud"
+		effect = {
+			character_event = { id = SoA.1030 days = 150 random = 50 }
+		}
+	}	
+	8299.11.12 = { 
+		add_spouse = 9137
+		effect = {
+			set_defacto_liege = ROOT
+			set_character_flag = neutral
+			clr_character_flag = supporting_king
+			clr_character_flag = against_king
+			any_demesne_title = {
+				limit = { 
+					OR = {
+						tier = COUNT
+						tier = DUKE
+					}
+				}				
+				set_variable = { which = "de_facto_kingdom" value = 3 } #riverlands
+			}
+		}		
+	} #Amerei Frey
+	8300.4.1 = {
+		remove_spouse = 9137 #Joins Faith Militant
+		add_trait = disinherited
+		effect = {
+			d_warriors_sons = {
+				holder_scope = {
+					ROOT = {
+						move_character = PREV
+					}
+				}
+			}	
+		}
+	}
+}	
+#2nd son
+3189 = {		
+	name="Hodor"	
+	dynasty=190
+
+	dna="dmgfdpfftbh" 
+	properties="0b0eik"	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	add_trait="proud"
+	add_trait="twin"
+	
+	father = 7190	
+	mother = 3228
+	
+	8285.1.1 = {birth="8285.1.1"}
+	8295.1.1 = {
+		add_trait=squire
+		add_trait=poor_warrior
+	}	
+	8299.2.11 = {
+		effect = {
+			c_winterfell = {
+				holder_scope = {
+					ROOT = { 
+						imprison = PREV 
+						set_character_flag = captured_in_battle
+					}
+				}
+			}
+		}
+	}
+	8299.8.1 = {
+		death = {
+			# Executed by Rickard Karstark.
+			death_reason = death_murder
+			killer = 89
+		}
+	}	
+}
+#3rd Son
+9190 = {		
+	name="Hodor"	
+	dynasty=190
+
+	dna="dmgfdpfftbh" 
+	properties="0o0ehk"	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	add_trait="proud"
+	add_trait="twin"
+	
+	father = 7190	
+	mother = 3228	
+	8285.1.1 = {birth="8285.1.1"}
+	8295.1.1 = {
+		add_trait=squire
+		add_trait=poor_warrior
+	}	
+	8299.6.1 = {
+		effect = {
+			c_winterfell = {
+				holder_scope = {
+					ROOT = { 
+						imprison = PREV 
+						set_character_flag = captured_in_battle #Battle of Oxcross
+					}
+				}
+			}
+		}
+	}
+	8299.10.1 = {
+		effect = {
+			prisoner = no #Exchanged for Robbett Glover
+		}
+	}
+	8300.4.1 = { 
+		add_spouse = 9137 
+		effect = {
+			set_defacto_liege = ROOT
+			set_character_flag = neutral
+			clr_character_flag = supporting_king
+			clr_character_flag = against_king
+			any_demesne_title = {
+				limit = { 
+					OR = {
+						tier = COUNT
+						tier = DUKE
+					}
+				}				
+				set_variable = { which = "de_facto_kingdom" value = 3 } #riverlands
+			}
+		}	
+	} #Amerei Frey	
+}
+#daughter
+4189 = {		
+	name="Hodor"	
+	female=yes	
+	dynasty=190	
+
+	dna="ccfmbgeftbq" 
+	properties="0j0dik"
+	
+	religion="the_seven"	
+	culture="westerman"
+
+	add_trait="proud"
+	
+	father = 7190	
+	mother = 3228
+	
+	8297.1.1 = {birth="8297.1.1"}	
+}
+##Issue of Tygett##
+6189 = {		
+	name="Hodor"	#aka west nurse
+	dynasty=190	
+	dna=mlmdnbeqfnd
+	
+	martial = 6	
+	diplomacy = 5	
+	intrigue = 5	
+	stewardship = 5	
+	learning = 5
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	add_trait="tough_soldier"	
+	
+	father = 5189
+	mother = 2212	
+	
+	8285.1.1 = { birth="8285.1.1"}
+	8294.1.1 = { 
+		add_trait="squire" 
+		guardian=317
+		employer=317
+	}
+	8298.10.28 = {
+		employer = 9316 
+		#guardian=0
+	}
+	8299.2.3 = {
+		add_spouse = 932
+		give_nickname = nick_the_wetnurse # Originally 8305.1.1 which is incorrect.
+	}
+	8299.5.1={
+		death = { death_reason = death_missing } # Killed in the King's Landing riots
+	}
+}
+##Issue of Gerion##
+#Bastard Daughter
+11190 = {
+	name="Hodor"	
+	dynasty=190
+	female=yes
+
+	dna="dakff0ikfe0"
+	properties="ch0hfkbebbb"	
+	
+	religion="the_seven"	
+	culture="westerman"
+
+	add_trait="bastard"	
+	give_nickname = nick_hill
+	
+	father = 7189
+	
+	employer=190 # Tywin
+	
+	8288.1.1 = {birth="8288.1.1"}
+	8300.2.9={
+		employer=4190 #Cersei
+	}	
+}
+
+##Issue of Jason## X (Brother of Tytos)
+230190 = {		
+	name="Hodor"	#Bastard by a serving girl
+	female=yes
+	dynasty=190	
+	
+	dna=ljjefnamfnm
+
+	religion="the_seven"	
+	culture="westerman"
+	
+	father = 4188 # Jason Lannister
+	
+	add_trait=bastard
+	give_nickname=nick_hill
+	
+	8242.1.1 = {birth="8242.1.1"}
+	8267.1.1 = {	
+		employer=190 # Tywin
+	}
+	8300.2.9={
+		employer=4190 #Cersei
+	}
+}
+231190 = {		
+	name="Hodor"	#by Alys Stackspear
+	dynasty=190	
+	
+	dna=ahongqoafqg
+
+	religion="the_seven"	
+	culture="westerman"
+	
+	father = 4188 # Jason Lannister
+	mother = 150202
+	
+	8245.1.1 = {birth="8245.1.1"}
+	8261.1.1 = {
+	    add_trait="knight"
+		add_trait="trained_warrior"
+	}
+	8265.1.1 = { add_spouse=3518190 } #Ella Lannister
+	8267.1.1 = {	
+		employer=190 # Tywin
+	}
+	8296.1.1 = {death="8296.1.1"}
+}
+#by Marla Prester
+2190 = {		
+	name="Hodor"	#Tywins Wife#
+	female=yes	
+	dynasty=190	
+	dna=ddfab0dcfe0
+	properties="0a00h0"
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	add_trait="humble"	
+	add_trait="flamboyant_schemer"
+	add_trait="fair"
+
+	father = 4188
+	mother = 101190
+
+	8247.1.1 = {birth="8247.1.1"}	
+	8273.1.1={death = {death_reason = death_dungeon # Childbirth
+		}
+	}
+}
+9189 = {		
+	name="Hodor"	#Tywins Cousin. Bad war leader. Killed by Rrrikarrrd Karrstarrrk###
+	dynasty=190	
+	dna="bdmikjkcfam"
+	properties="cd0jbk0000"	
+	
+	martial = 1	
+	diplomacy = 5	
+	intrigue = 4	
+	stewardship = 4	
+	learning = 4
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	add_trait="proud"
+	
+	father = 4188 # Jason Lannister
+	mother = 101190 # 
+	
+	8249.1.1 = {birth="8249.1.1"}
+	8265.1.1 = {add_trait="misguided_warrior"
+	            add_trait="knight"
+				add_trait="poor_warrior"}
+	8266.2.1 = {add_spouse = 250213}	#Myranda Lefford
+	8267.1.1 = {	
+		employer=190 # Tywin
+	}
+	8299.6.1 = {
+		death = {
+			#Killed by Rickard Karstark, Battle of Oxcross
+			death_reason = death_battle
+			killer = 89
+		}
+	}
+}
+232190 = {		
+	name="Hodor"	#unnamed son
+	dynasty=190	
+	
+	dna=inakhfklfee
+
+	religion="the_seven"	
+	culture="westerman"
+	
+	father = 4188 # Jason Lannister
+	mother = 101190 # 
+	
+	8252.1.1 = {birth="8252.1.1"}
+	8261.1.1 = {
+	    add_trait="knight"
+		add_trait="trained_warrior"
+	}
+	8267.1.1 = {	
+		employer=190 # Tywin
+	}
+	8295.1.1 = {death="8295.1.1"}
+}
+233190 = {		
+	name="Hodor"	#unnamed daughter
+	female=yes
+	dynasty=190	
+	
+	dna=ookqpdlqfej
+
+	religion="the_seven"	
+	culture="westerman"
+	
+	father = 4188 # Jason Lannister
+	mother = 101190 # 
+	
+	8253.1.1 = {birth="8253.1.1"}
+	8267.1.1 = {	
+		employer=190 # Tywin
+	}
+	8300.2.9={
+		employer=4190 #Cersei
+	}
+}
+234190 = {		
+	name="Hodor"	#unnamed daughter
+	female=yes
+	dynasty=190	
+	
+	dna=bqlajbbnfea
+
+	religion="the_seven"	
+	culture="westerman"
+	
+	father = 4188 # Jason Lannister
+	mother = 101190 # 
+	
+	8255.1.1 = {birth="8255.1.1"}
+	8267.1.1 = {	
+		employer=190 # Tywin
+	}
+	8300.2.9={
+		employer=4190 #Cersei
+	}
+}
+235190 = {		
+	name="Hodor"	#unnamed son
+	dynasty=190	
+	
+	dna=fgfqqgecfck
+
+	religion="the_seven"	
+	culture="westerman"
+	
+	father = 4188 # Jason Lannister
+	mother = 101190 # 
+	
+	8258.1.1 = {birth="8258.1.1"}
+	8267.1.1 = {	
+		employer=190 # Tywin
+	}
+	8274.1.1 = {
+	    add_trait="knight"
+		add_trait="poor_warrior"
+	}
+	8300.2.9={
+		employer=4190 #Cersei
+	}
+}
+##Issue of Damon## XI
+2227 = {		
+	name="Hodor"	
+	dynasty=190	
+	dna=ghmfkddjfbh
+	
+	stewardship=10
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	add_trait="proud"
+	add_trait="thrifty_clerk"
+	
+	father=231190
+	mother=3518190
+	
+	8265.1.1 = {birth="8265.1.1"}
+	8267.1.1 = {	
+		employer=190 # Tywin
+	}
+	8280.1.1 = {
+		add_spouse=1227 #Shiera Crakehall
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}	
+	8300.2.9={
+		employer=4190 #Cersei
+	}	
+}
+##Issue of Stafford## XI
+#First Son, Vow's not to shave untill he kills his fathers killer### # Updated. \Chrisjm89/
+3188 = {		
+	name="Hodor"	
+	dynasty=190
+	dna="cgfkbredfps"
+	properties="cd0jbk0000"
+	martial=11 # Much better leader than his father Stafford.
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	add_trait="proud"
+	add_trait="gregarious"
+	
+	father=9189
+	mother=250213
+	employer=190 # Tywin
+	
+	8274.1.1 = {birth="8274.1.1"}
+	8284.1.1 = {add_trait="squire"}
+	8290.1.1 = {remove_trait="squire"
+	            add_trait="knight"
+                add_trait="trained_warrior"
+				add_trait="tough_soldier"}
+	8299.7.1 =	{add_trait="wroth"}	# After his fathers death.	
+	8300.2.9={
+		employer=4190 #Cersei
+	}
+}
+1188 = {		
+	name="Hodor"	
+	female=yes	
+	dynasty=190
+
+	dna="beaig0bffa0"
+	properties="il0ihkbebbb"
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	add_trait="proud"
+	
+	father = 9189
+	mother=250213	
+	
+	employer=190 # Tywin
+	
+	8276.1.1 = {birth="8276.1.1"}		
+	8300.2.9={
+		employer=4190 #Cersei
+	}
+}
+2188 = {		
+	name="Hodor"	
+	female=yes	
+	dynasty=190
+
+	dna="dgbig0bffa0"
+	properties="em0ihkbebbb"	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	add_trait="proud"
+	
+	father = 9189
+	mother=250213	
+
+	employer=190 # Tywin
+	
+	8278.1.1 = {birth="8278.1.1"}	
+	8300.2.9={
+		employer=4190 #Cersei
+	}	
+}
+##Issue of Damion## XII
+3227 = {		
+	name="Hodor"	#Formerly marrried to his dead mother lol.###
+	dynasty=190	
+
+	dna="bcdda0idfb0"
+	properties="fb0hekbebbb"
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father = 2227
+	mother = 1227
+	employer=190 # Tywin
+	
+	8280.1.1 = {birth="8280.1.1"}
+	8296.1.1 = {
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+	8300.2.9={
+		employer=4190 #Cersei
+	}
+}
+3223 = {		
+	name="Hodor"	#Damions daughter, Wife to Antario Jast
+	female=yes	
+	dynasty=190	
+
+	dna="clblb0dkfb0"
+	properties="gj0eakbebbb"
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	add_trait="proud"
+	
+	father = 2227
+	mother = 1227
+	
+	8282.1.1 = {birth="8282.1.1"}	
+}
+
+###Lannisport Lannisters###
+3518190 = {
+	name="Hodor"	# not a lord, married Damion Lannister
+	female=yes
+	dynasty=190
+	dna=depeemlnfmf
+
+	religion="the_seven"
+	culture="westerman"
+
+	father=3515190
+	mother=4515190
+
+	8250.1.1 = {birth="8250.1.1"}
+	8267.1.1 = {	
+		employer=190 # Tywin
+	}
+	8300.2.9={
+		employer=4190 #Cersei
+	}
+}
+3517190 = {
+	name="Hodor"	# a lord
+	dynasty=190
+	dna="chaf00b0fe0" 
+	properties="0e0000"
+	
+	martial = 6
+	diplomacy = 6
+	intrigue = 5
+	stewardship = 8
+	learning = 5
+
+	religion="the_seven"
+	culture="westerman"
+
+	father=3515190
+	mother=4515190
+
+	8257.1.1 = {birth="8257.1.1"}
+	8273.1.1 = {add_trait=trained_warrior add_trait="knight" }
+	8275.1.1 = {add_spouse=5212}
+}
+3525190 = {
+	name="Hodor"	# not a lord, from the show
+	dynasty=190
+	dna="dhab00b0fe0" 
+	properties="0e0000"
+	
+	martial = 4
+	diplomacy = 3
+	intrigue = 2
+	stewardship = 5
+	learning = 4
+
+	religion="the_seven"
+	culture="westerman"
+
+	father=3515190
+	mother=4515190
+	
+	add_trait = tough_soldier
+	add_trait = honest
+	add_trait = patient
+
+	8260.1.1 = {birth="8260.1.1"}
+	8276.1.1 = {add_trait=trained_warrior add_trait="knight" }
+	8290.1.1 = {
+		add_spouse = 4525190
+	}
+	8298.1.1 = {
+		employer = 190 #Tywin
+	}
+	8299.6.1 = {
+		employer = 3517190 #Brother
+	}
+}
+4525190 = {
+	name="Hodor"
+	female=yes
+	
+	add_trait="naive_appeaser"
+
+	religion="the_seven"
+	culture="westerman"
+
+	8272.1.1 = {birth="8272.1.1"}
+	8298.1.1 = {
+		employer = 3517190
+	}
+}
+3519190 = {
+	name="Hodor"	# not a lord
+	dynasty=190
+	dna=ompdgjgdfjk
+
+	religion="the_seven"
+	culture="westerman"
+	
+	learning=8
+
+	father=3515190
+	mother=4515190
+	
+	add_trait = martial_cleric
+	add_trait = patient
+
+	8265.1.1 = {birth="8265.1.1"}
+	8285.1.1 = {
+		add_trait = maester
+		employer = 80 #Manderly
+		effect = { set_character_flag = serving_with_lord }
+	}
+}
+3520190 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=190
+	dna=cbkokhdifqn
+
+	religion="the_seven"
+	culture="westerman"
+
+	father=3517190
+	mother=5212
+
+	8282.1.1 = {birth="8282.1.1"}
+}
+3521190 = {
+	name="Hodor"	# not a lord
+	dynasty=190
+	dna=gijlalpffbh
+
+	religion="the_seven"
+	culture="westerman"
+
+	father=3517190
+	mother=5212
+
+	8283.1.1 = {birth="8283.1.1"}
+	8299.1.1 = {add_trait=poor_warrior}
+}
+3522190 = {
+	name="Hodor"	# not a lord
+	dynasty=190
+	dna=nghmhmicfeb
+
+	religion="the_seven"
+	culture="westerman"
+
+	father=3517190
+	mother=5212
+
+	8285.1.1 = {birth="8285.1.1"}
+	8301.1.1 = {add_trait=trained_warrior}
+}
+3523190 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=190
+	
+	dna="ddfab0dcf00" 
+	properties="0b00h0"
+
+	religion="the_seven"
+	culture="westerman"
+
+	father=3517190
+	mother=5212
+	
+	add_trait = fair
+
+	8288.1.1 = {birth="8288.1.1"}
+	8299.2.1={
+		guardian = 1 #Doran Martel.
+	}	
+}
+###None cannon wife of Tyran, a Marbrand###
+5212 = {
+	name="Hodor"
+	dynasty=212
+	female = yes
+	dna="ddfab0dcb00" 
+	properties="0b00h0"
+	
+	martial = 4
+	diplomacy = 2
+	intrigue = 3
+	stewardship = 8
+	learning = 6
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	father=212
+	mother=316203
+	
+	add_trait="midas_touched"
+	add_trait="fair"
+	add_trait="proud"
+
+	8257.1.1 = {birth="8257.1.1"}
+}
+###Household
+2000190 = {
+	name="Hodor" 
+	
+	martial = 5
+	learning = 11
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	add_trait = "scholarly_theologian"
+
+	8255.1.1 = { 
+		birth="8255.1.1"
+		effect = {
+			dynasty = none
+		}
+	} 
+	8275.1.1 = {
+		add_trait = "maester"
+		employer=190 #Tywin
+		effect = { set_character_flag = serving_with_lord }
+	} 
+}
+####################
+###House Clageane### # Updated \Chrisjm89/
+####################
+###The founder, was a kennel master### <--- Sandor and Gregor's grandfather was the first Knight of House Clegane. Not their father. \Chrisjm89/
+200230 = {	
+	name="Hodor"	
+	dynasty=230	
+	
+	martial = 10	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	
+	8222.1.1 = {birth="8222.1.1"}
+	8238.1.1 = {add_trait="tough_soldier"
+	            add_trait="hunter"}
+	8258.1.1 = {add_trait="crippled"}	# Lost a leg saving Tytos Lannister's life.
+	8261.1.8 = {add_trait="knight"} # first knight of house Clegane.
+	8264.1.1 = {death="8264.1.1"}
+}
+###Sandor and Gregor's father.###
+230 = {	
+	name="Hodor" #
+	dynasty=230	
+	
+	martial = 8	
+	diplomacy = 4
+	intrigue = 4	
+	stewardship = 6	
+	learning = 4
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=200230
+	
+	add_trait="strong"
+	
+	8245.1.1 = {birth="8245.1.1"}
+	8261.1.10 = {add_trait="squire"}
+	8263.1.1 = {remove_trait="squire"
+	            add_trait="knight"
+				add_trait="tough_soldier"}
+	8264.1.1 = {add_spouse = 3230}
+	8272.1.1 = {add_trait="hunter"}
+	8287.1.1=  {
+		# The mountain killed him.
+		death = {
+			death_reason = death_murder_unknown # a 'hunting' accident \Chrisjm89/
+			killer = 1230
+		}
+	}
+}
+###His wife, made up so the brothers wont be half brothers###
+3230 = {		
+	name="Hodor"	
+	female=yes
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	8243.1.1 = {birth="8243.1.1"}
+}
+###Unnamed little sister###
+101230 = {		
+	name="Hodor"	#Unnamed in Cannon.
+	dynasty=230
+	female=yes
+	
+	religion="the_seven"	
+	culture="westerman"
+
+	father = 230
+	mother = 3230
+	
+	8273.1.1 = {birth="8273.1.1"}	
+	8287.1.1={
+		# The mountain killed her.
+		death = {
+			death_reason = death_murder_unknown
+			killer = 1230
+		}
+	}
+}
+###the Hound###
+2230 = {		
+	name="Hodor"	
+	dynasty=230
+	#dna="bdbea0h0000" 
+	#properties="0e0000"
+	dna="bmmma0m0000" 
+	properties="0j00i0"
+	
+	martial = 9 #10	
+	diplomacy = 2	
+	intrigue = 4	
+	stewardship = 4	
+	learning = 4
+	
+	religion="the_seven"	
+	culture="westerman"
+
+	add_trait="strong"
+	
+	#add_trait="tall"
+	#add_trait="tough_soldier"
+	
+	
+	father = 230
+	mother = 3230
+	
+	8271.1.1 = {birth="8271.1.1"}
+	8277.1.1 = { #Age 6.		
+		add_trait="envious"
+		add_trait="cynical"
+		effect = {
+			add_rival = 1230 #the mountain
+			add_trait = burned
+			#if = {
+			#	limit = { has_dlc = "Reapers" }
+			#	add_trait = disfigured
+			#}
+			#if = {
+			#	limit = { NOT = { has_dlc = "Reapers" } }
+			#	add_trait = "disfigured_AGOT"
+			#}
+		}
+	}
+	8278.1.1 = {add_trait="honest"
+	            add_trait="proud"
+	}
+	8283.9.2 = {give_nickname = nick_the_hound
+	            add_trait="brave"} # When he killed his first man. Sack of Kings Landing. Age 12.
+	8287.1.1 = { #Age 16.
+		add_trait="drunkard"
+		add_trait="misguided_warrior"
+		add_trait="skilled_warrior"
+		employer=317
+	}
+	8299.1.1 = {
+		add_trait="kingsguard"
+		employer= 3190
+	}
+	8299.7.1 = {
+		remove_trait="kingsguard"
+		employer= 0
+	}
+	8300.1.8 = {
+		death="8300.1.8"	#ARGUABLE
+		#add_trait = "bastard"
+		#remove_trait = "cynical"
+		#remove_trait = "envious"
+		#remove_trait = "proud"
+		#add_trait="detached_priest"
+	}
+}		
+###The Mountain that rides###		
+1230 = {		
+	name="Hodor"	
+	dynasty=230
+	
+	dna="bibea0h0000"
+	properties="0k00l0"
+
+	martial = 10 #9	
+	diplomacy = 2	
+	intrigue = 2	
+	stewardship = 2	
+	learning = 2
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	add_trait="tough_soldier"
+	add_trait="tall"
+	add_trait="strong"
+	add_trait="slow" #dim, brutal, effective
+	add_trait="brave"
+	add_trait="wroth"
+	add_trait="cruel"
+	add_trait="impaler" #dedicated torture is too much effort?
+	add_trait="lustful"
+	#add_trait="paranoid"
+	#add_trait="possessed"
+	
+	add_trait=aggressive_leader
+	disallow_random_traits = yes
+	
+	father=230
+	mother=3230
+	
+	8265.1.1 = {birth="8265.1.1"}
+	8273.1.1 = {add_trait="squire" }
+	8277.6.4 = {remove_trait="squire" add_trait="knight" add_trait="trained_warrior" }
+	8279.1.1 = {give_nickname = nick_the_mountain_that_rides}
+	# 8279.3.1 = {remove_trait="skilled_warrior" add_trait="master_warrior"} GREGOR NOT FIGHT GOOD. GREGOR JUST SMASH. WHOEVER PUT THIS IN OUGHT TO BE FIRED.
+	8281.1.1 = {add_spouse = 100230}
+	8283.9.2 = {
+		#add_trait="dishonorable2" 
+		effect = { 
+			set_variable = { which = "dishonorable" value = 20 }
+			hidden_tooltip = { character_event = { id = maintenance.3 } }#dishonour trait			
+		} 
+	} # Elia and Aegon}
+	8284.1.1 = { 
+		effect = {
+			k_dorne = {
+				holder_scope = {
+					any_dynasty_member = {
+						limit = { is_alive = yes }
+						opinion = {
+							who = ROOT
+							modifier = opinion_vengeance
+						}
+					}
+				}
+			}
+		}	
+	}
+	8300.1.25 = {	#Or... a Zombie?
+		death = {
+			death_reason = death_duel	#Poisoned by Oberyn
+			killer = 3001
+		}
+	}
+}
+100230 = {		
+	name="Hodor"	
+	female=yes
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	8265.1.1 = {birth="8265.1.1"}
+	8282.1.1={
+		# The mountain killed her.
+		death = {
+			death_reason = death_murder
+			killer = 1230
+		}
+	}
+}
+###Gregors daughter; Mentional only by name### #made into an aunt
+9230 = {		
+	name="Hodor"	
+	female=yes	
+	dynasty=230	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	add_trait="strong"
+	add_trait="shy"
+	add_trait="cruel"
+	
+	father=200230
+	
+	8262.1.1 = {birth="8262.1.1"}	
+}
+###################
+####House Broom####
+###################
+###Head of family, Mentioned only by name###
+191 = {		
+	name="Hodor"	
+	dynasty=191	
+	
+	religion="the_seven"	
+	culture="westerman"
+
+	father=3191
+	mother=4191
+
+	8252.1.1 = {birth="8252.1.1"}
+	8268.1.1 = {add_spouse = 5191}	
+}
+5191 = {		
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"	
+	culture="westerman"
+
+	8252.1.1 = {birth="8252.1.1"}	
+}
+###Willems daughter; Mentioned only by name###
+2191 = {		
+	name="Hodor"	
+	female=yes	
+	dynasty=191	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=191
+	
+	8281.1.1 = {birth="8281.1.1"}	
+}
+6191 = {		
+	name="Hodor"
+	dynasty=191	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=191
+	
+	8277.1.1 = {birth="8277.1.1"}	
+}
+###Master of arms at casterly rock, I made him Willems brother###
+1191 = {		
+	name="Hodor"	
+	dynasty=191	
+	
+	martial = 7
+		
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=3191
+	mother=4191
+	
+	add_trait="tough_soldier"	
+
+	8256.1.1 = {birth="8256.1.1"}	
+	8272.1.1 = {
+		add_trait="skilled_warrior"	
+		add_trait="knight"
+		employer=190
+		effect = { 
+			remove_title = job_chancellor	
+			remove_title = job_treasurer
+			remove_title = job_marshal	
+			remove_title = job_spymaster
+			remove_title = job_castellan
+			remove_title = job_spiritual
+			give_job_title = job_marshal 
+		}
+	}	
+}
+###None Canon founder###
+3191 = {	
+	name="Hodor"	
+	dynasty=191
+	
+	religion="the_seven"	
+	culture="westerman"	
+	father=300191
+	
+	8195.1.1 = {birth="8195.1.1"}
+	8211.1.1 = {add_spouse = 4191}
+	8265.1.1 = {death="8265.1.1"}
+}
+4191 = {	
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	8195.1.1 = {birth="8195.1.1"}
+	8275.1.1 = {death="8275.1.1"}
+}
+#################
+####House Yew#### #Updated \Chrisjm89/
+#################
+###None Canon, Grell invention. Exept for Manfryd###
+###The Founder###
+222 = {
+	name="Hodor"
+	dynasty=222
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	father=323222
+	mother=423222
+ 
+	8250.1.1 = {birth="8250.1.1"}
+	8266.1.1 = {add_spouse = 3232} # Greenfield Maid
+	8266.1.5 = {add_trait="knight" add_trait="poor_warrior"}
+	8293.1.1 = { death=yes }
+}
+###the children###
+###Canon - Becomes a landed knight###
+4222 = {
+	name="Hodor"
+	dynasty=222
+ 
+	martial = 8
+	
+	religion="the_seven"
+	culture="westerman"
+		
+	father=222
+	mother=3232
+ 
+	8266.1.1 = {birth="8266.1.1"}
+	8282.1.1 = {add_trait="knight" 
+	            add_trait="tough_soldier" 
+				add_trait="brave" 
+				add_trait="trained_warrior"}
+	8282.2.15 = {add_spouse=1229}			
+}
+1222 = {
+	name="Hodor"
+	dynasty=222
+ 
+	religion="the_seven"
+	culture="westerman"
+ 
+	father=222
+	mother=3232
+	
+	8274.1.1 = {birth="8274.1.1"}
+	8290.1.1 = {add_trait="knight" add_trait="poor_warrior"}
+}
+3222 = {
+	name="Hodor" # Married heir of House Payne.
+	female=yes
+	dynasty=222
+ 
+	religion="the_seven"
+	culture="westerman"
+ 
+	father=222
+	mother=3232
+	
+	8272.1.1 = {birth="8272.1.1"}
+}
+
+
+###Children of Manfryd###
+5222 = {
+	name="Hodor"
+	female=yes
+	dynasty=222
+ 
+	religion="the_seven"
+	culture="westerman"
+ 
+	father=4222
+	mother=1229
+	
+	8283.3.8 = {birth="8283.3.8"}
+}
+6222 = {
+	name="Hodor"
+	dynasty=222
+ 
+	religion="the_seven"
+	culture="westerman"
+ 
+	father=4222
+	mother=1229
+	
+	8285.8.19 = {birth="8285.8.19"}
+	8296.4.12 = {add_trait="squire"}
+}
+7222 = {
+	name="Hodor"
+	female=yes
+	dynasty=222
+ 
+	religion="the_seven"
+	culture="westerman"
+ 
+	father=4222
+	mother=1229
+	
+	8287.10.17 = {birth="8287.10.17"}
+}
+###################
+####House Payne#### # Updated \Chrisjm89/
+###################
+###the Lord of payne hall, non-canon###
+###Founder###
+5208 = {		
+	name="Hodor" # a Lord	
+	dynasty=208
+	
+	father=330208
+	mother=440208
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	8211.1.1 = {birth="8211.1.1"}
+	8226.1.1 = {add_trait="knight"}
+	8234.1.1 = {add_spouse=10208}
+	8259.2.8 = {death= {death_reason = death_battle}} # Ninepenny kings
+}
+10208 = {		
+	name="Hodor" # Pollen's wife.
+	female=yes
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	8213.1.1 = {birth="8213.1.1"}	
+	8261.1.1 = {death="8261.1.1"}
+}
+###Current Lord###
+208 = {		
+	name="Hodor" # a Lord
+	dynasty=208	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=1208
+	mother=430208
+	
+	8252.1.1 = {birth="8252.1.1"}
+	8259.11.1 = { # Reynes of Castamere
+		effect = {
+			set_defacto_liege = ROOT
+			any_demesne_title = {
+				limit = { 
+					OR = {
+						tier = COUNT
+						tier = DUKE
+					}
+				}				
+				set_variable = { which = "de_facto_kingdom" value = 9 } #westerlands
+			}
+			set_character_flag = neutral
+			clr_character_flag = supporting_king
+			clr_character_flag = against_king
+		}
+	}
+	8261.1.1 = { 	
+		effect = {
+			k_westerlands = {
+				holder_scope = {
+					ROOT = { set_defacto_liege = PREV }
+				}
+			}
+			clr_character_flag = neutral		
+		}
+	}
+	8268.1.1 = {
+		add_trait="knight"
+		add_trait=trained_warrior
+	}
+	8274.1.1 = {add_spouse = 9208}
+}
+9208 = {		
+	name="Hodor" # Taubert's wife.	
+	female=yes		
+	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	8259.1.1 = {birth="8259.1.1"}	
+}
+###Taubert's children###
+11208 = {		
+	name="Hodor" # Taubert's son and Heir.	
+	dynasty=208
+	
+	religion="the_seven"	
+	culture="westerman"
+
+	mother=9208
+	father=208
+	
+	8275.1.1 = {birth="8275.1.1"}
+	8285.1.1 = {add_trait="squire"}
+	8291.1.1 = {remove_trait="squire" add_trait="knight"}
+	8291.5.9 = {add_spouse=3222} # Maid of House Yew
+}
+12208 = {		
+	name="Hodor" # Taubert's daughter.
+	female=yes
+	dynasty=208
+	
+	religion="the_seven"	
+	culture="westerman"
+
+	mother=9208
+	father=208
+	
+	8277.1.1 = {birth="8277.1.1"}
+}
+
+###2nd generation###
+1208 = {		
+	name="Hodor" # a Lord, Taubert's father.
+	dynasty=208
+	
+	religion="the_seven"	
+	culture="westerman"
+
+	mother= 10208
+	father= 5208
+	
+	8235.1.1 = {birth="8235.1.1"}
+	8251.1.1 = {add_trait="knight"}
+	8259.2.8 = {death= {death_reason = death_battle}} # Ninepenny kings
+}
+430208 = {		
+	name="Hodor"
+	female=yes
+	
+	religion="the_seven"	
+	culture="westerman"
+
+
+	8234.1.1 = {birth="8234.1.1"}
+	8250.1.1 = {add_spouse=1208}
+}
+###Ilyn and Pod's line###
+6208 = {		
+	name="Hodor" # Cedric's father.	
+	dynasty=208
+	
+	religion="the_seven"	
+	culture="westerman"
+
+	mother= 10208
+	father= 5208
+	
+	8236.1.1 = {birth="8236.1.1"}
+	8253.1.1 = {add_trait="knight"}
+	8271.1.1 = {death="8271.1.1"}
+}
+13208 = {		
+	name="Hodor" 
+	female=yes
+	
+	religion="the_seven"	
+	culture="westerman"
+
+	
+	8235.1.1 = {birth="8235.1.1"}
+	8255.1.1 = {add_spouse=6208}
+	8275.1.1 = {death="8275.1.1"}
+}
+###Willem's daughter###
+7208 = {		
+	name="Hodor" 
+	dynasty=208
+	female=yes
+	
+	religion="the_seven"	
+	culture="westerman"
+
+	father= 1208
+	mother= 430208
+	
+	8259.1.1 = {birth="8259.1.1"}
+	8280.1.1 = {add_spouse=431208}
+}
+431208 = {		
+	name="Hodor" 
+
+	religion="the_seven"	
+	culture="westerman"
+
+	8254.1.1 = {birth="8254.1.1"}
+	8270.1.1 = {add_trait="knight"}
+	8292.1.1 = {death="8292.1.1"}
+}
+16208 = {		
+	name="Hodor" # Needed so Preston and Olivia's marriage becomes matrilineal.
+	dynasty=208
+	female=yes
+	
+	religion="the_seven"	
+	culture="westerman"
+
+	father=431208
+	mother=7208
+	
+	8280.11.7 = {birth="8280.11.7"}
+}
+###Podrics squired for him###
+2208 = {		
+	name="Hodor"	
+	dynasty=208
+	
+	martial = 8
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	father=6208
+	mother=13208
+	
+	
+	8252.1.1={birth="8252.1.1"}
+	8263.1.1={  add_trait="kind" }
+	8266.1.1={	add_trait="misguided_warrior"
+	            add_trait="trained_warrior"
+	            add_trait="knight"
+				add_trait="brave"}
+	8298.10.24= {death= {death_reason = death_battle}} # Battle of the Whispering wood.			
+}
+###No-tongue###
+3208 = {		
+	name="Hodor"	
+	dynasty=208	
+	
+	martial = 8	
+	diplomacy = 1	
+	intrigue = 1	
+	
+	religion="the_seven"	
+	culture="westerman"
+
+	employer=190
+	
+	father=1208
+	mother=430208
+	
+	8253.1.1={birth="8253.1.1"}
+	8269.1.1={
+		add_trait="tough_soldier"
+		add_trait="trained_warrior"
+		add_trait="knight"
+		employer=190
+	}
+	8276.7.9={add_trait="cynical"
+	          add_trait="lisp"
+		  add_trait="cruel"
+		 } #maimed will make him die		
+	8284.1.1 = { employer =  317 } #Robert becomes King	  
+	8298.11.2 = {
+		add_trait=ice
+		employer = 9316 
+	}	
+	8299.1.1 = { #Tywin takes it
+		remove_trait=ice
+	}	
+	8300.1.2 = {
+		employer = 7316 
+	}
+}
+###Martyn's children - Current heir###
+17208 = {		
+	name="Hodor"	
+	dynasty=208
+	
+	religion="the_seven"	
+	culture="westerman"
+
+	mother=3222
+	father=11208
+	
+	8292.4.21 = {birth="8292.4.21"}
+}
+18208 = {		
+	name="Hodor"	
+	dynasty=208
+	
+	religion="the_seven"	
+	culture="westerman"
+
+	mother=3222
+	father=11208
+	
+	8294.6.7 = {birth="8294.6.7"}
+}
+19208 = {		
+	name="Hodor"	
+	dynasty=208
+	female=yes
+	
+	religion="the_seven"	
+	culture="westerman"
+
+	mother=3222
+	father=11208
+	
+	8297.2.9 = {birth="8297.2.9"}
+}
+##Pod's Line##
+80208 = {
+	name="Hodor"	# not a lord
+	dynasty=208
+
+	religion="the_seven"
+	culture="westerman"
+	
+	father=330208
+	mother=440208
+
+	8213.1.1 = {birth="8213.1.1"}
+	8229.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8231.1.1 = {add_spouse=460208}
+	8263.1.1 = {death="8263.1.1"}
+}
+460208 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="westerman"
+
+	8213.1.1 = {birth="8213.1.1"}
+	8263.1.1 = {death="8263.1.1"}
+}
+81208 = {
+	name="Hodor"	# not a lord
+	dynasty=208
+
+	religion="the_seven"
+	culture="westerman"
+
+	father=80208
+	mother=460208
+
+	8232.1.1 = {birth="8232.1.1"}
+	8248.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8250.1.1 = {add_spouse=461208}
+	8285.1.1 = {death="8285.1.1"}
+}
+461208 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="westerman"
+
+	8232.1.1 = {birth="8232.1.1"}
+	8285.1.1 = {death="8285.1.1"}
+}
+82208 = {
+	name="Hodor"	# not a lord
+	dynasty=208
+
+	religion="the_seven"
+	culture="westerman"
+
+	father=81208
+	mother=461208
+
+	8250.1.1 = {birth="8250.1.1"}
+	8266.1.1 = {add_trait=poor_warrior}
+	8268.1.1 = {add_spouse=462208}
+	8314.1.1 = {death="8314.1.1"}
+}
+462208 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="westerman"
+
+	8250.1.1 = {birth="8250.1.1"}
+	8314.1.1 = {death="8314.1.1"}
+}
+83208 = {
+	name="Hodor"	# not a lord
+	dynasty=208
+
+	religion="the_seven"
+	culture="westerman"
+
+	father=82208
+	mother=462208
+
+	8272.1.1 = {birth="8272.1.1"}
+	8280.1.1 = {add_trait=squire}
+	8287.1.1 = {add_spouse=463208}
+	8288.1.1 = {add_trait=poor_warrior}	
+	8289.1.1 = {death = {death_reason = death_battle}}
+}
+463208 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="westerman"
+
+	8272.1.1 = {birth="8272.1.1"}
+	8292.1.1 = {death="8292.1.1"}
+}
+###The Podrick###
+4208 = {		
+	name="Hodor"	
+	dynasty=208	
+	
+	martial = 12	
+	diplomacy = 1	
+	intrigue = 1	
+	stewardship = 4	
+	learning = 8
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=83208
+	mother=463208
+	
+	8288.1.1 = {birth="8288.1.1"} # He's twelve years old, not twenty. changed \Chrisjm89/
+	8294.1.1 = {add_trait="stutter" add_trait="shy" guardian=2208}
+	8296.1.1 = {add_trait="kind" add_trait="trusting"}
+	8296.3.9 = {add_trait="honest" add_trait="diligent" add_trait="squire"}	
+	8298.1.1 = {add_trait="poor_warrior" add_trait="brave" guardian=5190 employer=9316  }
+	8299.7.1 = {add_trait="tough_soldier" remove_trait="poor_warrior" add_trait="trained_warrior"} # At the Blackwater.
+}	
+#####################
+####House Falwell#### # Updated \Chrisjm89/
+#####################
+###The Lord###
+229 = {		
+	name="Hodor"	
+	dynasty=229	
+	
+	father=325229
+	mother=425229
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	8247.1.1 = {birth="8247.1.1"}
+	8263.1.1 = {add_spouse = 3229}
+	8263.1.7 = {add_trait="knight" add_trait="poor_warrior"}
+}
+3229 = {		
+	name="Hodor" # was originally named Joffrey like her husband. Facepalm for whoever did this :P \Chrisjm89
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	8247.1.1 = {birth="8247.1.1"}	
+}
+###Children###
+2229 = {		
+	name="Hodor"	
+	dynasty=229	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father = 229
+	mother=3229	
+	
+	8265.1.1 = {birth="8265.1.1"}
+	8276.1.1 = {add_trait="squire"}
+	8282.1.1 = {remove_trait="squire" add_trait="knight" add_trait="poor_warrior"}
+	8282.3.10 = {add_spouse=2232} # Greenfield maid
+}				
+1229 = {		
+	name="Hodor"	
+	female=yes	
+	dynasty=229	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=229
+	mother=3229	
+	
+	8263.1.1 = {birth="8263.1.1"}	
+}
+###Children of Halder###
+5229 = {		
+	name="Hodor"	
+	dynasty=229	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=2229
+	mother=2232
+	
+	8283.10.17 = {birth="8283.10.17"}
+	8294.5.4 = {add_trait="squire"}
+	8299.7.2 = {remove_trait="squire" add_trait="knight" add_trait="trained_warrior"} # Day after Blackwater
+}
+6229 = {		
+	name="Hodor"		
+	dynasty=229	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=2229
+	mother=2232	
+	
+	8286.2.21 = {birth="8286.2.21"}
+	8297.4.9 = {add_trait="squire"}
+}
+
+#######################
+####House Crakehall####
+#######################
+###the lord###
+227 = {		
+	name="Hodor"	 # this guy should be dead in 281AL making Roland Lord of Crakehall for Roberts Rebellion.
+	dynasty=227	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=10227
+	
+	
+	add_trait="charismatic_negotiator"
+	
+	8220.1.1 = {birth="8220.1.1"}
+	8236.1.1 = {add_trait="knight"}
+	8246.1.1 = {add_spouse = 11227}
+	8259.11.1 = { # Reynes of Castamere
+		effect = {
+			set_defacto_liege = ROOT
+			any_demesne_title = {
+				limit = { 
+					OR = {
+						tier = COUNT
+						tier = DUKE
+					}
+				}				
+				set_variable = { which = "de_facto_kingdom" value = 9 } #westerlands
+			}
+			set_character_flag = neutral
+			clr_character_flag = supporting_king
+			clr_character_flag = against_king
+		}
+	}
+	8261.1.1 = { 	
+		effect = {
+			k_westerlands = {
+				holder_scope = {
+					ROOT = { set_defacto_liege = PREV }
+				}
+			}
+			clr_character_flag = neutral		
+		}
+	}
+	8281.1.1 = {death="8281.1.1"}
+}
+11227 = {		
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	8222.1.1 = {birth="8222.1.1"}	
+}
+###Sumner's father###
+10227 = {		
+	name="Hodor" #Lord.# Old Lord Sumner's Sire. Son of Lyle.
+	dynasty=227	
+	
+	add_trait="strong"
+	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	father=18227
+	
+	8196.1.1 = {birth="8196.1.1"}
+	8212.1.1 = {add_trait="knight"}
+	8254.1.1 = {death="8254.1.1"}		
+}
+###Roland Crakehall###
+7227 = {		
+	name="Hodor"	##Bugfix changed from Tybolt to Roland. He was first born of Sumner and current Lord too not Tybolt. He was Rolands first born and heir.
+	dynasty=227	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=227
+	mother=11227
+	
+	8240.1.1 = {birth="8240.1.1"}
+	8260.1.1 = {add_spouse=14227}	
+}
+14227 = {		
+	name="Hodor" # Roland's wife.
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	8241.1.1 = {birth="8241.1.1"}	
+}
+###Sumner's younger son Burton with his children###
+17227 = {		
+	name="Hodor"	
+	dynasty=227	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	father=227
+	mother=11227
+	
+	
+	
+	8243.1.1 = {birth="8243.1.1"}
+	8259.1.1 = {add_trait="knight"}
+	8265.1.1 = {add_spouse=30227}
+	8299.4.6 = {death= {death_reason = death_battle }
+    }	# Ambush by Beric Dondarrion		
+}
+30227 = {		
+	name="Hodor" # Burton's wife.
+	female=yes
+
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	
+	8247.1.1 = {birth="8247.1.1"}	
+}
+###Damions Wife a Crakehall###
+1227 = {		
+	name="Hodor"	# Removed death date. She's still alive. Daughter of Sumner, sister of Roland.
+	female=yes	
+	dynasty=227	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=227
+	mother=11227
+
+	8253.1.1 = {birth="8253.1.1"}	
+}
+15227 = {		
+	name="Hodor" # Burton's daughter.
+	female=yes
+	dynasty=227	
+
+	add_trait="naive_appeaser"
+	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=17227
+	mother=30227
+	
+	8268.1.1 = {birth="8268.1.1"}	
+}
+5227 = {		
+	name="Hodor" # Lyonel Frey's wife. Made her daughter of Burton as Sumner's wife would be just past childbearing age. Could be Roland's daughter but he only has three son's mentioned.
+	female=yes	
+	dynasty=227	
+	
+	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=17227
+	mother=30227	
+	
+	8272.1.1 = {birth="8272.1.1"}	
+}
+####Roland's children####
+
+16227 = {
+	name="Hodor" # Roland's firstborn.
+	dynasty=227	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	
+	
+	father=7227
+	mother=14227
+	
+	8257.1.1 = {birth="8257.1.1"}
+	8275.1.1 = {add_spouse=19227}	
+}
+19227 = {		
+	name="Hodor" # Tybolt's wife so he doesn't get a free wife.
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	8256.1.1 = {birth="8256.1.1"}	
+}
+8227 = {		
+	name="Hodor"	#Strongboar, Roland's secondborn.
+	dynasty=227	
+	
+	martial = 9	
+
+	religion="the_seven"	
+	culture="westerman"
+	
+	add_trait="strong"	
+		
+	father=7227
+	mother=14227	
+	
+	8259.1.1 = {birth="8259.1.1"}
+	8275.1.1 = {
+	           add_trait="knight"
+			   add_trait="trained_warrior"
+	           give_nickname = nick_strongboar}
+	8277.1.1 = {add_spouse = 12227}
+}
+12227 = {		
+	name="Hodor" # Strongboar's wife.
+	female=yes
+
+	add_trait="naive_appeaser"
+
+	religion="the_seven"	
+	culture="westerman"	
+	
+	8260.1.1 = {birth="8260.1.1"}	
+}
+13227 = {		
+	name="Hodor" # Strongboar's son.
+	dynasty=227	
+	
+	martial = 8	
+
+	religion="the_seven"	
+	culture="westerman"
+	
+	
+	father=8227
+	mother=12227	
+	
+	8278.1.1 = {birth="8278.1.1"}
+}
+9227 = {		
+	name="Hodor"	# Roland's thirdborn.
+	dynasty=227	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	
+	father = 7227
+	mother = 14227
+	
+	8263.1.1 = {birth="8263.1.1"}
+	8279.1.1 = {add_trait="knight"}
+}
+6227 = {		
+	name="Hodor" # Was originally Roland, but Roland wasn't thirdborn! Made him Tybolts son.
+	dynasty=227	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	
+	father=16227
+	mother=19227
+	
+		
+	
+	8276.1.1 = {birth="8276.1.1"}	
+}
+###################
+####House Swyft#### # Updated \Chrisjm89/
+###################
+###The Lord###
+228 = {		
+	name="Hodor" # Current Lord of Cornfield.
+	dynasty=228
+	
+	stewardship = 2
+	diplomacy = 3
+	martial = 3
+	intrigue = 2
+	learning = 2
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=300228
+	mother=206228
+	
+	add_trait=indulgent_wastrel
+	add_trait=craven
+	add_trait=proud
+	add_trait=rude
+	add_trait=envious
+	
+	8241.1.1 = {birth="8241.1.1"}
+	8257.1.1 = {
+		add_trait="knight"	   
+		add_trait="poor_warrior"
+	}
+	8257.1.1 = {add_spouse = 10228}
+	8259.11.1 = { # Reynes of Castamere
+		effect = {
+			set_defacto_liege = ROOT
+			any_demesne_title = {
+				limit = { 
+					OR = {
+						tier = COUNT
+						tier = DUKE
+					}
+				}				
+				set_variable = { which = "de_facto_kingdom" value = 9 } #westerlands
+			}
+			set_character_flag = neutral
+			clr_character_flag = supporting_king
+			clr_character_flag = against_king
+		}
+	}
+	8261.1.1 = { 	
+		effect = {
+			k_westerlands = {
+				holder_scope = {
+					ROOT = { set_defacto_liege = PREV }
+				}
+			}
+			clr_character_flag = neutral		
+		}
+	}
+	8299.1.1 = {employer=9316}
+}
+10228 = {		
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	
+	8241.1.1 = {birth="8241.1.1"}	
+}
+2228 = {		
+	name="Hodor" ###Helped to take Riverrun###
+	dynasty=228	
+	
+	martial = 8	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	add_trait="cruel"			
+	
+	father = 228
+	mother=10228	
+	
+	8260.1.1 = {birth="8260.1.1"}
+	8276.1.1 = {add_trait="knight"
+	            add_trait="tough_soldier"}
+	8281.1.1 = {add_spouse = 2221} # Maid of House Serrett
+}	
+3228 = {		
+	name="Hodor"	###Kevans wife, a Swyft###
+	female=yes	
+	dynasty=228	
+
+	martial = 1	
+	diplomacy = 5	
+	intrigue = 5	
+	stewardship = 4	
+	learning = 5
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	add_trait = underhanded_rogue
+	add_trait = kind
+	add_trait = content
+	add_trait = humble
+	add_trait = familyperson
+	
+	disallow_random_traits = yes
+
+	father = 228
+	mother=10228	
+
+	8261.1.1 = {birth="8261.1.1"}	
+}	
+1228 = {		
+	name="Hodor"	# Married Melwyn Sarsfield.
+	female=yes	
+	dynasty=228	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father = 228
+	mother=10228	
+	
+	8262.1.1 = {birth="8262.1.1"}	
+}
+
+###Steffons daughter###
+
+200228 = {		
+	name="Hodor" # Canon, Steffon's daughter.
+	female=yes	
+	dynasty=228	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=2228	
+	mother=2221
+	
+	8282.1.1 = {birth="8282.1.1"}	
+}
+###Harys Brother###
+301228 = {		
+	name="Hodor" # Ser Humfrey. Canon. Made him his brother.
+	dynasty=228	# Swyft
+	
+	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=300228
+	mother=206228
+	
+	8246.1.1 = {birth="8246.1.1"}
+	8264.1.1 = {add_trait="knight"}
+	8310.1.1 = {death="8310.1.1"}
+}	
+###Harys niece###
+
+207228 = {		
+	name="Hodor" # Lady attendent of Cersei's. Made her Humfrey's daughter. Canon.
+	female=yes	
+	dynasty=228	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=301228	
+	
+	8269.1.1 = {birth="8269.1.1"}	
+}
+###################
+####House Jast##### # Updated \Chrisjm89/
+###################
+###The lord###
+223 = {		
+	name="Hodor"	
+	dynasty=223
+
+	father=330223
+	mother=430223
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	8250.1.1 = {birth="8250.1.1"}	
+	8273.1.1 = {add_spouse=475223}
+	8273.4.2 = {add_trait="knight" add_trait="trained_warrior"}
+	8295.1.1 = {death="8295.1.1"}
+}
+475223 = {		
+	name="Hodor" 
+	female=yes	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	8250.1.1 = {birth="8250.1.1"}
+}
+###Sons###
+1223 = {		
+	name="Hodor"	
+	dynasty=223	
+	
+	dna="aebdaeabact" 
+	properties="0g0dik"
+		
+	religion="the_seven"	
+	culture="westerman"		
+	
+	father=223	
+	mother=475223
+	
+	add_trait="brave"	
+	
+	8265.1.1 = {birth="8265.1.1"}
+	8275.1.1 = {add_trait="squire"}
+	8281.1.1 = {remove_trait="squire" add_trait="knight" add_trait="trained_warrior"}
+	8282.1.1 = {add_spouse=476223}
+	8297.1.1 = {add_spouse=3223} #Lanna Lannister
+	8299.11.5 = {remove_trait="trained_warrior" 
+	            add_trait="poor_warrior" 
+	            remove_trait="brave" 
+	            add_trait="craven" 
+	            add_trait="paranoid" 
+	            add_trait="scarred"}
+}		
+476223 = {		
+	name="Hodor"
+	female=yes	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	8260.1.1 = {birth="8260.1.1"}
+	8295.1.1 = { death = yes }
+}	
+2223 = {		
+	name="Hodor"	
+	dynasty=223	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=223	
+	mother=475223
+	
+	8268.1.1 = {birth="8268.1.1"}
+	8278.1.1 = {add_trait="squire"}
+	8284.1.1 = {remove_trait="squire" add_trait="knight" add_trait="trained_warrior"}
+}
+150223 = {		
+	name="Hodor"	
+	dynasty=223	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=1223	
+	mother=476223
+	
+	8282.1.1 = {birth="8282.1.1"}
+	8292.1.1 = {add_trait="squire"}
+	8298.1.1 = {remove_trait="squire" add_trait="knight" add_trait="trained_warrior"}
+}
+4223 = {		
+	name="Hodor"	
+	dynasty=223	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=1223	
+	mother=476223
+	
+	8284.1.1 = {birth="8284.1.1"}
+	8294.1.1 = {add_trait="squire"}
+	8300.1.1 = {remove_trait="squire" add_trait="knight" add_trait="trained_warrior"}
+}
+########################
+####House Greenfield#### # Updated \Chrisjm89/
+########################
+###The lord###
+232 = {		
+	name="Hodor" #fought at riverrun!
+	dynasty=232	
+	
+	martial = 7	
+	diplomacy = 4	
+	intrigue = 4	
+	stewardship = 4	
+	learning = 4
+	
+	
+	father=348232
+	mother=448232
+	
+	religion="the_seven"	
+	culture="westerman"	
+		
+
+	8248.1.1 = {birth="8248.1.1"}
+	8264.1.1 = {add_trait="knight"
+	            add_trait="tough_soldier"
+				add_trait="skilled_warrior"}
+	8264.1.7 = {add_spouse = 330231}	# Maid of House Turnberry
+	8299.2.11 = {
+		effect = {
+			c_blackwoodvale = {
+				holder_scope = {
+					ROOT = { 
+						imprison = PREV 
+						set_character_flag = captured_in_battle
+					}
+				}
+			}
+		}
+	}
+	8300.6.1 = {
+		effect = { prisoner = no }
+	}
+}
+3232 = {		
+	name="Hodor" # Married Lord of House Yew
+	female=yes
+	dynasty=232
+	
+	father=348232
+	mother=448232
+
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+    8252.1.1 = {birth="8252.1.1"}	
+}
+###Sons###
+1232 = {		
+	name="Hodor"	
+	dynasty=232	
+
+	religion="the_seven"	
+	culture="westerman"	
+	
+	martial=7
+	
+	father=232
+	mother=330231
+	
+	add_trait = arbitrary
+	add_trait = proud
+	add_trait = cruel
+	add_trait = rude
+	add_trait = lustful
+	
+	8264.1.1 = {birth="8264.1.1"}
+	8272.1.1 = { add_trait="squire" }
+	8280.1.1 = { #age 16
+		add_trait="knight" 
+		remove_trait="squire" 
+		add_trait="skilled_warrior"
+	}
+	8284.1.1={ #kingsguard
+		add_trait="kingsguard"
+		employer=201302 # Barristan Selmy
+	}
+	8299.1.1 = { employer = 3190}		# Jaime Lannister
+	8299.5.1 = { 
+		death = {
+			death_reason = death_rabble #riot in KL
+		}
+	} 
+}
+4232 = {		
+	name="Hodor"
+	dynasty=232	
+
+	religion="the_seven"	
+	culture="westerman"	
+
+	father=232
+	mother=330231	
+
+	8263.1.1 = {birth="8263.1.1"}
+	8278.1.1 = {add_trait="squire"}
+	8283.1.1 = {remove_trait="squire" add_trait="knight" add_trait="trained_warrior"}
+	8283.4.18 = {add_spouse=2231} # Turnberry maid
+}
+###Daughter###		
+2232 = {		
+	name="Hodor" # Married to heir of House Falwell	
+	female=yes	
+	dynasty=232	
+
+	religion="the_seven"	
+	culture="westerman"	
+
+	father=232
+	mother=330231	
+
+	8268.1.1 = {birth="8268.1.1"}	
+}
+###Children of Gareth###
+5232 = {		
+	name="Hodor"	
+	dynasty=232
+	female=yes
+	
+	add_trait="twin"
+
+	religion="the_seven"	
+	culture="westerman"	
+
+	father=4232
+	mother=2231	
+
+	8284.3.8 = {birth="8284.3.8"}	
+}
+6232 = {		
+	name="Hodor"	
+	dynasty=232
+	female=yes
+	
+	add_trait="twin"
+
+	religion="the_seven"	
+	culture="westerman"	
+
+	father=4232
+	mother=2231	
+
+	8284.3.8 = {birth="8284.3.8"}	
+}
+7232 = {		
+	name="Hodor"	
+	dynasty=232	
+	
+	religion="the_seven"	
+	culture="westerman"	
+
+	father=4232
+	mother=2231	
+
+	8285.7.3 = {birth="8285.7.3"}	
+}
+
+###################
+####House Myatt#### # Updated \Chrisjm89/
+###################
+215 = {		
+	name="Hodor"	
+	dynasty=215	
+
+	religion="the_seven"	
+	culture="westerman"
+
+	father=329215
+	mother=429215
+
+	8266.1.1 = {birth="8266.1.1"}
+	8282.1.1 = {add_spouse=1221} # Serrett maid Jeyne
+	8282.2.1 = {add_trait="knight" add_trait="poor_warrior"}
+}
+
+###Children###
+2215 = {		
+	name="Hodor"	
+	dynasty=215	
+
+	religion="the_seven"	
+	culture="westerman"
+
+	father=215
+	mother=1221
+
+	8283.1.1 = {birth="8283.1.1"}
+	8293.1.1 = {add_trait="squire"}
+	8299.1.1 = {remove_trait="squire" add_trait="knight" add_trait="poor_warrior"}
+}
+3215 = {		
+	name="Hodor"	
+	dynasty=215	
+	female=yes
+
+	religion="the_seven"	
+	culture="westerman"
+
+	father=215
+	mother=1221
+
+	8285.1.1 = {birth="8285.1.1"}
+}
+#####################
+####House Serrett#### # Updated \Chrisjm89/
+#####################
+###Grellinvention###
+###The Lord###
+221 = {		
+	name="Hodor"	
+	dynasty=221	
+
+	religion="the_seven"	
+	culture="westerman"
+
+    father=333221
+	mother=433221	
+
+	8245.1.1 = {birth="8245.1.1"}
+	8261.1.1 = {add_trait="knight" add_trait="trained_warrior"}
+	8262.1.1 = {add_spouse = 3221}	
+}
+3221 = {		
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+
+	religion="the_seven"	
+	culture="westerman"		
+
+	8245.1.1 = {birth="8245.1.1"}	
+}
+###Children###
+1221 = {		
+	name="Hodor" # Married to heir of House Myatt	
+	female=yes	
+	dynasty=221	
+	
+	religion="the_seven"	
+	culture="westerman"
+
+	father=221
+	mother=3221	
+	
+	8263.1.1 = {birth="8263.1.1"}	
+}			
+9221 = {		
+	name="Hodor"	
+	dynasty=221	
+	
+	religion="the_seven"	
+	culture="westerman"		
+	
+	father = 221
+	mother=3221	
+	
+	8274.1.1 = {birth="8274.1.1"}
+	8284.1.1 = {add_trait="squire"}
+	8290.1.1 = {remove_trait="squire" add_trait="knight" add_trait="poor_warrior"}
+}		
+2221 = {		
+	name="Hodor" # Maried to heir of House Swyft
+	female=yes	
+	dynasty=221	
+	
+	religion="the_seven"	
+	culture="westerman"		
+	
+	father=221
+	mother=3221		
+	
+    8262.1.1 = {birth="8262.1.1"}
+}
+######################
+####House Turnberry### # Updated \Chrisjm89/
+######################
+###Grellinvention###
+###The Lord###
+231 = {		
+	name="Hodor"	
+	dynasty=231	
+	
+	father=328231
+	mother=428231
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	
+	8241.1.1 = {birth="8241.1.1"}
+	8251.3.5 = {add_trait="squire" add_trait="proud"}
+	8257.1.1 = {remove_trait="squire"
+	            add_trait="knight" 
+	            add_trait="poor_warrior"
+				add_trait="charismatic_negotiator"}
+	8258.1.1 = {add_spouse = 4231}
+}
+4231 = {		
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	8241.1.1 = {birth="8241.1.1"}	
+}			
+###The Children###	
+1231 = {		
+	name="Hodor" # Canon
+	dynasty=231	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father= 231
+	mother= 4231	
+	
+	8261.1.1 = {birth="8261.1.1"}
+	8271.1.1 = {add_trait="squire"}
+	8277.1.1 = {remove_trait="squire" add_trait="knight" add_trait="trained_warrior"}
+}				
+2231 = {		
+	name="Hodor" # Married heir of House Greenfield	
+	female=yes	
+	dynasty=231	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father= 231
+	mother= 4231		
+	
+	8260.1.1 = {birth="8260.1.1"}	
+}			
+3231 = {		
+	name="Hodor" # Married heir of House Peckledon
+	female=yes	
+	dynasty=231	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=231
+	mother=4231	
+	
+	8264.1.1 = {birth="8264.1.1"}	
+}
+6231 = {		
+	name="Hodor" 	
+	dynasty=231	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=231
+	mother=4231	
+	
+	8271.1.4 = {birth="8271.1.4"}
+	8282.2.5 = {add_trait="squire"}
+	8287.4.6 = {
+		remove_trait="squire" 
+		add_trait="knight" 
+		add_trait="trained_warrior"
+	}
+}
+#################
+####House Brax###
+#################
+###the lord###
+216 = {		
+	name="Hodor" #Tried to marry one of his sons to Cat.	
+	dynasty=216	
+	
+	martial = 6
+	diplomacy = 7
+	intrigue = 6	
+	stewardship = 4	
+	learning = 4
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=10216
+	mother=11216
+	
+	add_trait=skilled_tactician
+	
+	8244.1.1 = {birth="8244.1.1"}	
+	8260.1.1 = {
+		add_spouse = 6216
+		add_trait=knight
+		add_trait=trained_warrior
+	}
+	8298.11.2 = {death= {death_reason = death_battle} } # This guy shouldn't be dead in 295AL. Drowned at the battle of the Camps.
+}
+6216 = {		
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	8244.1.1 = {birth="8244.1.1"}
+	8295.1.1 = {death="8295.1.1"}	
+}
+###His Brother###
+4216 = {		
+	name="Hodor" #died at oxcross	
+	dynasty=216	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father = 10216
+	mother=11216
+	
+	add_trait="slothful"	
+	add_trait="tough_soldier"	
+	
+	8254.1.1 = {birth="8254.1.1"}	
+	8270.1.1 = {
+		add_trait=knight
+		add_trait=trained_warrior
+	}
+	8299.6.1 = {death= {death_reason = death_battle} } # Killed at the Battle of Oxcross.
+}
+###Made up founder###
+10216 = {		
+	name="Hodor"	
+	dynasty=216	
+	
+	father=300216
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	8218.1.1 = {birth="8218.1.1"}
+	8234.1.1 = {
+		add_spouse=11216
+		add_trait=knight
+		add_trait=trained_warrior
+	}	
+	8259.11.1 = { # Reynes of Castamere
+		effect = {
+			set_defacto_liege = ROOT
+			any_demesne_title = {
+				limit = { 
+					OR = {
+						tier = COUNT
+						tier = DUKE
+					}
+				}				
+				set_variable = { which = "de_facto_kingdom" value = 9 } #westerlands
+			}
+			set_character_flag = neutral
+			clr_character_flag = supporting_king
+			clr_character_flag = against_king
+		}
+	}
+	8261.1.1 = {		
+		effect = {
+			k_westerlands = {
+				holder_scope = {
+					ROOT = { set_defacto_liege = PREV }
+				}
+			}
+			clr_character_flag = neutral		
+		}
+	}
+	8268.1.1 = {death="8268.1.1"}
+}
+11216 = {		
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	8220.1.1 = {birth="8220.1.1"}
+	8268.1.1 = {death="8268.1.1"}	
+}
+###Sons###
+1216 = {	
+	name="Hodor" # Andros eldest son. # Captured at the whispering wood.
+	dynasty=216	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=216	
+	mother=6216
+	
+	8263.1.1 = {birth="8263.1.1"}	
+	8279.1.1 = {
+		add_trait=knight
+		add_trait=trained_warrior
+	}
+	8299.2.11 = {
+		effect = {
+			c_winterfell = {
+				holder_scope = {
+					ROOT = { 
+						imprison = PREV 
+						set_character_flag = captured_in_battle
+					}
+				}
+			}
+		}
+	}
+	8299.7.1 = {
+		effect = { prisoner = no }
+	}
+}
+2216 = {		
+	name="Hodor" # Second son. This guy dies in 299 not 281. \Chrisjm89/
+	dynasty=216	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=216
+	mother=6216
+	
+	8264.1.1 = {birth="8264.1.1"}	
+	8280.1.1 = {
+		add_trait=knight
+		add_trait=trained_warrior
+	}
+	8299.6.24 = {death= {death_reason = death_battle} } # Died at the battle of the Fords against the Tully bannermen.
+}	
+3216 = {		
+	name="Hodor"	# Third son.
+	dynasty=216	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=216	
+	mother=6216
+	
+	8265.1.1 = {birth="8265.1.1"}
+	8281.1.1 = {
+		add_trait=knight
+		add_trait=trained_warrior
+	}
+	8288.1.1 = {add_spouse=7129} # Married Morya Frey.
+}
+
+###Flement's future children###
+200216 = {		
+	name="Hodor"
+	dynasty=216	
+	
+	religion="the_seven"	
+	culture="westerman"	
+		
+	father=3216	
+	mother=7129
+	
+	8290.1.1 = {birth="8290.1.1"}
+	8296.1.1 = {
+		guardian = 1191 #page at casterly rock
+	}
+}
+201216 = {		
+	name="Hodor"
+	dynasty=216	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=3216	
+	mother=7129
+	
+	8293.1.1 = {birth="8293.1.1"}
+}
+202216 = {		
+	name="Hodor"
+	dynasty=216	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=3216	
+	mother=7129
+	
+	8296.1.1 = {birth="8296.1.1"}
+}
+###################
+####House Lydden###
+###################
+###Dead Founder###
+1217 = {		
+	name="Hodor"	
+	dynasty=217
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=10217
+	
+	8217.1.1 = {birth="8217.1.1"}	
+	8233.1.1 = {add_spouse = 3217}	
+	8281.1.1 = {death="8281.1.1"}
+}
+3217 = {		
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	8217.1.1 = {birth="8217.1.1"}	
+	8281.1.1 = {death="8281.1.1"}	
+}		
+##The Lord##
+217 = {		
+	name="Hodor"	
+	dynasty=217	
+
+	religion="the_seven"	
+	culture="westerman"	
+
+	father = 1217
+	mother=3217
+
+	8236.1.1 = {birth="8236.1.1"}
+	8252.1.1 = {add_spouse = 4217}
+}
+4217 = {		
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+
+	religion="the_seven"	
+	culture="westerman"	
+
+	8236.1.1 = {birth="8236.1.1"}	
+}		
+###Daughters###
+9217 = {		
+	name="Hodor"
+	female=yes	
+	dynasty=217	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father = 217
+	mother=4217	
+
+	8276.1.1 = {birth="8276.1.1"}	
+}		
+#################
+####House Drox### # Updated \Chrisjm89/
+#################
+###NonCanon grell Invention###
+###The Lord###
+198 = {	
+	name="Hodor"	
+	dynasty=198	
+	
+	father=323198
+	mother=423198
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	8257.1.1 = {birth="8257.1.1"}
+	8273.1.1 = {add_trait="knight" add_trait="poor_warrior"}
+	8278.3.2 = {add_spouse=333215} # Myatt Maid
+}
+###Daughters###	
+1198 = {		
+	name="Hodor"	
+	female=yes	
+	dynasty=198	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=198
+	mother=333215
+	
+	8279.4.9 = {birth="8279.4.9"}	
+}			
+2198 = {	
+	name="Hodor"	
+	female=yes	
+	dynasty=198	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=198
+	mother=333215
+	
+	8281.1.8 = {birth="8281.1.8"}
+}
+###Son###
+4198 = {	
+	name="Hodor"		
+	dynasty=198	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=198
+	mother=333215
+	
+	8282.2.3 = {birth="8282.2.3"}
+	8292.9.18 = {add_trait="squire"}
+	8298.1.2 = {add_spouse=2218} # Ferren maid
+	8298.3.5 = { remove_trait="squire" add_trait="knight" add_trait="poor_warrior"}
+}
+###Grandchild###
+5198 = {	
+	name="Hodor"	
+	female=yes	
+	dynasty=198	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=4198
+	mother=2218
+	
+	8298.11.9 = {birth="8298.11.9"}
+}
+###################
+####House Ferren### # Updated \Chrisjm89/
+###################
+###NonCanon grell Invention (211)### [Dissabled, due to TYPO]
+###The Lord###
+218 = {
+	name="Hodor"
+	dynasty=218
+	
+	father=323218
+	mother=423218
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	8257.1.1 = {birth="8257.1.1"}
+	8273.1.1 = {add_trait="knight" add_trait="trained_warrior"}
+	8273.1.4 = {add_spouse = 3218}
+}
+3218 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	8257.1.1 = {birth="8257.1.1"}	
+}		
+###Children###	
+1218 = {		
+	name="Hodor"		
+	dynasty=218
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=218
+	mother=3218
+	
+	8279.1.1 = {birth="8279.1.1"}
+	8289.1.1 = {add_trait="squire"}
+	8295.1.1 = {remove_trait="squire" add_trait="knight" add_trait="poor_warrior"}
+	8295.2.5 = {add_spouse=4220} # Hawthorn maid.
+	
+}			
+2218 = {		
+	name="Hodor" # Married to Drox heir.
+	female=yes	
+	dynasty=218
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=218
+	mother=3218	
+	
+	8281.1.1 = {birth="8281.1.1"}	
+}
+
+###Ryanel's children###
+4218 = {		
+	name="Hodor"
+	dynasty=218
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=1218
+	mother=4220	
+	
+	8296.3.8 = {birth="8296.3.8"}	
+}
+######################
+####House Peckledon### # Updated \Chrisjm89/
+######################
+##The lord###
+219 = {		
+	name="Hodor"	
+	dynasty=219	
+	
+	father=300219
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	8250.1.1 = {birth="8250.1.1"}
+	8266.1.1 = {add_spouse=3219}
+	8266.1.6 = {add_trait="knight"}
+	
+}
+3219 = {		
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	8250.1.1 = {birth="8250.1.1"}	
+}
+###Daughter###		
+2219 = {		
+	name="Hodor"	
+	female=yes	
+	dynasty=219	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=219
+	mother=3219	
+	
+	8271.1.1 = {birth="8271.1.1"}	
+}
+###Sons###
+4219 = {		
+	name="Hodor"
+	dynasty=219	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=219
+	mother=3219	
+	
+	8267.2.2 = {birth="8267.2.2"}
+	8277.1.1 = {add_trait="squire"}
+	8283.5.3 = {remove_trait="squire" add_trait="knight" add_trait="poor_warrior"}
+	8283.7.9 = {add_spouse=3231} # Turnberry maid
+}
+5219 = {		
+	name="Hodor" 
+	dynasty=219	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=219
+	mother=3219	
+	
+	8275.1.1 = {birth="8275.1.1"}	
+}
+###Montfory's son###
+6219 = {		
+	name="Hodor" # Canon. Jaime Lannisters squire. A boy of fifteen in 300AL. \Chrisjm89/
+	dynasty=219	
+	
+	martial=11
+	diplomacy=7
+	learning=9
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=4219
+	mother=3231	
+	
+	8285.1.1 = {birth="8285.1.1"}
+	8295.1.1 = {add_trait="squire"}
+	8297.1.1 = {add_trait="poor_warrior"} # he's merely learning after all.
+	8299.7.1 = {  #Battle of Blackwater. Josmyn killed two knights, injuried another and captured a further two.
+		add_trait="brave"
+	    remove_trait="poor_warrior"
+	    add_trait="skilled_warrior"
+		effect = {
+			if = {
+				limit = { is_adult = no }
+				d_kingsguard = {
+					holder_scope = {
+						ROOT = { set_guardian = PREV }
+					}
+				}	
+			}	
+		}
+	} 
+}
+###Montfory's daughter###
+7219 = {		
+	name="Hodor" 
+	dynasty=219	
+	female = yes
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=4219
+	mother=3231
+	
+	8289.4.26 = {birth="8289.4.26"}	
+}
+######################
+####House Hawthorne### # Updated \Chrisjm89/
+######################
+###The lord###
+220 = {		
+	name="Hodor"	
+	dynasty=220	
+	
+	father=328220
+	mother=428220
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	8247.1.1 = {birth="8247.1.1"}
+	8263.1.1 = {add_spouse = 2220}
+	8263.2.9 = {add_trait="knight" add_trait="trained_warrior"}
+}
+2220 = {		
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	8247.1.1 = {birth="8247.1.1"}
+}			
+###The Son###	
+1220 = {		
+	name="Hodor"	
+	dynasty=220	
+	
+	religion="the_seven"	
+	culture="westerman"		
+	
+	father = 220
+	mother=2220	
+	
+	8264.1.1 = {birth="8264.1.1"}
+	8274.1.1 = {add_trait="squire"}
+	8280.1.1 = {remove_trait="squire" add_trait="knight" add_trait="trained_warrior"}
+	8289.1.1 = {add_spouse=2219} # Peckleton maid.
+}
+3220 = {		
+	name="Hodor"	
+	dynasty=220	
+	
+	religion="the_seven"	
+	culture="westerman"		
+	
+	father=220
+	mother=2220	
+	
+	8267.1.1 = {birth="8267.1.1"}
+	8278.1.1 = {add_trait="squire"}
+	8283.1.1 = {remove_trait="squire" add_trait="knight" add_trait="poor_warrior"}
+	8291.1.1 = {add_spouse=3203} # Vikary maid.
+}
+4220 = {		
+	name="Hodor" # Married heir of House Ferren.
+	dynasty=220
+	female=yes
+	
+	religion="the_seven"	
+	culture="westerman"		
+	
+	father=220
+	mother=2220	
+	
+	8277.1.1 = {birth="8277.1.1"}	
+}
+###Children of Hubert###
+6220 = {		
+	name="Hodor"	
+	dynasty=220	
+	
+	religion="the_seven"	
+	culture="westerman"		
+	
+	father=1220
+	mother=2219
+	
+	8290.3.13 = {birth="8290.3.13"}
+}
+7220 = {		
+	name="Hodor"	
+	dynasty=220	
+	female=yes
+	
+	religion="the_seven"	
+	culture="westerman"		
+	
+	father=1220
+	mother=2219
+	
+	8292.7.19 = {birth="8292.7.19"}
+}
+###Child of Lother###
+8220 = {		
+	name="Hodor"	
+	dynasty=220	
+	female=yes
+	
+	religion="the_seven"	
+	culture="westerman"		
+	
+	father=3220
+	mother=3203
+	
+	8293.2.4 = {birth="8293.2.4"}
+}
+####################
+####House Lefford###
+####################
+###The Lord###
+213 = {		
+	name="Hodor"	
+	dynasty=213	
+	
+	
+	father=300213
+    mother=200213
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	add_trait=tough_soldier
+	
+	8250.1.1 = {birth="8250.1.1"}	
+	8266.1.1 = {
+		add_spouse = 3213
+		add_trait=knight
+		add_trait=trained_warrior
+	}
+	8299.6.24 = {death = { death_reason = death_battle} } # Drowned in the battle of the Fords.
+}
+###The Lady###
+3213 = {		
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	8250.1.1 = {birth="8250.1.1"}
+}
+###Daughters###		
+4213 = {		
+	name="Hodor"	# Canon. She was head of House Lefford after Leo's death in the battle of the fords. aFoC appendix.
+	female=yes	
+	dynasty=213	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=213	
+	mother=3213
+	
+	8275.1.1 = {birth="8275.1.1"}	
+}	
+###Sister of Leo###
+1213 = {
+	name="Hodor"	#Married a Frey
+	female=yes	
+	dynasty=213	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=300213	
+	mother=200213
+	
+	8262.1.1 = {birth="8262.1.1"}	
+}
+250213 = {
+	name="Hodor"	#Married Stafford Lannister
+	female=yes	
+	dynasty=213	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=300213	
+	mother=200213
+	
+	8252.1.1 = {birth="8252.1.1"}	
+}
+251213 = {
+	name="Hodor"	
+	dynasty=213	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=300213	
+	mother=200213
+	
+	8255.1.1 = {birth="8255.1.1"}	
+	8271.1.1 = {
+		add_trait=trained_warrior
+		add_trait=knight
+	}
+}
+###################
+####House Vikary### # Updated \Chrisjm89/
+###################
+###The Lord###	
+203 = {		
+	name="Hodor"		
+	dynasty=203	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=317203
+	mother=417203
+	
+	8254.1.1 = {birth="8254.1.1"}
+	8270.1.1 = {add_spouse = 5203}
+	8272.1.1 = {add_trait="knight" add_trait="trained_warrior"}
+}
+5203 = {		
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	8254.1.1 = {birth="8254.1.1"}	
+}
+###Children###
+4203 = {		
+	name="Hodor"		
+	dynasty=203	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=203
+	mother=5203	
+	
+	8279.1.1 = {birth="8279.1.1"}
+	8290.1.1 = {add_trait="squire"}
+	8295.1.1 = {remove_trait="squire" add_trait="knight" add_trait="skilled_warrior"}
+}		
+2203 = {		
+	name="Hodor"	
+	female=yes	
+	dynasty=203	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=203
+	mother=5203	
+	
+	8276.1.1 = {birth="8276.1.1"}	
+}
+3203 = {		
+	name="Hodor" # Married scion of House Doggett	
+	female=yes	
+	dynasty=203	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=203
+	mother=5203
+	
+	8274.1.1 = {birth="8274.1.1"}	
+}
+1203 = {		
+	name="Hodor"	
+	female=yes	
+	dynasty=203	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=203
+	mother=5203	
+	
+	8281.1.1 = {birth="8281.1.1"}	
+}
+###################
+####House Estern###
+###################
+###The Lord###
+201 = {		
+	name="Hodor"	
+	dynasty=201	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=329201
+	mother=429201
+	
+	8259.1.1 = {birth="8259.1.1"}
+	8275.1.1 = {add_spouse = 3201}	
+	8299.2.11 = {
+		effect = {
+			c_thetwins = {
+				holder_scope = {
+					ROOT = { 
+						imprison = PREV 
+						set_character_flag = captured_in_battle
+					}
+				}
+			}
+		}
+	}
+	8299.11.5 = {
+		effect = { prisoner = no }
+	}
+}
+3201 = {		
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="westerman"	
+	
+	8259.1.1 = {birth="8259.1.1"}	
+}
+###Daughters###
+2201 = {		
+	name="Hodor"	
+	female=yes	
+	dynasty=201	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father = 201
+	mother=3201	
+	
+	8281.1.1 = {birth="8281.1.1"}	
+}				
+1201 = {		
+	name="Hodor"	
+	female=yes	
+	dynasty=201	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father = 201
+	mother=3201	
+	
+	8282.1.1 = {birth="8282.1.1"}	
+}
+#######################
+####House Westerling###
+#######################
+###The Lord###
+199 = {		
+	name="Hodor"	
+	dynasty=199	
+	
+	martial = 5	
+	diplomacy = 5	
+	intrigue = 5	
+	stewardship = 1	
+	learning = 5
+	
+	father=10199
+	religion="the_seven"	
+	culture="westerman"
+	
+	add_trait="proud"	
+	
+	8255.1.1 = {birth="8255.1.1"}
+	8275.1.1 = {
+		add_spouse = 1192 #Sybell Spicer
+		add_trait = knight
+		add_trait = poor_warrior
+	}	
+	8299.2.11 = {
+		effect = {
+			c_winterfell = {
+				holder_scope = {
+					ROOT = { 
+						imprison = PREV 
+						set_character_flag = captured_in_battle
+					}
+				}
+			}
+		}
+	}
+	8299.6.1 = {
+		effect = { 
+			prisoner = no
+			set_character_flag = neutral
+			clr_character_flag = supporting_king
+			clr_character_flag = against_king
+			any_demesne_title = {
+				limit = { 
+					OR = {
+						tier = COUNT
+						tier = DUKE
+					}
+				}				
+				set_variable = { which = "de_facto_kingdom" value = 9 } #westerlands
+			}	
+		}
+	}
+	8299.11.5 = {
+		effect = { 
+			set_character_flag = supporting_king
+				
+		}
+	}
+}
+
+###Daughter, Married Robb###
+2199 = {		
+	name="Hodor"	
+	female=yes	
+	dynasty=199	
+		
+	martial = 3	
+	diplomacy = 12	
+	intrigue = 10	
+	stewardship = 3	
+	learning = 8
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	add_trait="fair"
+	add_trait="shy"
+	add_trait="fortune_builder"
+	add_trait="proud"
+
+	father = 199	
+	mother = 1192
+	
+	8283.1.1 = {birth="8283.1.1"}	
+	8299.11.5 = {
+		employer=199
+		add_trait="widowed"
+	}
+}
+###Son###
+3199 = {		
+	name="Hodor"	
+	dynasty=199	
+
+	martial = 6	
+	diplomacy = 5	
+	intrigue = 5	
+	stewardship = 5	
+	learning = 5
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	add_trait="tough_soldier"
+
+	father = 199	
+	mother = 1192
+	
+	8290.1.1 = {birth="8290.1.1"}	
+	8299.6.1 = {
+		add_trait = squire
+		guardian = 2059
+	}
+}		
+###Son###
+4199 = {		
+	name="Hodor"	
+	dynasty=199	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	add_trait="tough_soldier"
+	add_trait="honorable"		
+
+	father = 199
+	mother = 1192	
+
+	8279.1.1 = {birth="8279.1.1"}	
+	8295.1.1 = {
+		add_trait = knight
+		add_trait = trained_warrior
+	}	
+	8299.11.5 = {
+		# The Red Wedding
+		death = {
+			death_reason = death_murder
+			killer = 127 #walder frey
+		}
+	}
+}	
+###Daughter, Married Rob###
+7199 = {		
+	name="Hodor"	
+	female=yes	
+	dynasty=199	
+		
+	religion="the_seven"	
+	culture="westerman"
+	
+	father = 199	
+	mother = 1192
+	
+	8287.1.1 = {birth="8287.1.1"}	
+}	
+#####################
+####House Banefort###
+#####################
+200 = {		
+	name="Hodor"	
+	dynasty=200	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=12200
+	mother=13200
+
+	8264.1.1 = {birth="8264.1.1"}
+	8280.1.1 = {add_spouse = 10200}
+	8299.2.11 = {
+		effect = {
+			c_stonehedge = {
+				holder_scope = {
+					ROOT = {
+						imprison = PREV
+						set_character_flag = captured_in_battle
+						remove_character_modifier = the_dungeon
+						add_character_modifier = { 
+							name = house_arrest
+							duration = -1
+						}
+					}
+				}
+			}
+		}
+	}	
+	8299.11.5 = {
+		effect = {
+			prisoner = no
+		}
+	}
+}
+10200 = {		
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"	
+	culture="westerman"
+
+	8264.1.1 = {birth="8264.1.1"}	
+}
+11200 = {		
+	name="Hodor"	
+	dynasty=200	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=200
+	mother=10200
+
+	8281.1.1 = {birth="8281.1.1"}
+}
+###Floater wife of someone###
+4202 = {		
+	name="Hodor"	
+	female=yes	
+	dynasty=200	
+
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=12200
+	mother=13200
+	
+	8261.1.1 = {birth="8261.1.1"}	
+}
+12200 = {		
+	name="Hodor"	
+	dynasty=200	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=300200
+
+	8244.1.1 = {birth="8244.1.1"}
+	8260.1.1 = {add_spouse = 13200}
+	8276.1.1 = {death="8276.1.1"}
+}
+13200 = {		
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"	
+	culture="westerman"
+
+	8244.1.1 = {birth="8244.1.1"}
+	8276.1.1 = {death="8276.1.1"}
+}
+###################
+####House Hamell### # Updated \Chrisjm89/
+###################
+###Lady###
+193 = {		
+	name="Hodor"	
+	female=yes	
+	dynasty=193	
+	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=329193
+	mother=419193
+	
+	8241.1.1 = {birth="8241.1.1"}	
+}
+2193 = {		
+	name="Hodor"	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	8241.1.1 = {birth="8241.1.1"}
+	8257.1.1 = {add_spouse = 193}	
+}			
+###Daughter###
+1193 = {		
+	name="Hodor"	
+	female=yes	
+	dynasty=193	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	mother=193
+	father=2193
+	
+	8262.1.1 = {birth="8262.1.1"}	
+}
+###Hamell Sons###
+3193 = {		
+	name="Hodor"	
+	dynasty=193	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	mother=193
+	father=2193
+	
+	8259.1.1 = {birth="8259.1.1"}
+	8269.1.1 = {add_trait="squire"}
+	8275.1.1 = {remove_trait="squire"
+	            add_trait="knight"}
+}
+4193 = {		
+	name="Hodor"	
+	dynasty=193	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	mother=193
+	father=2193
+	
+	8268.1.1 = {birth="8268.1.1"}
+	8278.1.1 = {add_trait="squire"}
+	8284.1.1 = {remove_trait="squire"
+	            add_trait="knight"}
+}
+####################
+####House Kenning###
+####################
+###Lord###
+195 = {		
+	name="Hodor" # His name is Terrence in canon. Not Pallyn, Changed. \Chrisjm89/
+	dynasty=195	
+
+	religion="the_seven"	
+	culture="westerman"	
+	father=300195
+	
+	add_trait="proud"	
+	
+	8260.1.1 = {birth="8260.1.1"}
+	8276.1.1 = {add_spouse = 2195}	
+}
+2195 = {		
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+
+	religion="the_seven"	
+	culture="westerman"	
+	
+	8260.1.1 = {birth="8260.1.1"}	
+}
+###Daughter###
+1195 = {		
+	name="Hodor"	
+	female=yes	
+	dynasty=195	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=195
+	mother=2195
+	
+	8279.1.1 = {birth="8279.1.1"}	
+}
+
+3195 = {		
+	name="Hodor"	
+	dynasty=195	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=195
+	mother=2195
+	
+	8277.1.1 = {birth="8277.1.1"}	
+}
+####################
+####House Prester###
+####################
+###Lord###
+196 = {		
+	name="Hodor"	
+	dynasty=196	
+	
+	martial=4
+	
+	add_trait="brave"
+	
+	father=300196
+
+	religion="the_seven"	
+	culture="westerman"
+	
+	8261.1.1 = {birth="8261.1.1"}
+	8277.1.1 = {add_spouse = 2196}	
+}
+2196 = {		
+	name="Hodor"	
+	female=yes
+
+	add_trait="naive_appeaser"
+
+	religion="the_seven"	
+	culture="westerman"
+	
+	8261.1.1 = {birth="8261.1.1"}	
+}
+### The cousin and heir ###	
+	
+1196 = {		
+	name="Hodor"	# this is Garrison's cousin not son. He is heir, ergo Garrison has no children. \Chrisjm89/
+	dynasty=196	
+	
+	martial=10 # he had a good martial head on his shoulders, withdrawing after Robb smashed Jaime's army. Saving 2000 of his host.
+	diplomacy=7
+	stewardship=10
+	intrigue=7
+	learning=8
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=301196
+	
+	add_trait="brave"
+	add_trait="honorable"
+	add_trait="diligent"
+	add_trait="proud"
+	
+	8263.1.1 = {birth="8263.1.1"}
+	8279.1.1 = {
+		add_trait="knight"
+	    add_trait="skilled_tactician" # as per above.
+		add_trait="trained_warrior"
+	}
+	8282.1.1 = {	
+		employer=190 # Tywin
+	}
+	8300.2.9={
+		employer=4190 #Cersei
+	}
+}
+3196 = {		
+	name="Hodor" # Forley's wife.
+	female=yes
+
+	add_trait="naive_appeaser"
+
+	religion="the_seven"	
+	culture="westerman"
+	
+	8262.1.1 = {birth="8262.1.1"}	
+	8278.1.1 = {add_spouse=1196}
+}
+
+### Forley's children ###
+# Unlike Garrison who canonically could not possibly have children... 
+# Forley could have and as it'll increase their family size, I'll add a couple. \Chrisjm89/ 
+
+10196 = {		
+	name="Hodor" # Forley's daughter.
+	dynasty=196
+	female=yes
+	
+	add_trait="twin"
+	
+	mother=3196
+	father=1196
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	8279.1.1 = {birth="8279.1.1"}	
+}
+
+11196 = {		
+	name="Hodor" # Forley's son.
+	dynasty=196
+	
+	add_trait="twin"
+	
+	mother=3196
+	father=1196
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	8279.1.1 = {birth="8279.1.1"}	
+}
+
+####################
+####House Farman####
+####################
+###Lord###
+194 = {		
+	name="Hodor"	
+	dynasty=194	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=300194
+
+	8242.1.1 = {birth="8242.1.1"}
+	8258.1.1 = {add_trait="knight" add_trait="poor_warrior"}
+	8258.1.6 = {add_spouse = 3194}
+	8295.1.1 = {death="8295.1.1"}
+}
+3194 = {		
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"	
+	culture="westerman"
+
+	8242.1.1 = {birth="8242.1.1"}	
+}
+###Children###
+1194 = {		
+	name="Hodor"	
+	female=yes	
+	dynasty=194	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	add_trait = craven
+
+	father = 194
+	mother=3194
+	
+	8264.1.1 = {birth="8264.1.1"}	
+}		
+2194 = {		
+	name="Hodor"		
+	dynasty=194	
+
+	religion="the_seven"	
+	culture="westerman"	
+
+	father = 194
+	mother = 3194	
+
+	8268.1.1 = {birth="8268.1.1"}	
+	8284.1.1 = {add_trait="knight" add_trait="poor_warrior"}
+}
+#####################
+####House Marbrand###
+#####################
+###Lord###
+212 = {		
+	name="Hodor"	
+	dynasty=212	
+
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=300212
+	
+
+	8242.1.1 = {birth="8242.1.1"}
+	8258.1.1 = {
+		add_spouse=316203
+		add_trait = knight
+		add_trait = trained_warrior
+	}
+}
+		
+###Children###
+1212 = {		
+	name="Hodor"		
+	dynasty=212	
+	dna="cffhiwaddfq"
+	properties="0j0eik"
+	
+	martial = 7
+	stewardship = 10
+	diplomacy = 4
+	intrigue = 6
+	learning = 4
+
+	religion="the_seven"	
+	culture="westerman"	
+
+	add_trait = "honest"
+	add_trait = "diligent"
+	add_trait = "brave"
+	add_trait = "gregarious"
+	add_trait = "authoritative"
+	add_trait = "skilled_tactician"
+	add_trait = "cavalry_leader"
+	add_trait = "inspiring_leader"
+	
+	disallow_random_traits = yes
+	
+	father=212
+	mother=316203
+	
+	8262.1.1 = { birth="8262.1.1"}	
+	8276.1.1 = {
+		effect = { add_friend = 3190 } #Jaime
+	}
+	8278.1.1 = {
+		add_trait = "knight"
+		add_trait = "skilled_warrior"		
+	}	
+	8285.1.1 = {
+		add_spouse = 451212
+		employer = 190
+	}
+	8299.7.1 ={
+		employer = 0
+	}
+	8300.1.1 ={
+		employer = 190
+	}
+	8300.2.9={
+		employer = 7316
+	}
+}	
+451212 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="westerman"
+
+	8262.1.1 = { birth="8262.1.1"}	
+}
+2212 = {		
+	name="Hodor"	###Tygets Wife, a Marbrand###
+	female=yes	
+	dynasty=212	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=212
+	mother=316203	
+	
+	8263.1.1 = {birth="8263.1.1"}	
+}		
+3212 = {		
+	name="Hodor"	
+	female=yes	
+	dynasty=212	
+
+	religion="the_seven"	
+	culture="westerman"	
+
+	father=212
+	mother=316203
+
+	8275.1.1 = {birth="8275.1.1"}	
+}
+#Addam's children
+150212 = {		
+	name="Hodor"		
+	dynasty=212	
+	dna="bffhhwaddfq"
+	properties="0j0eik"
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=1212
+	mother=451212
+	
+	8287.1.1 = { birth="8287.1.1"}	
+	8297.1.1 = {
+		add_trait = "poor_warrior"		
+	}	
+}	
+151212 = {		
+	name="Hodor"		
+	dynasty=212	
+	dna="dfghiwaddfq"
+	properties="0j0eik"
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=1212
+	mother=451212
+	
+	8289.1.1 = { birth="8289.1.1"}	
+}
+152212 = {		
+	name="Hodor"		
+	dynasty=212	
+	female = yes
+	dna="dfghiwaddfq"
+	properties="0j0eik"
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=1212
+	mother=451212
+	
+	8290.1.1 = { birth="8290.1.1"}	
+}
+####################
+####House Yarwyck### # Updated \Chrisjm89/
+####################
+###Lord###
+205 = {		
+	name="Hodor"	
+	dynasty=205	
+	
+	father=419205
+	mother=319205
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	8235.1.1 = {birth="8235.1.1"}
+	8251.1.1 = {add_trait="knight" add_trait="trained_warrior"}
+	8257.1.1 = {add_spouse = 2205}
+}
+2205 = {		
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	8235.1.1 = {birth="8235.1.1"}	
+}
+###Son###
+1205 = {		
+	name="Hodor"		
+	dynasty=205
+
+	religion="the_seven"	
+	culture="westerman"
+	
+	martial = 9	
+	diplomacy = 6	
+	intrigue = 6	
+	stewardship = 9	
+	learning = 4	
+
+	
+	father=205
+	mother=2205	
+	
+	8262.1.1 = {birth="8262.1.1"}
+	8276.1.1 = {add_trait="brave"
+	            add_trait="fair"
+	            add_trait="diligent"}
+	8278.1.1 = {add_trait="tough_soldier"
+	            add_trait="skilled_warrior"
+                add_trait="knight"}
+	8280.1.1 = {add_spouse=4204} # Married to a maid of House Foote		
+}
+######################
+####House Sarsfield### # Updated, \Chrisjm89/
+######################
+###Lord###
+233 = {
+	name="Hodor"
+	dynasty=233
+	
+	martial=7
+	
+	father=300233
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	8258.1.1 = {birth="8258.1.1"}
+	8274.1.1 = {
+		add_spouse=1228
+		add_trait = knight
+		add_trait = trained_warrior
+	}
+}
+#4233 = {
+#	name="Hodor" # Null and void. Melwyn Sarsfield is married to Shierle Swyft. \Chrisjm89/
+#	female=yes
+#
+#	add_trait="naive_appeaser"
+	
+#	religion="the_seven"
+#	culture="westerman"
+#	
+#	8258.1.1 = {birth="8258.1.1"}
+#}
+###Children###
+1233 = {
+	name="Hodor"
+	dynasty=233
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	father=233
+	mother=1228
+	
+	8278.1.1 = {birth="8278.1.1"}
+	8294.1.1 = {
+		add_trait = knight
+		add_trait = trained_warrior
+	}
+}
+2233 = {
+	name="Hodor"
+	female=yes
+	dynasty=233
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	father=233
+	mother=1228
+	
+	8280.1.1 = {birth="8280.1.1"}
+}
+3233 = {
+	name="Hodor" 
+	female=yes
+	dynasty=233
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	father=233
+	mother=1228
+	
+	8281.1.1 = {birth="8281.1.1"} # she was originally born when melwyin was 7 years old. Changed \Chrisjm89/
+}
+4233 = {
+	name="Hodor" #Unnamed squire killed by arya
+	dynasty=233
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	father=233
+	mother=1228
+	
+	add_trait = rude
+	add_trait = arbitrary
+	add_trait = wroth
+	
+	8285.1.1 = {birth="8285.1.1"}
+	8295.1.1 = {
+		add_trait = squire
+		add_trait = poor_warrior
+		guardian = 1230 #The Mountain
+	}
+	8300.1.1 = {
+		death = {
+			death_reason = death_duel
+			killer = 9267059 #Arya
+		}
+	}
+}
+##################
+####House Foote### # Updated \Chrisjm89/
+##################
+###Lord###
+204 = {		
+	name="Hodor"	
+	dynasty=204	
+
+	religion="the_seven"	
+	culture="westerman"	
+
+	father=331204
+	mother=431204
+	
+	8234.1.1 = {birth="8234.1.1"}
+	8250.1.1 = {add_trait="knight" add_trait="trained_warrior"}
+	8250.2.1 = {add_spouse = 5204}		
+}
+5204 = {		
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+
+	religion="the_seven"	
+	culture="westerman"		
+
+	8234.1.1 = {birth="8234.1.1"}	
+}
+###Brother###
+332204 = {
+	name="Hodor"	# not a lord
+	dynasty=204
+
+	religion="the_seven"
+	culture="westerman"
+
+	father=331204
+	mother=431204
+
+	8236.1.1 = {birth="8236.1.1"}
+	8252.1.1 = {add_trait="knight" add_trait="trained_warrior"}
+	8289.2.13 = {death = {death_reason = death_battle}}
+}
+###Children###
+4204 = {		
+	name="Hodor"	
+	female=yes	
+	dynasty=204	
+	
+	add_trait="twin"
+
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=204
+	mother=5204	
+	
+	8262.1.1 = {birth="8262.1.1"} # She was originally born in 282 far too young considering her mothers age.	
+}		
+2204 = {		
+	name="Hodor"	
+	dynasty=204	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=204
+	mother=5204		
+	
+	8268.1.1 = {birth="8268.1.1"}
+	8280.1.1 = {add_trait="squire"}
+	8284.1.1 = {remove_trait="squire"
+	            add_trait="knight"
+				add_trait="poor_warrior"}
+	
+}		
+1204 = {		
+	name="Hodor"	
+	dynasty=204	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=204
+	mother=5204		
+	
+	8265.1.1 = {birth="8265.1.1"}
+	8277.1.1 = {add_trait="squire"}
+	8281.1.1 = {remove_trait="squire"
+	            add_trait="knight"
+				add_trait="trained_warrior"}
+}			
+3204 = {		
+	name="Hodor"	
+	female=yes	
+	dynasty=204	
+	
+	add_trait="twin"
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=204
+	mother=5204		
+	
+	8262.1.1 = {birth="8262.1.1"}	
+}
+###Philip Foote's line, Lord of The Marches
+250204 = {
+	name="Hodor"	# not a lord
+	dynasty=204
+
+	religion="the_seven"
+	culture="westerman"
+	
+	father=331204
+	mother=431204
+
+	8236.1.1 = {birth="8236.1.1"}
+	8252.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8254.1.1 = {add_spouse=450204}
+	8288.1.1 = {death="8288.1.1"}
+}
+450204 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="westerman"
+
+	8236.1.1 = {birth="8236.1.1"}
+	8288.1.1 = {death="8288.1.1"}
+}
+251204 = {
+	name="Hodor"	# Lord of the Marches
+	dynasty=204
+
+	religion="the_seven"
+	culture="westerman"
+
+	father=250204
+	mother=450204
+	
+	add_trait=brave
+
+	8265.1.1 = {birth="8265.1.1"}
+	8281.1.1 = {
+		add_trait=knight 
+		add_trait=trained_warrior
+		add_trait = one_eyed
+		add_trait=scarred
+		add_trait=tough_soldier
+	}
+	8283.1.1 = {add_spouse=451204}
+	8299.7.1 = {
+		effect = {
+			set_defacto_liege = ROOT
+			clr_character_flag = neutral
+			set_character_flag = supporting_king
+			clr_character_flag = against_king
+			any_demesne_title = {
+				limit = { 
+					OR = {
+						tier = COUNT
+						tier = DUKE
+					}
+				}				
+				set_variable = { which = "de_facto_kingdom" value = 8 } #stormlands
+			}
+			k_stormlands = {
+				holder_scope = { 
+					opinion = {
+						modifier = opinion_traitor
+						who = ROOT
+					}
+				}
+			}
+			e_iron_throne = {
+				holder_scope = { 
+					ROOT = {
+						join_defender_wars = PREV
+						opinion = {
+							who = PREV
+							modifier = opinion_with_king
+							years = 100
+						}	
+					}
+					opinion = {
+						who = ROOT
+						modifier = opinion_loyal_to_crown
+						years = 5
+					}
+				}
+			}
+		}
+	}
+}
+451204 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="westerman"
+
+	8265.1.1 = {birth="8265.1.1"}
+}
+252204 = {
+	name="Hodor"	# not a lord
+	dynasty=204
+
+	religion="the_seven"
+	culture="westerman"
+
+	father=251204
+	mother=451204
+
+	8295.1.1 = {birth="8295.1.1"}
+	8311.1.1 = {add_trait=skilled_warrior}
+}
+253204 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=204
+
+	religion="the_seven"
+	culture="westerman"
+
+	father=251204
+	mother=451204
+
+	8297.1.1 = {birth="8297.1.1"}
+}
+254204 = {
+	name="Hodor"	# not a lord
+	dynasty=204
+
+	religion="the_seven"
+	culture="westerman"
+
+	father=251204
+	mother=451204
+
+	8298.1.1 = {birth="8298.1.1"}
+	8314.1.1 = {add_trait=trained_warrior}
+}
+
+###################
+####House Garner### # Updated \Chrisjm89/
+###################				
+###Lord###
+214 = {		
+	name="Hodor"	
+	dynasty=214	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=326214
+	mother=426214
+	
+	8242.1.1 = {birth="8242.1.1"}
+	8258.1.1 = {add_spouse = 3214}
+	8258.1.2 = {add_trait="knight" add_trait="poor_warrior"}
+}
+3214 = {		
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	8242.1.1 = {birth="8242.1.1"}	
+}					
+###Children###
+1214 = {		
+	name="Hodor"		
+	dynasty=214	
+
+	religion="the_seven"	
+	culture="westerman"		
+	
+	father=214
+	mother=3214
+	
+	8262.1.1 = {birth="8262.1.1"}
+	8278.1.1 = {add_trait="knight" add_trait="trained_warrior"}
+}		
+2214 = {		
+	name="Hodor"	
+	female=yes	
+	dynasty=214	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father = 214
+	mother=3214	
+	
+	8275.1.1 = {birth="8275.1.1"}	
+}
+#####################
+####House Ruttiger### # Updated \Chrisjm89/
+#####################
+###Lord###
+210 = {		
+	name="Hodor" # a Lord. Canon.
+	dynasty=210	
+
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=325210
+	mother=425210
+	
+	8261.1.1 = {birth="8261.1.1"}
+	8277.1.1 = {add_trait="knight" add_trait="poor_warrior"}
+	8278.1.1 = {add_spouse = 3210}	
+}
+3210 = {		
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+
+	religion="the_seven"	
+	culture="westerman"
+	
+	
+	8261.1.1 = {birth="8261.1.1"}	
+}
+###Children###
+1210 = {		
+	name="Hodor"	
+	female=yes	
+	dynasty=210	
+
+	religion="the_seven"	
+	culture="westerman"
+
+	father=210
+	mother=3210
+	
+	8281.1.1 = {birth="8281.1.1"}	
+}			
+2210 = {		
+	name="Hodor"	
+	dynasty=210	
+
+	religion="the_seven"	
+	culture="westerman"
+
+	father = 210
+	mother=3210
+	
+	8279.1.1 = {birth="8279.1.1"}
+	8289.1.1 = {add_trait="squire"}
+	8295.1.1 = {remove_trait="squire"
+	            add_trait="knight"}
+}			
+######################
+###Unlanded Spicer#### # Updated \Chrisjm89/
+######################
+###Spicer Ancestors###
+10192 = {
+	name="Hodor" # Spice Trader.
+	
+	stewardship=6
+	martial=1
+	diplomacy=3
+	intrigue=4
+	learning=1
+ 
+	religion="the_seven"
+	culture="westerman"
+	
+	add_trait=fortune_builder
+	add_trait=ambitious
+	add_trait=quick
+	
+	8206.1.1 = {
+		birth="8206.1.1"		
+	}
+	8225.1.1 = {
+		add_spouse=11192		
+	}	
+	8235.1.1 = {
+		dynasty=192
+		employer=11199
+	}	
+	8254.1.1 = {death="8254.1.1"}
+}
+11192 = {
+	name="Hodor" # Maggy the frog.
+	female=yes
+	
+	intrigue=11
+	learning=17
+	
+	religion="rhllor"
+	culture="myrman"
+	
+	add_trait="fair"
+ 
+	8205.1.1 = {birth="8205.1.1"}
+	8221.1.1 = {
+		add_trait="mystic"
+	        add_trait="cruel"
+		add_trait="deceitful"
+		add_trait="intricate_webweaver"
+		add_trait="wroth"
+		add_trait="zealous"
+	}
+	8257.1.1 = {
+		give_nickname = nick_the_frog
+	        remove_trait="fair"
+	}
+	8279.1.1 = {death="8279.1.1"}
+}
+##Issue of Randyll##
+192 = {
+	name="Hodor"
+	dynasty=192
+	
+	stewardship=7
+ 
+	religion="the_seven"
+	culture="westerman"
+	
+	father=10192
+	mother=11192
+	
+	add_trait=fortune_builder
+	add_trait=diligent
+ 
+	8235.1.1 = {
+		birth="8235.1.1"
+	}
+	8235.1.1 = {
+		employer=11199
+	}
+	8251.1.1 = {
+		add_trait=knight
+		add_trait=trained_warrior
+	}
+	8254.1.1 = {
+		employer=10199
+	}
+	8264.1.1 = {death="8264.1.1"}
+}
+6192 = {
+	name="Hodor" # Mother of Sybell and Rolph.
+	female=yes
+ 
+	religion="the_seven"
+	culture="westerman"
+	
+	8237.1.1 = {birth="8237.1.1"}
+	8284.1.1 = {death="8284.1.1"}
+}
+150192 = {
+	name="Hodor"
+	dynasty=192
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	father=10192
+	mother=11192
+	
+	8237.1.1 = {
+		birth="8237.1.1"
+	}
+	8237.1.1 = {
+		employer=11199
+	}
+	8253.1.1 = {
+		add_trait=poor_warrior
+	}
+	8254.1.1 = {
+		employer=10199
+	}
+	8260.1.1 = {
+		add_spouse=450192
+	}
+	8273.1.1 = {	
+		employer=199
+	}
+	8287.1.1 = {death="8287.1.1"}
+}
+450192 = {
+	name="Hodor"
+	female=yes
+ 
+	religion="the_seven"
+	culture="westerman"
+	
+	8237.1.1 = {birth="8237.1.1"}
+	8284.1.1 = {death="8284.1.1"}
+}
+##Issue of Rentyn##
+1192 = {
+	name="Hodor" #Wife of Lord Gawen Westerling.
+	female=yes
+	dynasty=192
+	
+	intrigue=6
+ 
+	religion="the_seven"
+	culture="westerman"
+	
+	add_trait=proud
+	add_trait=ambitious
+	add_trait=deceitful
+	add_trait=intricate_webweaver
+	
+	father = 192
+	mother = 6192
+	
+	8258.1.1 = {birth="8258.1.1"} 
+	8258.1.1 = {
+		employer=10199
+	}
+	8273.1.1 = {	
+		employer=199
+	}
+}
+3192 = {
+	name="Hodor" # Given Castamere for part in the Red Wedding
+	dynasty=192
+	
+	stewardship=8
+	martial=2
+	diplomacy=5
+	intrigue=4
+	learning=3
+ 
+	religion="the_seven"
+	culture="westerman"
+ 
+	father=192
+	mother=6192
+	
+	add_trait=deceitful
+	add_trait=proud
+	add_trait=ruthless
+	add_trait=ambitious
+	add_trait=fortune_builder
+ 
+	8259.1.1 = {birth="8259.1.1"}
+	8259.1.1 = {
+		employer=10199
+	}
+	8273.1.1 = {	
+		employer=199
+	}
+	8275.1.1 = {
+		add_trait=knight
+		add_trait=trained_warrior
+	}
+	8299.11.5 = {
+		employer=0
+	}
+}
+##Issue of Garlan##	
+151192 = {
+	name="Hodor"
+	dynasty=192
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	father=150192
+	mother=450192
+	
+	add_trait=tough_soldier
+	
+	8265.1.1 = {
+		birth="8265.1.1"
+	}
+	8265.1.1 = {
+		employer=10199
+	}
+	8273.1.1 = {	
+		employer=199
+	}
+	8281.1.1 = {
+		add_trait=knight
+		add_trait=trained_warrior
+	}
+	8299.11.5 = {
+		employer=3192
+	}
+}
+#################
+###House Lorch###
+#################
+###Founder###
+100207 = {
+	name="Hodor"
+	dynasty=207
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	father=300207
+	
+	8226.1.1 = {birth="8226.1.1"}
+	8242.1.1 = {add_trait="knight"}
+	8242.1.1 = {add_spouse = 101207}
+	8276.1.1 = {death="8276.1.1"}
+}
+101207 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	8226.1.1 = {birth="8226.1.1"}
+	8276.1.1 = {death="8276.1.1"}
+}
+###The Amory Lorch###
+207 = {
+	name="Hodor"
+	dynasty=207
+	
+	martial = 7
+	diplomacy = 4
+	intrigue = 4
+	stewardship = 4
+	learning = 3
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	add_trait="cruel"
+	add_trait="misguided_warrior"
+	add_trait="proud"
+	add_trait="ruthless"
+	add_trait="craven"
+	
+	father=100207
+	mother=101207
+	
+	8242.1.1 = {birth="8242.1.1"}
+	8258.1.1 = {
+		add_trait="poor_warrior"
+		add_trait="knight"
+	}
+				
+	8268.1.1 = {add_spouse = 102207}
+	8284.1.1 = { 
+		effect = {
+			k_dorne = {
+				holder_scope = {
+					any_dynasty_member = {
+						limit = { is_alive = yes }
+						opinion = {
+							who = ROOT
+							modifier = opinion_vengeance
+						}
+					}
+				}
+			}
+		}	
+	}
+	8299.6.1={
+		# Fed to the bear by the Goat (Hoat)
+		death = {
+			death_reason = death_execution_bear
+			killer = 80012560
+		}
+	}
+}
+102207 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	8252.1.1 = {birth="8252.1.1"}
+}
+###his Daughter###
+2207 = {
+	name="Hodor"
+	female=yes
+	dynasty=207
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	father=207
+	mother=102207
+	
+	8273.1.1 = {birth="8273.1.1"}
+	8296.1.1 = {death = {death_reason = death_accident} } # I've killed her here because Lorent became the new Head of House Lorch after Amory's death. \Chrisjm89/
+}
+###Brother###
+1207 = {
+	name="Hodor" #Landed Knight. Becomes Lord after Amory's death. \Chrisjm89/
+	dynasty=207
+	
+	martial = 6
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	
+	father=100207
+	mother=101207
+	
+	8253.1.1 = {birth="8253.1.1"}
+	8269.1.1 = {add_trait="tough_soldier"
+	            add_trait="trained_warrior"
+	            add_trait="knight"}
+}
+###Brothers wife###
+103207 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	8256.1.1 = {birth="8256.1.1"}
+	8274.1.1 = {add_spouse=1207}
+}
+###Lorent's child### # So they don't die out quickly.
+104207 = {
+	name="Hodor"
+	dynasty=207
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	father=1207
+	mother=103207
+	
+	8277.1.1 = {birth="8277.1.1"}
+}
+60000207 = {
+	name="Hodor"
+	dynasty=207
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	father=1207
+	mother=103207
+	
+	8279.1.1 = {birth="8279.1.1"}
+}
+##################
+####House Plumm###
+##################
+###Lord###
+20266 = {		
+	name="Hodor"
+	dynasty=226	
+	
+	martial=10 # gave him a martial trait on par with his youngest son, who's a master swordsman at nine years of age... \Chrisjm89/
+	
+	
+	father=300226
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	8252.1.1 = {birth="8252.1.1"}
+	8268.1.1 = {add_trait="knight"}
+	8268.1.1 = {add_spouse = 21266}
+}
+60000266 = {		
+	name="Hodor"
+	dynasty=226	
+	
+	martial=10 #
+	
+	
+	father=300226
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	8254.1.1 = {birth="8254.1.1"}
+	8270.1.1 = {add_trait="knight"}
+}
+21266 = {		
+	name="Hodor"
+	female=yes
+	
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	8252.1.1 = {birth="8252.1.1"}	
+}
+22266 = {		
+	name="Hodor" #He is a big man with a thick neck who is quick to anger and quick to forgive.
+	dynasty=226	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=20266
+	mother=21266
+	
+	add_trait=strong
+			
+	8270.1.1 = {birth="8270.1.1"}
+	8280.1.1 = {
+		add_trait=squire
+		add_trait=kind
+	}
+	8281.1.1 = {
+		add_trait=poor_warrior
+	    add_trait=wroth
+	}
+	8286.1.1 = {
+		remove_trait=squire
+		remove_trait=poor_warrior
+		add_trait=knight
+		add_trait=trained_warrior
+	}
+}
+23266 = {		
+	name="Hodor"
+	dynasty=226	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=20266
+	mother=21266
+	
+	add_trait=strong
+	add_trait=wroth
+	add_trait=kind
+	
+	8272.1.1 = {birth="8272.1.1"}
+	8282.1.1 = {add_trait="squire"}
+	8288.1.1 = {
+		remove_trait="squire"
+	    add_trait="knight"
+		add_trait=trained_warrior
+	}
+}
+24266 = {		
+	name="Hodor" #He is hard-eyed and taciturn, unforgiving and deadly. He uses a warhammer. ## Updated \Chrisjm89/
+	dynasty=226	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=20266
+	mother=21266
+	
+	add_trait="strong"	
+	add_trait="wroth"
+	add_trait="proud"
+	add_trait="brave"
+	add_trait="tough_soldier"
+	add_trait="cynical"
+	add_trait="cruel"
+	add_trait="selfish"
+	
+	8273.1.1 = {birth="8273.1.1"}
+	8283.1.1 = {add_trait="squire"}
+	8286.1.1 = {
+		add_trait="trained_warrior"	   
+	}
+	8289.1.1 = {
+		remove_trait="trained_warrior"
+	    remove_trait="squire"       
+	    add_trait="knight"
+		add_trait="skilled_warrior"
+	}
+	8294.1.1 = {
+		remove_trait="skilled_warrior"
+	    add_trait="master_warrior"
+   	    give_nickname = nick_hardstone  # I've moved his 'nick' to when his older. I doubt he'll get us a Nickname at age seven. \Chrisjm89/
+	} 
+	8300.3.1 = {
+		effect = {
+			c_darry = {
+				holder_scope = { ROOT = { move_character = PREV } }
+			}
+		}
+	}
+}
+###Plumms in Essos###
+602226 = {		
+	name="Hodor" # Brown Ben Plumm
+	dynasty=226	
+	
+	dna="dmfiilidacw"
+	properties="ac00fd00000"
+	
+	father=601226 # Bannon Plumm
+	mother=403226 # Ellyia
+	
+	diplomacy=6
+	martial=8
+	learning=8
+	intrigue=5
+
+	religion="the_seven"	
+	culture="dothraki"
+	
+	8246.1.1 = {
+		birth="8246.1.1"
+		effect = { culture = westerman }
+	}
+	8268.1.1 = {add_trait="skilled_warrior" add_trait="ruthless" add_trait="arbitrary"}
+	8282.1.1 = {employer=1660000} # Mero the Titan's Bastard
+	8288.1.1 = {add_trait="cynical" add_trait="ambitious" add_trait="deceitful" add_trait="greedy"}
+	##8300.2.12 = ##{employer=} ##Yunkish 
+	8302.1.1 = {death="8302.1.1"}
+}
+###
+###House Westford
+###
+2158 = {
+	name="Hodor"
+	dynasty=2158
+
+	religion="the_seven"
+	culture="westerman"
+	
+	father=3022158
+	
+	8226.1.1 = { birth = "8226.1.1" }
+	8280.1.1 = { death = "8280.1.1" }
+}
+4202158 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="westerman"
+	
+	
+	8227.1.1 = { birth = "8227.1.1" }
+	8251.1.1 = { death = "8251.1.1" }
+}
+12158 = {
+	name="Hodor"
+	dynasty=2158
+
+	dna="yugwsvrpvnp"
+	properties="cl0j0k0a00"
+	
+	martial = 9
+	diplomacy = 4
+	intrigue = 2
+	stewardship = 6
+	learning = 5
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	add_trait = "trusting"
+	add_trait = "brave"
+	add_trait = "just"
+	add_trait = "honest"
+	add_trait = "content"
+	add_trait = "strong"
+	add_trait = "stubborn"
+	add_trait = "dog"
+	
+	father = 2158
+	mother = 4202158
+	
+	8249.1.1 = { birth = "8249.1.1" }
+	8268.1.1 = {add_trait = "knight"
+	            add_trait = "tough_soldier"
+	            add_trait = "skilled_warrior"}
+	8273.1.1 = { add_spouse = 22158 }
+	8282.1.1 = { 
+		add_trait = "scarred"
+		give_nickname = nick_butcher
+	}
+	8284.1.1 = {
+		add_trait="nightswatch"
+	}
+}
+22158 = {
+	name="Hodor"
+	female = yes
+
+	religion="the_seven"
+	culture="westerman"
+	
+	8255.1.1 = { birth = "8255.1.1" }
+	8284.1.1 = { death = "8284.1.1" }
+}
+32158 = {
+	name="Hodor"
+	dynasty=2158
+	female = yes
+
+	religion="the_seven"
+	culture="westerman"
+	
+	father = 12158
+	mother = 22158
+	
+	8276.1.1 = { birth = "8276.1.1" }
+	8284.1.1 = { death = "8284.1.1" }
+}
+###################
+###House Sarwyck###
+###################
+
+###OVER-FATHER### # until ancestors are done. Needed to link Ryman with the rest of his family. \Chrisjm89/
+72159 = {
+	name="Hodor"
+	dynasty=2159
+	
+	father=3002159
+
+	religion="the_seven"
+	culture="westerman"
+	
+	8223.1.1 = {birth = "8223.1.1"}
+	8239.1.1 = {add_trait="knight"}
+	8241.1.1 = {add_spouse=82159}
+	8277.1.1 = {death = "8277.1.1"}
+}
+82159 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="westerman"
+	
+	8226.1.1 = {birth="8226.1.1"}
+	8274.1.1 = {death="8274.1.1"}
+}
+###The Lord###
+2159 = {
+	name="Hodor"
+	dynasty=2159
+
+	religion="the_seven"
+	culture="westerman"
+	
+	father=72159
+	mother=82159
+	
+	8243.1.1 = {birth = "8243.1.1"} # made him older, so the age fits with his brother and his 'canon' nephew. \Chrisjm89/
+	8262.1.1 = {add_spouse = 12159}
+	8285.1.1 = {
+		add_trait = "stressed"
+		add_trait = "depressed"
+	}
+	8297.1.1 = { death = "8297.1.1" }
+}
+###The Wife###
+12159 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="westerman"
+	
+	8246.1.1 = {birth="8246.1.1"}
+	8274.1.1 = {death="8274.1.1"}
+}
+###Children###
+22159 = {
+	name="Hodor"
+	dynasty=2159
+
+	dna="cdkmdtgdgbj"
+	properties="ce0cck0000"
+	
+	martial = 9
+	diplomacy = 7
+	intrigue = 3
+	stewardship = 6
+	learning = 7
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	mother=12159
+	father=2159
+	
+	add_trait = "skilled_tactician"
+	add_trait = "skilled_warrior"
+	add_trait = "charitable"
+	add_trait = "kind"
+	add_trait = "deceitful"
+	add_trait = "brave"
+	add_trait = "just"
+	add_trait = "chaste"
+	
+	8263.1.1 = { birth = "8263.1.1" }
+	8279.1.1 = { add_trait = "knight" }
+	8285.1.1 = { add_trait = "depressed" }
+	8286.1.1 = { religion = "rhllor" }
+	8298.1.1 = { death = "8298.1.1" }
+}
+32159 = {
+	name="Hodor"
+	female=yes
+	dynasty=2159
+
+	diplomacy = 5
+	intrigue = 6
+	stewardship = 3
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	mother=12159
+	father=2159
+	
+	add_trait = "underhanded_rogue"
+	
+	8271.1.1 = {birth="8271.1.1"}
+	8297.11.1 = {
+		death = {
+			#Killed by Valarr Hill
+			death_reason = death_murder 
+			killer = 52159
+		}
+	}
+}
+42159 = {
+	name="Hodor"
+	dynasty=2159
+
+	diplomacy = 4
+	intrigue = 4
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	mother=12159
+	father=2159
+	
+	8274.1.1 = {birth="8274.1.1"}
+	8297.1.1 = {add_trait="kinslayer" }
+	8297.10.1 = {death="8297.10.1"}
+}
+52159 = {
+	name="Hodor"
+	dynasty=2159
+
+	martial = 8	
+	diplomacy = 6	
+	intrigue = 9	
+	stewardship = 3	
+	learning = 7
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	mother=12159
+	father=2159
+	
+	add_trait = "bastard"
+	add_trait = "cruel"
+	add_trait = "cynical"
+	add_trait = "intricate_webweaver"
+	add_trait = "skilled_warrior"
+	add_trait = "quick"
+	add_trait = "greedy"
+	add_trait = "ambitious"
+	add_trait = "proud"
+	
+	give_nickname = nick_hill
+	
+	8265.1.1 = { birth = "8265.1.1" }
+	8280.1.1 = { add_trait = "knight" }
+	8286.1.1 = { add_trait = "mystic" }
+	8298.1.1 = { death = "8298.1.1" }
+}
+
+###The Nephew###
+102159 = {
+	name="Hodor" # Raynald's uncle. Ryman's father.
+	dynasty=2159
+
+	martial = 7
+	
+	father=72159
+	mother=82159
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	8244.1.1 = {birth="8244.1.1"}
+	8260.1.1 = {add_trait="knight"}
+	8279.1.1 = {death="8279.1.1"}
+}
+62159 = {
+	name="Hodor" # Raynald's nephew according to french wiki.
+	dynasty=2159
+
+	martial = 7
+	
+	father=102159
+	
+	add_trait = "stubborn"
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	8260.1.1 = {birth="8260.1.1"} # made him older so succession is correct. His father can't be older than Raynard so Ryman can't be born in 256AL.
+	8276.1.1 = {add_trait="knight"
+	            add_trait = "tough_soldier"}
+}
+###
+###House Bettley
+###
+###The lord
+206 = {
+	name="Hodor"
+	dynasty=206
+	
+	religion="the_seven"
+	culture="westerman"
+
+	father=6206
+	mother=7206
+	
+	8231.1.1 = {birth="8231.1.1"}
+	8247.1.1 = {add_trait="knight"}
+	8282.1.1 = {add_spouse = 5206}
+}
+5206 = {
+	name="Hodor"
+	female=yes
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	8231.1.1 = {birth="8231.1.1"}
+	8247.1.1 = {add_trait="naive_appeaser"}
+}
+###his Children###
+4206 = {
+	name="Hodor"
+	female=yes
+	dynasty=206
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	father=206
+	mother=5206
+	
+	8266.1.1 = {birth="8266.1.1"}
+}
+1206 = {
+	name="Hodor"
+	dynasty=206
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	father=206
+	mother=5206
+	
+	8251.1.1 = {birth="8251.1.1"}
+}
+2206 = {
+	name="Hodor" #Beardless Jon
+	dynasty=206
+	
+	religion="the_seven"
+	culture="westerman"
+
+	father=206
+	mother=5206
+	
+	8254.1.1 = {birth="8254.1.1"}
+	8270.1.1 = {add_trait="tough_soldier" add_trait="trained_warrior" add_trait="knight"}
+}
+3206 = {
+	name="Hodor"
+	dynasty=206
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	father=206
+	mother=5206
+	
+	8260.1.1 = {birth="8260.1.1"}
+}
+###
+###House Clifton
+###
+###The lord
+4409 = {
+	name="Hodor" # Canon, married to Jayne Farman.
+	dynasty=174409
+	
+	religion="the_seven"
+	culture="westerman"
+
+	father=1114409
+	
+	8254.1.1 = {birth="8254.1.1"}
+	8272.1.1 = {add_trait="knight"}
+	8282.1.1 = {add_spouse = 1194}
+}
+14409 = {
+	name="Hodor" # Canon, one of Margaery's accused lovers.
+	dynasty=174409
+	
+	religion="the_seven"
+	culture="westerman"
+
+	father=1114409
+	
+	8268.1.1 = {birth="8268.1.1"}
+	8290.1.1 = {add_trait="knight"}
+}
+64409 = {
+	name="Hodor" # Sworn to Stannis
+	dynasty=174409
+	
+	religion="the_seven"
+	culture="westerman"
+
+	father=1114409
+	
+	8270.1.1 = {birth="8270.1.1"}
+	8286.1.1 = {
+		add_trait=knight
+		add_trait=trained_warrior
+		employer=4317
+		effect = {
+			c_dragonstone = {
+				holder_scope = { ROOT = { move_character = PREV } }
+			}
+		}
+	}	
+	8299.1.1 = {
+		effect = {
+			religion="rhllor"
+		}
+	}
+}
+###his Children###
+24409 = {
+	name="Hodor"
+	dynasty=174409
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	father=4409
+	mother=1194
+	
+	8285.1.1 = {birth="8285.1.1"}
+}
+34409 = {
+	name="Hodor"
+	dynasty=174409
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	father=4409
+	mother=1194
+	
+	8286.1.1 = {birth="8286.1.1"}
+}
+44409 = {
+	name="Hodor"
+	dynasty=174409
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	father=4409
+	mother=1194
+	
+	8290.1.1 = {birth="8290.1.1"}
+}
+54409 = {
+	name="Hodor"
+	female=yes
+	dynasty=174409
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	father=4409
+	mother=1194
+	
+	8294.1.1 = {birth="8294.1.1"}
+}
+###
+###House Moreland
+###
+###The lord
+100209 = {
+	name="Hodor" # Canon, was in Lord Tywin's funeral party.
+	dynasty=209
+	
+	religion="the_seven"
+	culture="westerman"
+
+	father=23209
+	
+	8265.1.1 = {birth="8265.1.1"}
+	8280.1.1 = {add_trait="knight"}
+}
+###
+###House Hetherspoon
+###
+###The lord
+14414 = {
+	name="Hodor" # Canon, Knight in service to Tywin.
+	dynasty=174414
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	8245.1.1 = {birth="8245.1.1"}
+	8266.1.1 = {employer = 190}
+	8271.1.1 = {add_trait="knight"}
+}
+24414 = {
+	name="Hodor" # Cersei's friend, fell down a well.
+	female=yes
+	dynasty=174414
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	add_trait=brave
+	add_trait=fair
+	
+	father=14414
+	
+	8264.6.1 = {birth="8264.6.1"}
+	8276.1.1 = {
+		death= {
+			death_reason = death_murder_unknown
+			killer = 4190
+		} 
+	}
+}
+###
+###House Doggett
+###
+###The lord
+1134362 = {
+	name="Hodor"
+	dynasty=174362
+	
+	religion="the_seven"
+	culture="westerman"
+
+	father=1124362
+	
+	8247.1.1 = {birth="8247.1.1"}
+	8274.1.1 = {add_trait="knight"}
+}
+#######################
+####House Stackspear###
+#######################	
+###The Lord###
+202 = {		
+	name="Hodor"		
+	dynasty=202	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father=5202
+	
+	8251.1.1 = {birth="8251.1.1"}
+	8267.1.1 = {
+		add_trait=knight
+		add_trait=trained_warrior
+	}	
+	8279.1.1 = {add_spouse = 4202}
+}		
+###Children###
+1202 = {		
+	name="Hodor"	
+	dynasty=202	
+	
+	religion="the_seven"	
+	culture="westerman"	
+	
+	father = 202	
+	mother = 4202
+	
+	8276.1.1 = {birth="8276.1.1"}	
+	8292.1.1 = {
+		add_trait=knight
+		add_trait=trained_warrior
+	}	
+}
+3202 = {		
+	name="Hodor"	
+	female=yes	
+	dynasty=202	
+	
+	religion="the_seven"	
+	culture="westerman"	
+
+	father = 202	
+	mother = 4202
+	
+	8278.1.1 = {birth="8278.1.1"}	
+}
+2202 = {		
+	name="Hodor"		
+	dynasty=202	
+	
+	religion="the_seven"	
+	culture="westerman"	
+
+	father = 202	
+	mother = 4202
+	
+	8280.1.1 = {birth="8280.1.1"}
+	8296.1.1 = {
+		add_trait=knight
+		add_trait=trained_warrior
+	}	
+}		
+#######################
+####House Kyndall###
+#######################	
+132802042 = {
+	name="Hodor"	# a lord
+	dynasty=802042
+
+	religion="the_seven"
+	culture="westerman"
+
+	father=130802042
+	mother=430802042
+
+	8241.1.1 = {birth="8241.1.1"}
+	8257.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8259.1.1 = {add_spouse=432802042}
+}
+432802042 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="westerman"
+
+	8241.1.1 = {birth="8241.1.1"}
+}
+133802042 = {
+	name="Hodor"	# not a lord
+	dynasty=802042
+
+	religion="the_seven"
+	culture="westerman"
+
+	father=130802042
+	mother=430802042
+
+	8243.1.1 = {birth="8243.1.1"}
+	8259.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8261.1.1 = {add_spouse=433802042}
+}
+433802042 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="westerman"
+
+	8243.1.1 = {birth="8243.1.1"}
+}
+134802042 = {
+	name="Hodor"	# not a lord
+	dynasty=802042
+
+	religion="the_seven"
+	culture="westerman"
+
+	father=132802042
+	mother=432802042
+
+	8274.1.1 = {birth="8274.1.1"}
+	8290.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8292.1.1 = {add_spouse=434802042}
+}
+434802042 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="westerman"
+
+	8274.1.1 = {birth="8274.1.1"}
+}
+135802042 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=802042
+
+	religion="the_seven"
+	culture="westerman"
+
+	father=132802042
+	mother=432802042
+
+	8276.1.1 = {birth="8276.1.1"}
+}
+136802042 = {
+	name="Hodor"	# not a lord
+	dynasty=802042
+
+	religion="the_seven"
+	culture="westerman"
+
+	father=134802042
+	mother=434802042
+
+	8298.1.1 = {birth="8298.1.1"}
+	8314.1.1 = {add_trait=knight add_trait=trained_warrior}
+}
+137802042 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=802042
+
+	religion="the_seven"
+	culture="westerman"
+
+	father=134802042
+	mother=434802042
+
+	8299.1.1 = {birth="8299.1.1"}
+}
+138802042 = {
+	name="Hodor"	# not a lord
+	dynasty=802042
+
+	religion="the_seven"
+	culture="westerman"
+
+	father=133802042
+	mother=433802042
+
+	8261.1.1 = {birth="8261.1.1"}
+	8277.1.1 = {add_trait=knight add_trait=trained_warrior}
+}
+139802042 = {
+	name="Hodor"	# not a lord
+	dynasty=802042
+
+	religion="the_seven"
+	culture="westerman"
+
+	father=133802042
+	mother=433802042
+
+	8262.1.1 = {birth="8262.1.1"}
+	8278.1.1 = {add_trait=knight add_trait=poor_warrior}
+}
+	
+
+###
+###Minor Characters
+###
+2009140 = {	
+	#Septa Saranella, explained the meaning of 'valonqar' to Cersei		
+	name="Hodor"
+	female=yes	
+	
+	religion="the_seven"	
+	culture="westerman"
+
+	8230.1.1 = {
+		birth="8230.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8246.1.1 = {
+		add_trait="septa"
+		add_trait="scholarly_theologian"
+	}
+	8266.1.1 = {
+		add_trait="scholar"
+		employer = 190
+	}		
+    	8287.1.1 = {death="8287.1.1"} 
+}

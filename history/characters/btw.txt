@@ -1,0 +1,1292 @@
+# Audax Validator EnableCommentMetadata
+# Audax Validator "!" Ignore_2001
+
+174344 = {
+	name="Hodor"
+	dynasty=174344
+	properties="g00e0k"
+
+	martial = 8
+	
+	religion="thenn_rel"
+	culture="thenn"
+
+	father=112344
+	
+	add_trait="cruel"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	
+	8252.1.1 = {birth="8252.1.1"}
+	8266.1.1 = {
+		add_trait="trained_warrior"
+	}
+	8299.11.11 = {death="8299.11.11"}
+}
+
+274344 = {
+	name="Hodor"
+	dynasty=174344
+	properties="gs0e0k"
+	
+	religion="thenn_rel"
+	culture="thenn"
+
+	martial = 6
+	
+	add_trait="patient"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	
+	father=174344
+	
+	8272.1.1 = {birth="8272.1.1"}
+	8286.1.1 = {
+		add_trait="trained_warrior"
+	}
+	8300.3.1 = {
+		employer=1002059 #jon
+		dynasty=1174344 # House Thenn
+		add_spouse=5089 #Alys Karstark
+		effect = { 
+			character_event = { id = feast_for_crows.31 days = 1 } #Thenn choice event
+		}
+	}
+}
+
+174345 = {
+	name="Hodor"
+	dynasty=174345
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+  	dna="ailgi0dag00"
+ 	properties="djajbk00000"
+
+	martial = 8
+	
+	add_trait="strong"
+	add_trait="drunkard"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	
+	8252.1.1 = {birth="8252.1.1"}
+	8266.1.1 = {
+		add_trait="skilled_warrior"
+	}
+	8279.1.1 = {give_nickname = nick_giantsbane}
+	8300.3.1 = { employer = 1002059 } #Jon
+}
+274345 = {
+	name="Hodor"
+	dynasty=174345
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	add_trait="patient"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="tall"
+	
+	father=174345
+	
+	8272.1.1 = {birth="8272.1.1"}
+	8286.1.1 = {
+		add_trait="trained_warrior"
+		give_nickname = nick_the_tall
+	}
+}
+374345 = {
+	name="Hodor"
+	dynasty=174345
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	add_trait="patient"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	
+	father=174345
+	
+	8274.1.1 = {birth="8274.1.1"}
+	8288.1.1 = {
+		add_trait="trained_warrior"
+	}
+	8300.2.10 = {
+		death="8300.2.10"
+	}
+}
+474345 = {
+	name="Hodor"
+	dynasty=174345
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	add_trait="patient"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	
+	father=174345
+	
+	8290.1.1 = {birth="8290.1.1"}
+	8299.1.1 = {
+		add_trait="poor_warrior"
+	}
+}
+574345 = {
+	name="Hodor"
+	dynasty=174345
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	add_trait="patient"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	
+	father=174345
+	
+	8277.1.1 = {birth="8277.1.1"}
+	8291.1.1 = {
+		add_trait="trained_warrior"
+	}
+	8300.2.10 = {
+		death = {
+			death_reason = death_battle
+			killer = 2000311 #Richard Horpe
+		}
+	}
+}
+574346 = {
+	name="Hodor"
+	dynasty=174345
+	female = yes
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	add_trait="patient"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	
+	father=174345
+	
+	8278.1.1 = {birth="8278.1.1"}
+	8292.1.1 = {
+		add_trait="trained_warrior"
+	}
+}
+574347 = {
+	name="Hodor"
+	dynasty=174346
+
+	martial=6
+
+	dna="blaak0kjg00"
+ 	properties="djjkg00000"
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+		
+	add_trait="cruel"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="deceitful"
+	
+	8259.1.1 = {birth="8259.1.1"}
+	8263.1.1 = {
+		add_trait="trained_warrior"
+	}
+	8279.1.1 = {give_nickname = nick_rattleshirt}
+}
+574348 = {
+	name="Hodor"
+	
+	dna="behhf0dhg00"
+ 	properties="ch0qck0000"
+
+	martial=7
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	employer=157004
+	
+	add_trait="brave"
+	add_trait="diligent"
+	add_trait="tough_soldier"
+	
+	8273.1.1 = {
+		birth="8273.1.1"
+		effect = {  
+			dynasty = none
+		}
+	}
+	8286.1.1 = {
+		add_trait="trained_warrior"
+	}
+	8299.11.11 = {death="8299.11.11"}
+}
+574349 = {
+	name="Hodor"
+	female=yes
+
+	dna="babba0fad00"
+ 	properties="cc0a0k0000"
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	employer=157004
+	
+	add_trait="underhanded_rogue"
+	#add_trait="fair"
+	add_trait="diligent"
+	add_trait="lustful"
+	add_trait="brave"
+	add_trait="zealous"
+	
+	8280.1.1 = {
+		birth="8280.1.1"
+		effect = {  
+			dynasty = none
+		}
+	}
+	8294.1.1 = {
+		add_trait="trained_warrior"
+	}
+	8299.1.1 = {
+		effect = { c_1002059 = { add_lover = ROOT } }
+	} 
+	8299.11.11 = {death="8299.11.11"}
+}
+574800 = {	
+ 	name="Hodor"
+	dynasty = 174348	
+	dna="cakefzeedaz"
+	properties="ce0dck"
+
+	martial = 8
+	diplomacy = 5
+	intrigue = 9
+	stewardship = 4
+	learning = 5
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+		
+	add_trait="tough_soldier"
+	add_trait="brave"
+	add_trait="envious"
+	add_trait="wroth"
+	add_trait="proud"
+	add_trait="ambitious"
+	add_trait="authoritative"
+
+	father=521359
+
+	8256.1.1 = { birth="8256.1.1"}	
+	8272.1.1 = { 
+		add_trait=trained_warrior
+	}
+	8300.1.1 = {
+		dynasty=1174345 # House Redbeard
+	}	
+}
+574801 = {
+	name="Hodor"
+	dynasty=174348
+	female = yes
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	add_trait="tough_soldier"
+	
+	father=574800
+	
+	8274.1.1 = {birth="8274.1.1"}
+	8290.1.1 = { 
+		add_trait=trained_warrior
+	}
+	8300.1.1 = {
+		dynasty=1174345 # House Redbeard
+	}	
+}
+574802 = {
+	name="Hodor"
+	dynasty=174348
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	add_trait="tough_soldier"
+	
+	father=574800
+	
+	8275.1.1 = {birth="8275.1.1"}
+	8291.1.1 = { 
+		add_trait=trained_warrior
+	}
+	8300.1.1 = {
+		dynasty=1174345 # House Redbeard
+	}	
+}
+574803 = {
+	name="Hodor"
+	dynasty=174348
+	female = yes
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	add_trait="tough_soldier"
+	
+	father=574800
+	
+	8278.1.1 = {birth="8278.1.1"}
+	8294.1.1 = { 
+		add_trait=trained_warrior
+	}
+	8300.1.1 = {
+		dynasty=1174345 # House Redbeard
+	}	
+}
+5748030 = {
+	name="Hodor"
+	dynasty=174348
+	female = yes
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	add_trait="tough_soldier"
+	
+	father=574800
+	
+	8279.1.1 = {birth="8279.1.1"}
+	8295.1.1 = { 
+		add_trait=trained_warrior
+	}
+	8300.1.1 = {
+		dynasty=1174345 # House Redbeard
+	}	
+}
+
+174347 = {
+	name = "Mance"
+	dynasty = 174347
+	dna="amcihogjeaw"
+	properties="0n00h"
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	martial = 10
+	diplomacy = 4
+	stewardship = 3
+	intrigue = 7
+	learning = 4
+	
+	add_trait="grey_eminence"
+	add_trait="quick"
+	add_trait="strong"
+	add_trait="poet"
+	add_trait="gregarious"
+	add_trait="proud"
+	add_trait="ambitious"
+	add_trait="inspiring_leader"
+	add_trait="trickster"
+	
+	8256.1.1 = {
+		birth = "8256.1.1"	
+		effect = {
+			if = {
+				limit = { 
+					NOT = { trait = wildling } 
+					is_ruler = no
+				}
+				d_nightswatch = { holder_scope = { ROOT = { move_character = PREV } } }
+			}
+		}
+	}
+	
+	8267.1.1 = {
+		add_trait = "poor_warrior"
+	}
+	
+	8273.1.1 = {
+		remove_trait = "poor_warrior"
+		add_trait = "trained_warrior"
+	}
+	8282.1.1 = {
+		remove_trait="trained_warrior"
+		add_trait="skilled_warrior"
+		add_trait = "nightswatch"	
+		effect = {
+			add_character_modifier = {
+				name = nw_ranger
+				duration = -1
+			}
+		}
+	}
+	8288.1.1 = {
+		remove_trait="skilled_warrior"
+		add_trait="master_warrior"
+	}
+	8292.1.1 = {
+		remove_trait = "nightswatch"
+		add_trait = "deserter"
+		add_trait = "wildling"
+		employer=0
+		effect = {
+			remove_character_modifier = nw_ranger
+		}
+	}
+
+	8295.1.1 = {add_spouse=57000} #Dalla
+	
+	8299.2.1 = {
+		raise_levies = {
+			location = 3 #Northern Frostfangs
+			force_mult = 1
+		}
+		effect = {
+			if = {	
+				limit = {
+					NOT = { year = 8300 }
+					NOT = { month = 10 }		
+				}
+				set_character_flag = giants_hired
+				spawn_unit = {
+					province = 3 #Northern Frostfangs
+					scaled_by_biggest_garrison = 2
+					owner = ROOT
+					leader = 174347 #Tormund Giantsbane
+					troops = {
+						archers = { 5 5 }
+						heavy_infantry = { 15 15 }
+						light_infantry = { 45 45 }	
+						light_cavalry = { 2 2 }							
+					}
+					attrition = 1.0
+				}
+			}	
+		}
+	}
+	8299.11.1 = {
+		raise_levies = {
+			dismiss = yes
+			location = 3 #Northern Frostfangs
+			force_mult = 1
+		}
+		effect = {
+			clr_character_flag = giants_hired
+		}
+	}
+	8300.3.1 = {
+		employer=4317
+		add_claim=k_beyond_wall
+		effect = {
+			set_character_flag = captured_in_battle
+			k_stormlands = {
+				holder_scope = {
+					ROOT = { imprison = PREV }
+				}
+			}
+		}
+	}
+}
+57000 = {
+	name="Hodor"
+	female=yes
+	father=57002
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	dna="adbgc0igab0"
+	properties="eo0egkbebcb"
+	
+	diplomacy = 17
+	
+	add_trait="fair"
+	add_trait="brave"
+	
+	8279.1.1 = {birth="8279.1.1"}
+	8300.3.1 = {
+		death = {
+			death_reason = death_childbirth
+		}
+	}
+}
+57001 = {
+	name="Hodor"
+	female=yes
+	father=57002
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling" 
+		
+	dna="ajkfdyjefbi"
+	properties="at0bq"
+	
+	diplomacy = 9
+	martial = 8
+	stewardship = 9
+	intrigue = 7
+	learning = 6
+	
+	add_trait="fair"
+	add_trait="brave"
+	add_trait="wildling"
+	add_trait="diligent"
+	add_trait="proud"
+	add_trait="honest"
+	
+	8279.1.1 = {
+		birth="8279.1.1"
+		effect = { 
+			set_graphical_culture="valeman" #to get the right portrait
+		}
+		employer = 119559122 # Get her out of the Vale
+	}
+	8292.1.1 = {
+		add_trait=trained_warrior
+		add_trait="charismatic_negotiator"
+	}
+	8300.3.1 = {
+		employer=4317
+		effect = {
+			set_character_flag = captured_in_battle
+			set_character_flag = val_wildling
+			k_stormlands = {
+				holder_scope = {
+					ROOT = { imprison = PREV }
+				}
+			}
+		}
+	}
+}
+57050 = {
+	name="Hodor"
+	dynasty = 174347
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	father=174347
+	mother=57000
+	employer=4317
+	
+	add_trait = "wildling"
+	add_trait = "strong"
+
+	8300.3.1 = {
+		birth="8300.3.1"
+		add_claim=k_beyond_wall
+		effect = {
+			set_character_flag = captured_in_battle
+			k_stormlands = {
+				holder_scope = {
+					ROOT = { imprison = PREV }
+				}
+			}
+		}
+	}
+}
+57002 = {
+	name="Hodor" #non cannon
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	8256.1.1 = {birth="8256.1.1"}
+	8295.3.11 = {death="8295.3.11"}
+}
+57003 = {
+	name="Hodor"
+	female=yes
+	father=570003
+	
+	martial=7
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	add_trait="cruel"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	add_trait="deceitful"
+	
+	employer=157001
+	give_nickname = nick_the_dogshead
+	
+	8270.1.1 = {birth="8270.1.1"}
+	8299.11.11 = {death="8299.11.11"}
+	8299.11.11 = {employer=174347}
+}
+57004 = {
+	name="Hodor"
+	father=570003
+	
+	martial=7
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	add_trait="cruel"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	add_trait="deceitful"
+
+	employer=157001
+	
+	
+	8272.1.1 = {birth="8272.1.1"}
+	8299.11.11 = {employer=174347}
+	8300.1.1 = {employer=174345}
+}
+570003 = {
+	name="Hodor"
+	
+	martial=7
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"	
+	
+	8252.1.1 = {birth="8252.1.1"}
+	8274.11.11 = {death="8274.11.11"}
+}
+###Varamyr and children
+157000 = {
+	name = "Varamyr"
+	
+	dna="bkbhfwjhegx"
+	properties="cn0eik"
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	martial=1
+		
+	add_trait="proud"
+	add_trait = "wildling"
+	add_trait="ambitious"
+	add_trait="sickly"
+	
+	mother = 103174349
+	father = 102174349
+	
+	8256.1.1 = {
+		birth = "8256.1.1"	
+		effect = {
+			if = {
+				limit = { NOT = { age = 10 } }
+				set_name = Lump
+			}
+		}
+	}
+	8260.1.1 = {
+		remove_trait="sickly"
+	}
+	8272.1.1 = {
+		give_nickname = nick_sixskins
+		dynasty = 174349
+		add_trait="trained_warrior"
+		add_trait="tough_soldier"
+		add_trait="shadowcat"
+		add_trait="snowbear"
+		add_trait="wolf"
+	}
+	8299.10.10 = {
+		add_trait = eagle #takes orell's eagle
+	}
+	8300.3.1 = {
+		remove_trait = eagle #burned by mellisandre
+	}
+}
+
+101174349 = {
+	name = "Vayon"
+	dynasty = 174349
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	add_trait = "wildling"
+	
+	father = 157000
+	
+	8289.1.1 = {
+		birth = "8289.1.1"	
+	}
+	8300.3.1 = {
+		effect = {
+			d_nightswatch = { holder_scope = { ROOT = { move_character = PREV } } }
+		}
+	}
+}
+#father and siblings
+102174349 = {
+	name = "Kyleg"
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	add_trait = wroth
+	add_trait = proud
+	add_trait = familyperson
+	add_trait = wildling
+	
+	8232.1.1 = {
+		birth = "8232.1.1"	
+	}
+	8248.1.1 = {
+		add_trait="trained_warrior"
+		add_trait="tough_soldier"
+		add_spouse = 103174349
+	}
+	8284.1.1 = {
+		death = yes
+	}
+}
+103174349 = {
+	name="Hodor"
+	female = yes
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	8232.1.1 = {
+		birth = "8232.1.1"	
+	}
+	8284.1.1 = {
+		death = yes
+	}
+}
+104174349 = {
+	name = "Bump"
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	add_trait = "wildling"
+	add_trait = "strong"
+	
+	mother = 103174349
+	father = 102174349
+	
+	8260.1.1 = {
+		birth = "8260.1.1"	
+	}
+	8262.1.1 = {
+		death = {
+			death_reason = death_murder_unknown
+			killer = 157000 #Varamyr
+		}
+	}
+}
+105174349 = {
+	name = "Meha"
+	female = yes
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	add_trait = "wildling"
+	
+	mother = 103174349
+	father = 102174349
+	
+	8251.1.1 = {
+		birth = "8251.1.1"	
+	}
+	8298.1.1 = {
+		death = yes
+	}
+}
+##
+157001 = {
+	name="Hodor"
+	dynasty=174353
+
+	martial=6
+
+	dna="chaf00b0fe0" 
+	properties="0e0000"
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+		
+	add_trait="cruel"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	add_trait="deceitful"
+	
+
+	8259.1.1 = {birth="8259.1.1"}
+	8279.1.1 = {give_nickname = nick_the_weeper}
+}
+157002 = {	
+ 	name="Hodor"
+	dynasty = 174352	
+
+	martial = 8
+	diplomacy = 5
+	intrigue = 9
+	stewardship = 4
+	learning = 5
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+		
+	add_trait="tough_soldier"
+	add_trait="brave"
+	add_trait="diligent"
+	add_trait="proud"
+	
+
+	8256.1.1 = { birth="8256.1.1"}
+	8279.1.1 = {give_nickname = nick_sealskinner}
+	8300.1.1 = {employer=174345}	
+}
+157003 = {	
+ 	name="Hodor"
+	dynasty = 174350
+	female = yes
+	dna="clfddfgbgaz"
+	properties="cl0ddk"	
+
+	martial = 8
+	diplomacy = 5
+	intrigue = 9
+	stewardship = 4
+	learning = 5
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+		
+	#add_trait="mystic"
+	add_trait="authoritative"
+	add_trait="proud"
+	
+
+	8256.1.1 = { birth="8256.1.1"}
+	8279.1.1 = {give_nickname = nick_white_mask}	
+}
+157004 = {
+	name="Hodor"
+	dynasty = 174351
+
+	martial=6
+
+	dna="bljkejkagau"
+	properties="cj0dcd"
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+		
+	add_trait="cruel"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	add_trait="deceitful"
+	
+
+	8259.1.1 = {birth="8259.1.1"}
+	8279.1.1 = {give_nickname = nick_crowkiller}
+	8299.6.1 = {death="8299.6.1"}
+}
+157005 = {
+	name="Hodor"
+
+	dna="behhf0dhg00"
+ 	properties="ch0qck"
+
+	martial=7
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	add_trait="brave"
+	add_trait="diligent"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	
+	8273.1.1 = {
+		birth="8273.1.1"
+		effect = {  
+			dynasty = none
+		}
+	}
+	8280.11.11 = {employer=174345}
+	8282.1.1 = {give_nickname = nick_longspear}
+	8299.6.1 = {add_spouse=574346 }
+	8300.1.1 = {employer=174345}
+}
+157006 = {
+	name="Hodor"
+
+	martial=3
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	add_trait="brave"
+	add_trait="tough_soldier"
+	add_trait="boar"
+	
+	8260.1.1 = {
+		birth="8260.1.1"
+		effect = {  
+			dynasty = none
+		}
+	}
+	8280.11.11 = {employer=174345}
+}
+157007 = {
+	name="Hodor"
+
+	martial=4
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	add_trait="brave"
+	add_trait="tough_soldier"
+	add_trait="eagle"
+	
+	8265.1.1 = {
+		birth="8265.1.1"
+		effect = {  
+			dynasty = none
+		}
+	}
+	8280.11.11 = {employer=574347}
+	8299.10.10 = {
+		death = {
+			death_reason = death_duel
+			killer = 1002059
+		}
+	}
+}
+157008 = {
+	name="Hodor"
+	dynasty=174402
+
+	martial=6
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	
+
+	8259.1.1 = {birth="8259.1.1"}
+	8300.1.1 = {employer=174345}
+}
+157009 = {
+	name="Hodor"
+	dynasty=174403
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	martial = 8
+
+	add_trait="proud"
+	add_trait="tough_soldier"
+	
+	8252.1.1 = {birth="8252.1.1"}
+	8278.1.1 = {add_trait="skilled_warrior"}
+	8279.1.1 = {give_nickname = nick_shieldbreaker}
+	8300.1.1 = {employer=174345}
+}
+157059 = {
+	name="Hodor"
+	dynasty=174403
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father = 157009
+
+	add_trait="proud"
+	add_trait="tough_soldier"
+	
+	8275.1.1 = {birth="8275.1.1"}
+	8291.1.1 = {add_trait="trained_warrior"}
+	8300.1.1 = {employer=174345}
+}
+##Harle family
+157100 = {
+	name="Hodor"
+	martial=4
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	add_trait="tough_soldier"
+	
+	8240.1.1 = {
+		birth="8240.1.1"
+		effect = {  
+			dynasty = none
+		}
+	}
+	8256.1.1 = {
+		add_trait = trained_warrior
+		add_spouse = 157101
+	}
+	8295.1.1 = {
+		death = yes
+	}
+}
+157101 = {
+	name="Hodor"
+	female = yes
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	8240.1.1 = {
+		birth="8240.1.1"
+		effect = {  
+			dynasty = none
+		}
+	}
+	8295.1.1 = {
+		death = yes
+	}
+}
+
+157010 = {
+	name="Hodor"
+
+	martial=4
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	add_trait="brave"
+	add_trait="tough_soldier"
+	add_trait="fair"
+	add_trait = selfish
+	add_trait = wroth
+	
+	father = 157100
+	mother = 157101
+	
+	8265.1.1 = {
+		birth="8265.1.1"
+		effect = {  
+			dynasty = none
+		}
+	}
+	8279.1.1 = {give_nickname = nick_the_handsome}
+	8280.11.11 = {
+		employer=157009
+		add_trait = trained_warrior
+	}
+	8286.1.1 = {
+		effect = {
+			add_rival = 157011 #his brother
+		}
+	}
+	8300.1.1 = {employer=174345}
+}
+157011 = {
+	name="Hodor"
+
+	martial=4
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	add_trait="brave"
+	add_trait = proud
+	add_trait = envious
+	add_trait="tough_soldier"
+	
+	father = 157100
+	mother = 157101
+	
+	8266.1.1 = {
+		birth="8266.1.1"
+		effect = {  
+			dynasty = none
+		}
+	}
+	8279.1.1 = {give_nickname = nick_the_huntsman}
+	8280.11.11 = {
+		employer=157009
+		add_trait = trained_warrior
+		add_trait = hunter
+	}
+	8300.1.1 = {employer=174345}
+}
+157102 = { #women they both had a son by
+	name="Hodor"
+	female = yes
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	add_trait = lustful
+	add_trait = fair
+	add_trait = proud
+	add_trait = authoritative
+	
+	8267.1.1 = {
+		birth="8267.1.1"
+		effect = {  
+			dynasty = none
+		}
+	}	
+	8280.11.11 = {
+		employer=157009
+	}
+	8283.1.1 = {
+		add_trait = trained_warrior
+	}
+	8300.1.1 = {employer=174345}
+}
+#sons
+157103 = {
+	name="Hodor"
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	father = 157010
+	mother = 157102
+	
+	employer=157009
+	
+	add_trait = fair
+	
+	8285.1.1 = {
+		birth="8285.1.1"
+		effect = {  
+			dynasty = none
+		}
+	}
+	8299.1.1 = {
+		add_trait = trained_warrior
+	}
+	8300.1.1 = {employer=174345}
+}
+157104 = {
+	name="Hodor"
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	father = 157011
+	mother = 157102
+	
+	employer=157009
+	
+	8286.1.1 = {
+		birth="8286.1.1"
+		effect = {  
+			dynasty = none
+		}
+	}
+	8299.1.1 = {
+		add_trait = trained_warrior
+	}
+	8300.1.1 = {employer=174345}
+}
+###
+
+174404 = {
+	name="Hodor"
+	dynasty=174404
+	
+	religion="beyond_wall_old_gods"
+	culture="frozen_shore"
+
+	martial = 8
+
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="skilled_warrior"
+	
+	8252.1.1 = {
+		birth="8252.1.1"
+		effect = {  
+			dynasty = none
+		}
+	}
+	8279.1.1 = {give_nickname = nick_the_great}
+	8300.1.1 = {employer=174345}
+}
+157013 = {
+	name="Hodor"
+	dynasty=6660010
+	
+	religion="beyond_wall_old_gods"
+	culture="giant"
+
+	martial = 8
+
+	add_trait="giant"
+	add_trait="strong"
+	add_trait="tall"
+	
+	8247.1.1 = {birth="8247.1.1"}
+	8279.1.1 = {give_nickname = nick_the_mighty}
+	8299.11.11 = {
+		death = {
+			death_reason = death_duel
+			killer = 121003
+		}
+	}
+}
+157014 = {
+	name="Hodor"
+	dynasty=6660011
+	
+	religion="beyond_wall_old_gods"
+	culture="giant"
+
+	martial = 8
+
+	add_trait="giant"
+	add_trait="strong"
+	add_trait="tall"
+	
+	8264.1.1 = {birth="8264.1.1"}
+	8298.11.11 = {employer=174347}
+	8300.3.1 = {employer=174345}
+}
+157015 = {	
+ 	name="Hodor"
+	dynasty = 4500016
+	female = yes	
+
+	diplomacy = 5
+	intrigue = 9
+	stewardship = 4
+	learning = 5
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+		
+	add_trait="greensight"
+	add_trait="mystic"
+	add_trait="authoritative"
+	add_trait="proud"
+	
+
+	8243.1.1 = { birth="8243.1.1"}	
+}

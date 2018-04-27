@@ -1,0 +1,3031 @@
+###Kings of Sarnor###
+10056822 = {
+	name="Hodor"	# Huzhor Amai (the Amazing), Legendary Hero King
+	dynasty=56822
+	
+	martial=8
+	stewardship=6
+	diplomacy=9
+	intrigue=5
+	learning=4
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+	
+	add_trait=strong
+	add_trait=ambitious
+	add_trait=brilliant_strategist
+	add_trait=proud
+	add_trait=ruthless
+	
+	give_nickname = nick_the_amazing
+	
+	4000.1.1 = {birth="4000.1.1"}
+	4016.1.1 = {add_trait=master_warrior}
+	#4020.1.1 = {add_spouse=40056802}
+	4068.1.1 = {death="4068.1.1"}
+}
+10156822 = {
+	name="Hodor"	# Unnamed King of Gornath
+	
+	martial=1
+	stewardship=6
+	diplomacy=8
+	intrigue=3
+	learning=5
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+	
+	add_trait=craven
+	add_trait=underhanded_rogue
+	add_trait=ruthless
+	add_trait=deceitful
+	
+	7905.1.1 = {birth="7905.1.1"}
+	7921.1.1 = {add_trait=poor_warrior}
+	7936.1.1 = {add_spouse=103600207} #dothraki
+	7948.1.1 = {
+		add_trait = dead_target #so government can be changed for history
+		death={
+			death_reason=death_murder
+			killer=103600207
+		}
+	}
+}
+10056800 = {
+	name="Hodor"	# The Last High King
+	dynasty=56800 #Alexi
+	
+	martial=4
+	stewardship=5
+	diplomacy=5
+	intrigue=4
+	learning=6
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+	
+	add_trait=authoritative
+	add_trait=charismatic_negotiator
+	add_trait=proud
+	add_trait=brave
+	
+	7938.1.1 = {birth="7938.1.1"}
+	7954.1.1 = {add_trait=trained_warrior}
+	7975.1.1 = {
+		add_trait = dead_target #so government can be changed for history
+		death={
+			death_reason=death_battle
+		}
+	}
+}
+###House Dhalokia of Saath###
+10056802 = {
+	name="Hodor"	# a lord
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	7915.1.1 = {birth="7915.1.1"}
+	7931.1.1 = {add_trait=trained_warrior}
+	7933.1.1 = {add_spouse=40056802}
+	7975.1.1 = {death="7975.1.1"}
+}
+40056802 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	7915.1.1 = {birth="7915.1.1"}
+	7975.1.1 = {death="7975.1.1"}
+}
+10156802 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=10056802
+	mother=40056802
+
+	7937.1.1 = {birth="7937.1.1"}
+	7977.1.1 = {death="7977.1.1"}
+}
+10256802 = {
+	name="Hodor"	# a lord
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=10056802
+	mother=40056802
+
+	7940.1.1 = {birth="7940.1.1"}
+	7956.1.1 = {add_trait=trained_warrior}
+	7958.1.1 = {add_spouse=40256802}
+	8008.1.1 = {death="8008.1.1"}
+}
+40256802 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	7940.1.1 = {birth="7940.1.1"}
+	8008.1.1 = {death="8008.1.1"}
+}
+10356802 = {
+	name="Hodor"	# not a lord
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=10056802
+	mother=40056802
+
+	7943.1.1 = {birth="7943.1.1"}
+	7959.1.1 = {add_trait=poor_warrior}
+	7961.1.1 = {add_spouse=40356802}
+	8005.1.1 = {death="8005.1.1"}
+}
+40356802 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	7943.1.1 = {birth="7943.1.1"}
+	8005.1.1 = {death="8005.1.1"}
+}
+10456802 = {
+	name="Hodor"	# a lord
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=10256802
+	mother=40256802
+
+	7971.1.1 = {birth="7971.1.1"}
+	7987.1.1 = {add_trait=trained_warrior}
+	7989.1.1 = {add_spouse=40456802}
+	8034.1.1 = {death="8034.1.1"}
+}
+40456802 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	7971.1.1 = {birth="7971.1.1"}
+	8034.1.1 = {death="8034.1.1"}
+}
+10556802 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=10256802
+	mother=40256802
+
+	7974.1.1 = {birth="7974.1.1"}
+	8026.1.1 = {death="8026.1.1"}
+}
+10656802 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=10356802
+	mother=40356802
+
+	7967.1.1 = {birth="7967.1.1"}
+	8028.1.1 = {death="8028.1.1"}
+}
+10756802 = {
+	name="Hodor"	# not a lord
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=10356802
+	mother=40356802
+
+	7970.1.1 = {birth="7970.1.1"}
+	7986.1.1 = {add_trait=poor_warrior}
+	8025.1.1 = {death="8025.1.1"}
+}
+10856802 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=10456802
+	mother=40456802
+
+	7996.1.1 = {birth="7996.1.1"}
+	8072.1.1 = {death="8072.1.1"}
+}
+10956802 = {
+	name="Hodor"	# a lord
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=10456802
+	mother=40456802
+
+	7998.1.1 = {birth="7998.1.1"}
+	8014.1.1 = {add_trait=poor_warrior}
+	8016.1.1 = {add_spouse=40956802}
+	8042.1.1 = {death="8042.1.1"}
+}
+40956802 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	7998.1.1 = {birth="7998.1.1"}
+	8042.1.1 = {death="8042.1.1"}
+}
+11056802 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=10456802
+	mother=40456802
+
+	7999.1.1 = {birth="7999.1.1"}
+	8061.1.1 = {death="8061.1.1"}
+}
+11156802 = {
+	name="Hodor"	# not a lord
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=10456802
+	mother=40456802
+
+	8001.1.1 = {birth="8001.1.1"}
+	8017.1.1 = {add_trait=trained_warrior}
+	8054.1.1 = {death="8054.1.1"}
+}
+11256802 = {
+	name="Hodor"	# not a lord
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=10456802
+	mother=40456802
+
+	8003.1.1 = {birth="8003.1.1"}
+	8019.1.1 = {add_trait=poor_warrior}
+	8079.1.1 = {death="8079.1.1"}
+}
+11356802 = {
+	name="Hodor"	# a lord
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=10956802
+	mother=40956802
+
+	8027.1.1 = {birth="8027.1.1"}
+	8043.1.1 = {add_trait=skilled_warrior}
+	8045.1.1 = {add_spouse=41356802}
+	8075.1.1 = {death="8075.1.1"}
+}
+41356802 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8027.1.1 = {birth="8027.1.1"}
+	8075.1.1 = {death="8075.1.1"}
+}
+11456802 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=10956802
+	mother=40956802
+
+	8029.1.1 = {birth="8029.1.1"}
+	8077.1.1 = {death="8077.1.1"}
+}
+11556802 = {
+	name="Hodor"	# a lord
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=10956802
+	mother=40956802
+
+	8032.1.1 = {birth="8032.1.1"}
+	8048.1.1 = {add_trait=poor_warrior}
+	8050.1.1 = {add_spouse=41556802}
+	8083.1.1 = {death="8083.1.1"}
+}
+41556802 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8032.1.1 = {birth="8032.1.1"}
+	8083.1.1 = {death="8083.1.1"}
+}
+11656802 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=10956802
+	mother=40956802
+
+	8033.1.1 = {birth="8033.1.1"}
+	8082.1.1 = {death="8082.1.1"}
+}
+11756802 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=11556802
+	mother=41556802
+
+	8051.1.1 = {birth="8051.1.1"}
+	8106.1.1 = {death="8106.1.1"}
+}
+11856802 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=11556802
+	mother=41556802
+
+	8054.1.1 = {birth="8054.1.1"}
+	8084.1.1 = {death="8084.1.1"}
+}
+11956802 = {
+	name="Hodor"	# a lord
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=11556802
+	mother=41556802
+
+	8056.1.1 = {birth="8056.1.1"}
+	8072.1.1 = {add_trait=poor_warrior}
+	8074.1.1 = {add_spouse=41956802}
+	8121.1.1 = {death="8121.1.1"}
+}
+41956802 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8056.1.1 = {birth="8056.1.1"}
+	8121.1.1 = {death="8121.1.1"}
+}
+12056802 = {
+	name="Hodor"	# not a lord
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=11556802
+	mother=41556802
+
+	8058.1.1 = {birth="8058.1.1"}
+	8074.1.1 = {add_trait=trained_warrior}
+	8084.1.1 = {death="8084.1.1"}
+}
+12156802 = {
+	name="Hodor"	# a lord
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=11956802
+	mother=41956802
+
+	8088.1.1 = {birth="8088.1.1"}
+	8104.1.1 = {add_trait=poor_warrior}
+	8106.1.1 = {add_spouse=42156802}
+	8159.1.1 = {death="8159.1.1"}
+}
+42156802 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8088.1.1 = {birth="8088.1.1"}
+	8159.1.1 = {death="8159.1.1"}
+}
+12256802 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=12156802
+	mother=42156802
+
+	8110.1.1 = {birth="8110.1.1"}
+	8173.1.1 = {death="8173.1.1"}
+}
+12356802 = {
+	name="Hodor"	# a lord
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=12156802
+	mother=42156802
+
+	8113.1.1 = {birth="8113.1.1"}
+	8129.1.1 = {add_trait=poor_warrior}
+	8131.1.1 = {add_spouse=42356802}
+	8169.1.1 = {death="8169.1.1"}
+}
+42356802 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8113.1.1 = {birth="8113.1.1"}
+	8169.1.1 = {death="8169.1.1"}
+}
+12456802 = {
+	name="Hodor"	# not a lord
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=12156802
+	mother=42156802
+
+	8116.1.1 = {birth="8116.1.1"}
+	8132.1.1 = {add_trait=poor_warrior}
+	8134.1.1 = {add_spouse=42456802}
+	8177.1.1 = {death="8177.1.1"}
+}
+42456802 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8116.1.1 = {birth="8116.1.1"}
+	8177.1.1 = {death="8177.1.1"}
+}
+12556802 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=12356802
+	mother=42356802
+
+	8135.1.1 = {birth="8135.1.1"}
+	8192.1.1 = {death="8192.1.1"}
+}
+12656802 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=12356802
+	mother=42356802
+
+	8136.1.1 = {birth="8136.1.1"}
+	8186.1.1 = {death="8186.1.1"}
+}
+12756802 = {
+	name="Hodor"	# a lord
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=12356802
+	mother=42356802
+
+	8138.1.1 = {birth="8138.1.1"}
+	8154.1.1 = {add_trait=skilled_warrior}
+	8156.1.1 = {add_spouse=42756802}
+	8188.1.1 = {death="8188.1.1"}
+}
+42756802 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8138.1.1 = {birth="8138.1.1"}
+	8188.1.1 = {death="8188.1.1"}
+}
+12856802 = {
+	name="Hodor"	# a lord
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=12356802
+	mother=42356802
+
+	8141.1.1 = {birth="8141.1.1"}
+	8157.1.1 = {add_trait=poor_warrior}
+	8159.1.1 = {add_spouse=42856802}
+	8205.1.1 = {death="8205.1.1"}
+}
+42856802 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8141.1.1 = {birth="8141.1.1"}
+	8205.1.1 = {death="8205.1.1"}
+}
+12956802 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=12856802
+	mother=42856802
+
+	8167.1.1 = {birth="8167.1.1"}
+	8212.1.1 = {death="8212.1.1"}
+}
+13256802 = {
+	name="Hodor"	# not a lord
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=12456802
+	mother=42456802
+
+	8138.1.1 = {birth="8138.1.1"}
+	8154.1.1 = {add_trait=trained_warrior}
+	8156.1.1 = {add_spouse=43256802}
+	8192.1.1 = {death="8192.1.1"}
+}
+43256802 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8138.1.1 = {birth="8138.1.1"}
+	8192.1.1 = {death="8192.1.1"}
+}
+13356802 = {
+	name="Hodor"	# not a lord
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=12456802
+	mother=42456802
+
+	8141.1.1 = {birth="8141.1.1"}
+	8157.1.1 = {add_trait=trained_warrior}
+	8185.1.1 = {death="8185.1.1"}
+}
+13456802 = {
+	name="Hodor"	# a lord
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=13256802
+	mother=43256802
+
+	8156.1.1 = {birth="8156.1.1"}
+	8172.1.1 = {add_trait=trained_warrior}
+	8174.1.1 = {add_spouse=43456802}
+	8228.1.1 = {death="8228.1.1"}
+}
+43456802 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8156.1.1 = {birth="8156.1.1"}
+	8228.1.1 = {death="8228.1.1"}
+}
+13556802 = {
+	name="Hodor"	# not a lord
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=13456802
+	mother=43456802
+
+	8174.1.1 = {birth="8174.1.1"}
+	8190.1.1 = {add_trait=trained_warrior}
+	8192.1.1 = {add_spouse=43556802}
+	8223.1.1 = {death = {death_reason = death_accident}}
+}
+43556802 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8174.1.1 = {birth="8174.1.1"}
+	8223.1.1 = {death="8223.1.1"}
+}
+13656802 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=13456802
+	mother=43456802
+
+	8175.1.1 = {birth="8175.1.1"}
+	8213.1.1 = {death="8213.1.1"}
+}
+13756802 = {
+	name="Hodor"	# not a lord
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=13456802
+	mother=43456802
+
+	8176.1.1 = {birth="8176.1.1"}
+	8192.1.1 = {add_trait=skilled_warrior}
+	8233.1.1 = {death="8233.1.1"}
+}
+13856802 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=13556802
+	mother=43556802
+
+	8199.1.1 = {birth="8199.1.1"}
+	8241.1.1 = {death="8241.1.1"}
+}
+13956802 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=13556802
+	mother=43556802
+
+	8202.1.1 = {birth="8202.1.1"}
+	8238.1.1 = {death="8238.1.1"}
+}
+14056802 = {
+	name="Hodor"	# a lord
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=13556802
+	mother=43556802
+
+	8205.1.1 = {birth="8205.1.1"}
+	8221.1.1 = {add_trait=poor_warrior}
+	8223.1.1 = {add_spouse=44056802}
+	8266.1.1 = {death = {death_reason = death_accident}}
+}
+44056802 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8205.1.1 = {birth="8205.1.1"}
+	8266.1.1 = {death="8266.1.1"}
+}
+14156802 = {
+	name="Hodor"	# not a lord
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=13556802
+	mother=43556802
+
+	8206.1.1 = {birth="8206.1.1"}
+	8222.1.1 = {add_trait=poor_warrior}
+	8284.1.1 = {death="8284.1.1"}
+}
+14256802 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=14056802
+	mother=44056802
+
+	8232.1.1 = {birth="8232.1.1"}
+	8287.1.1 = {death="8287.1.1"}
+}
+14356802 = {
+	name="Hodor"	# a lord
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=14056802
+	mother=44056802
+
+	8233.1.1 = {birth="8233.1.1"}
+	8249.1.1 = {add_trait=skilled_warrior}
+	8251.1.1 = {add_spouse=44356802}
+	8281.1.1 = {death="8281.1.1"}
+}
+44356802 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8233.1.1 = {birth="8233.1.1"}
+	8281.1.1 = {death="8281.1.1"}
+}
+14456802 = {
+	name="Hodor"	# a lord
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=14356802
+	mother=44356802
+
+	8261.1.1 = {birth="8261.1.1"}
+	8277.1.1 = {add_trait=trained_warrior}
+	8279.1.1 = {add_spouse=44456802}
+}
+44456802 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8261.1.1 = {birth="8261.1.1"}
+}
+14556802 = {
+	name="Hodor"	# not a lord
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=14356802
+	mother=44356802
+
+	8262.1.1 = {birth="8262.1.1"}
+	8278.1.1 = {add_trait=trained_warrior}
+}
+14656802 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=14356802
+	mother=44356802
+
+	8265.1.1 = {birth="8265.1.1"}
+}
+14756802 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=14356802
+	mother=44356802
+
+	8268.1.1 = {birth="8268.1.1"}
+}
+14856802 = {
+	name="Hodor"	# not a lord
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=14456802
+	mother=44456802
+
+	8292.1.1 = {birth="8292.1.1"}
+	8308.1.1 = {add_trait=skilled_warrior}
+}
+14956802 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=14456802
+	mother=44456802
+
+	8293.1.1 = {birth="8293.1.1"}
+}
+15056802 = {
+	name="Hodor"	# not a lord
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=14456802
+	mother=44456802
+
+	8296.1.1 = {birth="8296.1.1"}
+	8312.1.1 = {add_trait=poor_warrior}
+}
+15156802 = {
+	name="Hodor"	# not a lord
+	dynasty=56802
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=14456802
+	mother=44456802
+
+	8299.1.1 = {birth="8299.1.1"}
+	8315.1.1 = {add_trait=poor_warrior}
+}
+
+###  House Kotak
+100056808 = {
+	name="Hodor"	# a lord
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	7954.1.1 = {birth="7954.1.1"}
+	7970.1.1 = {add_trait=poor_warrior}
+	7972.1.1 = {add_spouse=400056808}
+	8017.1.1 = {death="8017.1.1"}
+}
+400056808 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	7954.1.1 = {birth="7954.1.1"}
+	8017.1.1 = {death="8017.1.1"}
+}
+100156808 = {
+	name="Hodor"	# a lord
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=100056808
+	mother=400056808
+
+	7987.1.1 = {birth="7987.1.1"}
+	8003.1.1 = {add_trait=poor_warrior}
+	8005.1.1 = {add_spouse=400156808}
+	8053.1.1 = {death="8053.1.1"}
+}
+400156808 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	7987.1.1 = {birth="7987.1.1"}
+	8053.1.1 = {death="8053.1.1"}
+}
+100256808 = {
+	name="Hodor"	# a lord
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=100156808
+	mother=400156808
+
+	8020.1.1 = {birth="8020.1.1"}
+	8036.1.1 = {add_trait=poor_warrior}
+	8038.1.1 = {add_spouse=400256808}
+	8077.1.1 = {death="8077.1.1"}
+}
+400256808 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8020.1.1 = {birth="8020.1.1"}
+	8077.1.1 = {death="8077.1.1"}
+}
+100356808 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=100156808
+	mother=400156808
+
+	8021.1.1 = {birth="8021.1.1"}
+	8064.1.1 = {death="8064.1.1"}
+}
+100456808 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=100156808
+	mother=400156808
+
+	8023.1.1 = {birth="8023.1.1"}
+	8088.1.1 = {death="8088.1.1"}
+}
+100556808 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=100156808
+	mother=400156808
+
+	8024.1.1 = {birth="8024.1.1"}
+	8092.1.1 = {death="8092.1.1"}
+}
+100656808 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=100256808
+	mother=400256808
+
+	8048.1.1 = {birth="8048.1.1"}
+	8090.1.1 = {death="8090.1.1"}
+}
+100756808 = {
+	name="Hodor"	# a lord
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=100256808
+	mother=400256808
+
+	8050.1.1 = {birth="8050.1.1"}
+	8066.1.1 = {add_trait=skilled_warrior}
+	8068.1.1 = {add_spouse=400756808}
+	8081.1.1 = {death="8081.1.1"}
+}
+400756808 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8050.1.1 = {birth="8050.1.1"}
+	8100.1.1 = {death="8100.1.1"}
+}
+100856808 = {
+	name="Hodor"	# a lord
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=100756808
+	mother=400756808
+
+	8075.1.1 = {birth="8075.1.1"}
+	8091.1.1 = {add_trait=poor_warrior}
+	8105.1.1 = {add_spouse=400856808}
+	8155.1.1 = {death="8155.1.1"}
+}
+400856808 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8087.1.1 = {birth="8087.1.1"}
+	8155.1.1 = {death="8155.1.1"}
+}
+100956808 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=100756808
+	mother=400756808
+
+	8077.1.1 = {birth="8077.1.1"}
+	8149.1.1 = {death="8149.1.1"}
+}
+101056808 = {
+	name="Hodor"	# a lord
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=100856808
+	mother=400856808
+
+	8113.1.1 = {birth="8113.1.1"}
+	8129.1.1 = {add_trait=poor_warrior}
+	8131.1.1 = {add_spouse=401056808}
+	8178.1.1 = {death="8178.1.1"}
+}
+401056808 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8113.1.1 = {birth="8113.1.1"}
+	8178.1.1 = {death="8178.1.1"}
+}
+101156808 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=100856808
+	mother=400856808
+
+	8115.1.1 = {birth="8115.1.1"}
+	8152.1.1 = {death="8152.1.1"}
+}
+101256808 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=100856808
+	mother=400856808
+
+	8116.1.1 = {birth="8116.1.1"}
+	8147.1.1 = {death="8147.1.1"}
+}
+101356808 = {
+	name="Hodor"	# not a lord
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=100856808
+	mother=400856808
+
+	8117.1.1 = {birth="8117.1.1"}
+	8126.1.1 = {death = {death_reason = death_accident}}
+}
+101456808 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=101056808
+	mother=401056808
+
+	8131.1.1 = {birth="8131.1.1"}
+	8190.1.1 = {death="8190.1.1"}
+}
+101556808 = {
+	name="Hodor"	# a lord
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=101056808
+	mother=401056808
+
+	8134.1.1 = {birth="8134.1.1"}
+	8150.1.1 = {add_trait=trained_warrior}
+	8152.1.1 = {add_spouse=401556808}
+	8180.1.1 = {death="8180.1.1"}
+}
+401556808 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8134.1.1 = {birth="8134.1.1"}
+	8180.1.1 = {death="8180.1.1"}
+}
+101656808 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=101056808
+	mother=401056808
+
+	8137.1.1 = {birth="8137.1.1"}
+	8172.1.1 = {death="8172.1.1"}
+}
+101756808 = {
+	name="Hodor"	# not a lord
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=101056808
+	mother=401056808
+
+	8138.1.1 = {birth="8138.1.1"}
+	8154.1.1 = {add_trait=master_warrior}
+	8194.1.1 = {death="8194.1.1"}
+}
+101856808 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=101056808
+	mother=401056808
+
+	8140.1.1 = {birth="8140.1.1"}
+	8200.1.1 = {death="8200.1.1"}
+}
+101956808 = {
+	name="Hodor"	# a lord
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=101556808
+	mother=401556808
+
+	8153.1.1 = {birth="8153.1.1"}
+	8169.1.1 = {add_trait=skilled_warrior}
+	8171.1.1 = {add_spouse=401956808}
+	8223.1.1 = {death="8223.1.1"}
+}
+401956808 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8153.1.1 = {birth="8153.1.1"}
+	8223.1.1 = {death="8223.1.1"}
+}
+102056808 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=101556808
+	mother=401556808
+
+	8156.1.1 = {birth="8156.1.1"}
+	8214.1.1 = {death="8214.1.1"}
+}
+102156808 = {
+	name="Hodor"	# a lord
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=101956808
+	mother=401956808
+
+	8172.1.1 = {birth="8172.1.1"}
+	8188.1.1 = {add_trait=poor_warrior}
+	8190.1.1 = {add_spouse=402156808}
+	8227.1.1 = {death = {death_reason = death_murder}}
+}
+402156808 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8172.1.1 = {birth="8172.1.1"}
+	8227.1.1 = {death="8227.1.1"}
+}
+102256808 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=101956808
+	mother=401956808
+
+	8173.1.1 = {birth="8173.1.1"}
+	8229.1.1 = {death="8229.1.1"}
+}
+102356808 = {
+	name="Hodor"	# a lord
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=102156808
+	mother=402156808
+
+	8195.1.1 = {birth="8195.1.1"}
+	8211.1.1 = {add_trait=skilled_warrior}
+	8213.1.1 = {add_spouse=402356808}
+	8253.1.1 = {death="8253.1.1"}
+}
+402356808 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8195.1.1 = {birth="8195.1.1"}
+	8253.1.1 = {death="8253.1.1"}
+}
+102456808 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=102156808
+	mother=402156808
+
+	8197.1.1 = {birth="8197.1.1"}
+	8250.1.1 = {death="8250.1.1"}
+}
+102556808 = {
+	name="Hodor"	# a lord
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=102356808
+	mother=402356808
+
+	8213.1.1 = {birth="8213.1.1"}
+	8229.1.1 = {add_trait=poor_warrior}
+	8231.1.1 = {add_spouse=402556808}
+	8254.1.1 = {death="8254.1.1"}
+}
+402556808 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8213.1.1 = {birth="8213.1.1"}
+	8254.1.1 = {death="8254.1.1"}
+}
+102656808 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=102356808
+	mother=402356808
+
+	8215.1.1 = {birth="8215.1.1"}
+	8263.1.1 = {death="8263.1.1"}
+}
+102756808 = {
+	name="Hodor"	# not a lord
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=102356808
+	mother=402356808
+
+	8217.1.1 = {birth="8217.1.1"}
+	8233.1.1 = {add_trait=poor_warrior}
+	8260.1.1 = {death="8260.1.1"}
+}
+102856808 = {
+	name="Hodor"	# not a lord
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=102356808
+	mother=402356808
+
+	8218.1.1 = {birth="8218.1.1"}
+	8234.1.1 = {add_trait=poor_warrior}
+	8275.1.1 = {death="8275.1.1"}
+}
+102956808 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=102556808
+	mother=402556808
+
+	8241.1.1 = {birth="8241.1.1"}
+	8293.1.1 = {death="8293.1.1"}
+}
+103056808 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=102556808
+	mother=402556808
+
+	8242.1.1 = {birth="8242.1.1"}
+}
+103156808 = {
+	name="Hodor"	# a lord
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=102556808
+	mother=402556808
+
+	8243.1.1 = {birth="8243.1.1"}
+	8259.1.1 = {add_trait=skilled_warrior}
+	8261.1.1 = {add_spouse=403156808}
+}
+403156808 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8243.1.1 = {birth="8243.1.1"}
+}
+103256808 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=102556808
+	mother=402556808
+
+	8245.1.1 = {birth="8245.1.1"}
+	8296.1.1 = {death = {death_reason = death_accident}}
+}
+103356808 = {
+	name="Hodor"	# not a lord
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=103156808
+	mother=403156808
+
+	8277.1.1 = {birth="8277.1.1"}
+	8293.1.1 = {add_trait=skilled_warrior}
+	8295.1.1 = {add_spouse=403356808}
+}
+403356808 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8277.1.1 = {birth="8277.1.1"}
+}
+103456808 = {
+	name="Hodor"	# not a lord
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=103156808
+	mother=403156808
+
+	8263.1.1 = {birth="8263.1.1"}
+	8279.1.1 = {add_trait=trained_warrior}
+}
+103556808 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=103156808
+	mother=403156808
+
+	8265.1.1 = {birth="8265.1.1"}
+}
+103656808 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56808
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=103156808
+	mother=403156808
+
+	8268.1.1 = {birth="8268.1.1"}
+}
+
+
+####  House Kamdar
+100056807 = {
+	name="Hodor"	# a lord
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	7953.1.1 = {birth="7953.1.1"}
+	7969.1.1 = {add_trait=poor_warrior}
+	7971.1.1 = {add_spouse=400056807}
+	8024.1.1 = {death="8024.1.1"}
+}
+400056807 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	7953.1.1 = {birth="7953.1.1"}
+	8024.1.1 = {death="8024.1.1"}
+}
+100156807 = {
+	name="Hodor"	# a lord
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=100056807
+	mother=400056807
+
+	7981.1.1 = {birth="7981.1.1"}
+	7996.1.1 = {add_trait=poor_warrior}
+	7999.1.1 = {add_spouse=400156807}
+	8037.1.1 = {death="8037.1.1"}
+}
+400156807 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	7981.1.1 = {birth="7981.1.1"}
+	8037.1.1 = {death="8037.1.1"}
+}
+100256807 = {
+	name="Hodor"	# not a lord
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=100056807
+	mother=400056807
+
+	7982.1.1 = {birth="7982.1.1"}
+	7998.1.1 = {add_trait=trained_warrior}
+	8020.1.1 = {death="8020.1.1"}
+}
+100356807 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=100056807
+	mother=400056807
+
+	7983.1.1 = {birth="7983.1.1"}
+	8037.1.1 = {death="8037.1.1"}
+}
+100456807 = {
+	name="Hodor"	# not a lord
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=100056807
+	mother=400056807
+
+	7985.1.1 = {birth="7985.1.1"}
+	8001.1.1 = {add_trait=trained_warrior}
+	8019.1.1 = {death="8019.1.1"}
+}
+100556807 = {
+	name="Hodor"	# a lord
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=100156807
+	mother=400156807
+
+	8009.1.1 = {birth="8009.1.1"}
+	8025.1.1 = {add_trait=poor_warrior}
+	8027.1.1 = {add_spouse=400556807}
+	8045.1.1 = {death="8045.1.1"}
+}
+400556807 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8009.1.1 = {birth="8009.1.1"}
+	8045.1.1 = {death="8045.1.1"}
+}
+100656807 = {
+	name="Hodor"	# a lord
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=100556807
+	mother=400556807
+
+	8028.1.1 = {birth="8028.1.1"}
+	8044.1.1 = {add_trait=skilled_warrior}
+	8046.1.1 = {add_spouse=400656807}
+	8064.1.1 = {death="8064.1.1"}
+}
+400656807 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8028.1.1 = {birth="8028.1.1"}
+	8064.1.1 = {death="8064.1.1"}
+}
+100756807 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=100556807
+	mother=400556807
+
+	8030.1.1 = {birth="8030.1.1"}
+	8092.1.1 = {death="8092.1.1"}
+}
+100856807 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=100556807
+	mother=400556807
+
+	8032.1.1 = {birth="8032.1.1"}
+	8077.1.1 = {death="8077.1.1"}
+}
+100956807 = {
+	name="Hodor"	# a lord
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=100656807
+	mother=400656807
+
+	8049.1.1 = {birth="8049.1.1"}
+	8065.1.1 = {add_trait=trained_warrior}
+	8067.1.1 = {add_spouse=400956807}
+	8104.1.1 = {death="8104.1.1"}
+}
+400956807 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8049.1.1 = {birth="8049.1.1"}
+	8104.1.1 = {death="8104.1.1"}
+}
+101056807 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=100656807
+	mother=400656807
+
+	8051.1.1 = {birth="8051.1.1"}
+	8094.1.1 = {death="8094.1.1"}
+}
+101156807 = {
+	name="Hodor"	# not a lord
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=100656807
+	mother=400656807
+
+	8053.1.1 = {birth="8053.1.1"}
+	8069.1.1 = {add_trait=poor_warrior}
+	8101.1.1 = {death="8101.1.1"}
+}
+101256807 = {
+	name="Hodor"	# a lord
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=100956807
+	mother=400956807
+
+	8074.1.1 = {birth="8074.1.1"}
+	8090.1.1 = {add_trait=trained_warrior}
+	8092.1.1 = {add_spouse=401256807}
+	8124.1.1 = {death="8124.1.1"}
+}
+401256807 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8074.1.1 = {birth="8074.1.1"}
+	8124.1.1 = {death="8124.1.1"}
+}
+101356807 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=100956807
+	mother=400956807
+
+	8077.1.1 = {birth="8077.1.1"}
+	8142.1.1 = {death="8142.1.1"}
+}
+101456807 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=100956807
+	mother=400956807
+
+	8079.1.1 = {birth="8079.1.1"}
+	8155.1.1 = {death="8155.1.1"}
+}
+101556807 = {
+	name="Hodor"	# a lord
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=101256807
+	mother=401256807
+
+	8096.1.1 = {birth="8096.1.1"}
+	8112.1.1 = {add_trait=poor_warrior}
+	8114.1.1 = {add_spouse=401556807}
+	8145.1.1 = {death = {death_reason = death_accident}}
+}
+401556807 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8096.1.1 = {birth="8096.1.1"}
+	8145.1.1 = {death="8145.1.1"}
+}
+101656807 = {
+	name="Hodor"	# a lord
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=101556807
+	mother=401556807
+
+	8123.1.1 = {birth="8123.1.1"}
+	8139.1.1 = {add_trait=poor_warrior}
+	8141.1.1 = {add_spouse=401656807}
+	8176.1.1 = {death = {death_reason = death_murder}}
+}
+401656807 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8123.1.1 = {birth="8123.1.1"}
+	8176.1.1 = {death="8176.1.1"}
+}
+101756807 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=101556807
+	mother=401556807
+
+	8124.1.1 = {birth="8124.1.1"}
+	8178.1.1 = {death="8178.1.1"}
+}
+101856807 = {
+	name="Hodor"	# not a lord
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=101556807
+	mother=401556807
+
+	8125.1.1 = {birth="8125.1.1"}
+	8141.1.1 = {add_trait=poor_warrior}
+	8182.1.1 = {death="8182.1.1"}
+}
+101956807 = {
+	name="Hodor"	# a lord
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=101656807
+	mother=401656807
+
+	8142.1.1 = {birth="8142.1.1"}
+	8158.1.1 = {add_trait=trained_warrior}
+	8160.1.1 = {add_spouse=401956807}
+	8193.1.1 = {death="8193.1.1"}
+}
+401956807 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8142.1.1 = {birth="8142.1.1"}
+	8193.1.1 = {death="8193.1.1"}
+}
+102056807 = {
+	name="Hodor"	# not a lord
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=101656807
+	mother=401656807
+
+	8145.1.1 = {birth="8145.1.1"}
+	8161.1.1 = {add_trait=poor_warrior}
+	8197.1.1 = {death="8197.1.1"}
+}
+102156807 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=101956807
+	mother=401956807
+
+	8175.1.1 = {birth="8175.1.1"}
+	8228.1.1 = {death="8228.1.1"}
+}
+102256807 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=101956807
+	mother=401956807
+
+	8176.1.1 = {birth="8176.1.1"}
+	8220.1.1 = {death="8220.1.1"}
+}
+102356807 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=101956807
+	mother=401956807
+
+	8178.1.1 = {birth="8178.1.1"}
+	8221.1.1 = {death="8221.1.1"}
+}
+102456807 = {
+	name="Hodor"	# a lord
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=101956807
+	mother=401956807
+
+	8181.1.1 = {birth="8181.1.1"}
+	8197.1.1 = {add_trait=master_warrior}
+	8199.1.1 = {add_spouse=402456807}
+	8257.1.1 = {death="8257.1.1"}
+}
+402456807 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8181.1.1 = {birth="8181.1.1"}
+	8257.1.1 = {death="8257.1.1"}
+}
+102556807 = {
+	name="Hodor"	# not a lord
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=102456807
+	mother=402456807
+
+	8200.1.1 = {birth="8200.1.1"}
+	8216.1.1 = {add_trait=poor_warrior}
+	8230.1.1 = {death = {death_reason = death_battle}}
+}
+102656807 = {
+	name="Hodor"	# a lord
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=102456807
+	mother=402456807
+
+	8203.1.1 = {birth="8203.1.1"}
+	8219.1.1 = {add_trait=poor_warrior}
+	8221.1.1 = {add_spouse=402656807}
+	8279.1.1 = {death="8279.1.1"}
+}
+402656807 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8203.1.1 = {birth="8203.1.1"}
+	8279.1.1 = {death="8279.1.1"}
+}
+102756807 = {
+	name="Hodor"	# not a lord
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=102456807
+	mother=402456807
+
+	8204.1.1 = {birth="8204.1.1"}
+	8220.1.1 = {add_trait=poor_warrior}
+	8251.1.1 = {death="8251.1.1"}
+}
+102856807 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=102456807
+	mother=402456807
+
+	8206.1.1 = {birth="8206.1.1"}
+	8239.1.1 = {death="8239.1.1"}
+}
+102956807 = {
+	name="Hodor"	# not a lord
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=102656807
+	mother=402656807
+
+	8224.1.1 = {birth="8224.1.1"}
+	8240.1.1 = {add_trait=trained_warrior}
+	8251.1.1 = {death="8251.1.1"}
+}
+103056807 = {
+	name="Hodor"	# a lord
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=102656807
+	mother=402656807
+
+	8226.1.1 = {birth="8226.1.1"}
+	8242.1.1 = {add_trait=trained_warrior}
+	8244.1.1 = {add_spouse=403056807}
+	8281.1.1 = {death="8281.1.1"}
+}
+403056807 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8226.1.1 = {birth="8226.1.1"}
+	8281.1.1 = {death="8281.1.1"}
+}
+103156807 = {
+	name="Hodor"	# not a lord
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=102656807
+	mother=402656807
+
+	8228.1.1 = {birth="8228.1.1"}
+	8244.1.1 = {add_trait=trained_warrior}
+	8291.1.1 = {death="8291.1.1"}
+}
+103256807 = {
+	name="Hodor"	# not a lord
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=102656807
+	mother=402656807
+
+	8229.1.1 = {birth="8229.1.1"}
+	8245.1.1 = {add_trait=trained_warrior}
+	8283.1.1 = {death = {death_reason = death_accident}}
+}
+103356807 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=103056807
+	mother=403056807
+
+	8250.1.1 = {birth="8250.1.1"}
+}
+103456807 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=103056807
+	mother=403056807
+
+	8251.1.1 = {birth="8251.1.1"}
+	8286.1.1 = {death="8286.1.1"}
+}
+103556807 = {
+	name="Hodor"	# a lord
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=103056807
+	mother=403056807
+
+	8253.1.1 = {birth="8253.1.1"}
+	8269.1.1 = {add_trait=poor_warrior}
+	8271.1.1 = {add_spouse=403556807}
+	8285.1.1 = {death = {death_reason = death_accident}}
+}
+403556807 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8253.1.1 = {birth="8253.1.1"}
+	8285.1.1 = {death="8285.1.1"}
+}
+103656807 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=103056807
+	mother=403056807
+
+	8255.1.1 = {birth="8255.1.1"}
+}
+103756807 = {
+	name="Hodor"	# not a lord
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=103056807
+	mother=403056807
+
+	8256.1.1 = {birth="8256.1.1"}
+	8272.1.1 = {add_trait=skilled_warrior}
+}
+103856807 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=103556807
+	mother=403556807
+
+	8276.1.1 = {birth="8276.1.1"}
+}
+103956807 = {
+	name="Hodor"	# a lord
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=103556807
+	mother=403556807
+
+	8279.1.1 = {birth="8279.1.1"}
+	8295.1.1 = {add_trait=skilled_warrior}
+	8297.1.1 = {add_spouse=403956807}
+}
+403956807 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	8279.1.1 = {birth="8279.1.1"}
+}
+104056807 = {
+	name="Hodor"	# not a lord
+	dynasty=56807
+
+	religion="gods_sarnor"
+	culture="sarnorian"
+
+	father=103556807
+	mother=403556807
+
+	8281.1.1 = {birth="8281.1.1"}
+	8297.1.1 = {add_trait=trained_warrior}
+}
+##Daevan of Omber##
+10051800 = {
+	name="Hodor"	# a lord
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	7966.1.1 = {birth="7966.1.1"}
+	7982.1.1 = {add_trait=trained_warrior}
+	7984.1.1 = {add_spouse=40051800}
+	8019.1.1 = {death="8019.1.1"}
+}
+40051800 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	7966.1.1 = {birth="7966.1.1"}
+	8019.1.1 = {death="8019.1.1"}
+}
+10151800 = {
+	name="Hodor"	# a lord
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=10051800
+	mother=40051800
+
+	7986.1.1 = {birth="7986.1.1"}
+	8002.1.1 = {add_trait=skilled_warrior}
+	8004.1.1 = {add_spouse=40151800}
+	8022.1.1 = {death="8022.1.1"}
+}
+40151800 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	7986.1.1 = {birth="7986.1.1"}
+	8022.1.1 = {death="8022.1.1"}
+}
+10251800 = {
+	name="Hodor"	# not a lord
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=10051800
+	mother=40051800
+
+	7987.1.1 = {birth="7987.1.1"}
+	8003.1.1 = {add_trait=poor_warrior}
+	8059.1.1 = {death="8059.1.1"}
+}
+10351800 = {
+	name="Hodor"	# not a lord
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=10051800
+	mother=40051800
+
+	7990.1.1 = {birth="7990.1.1"}
+	8006.1.1 = {add_trait=poor_warrior}
+	8048.1.1 = {death="8048.1.1"}
+}
+10451800 = {
+	name="Hodor"	# a lord
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=10151800
+	mother=40151800
+
+	8013.1.1 = {birth="8013.1.1"}
+	8029.1.1 = {add_trait=poor_warrior}
+	8031.1.1 = {add_spouse=40451800}
+	8063.1.1 = {death="8063.1.1"}
+}
+40451800 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	8013.1.1 = {birth="8013.1.1"}
+	8063.1.1 = {death="8063.1.1"}
+}
+10551800 = {
+	name="Hodor"	# not a lord
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=10151800
+	mother=40151800
+
+	8015.1.1 = {birth="8015.1.1"}
+	8031.1.1 = {add_trait=trained_warrior}
+	8062.1.1 = {death="8062.1.1"}
+}
+10651800 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=10151800
+	mother=40151800
+
+	8016.1.1 = {birth="8016.1.1"}
+	8061.1.1 = {death="8061.1.1"}
+}
+10751800 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=10451800
+	mother=40451800
+
+	8042.1.1 = {birth="8042.1.1"}
+	8092.1.1 = {death = {death_reason = death_murder}}
+}
+10851800 = {
+	name="Hodor"	# a lord
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=10451800
+	mother=40451800
+
+	8045.1.1 = {birth="8045.1.1"}
+	8061.1.1 = {add_trait=poor_warrior}
+	8063.1.1 = {add_spouse=40851800}
+	8110.1.1 = {death="8110.1.1"}
+}
+40851800 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	8045.1.1 = {birth="8045.1.1"}
+	8110.1.1 = {death="8110.1.1"}
+}
+10951800 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=10451800
+	mother=40451800
+
+	8047.1.1 = {birth="8047.1.1"}
+	8100.1.1 = {death="8100.1.1"}
+}
+11051800 = {
+	name="Hodor"	# not a lord
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=10451800
+	mother=40451800
+
+	8048.1.1 = {birth="8048.1.1"}
+	8064.1.1 = {add_trait=trained_warrior}
+	8070.1.1 = {death="8070.1.1"}
+}
+11151800 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=10851800
+	mother=40851800
+
+	8077.1.1 = {birth="8077.1.1"}
+	8120.1.1 = {death="8120.1.1"}
+}
+11251800 = {
+	name="Hodor"	# not a lord
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=10851800
+	mother=40851800
+
+	8079.1.1 = {birth="8079.1.1"}
+	8095.1.1 = {add_trait=trained_warrior}
+	8100.1.1 = {death="8100.1.1"}
+}
+11351800 = {
+	name="Hodor"	# a lord
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=10851800
+	mother=40851800
+
+	8082.1.1 = {birth="8082.1.1"}
+	8098.1.1 = {add_trait=skilled_warrior}
+	8100.1.1 = {add_spouse=41351800}
+	8126.1.1 = {death="8126.1.1"}
+}
+41351800 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	8082.1.1 = {birth="8082.1.1"}
+	8126.1.1 = {death="8126.1.1"}
+}
+11451800 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=11351800
+	mother=41351800
+
+	8108.1.1 = {birth="8108.1.1"}
+	8159.1.1 = {death="8159.1.1"}
+}
+11551800 = {
+	name="Hodor"	# a lord
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=11351800
+	mother=41351800
+
+	8109.1.1 = {birth="8109.1.1"}
+	8125.1.1 = {add_trait=trained_warrior}
+	8127.1.1 = {add_spouse=41551800}
+	8164.1.1 = {death="8164.1.1"}
+}
+41551800 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	8109.1.1 = {birth="8109.1.1"}
+	8164.1.1 = {death="8164.1.1"}
+}
+11651800 = {
+	name="Hodor"	# a lord
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=11551800
+	mother=41551800
+
+	8129.1.1 = {birth="8129.1.1"}
+	8145.1.1 = {add_trait=trained_warrior}
+	8147.1.1 = {add_spouse=41651800}
+	8198.1.1 = {death="8198.1.1"}
+}
+41651800 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	8129.1.1 = {birth="8129.1.1"}
+	8198.1.1 = {death="8198.1.1"}
+}
+11751800 = {
+	name="Hodor"	# not a lord
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=11551800
+	mother=41551800
+
+	8132.1.1 = {birth="8132.1.1"}
+	8148.1.1 = {add_trait=trained_warrior}
+	8150.1.1 = {add_spouse=41751800}
+	8180.1.1 = {death="8180.1.1"}
+}
+41751800 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	8132.1.1 = {birth="8132.1.1"}
+	8180.1.1 = {death="8180.1.1"}
+}
+11851800 = {
+	name="Hodor"	# not a lord
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=11551800
+	mother=41551800
+
+	8133.1.1 = {birth="8133.1.1"}
+	8149.1.1 = {add_trait=poor_warrior}
+	8151.1.1 = {add_spouse=41851800}
+	8181.1.1 = {death="8181.1.1"}
+}
+41851800 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	8133.1.1 = {birth="8133.1.1"}
+	8181.1.1 = {death="8181.1.1"}
+}
+11951800 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=11651800
+	mother=41651800
+
+	8161.1.1 = {birth="8161.1.1"}
+	8184.1.1 = {death="8184.1.1"}
+}
+12051800 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=11751800
+	mother=41751800
+
+	8155.1.1 = {birth="8155.1.1"}
+	8191.1.1 = {death="8191.1.1"}
+}
+12151800 = {
+	name="Hodor"	# not a lord
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=11751800
+	mother=41751800
+
+	8156.1.1 = {birth="8156.1.1"}
+	8172.1.1 = {add_trait=trained_warrior}
+	8177.1.1 = {death="8177.1.1"}
+}
+12251800 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=11751800
+	mother=41751800
+
+	8158.1.1 = {birth="8158.1.1"}
+	8201.1.1 = {death="8201.1.1"}
+}
+12351800 = {
+	name="Hodor"	# a lord
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=11751800
+	mother=41751800
+
+	8161.1.1 = {birth="8161.1.1"}
+	8177.1.1 = {add_trait=skilled_warrior}
+	8179.1.1 = {add_spouse=42351800}
+	8213.1.1 = {death="8213.1.1"}
+}
+42351800 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	8161.1.1 = {birth="8161.1.1"}
+	8213.1.1 = {death="8213.1.1"}
+}
+12451800 = {
+	name="Hodor"	# not a lord
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=11751800
+	mother=41751800
+
+	8164.1.1 = {birth="8164.1.1"}
+	8180.1.1 = {add_trait=trained_warrior}
+	8216.1.1 = {death="8216.1.1"}
+}
+12551800 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=12351800
+	mother=42351800
+
+	8196.1.1 = {birth="8196.1.1"}
+	8249.1.1 = {death="8249.1.1"}
+}
+12651800 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=12351800
+	mother=42351800
+
+	8198.1.1 = {birth="8198.1.1"}
+	8221.1.1 = {death="8221.1.1"}
+}
+12751800 = {
+	name="Hodor"	# a lord
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=12351800
+	mother=42351800
+
+	8201.1.1 = {birth="8201.1.1"}
+	8217.1.1 = {add_trait=poor_warrior}
+	8219.1.1 = {add_spouse=42751800}
+	8259.1.1 = {death="8259.1.1"}
+}
+42751800 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	8201.1.1 = {birth="8201.1.1"}
+	8259.1.1 = {death="8259.1.1"}
+}
+12851800 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=12751800
+	mother=42751800
+
+	8234.1.1 = {birth="8234.1.1"}
+	8279.1.1 = {death="8279.1.1"}
+}
+12951800 = {
+	name="Hodor"	# a lord
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=12751800
+	mother=42751800
+
+	8236.1.1 = {birth="8236.1.1"}
+	8252.1.1 = {add_trait=trained_warrior}
+	8254.1.1 = {add_spouse=42951800}
+	8275.1.1 = {death="8275.1.1"}
+}
+42951800 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	8236.1.1 = {birth="8236.1.1"}
+	8275.1.1 = {death="8275.1.1"}
+}
+13051800 = {
+	name="Hodor"	# not a lord
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=12751800
+	mother=42751800
+
+	8239.1.1 = {birth="8239.1.1"}
+	8255.1.1 = {add_trait=trained_warrior}
+	8297.1.1 = {death="8297.1.1"}
+}
+13151800 = {
+	name="Hodor"	# a lord
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=12951800
+	mother=42951800
+
+	8261.1.1 = {birth="8261.1.1"}
+	8277.1.1 = {add_trait=poor_warrior}
+	8279.1.1 = {add_spouse=43151800}
+}
+43151800 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	8261.1.1 = {birth="8261.1.1"}
+}
+13251800 = {
+	name="Hodor"	# not a lord
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=12951800
+	mother=42951800
+
+	8264.1.1 = {birth="8264.1.1"}
+	8280.1.1 = {add_trait=poor_warrior}
+}
+13351800 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=12951800
+	mother=42951800
+
+	8267.1.1 = {birth="8267.1.1"}
+}
+13451800 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=12951800
+	mother=42951800
+
+	8269.1.1 = {birth="8269.1.1"}
+}
+13551800 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=13151800
+	mother=43151800
+
+	8280.1.1 = {birth="8280.1.1"}
+}
+13651800 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=13151800
+	mother=43151800
+
+	8283.1.1 = {birth="8283.1.1"}
+}
+13751800 = {
+	name="Hodor"	# not a lord
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=13151800
+	mother=43151800
+
+	8284.1.1 = {birth="8284.1.1"}
+	8300.1.1 = {add_trait=poor_warrior}
+}
+13851800 = {
+	name="Hodor"	# not a lord
+	dynasty=51800
+
+	religion="gods_sarnor"
+	culture="omberi"
+
+	father=13151800
+	mother=43151800
+
+	8287.1.1 = {birth="8287.1.1"}
+	8303.1.1 = {add_trait=skilled_warrior}
+}
+

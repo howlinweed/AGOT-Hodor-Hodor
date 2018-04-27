@@ -1,0 +1,10119 @@
+###Dothraki
+
+####Dothraki Domains
+# 999000113 = {
+	# name="Hodor"
+	# religion="dothraki_domain_rel"
+	# culture="dothraki_domain_culture"	
+	# dynasty=314001
+	
+	# martial = 0
+	# diplomacy = 0
+	# intrigue = 0
+	# stewardship = 10
+	# learning = 0
+	
+	# 7900.1.1 = { 
+		# birth="7900.1.1" 
+		# effect = {
+			# change_stewardship = 90
+			# wealth = -1000
+			# add_trait=dothraki_domain
+			# any_realm_province = { 
+				# add_province_modifier = {
+					# name = dothraki_domain
+					# duration = -1
+				# }
+			# }	
+		# }
+	# }
+# }
+###
+
+###Line of Mengo###
+100600207 = {
+	name ="Mengo" # First to unite the Dothraki after the doom
+	dynasty = 600207
+	dna = adcajslfbbr
+	properties = kg0adk
+	
+	martial = 9
+	diplomacy = 10
+	stewardship = 4
+	intrigue = 7
+	learning = 4
+	
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	add_trait = brilliant_strategist
+	add_trait = strong
+	add_trait = authoritative
+	add_trait = ruthless
+	add_trait = ambitious
+	add_trait = deceitful
+
+	add_trait = cavalry_leader
+	add_trait = aggressive_leader
+
+	mother = 101600207
+	
+	7860.1.1 = { 
+		birth="7860.1.1" 
+	}
+	7876.1.1 = {
+		add_trait="skilled_warrior"
+		effect = { set_character_flag = flag_dothraki_dynasty_founded }
+	}
+	7928.1.1 = {death="7928.1.1"}
+}
+101600207 = {
+	name ="Doshi" # Mengo's mother
+	female = yes
+	
+	martial = 4
+	diplomacy = 10
+	stewardship = 6
+	intrigue = 8
+	learning = 7
+	
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	add_trait = elusive_shadow
+	add_trait = quick
+	add_trait = authoritative
+	add_trait = ambitious
+	add_trait = mystic
+
+	7840.1.1 = { 
+		birth="7840.1.1" 
+	}
+	7911.1.1 = {death="7911.1.1"}
+}
+102600207 = {
+	name = "Moro" # Mengo's succesor
+	dynasty = 600207
+	
+	martial = 6
+	diplomacy = 2
+	stewardship = 2
+	intrigue = 2
+	learning = 2
+	
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	add_trait = skilled_tactician
+	add_trait = authoritative
+	add_trait = ruthless
+	add_trait = ambitious
+	add_trait = cavalry_leader
+
+	father = 100600207
+	
+	7892.1.1 = { 
+		birth="7892.1.1" 
+	}
+	7908.1.1 = {
+		add_trait="skilled_warrior"
+	}
+	7946.1.1 = {
+		death={
+			death_reason = death_duel
+			killer = 100600208 #Khal Horro
+		}
+	}
+}
+103600207 = {
+	name = "Irri" # Unnamed daughter of Moro
+	dynasty = 600207
+	female=yes
+	
+	martial = 3
+	diplomacy = 5
+	stewardship = 3
+	intrigue = 8
+	learning = 2
+	
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	add_trait = intricate_webweaver
+	add_trait = wroth
+	add_trait = ruthless
+	add_trait = proud
+
+	father = 102600207
+	
+	7918.1.1 = { 
+		birth="7918.1.1" 
+	}
+	7951.1.1 = {
+		add_trait=dosh_khaleen
+	}
+	7998.1.1 = {death="7998.1.1"}
+}
+100600208 = {
+	name = "Horro" # last of the great khals
+	dynasty = 600208
+	
+	martial = 7
+	diplomacy = 5
+	stewardship = 4
+	intrigue = 3
+	learning = 1
+	
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	add_trait = tough_soldier
+	add_trait = strong
+	add_trait = cruel
+	add_trait = ambitious
+	add_trait = greedy
+	add_trait = cavalry_leader
+
+	7920.1.1 = { 
+		birth="7920.1.1" 
+	}
+	7936.1.1 = {
+		add_trait="skilled_warrior"
+	}
+	7948.1.1 = {add_spouse=103600207} #Daughter of Mero
+	7951.1.1 = {
+		death={
+			death_reason = death_duel
+		}
+	}
+}
+###Line of Onqo###
+100600209 = {
+	name = "Onqo" #Died attacking Ibben
+	dynasty = 600209
+	
+	martial = 6
+	diplomacy = 4
+	stewardship = 2
+	intrigue = 4
+	learning = 2
+	
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	add_trait = tough_soldier
+	add_trait = authoritative
+	add_trait = wroth
+	add_trait = ambitious
+	add_trait = cavalry_leader
+
+	7910.1.1 = { 
+		birth="7910.1.1" 
+	}
+	7926.1.1 = {
+		add_trait="skilled_warrior"
+	}
+	7959.1.1 = {
+		death={
+			death_reason = death_battle
+		}
+	}
+}
+101600209 = {
+	name = "Drogo" #Unnamed son
+	dynasty = 600209
+	
+	religion="dothraki_pagan"
+	culture="dothraki"
+	
+	father = 100600209
+
+	7930.1.1 = { 
+		birth="7930.1.1" 
+	}
+	7946.1.1 = {
+		add_trait="skilled_warrior"
+	}
+	7959.1.1 = {
+		death={
+			death_reason = death_battle
+		}
+	}
+}
+102600209 = {
+	name = "Dhako" #The Dragon of the North
+	dynasty = 600209
+	
+	martial = 7
+	diplomacy = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 1
+	
+	religion="dothraki_pagan"
+	culture="dothraki"
+	
+	add_trait = tough_soldier
+	add_trait = cruel
+	add_trait = wroth
+	add_trait = ruthless
+	add_trait = ambitious
+	add_trait = cavalry_leader
+
+	father = 101600209
+
+	7946.1.1 = { 
+		birth="7946.1.1" 
+	}
+	7962.1.1 = {
+		add_trait="skilled_warrior"	
+	}
+	7970.1.1 = {
+		give_nickname = nick_the_dragon_of_the_north
+		add_spouse = 103600209
+	}
+	7998.1.1 = {
+		add_trait = eunuch
+		add_trait = disfigured_AGOT
+		death = {
+			death_reason = death_execution_dothraki_mutilation
+			killer = 100600210
+		}
+	}
+}
+103600209 = {
+	name = "Jhiqui" #wife
+	female = yes
+	
+	religion="dothraki_pagan"
+	culture="dothraki"
+	
+	7946.1.1 = { 
+		birth="7946.1.1" 
+		effect = {  
+			dynasty = none
+		}
+	}
+	7998.1.1 = {
+		add_trait = disfigured_AGOT
+		death = {
+			death_reason = death_execution_dothraki_mutilation
+			killer = 100600210
+		}
+	}
+}
+104600209 = {
+	name = "Rommo"
+	dynasty = 600209
+		
+	religion="dothraki_pagan"
+	culture="dothraki"
+	
+	add_trait = tough_soldier
+
+	father = 102600209
+	mother = 103600209
+
+	7970.1.1 = { 
+		birth="7970.1.1" 
+	}
+	7986.1.1 = {
+		add_trait="skilled_warrior"
+	}
+	7998.1.1 = {
+		add_trait = eunuch
+		add_trait = disfigured_AGOT
+		death = {
+			death_reason = death_execution_dothraki_mutilation
+			killer = 100600210
+		}
+	}
+}
+105600209 = {
+	name = "Kovarro"
+	dynasty = 600209
+	
+	religion="dothraki_pagan"
+	culture="dothraki"
+	
+	add_trait = tough_soldier
+
+	father = 102600209
+	mother = 103600209
+
+	7972.1.1 = { 
+		birth="7972.1.1" 
+	}
+	7988.1.1 = {
+		add_trait="trained_warrior"
+	}
+	7998.1.1 = {
+		add_trait = eunuch
+		add_trait = disfigured_AGOT
+		death = {
+			death_reason = death_execution_dothraki_mutilation
+			killer = 100600210
+		}
+	}
+}
+106600209 = {
+	name = "Qotho"
+	dynasty = 600209
+	
+	religion="dothraki_pagan"
+	culture="dothraki"
+	
+	add_trait = tough_soldier
+
+	father = 102600209
+	mother = 103600209
+
+	7978.1.1 = { 
+		birth="7978.1.1" 
+	}
+	7994.1.1 = {
+		add_trait="trained_warrior"
+	}
+	7998.1.1 = {
+		add_trait = eunuch
+		add_trait = disfigured_AGOT
+		death = {
+			death_reason = death_execution_dothraki_mutilation
+			killer = 100600210
+		}
+	}
+}
+107600209 = {
+	name = "Jasso"
+	dynasty = 600209
+	
+	religion="dothraki_pagan"
+	culture="dothraki"
+	
+	add_trait = tough_soldier
+
+	father = 102600209
+	mother = 103600209
+
+	7981.1.1 = { 
+		birth="7981.1.1" 
+	}
+	7997.1.1 = {
+		add_trait="skilled_warrior"
+	}
+	7998.1.1 = {
+		add_trait = eunuch
+		add_trait = disfigured_AGOT
+		death = {
+			death_reason = death_execution_dothraki_mutilation
+			killer = 100600210
+		}
+	}
+}
+108600209 = {
+	name = "Zollo"
+	dynasty = 600209
+	
+	religion="dothraki_pagan"
+	culture="dothraki"
+	
+	father = 102600209
+	mother = 103600209
+
+	7983.1.1 = { 
+		birth="7983.1.1" 
+	}
+	7998.1.1 = {
+		add_trait = eunuch
+		add_trait = disfigured_AGOT
+		death = {
+			death_reason = death_execution_dothraki_mutilation
+			killer = 100600210
+		}
+	}
+}
+###
+100600210 = {
+	name = "Temmo" #Died attacking Qohor
+	dynasty = 600210
+	
+	martial = 4
+	diplomacy = 5
+	stewardship = 2
+	intrigue = 6
+	learning = 2
+	
+	religion="dothraki_pagan"
+	culture="dothraki"
+	
+	add_trait = skilled_tactician
+	add_trait = greedy
+	add_trait = cruel
+	add_trait = impaler
+	add_trait = ruthless
+	add_trait = ambitious
+	add_trait = cavalry_leader
+
+	7966.1.1 = { 
+		birth="7966.1.1" 
+	}
+	7982.1.1 = {
+		add_trait="master_warrior"	
+	}
+	7999.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 100300567
+		}
+	}
+}
+##
+300100 = {
+	name ="Drogo" # Khal Drogo
+	religion="dothraki_pagan"
+	culture="dothraki"
+	#dna="didlmobeaac"
+	#properties="0i00e"
+	dna="ckcmewlbbdl"
+	properties="0i00k"
+	
+	diplomacy = 7
+	martial = 5
+	stewardship = 5
+	intrigue = 8
+	learning = 5
+
+	add_trait = brilliant_strategist
+	add_trait = strong
+	add_trait = authoritative
+	add_trait = wroth
+	add_trait = brave
+	add_trait = ruthless
+	add_trait = cavalry_leader
+	add_trait = aggressive_leader
+	#add_trait = dothraki
+	
+	father = 1300100
+	
+	8268.1.1 = { 
+		birth="8268.1.1" 
+	}
+	8273.1.1 = { dynasty = 600200 }
+	8277.1.1 = { add_trait="poor_warrior" }
+	8279.1.1 = {
+		remove_trait="poor_warrior"
+		add_trait="trained_warrior"
+	}
+	8282.1.1 = {
+		remove_trait="trained_warrior"
+		add_trait="skilled_warrior"
+	}
+	8285.1.1 = {
+		remove_trait="skilled_warrior"
+		add_trait="master_warrior"
+	}
+	8287.1.1 = { 
+		dynasty = 600201 
+		effect = { set_character_flag = flag_dothraki_dynasty_founded }
+	}
+	8298.1.1 = {
+		add_spouse = 77041
+	}
+	8298.9.10 = { add_trait = wounded }
+	8298.10.10 = {
+		remove_trait = wounded
+		add_trait = incapable
+		death = { death_reason = death_trait }
+	}
+}
+
+1300100 = {
+	name = "Bharbo" # Drogo's father
+	religion = "dothraki_pagan"
+	culture = "dothraki"
+	
+	add_trait=tough_soldier
+	add_trait=skilled_warrior
+	#add_trait = dothraki
+	
+	8243.1.1 = { 
+		birth = "8243.1.1" 
+	}
+	8273.1.1 = { 
+		dynasty = 600200 
+		effect = { set_character_flag = flag_dothraki_dynasty_founded }
+	}
+	8287.1.1 = { death = "8287.1.1" }
+}
+
+2300100 = {
+	name = "Rhaego"
+	dynasty = 600201
+	religion = "dothraki_pagan"
+	culture = "dothraki"
+	
+	father = 300100
+	mother = 77041
+	
+	#add_trait = dothraki
+	
+	8298.10.9 = {
+		birth="8298.10.9" 
+	}
+	8298.10.10 = {
+		death = { death_reason = death_stillborn }
+	}
+}
+
+# Drogo's Bloodriders
+3300100 = {
+	name = "Cohollo"
+	religion = "dothraki_pagan"
+	culture = "dothraki"
+	
+	dynasty = 600220
+	employer = 1300100
+	
+	add_trait = tough_soldier
+	add_trait = trained_warrior
+	add_trait = ugly
+	add_trait = kind
+	add_trait = zealous
+	#add_trait = dothraki
+	
+	8245.1.1 = { 
+		birth = "8245.1.1" 
+	}
+	8287.1.1 = { 
+		#employer = 300100
+		effect = { 
+			liege = { 
+				opinion = { who = ROOT modifier = opinion_bloodrider } 
+				clan_title = {
+					ROOT = {
+						clan_title = { create_oath = PREVPREV }
+					}	
+				}
+			}
+			give_minor_title = title_bloodrider 
+		}
+	}
+	8298.10.10 = {
+		death = {
+			death_reason = death_duel
+			killer = 7300100
+		}
+	}
+}
+
+4300100 = {
+	name = "Qotho"
+	religion = "dothraki_pagan"
+	culture = "dothraki"
+	employer = 1300100
+	
+	add_trait = tough_soldier
+	add_trait = trained_warrior
+	add_trait = cruel
+	add_trait = wroth
+	add_trait = zealous
+	#add_trait = dothraki
+	
+	8261.1.1 = { 
+		birth = "8261.1.1" 
+		effect = {  
+			dynasty = none
+		}
+	}
+	8287.1.1 = { 
+		employer = 300100
+		effect = { 
+			liege = { opinion = { who = ROOT modifier = opinion_bloodrider } }
+			give_minor_title = title_bloodrider 
+		}
+	}
+	8298.10.10 = {
+		death = {
+			death_reason = death_duel
+			killer = 102
+		}
+	}
+}
+
+5300100 = {
+	name = "Haggo"
+	religion = "dothraki_pagan"
+	culture = "dothraki"
+	employer = 1300100
+	
+	add_trait = tough_soldier
+	add_trait = trained_warrior
+	add_trait = zealous
+	#add_trait = dothraki
+	
+	8264.1.1 = { 
+		birth = 8264.1.1 
+		effect = {  
+			dynasty = none
+		}
+	}
+	8287.1.1 = { 
+		employer = 300100
+		effect = { 
+			liege = { opinion = { who = ROOT modifier = opinion_bloodrider } }
+			give_minor_title = title_bloodrider 
+		}
+	}
+	8298.1.1 = {
+		death = {
+			death_reason = death_duel
+			killer = 8300100
+		}
+	}
+}
+# Drogo's Kos
+3300101 = {
+	name = "Pono"
+	dynasty = 600204
+	religion = "dothraki_pagan"
+	culture = "dothraki"
+	employer = 1300100
+	
+	add_trait = skilled_tactician
+	add_trait = ambitious
+	add_trait = wroth
+	#add_trait = dothraki
+	
+	8260.1.1 = { 
+		birth = "8260.1.1" 
+		effect = { set_character_flag = flag_dothraki_dynasty_founded }
+	}
+	8276.1.1 = { add_trait = skilled_warrior }
+	8287.1.1 = { employer = 0 }
+}
+3300102 = {
+	name = "Jhaqo"
+	dynasty = 600205
+	religion = "dothraki_pagan"
+	culture = "dothraki"
+	employer = 1300100
+	
+	martial = 6
+	
+	add_trait = tough_soldier
+	add_trait = cruel
+	add_trait = ruthless
+	#add_trait = dothraki
+	
+	8266.1.1 = { 
+		birth = "8266.1.1" 
+		effect = { set_character_flag = flag_dothraki_dynasty_founded }
+	}
+	8282.1.1 = { add_trait = trained_warrior }
+	8287.1.1 = { employer = 0 }
+}
+3300103 = {
+	name = "Mago"
+	religion = "dothraki_pagan"
+	culture = "dothraki"
+	employer = 1300100
+	
+	martial = 4
+	
+	add_trait = tough_soldier
+	add_trait = cruel
+	add_trait = impaler
+	add_trait = proud
+	add_trait = wroth
+	#add_trait = dothraki
+	
+	8267.1.1 = { 
+		birth = "8267.1.1" 
+	}
+	8283.1.1 = { add_trait = trained_warrior }
+	8287.1.1 = { 
+		employer = 3300102
+	}
+}
+# Daenerys's Bloodriders
+6300100 = {
+	name = "Jhogo"
+	religion = "dothraki_pagan"
+	culture = "dothraki"
+	dna="c0kej0dbad0"
+	properties="qa0j0k"
+	
+	employer = 1300100
+	
+	father = 6300101
+	
+	add_trait = tough_soldier
+	
+	8282.1.1 = { 
+		birth = "8282.1.1" 
+		effect = {  
+			dynasty = none
+		}
+	}
+	8287.1.1 = { 
+		employer = 300100
+	}
+	8298.1.1 = { 
+		add_trait = trained_warrior
+	}
+	8298.10.10 = { employer = 3300101 }
+	8298.10.10 = {  # Drogo's death
+		employer = 77041 #Dany
+		effect = {
+			liege = {
+				opinion = {
+					modifier = opinion_bloodrider
+					who = ROOT
+					years = 100
+				}
+			}	
+		}
+	}
+}
+6300101 = { #father to avoid culling
+	name = "Aggo"
+	religion = "dothraki_pagan"
+	culture = "dothraki"
+	
+	add_trait = tough_soldier
+	
+	8252.1.1 = { 
+		birth = "8252.1.1" 
+		effect = {  
+			dynasty = none
+		}
+	}
+	8268.1.1 = { 
+		add_trait = trained_warrior
+	}
+	8295.10.10 = { 
+		death = yes
+	}
+}
+
+7300100 = {
+	name = "Aggo"
+	religion = "dothraki_pagan"
+	culture = "dothraki"
+	dna="aejhd0kg0a0"
+	properties="ke0gg00b"
+
+	employer = 1300100
+	
+	father = 7300101
+	
+	add_trait = tough_soldier
+	
+	8278.1.1 = { 
+		birth = "8278.1.1" 
+		effect = {  
+			dynasty = none
+		}
+	}
+	8287.1.1 = { 
+		employer = 300100
+	}
+	8294.1.1 = { 
+		add_trait = trained_warrior
+	}
+	8298.10.10 = { employer = 3300101 }
+	8298.10.10 = {  # Drogo's death
+		employer = 77041 #Dany
+		effect = {
+			liege = {
+				opinion = {
+					modifier = opinion_bloodrider
+					who = ROOT
+					years = 100
+				}
+			}	
+		}
+	}
+}
+7300101 = { #father to avoid culling
+	name = "Rakharo"
+	religion = "dothraki_pagan"
+	culture = "dothraki"
+	
+	add_trait = tough_soldier
+	
+	8252.1.1 = { 
+		birth = "8252.1.1" 
+		effect = {  
+			dynasty = none
+		}
+	}
+	8268.1.1 = { 
+		add_trait = trained_warrior
+	}
+	8294.1.1 = { 
+		death = yes
+	}
+}
+
+8300100 = {
+	name = "Rakharo"
+	religion = "dothraki_pagan"
+	culture = "dothraki"
+	dna="chffe0kb0d0"
+	properties="pg0idk"
+
+	employer = 1300100
+	
+	father = 8300101
+	
+	add_trait = tough_soldier
+	add_trait = trained_warrior
+	add_trait = fair
+	add_trait = strong
+	
+	8276.1.1 = { 
+		birth = "8276.1.1" 
+		effect = {  
+			dynasty = none
+		}
+	}
+	8287.1.1 = { 
+		employer = 300100
+	}
+	8292.1.1 = { 
+		add_trait = trained_warrior
+	}
+	8298.10.10 = { employer = 3300101 }
+	8298.10.10 = {  # Drogo's death
+		employer = 77041 #Dany
+		effect = {
+			liege = {
+				opinion = {
+					modifier = opinion_bloodrider
+					who = ROOT
+					years = 100
+				}
+			}	
+		}
+	}
+}
+8300101 = { #father to avoid culling
+	name = "Mengo"
+	religion = "dothraki_pagan"
+	culture = "dothraki"
+	
+	add_trait = tough_soldier
+	
+	8250.1.1 = { 
+		birth = "8250.1.1" 
+		effect = {  
+			dynasty = none
+		}
+	}
+	8266.1.1 = { 
+		add_trait = trained_warrior
+	}
+	8293.1.1 = { 
+		death = yes
+	}
+}
+
+14300100 = { # Represents Daenerys' Khalasar in the absence of her bloodriders.
+	name="Hodor"
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	add_trait="brave"
+	add_trait="proud"
+	add_trait="diligent"
+	add_trait="robust"
+	add_trait="wroth"
+
+	father=14300101
+
+	8236.1.1 = {
+		birth = yes
+	}
+	8262.1.1 = {
+		add_trait="tough_soldier"
+		add_trait="trained_warrior"
+	}
+	8290.1.1 = {
+		employer = 300100
+	}
+	8298.10.10 = {
+		employer = 77041
+	}
+}
+14300101 = { #father to avoid culling
+	name="Hodor"
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8210.1.1 = {
+		birth = yes
+	}
+	8250.1.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+# Daenerys's Handmaidens
+9300100 = {
+	name = "Irri"
+	religion = "dothraki_pagan"
+	culture = "dothraki"
+	female = yes
+	employer = 1300100
+	
+	mother = 9300101
+	
+	8284.1.1 = { 
+		birth = "8284.1.1" 
+		effect = {  
+			dynasty = none
+		}
+	}
+	8287.1.1 = { 
+		employer = 300100
+	}
+	8298.10.10 = { employer = 3300101 }
+	8298.10.10 = {  # Drogo's death
+		employer = 77041 #Dany
+	}
+}
+9300101 = { #mother to avoid culling
+	name = "Jhiqui"
+	female = yes
+	religion = "dothraki_pagan"
+	culture = "dothraki"
+	
+	8251.1.1 = { 
+		birth = "8251.1.1" 
+		effect = {  
+			dynasty = none
+		}
+	}
+	8293.1.1 = { 
+		death = yes
+	}
+}
+10300100 = {
+	name = "Jhiqui"
+	religion = "dothraki_pagan"
+	culture = "dothraki"
+	female = yes
+	employer = 1300100
+	
+	mother = 10300101
+	
+	8284.1.1 = {
+		birth = "8284.1.1" 
+		effect = {  
+			dynasty = none
+		}
+	}
+	8287.1.1 = { 
+		employer = 300100
+	}
+	8298.10.10 = { employer = 3300101 }
+	8298.10.10 = {  # Drogo's death
+		employer = 77041 #Dany
+	}
+}
+10300101 = { #mother to avoid culling
+	name = "Doreah"
+	female = yes
+	religion = "dothraki_pagan"
+	culture = "dothraki"
+	
+	8251.1.1 = { 
+		birth = "8251.1.1" 
+		effect = {  
+			dynasty = none
+		}
+	}
+	8295.1.1 = { 
+		death = yes
+	}
+}
+11300100 = {
+	name = "Doreah"
+	religion = "rhllor"
+	culture = "lysene"
+	female = yes
+	
+	add_trait="fair"
+	add_trait="lustful"
+	add_trait="ambitious"
+	#add_trait = dothraki
+	
+	mother = 11300101
+	
+	8283.1.1 = { 
+		birth = "8283.1.1" 
+		effect = {  
+			dynasty = none
+		}
+	}
+	8298.1.1 = { employer = 300100 }
+	8298.10.10 = { employer = 3300101 }
+	8298.10.10 = {  # Drogo's death
+		employer = 77041 #Dany
+	}
+	8299.1.1 = { add_trait = ill }
+	8299.3.1 = { death = { death_reason = death_trait } }
+}
+11300101 = { #mother to avoid culling
+	name = "Mysandria"
+	female = yes
+	religion = "rhllor"
+	culture = "lysene"
+	
+	8251.1.1 = { 
+		birth = "8251.1.1" 
+		effect = {  
+			dynasty = none
+		}
+	}
+	8295.1.1 = { 
+		death = yes
+	}
+}
+#Lhazareen
+12300100 = {
+	name = "Mirri Maz Duur"
+	religion = "great_shepherd"
+	culture = "lhazareen"
+	female = yes
+
+	add_trait="mystic"
+	add_trait="deceitful"
+	
+	mother = 12300149
+	
+	8241.1.1 = {
+		birth = "8241.1.1" 
+		effect = {  
+			dynasty = none
+		}
+	}
+	8261.1.1 = { 
+		effect = { give_minor_title = title_volva }
+	}
+	8298.9.10 = { employer = 300100 }
+	8298.10.10={
+		#Burned by Daenerys
+		death = {
+			death_reason = death_execution
+			killer = 77041
+		}
+	}
+}
+12300149 = { #mother to avoid culling
+	name = "Mengi"
+	female = yes
+	religion = "great_shepherd"
+	culture = "lhazareen"
+	
+	8221.1.1 = { 
+		birth = "8221.1.1" 
+		effect = {  
+			dynasty = none
+		}
+	}
+	8280.1.1 = { 
+		death = yes
+	}
+}
+#Other Dany Courtiers
+12300101 = {
+	name = "Belwas"
+	dna="abfhbfddaap"
+	properties="a000ia"
+	religion = "harpy"
+	culture = "dothraki"
+	
+	martial = 5
+	stewardship = 0
+	diplomacy = 3
+	intrigue = 7
+	learning = 0
+	
+	father = 12300102
+
+	add_trait="strong"
+	add_trait="tall"
+	add_trait="proud"
+	add_trait="scarred"
+	add_trait="wroth"
+	add_trait="gregarious"
+	add_trait="tough_soldier"
+	
+	8268.1.1 = { 
+		birth = "8268.1.1" 
+		effect = {  
+			dynasty = none
+		}
+	}
+	8282.1.1 = { 
+		add_trait="eunuch"
+		add_trait="skilled_warrior"
+		give_nickname = nick_the_strong
+	}
+	8295.1.1 = {
+		employer = 600000040 #Illyrio
+	}	
+	8299.6.1={ #Dany
+		employer = 77041
+	}
+}
+12300102 = { #father to avoid culling
+	name = "Bharbo"
+	religion = "harpy"
+	culture = "dothraki"
+	
+	add_trait = slave
+	add_trait = strong
+	
+	8248.1.1 = { 
+		birth = "8248.1.1" 
+		effect = {  
+			dynasty = none
+		}
+	}
+	8264.1.1 = { 
+		add_trait="trained_warrior"
+	}
+	8285.1.1 = { 
+		death = yes
+	}
+}
+12400101 = {
+	name = "Groleo"  #made an admiral by Daenerys
+	religion = "rhllor"
+	culture = "pentosi"
+	
+	martial = 4
+	stewardship = 3
+	diplomacy = 3
+	intrigue = 4
+	learning = 1
+	
+	father = 12400150
+
+	add_trait="diligent"
+	add_trait="brilliant_strategist"
+	
+	8242.1.1 = { 
+		birth = "8242.1.1" 
+		effect = {  
+			dynasty = none
+		}
+	}
+	8258.1.1 = { 
+		add_trait="trained_warrior"
+	}
+	8284.1.1 = {
+		employer = 600000040 #Illyrio
+	}	
+	8299.6.1={ #Dany
+		employer = 77041
+	}
+	8300.5.1={
+		death = { #Executed as hostage
+			death_reason = death_execution
+			#killer = Bloodbeard
+		}
+	}
+}
+12400150 = { #father to avoid culling
+	name = "Allaquo"
+
+	religion = "rhllor"
+	culture = "pentosi"
+	
+	8220.1.1 = { 
+		birth = "8220.1.1" 
+		effect = {  
+			dynasty = none
+		}
+	}
+	8236.1.1 = { 
+		add_trait="trained_warrior"
+	}
+	8278.1.1 = { 
+		death = yes
+	}
+}
+
+12400102 = {
+	name = "Missandei"
+	religion = "nath_pagan"
+	culture = "naathi"
+	female = yes
+	
+	diplomacy=12
+	stewardship=10
+	intrigue=8
+	learning=10
+	martial=1
+	
+	add_trait="fair"
+	add_trait=quick
+	add_trait=stubborn
+	add_trait=brave
+	add_trait=gregarious
+	add_trait=kind
+	
+	father = 12400151
+	
+	disallow_random_traits = yes
+		
+	8289.1.1 = { 
+		birth = "8289.1.1" 	
+		effect = {  
+			dynasty = none
+		}		
+	}
+	8295.1.1 = { 
+		employer = 6571000 # Kraznys
+		add_trait="slave"
+		effect = {
+			if = {
+				limit = { trait = slave }
+				liege = {
+					reverse_opinion = { who = ROOT modifier = opinion_my_owner }
+					opinion = { who = ROOT modifier = opinion_my_slave }
+				}
+			}
+			if = {
+				limit = { 
+					has_dlc = "Zeus"
+					NOT = { age = 12 }
+				}
+				add_trait = affectionate
+				add_trait = willful
+				add_trait = conscientious
+				remove_trait = stubborn
+				remove_trait = kind
+				add_trait = brave
+				add_trait = gregarious
+			}
+		}
+	} 
+	8299.12.12 = { 
+		employer = 77041 
+		remove_trait = slave
+		add_trait = former_slave
+		effect = {
+			liege = {
+				reverse_opinion = {
+					modifier = opinion_loyal_servant
+					who = ROOT
+				}
+			}	
+		}
+	}
+	8300.1.1 = { 
+		guardian=77041
+	}
+}
+601497 = { #canon, brother of Missandei killed by the Sons of the Harpy
+	name="Hodor"	
+	dna="a0cfb0db000"
+	properties="oa0j0d00000000"
+
+	religion="nath_pagan"
+	culture="naathi"	
+	martial=7
+
+	add_trait=tough_soldier
+
+	father=12400151
+
+	8281.1.1 = {
+		birth="8281.1.1"
+	}
+	8295.1.1 = { 
+		employer = 6571000 # Kraznys
+		add_trait="slave"
+		add_trait=eunuch
+		add_trait="trained_warrior"
+		effect = {
+			set_character_flag = unsullied
+			if = {
+				limit = { trait = slave }
+				liege = {
+					reverse_opinion = { who = ROOT modifier = opinion_my_owner }
+					opinion = { who = ROOT modifier = opinion_my_slave }
+				}
+			}
+		}
+	} 
+	8300.1.1={
+		employer=77041
+		remove_trait="slave"
+		add_trait="former_slave"
+	}
+	8300.2.4={
+		death = { #ambushed and crushed to death by falling stones
+			death_reason = death_murder
+			#killer = Bloodbeard
+		}
+	}
+}
+601498 = { #canon, last surving brother of Missandei and commander of the Mother's Men
+	name="Hodor"	
+	dna="agdgb0fga00"
+	properties="of0j0d00000000"
+
+	religion="nath_pagan"
+	culture="naathi"
+
+	martial=7
+	intrigue=8
+
+	add_trait=skilled_tactician
+	add_trait=diligent
+	add_trait=brave
+
+	father=12400151
+
+	8283.1.1 = {
+		birth="8283.1.1"
+	}
+	8295.1.1 = { 
+		employer = 6571000 # Kraznys
+		add_trait="slave"
+		add_trait=eunuch
+		add_trait="skilled_warrior"
+		effect = {
+			set_character_flag = unsullied
+			if = {
+				limit = { trait = slave }
+				liege = {
+					reverse_opinion = { who = ROOT modifier = opinion_my_owner }
+					opinion = { who = ROOT modifier = opinion_my_slave }
+				}
+			}
+		}
+	} 
+	8300.1.1={
+		employer=77041
+		remove_trait="slave"
+		add_trait="former_slave"
+	}
+}
+12400100 = { #canon, unamed brother of Missandei who died in Unsullied training
+	name="Hodor"
+	religion="nath_pagan"
+	culture="naathi"
+
+	father=12400151
+
+	8285.1.1 = {
+		birth="8285.1.1"
+	}
+	8295.1.1 = { 
+		employer = 6571000 # Kraznys
+		add_trait="slave"
+		add_trait=eunuch
+		add_trait="trained_warrior"
+		effect = {
+			set_character_flag = unsullied
+			if = {
+				limit = { trait = slave }
+				liege = {
+					reverse_opinion = { who = ROOT modifier = opinion_my_owner }
+					opinion = { who = ROOT modifier = opinion_my_slave }
+				}
+			}
+		}
+	}
+	8296.1.1 = {
+		death = {
+			death_reason = death_accident
+		}
+	}
+}
+12400151 = { #father to avoid culling
+	name = "Eskender"
+
+	religion = "nath_pagan"
+	culture = "naathi"
+	
+	add_trait = fair
+	
+	8260.1.1 = { 
+		birth = "8260.1.1" 
+		effect = {  
+			dynasty = none
+		}
+	}
+	8295.1.1 = { 
+		death = yes
+	}
+}
+#Barristan's Squires
+12400103 = {
+	name = "Tumco"
+	dynasty = 304051
+	religion = "summer_rel"
+	culture = "summer_islander"
+
+	diplomacy=4
+	stewardship=1
+	intrigue=5
+	learning=0
+	martial=8
+	
+	add_trait = slave
+	
+	father = 12400152
+		
+	8285.1.1 = { 
+		birth = "8285.1.1"
+		effect = {		
+			set_character_flag = barristan_squire
+			if = {
+				limit = { trait = slave }
+				b_reznak = {
+					holder_scope = {
+						ROOT = { move_character = PREV }
+					}
+				}
+				liege = {
+					reverse_opinion = { who = ROOT modifier = opinion_my_owner }
+					opinion = { who = ROOT modifier = opinion_my_slave }
+				}
+			}
+		} 		
+	}
+	8289.1.1 = { 
+		add_trait = skilled_warrior
+		add_trait = diligent
+		add_trait = honorable
+	}
+	8300.1.1 = { 
+		employer = 77041 
+		guardian = 201302
+		remove_trait = slave
+		add_trait = former_slave
+		add_trait = squire
+		effect = {
+			liege = {
+				reverse_opinion = {
+					modifier = opinion_loyal_servant
+					who = ROOT
+				}
+			}	
+		}
+	}
+	8300.5.1 = { 
+		remove_trait = squire
+		add_trait = knight
+	}
+}
+12400152 = { #father to avoid culling
+	name = "Nyadundo"
+
+	religion = "summer_rel"
+	culture = "summer_islander"
+	
+	add_trait = slave
+	
+	8264.1.1 = { 
+		birth = "8264.1.1" 
+		effect = {		
+			dynasty = none
+			if = {
+				limit = { trait = slave }
+				b_reznak = {
+					holder_scope = {
+						ROOT = { move_character = PREV }
+					}
+				}
+				liege = {
+					reverse_opinion = { who = ROOT modifier = opinion_my_owner }
+					opinion = { who = ROOT modifier = opinion_my_slave }
+				}
+			}
+		} 
+	}
+	8290.1.1 = { 
+		death = yes
+	}
+}
+12400104 = {
+	name = "Red Lamb"
+	religion = "great_shepherd"
+	culture = "lhazareen"
+
+	diplomacy=2
+	stewardship=0
+	intrigue=6
+	learning=2
+	martial=6
+	
+	add_trait = slave
+	
+	father = 12400153
+		
+	8285.1.1 = { 
+		birth = "8285.1.1"
+		effect = {		
+			set_character_flag = barristan_squire 
+			dynasty = none
+			if = {
+				limit = { trait = slave }
+				b_galare = {
+					holder_scope = {
+						ROOT = { move_character = PREV }
+					}
+				}
+				liege = {
+					reverse_opinion = { who = ROOT modifier = opinion_my_owner }
+					opinion = { who = ROOT modifier = opinion_my_slave }
+				}
+			}
+		} 		
+	}
+	8289.1.1 = { 
+		add_trait = trained_warrior
+		add_trait = wroth
+		add_trait = ambitious
+	}
+	8300.1.1 = { 
+		employer = 77041 
+		guardian = 201302
+		remove_trait = slave
+		add_trait = former_slave
+		add_trait = squire
+		effect = {
+			liege = {
+				reverse_opinion = {
+					modifier = opinion_loyal_servant
+					who = ROOT
+				}
+			}	
+		}
+	}
+	8300.5.1 = { 
+		remove_trait = squire
+		add_trait = knight
+	}
+}
+12400153 = { #father to avoid culling
+	name = "Virsallo"
+
+	religion = "great_shepherd"
+	culture = "lhazareen"
+	
+	add_trait = slave
+	
+	8260.1.1 = { 
+		birth = "8260.1.1" 
+		effect = {		
+			dynasty = none
+			if = {
+				limit = { trait = slave }
+				b_reznak = {
+					holder_scope = {
+						ROOT = { move_character = PREV }
+					}
+				}
+				liege = {
+					reverse_opinion = { who = ROOT modifier = opinion_my_owner }
+					opinion = { who = ROOT modifier = opinion_my_slave }
+				}
+			}
+		} 
+	}
+	8285.1.1 = { 
+		death = yes
+	}
+}
+12400105 = {
+	name = "Larraq"
+	religion="harpy"
+	culture="meereenese"
+
+	diplomacy=3
+	stewardship=2
+	intrigue=7
+	learning=1
+	martial=7
+	
+	add_trait = slave
+	
+	father = 12400154
+		
+	8287.1.1 = { 
+		birth = "8287.1.1"
+		effect = {		
+			dynasty = none
+			set_character_flag = barristan_squire
+			if = {
+				limit = { trait = slave }
+				b_pahl = {
+					holder_scope = {
+						ROOT = { move_character = PREV }
+					}
+				}
+				liege = {
+					reverse_opinion = { who = ROOT modifier = opinion_my_owner }
+					opinion = { who = ROOT modifier = opinion_my_slave }
+				}
+			}
+		} 		
+	}
+	8289.1.1 = { 
+		add_trait = skilled_warrior
+		add_trait = deceitful
+		add_trait = patient
+	}
+	8300.1.1 = { 
+		employer = 77041 
+		#guardian = 201302
+		remove_trait = slave
+		add_trait = former_slave
+		add_trait = squire
+		effect = {
+			liege = {
+				reverse_opinion = {
+					modifier = opinion_loyal_servant
+					who = ROOT
+				}
+			}	
+		}
+	}
+}
+12400154 = { #father to avoid culling
+	name = "Haznak"
+
+	religion="harpy"
+	culture="meereenese"
+	
+	add_trait = slave
+	
+	8259.1.1 = { 
+		birth = "8259.1.1" 
+		effect = {		
+			dynasty = none
+			if = {
+				limit = { trait = slave }
+				b_reznak = {
+					holder_scope = {
+						ROOT = { move_character = PREV }
+					}
+				}
+				liege = {
+					reverse_opinion = { who = ROOT modifier = opinion_my_owner }
+					opinion = { who = ROOT modifier = opinion_my_slave }
+				}
+			}
+		} 
+	}
+	8290.1.1 = { 
+		death = yes
+	}
+}
+1241000 = {
+	name="Hodor"
+	religion="summer_rel"
+	culture="summer_islander"
+
+	add_trait="slave"
+	add_trait="brave"
+	add_trait="tough_soldier"
+	add_trait="heavy_infantry_leader"
+
+	father=1241001
+
+	8280.4.21 = {
+		birth="8280.4.21"
+	}
+	8285.1.1 = { 
+		employer=125360007
+		add_trait=slave
+		effect = {
+			if = {
+				limit = { trait = slave }
+				liege = {
+					reverse_opinion = { who = ROOT modifier = opinion_my_owner }
+					opinion = { who = ROOT modifier = opinion_my_slave }
+				}
+			}
+		}
+	}
+	8290.1.1 = {
+		add_trait="trained_warrior"
+	}
+	8300.1.1 = {
+		employer=77041
+		remove_trait="slave"
+		add_trait="former_slave"
+	}
+}
+1241001 = { #father to avoid culling
+	name="Hodor"
+	religion="summer_rel"
+	culture="summer_islander"
+
+	8250.1.1 = { 
+		birth = "8250.1.1" 
+	}
+	8260.1.1 = {
+		employer=128360004
+		add_trait=slave
+		effect = {
+			b_galare = {
+				holder_scope = {
+					ROOT = { move_character = PREV }
+					reverse_opinion = { who = ROOT modifier = opinion_my_owner }
+					reverse_opinion = { who = ROOT modifier = opinion_loyal_servant }
+					opinion = { who = ROOT modifier = opinion_my_slave }
+				}
+			}
+		}
+	}
+	8280.4.21 = { 
+		death = yes
+	}
+}
+1241002 = { #Symon Stripeback, commander of the Free Brothers
+	name="Hodor"
+	dna="cajgi0kjdd0"
+	properties="oh0kak0a000000"
+
+	religion="harpy"
+	culture="astapori"
+
+	diplomacy=3
+	martial=8
+	stewardship=1
+	intrigue=5
+	learning=2
+
+	add_trait="tough_soldier"
+	add_trait="slave"
+
+	father=1241003
+
+	8268.1.1 = {
+		birth="8268.1.1"
+	}
+	8290.1.1 = { 
+		employer=132360027
+		effect = {
+			b_mazlaq = {
+				holder_scope = {
+					ROOT = { move_character = PREV }
+					reverse_opinion = { who = ROOT modifier = opinion_my_owner }
+					reverse_opinion = { who = ROOT modifier = opinion_loyal_servant }
+					opinion = { who = ROOT modifier = opinion_my_slave }
+				}
+			}
+		}
+	}
+	8293.1.1 = {
+		add_trait="scarred"
+		give_nickname = nick_stripeback
+	}
+	8300.1.1 = {
+		employer=77041
+		remove_trait="slave"
+		add_trait="former_slave"
+	}
+	8300.1.29 = {
+		add_trait="stubborn"
+	}
+}
+1241003 = { #father to avoid culling
+	name="Hodor"
+	religion="harpy"
+	culture="astapori"
+
+	add_trait="slave"
+
+	8248.1.1 = {
+		birth="8248.1.1"
+	}
+	8290.1.1 = { 
+		employer=132360027
+		effect = {
+			b_mazlaq = {
+				holder_scope = {
+					ROOT = { move_character = PREV }
+					reverse_opinion = { who = ROOT modifier = opinion_my_owner }
+					reverse_opinion = { who = ROOT modifier = opinion_loyal_servant }
+					opinion = { who = ROOT modifier = opinion_my_slave }
+				}
+			}
+		}
+	}
+	8292.1.1 = {
+		death = yes
+	}
+}
+###Other Khals mentioned in Ice and Fire###
+101600206 = {
+	name = "Zekko" 
+	dynasty=600206
+	religion = "dothraki_pagan"
+	culture = "dothraki"
+	
+	add_trait=tough_soldier
+	add_trait=patient
+	add_trait=diligent
+	
+	8268.1.1 = { 
+		birth = "8268.1.1" 
+		effect = { set_character_flag = flag_dothraki_dynasty_founded }
+	}
+	8284.1.1 = { 
+		add_trait = trained_warrior		
+	}
+}
+###Dosh Kaleen###
+100010305 = {
+	name="Hodor"	# a lord
+	female=yes
+	
+	religion="dothraki_pagan"
+	culture="dothraki"
+	
+	#add_trait = dothraki
+
+	7940.1.1 = {birth="7940.1.1"}
+	7980.1.1 = {
+		add_trait = dosh_khaleen
+		effect = {
+			if = {
+				limit = { is_ruler = no }
+				c_dosh_khaleen = { holder_scope = { ROOT = { move_character = PREV } } }
+			}	
+		}
+	}
+	8005.1.1 = {death="8005.1.1"}
+}
+101010305 = {
+	name="Hodor"	# a lord
+	female=yes
+	
+	religion="dothraki_pagan"
+	culture="dothraki"
+	
+	#add_trait = dothraki
+
+	7959.1.1 = {birth="7959.1.1"}
+	7999.1.1 = {
+		add_trait = dosh_khaleen
+		effect = {
+			if = {
+				limit = { is_ruler = no }
+				c_dosh_khaleen = { holder_scope = { ROOT = { move_character = PREV } } }
+			}	
+		}
+	}
+	8009.1.1 = {death="8009.1.1"}
+}
+102010305 = {
+	name="Hodor"	# a lord
+	female=yes
+	
+	religion="dothraki_pagan"
+	culture="dothraki"
+	
+	#add_trait = dothraki
+
+	7985.1.1 = {birth="7985.1.1"}
+	8008.1.1 = {
+		add_trait = dosh_khaleen
+		effect = {
+			if = {
+				limit = { is_ruler = no }
+				c_dosh_khaleen = { holder_scope = { ROOT = { move_character = PREV } } }
+			}	
+		}
+	}
+	8050.1.1 = {death="8050.1.1"}
+}
+103010305 = {
+	name="Hodor"	# a lord
+	female=yes
+	
+	religion="dothraki_pagan"
+	culture="dothraki"
+	
+	#add_trait = dothraki
+
+	8011.1.1 = {birth="8011.1.1"}
+	8045.1.1 = {
+		add_trait = dosh_khaleen
+		effect = {
+			if = {
+				limit = { is_ruler = no }
+				c_dosh_khaleen = { holder_scope = { ROOT = { move_character = PREV } } }
+			}	
+		}
+	}
+	8064.1.1 = {death="8064.1.1"}
+}
+104010305 = {
+	name="Hodor"	# a lord
+	female=yes
+	
+	religion="dothraki_pagan"
+	culture="dothraki"
+	
+	#add_trait = dothraki
+
+	8040.1.1 = {birth="8040.1.1"}
+	8063.1.1 = {
+		add_trait = dosh_khaleen
+		effect = {
+			if = {
+				limit = { is_ruler = no }
+				c_dosh_khaleen = { holder_scope = { ROOT = { move_character = PREV } } }
+			}	
+		}
+	}
+	8098.1.1 = {death="8098.1.1"}
+}
+105010305 = {
+	name="Hodor"	# a lord
+	female=yes
+	
+	religion="dothraki_pagan"
+	culture="dothraki"
+	
+	#add_trait = dothraki
+
+	8069.1.1 = {birth="8069.1.1"}
+	8095.1.1 = {
+		add_trait = dosh_khaleen
+		effect = {
+			if = {
+				limit = { is_ruler = no }
+				c_dosh_khaleen = { holder_scope = { ROOT = { move_character = PREV } } }
+			}	
+		}
+	}
+	8125.1.1 = {death="8125.1.1"}
+}
+106010305 = {
+	name="Hodor"	# a lord
+	female=yes
+	
+	religion="dothraki_pagan"
+	culture="dothraki"
+	
+	#add_trait = dothraki
+
+	8088.1.1 = {birth="8088.1.1"}
+	8120.1.1 = {
+		add_trait = dosh_khaleen
+		effect = {
+			if = {
+				limit = { is_ruler = no }
+				c_dosh_khaleen = { holder_scope = { ROOT = { move_character = PREV } } }
+			}	
+		}
+	}
+	8142.1.1 = {death="8142.1.1"}
+}
+107010305 = {
+	name="Hodor"	# a lord
+	female=yes
+	
+	religion="dothraki_pagan"
+	culture="dothraki"
+	
+	#add_trait = dothraki
+
+	8112.1.1 = {birth="8112.1.1"}
+	8140.1.1 = {
+		add_trait = dosh_khaleen
+		effect = {
+			if = {
+				limit = { is_ruler = no }
+				c_dosh_khaleen = { holder_scope = { ROOT = { move_character = PREV } } }
+			}	
+		}
+	}
+	8167.1.1 = {death="8167.1.1"}
+}
+108010305 = {
+	name="Hodor"	# a lord
+	female=yes
+	
+	religion="dothraki_pagan"
+	culture="dothraki"
+	
+	#add_trait = dothraki
+
+	8136.1.1 = {birth="8136.1.1"}
+	8165.1.1 = {
+		add_trait = dosh_khaleen
+		effect = {
+			if = {
+				limit = { is_ruler = no }
+				c_dosh_khaleen = { holder_scope = { ROOT = { move_character = PREV } } }
+			}	
+		}
+	}
+	8193.1.1 = {death="8193.1.1"}
+}
+109010305 = {
+	name="Hodor"	# a lord
+	female=yes
+	
+	religion="dothraki_pagan"
+	culture="dothraki"
+	
+	#add_trait = dothraki
+
+	8165.1.1 = {birth="8165.1.1"}
+	8190.1.1 = {
+		add_trait = dosh_khaleen
+		effect = {
+			if = {
+				limit = { is_ruler = no }
+				c_dosh_khaleen = { holder_scope = { ROOT = { move_character = PREV } } }
+			}	
+		}
+	}
+	8225.1.1 = {death="8225.1.1"}
+}
+110010305 = {
+	name="Hodor"	# a lord
+	female=yes
+	
+	religion="dothraki_pagan"
+	culture="dothraki"
+	
+	#add_trait = dothraki
+
+	8192.1.1 = {birth="8192.1.1"}
+	8220.1.1 = {
+		add_trait = dosh_khaleen
+		effect = {
+			if = {
+				limit = { is_ruler = no }
+				c_dosh_khaleen = { holder_scope = { ROOT = { move_character = PREV } } }
+			}	
+		}
+	}
+	8241.1.1 = {death="8241.1.1"}
+}
+111010305 = {
+	name="Hodor"	# a lord
+	female=yes
+	
+	religion="dothraki_pagan"
+	culture="dothraki"
+	
+	#add_trait = dothraki
+
+	8211.1.1 = {birth="8211.1.1"}
+	8240.1.1 = {
+		add_trait = dosh_khaleen
+		effect = {
+			if = {
+				limit = { is_ruler = no }
+				c_dosh_khaleen = { holder_scope = { ROOT = { move_character = PREV } } }
+			}	
+		}
+	}
+	8268.1.1 = {death="8268.1.1"}
+}
+112010305 = {
+	name="Hodor"	# a lord
+	female=yes
+	
+	religion="dothraki_pagan"
+	culture="dothraki"
+	
+	#add_trait = dothraki
+
+	8231.1.1 = {birth="8231.1.1"}
+	8260.1.1 = {
+		add_trait = dosh_khaleen
+		effect = {
+			if = {
+				limit = { is_ruler = no }
+				c_dosh_khaleen = { holder_scope = { ROOT = { move_character = PREV } } }
+			}	
+		}
+	}
+}
+###Dothraki of Rhaesh jano
+100600202 = {
+	name="Hodor"	# a lord
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+	
+	#add_trait = dothraki
+
+	7966.1.1 = {birth="7966.1.1" effect = { set_character_flag = flag_dothraki_dynasty_founded } }
+	7982.1.1 = {add_trait=skilled_warrior}
+	7984.1.1 = {add_spouse=400600202}
+	8014.1.1 = {death="8014.1.1"}
+}
+400600202 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7966.1.1 = {birth="7966.1.1"}
+	8014.1.1 = {death="8014.1.1"}
+}
+101600202 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=100600202
+	mother=400600202
+
+	7984.1.1 = {birth="7984.1.1"}
+	8028.1.1 = {death="8028.1.1"}
+}
+102600202 = {
+	name="Hodor"	# a lord
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=100600202
+	mother=400600202
+	
+	#add_trait = dothraki
+
+	7987.1.1 = {birth="7987.1.1"}
+	8003.1.1 = {add_trait=trained_warrior}
+	8005.1.1 = {add_spouse=402600202}
+	8055.1.1 = {death="8055.1.1"}
+}
+402600202 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7987.1.1 = {birth="7987.1.1"}
+	8055.1.1 = {death="8055.1.1"}
+}
+103600202 = {
+	name="Hodor"	# not a lord
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=100600202
+	mother=400600202
+
+	7990.1.1 = {birth="7990.1.1"}
+	8006.1.1 = {add_trait=poor_warrior}
+	8041.1.1 = {death="8041.1.1"}
+}
+104600202 = {
+	name="Hodor"	# a lord
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=102600202
+	mother=402600202
+	
+	#add_trait = dothraki
+
+	8007.1.1 = {birth="8007.1.1"}
+	8023.1.1 = {add_trait=skilled_warrior}
+	8025.1.1 = {add_spouse=404600202}
+	8073.1.1 = {death="8073.1.1"}
+}
+404600202 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8007.1.1 = {birth="8007.1.1"}
+	8073.1.1 = {death="8073.1.1"}
+}
+105600202 = {
+	name="Hodor"	# not a lord
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=102600202
+	mother=402600202
+
+	8009.1.1 = {birth="8009.1.1"}
+	8025.1.1 = {add_trait=trained_warrior}
+	8052.1.1 = {death="8052.1.1"}
+}
+106600202 = {
+	name="Hodor"	# not a lord
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=102600202
+	mother=402600202
+
+	8012.1.1 = {birth="8012.1.1"}
+	8028.1.1 = {add_trait=trained_warrior}
+	8042.1.1 = {death="8042.1.1"}
+}
+107600202 = {
+	name="Hodor"	# a lord
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=104600202
+	mother=404600202
+	
+	#add_trait = dothraki
+
+	8026.1.1 = {birth="8026.1.1"}
+	8042.1.1 = {add_trait=trained_warrior}
+	8044.1.1 = {add_spouse=407600202}
+	8102.1.1 = {death="8102.1.1"}
+}
+407600202 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8026.1.1 = {birth="8026.1.1"}
+	8102.1.1 = {death="8102.1.1"}
+}
+108600202 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=104600202
+	mother=404600202
+
+	8029.1.1 = {birth="8029.1.1"}
+	8065.1.1 = {death="8065.1.1"}
+}
+109600202 = {
+	name="Hodor"	# not a lord
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=104600202
+	mother=404600202
+
+	8030.1.1 = {birth="8030.1.1"}
+	8046.1.1 = {add_trait=poor_warrior}
+	8048.1.1 = {add_spouse=409600202}
+	8083.1.1 = {death="8083.1.1"}
+}
+409600202 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8030.1.1 = {birth="8030.1.1"}
+	8083.1.1 = {death="8083.1.1"}
+}
+110600202 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=109600202
+	mother=409600202
+
+	8049.1.1 = {birth="8049.1.1"}
+	8100.1.1 = {death="8100.1.1"}
+}
+111600202 = {
+	name="Hodor"	# a lord
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=109600202
+	mother=409600202
+	
+	#add_trait = dothraki
+
+	8051.1.1 = {birth="8051.1.1"}
+	8067.1.1 = {add_trait=skilled_warrior}
+	8069.1.1 = {add_spouse=411600202}
+	8104.1.1 = {death="8104.1.1"}
+}
+411600202 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8051.1.1 = {birth="8051.1.1"}
+	8104.1.1 = {death="8104.1.1"}
+}
+112600202 = {
+	name="Hodor"	# not a lord
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=109600202
+	mother=409600202
+
+	8054.1.1 = {birth="8054.1.1"}
+	8070.1.1 = {add_trait=poor_warrior}
+	8072.1.1 = {add_spouse=412600202}
+	8097.1.1 = {death="8097.1.1"}
+}
+412600202 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8054.1.1 = {birth="8054.1.1"}
+	8097.1.1 = {death="8097.1.1"}
+}
+113600202 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=111600202
+	mother=411600202
+
+	8073.1.1 = {birth="8073.1.1"}
+	8125.1.1 = {death="8125.1.1"}
+}
+114600202 = {
+	name="Hodor"	# a lord
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=112600202
+	mother=412600202
+	
+	#add_trait = dothraki
+
+	8082.1.1 = {birth="8082.1.1"}
+	8098.1.1 = {add_trait=trained_warrior}
+	8100.1.1 = {add_spouse=414600202}
+	8140.1.1 = {death="8140.1.1"}
+}
+414600202 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8082.1.1 = {birth="8082.1.1"}
+	8140.1.1 = {death="8140.1.1"}
+}
+115600202 = {
+	name="Hodor"	# not a lord
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=112600202
+	mother=412600202
+
+	8084.1.1 = {birth="8084.1.1"}
+	8100.1.1 = {add_trait=trained_warrior}
+	8151.1.1 = {death="8151.1.1"}
+}
+116600202 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=114600202
+	mother=414600202
+
+	8104.1.1 = {birth="8104.1.1"}
+	8178.1.1 = {death="8178.1.1"}
+}
+117600202 = {
+	name="Hodor"	# a lord
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=114600202
+	mother=414600202
+	
+	#add_trait = dothraki
+
+	8106.1.1 = {birth="8106.1.1"}
+	8122.1.1 = {add_trait=skilled_warrior}
+	8124.1.1 = {add_spouse=417600202}
+	8144.1.1 = {death="8144.1.1"}
+}
+417600202 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8106.1.1 = {birth="8106.1.1"}
+	8144.1.1 = {death="8144.1.1"}
+}
+118600202 = {
+	name="Hodor"	# a lord
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=117600202
+	mother=417600202
+	
+	#add_trait = dothraki
+
+	8128.1.1 = {birth="8128.1.1"}
+	8144.1.1 = {add_trait=trained_warrior}
+	8146.1.1 = {add_spouse=418600202}
+	8180.1.1 = {death="8180.1.1"}
+}
+418600202 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8128.1.1 = {birth="8128.1.1"}
+	8180.1.1 = {death="8180.1.1"}
+}
+119600202 = {
+	name="Hodor"	# a lord
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=118600202
+	mother=418600202
+	
+	#add_trait = dothraki
+
+	8151.1.1 = {birth="8151.1.1"}
+	8167.1.1 = {add_trait=skilled_warrior}
+	8193.1.1 = {death="8193.1.1"}
+}
+120600202 = {
+	name="Hodor"	# a lord
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=118600202
+	mother=418600202
+	
+	#add_trait = dothraki
+
+	8152.1.1 = {birth="8152.1.1"}
+	8168.1.1 = {add_trait=trained_warrior}
+	8170.1.1 = {add_spouse=420600202}
+	8202.1.1 = {death="8202.1.1"}
+}
+420600202 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8152.1.1 = {birth="8152.1.1"}
+	8202.1.1 = {death="8202.1.1"}
+}
+121600202 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=120600202
+	mother=420600202
+
+	8180.1.1 = {birth="8180.1.1"}
+	8215.1.1 = {death="8215.1.1"}
+}
+122600202 = {
+	name="Hodor"	# a lord
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=120600202
+	mother=420600202
+	
+	#add_trait = dothraki
+
+	8183.1.1 = {birth="8183.1.1"}
+	8199.1.1 = {add_trait=trained_warrior}
+	8201.1.1 = {add_spouse=422600202}
+	8243.1.1 = {death="8243.1.1"}
+}
+422600202 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8183.1.1 = {birth="8183.1.1"}
+	8243.1.1 = {death="8243.1.1"}
+}
+124600202 = {
+	name="Hodor"	# not a lord
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=120600202
+	mother=420600202
+
+	8188.1.1 = {birth="8188.1.1"}
+	8204.1.1 = {add_trait=trained_warrior}
+	8246.1.1 = {death="8246.1.1"}
+}
+125600202 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=122600202
+	mother=422600202
+
+	8204.1.1 = {birth="8204.1.1"}
+	8259.1.1 = {death="8259.1.1"}
+}
+126600202 = {
+	name="Hodor"	# not a lord
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=122600202
+	mother=422600202
+
+	8205.1.1 = {birth="8205.1.1"}
+	8221.1.1 = {add_trait=trained_warrior}
+	8236.1.1 = {death = {death_reason = death_battle}}
+}
+127600202 = {
+	name="Hodor"	# a lord
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=122600202
+	mother=422600202
+	
+	#add_trait = dothraki
+
+	8208.1.1 = {birth="8208.1.1"}
+	8224.1.1 = {add_trait=skilled_warrior}
+	8226.1.1 = {add_spouse=427600202}
+	8260.1.1 = {death="8260.1.1"}
+}
+427600202 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8208.1.1 = {birth="8208.1.1"}
+	8260.1.1 = {death="8260.1.1"}
+}
+128600202 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=127600202
+	mother=427600202
+
+	8239.1.1 = {birth="8239.1.1"}
+	8297.1.1 = {death="8297.1.1"}
+}
+129600202 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=127600202
+	mother=427600202
+
+	8242.1.1 = {birth="8242.1.1"}
+}
+130600202 = {
+	name="Hodor"	# a lord
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=127600202
+	mother=427600202
+	
+	#add_trait = dothraki
+
+	8245.1.1 = {birth="8245.1.1"}
+	8261.1.1 = {add_trait=skilled_warrior}
+	8263.1.1 = {add_spouse=430600202}
+	8292.1.1 = {death="8292.1.1"}
+}
+430600202 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8245.1.1 = {birth="8245.1.1"}
+	8292.1.1 = {death="8292.1.1"}
+}
+131600202 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=130600202
+	mother=430600202
+
+	8272.1.1 = {birth="8272.1.1"}
+	8324.1.1 = {death="8324.1.1"}
+}
+132600202 = {
+	name="Hodor"	# a lord
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=130600202
+	mother=430600202
+	
+	#add_trait = dothraki
+
+	8274.1.1 = {birth="8274.1.1"}
+	8290.1.1 = {add_trait=trained_warrior}
+	8308.1.1 = {death="8308.1.1"}
+}
+133600202 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600202
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=130600202
+	mother=430600202
+
+	8277.1.1 = {birth="8277.1.1"}
+	8351.1.1 = {death = {death_reason = death_accident}}
+}
+###Khals of Vaes Dothrak
+100600203 = {
+	name="Hodor"	# a lord
+	dynasty=600203
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+	
+	#add_trait = dothraki
+
+	7958.1.1 = {birth="7958.1.1" effect = { set_character_flag = flag_dothraki_dynasty_founded } }
+	7974.1.1 = {add_trait=skilled_warrior}
+	7976.1.1 = {add_spouse=400600203}
+	8018.1.1 = {death="8018.1.1"}
+}
+400600203 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7958.1.1 = {birth="7958.1.1"}
+	8018.1.1 = {death="8018.1.1"}
+}
+101600203 = {
+	name="Hodor"	# a lord
+	dynasty=600203
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=100600203
+	mother=400600203
+	
+	#add_trait = dothraki
+
+	7989.1.1 = {birth="7989.1.1"}
+	8005.1.1 = {add_trait=trained_warrior}
+	8007.1.1 = {add_spouse=401600203}
+	8049.1.1 = {death="8049.1.1"}
+}
+401600203 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7989.1.1 = {birth="7989.1.1"}
+	8049.1.1 = {death="8049.1.1"}
+}
+102600203 = {
+	name="Hodor"	# not a lord
+	dynasty=600203
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=100600203
+	mother=400600203
+
+	7990.1.1 = {birth="7990.1.1"}
+	8006.1.1 = {add_trait=trained_warrior}
+	8008.1.1 = {add_spouse=402600203}
+	8036.1.1 = {death="8036.1.1"}
+}
+402600203 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7990.1.1 = {birth="7990.1.1"}
+	8036.1.1 = {death="8036.1.1"}
+}
+103600203 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600203
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=102600203
+	mother=402600203
+
+	8022.1.1 = {birth="8022.1.1"}
+	8067.1.1 = {death="8067.1.1"}
+}
+104600203 = {
+	name="Hodor"	# a lord
+	dynasty=600203
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=102600203
+	mother=402600203
+	
+	#add_trait = dothraki
+
+	8024.1.1 = {birth="8024.1.1"}
+	8040.1.1 = {add_trait=master_warrior}
+	8042.1.1 = {add_spouse=404600203}
+	8067.1.1 = {death="8067.1.1"}
+}
+404600203 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8024.1.1 = {birth="8024.1.1"}
+	8067.1.1 = {death="8067.1.1"}
+}
+105600203 = {
+	name="Hodor"	# a lord
+	dynasty=600203
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=104600203
+	mother=404600203
+	
+	#add_trait = dothraki
+
+	8053.1.1 = {birth="8053.1.1"}
+	8069.1.1 = {add_trait=trained_warrior}
+	8071.1.1 = {add_spouse=405600203}
+	8108.1.1 = {death="8108.1.1"}
+}
+405600203 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8053.1.1 = {birth="8053.1.1"}
+	8108.1.1 = {death="8108.1.1"}
+}
+106600203 = {
+	name="Hodor"	# not a lord
+	dynasty=600203
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=104600203
+	mother=404600203
+
+	8054.1.1 = {birth="8054.1.1"}
+	8070.1.1 = {add_trait=skilled_warrior}
+	8105.1.1 = {death="8105.1.1"}
+}
+107600203 = {
+	name="Hodor"	# not a lord
+	dynasty=600203
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=104600203
+	mother=404600203
+
+	8056.1.1 = {birth="8056.1.1"}
+	8072.1.1 = {add_trait=trained_warrior}
+	8105.1.1 = {death="8105.1.1"}
+}
+108600203 = {
+	name="Hodor"	# a lord
+	dynasty=600203
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=105600203
+	mother=405600203
+	
+	#add_trait = dothraki
+
+	8087.1.1 = {birth="8087.1.1"}
+	8103.1.1 = {add_trait=skilled_warrior}
+	8105.1.1 = {add_spouse=408600203}
+	8126.1.1 = {death="8126.1.1"}
+}
+408600203 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8087.1.1 = {birth="8087.1.1"}
+	8126.1.1 = {death="8126.1.1"}
+}
+109600203 = {
+	name="Hodor"	# not a lord
+	dynasty=600203
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=105600203
+	mother=405600203
+
+	8088.1.1 = {birth="8088.1.1"}
+	8104.1.1 = {add_trait=trained_warrior}
+	8130.1.1 = {death="8130.1.1"}
+}
+110600203 = {
+	name="Hodor"	# not a lord
+	dynasty=600203
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=105600203
+	mother=405600203
+
+	8089.1.1 = {birth="8089.1.1"}
+	8105.1.1 = {add_trait=skilled_warrior}
+	8154.1.1 = {death="8154.1.1"}
+}
+111600203 = {
+	name="Hodor"	# a lord
+	dynasty=600203
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=108600203
+	mother=408600203
+	
+	#add_trait = dothraki
+
+	8115.1.1 = {birth="8115.1.1"}
+	8131.1.1 = {add_trait=trained_warrior}
+	8133.1.1 = {add_spouse=411600203}
+	8161.1.1 = {death="8161.1.1"}
+}
+411600203 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8115.1.1 = {birth="8115.1.1"}
+	8161.1.1 = {death="8161.1.1"}
+}
+112600203 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600203
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=108600203
+	mother=408600203
+
+	8116.1.1 = {birth="8116.1.1"}
+	8172.1.1 = {death = {death_reason = death_accident}}
+}
+113600203 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600203
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=111600203
+	mother=411600203
+
+	8142.1.1 = {birth="8142.1.1"}
+	8188.1.1 = {death="8188.1.1"}
+}
+114600203 = {
+	name="Hodor"	# a lord
+	dynasty=600203
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=111600203
+	mother=411600203
+	
+	#add_trait = dothraki
+
+	8144.1.1 = {birth="8144.1.1"}
+	8160.1.1 = {add_trait=trained_warrior}
+	8162.1.1 = {add_spouse=414600203}
+	8223.1.1 = {death = {death_reason = death_accident}}
+}
+414600203 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8144.1.1 = {birth="8144.1.1"}
+	8223.1.1 = {death="8223.1.1"}
+}
+115600203 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600203
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=114600203
+	mother=414600203
+
+	8171.1.1 = {birth="8171.1.1"}
+	8212.1.1 = {death="8212.1.1"}
+}
+116600203 = {
+	name="Hodor"	# a lord
+	dynasty=600203
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=114600203
+	mother=414600203
+	
+	#add_trait = dothraki
+
+	8173.1.1 = {birth="8173.1.1"}
+	8189.1.1 = {add_trait=master_warrior}
+	8191.1.1 = {add_spouse=416600203}
+	8228.1.1 = {death="8228.1.1"}
+}
+416600203 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8173.1.1 = {birth="8173.1.1"}
+	8228.1.1 = {death="8228.1.1"}
+}
+117600203 = {
+	name="Hodor"	# a lord
+	dynasty=600203
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=114600203
+	mother=414600203
+	
+	#add_trait = dothraki
+
+	8176.1.1 = {birth="8176.1.1"}
+	8192.1.1 = {add_trait=trained_warrior}
+	8194.1.1 = {add_spouse=417600203}
+	8244.1.1 = {death="8244.1.1"}
+}
+417600203 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8176.1.1 = {birth="8176.1.1"}
+	8244.1.1 = {death="8244.1.1"}
+}
+118600203 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600203
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=116600203
+	mother=416600203
+
+	8194.1.1 = {birth="8194.1.1"}
+	8225.1.1 = {death="8225.1.1"}
+}
+119600203 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600203
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=116600203
+	mother=416600203
+
+	8196.1.1 = {birth="8196.1.1"}
+	8263.1.1 = {death="8263.1.1"}
+}
+120600203 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600203
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=117600203
+	mother=417600203
+
+	8207.1.1 = {birth="8207.1.1"}
+	8258.1.1 = {death="8258.1.1"}
+}
+121600203 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600203
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=117600203
+	mother=417600203
+
+	8208.1.1 = {birth="8208.1.1"}
+	8262.1.1 = {death="8262.1.1"}
+}
+122600203 = {
+	name="Hodor"	# a lord
+	dynasty=600203
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=117600203
+	mother=417600203
+	
+	#add_trait = dothraki
+
+	8209.1.1 = {birth="8209.1.1"}
+	8225.1.1 = {add_trait=poor_warrior}
+	8227.1.1 = {add_spouse=422600203}
+	8261.1.1 = {death="8261.1.1"}
+}
+422600203 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8209.1.1 = {birth="8209.1.1"}
+	8261.1.1 = {death="8261.1.1"}
+}
+123600203 = {
+	name="Hodor"	# a lord
+	dynasty=600203
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=122600203
+	mother=422600203
+	
+	#add_trait = dothraki
+
+	8241.1.1 = {birth="8241.1.1"}
+	8257.1.1 = {add_trait=skilled_warrior}
+	8273.1.1 = {death = {death_reason = death_battle}}
+}
+#Krazzaj Zasque
+100600211 = {
+	name="Hodor"	# a lord
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7965.1.1 = {birth="7965.1.1"}
+	7981.1.1 = {add_trait=skilled_warrior}
+	7983.1.1 = {add_spouse=400600211}
+	8022.1.1 = {death="8022.1.1"}
+}
+400600211 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7965.1.1 = {birth="7965.1.1"}
+	8022.1.1 = {death="8022.1.1"}
+}
+101600211 = {
+	name="Hodor"	# a lord
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=100600211
+	mother=400600211
+
+	7983.1.1 = {birth="7983.1.1"}
+	7999.1.1 = {add_trait=trained_warrior}
+	8001.1.1 = {add_spouse=401600211}
+	8058.1.1 = {death="8058.1.1"}
+}
+401600211 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7983.1.1 = {birth="7983.1.1"}
+	8058.1.1 = {death="8058.1.1"}
+}
+102600211 = {
+	name="Hodor"	# a lord
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=101600211
+	mother=401600211
+
+	8011.1.1 = {birth="8011.1.1"}
+	8027.1.1 = {add_trait=poor_warrior}
+	8066.1.1 = {death = {death_reason = death_accident}}
+}
+103600211 = {
+	name="Hodor"	# not a lord
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=101600211
+	mother=401600211
+
+	8013.1.1 = {birth="8013.1.1"}
+	8029.1.1 = {add_trait=master_warrior}
+	8054.1.1 = {death="8054.1.1"}
+}
+104600211 = {
+	name="Hodor"	# a lord
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=101600211
+	mother=401600211
+
+	8015.1.1 = {birth="8015.1.1"}
+	8031.1.1 = {add_trait=trained_warrior}
+	8033.1.1 = {add_spouse=404600211}
+	8067.1.1 = {death="8067.1.1"}
+}
+404600211 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8015.1.1 = {birth="8015.1.1"}
+	8067.1.1 = {death="8067.1.1"}
+}
+105600211 = {
+	name="Hodor"	# not a lord
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=101600211
+	mother=401600211
+
+	8016.1.1 = {birth="8016.1.1"}
+	8032.1.1 = {add_trait=poor_warrior}
+	8087.1.1 = {death="8087.1.1"}
+}
+106600211 = {
+	name="Hodor"	# a lord
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=104600211
+	mother=404600211
+
+	8038.1.1 = {birth="8038.1.1"}
+	8054.1.1 = {add_trait=poor_warrior}
+	8056.1.1 = {add_spouse=406600211}
+	8098.1.1 = {death="8098.1.1"}
+}
+406600211 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8038.1.1 = {birth="8038.1.1"}
+	8098.1.1 = {death="8098.1.1"}
+}
+107600211 = {
+	name="Hodor"	# not a lord
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=104600211
+	mother=404600211
+
+	8040.1.1 = {birth="8040.1.1"}
+	8056.1.1 = {add_trait=skilled_warrior}
+	8080.1.1 = {death="8080.1.1"}
+}
+108600211 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=104600211
+	mother=404600211
+
+	8043.1.1 = {birth="8043.1.1"}
+	8106.1.1 = {death="8106.1.1"}
+}
+109600211 = {
+	name="Hodor"	# not a lord
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=104600211
+	mother=404600211
+
+	8044.1.1 = {birth="8044.1.1"}
+	8060.1.1 = {add_trait=skilled_warrior}
+	8104.1.1 = {death="8104.1.1"}
+}
+110600211 = {
+	name="Hodor"	# not a lord
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=104600211
+	mother=404600211
+
+	8047.1.1 = {birth="8047.1.1"}
+	8063.1.1 = {add_trait=trained_warrior}
+	8100.1.1 = {death="8100.1.1"}
+}
+111600211 = {
+	name="Hodor"	# a lord
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=106600211
+	mother=406600211
+
+	8063.1.1 = {birth="8063.1.1"}
+	8079.1.1 = {add_trait=trained_warrior}
+	8113.1.1 = {death="8113.1.1"}
+}
+112600211 = {
+	name="Hodor"	# a lord
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=106600211
+	mother=406600211
+
+	8064.1.1 = {birth="8064.1.1"}
+	8080.1.1 = {add_trait=master_warrior}
+	8082.1.1 = {add_spouse=412600211}
+	8122.1.1 = {death="8122.1.1"}
+}
+412600211 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8064.1.1 = {birth="8064.1.1"}
+	8122.1.1 = {death="8122.1.1"}
+}
+113600211 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=106600211
+	mother=406600211
+
+	8067.1.1 = {birth="8067.1.1"}
+	8092.1.1 = {death="8092.1.1"}
+}
+114600211 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=112600211
+	mother=412600211
+
+	8089.1.1 = {birth="8089.1.1"}
+	8128.1.1 = {death="8128.1.1"}
+}
+115600211 = {
+	name="Hodor"	# a lord
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=112600211
+	mother=412600211
+
+	8091.1.1 = {birth="8091.1.1"}
+	8107.1.1 = {add_trait=trained_warrior}
+	8109.1.1 = {add_spouse=415600211}
+	8169.1.1 = {death="8169.1.1"}
+}
+415600211 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8091.1.1 = {birth="8091.1.1"}
+	8169.1.1 = {death="8169.1.1"}
+}
+116600211 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=115600211
+	mother=415600211
+
+	8110.1.1 = {birth="8110.1.1"}
+	8156.1.1 = {death="8156.1.1"}
+}
+117600211 = {
+	name="Hodor"	# not a lord
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=115600211
+	mother=415600211
+
+	8113.1.1 = {birth="8113.1.1"}
+	8129.1.1 = {add_trait=poor_warrior}
+	8144.1.1 = {death="8144.1.1"}
+}
+118600211 = {
+	name="Hodor"	# a lord
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=115600211
+	mother=415600211
+
+	8116.1.1 = {birth="8116.1.1"}
+	8132.1.1 = {add_trait=trained_warrior}
+	8134.1.1 = {add_spouse=418600211}
+	8193.1.1 = {death="8193.1.1"}
+}
+418600211 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8116.1.1 = {birth="8116.1.1"}
+	8193.1.1 = {death="8193.1.1"}
+}
+119600211 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=118600211
+	mother=418600211
+
+	8134.1.1 = {birth="8134.1.1"}
+	8176.1.1 = {death="8176.1.1"}
+}
+120600211 = {
+	name="Hodor"	# not a lord
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=118600211
+	mother=418600211
+
+	8135.1.1 = {birth="8135.1.1"}
+	8151.1.1 = {add_trait=trained_warrior}
+	8153.1.1 = {add_spouse=420600211}
+	8192.1.1 = {death="8192.1.1"}
+}
+420600211 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8135.1.1 = {birth="8135.1.1"}
+	8192.1.1 = {death="8192.1.1"}
+}
+121600211 = {
+	name="Hodor"	# a lord
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=118600211
+	mother=418600211
+
+	8138.1.1 = {birth="8138.1.1"}
+	8154.1.1 = {add_trait=skilled_warrior}
+	8156.1.1 = {add_spouse=421600211}
+	8203.1.1 = {death = {death_reason = death_murder}}
+}
+421600211 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8138.1.1 = {birth="8138.1.1"}
+	8203.1.1 = {death="8203.1.1"}
+}
+122600211 = {
+	name="Hodor"	# not a lord
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=120600211
+	mother=420600211
+
+	8157.1.1 = {birth="8157.1.1"}
+	8173.1.1 = {add_trait=trained_warrior}
+	8214.1.1 = {death="8214.1.1"}
+}
+123600211 = {
+	name="Hodor"	# a lord
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=121600211
+	mother=421600211
+
+	8156.1.1 = {birth="8156.1.1"}
+	8172.1.1 = {add_trait=trained_warrior}
+	8174.1.1 = {add_spouse=423600211}
+	8214.1.1 = {death="8214.1.1"}
+}
+423600211 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8156.1.1 = {birth="8156.1.1"}
+	8214.1.1 = {death="8214.1.1"}
+}
+124600211 = {
+	name="Hodor"	# not a lord
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=121600211
+	mother=421600211
+
+	8157.1.1 = {birth="8157.1.1"}
+	8173.1.1 = {add_trait=poor_warrior}
+	8213.1.1 = {death="8213.1.1"}
+}
+125600211 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=123600211
+	mother=423600211
+
+	8189.1.1 = {birth="8189.1.1"}
+	8231.1.1 = {death="8231.1.1"}
+}
+126600211 = {
+	name="Hodor"	# not a lord
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=123600211
+	mother=423600211
+
+	8191.1.1 = {birth="8191.1.1"}
+	8207.1.1 = {add_trait=poor_warrior}
+	8209.1.1 = {add_spouse=426600211}
+	8247.1.1 = {death="8247.1.1"}
+}
+426600211 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8191.1.1 = {birth="8191.1.1"}
+	8247.1.1 = {death="8247.1.1"}
+}
+127600211 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=126600211
+	mother=426600211
+
+	8215.1.1 = {birth="8215.1.1"}
+	8294.1.1 = {death="8294.1.1"}
+}
+128600211 = {
+	name="Hodor"	# a lord
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=126600211
+	mother=426600211
+
+	8218.1.1 = {birth="8218.1.1"}
+	8234.1.1 = {add_trait=poor_warrior}
+	8236.1.1 = {add_spouse=428600211}
+	8256.1.1 = {death="8256.1.1"}
+}
+428600211 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8218.1.1 = {birth="8218.1.1"}
+	8256.1.1 = {death="8256.1.1"}
+}
+129600211 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=128600211
+	mother=428600211
+
+	8246.1.1 = {birth="8246.1.1"}
+}
+130600211 = {
+	name="Hodor"	# a lord
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=128600211
+	mother=428600211
+
+	8249.1.1 = {birth="8249.1.1"}
+	8265.1.1 = {add_trait=trained_warrior}
+	8267.1.1 = {add_spouse=430600211}
+}
+430600211 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8249.1.1 = {birth="8249.1.1"}
+}
+131600211 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=128600211
+	mother=428600211
+
+	8252.1.1 = {birth="8252.1.1"}
+}
+132600211 = {
+	name="Hodor"	# not a lord
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=128600211
+	mother=428600211
+
+	8253.1.1 = {birth="8253.1.1"}
+	8269.1.1 = {add_trait=poor_warrior}
+	8271.1.1 = {add_spouse=432600211}
+}
+432600211 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8253.1.1 = {birth="8253.1.1"}
+}
+133600211 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=130600211
+	mother=430600211
+
+	8280.1.1 = {birth="8280.1.1"}
+}
+134600211 = {
+	name="Hodor"	# not a lord
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=132600211
+	mother=432600211
+
+	8274.1.1 = {birth="8274.1.1"}
+	8290.1.1 = {add_trait=poor_warrior}
+}
+135600211 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=132600211
+	mother=432600211
+
+	8277.1.1 = {birth="8277.1.1"}
+}
+136600211 = {
+	name="Hodor"	# not a lord
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=132600211
+	mother=432600211
+
+	8280.1.1 = {birth="8280.1.1"}
+	8296.1.1 = {add_trait=skilled_warrior}
+}
+137600211 = {
+	name="Hodor"	# not a lord
+	dynasty=600211
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=132600211
+	mother=432600211
+
+	8283.1.1 = {birth="8283.1.1"}
+	8299.1.1 = {add_trait=poor_warrior}
+}
+#Adakhakaleki
+100600212 = {
+	name="Hodor"	# a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7954.1.1 = {birth="7954.1.1"}
+	7970.1.1 = {add_trait=trained_warrior}
+	7972.1.1 = {add_spouse=400600212}
+	8004.1.1 = {death="8004.1.1"}
+}
+400600212 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7954.1.1 = {birth="7954.1.1"}
+	8004.1.1 = {death="8004.1.1"}
+}
+101600212 = {
+	name="Hodor"	# not a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=100600212
+	mother=400600212
+
+	7973.1.1 = {birth="7973.1.1"}
+	7989.1.1 = {add_trait=poor_warrior}
+	7991.1.1 = {add_spouse=401600212}
+	8003.1.1 = {death="8003.1.1"}
+}
+401600212 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7973.1.1 = {birth="7973.1.1"}
+	8003.1.1 = {death="8003.1.1"}
+}
+102600212 = {
+	name="Hodor"	# a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=101600212
+	mother=401600212
+
+	7996.1.1 = {birth="7996.1.1"}
+	8012.1.1 = {add_trait=skilled_warrior}
+	8014.1.1 = {add_spouse=402600212}
+	8058.1.1 = {death="8058.1.1"}
+}
+402600212 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7996.1.1 = {birth="7996.1.1"}
+	8058.1.1 = {death="8058.1.1"}
+}
+103600212 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=101600212
+	mother=401600212
+
+	7999.1.1 = {birth="7999.1.1"}
+	8069.1.1 = {death="8069.1.1"}
+}
+104600212 = {
+	name="Hodor"	# a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=101600212
+	mother=401600212
+
+	8001.1.1 = {birth="8001.1.1"}
+	8017.1.1 = {add_trait=skilled_warrior}
+	8019.1.1 = {add_spouse=404600212}
+	8059.1.1 = {death="8059.1.1"}
+}
+404600212 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8001.1.1 = {birth="8001.1.1"}
+	8059.1.1 = {death="8059.1.1"}
+}
+105600212 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=104600212
+	mother=404600212
+
+	8023.1.1 = {birth="8023.1.1"}
+	8031.1.1 = {death="8031.1.1"}
+}
+106600212 = {
+	name="Hodor"	# a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=104600212
+	mother=404600212
+
+	8026.1.1 = {birth="8026.1.1"}
+	8042.1.1 = {add_trait=trained_warrior}
+	8044.1.1 = {add_spouse=406600212}
+	8078.1.1 = {death="8078.1.1"}
+}
+406600212 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8026.1.1 = {birth="8026.1.1"}
+	8078.1.1 = {death="8078.1.1"}
+}
+107600212 = {
+	name="Hodor"	# not a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=104600212
+	mother=404600212
+
+	8028.1.1 = {birth="8028.1.1"}
+	8044.1.1 = {add_trait=poor_warrior}
+	8065.1.1 = {death="8065.1.1"}
+}
+108600212 = {
+	name="Hodor"	# a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=104600212
+	mother=404600212
+
+	8031.1.1 = {birth="8031.1.1"}
+	8047.1.1 = {add_trait=trained_warrior}
+	8049.1.1 = {add_spouse=408600212}
+	8083.1.1 = {death="8083.1.1"}
+}
+408600212 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8031.1.1 = {birth="8031.1.1"}
+	8083.1.1 = {death="8083.1.1"}
+}
+109600212 = {
+	name="Hodor"	# a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=106600212
+	mother=406600212
+
+	8046.1.1 = {birth="8046.1.1"}
+	8062.1.1 = {add_trait=poor_warrior}
+	8064.1.1 = {add_spouse=409600212}
+	8082.1.1 = {death="8082.1.1"}
+}
+409600212 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8046.1.1 = {birth="8046.1.1"}
+	8082.1.1 = {death="8082.1.1"}
+}
+110600212 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=109600212
+	mother=409600212
+
+	8064.1.1 = {birth="8064.1.1"}
+	8118.1.1 = {death="8118.1.1"}
+}
+111600212 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=108600212
+	mother=408600212
+
+	8066.1.1 = {birth="8066.1.1"}
+	8099.1.1 = {death="8099.1.1"}
+}
+112600212 = {
+	name="Hodor"	# a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=108600212
+	mother=408600212
+
+	8067.1.1 = {birth="8067.1.1"}
+	8083.1.1 = {add_trait=trained_warrior}
+	8085.1.1 = {add_spouse=412600212}
+	8134.1.1 = {death="8134.1.1"}
+}
+412600212 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8067.1.1 = {birth="8067.1.1"}
+	8134.1.1 = {death="8134.1.1"}
+}
+113600212 = {
+	name="Hodor"	# not a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=112600212
+	mother=412600212
+
+	8088.1.1 = {birth="8088.1.1"}
+	8104.1.1 = {add_trait=poor_warrior}
+	8106.1.1 = {add_spouse=413600212}
+	8115.1.1 = {death="8115.1.1"}
+}
+413600212 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8088.1.1 = {birth="8088.1.1"}
+	8115.1.1 = {death="8115.1.1"}
+}
+114600212 = {
+	name="Hodor"	# a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=112600212
+	mother=412600212
+
+	8090.1.1 = {birth="8090.1.1"}
+	8106.1.1 = {add_trait=trained_warrior}
+	8108.1.1 = {add_spouse=414600212}
+	8140.1.1 = {death="8140.1.1"}
+}
+414600212 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8090.1.1 = {birth="8090.1.1"}
+	8140.1.1 = {death="8140.1.1"}
+}
+115600212 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=112600212
+	mother=412600212
+
+	8092.1.1 = {birth="8092.1.1"}
+	8133.1.1 = {death = {death_reason = death_accident}}
+}
+116600212 = {
+	name="Hodor"	# a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=113600212
+	mother=413600212
+
+	8112.1.1 = {birth="8112.1.1"}
+	8128.1.1 = {add_trait=skilled_warrior}
+	8168.1.1 = {death="8168.1.1"}
+}
+117600212 = {
+	name="Hodor"	# a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=114600212
+	mother=414600212
+
+	8112.1.1 = {birth="8112.1.1"}
+	8128.1.1 = {add_trait=trained_warrior}
+	8164.1.1 = {death = {death_reason = death_accident}}
+}
+118600212 = {
+	name="Hodor"	# a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=114600212
+	mother=414600212
+
+	8115.1.1 = {birth="8115.1.1"}
+	8131.1.1 = {add_trait=skilled_warrior}
+	8133.1.1 = {add_spouse=418600212}
+	8167.1.1 = {death="8167.1.1"}
+}
+418600212 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8115.1.1 = {birth="8115.1.1"}
+	8167.1.1 = {death="8167.1.1"}
+}
+119600212 = {
+	name="Hodor"	# not a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=114600212
+	mother=414600212
+
+	8118.1.1 = {birth="8118.1.1"}
+	8134.1.1 = {add_trait=master_warrior}
+	8172.1.1 = {death="8172.1.1"}
+}
+120600212 = {
+	name="Hodor"	# not a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=114600212
+	mother=414600212
+
+	8120.1.1 = {birth="8120.1.1"}
+	8136.1.1 = {add_trait=trained_warrior}
+	8155.1.1 = {death="8155.1.1"}
+}
+121600212 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=118600212
+	mother=418600212
+
+	8134.1.1 = {birth="8134.1.1"}
+	8179.1.1 = {death="8179.1.1"}
+}
+122600212 = {
+	name="Hodor"	# a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=118600212
+	mother=418600212
+
+	8137.1.1 = {birth="8137.1.1"}
+	8153.1.1 = {add_trait=trained_warrior}
+	8155.1.1 = {add_spouse=422600212}
+	8199.1.1 = {death="8199.1.1"}
+}
+422600212 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8137.1.1 = {birth="8137.1.1"}
+	8199.1.1 = {death="8199.1.1"}
+}
+123600212 = {
+	name="Hodor"	# a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=122600212
+	mother=422600212
+
+	8172.1.1 = {birth="8172.1.1"}
+	8188.1.1 = {add_trait=trained_warrior}
+	8190.1.1 = {add_spouse=423600212}
+	8219.1.1 = {death="8219.1.1"}
+}
+423600212 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8172.1.1 = {birth="8172.1.1"}
+	8219.1.1 = {death="8219.1.1"}
+}
+124600212 = {
+	name="Hodor"	# not a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=122600212
+	mother=422600212
+
+	8174.1.1 = {birth="8174.1.1"}
+	8190.1.1 = {add_trait=trained_warrior}
+	8209.1.1 = {death = {death_reason = death_battle}}
+}
+125600212 = {
+	name="Hodor"	# not a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=122600212
+	mother=422600212
+
+	8175.1.1 = {birth="8175.1.1"}
+	8191.1.1 = {add_trait=trained_warrior}
+	8193.1.1 = {add_spouse=425600212}
+	8222.1.1 = {death="8222.1.1"}
+}
+425600212 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8175.1.1 = {birth="8175.1.1"}
+	8222.1.1 = {death="8222.1.1"}
+}
+126600212 = {
+	name="Hodor"	# a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=122600212
+	mother=422600212
+
+	8178.1.1 = {birth="8178.1.1"}
+	8194.1.1 = {add_trait=skilled_warrior}
+	8196.1.1 = {add_spouse=426600212}
+	8234.1.1 = {death="8234.1.1"}
+}
+426600212 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8178.1.1 = {birth="8178.1.1"}
+	8234.1.1 = {death="8234.1.1"}
+}
+127600212 = {
+	name="Hodor"	# a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=123600212
+	mother=423600212
+
+	8201.1.1 = {birth="8201.1.1"}
+	8217.1.1 = {add_trait=poor_warrior}
+	8251.1.1 = {death = {death_reason = death_murder}}
+}
+128600212 = {
+	name="Hodor"	# not a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=126600212
+	mother=426600212
+
+	8203.1.1 = {birth="8203.1.1"}
+	8219.1.1 = {add_trait=skilled_warrior}
+	8221.1.1 = {add_spouse=428600212}
+	8230.1.1 = {death="8230.1.1"}
+}
+428600212 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8203.1.1 = {birth="8203.1.1"}
+	8230.1.1 = {death="8230.1.1"}
+}
+129600212 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=128600212
+	mother=428600212
+
+	8225.1.1 = {birth="8225.1.1"}
+	8297.1.1 = {death="8297.1.1"}
+}
+130600212 = {
+	name="Hodor"	# not a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=128600212
+	mother=428600212
+
+	8226.1.1 = {birth="8226.1.1"}
+	8242.1.1 = {add_trait=skilled_warrior}
+	8244.1.1 = {add_spouse=430600212}
+	8290.1.1 = {death="8290.1.1"}
+}
+430600212 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8226.1.1 = {birth="8226.1.1"}
+	8290.1.1 = {death="8290.1.1"}
+}
+131600212 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=125600212
+	mother=425600212
+
+	8195.1.1 = {birth="8195.1.1"}
+	8241.1.1 = {death="8241.1.1"}
+}
+132600212 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=125600212
+	mother=425600212
+
+	8198.1.1 = {birth="8198.1.1"}
+	8249.1.1 = {death="8249.1.1"}
+}
+133600212 = {
+	name="Hodor"	# a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=125600212
+	mother=425600212
+
+	8200.1.1 = {birth="8200.1.1"}
+	8216.1.1 = {add_trait=trained_warrior}
+	8218.1.1 = {add_spouse=433600212}
+	8257.1.1 = {death="8257.1.1"}
+}
+433600212 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8200.1.1 = {birth="8200.1.1"}
+	8257.1.1 = {death="8257.1.1"}
+}
+134600212 = {
+	name="Hodor"	# not a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=125600212
+	mother=425600212
+
+	8203.1.1 = {birth="8203.1.1"}
+	8219.1.1 = {add_trait=poor_warrior}
+	8244.1.1 = {death="8244.1.1"}
+}
+135600212 = {
+	name="Hodor"	# not a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=125600212
+	mother=425600212
+
+	8205.1.1 = {birth="8205.1.1"}
+	8221.1.1 = {add_trait=skilled_warrior}
+	8255.1.1 = {death="8255.1.1"}
+}
+136600212 = {
+	name="Hodor"	# a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=133600212
+	mother=433600212
+
+	8231.1.1 = {birth="8231.1.1"}
+	8247.1.1 = {add_trait=poor_warrior}
+	8249.1.1 = {add_spouse=436600212}
+	8269.1.1 = {death="8269.1.1"}
+}
+436600212 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8231.1.1 = {birth="8231.1.1"}
+	8269.1.1 = {death="8269.1.1"}
+}
+137600212 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=133600212
+	mother=433600212
+
+	8232.1.1 = {birth="8232.1.1"}
+	8291.1.1 = {death="8291.1.1"}
+}
+138600212 = {
+	name="Hodor"	# not a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=133600212
+	mother=433600212
+
+	8235.1.1 = {birth="8235.1.1"}
+	8251.1.1 = {add_trait=poor_warrior}
+	8268.1.1 = {death="8268.1.1"}
+}
+139600212 = {
+	name="Hodor"	# not a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=133600212
+	mother=433600212
+
+	8236.1.1 = {birth="8236.1.1"}
+	8252.1.1 = {add_trait=trained_warrior}
+	8290.1.1 = {death="8290.1.1"}
+}
+140600212 = {
+	name="Hodor"	# a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=136600212
+	mother=436600212
+
+	8264.1.1 = {birth="8264.1.1"}
+	8280.1.1 = {add_trait=poor_warrior}
+	8282.1.1 = {add_spouse=440600212}
+}
+440600212 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8264.1.1 = {birth="8264.1.1"}
+}
+141600212 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=140600212
+	mother=440600212
+
+	8282.1.1 = {birth="8282.1.1"}
+}
+142600212 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=140600212
+	mother=440600212
+
+	8284.1.1 = {birth="8284.1.1"}
+}
+143600212 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=130600212
+	mother=430600212
+
+	8258.1.1 = {birth="8258.1.1"}
+}
+144600212 = {
+	name="Hodor"	# not a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=130600212
+	mother=430600212
+
+	8259.1.1 = {birth="8259.1.1"}
+	8275.1.1 = {add_trait=skilled_warrior}
+	8277.1.1 = {add_spouse=444600212}
+}
+444600212 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8259.1.1 = {birth="8259.1.1"}
+}
+145600212 = {
+	name="Hodor"	# not a lord
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=144600212
+	mother=444600212
+
+	8293.1.1 = {birth="8293.1.1"}
+	8309.1.1 = {add_trait=master_warrior}
+}
+146600212 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=144600212
+	mother=444600212
+
+	8294.1.1 = {birth="8294.1.1"}
+}
+147600212 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600212
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=144600212
+	mother=444600212
+
+	8297.1.1 = {birth="8297.1.1"}
+}
+#Northern Steppe
+100600213 = {
+	name="Hodor"	# a lord
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7925.1.1 = {birth="7925.1.1"}
+	7941.1.1 = {add_trait=skilled_warrior}
+	7943.1.1 = {add_spouse=400600213}
+	7977.1.1 = {death="7977.1.1"}
+}
+400600213 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7925.1.1 = {birth="7925.1.1"}
+	7977.1.1 = {death="7977.1.1"}
+}
+101600213 = {
+	name="Hodor"	# a lord
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=100600213
+	mother=400600213
+
+	7950.1.1 = {birth="7950.1.1"}
+	7966.1.1 = {add_trait=trained_warrior}
+	7968.1.1 = {add_spouse=401600213}
+	7998.1.1 = {death = {death_reason = death_accident}}
+}
+401600213 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7950.1.1 = {birth="7950.1.1"}
+	7998.1.1 = {death="7998.1.1"}
+}
+102600213 = {
+	name="Hodor"	# a lord
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=100600213
+	mother=400600213
+
+	7953.1.1 = {birth="7953.1.1"}
+	7969.1.1 = {add_trait=trained_warrior}
+	7971.1.1 = {add_spouse=402600213}
+	8012.1.1 = {death="8012.1.1"}
+}
+402600213 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7953.1.1 = {birth="7953.1.1"}
+	8012.1.1 = {death="8012.1.1"}
+}
+103600213 = {
+	name="Hodor"	# a lord
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=102600213
+	mother=402600213
+
+	7974.1.1 = {birth="7974.1.1"}
+	7990.1.1 = {add_trait=trained_warrior}
+	7992.1.1 = {add_spouse=403600213}
+	8028.1.1 = {death="8028.1.1"}
+}
+403600213 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7974.1.1 = {birth="7974.1.1"}
+	8028.1.1 = {death="8028.1.1"}
+}
+104600213 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=102600213
+	mother=402600213
+
+	7976.1.1 = {birth="7976.1.1"}
+	8042.1.1 = {death="8042.1.1"}
+}
+105600213 = {
+	name="Hodor"	# not a lord
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=102600213
+	mother=402600213
+
+	7979.1.1 = {birth="7979.1.1"}
+	7995.1.1 = {add_trait=poor_warrior}
+	8028.1.1 = {death="8028.1.1"}
+}
+106600213 = {
+	name="Hodor"	# not a lord
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=102600213
+	mother=402600213
+
+	7982.1.1 = {birth="7982.1.1"}
+	7998.1.1 = {add_trait=trained_warrior}
+	8042.1.1 = {death="8042.1.1"}
+}
+107600213 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=103600213
+	mother=403600213
+
+	8000.1.1 = {birth="8000.1.1"}
+	8047.1.1 = {death="8047.1.1"}
+}
+108600213 = {
+	name="Hodor"	# a lord
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=103600213
+	mother=403600213
+
+	8003.1.1 = {birth="8003.1.1"}
+	8019.1.1 = {add_trait=trained_warrior}
+	8021.1.1 = {add_spouse=408600213}
+	8046.1.1 = {death="8046.1.1"}
+}
+408600213 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8003.1.1 = {birth="8003.1.1"}
+	8046.1.1 = {death="8046.1.1"}
+}
+109600213 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=103600213
+	mother=403600213
+
+	8006.1.1 = {birth="8006.1.1"}
+	8056.1.1 = {death="8056.1.1"}
+}
+110600213 = {
+	name="Hodor"	# not a lord
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=103600213
+	mother=403600213
+
+	8007.1.1 = {birth="8007.1.1"}
+	8023.1.1 = {add_trait=poor_warrior}
+	8059.1.1 = {death="8059.1.1"}
+}
+111600213 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=103600213
+	mother=403600213
+
+	8009.1.1 = {birth="8009.1.1"}
+	8068.1.1 = {death="8068.1.1"}
+}
+112600213 = {
+	name="Hodor"	# a lord
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=108600213
+	mother=408600213
+
+	8027.1.1 = {birth="8027.1.1"}
+	8043.1.1 = {add_trait=skilled_warrior}
+	8045.1.1 = {add_spouse=412600213}
+	8102.1.1 = {death="8102.1.1"}
+}
+412600213 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8027.1.1 = {birth="8027.1.1"}
+	8102.1.1 = {death="8102.1.1"}
+}
+113600213 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=108600213
+	mother=408600213
+
+	8028.1.1 = {birth="8028.1.1"}
+	8102.1.1 = {death="8102.1.1"}
+}
+114600213 = {
+	name="Hodor"	# a lord
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=112600213
+	mother=412600213
+
+	8058.1.1 = {birth="8058.1.1"}
+	8074.1.1 = {add_trait=trained_warrior}
+	8076.1.1 = {add_spouse=414600213}
+	8109.1.1 = {death="8109.1.1"}
+}
+414600213 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8058.1.1 = {birth="8058.1.1"}
+	8109.1.1 = {death="8109.1.1"}
+}
+115600213 = {
+	name="Hodor"	# not a lord
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=112600213
+	mother=412600213
+
+	8060.1.1 = {birth="8060.1.1"}
+	8076.1.1 = {add_trait=trained_warrior}
+	8078.1.1 = {add_spouse=415600213}
+	8124.1.1 = {death="8124.1.1"}
+}
+415600213 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8060.1.1 = {birth="8060.1.1"}
+	8124.1.1 = {death="8124.1.1"}
+}
+116600213 = {
+	name="Hodor"	# not a lord
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=112600213
+	mother=412600213
+
+	8061.1.1 = {birth="8061.1.1"}
+	8077.1.1 = {add_trait=skilled_warrior}
+	8129.1.1 = {death="8129.1.1"}
+}
+117600213 = {
+	name="Hodor"	# a lord
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=114600213
+	mother=414600213
+
+	8089.1.1 = {birth="8089.1.1"}
+	8105.1.1 = {add_trait=master_warrior}
+	8107.1.1 = {add_spouse=417600213}
+	8136.1.1 = {death="8136.1.1"}
+}
+417600213 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8089.1.1 = {birth="8089.1.1"}
+	8136.1.1 = {death="8136.1.1"}
+}
+118600213 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=114600213
+	mother=414600213
+
+	8092.1.1 = {birth="8092.1.1"}
+	8153.1.1 = {death="8153.1.1"}
+}
+119600213 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=114600213
+	mother=414600213
+
+	8095.1.1 = {birth="8095.1.1"}
+	8163.1.1 = {death="8163.1.1"}
+}
+120600213 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=117600213
+	mother=417600213
+
+	8110.1.1 = {birth="8110.1.1"}
+	8156.1.1 = {death="8156.1.1"}
+}
+121600213 = {
+	name="Hodor"	# a lord
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=115600213
+	mother=415600213
+
+	8089.1.1 = {birth="8089.1.1"}
+	8105.1.1 = {add_trait=trained_warrior}
+	8107.1.1 = {add_spouse=421600213}
+	8145.1.1 = {death="8145.1.1"}
+}
+421600213 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8089.1.1 = {birth="8089.1.1"}
+	8145.1.1 = {death="8145.1.1"}
+}
+122600213 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=121600213
+	mother=421600213
+
+	8114.1.1 = {birth="8114.1.1"}
+	8144.1.1 = {death="8144.1.1"}
+}
+123600213 = {
+	name="Hodor"	# a lord
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=121600213
+	mother=421600213
+
+	8117.1.1 = {birth="8117.1.1"}
+	8133.1.1 = {add_trait=poor_warrior}
+	8135.1.1 = {add_spouse=423600213}
+	8159.1.1 = {death="8159.1.1"}
+}
+423600213 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8117.1.1 = {birth="8117.1.1"}
+	8159.1.1 = {death="8159.1.1"}
+}
+124600213 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=123600213
+	mother=423600213
+
+	8150.1.1 = {birth="8150.1.1"}
+	8177.1.1 = {death="8177.1.1"}
+}
+125600213 = {
+	name="Hodor"	# a lord
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=123600213
+	mother=423600213
+
+	8151.1.1 = {birth="8151.1.1"}
+	8167.1.1 = {add_trait=skilled_warrior}
+	8169.1.1 = {add_spouse=425600213}
+	8195.1.1 = {death="8195.1.1"}
+}
+425600213 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8151.1.1 = {birth="8151.1.1"}
+	8195.1.1 = {death="8195.1.1"}
+}
+126600213 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=123600213
+	mother=423600213
+
+	8153.1.1 = {birth="8153.1.1"}
+	8205.1.1 = {death="8205.1.1"}
+}
+127600213 = {
+	name="Hodor"	# not a lord
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=123600213
+	mother=423600213
+
+	8155.1.1 = {birth="8155.1.1"}
+	8171.1.1 = {add_trait=skilled_warrior}
+	8173.1.1 = {add_spouse=427600213}
+	8223.1.1 = {death="8223.1.1"}
+}
+427600213 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8155.1.1 = {birth="8155.1.1"}
+	8223.1.1 = {death="8223.1.1"}
+}
+128600213 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=125600213
+	mother=425600213
+
+	8176.1.1 = {birth="8176.1.1"}
+	8216.1.1 = {death="8216.1.1"}
+}
+129600213 = {
+	name="Hodor"	# a lord
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=125600213
+	mother=425600213
+
+	8177.1.1 = {birth="8177.1.1"}
+	8193.1.1 = {add_trait=trained_warrior}
+	8195.1.1 = {add_spouse=429600213}
+	8255.1.1 = {death = {death_reason = death_accident}}
+}
+429600213 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8177.1.1 = {birth="8177.1.1"}
+	8255.1.1 = {death="8255.1.1"}
+}
+130600213 = {
+	name="Hodor"	# not a lord
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=129600213
+	mother=429600213
+
+	8199.1.1 = {birth="8199.1.1"}
+	8215.1.1 = {add_trait=trained_warrior}
+	8217.1.1 = {add_spouse=430600213}
+	8254.1.1 = {death = {death_reason = death_murder}}
+}
+430600213 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8199.1.1 = {birth="8199.1.1"}
+	8254.1.1 = {death="8254.1.1"}
+}
+131600213 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=129600213
+	mother=429600213
+
+	8201.1.1 = {birth="8201.1.1"}
+	8211.1.1 = {death = {death_reason = death_accident}}
+}
+132600213 = {
+	name="Hodor"	# a lord
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=130600213
+	mother=430600213
+
+	8219.1.1 = {birth="8219.1.1"}
+	8235.1.1 = {add_trait=trained_warrior}
+	8266.1.1 = {death="8266.1.1"}
+}
+133600213 = {
+	name="Hodor"	# not a lord
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=130600213
+	mother=430600213
+
+	8220.1.1 = {birth="8220.1.1"}
+	8236.1.1 = {add_trait=master_warrior}
+	8246.1.1 = {death="8246.1.1"}
+}
+134600213 = {
+	name="Hodor"	# a lord
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=130600213
+	mother=430600213
+
+	8223.1.1 = {birth="8223.1.1"}
+	8239.1.1 = {add_trait=trained_warrior}
+	8241.1.1 = {add_spouse=434600213}
+	8274.1.1 = {death="8274.1.1"}
+}
+434600213 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8223.1.1 = {birth="8223.1.1"}
+	8274.1.1 = {death="8274.1.1"}
+}
+135600213 = {
+	name="Hodor"	# not a lord
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=130600213
+	mother=430600213
+
+	8226.1.1 = {birth="8226.1.1"}
+	8242.1.1 = {add_trait=trained_warrior}
+	8298.1.1 = {death="8298.1.1"}
+}
+136600213 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=134600213
+	mother=434600213
+
+	8243.1.1 = {birth="8243.1.1"}
+	8299.1.1 = {death="8299.1.1"}
+}
+137600213 = {
+	name="Hodor"	# a lord
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=134600213
+	mother=434600213
+
+	8246.1.1 = {birth="8246.1.1"}
+	8262.1.1 = {add_trait=trained_warrior}
+	8264.1.1 = {add_spouse=437600213}
+}
+437600213 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8246.1.1 = {birth="8246.1.1"}
+}
+138600213 = {
+	name="Hodor"	# not a lord
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=137600213
+	mother=437600213
+
+	8274.1.1 = {birth="8274.1.1"}
+	8290.1.1 = {add_trait=poor_warrior}
+}
+139600213 = {
+	name="Hodor"	# not a lord
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=137600213
+	mother=437600213
+
+	8276.1.1 = {birth="8276.1.1"}
+	8292.1.1 = {add_trait=trained_warrior}
+}
+140600213 = {
+	name="Hodor"	# not a lord
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=137600213
+	mother=437600213
+
+	8277.1.1 = {birth="8277.1.1"}
+	8293.1.1 = {add_trait=poor_warrior}
+}
+141600213 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600213
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=137600213
+	mother=437600213
+
+	8280.1.1 = {birth="8280.1.1"}
+}
+#West Ifeqevron
+100600214 = {
+	name="Hodor"	# a lord
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7970.1.1 = {birth="7970.1.1"}
+	7986.1.1 = {add_trait=trained_warrior}
+	7988.1.1 = {add_spouse=400600214}
+	8017.1.1 = {death="8017.1.1"}
+}
+400600214 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7970.1.1 = {birth="7970.1.1"}
+	8017.1.1 = {death="8017.1.1"}
+}
+101600214 = {
+	name="Hodor"	# a lord
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=100600214
+	mother=400600214
+
+	7989.1.1 = {birth="7989.1.1"}
+	8005.1.1 = {add_trait=trained_warrior}
+	8007.1.1 = {add_spouse=401600214}
+	8043.1.1 = {death="8043.1.1"}
+}
+401600214 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7989.1.1 = {birth="7989.1.1"}
+	8043.1.1 = {death="8043.1.1"}
+}
+102600214 = {
+	name="Hodor"	# not a lord
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=100600214
+	mother=400600214
+
+	7991.1.1 = {birth="7991.1.1"}
+	8007.1.1 = {add_trait=master_warrior}
+	8032.1.1 = {death="8032.1.1"}
+}
+103600214 = {
+	name="Hodor"	# not a lord
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=100600214
+	mother=400600214
+
+	7994.1.1 = {birth="7994.1.1"}
+	8010.1.1 = {add_trait=skilled_warrior}
+	8058.1.1 = {death="8058.1.1"}
+}
+104600214 = {
+	name="Hodor"	# a lord
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=101600214
+	mother=401600214
+
+	8021.1.1 = {birth="8021.1.1"}
+	8037.1.1 = {add_trait=trained_warrior}
+	8039.1.1 = {add_spouse=404600214}
+	8050.1.1 = {death="8050.1.1"}
+}
+404600214 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8021.1.1 = {birth="8021.1.1"}
+	8050.1.1 = {death="8050.1.1"}
+}
+105600214 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=101600214
+	mother=401600214
+
+	8024.1.1 = {birth="8024.1.1"}
+	8062.1.1 = {death="8062.1.1"}
+}
+106600214 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=104600214
+	mother=404600214
+
+	8043.1.1 = {birth="8043.1.1"}
+	8097.1.1 = {death = {death_reason = death_murder}}
+}
+107600214 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=104600214
+	mother=404600214
+
+	8046.1.1 = {birth="8046.1.1"}
+	8089.1.1 = {death="8089.1.1"}
+}
+108600214 = {
+	name="Hodor"	# a lord
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=104600214
+	mother=404600214
+
+	8049.1.1 = {birth="8049.1.1"}
+	8065.1.1 = {add_trait=skilled_warrior}
+	8067.1.1 = {add_spouse=408600214}
+	8105.1.1 = {death="8105.1.1"}
+}
+408600214 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8049.1.1 = {birth="8049.1.1"}
+	8105.1.1 = {death="8105.1.1"}
+}
+109600214 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=108600214
+	mother=408600214
+
+	8068.1.1 = {birth="8068.1.1"}
+	8111.1.1 = {death="8111.1.1"}
+}
+110600214 = {
+	name="Hodor"	# a lord
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=108600214
+	mother=408600214
+
+	8069.1.1 = {birth="8069.1.1"}
+	8085.1.1 = {add_trait=skilled_warrior}
+	8087.1.1 = {add_spouse=410600214}
+	8119.1.1 = {death="8119.1.1"}
+}
+410600214 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8069.1.1 = {birth="8069.1.1"}
+	8119.1.1 = {death="8119.1.1"}
+}
+111600214 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=108600214
+	mother=408600214
+
+	8070.1.1 = {birth="8070.1.1"}
+	8114.1.1 = {death="8114.1.1"}
+}
+112600214 = {
+	name="Hodor"	# not a lord
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=108600214
+	mother=408600214
+
+	8071.1.1 = {birth="8071.1.1"}
+	8087.1.1 = {add_trait=poor_warrior}
+	8135.1.1 = {death="8135.1.1"}
+}
+113600214 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=108600214
+	mother=408600214
+
+	8072.1.1 = {birth="8072.1.1"}
+	8112.1.1 = {death="8112.1.1"}
+}
+114600214 = {
+	name="Hodor"	# a lord
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=110600214
+	mother=410600214
+
+	8091.1.1 = {birth="8091.1.1"}
+	8107.1.1 = {add_trait=skilled_warrior}
+	8109.1.1 = {add_spouse=414600214}
+	8136.1.1 = {death="8136.1.1"}
+}
+414600214 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8091.1.1 = {birth="8091.1.1"}
+	8136.1.1 = {death="8136.1.1"}
+}
+115600214 = {
+	name="Hodor"	# a lord
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=110600214
+	mother=410600214
+
+	8092.1.1 = {birth="8092.1.1"}
+	8108.1.1 = {add_trait=trained_warrior}
+	8110.1.1 = {add_spouse=415600214}
+	8147.1.1 = {death="8147.1.1"}
+}
+415600214 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8092.1.1 = {birth="8092.1.1"}
+	8147.1.1 = {death="8147.1.1"}
+}
+116600214 = {
+	name="Hodor"	# not a lord
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=110600214
+	mother=410600214
+
+	8094.1.1 = {birth="8094.1.1"}
+	8110.1.1 = {add_trait=trained_warrior}
+	8172.1.1 = {death="8172.1.1"}
+}
+117600214 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=110600214
+	mother=410600214
+
+	8096.1.1 = {birth="8096.1.1"}
+	8138.1.1 = {death="8138.1.1"}
+}
+118600214 = {
+	name="Hodor"	# not a lord
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=114600214
+	mother=414600214
+
+	8109.1.1 = {birth="8109.1.1"}
+	8125.1.1 = {add_trait=poor_warrior}
+	8127.1.1 = {add_spouse=418600214}
+	8164.1.1 = {death="8164.1.1"}
+}
+418600214 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8109.1.1 = {birth="8109.1.1"}
+	8164.1.1 = {death="8164.1.1"}
+}
+119600214 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=114600214
+	mother=414600214
+
+	8110.1.1 = {birth="8110.1.1"}
+	8166.1.1 = {death = {death_reason = death_accident}}
+}
+120600214 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=114600214
+	mother=414600214
+
+	8113.1.1 = {birth="8113.1.1"}
+	8158.1.1 = {death="8158.1.1"}
+}
+121600214 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=115600214
+	mother=415600214
+
+	8126.1.1 = {birth="8126.1.1"}
+	8189.1.1 = {death="8189.1.1"}
+}
+123600214 = {
+	name="Hodor"	# a lord
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=115600214
+	mother=415600214
+
+	8129.1.1 = {birth="8129.1.1"}
+	8145.1.1 = {add_trait=poor_warrior}
+	8147.1.1 = {add_spouse=423600214}
+	8189.1.1 = {death="8189.1.1"}
+}
+423600214 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8129.1.1 = {birth="8129.1.1"}
+	8189.1.1 = {death="8189.1.1"}
+}
+124600214 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=123600214
+	mother=423600214
+
+	8160.1.1 = {birth="8160.1.1"}
+	8231.1.1 = {death="8231.1.1"}
+}
+125600214 = {
+	name="Hodor"	# a lord
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=118600214
+	mother=418600214
+
+	8130.1.1 = {birth="8130.1.1"}
+	8146.1.1 = {add_trait=skilled_warrior}
+	8148.1.1 = {add_spouse=425600214}
+	8190.1.1 = {death="8190.1.1"}
+}
+425600214 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8130.1.1 = {birth="8130.1.1"}
+	8190.1.1 = {death="8190.1.1"}
+}
+126600214 = {
+	name="Hodor"	# not a lord
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=118600214
+	mother=418600214
+
+	8132.1.1 = {birth="8132.1.1"}
+	8148.1.1 = {add_trait=poor_warrior}
+	8183.1.1 = {death="8183.1.1"}
+}
+127600214 = {
+	name="Hodor"	# not a lord
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=118600214
+	mother=418600214
+
+	8133.1.1 = {birth="8133.1.1"}
+	8149.1.1 = {add_trait=skilled_warrior}
+	8186.1.1 = {death="8186.1.1"}
+}
+128600214 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=118600214
+	mother=418600214
+
+	8136.1.1 = {birth="8136.1.1"}
+	8188.1.1 = {death="8188.1.1"}
+}
+129600214 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=125600214
+	mother=425600214
+
+	8151.1.1 = {birth="8151.1.1"}
+	8226.1.1 = {death="8226.1.1"}
+}
+130600214 = {
+	name="Hodor"	# not a lord
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=125600214
+	mother=425600214
+
+	8152.1.1 = {birth="8152.1.1"}
+	8168.1.1 = {add_trait=trained_warrior}
+	8170.1.1 = {add_spouse=430600214}
+	8180.1.1 = {death="8180.1.1"}
+}
+430600214 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8152.1.1 = {birth="8152.1.1"}
+	8200.1.1 = {death="8200.1.1"}
+}
+131600214 = {
+	name="Hodor"	# a lord
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=125600214
+	mother=425600214
+
+	8154.1.1 = {birth="8154.1.1"}
+	8170.1.1 = {add_trait=skilled_warrior}
+	8172.1.1 = {add_spouse=431600214}
+	8191.1.1 = {death="8191.1.1"}
+}
+431600214 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8154.1.1 = {birth="8154.1.1"}
+	8191.1.1 = {death="8191.1.1"}
+}
+132600214 = {
+	name="Hodor"	# not a lord
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=125600214
+	mother=425600214
+
+	8157.1.1 = {birth="8157.1.1"}
+	8173.1.1 = {add_trait=poor_warrior}
+	8230.1.1 = {death="8230.1.1"}
+}
+133600214 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=130600214
+	mother=430600214
+
+	8180.1.1 = {birth="8180.1.1"}
+	8250.1.1 = {death="8250.1.1"}
+}
+134600214 = {
+	name="Hodor"	# a lord
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=131600214
+	mother=431600214
+
+	8182.1.1 = {birth="8182.1.1"}
+	8198.1.1 = {add_trait=poor_warrior}
+	8200.1.1 = {add_spouse=434600214}
+	8251.1.1 = {death="8251.1.1"}
+}
+434600214 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8182.1.1 = {birth="8182.1.1"}
+	8251.1.1 = {death="8251.1.1"}
+}
+135600214 = {
+	name="Hodor"	# a lord
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=134600214
+	mother=434600214
+
+	8210.1.1 = {birth="8210.1.1"}
+	8226.1.1 = {add_trait=poor_warrior}
+	8228.1.1 = {add_spouse=435600214}
+	8272.1.1 = {death="8272.1.1"}
+}
+435600214 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8210.1.1 = {birth="8210.1.1"}
+	8272.1.1 = {death="8272.1.1"}
+}
+136600214 = {
+	name="Hodor"	# not a lord
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=135600214
+	mother=435600214
+
+	8228.1.1 = {birth="8228.1.1"}
+	8244.1.1 = {add_trait=poor_warrior}
+	8246.1.1 = {add_spouse=436600214}
+	8265.1.1 = {death="8265.1.1"}
+}
+436600214 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8228.1.1 = {birth="8228.1.1"}
+	8265.1.1 = {death="8265.1.1"}
+}
+137600214 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=135600214
+	mother=435600214
+
+	8230.1.1 = {birth="8230.1.1"}
+	8291.1.1 = {death="8291.1.1"}
+}
+138600214 = {
+	name="Hodor"	# a lord
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=136600214
+	mother=436600214
+
+	8256.1.1 = {birth="8256.1.1"}
+	8272.1.1 = {add_trait=skilled_warrior}
+	8274.1.1 = {add_spouse=438600214}
+}
+438600214 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8256.1.1 = {birth="8256.1.1"}
+}
+139600214 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=136600214
+	mother=436600214
+
+	8257.1.1 = {birth="8257.1.1"}
+	8291.1.1 = {death="8291.1.1"}
+}
+140600214 = {
+	name="Hodor"	# not a lord
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=136600214
+	mother=436600214
+
+	8258.1.1 = {birth="8258.1.1"}
+	8274.1.1 = {add_trait=trained_warrior}
+}
+141600214 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=138600214
+	mother=438600214
+
+	8274.1.1 = {birth="8274.1.1"}
+}
+142600214 = {
+	name="Hodor"	# not a lord
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=138600214
+	mother=438600214
+
+	8277.1.1 = {birth="8277.1.1"}
+	8293.1.1 = {add_trait=skilled_warrior}
+}
+143600214 = {
+	name="Hodor"	# not a lord
+	dynasty=600214
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=138600214
+	mother=438600214
+
+	8280.1.1 = {birth="8280.1.1"}
+	8296.1.1 = {add_trait=trained_warrior}
+}
+#Sathar
+100600215 = {
+	name="Hodor"	# a lord
+	dynasty=600215
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7966.1.1 = {birth="7966.1.1"}
+	7982.1.1 = {add_trait=trained_warrior}
+	7984.1.1 = {add_spouse=400600215}
+	8009.1.1 = {death="8009.1.1"}
+}
+400600215 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7966.1.1 = {birth="7966.1.1"}
+	8009.1.1 = {death="8009.1.1"}
+}
+101600215 = {
+	name="Hodor"	# a lord
+	dynasty=600215
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=100600215
+	mother=400600215
+
+	7987.1.1 = {birth="7987.1.1"}
+	8003.1.1 = {add_trait=trained_warrior}
+	8005.1.1 = {add_spouse=401600215}
+	8011.1.1 = {death="8011.1.1"}
+}
+401600215 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7987.1.1 = {birth="7987.1.1"}
+	8030.1.1 = {death="8030.1.1"}
+}
+102600215 = {
+	name="Hodor"	# a lord
+	dynasty=600215
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=100600215
+	mother=400600215
+
+	7990.1.1 = {birth="7990.1.1"}
+	8006.1.1 = {add_trait=poor_warrior}
+	8008.1.1 = {add_spouse=402600215}
+	8035.1.1 = {death="8035.1.1"}
+}
+402600215 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7990.1.1 = {birth="7990.1.1"}
+	8035.1.1 = {death="8035.1.1"}
+}
+103600215 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600215
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=101600215
+	mother=401600215
+
+	8010.1.1 = {birth="8010.1.1"}
+	8062.1.1 = {death="8062.1.1"}
+}
+104600215 = {
+	name="Hodor"	# a lord
+	dynasty=600215
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=102600215
+	mother=402600215
+
+	8012.1.1 = {birth="8012.1.1"}
+	8028.1.1 = {add_trait=poor_warrior}
+	8030.1.1 = {add_spouse=404600215}
+	8070.1.1 = {death="8070.1.1"}
+}
+404600215 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8012.1.1 = {birth="8012.1.1"}
+	8070.1.1 = {death="8070.1.1"}
+}
+105600215 = {
+	name="Hodor"	# not a lord
+	dynasty=600215
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=102600215
+	mother=402600215
+
+	8013.1.1 = {birth="8013.1.1"}
+	8029.1.1 = {add_trait=trained_warrior}
+	8072.1.1 = {death="8072.1.1"}
+}
+106600215 = {
+	name="Hodor"	# not a lord
+	dynasty=600215
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=102600215
+	mother=402600215
+
+	8014.1.1 = {birth="8014.1.1"}
+	8030.1.1 = {add_trait=poor_warrior}
+	8055.1.1 = {death="8055.1.1"}
+}
+107600215 = {
+	name="Hodor"	# a lord
+	dynasty=600215
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=102600215
+	mother=402600215
+
+	8016.1.1 = {birth="8016.1.1"}
+	8032.1.1 = {add_trait=skilled_warrior}
+	8034.1.1 = {add_spouse=407600215}
+	8074.1.1 = {death = {death_reason = death_accident}}
+}
+407600215 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8016.1.1 = {birth="8016.1.1"}
+	8074.1.1 = {death="8074.1.1"}
+}
+108600215 = {
+	name="Hodor"	# not a lord
+	dynasty=600215
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=104600215
+	mother=404600215
+
+	8030.1.1 = {birth="8030.1.1"}
+	8046.1.1 = {add_trait=poor_warrior}
+	8091.1.1 = {death="8091.1.1"}
+}
+109600215 = {
+	name="Hodor"	# a lord
+	dynasty=600215
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=107600215
+	mother=407600215
+
+	8051.1.1 = {birth="8051.1.1"}
+	8067.1.1 = {add_trait=trained_warrior}
+	8069.1.1 = {add_spouse=409600215}
+	8102.1.1 = {death="8102.1.1"}
+}
+409600215 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8051.1.1 = {birth="8051.1.1"}
+	8102.1.1 = {death="8102.1.1"}
+}
+110600215 = {
+	name="Hodor"	# not a lord
+	dynasty=600215
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=107600215
+	mother=407600215
+
+	8053.1.1 = {birth="8053.1.1"}
+	8069.1.1 = {add_trait=poor_warrior}
+	8121.1.1 = {death="8121.1.1"}
+}
+111600215 = {
+	name="Hodor"	# not a lord
+	dynasty=600215
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=107600215
+	mother=407600215
+
+	8054.1.1 = {birth="8054.1.1"}
+	8070.1.1 = {add_trait=skilled_warrior}
+	8098.1.1 = {death="8098.1.1"}
+}
+112600215 = {
+	name="Hodor"	# not a lord
+	dynasty=600215
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=107600215
+	mother=407600215
+
+	8055.1.1 = {birth="8055.1.1"}
+	8071.1.1 = {add_trait=poor_warrior}
+	8092.1.1 = {death="8092.1.1"}
+}
+113600215 = {
+	name="Hodor"	# a lord
+	dynasty=600215
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=109600215
+	mother=409600215
+
+	8069.1.1 = {birth="8069.1.1"}
+	8085.1.1 = {add_trait=master_warrior}
+	8087.1.1 = {add_spouse=413600215}
+	8128.1.1 = {death="8128.1.1"}
+}
+413600215 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8069.1.1 = {birth="8069.1.1"}
+	8128.1.1 = {death="8128.1.1"}
+}
+114600215 = {
+	name="Hodor"	# a lord
+	dynasty=600215
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=113600215
+	mother=413600215
+
+	8098.1.1 = {birth="8098.1.1"}
+	8114.1.1 = {add_trait=trained_warrior}
+	8116.1.1 = {add_spouse=414600215}
+	8147.1.1 = {death="8147.1.1"}
+}
+414600215 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8098.1.1 = {birth="8098.1.1"}
+	8147.1.1 = {death="8147.1.1"}
+}
+115600215 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600215
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=113600215
+	mother=413600215
+
+	8100.1.1 = {birth="8100.1.1"}
+	8160.1.1 = {death="8160.1.1"}
+}
+116600215 = {
+	name="Hodor"	# a lord
+	dynasty=600215
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=114600215
+	mother=414600215
+
+	8131.1.1 = {birth="8131.1.1"}
+	8147.1.1 = {add_trait=poor_warrior}
+	8149.1.1 = {add_spouse=416600215}
+	8175.1.1 = {death = {death_reason = death_murder}}
+}
+416600215 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8131.1.1 = {birth="8131.1.1"}
+	8175.1.1 = {death="8175.1.1"}
+}
+117600215 = {
+	name="Hodor"	# a lord
+	dynasty=600215
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=116600215
+	mother=416600215
+
+	8152.1.1 = {birth="8152.1.1"}
+	8168.1.1 = {add_trait=trained_warrior}
+	8170.1.1 = {add_spouse=417600215}
+	8197.1.1 = {death="8197.1.1"}
+}
+417600215 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8152.1.1 = {birth="8152.1.1"}
+	8197.1.1 = {death="8197.1.1"}
+}
+118600215 = {
+	name="Hodor"	# not a lord
+	dynasty=600215
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=116600215
+	mother=416600215
+
+	8154.1.1 = {birth="8154.1.1"}
+	8170.1.1 = {add_trait=trained_warrior}
+	8225.1.1 = {death="8225.1.1"}
+}
+119600215 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600215
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=117600215
+	mother=417600215
+
+	8175.1.1 = {birth="8175.1.1"}
+	8229.1.1 = {death="8229.1.1"}
+}
+120600215 = {
+	name="Hodor"	# a lord
+	dynasty=600215
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=117600215
+	mother=417600215
+
+	8176.1.1 = {birth="8176.1.1"}
+	8192.1.1 = {add_trait=skilled_warrior}
+	8194.1.1 = {add_spouse=420600215}
+	8224.1.1 = {death="8224.1.1"}
+}
+420600215 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8176.1.1 = {birth="8176.1.1"}
+	8224.1.1 = {death="8224.1.1"}
+}
+121600215 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600215
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=117600215
+	mother=417600215
+
+	8178.1.1 = {birth="8178.1.1"}
+	8200.1.1 = {death="8200.1.1"}
+}
+122600215 = {
+	name="Hodor"	# a lord
+	dynasty=600215
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=120600215
+	mother=420600215
+
+	8197.1.1 = {birth="8197.1.1"}
+	8213.1.1 = {add_trait=poor_warrior}
+	8215.1.1 = {add_spouse=422600215}
+	8269.1.1 = {death="8269.1.1"}
+}
+422600215 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8197.1.1 = {birth="8197.1.1"}
+	8269.1.1 = {death="8269.1.1"}
+}
+123600215 = {
+	name="Hodor"	# a lord
+	dynasty=600215
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=122600215
+	mother=422600215
+
+	8215.1.1 = {birth="8215.1.1"}
+	8231.1.1 = {add_trait=master_warrior}
+	8233.1.1 = {add_spouse=423600215}
+	8283.1.1 = {death="8283.1.1"}
+}
+423600215 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8215.1.1 = {birth="8215.1.1"}
+	8283.1.1 = {death="8283.1.1"}
+}
+124600215 = {
+	name="Hodor"	# a lord
+	dynasty=600215
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=123600215
+	mother=423600215
+
+	8235.1.1 = {birth="8235.1.1"}
+	8251.1.1 = {add_trait=poor_warrior}
+	8253.1.1 = {add_spouse=424600215}
+	8287.1.1 = {death="8287.1.1"}
+}
+424600215 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8235.1.1 = {birth="8235.1.1"}
+	8287.1.1 = {death="8287.1.1"}
+}
+125600215 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600215
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=123600215
+	mother=423600215
+
+	8238.1.1 = {birth="8238.1.1"}
+	8294.1.1 = {death="8294.1.1"}
+}
+126600215 = {
+	name="Hodor"	# a lord
+	dynasty=600215
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=124600215
+	mother=424600215
+
+	8267.1.1 = {birth="8267.1.1"}
+	8283.1.1 = {add_trait=poor_warrior}
+	8285.1.1 = {add_spouse=426600215}
+}
+426600215 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8267.1.1 = {birth="8267.1.1"}
+}
+127600215 = {
+	name="Hodor"	# not a lord
+	dynasty=600215
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=124600215
+	mother=424600215
+
+	8269.1.1 = {birth="8269.1.1"}
+	8285.1.1 = {add_trait=poor_warrior}
+	8287.1.1 = {add_spouse=427600215}
+}
+427600215 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8269.1.1 = {birth="8269.1.1"}
+}
+128600215 = {
+	name="Hodor"	# not a lord
+	dynasty=600215
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=126600215
+	mother=426600215
+
+	8290.1.1 = {birth="8290.1.1"}
+	8306.1.1 = {add_trait=trained_warrior}
+}
+129600215 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600215
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=126600215
+	mother=426600215
+
+	8293.1.1 = {birth="8293.1.1"}
+}
+130600215 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600215
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=127600215
+	mother=427600215
+
+	8296.1.1 = {birth="8296.1.1"}
+}
+#Sarnath
+100600216 = {
+	name="Hodor"	# a lord
+	dynasty=600216
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7950.1.1 = {birth="7950.1.1"}
+	7966.1.1 = {add_trait=trained_warrior}
+	7968.1.1 = {add_spouse=400600216}
+	8007.1.1 = {death="8007.1.1"}
+}
+400600216 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7950.1.1 = {birth="7950.1.1"}
+	8007.1.1 = {death="8007.1.1"}
+}
+101600216 = {
+	name="Hodor"	# a lord
+	dynasty=600216
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=100600216
+	mother=400600216
+
+	7968.1.1 = {birth="7968.1.1"}
+	7984.1.1 = {add_trait=trained_warrior}
+	7986.1.1 = {add_spouse=401600216}
+	8026.1.1 = {death="8026.1.1"}
+}
+401600216 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7968.1.1 = {birth="7968.1.1"}
+	8026.1.1 = {death="8026.1.1"}
+}
+102600216 = {
+	name="Hodor"	# not a lord
+	dynasty=600216
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=100600216
+	mother=400600216
+
+	7971.1.1 = {birth="7971.1.1"}
+	7987.1.1 = {add_trait=trained_warrior}
+	8030.1.1 = {death="8030.1.1"}
+}
+103600216 = {
+	name="Hodor"	# a lord
+	dynasty=600216
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=101600216
+	mother=401600216
+
+	7990.1.1 = {birth="7990.1.1"}
+	8006.1.1 = {add_trait=master_warrior}
+	8008.1.1 = {add_spouse=403600216}
+	8051.1.1 = {death="8051.1.1"}
+}
+403600216 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7990.1.1 = {birth="7990.1.1"}
+	8051.1.1 = {death="8051.1.1"}
+}
+104600216 = {
+	name="Hodor"	# not a lord
+	dynasty=600216
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=101600216
+	mother=401600216
+
+	7992.1.1 = {birth="7992.1.1"}
+	8008.1.1 = {add_trait=poor_warrior}
+	8045.1.1 = {death="8045.1.1"}
+}
+105600216 = {
+	name="Hodor"	# a lord
+	dynasty=600216
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=103600216
+	mother=403600216
+
+	8015.1.1 = {birth="8015.1.1"}
+	8031.1.1 = {add_trait=skilled_warrior}
+	8033.1.1 = {add_spouse=405600216}
+	8072.1.1 = {death="8072.1.1"}
+}
+405600216 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8015.1.1 = {birth="8015.1.1"}
+	8072.1.1 = {death="8072.1.1"}
+}
+106600216 = {
+	name="Hodor"	# a lord
+	dynasty=600216
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=105600216
+	mother=405600216
+
+	8041.1.1 = {birth="8041.1.1"}
+	8057.1.1 = {add_trait=trained_warrior}
+	8059.1.1 = {add_spouse=406600216}
+	8112.1.1 = {death="8112.1.1"}
+}
+406600216 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8041.1.1 = {birth="8041.1.1"}
+	8112.1.1 = {death="8112.1.1"}
+}
+107600216 = {
+	name="Hodor"	# not a lord
+	dynasty=600216
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=105600216
+	mother=405600216
+
+	8042.1.1 = {birth="8042.1.1"}
+	8058.1.1 = {add_trait=poor_warrior}
+	8080.1.1 = {death="8080.1.1"}
+}
+108600216 = {
+	name="Hodor"	# not a lord
+	dynasty=600216
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=105600216
+	mother=405600216
+
+	8043.1.1 = {birth="8043.1.1"}
+	8059.1.1 = {add_trait=poor_warrior}
+	8104.1.1 = {death="8104.1.1"}
+}
+109600216 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600216
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=105600216
+	mother=405600216
+
+	8045.1.1 = {birth="8045.1.1"}
+	8102.1.1 = {death="8102.1.1"}
+}
+110600216 = {
+	name="Hodor"	# a lord
+	dynasty=600216
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=106600216
+	mother=406600216
+
+	8063.1.1 = {birth="8063.1.1"}
+	8079.1.1 = {add_trait=skilled_warrior}
+	8081.1.1 = {add_spouse=410600216}
+	8121.1.1 = {death="8121.1.1"}
+}
+410600216 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8063.1.1 = {birth="8063.1.1"}
+	8121.1.1 = {death="8121.1.1"}
+}
+111600216 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600216
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=110600216
+	mother=410600216
+
+	8097.1.1 = {birth="8097.1.1"}
+	8146.1.1 = {death="8146.1.1"}
+}
+112600216 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600216
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=110600216
+	mother=410600216
+
+	8100.1.1 = {birth="8100.1.1"}
+	8168.1.1 = {death="8168.1.1"}
+}
+113600216 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600216
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=110600216
+	mother=410600216
+
+	8101.1.1 = {birth="8101.1.1"}
+	8169.1.1 = {death="8169.1.1"}
+}
+114600216 = {
+	name="Hodor"	# a lord
+	dynasty=600216
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=110600216
+	mother=410600216
+
+	8102.1.1 = {birth="8102.1.1"}
+	8118.1.1 = {add_trait=poor_warrior}
+	8120.1.1 = {add_spouse=414600216}
+	8177.1.1 = {death="8177.1.1"}
+}
+414600216 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8102.1.1 = {birth="8102.1.1"}
+	8177.1.1 = {death="8177.1.1"}
+}
+115600216 = {
+	name="Hodor"	# a lord
+	dynasty=600216
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=114600216
+	mother=414600216
+
+	8135.1.1 = {birth="8135.1.1"}
+	8151.1.1 = {add_trait=poor_warrior}
+	8153.1.1 = {add_spouse=415600216}
+	8186.1.1 = {death="8186.1.1"}
+}
+415600216 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8135.1.1 = {birth="8135.1.1"}
+	8186.1.1 = {death="8186.1.1"}
+}
+116600216 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600216
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=114600216
+	mother=414600216
+
+	8138.1.1 = {birth="8138.1.1"}
+	8174.1.1 = {death="8174.1.1"}
+}
+117600216 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600216
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=115600216
+	mother=415600216
+
+	8156.1.1 = {birth="8156.1.1"}
+	8209.1.1 = {death="8209.1.1"}
+}
+118600216 = {
+	name="Hodor"	# a lord
+	dynasty=600216
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=115600216
+	mother=415600216
+
+	8159.1.1 = {birth="8159.1.1"}
+	8175.1.1 = {add_trait=skilled_warrior}
+	8177.1.1 = {add_spouse=418600216}
+	8203.1.1 = {death="8203.1.1"}
+}
+418600216 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8159.1.1 = {birth="8159.1.1"}
+	8203.1.1 = {death="8203.1.1"}
+}
+119600216 = {
+	name="Hodor"	# not a lord
+	dynasty=600216
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=115600216
+	mother=415600216
+
+	8162.1.1 = {birth="8162.1.1"}
+	8178.1.1 = {add_trait=trained_warrior}
+	8214.1.1 = {death="8214.1.1"}
+}
+120600216 = {
+	name="Hodor"	# a lord
+	dynasty=600216
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=118600216
+	mother=418600216
+
+	8182.1.1 = {birth="8182.1.1"}
+	8198.1.1 = {add_trait=poor_warrior}
+	8200.1.1 = {add_spouse=420600216}
+	8252.1.1 = {death = {death_reason = death_accident}}
+}
+420600216 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8182.1.1 = {birth="8182.1.1"}
+	8252.1.1 = {death="8252.1.1"}
+}
+121600216 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600216
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=118600216
+	mother=418600216
+
+	8185.1.1 = {birth="8185.1.1"}
+	8236.1.1 = {death="8236.1.1"}
+}
+122600216 = {
+	name="Hodor"	# not a lord
+	dynasty=600216
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=118600216
+	mother=418600216
+
+	8188.1.1 = {birth="8188.1.1"}
+	8204.1.1 = {add_trait=trained_warrior}
+	8233.1.1 = {death="8233.1.1"}
+}
+123600216 = {
+	name="Hodor"	# a lord
+	dynasty=600216
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=120600216
+	mother=420600216
+
+	8204.1.1 = {birth="8204.1.1"}
+	8220.1.1 = {add_trait=poor_warrior}
+	8222.1.1 = {add_spouse=423600216}
+	8260.1.1 = {death="8260.1.1"}
+}
+423600216 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8204.1.1 = {birth="8204.1.1"}
+	8260.1.1 = {death="8260.1.1"}
+}
+124600216 = {
+	name="Hodor"	# a lord
+	dynasty=600216
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=123600216
+	mother=423600216
+
+	8229.1.1 = {birth="8229.1.1"}
+	8245.1.1 = {add_trait=poor_warrior}
+	8247.1.1 = {add_spouse=424600216}
+	8289.1.1 = {death="8289.1.1"}
+}
+424600216 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8229.1.1 = {birth="8229.1.1"}
+	8289.1.1 = {death="8289.1.1"}
+}
+125600216 = {
+	name="Hodor"	# a lord
+	dynasty=600216
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=124600216
+	mother=424600216
+
+	8247.1.1 = {birth="8247.1.1"}
+	8263.1.1 = {add_trait=trained_warrior}
+	8265.1.1 = {add_spouse=425600216}
+}
+425600216 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8247.1.1 = {birth="8247.1.1"}
+}
+126600216 = {
+	name="Hodor"	# not a lord
+	dynasty=600216
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=124600216
+	mother=424600216
+
+	8248.1.1 = {birth="8248.1.1"}
+	8264.1.1 = {add_trait=trained_warrior}
+}
+127600216 = {
+	name="Hodor"	# not a lord
+	dynasty=600216
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=125600216
+	mother=425600216
+
+	8265.1.1 = {birth="8265.1.1"}
+	8281.1.1 = {add_trait=poor_warrior}
+}
+128600216 = {
+	name="Hodor"	# not a lord
+	dynasty=600216
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=125600216
+	mother=425600216
+
+	8267.1.1 = {birth="8267.1.1"}
+	8283.1.1 = {add_trait=skilled_warrior}
+	8285.1.1 = {add_spouse=428600216}
+}
+428600216 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8267.1.1 = {birth="8267.1.1"}
+}
+129600216 = {
+	name="Hodor"	# not a lord
+	dynasty=600216
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=128600216
+	mother=428600216
+
+	8290.1.1 = {birth="8290.1.1"}
+	8306.1.1 = {add_trait=trained_warrior}
+}
+130600216 = {
+	name="Hodor"	# not a lord
+	dynasty=600216
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=128600216
+	mother=428600216
+
+	8293.1.1 = {birth="8293.1.1"}
+	8309.1.1 = {add_trait=master_warrior}
+}
+131600216 = {
+	name="Hodor"	# not a lord
+	dynasty=600216
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=128600216
+	mother=428600216
+
+	8295.1.1 = {birth="8295.1.1"}
+	8311.1.1 = {add_trait=trained_warrior}
+}
+#Mardosh
+100600217 = {
+	name="Hodor"	# a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7956.1.1 = {birth="7956.1.1"}
+	7972.1.1 = {add_trait=trained_warrior}
+	7974.1.1 = {add_spouse=400600217}
+	8010.1.1 = {death="8010.1.1"}
+}
+400600217 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7956.1.1 = {birth="7956.1.1"}
+	8010.1.1 = {death="8010.1.1"}
+}
+101600217 = {
+	name="Hodor"	# not a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=100600217
+	mother=400600217
+
+	7982.1.1 = {birth="7982.1.1"}
+	7998.1.1 = {add_trait=skilled_warrior}
+	8000.1.1 = {add_spouse=401600217}
+	8008.1.1 = {death="8008.1.1"}
+}
+401600217 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7982.1.1 = {birth="7982.1.1"}
+	8008.1.1 = {death="8008.1.1"}
+}
+102600217 = {
+	name="Hodor"	# a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=100600217
+	mother=400600217
+
+	7983.1.1 = {birth="7983.1.1"}
+	7999.1.1 = {add_trait=trained_warrior}
+	8001.1.1 = {add_spouse=402600217}
+	8033.1.1 = {death="8033.1.1"}
+}
+402600217 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7983.1.1 = {birth="7983.1.1"}
+	8033.1.1 = {death="8033.1.1"}
+}
+103600217 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=100600217
+	mother=400600217
+
+	7984.1.1 = {birth="7984.1.1"}
+	8033.1.1 = {death="8033.1.1"}
+}
+104600217 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=101600217
+	mother=401600217
+
+	8005.1.1 = {birth="8005.1.1"}
+	8044.1.1 = {death="8044.1.1"}
+}
+105600217 = {
+	name="Hodor"	# not a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=101600217
+	mother=401600217
+
+	8007.1.1 = {birth="8007.1.1"}
+	8023.1.1 = {add_trait=trained_warrior}
+	8075.1.1 = {death="8075.1.1"}
+}
+106600217 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=102600217
+	mother=402600217
+
+	8011.1.1 = {birth="8011.1.1"}
+	8064.1.1 = {death="8064.1.1"}
+}
+107600217 = {
+	name="Hodor"	# a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=102600217
+	mother=402600217
+
+	8012.1.1 = {birth="8012.1.1"}
+	8028.1.1 = {add_trait=poor_warrior}
+	8030.1.1 = {add_spouse=407600217}
+	8070.1.1 = {death="8070.1.1"}
+}
+407600217 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8012.1.1 = {birth="8012.1.1"}
+	8070.1.1 = {death="8070.1.1"}
+}
+108600217 = {
+	name="Hodor"	# not a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=102600217
+	mother=402600217
+
+	8015.1.1 = {birth="8015.1.1"}
+	8031.1.1 = {add_trait=trained_warrior}
+	8076.1.1 = {death="8076.1.1"}
+}
+109600217 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=102600217
+	mother=402600217
+
+	8018.1.1 = {birth="8018.1.1"}
+	8079.1.1 = {death="8079.1.1"}
+}
+110600217 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=107600217
+	mother=407600217
+
+	8038.1.1 = {birth="8038.1.1"}
+	8099.1.1 = {death="8099.1.1"}
+}
+111600217 = {
+	name="Hodor"	# a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=107600217
+	mother=407600217
+
+	8041.1.1 = {birth="8041.1.1"}
+	8057.1.1 = {add_trait=skilled_warrior}
+	8059.1.1 = {add_spouse=411600217}
+	8089.1.1 = {death="8089.1.1"}
+}
+411600217 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8041.1.1 = {birth="8041.1.1"}
+	8089.1.1 = {death="8089.1.1"}
+}
+112600217 = {
+	name="Hodor"	# a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=107600217
+	mother=407600217
+
+	8042.1.1 = {birth="8042.1.1"}
+	8058.1.1 = {add_trait=poor_warrior}
+	8060.1.1 = {add_spouse=412600217}
+	8093.1.1 = {death="8093.1.1"}
+}
+412600217 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8042.1.1 = {birth="8042.1.1"}
+	8093.1.1 = {death="8093.1.1"}
+}
+113600217 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=111600217
+	mother=411600217
+
+	8061.1.1 = {birth="8061.1.1"}
+	8119.1.1 = {death="8119.1.1"}
+}
+114600217 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=111600217
+	mother=411600217
+
+	8064.1.1 = {birth="8064.1.1"}
+	8111.1.1 = {death = {death_reason = death_accident}}
+}
+115600217 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=112600217
+	mother=412600217
+
+	8062.1.1 = {birth="8062.1.1"}
+	8137.1.1 = {death="8137.1.1"}
+}
+116600217 = {
+	name="Hodor"	# a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=112600217
+	mother=412600217
+
+	8064.1.1 = {birth="8064.1.1"}
+	8080.1.1 = {add_trait=trained_warrior}
+	8082.1.1 = {add_spouse=416600217}
+	8121.1.1 = {death="8121.1.1"}
+}
+416600217 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8064.1.1 = {birth="8064.1.1"}
+	8121.1.1 = {death="8121.1.1"}
+}
+117600217 = {
+	name="Hodor"	# not a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=112600217
+	mother=412600217
+
+	8066.1.1 = {birth="8066.1.1"}
+	8082.1.1 = {add_trait=poor_warrior}
+	8084.1.1 = {add_spouse=417600217}
+	8117.1.1 = {death="8117.1.1"}
+}
+417600217 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8066.1.1 = {birth="8066.1.1"}
+	8117.1.1 = {death="8117.1.1"}
+}
+118600217 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=112600217
+	mother=412600217
+
+	8068.1.1 = {birth="8068.1.1"}
+	8122.1.1 = {death="8122.1.1"}
+}
+119600217 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=116600217
+	mother=416600217
+
+	8087.1.1 = {birth="8087.1.1"}
+	8145.1.1 = {death="8145.1.1"}
+}
+120600217 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=116600217
+	mother=416600217
+
+	8089.1.1 = {birth="8089.1.1"}
+	8169.1.1 = {death="8169.1.1"}
+}
+121600217 = {
+	name="Hodor"	# a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=117600217
+	mother=417600217
+
+	8090.1.1 = {birth="8090.1.1"}
+	8106.1.1 = {add_trait=trained_warrior}
+	8108.1.1 = {add_spouse=421600217}
+	8125.1.1 = {death="8125.1.1"}
+}
+421600217 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8090.1.1 = {birth="8090.1.1"}
+	8140.1.1 = {death="8140.1.1"}
+}
+122600217 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=117600217
+	mother=417600217
+
+	8091.1.1 = {birth="8091.1.1"}
+	8140.1.1 = {death="8140.1.1"}
+}
+123600217 = {
+	name="Hodor"	# a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=117600217
+	mother=417600217
+
+	8094.1.1 = {birth="8094.1.1"}
+	8110.1.1 = {add_trait=trained_warrior}
+	8112.1.1 = {add_spouse=423600217}
+	8164.1.1 = {death="8164.1.1"}
+}
+423600217 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8094.1.1 = {birth="8094.1.1"}
+	8164.1.1 = {death="8164.1.1"}
+}
+124600217 = {
+	name="Hodor"	# not a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=121600217
+	mother=421600217
+
+	8121.1.1 = {birth="8121.1.1"}
+	8137.1.1 = {add_trait=trained_warrior}
+	8193.1.1 = {death="8193.1.1"}
+}
+125600217 = {
+	name="Hodor"	# not a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=121600217
+	mother=421600217
+
+	8123.1.1 = {birth="8123.1.1"}
+	8139.1.1 = {add_trait=trained_warrior}
+	8181.1.1 = {death="8181.1.1"}
+}
+126600217 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=121600217
+	mother=421600217
+
+	8125.1.1 = {birth="8125.1.1"}
+	8197.1.1 = {death="8197.1.1"}
+}
+127600217 = {
+	name="Hodor"	# a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=123600217
+	mother=423600217
+
+	8119.1.1 = {birth="8119.1.1"}
+	8135.1.1 = {add_trait=skilled_warrior}
+	8137.1.1 = {add_spouse=427600217}
+	8166.1.1 = {death="8166.1.1"}
+}
+427600217 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8119.1.1 = {birth="8119.1.1"}
+	8166.1.1 = {death="8166.1.1"}
+}
+128600217 = {
+	name="Hodor"	# not a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=123600217
+	mother=423600217
+
+	8120.1.1 = {birth="8120.1.1"}
+	8136.1.1 = {add_trait=skilled_warrior}
+	8199.1.1 = {death="8199.1.1"}
+}
+129600217 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=123600217
+	mother=423600217
+
+	8121.1.1 = {birth="8121.1.1"}
+	8177.1.1 = {death="8177.1.1"}
+}
+130600217 = {
+	name="Hodor"	# not a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=123600217
+	mother=423600217
+
+	8124.1.1 = {birth="8124.1.1"}
+	8140.1.1 = {add_trait=poor_warrior}
+	8182.1.1 = {death="8182.1.1"}
+}
+131600217 = {
+	name="Hodor"	# a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=127600217
+	mother=427600217
+
+	8137.1.1 = {birth="8137.1.1"}
+	8153.1.1 = {add_trait=trained_warrior}
+	8155.1.1 = {add_spouse=431600217}
+	8187.1.1 = {death="8187.1.1"}
+}
+431600217 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8137.1.1 = {birth="8137.1.1"}
+	8187.1.1 = {death="8187.1.1"}
+}
+132600217 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=127600217
+	mother=427600217
+
+	8139.1.1 = {birth="8139.1.1"}
+	8191.1.1 = {death="8191.1.1"}
+}
+133600217 = {
+	name="Hodor"	# not a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=127600217
+	mother=427600217
+
+	8142.1.1 = {birth="8142.1.1"}
+	8158.1.1 = {add_trait=skilled_warrior}
+	8185.1.1 = {death="8185.1.1"}
+}
+134600217 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=127600217
+	mother=427600217
+
+	8144.1.1 = {birth="8144.1.1"}
+	8201.1.1 = {death="8201.1.1"}
+}
+135600217 = {
+	name="Hodor"	# a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=131600217
+	mother=431600217
+
+	8162.1.1 = {birth="8162.1.1"}
+	8178.1.1 = {add_trait=trained_warrior}
+	8180.1.1 = {add_spouse=435600217}
+	8237.1.1 = {death="8237.1.1"}
+}
+435600217 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8162.1.1 = {birth="8162.1.1"}
+	8237.1.1 = {death="8237.1.1"}
+}
+136600217 = {
+	name="Hodor"	# not a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=131600217
+	mother=431600217
+
+	8165.1.1 = {birth="8165.1.1"}
+	8181.1.1 = {add_trait=poor_warrior}
+	8183.1.1 = {add_spouse=436600217}
+	8207.1.1 = {death="8207.1.1"}
+}
+436600217 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8165.1.1 = {birth="8165.1.1"}
+	8207.1.1 = {death="8207.1.1"}
+}
+137600217 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=135600217
+	mother=435600217
+
+	8191.1.1 = {birth="8191.1.1"}
+	8257.1.1 = {death="8257.1.1"}
+}
+138600217 = {
+	name="Hodor"	# not a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=136600217
+	mother=436600217
+
+	8188.1.1 = {birth="8188.1.1"}
+	8204.1.1 = {add_trait=trained_warrior}
+	8213.1.1 = {death = {death_reason = death_murder}}
+}
+139600217 = {
+	name="Hodor"	# a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=136600217
+	mother=436600217
+
+	8189.1.1 = {birth="8189.1.1"}
+	8205.1.1 = {add_trait=trained_warrior}
+	8207.1.1 = {add_spouse=439600217}
+	8265.1.1 = {death="8265.1.1"}
+}
+439600217 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8189.1.1 = {birth="8189.1.1"}
+	8265.1.1 = {death="8265.1.1"}
+}
+140600217 = {
+	name="Hodor"	# not a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=136600217
+	mother=436600217
+
+	8192.1.1 = {birth="8192.1.1"}
+	8208.1.1 = {add_trait=skilled_warrior}
+	8222.1.1 = {death="8222.1.1"}
+}
+141600217 = {
+	name="Hodor"	# not a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=136600217
+	mother=436600217
+
+	8193.1.1 = {birth="8193.1.1"}
+	8209.1.1 = {add_trait=poor_warrior}
+	8231.1.1 = {death = {death_reason = death_battle}}
+}
+142600217 = {
+	name="Hodor"	# a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=139600217
+	mother=439600217
+
+	8217.1.1 = {birth="8217.1.1"}
+	8233.1.1 = {add_trait=poor_warrior}
+	8235.1.1 = {add_spouse=442600217}
+	8294.1.1 = {death="8294.1.1"}
+}
+442600217 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8217.1.1 = {birth="8217.1.1"}
+	8294.1.1 = {death="8294.1.1"}
+}
+143600217 = {
+	name="Hodor"	# not a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=139600217
+	mother=439600217
+
+	8220.1.1 = {birth="8220.1.1"}
+	8236.1.1 = {add_trait=poor_warrior}
+	8261.1.1 = {death="8261.1.1"}
+}
+144600217 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=139600217
+	mother=439600217
+
+	8221.1.1 = {birth="8221.1.1"}
+	8267.1.1 = {death="8267.1.1"}
+}
+145600217 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=139600217
+	mother=439600217
+
+	8222.1.1 = {birth="8222.1.1"}
+	8251.1.1 = {death="8251.1.1"}
+}
+146600217 = {
+	name="Hodor"	# not a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=139600217
+	mother=439600217
+
+	8224.1.1 = {birth="8224.1.1"}
+	8240.1.1 = {add_trait=poor_warrior}
+	8272.1.1 = {death="8272.1.1"}
+}
+147600217 = {
+	name="Hodor"	# a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=142600217
+	mother=442600217
+
+	8246.1.1 = {birth="8246.1.1"}
+	8262.1.1 = {add_trait=skilled_warrior}
+	8264.1.1 = {add_spouse=447600217}
+}
+447600217 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8246.1.1 = {birth="8246.1.1"}
+}
+148600217 = {
+	name="Hodor"	# not a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=142600217
+	mother=442600217
+
+	8247.1.1 = {birth="8247.1.1"}
+	8263.1.1 = {add_trait=poor_warrior}
+}
+149600217 = {
+	name="Hodor"	# not a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=142600217
+	mother=442600217
+
+	8249.1.1 = {birth="8249.1.1"}
+	8265.1.1 = {add_trait=poor_warrior}
+}
+150600217 = {
+	name="Hodor"	# not a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=142600217
+	mother=442600217
+
+	8252.1.1 = {birth="8252.1.1"}
+	8268.1.1 = {add_trait=poor_warrior}
+}
+151600217 = {
+	name="Hodor"	# not a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=147600217
+	mother=447600217
+
+	8272.1.1 = {birth="8272.1.1"}
+	8288.1.1 = {add_trait=trained_warrior}
+}
+152600217 = {
+	name="Hodor"	# not a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=147600217
+	mother=447600217
+
+	8275.1.1 = {birth="8275.1.1"}
+	8291.1.1 = {add_trait=skilled_warrior}
+}
+153600217 = {
+	name="Hodor"	# not a lord
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=147600217
+	mother=447600217
+
+	8277.1.1 = {birth="8277.1.1"}
+	8293.1.1 = {add_trait=trained_warrior}
+}
+154600217 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600217
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=147600217
+	mother=447600217
+
+	8278.1.1 = {birth="8278.1.1"}
+}
+#Hills of Essaria
+100600218 = {
+	name="Hodor"	# a lord
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7912.1.1 = {birth="7912.1.1"}
+	7928.1.1 = {add_trait=skilled_warrior}
+	7930.1.1 = {add_spouse=400600218}
+	7970.1.1 = {death="7970.1.1"}
+}
+400600218 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7912.1.1 = {birth="7912.1.1"}
+	7970.1.1 = {death="7970.1.1"}
+}
+101600218 = {
+	name="Hodor"	# a lord
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=100600218
+	mother=400600218
+
+	7947.1.1 = {birth="7947.1.1"}
+	7963.1.1 = {add_trait=trained_warrior}
+	7965.1.1 = {add_spouse=401600218}
+	8001.1.1 = {death="8001.1.1"}
+}
+401600218 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7947.1.1 = {birth="7947.1.1"}
+	8001.1.1 = {death="8001.1.1"}
+}
+102600218 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=100600218
+	mother=400600218
+
+	7948.1.1 = {birth="7948.1.1"}
+	8023.1.1 = {death="8023.1.1"}
+}
+104600218 = {
+	name="Hodor"	# a lord
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=100600218
+	mother=400600218
+
+	7952.1.1 = {birth="7952.1.1"}
+	7968.1.1 = {add_trait=trained_warrior}
+	7970.1.1 = {add_spouse=404600218}
+	8002.1.1 = {death = {death_reason = death_murder}}
+}
+404600218 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7952.1.1 = {birth="7952.1.1"}
+	8002.1.1 = {death="8002.1.1"}
+}
+105600218 = {
+	name="Hodor"	# not a lord
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=101600218
+	mother=401600218
+
+	7965.1.1 = {birth="7965.1.1"}
+	7981.1.1 = {add_trait=trained_warrior}
+	7983.1.1 = {add_spouse=405600218}
+	8000.1.1 = {death="8000.1.1"}
+}
+405600218 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7965.1.1 = {birth="7965.1.1"}
+	8000.1.1 = {death="8000.1.1"}
+}
+106600218 = {
+	name="Hodor"	# not a lord
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=105600218
+	mother=405600218
+
+	7988.1.1 = {birth="7988.1.1"}
+	8004.1.1 = {add_trait=trained_warrior}
+	8034.1.1 = {death="8034.1.1"}
+}
+107600218 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=105600218
+	mother=405600218
+
+	7989.1.1 = {birth="7989.1.1"}
+	8056.1.1 = {death="8056.1.1"}
+}
+108600218 = {
+	name="Hodor"	# a lord
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=104600218
+	mother=404600218
+
+	7977.1.1 = {birth="7977.1.1"}
+	7993.1.1 = {add_trait=skilled_warrior}
+	7995.1.1 = {add_spouse=408600218}
+	8032.1.1 = {death="8032.1.1"}
+}
+408600218 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7977.1.1 = {birth="7977.1.1"}
+	8032.1.1 = {death="8032.1.1"}
+}
+109600218 = {
+	name="Hodor"	# not a lord
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=104600218
+	mother=404600218
+
+	7980.1.1 = {birth="7980.1.1"}
+	7996.1.1 = {add_trait=poor_warrior}
+	8005.1.1 = {death="8005.1.1"}
+}
+110600218 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=104600218
+	mother=404600218
+
+	7982.1.1 = {birth="7982.1.1"}
+	8040.1.1 = {death="8040.1.1"}
+}
+111600218 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=104600218
+	mother=404600218
+
+	7985.1.1 = {birth="7985.1.1"}
+	8047.1.1 = {death="8047.1.1"}
+}
+112600218 = {
+	name="Hodor"	# not a lord
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=104600218
+	mother=404600218
+
+	7987.1.1 = {birth="7987.1.1"}
+	8003.1.1 = {add_trait=skilled_warrior}
+	8044.1.1 = {death="8044.1.1"}
+}
+113600218 = {
+	name="Hodor"	# a lord
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=108600218
+	mother=408600218
+
+	8009.1.1 = {birth="8009.1.1"}
+	8025.1.1 = {add_trait=skilled_warrior}
+	8027.1.1 = {add_spouse=413600218}
+	8061.1.1 = {death="8061.1.1"}
+}
+413600218 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8009.1.1 = {birth="8009.1.1"}
+	8061.1.1 = {death="8061.1.1"}
+}
+114600218 = {
+	name="Hodor"	# a lord
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=113600218
+	mother=413600218
+
+	8042.1.1 = {birth="8042.1.1"}
+	8058.1.1 = {add_trait=trained_warrior}
+	8060.1.1 = {add_spouse=414600218}
+	8083.1.1 = {death="8083.1.1"}
+}
+414600218 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8042.1.1 = {birth="8042.1.1"}
+	8083.1.1 = {death="8083.1.1"}
+}
+115600218 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=113600218
+	mother=413600218
+
+	8045.1.1 = {birth="8045.1.1"}
+	8096.1.1 = {death="8096.1.1"}
+}
+116600218 = {
+	name="Hodor"	# a lord
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=113600218
+	mother=413600218
+
+	8047.1.1 = {birth="8047.1.1"}
+	8063.1.1 = {add_trait=master_warrior}
+	8065.1.1 = {add_spouse=416600218}
+	8094.1.1 = {death="8094.1.1"}
+}
+416600218 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8047.1.1 = {birth="8047.1.1"}
+	8094.1.1 = {death="8094.1.1"}
+}
+117600218 = {
+	name="Hodor"	# not a lord
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=113600218
+	mother=413600218
+
+	8049.1.1 = {birth="8049.1.1"}
+	8065.1.1 = {add_trait=trained_warrior}
+	8088.1.1 = {death = {death_reason = death_battle}}
+}
+118600218 = {
+	name="Hodor"	# not a lord
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=113600218
+	mother=413600218
+
+	8052.1.1 = {birth="8052.1.1"}
+	8068.1.1 = {add_trait=poor_warrior}
+	8105.1.1 = {death="8105.1.1"}
+}
+119600218 = {
+	name="Hodor"	# not a lord
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=114600218
+	mother=414600218
+
+	8061.1.1 = {birth="8061.1.1"}
+	8077.1.1 = {add_trait=trained_warrior}
+	8113.1.1 = {death="8113.1.1"}
+}
+120600218 = {
+	name="Hodor"	# not a lord
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=114600218
+	mother=414600218
+
+	8062.1.1 = {birth="8062.1.1"}
+	8078.1.1 = {add_trait=poor_warrior}
+	8122.1.1 = {death="8122.1.1"}
+}
+121600218 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=114600218
+	mother=414600218
+
+	8065.1.1 = {birth="8065.1.1"}
+	8118.1.1 = {death="8118.1.1"}
+}
+122600218 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=116600218
+	mother=416600218
+
+	8081.1.1 = {birth="8081.1.1"}
+	8143.1.1 = {death="8143.1.1"}
+}
+123600218 = {
+	name="Hodor"	# a lord
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=116600218
+	mother=416600218
+
+	8082.1.1 = {birth="8082.1.1"}
+	8098.1.1 = {add_trait=trained_warrior}
+	8100.1.1 = {add_spouse=423600218}
+	8113.1.1 = {death="8113.1.1"}
+}
+423600218 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8082.1.1 = {birth="8082.1.1"}
+	8113.1.1 = {death="8113.1.1"}
+}
+124600218 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=116600218
+	mother=416600218
+
+	8085.1.1 = {birth="8085.1.1"}
+	8116.1.1 = {death="8116.1.1"}
+}
+125600218 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=123600218
+	mother=423600218
+
+	8107.1.1 = {birth="8107.1.1"}
+	8187.1.1 = {death="8187.1.1"}
+}
+126600218 = {
+	name="Hodor"	# a lord
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=123600218
+	mother=423600218
+
+	8110.1.1 = {birth="8110.1.1"}
+	8126.1.1 = {add_trait=skilled_warrior}
+	8128.1.1 = {add_spouse=426600218}
+	8145.1.1 = {death="8145.1.1"}
+}
+426600218 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8110.1.1 = {birth="8110.1.1"}
+	8145.1.1 = {death="8145.1.1"}
+}
+127600218 = {
+	name="Hodor"	# a lord
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=126600218
+	mother=426600218
+
+	8136.1.1 = {birth="8136.1.1"}
+	8152.1.1 = {add_trait=skilled_warrior}
+	8154.1.1 = {add_spouse=427600218}
+	8191.1.1 = {death="8191.1.1"}
+}
+427600218 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8136.1.1 = {birth="8136.1.1"}
+	8191.1.1 = {death="8191.1.1"}
+}
+128600218 = {
+	name="Hodor"	# not a lord
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=126600218
+	mother=426600218
+
+	8137.1.1 = {birth="8137.1.1"}
+	8153.1.1 = {add_trait=trained_warrior}
+	8180.1.1 = {death="8180.1.1"}
+}
+129600218 = {
+	name="Hodor"	# not a lord
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=126600218
+	mother=426600218
+
+	8139.1.1 = {birth="8139.1.1"}
+	8155.1.1 = {add_trait=trained_warrior}
+	8180.1.1 = {death="8180.1.1"}
+}
+131600218 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=126600218
+	mother=426600218
+
+	8143.1.1 = {birth="8143.1.1"}
+	8199.1.1 = {death="8199.1.1"}
+}
+132600218 = {
+	name="Hodor"	# a lord
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=127600218
+	mother=427600218
+
+	8168.1.1 = {birth="8168.1.1"}
+	8184.1.1 = {add_trait=poor_warrior}
+	8186.1.1 = {add_spouse=432600218}
+	8211.1.1 = {death="8211.1.1"}
+}
+432600218 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8168.1.1 = {birth="8168.1.1"}
+	8211.1.1 = {death="8211.1.1"}
+}
+133600218 = {
+	name="Hodor"	# not a lord
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=127600218
+	mother=427600218
+
+	8169.1.1 = {birth="8169.1.1"}
+	8185.1.1 = {add_trait=trained_warrior}
+	8242.1.1 = {death="8242.1.1"}
+}
+134600218 = {
+	name="Hodor"	# not a lord
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=127600218
+	mother=427600218
+
+	8170.1.1 = {birth="8170.1.1"}
+	8186.1.1 = {add_trait=trained_warrior}
+	8222.1.1 = {death="8222.1.1"}
+}
+135600218 = {
+	name="Hodor"	# a lord
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=132600218
+	mother=432600218
+
+	8191.1.1 = {birth="8191.1.1"}
+	8207.1.1 = {add_trait=trained_warrior}
+	8209.1.1 = {add_spouse=435600218}
+	8234.1.1 = {death="8234.1.1"}
+}
+435600218 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8191.1.1 = {birth="8191.1.1"}
+	8234.1.1 = {death="8234.1.1"}
+}
+136600218 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=132600218
+	mother=432600218
+
+	8194.1.1 = {birth="8194.1.1"}
+	8247.1.1 = {death="8247.1.1"}
+}
+137600218 = {
+	name="Hodor"	# not a lord
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=132600218
+	mother=432600218
+
+	8197.1.1 = {birth="8197.1.1"}
+	8213.1.1 = {add_trait=trained_warrior}
+	8247.1.1 = {death="8247.1.1"}
+}
+138600218 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=135600218
+	mother=435600218
+
+	8220.1.1 = {birth="8220.1.1"}
+	8280.1.1 = {death="8280.1.1"}
+}
+139600218 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=135600218
+	mother=435600218
+
+	8222.1.1 = {birth="8222.1.1"}
+	8283.1.1 = {death="8283.1.1"}
+}
+140600218 = {
+	name="Hodor"	# a lord
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=135600218
+	mother=435600218
+
+	8223.1.1 = {birth="8223.1.1"}
+	8239.1.1 = {add_trait=trained_warrior}
+	8241.1.1 = {add_spouse=440600218}
+	8273.1.1 = {death="8273.1.1"}
+}
+440600218 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8223.1.1 = {birth="8223.1.1"}
+	8273.1.1 = {death="8273.1.1"}
+}
+141600218 = {
+	name="Hodor"	# not a lord
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=135600218
+	mother=435600218
+
+	8224.1.1 = {birth="8224.1.1"}
+	8240.1.1 = {add_trait=trained_warrior}
+	8255.1.1 = {death = {death_reason = death_battle}}
+}
+142600218 = {
+	name="Hodor"	# a lord
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=140600218
+	mother=440600218
+
+	8245.1.1 = {birth="8245.1.1"}
+	8261.1.1 = {add_trait=trained_warrior}
+	8263.1.1 = {add_spouse=442600218}
+}
+442600218 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8245.1.1 = {birth="8245.1.1"}
+}
+143600218 = {
+	name="Hodor"	# not a lord
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=140600218
+	mother=440600218
+
+	8248.1.1 = {birth="8248.1.1"}
+	8264.1.1 = {add_trait=poor_warrior}
+	8266.1.1 = {add_spouse=443600218}
+}
+443600218 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8248.1.1 = {birth="8248.1.1"}
+}
+144600218 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=142600218
+	mother=442600218
+
+	8270.1.1 = {birth="8270.1.1"}
+}
+145600218 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=142600218
+	mother=442600218
+
+	8273.1.1 = {birth="8273.1.1"}
+}
+146600218 = {
+	name="Hodor"	# not a lord
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=142600218
+	mother=442600218
+
+	8274.1.1 = {birth="8274.1.1"}
+	8290.1.1 = {add_trait=trained_warrior}
+}
+147600218 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=142600218
+	mother=442600218
+
+	8276.1.1 = {birth="8276.1.1"}
+}
+148600218 = {
+	name="Hodor"	# not a lord
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=143600218
+	mother=443600218
+
+	8280.1.1 = {birth="8280.1.1"}
+	8296.1.1 = {add_trait=trained_warrior}
+}
+149600218 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600218
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=143600218
+	mother=443600218
+
+	8283.1.1 = {birth="8283.1.1"}
+}
+#Painted Mountains
+100600219 = {
+	name="Hodor"	# a lord
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7966.1.1 = {birth="7966.1.1"}
+	7982.1.1 = {add_trait=trained_warrior}
+	7984.1.1 = {add_spouse=400600219}
+	8023.1.1 = {death="8023.1.1"}
+}
+400600219 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7966.1.1 = {birth="7966.1.1"}
+	8023.1.1 = {death="8023.1.1"}
+}
+101600219 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=100600219
+	mother=400600219
+
+	7992.1.1 = {birth="7992.1.1"}
+	8050.1.1 = {death="8050.1.1"}
+}
+102600219 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=100600219
+	mother=400600219
+
+	7993.1.1 = {birth="7993.1.1"}
+	8057.1.1 = {death="8057.1.1"}
+}
+103600219 = {
+	name="Hodor"	# a lord
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=100600219
+	mother=400600219
+
+	7994.1.1 = {birth="7994.1.1"}
+	8010.1.1 = {add_trait=trained_warrior}
+	8012.1.1 = {add_spouse=403600219}
+	8045.1.1 = {death="8045.1.1"}
+}
+403600219 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	7994.1.1 = {birth="7994.1.1"}
+	8045.1.1 = {death="8045.1.1"}
+}
+104600219 = {
+	name="Hodor"	# not a lord
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=100600219
+	mother=400600219
+
+	7995.1.1 = {birth="7995.1.1"}
+	8011.1.1 = {add_trait=poor_warrior}
+	8045.1.1 = {death="8045.1.1"}
+}
+105600219 = {
+	name="Hodor"	# a lord
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=103600219
+	mother=403600219
+
+	8023.1.1 = {birth="8023.1.1"}
+	8039.1.1 = {add_trait=skilled_warrior}
+	8041.1.1 = {add_spouse=405600219}
+	8060.1.1 = {death = {death_reason = death_battle}}
+}
+405600219 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8023.1.1 = {birth="8023.1.1"}
+	8060.1.1 = {death="8060.1.1"}
+}
+106600219 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=103600219
+	mother=403600219
+
+	8024.1.1 = {birth="8024.1.1"}
+	8075.1.1 = {death="8075.1.1"}
+}
+107600219 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=105600219
+	mother=405600219
+
+	8042.1.1 = {birth="8042.1.1"}
+	8103.1.1 = {death="8103.1.1"}
+}
+108600219 = {
+	name="Hodor"	# a lord
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=105600219
+	mother=405600219
+
+	8044.1.1 = {birth="8044.1.1"}
+	8060.1.1 = {add_trait=skilled_warrior}
+	8062.1.1 = {add_spouse=408600219}
+	8112.1.1 = {death="8112.1.1"}
+}
+408600219 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8044.1.1 = {birth="8044.1.1"}
+	8112.1.1 = {death="8112.1.1"}
+}
+109600219 = {
+	name="Hodor"	# not a lord
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=105600219
+	mother=405600219
+
+	8046.1.1 = {birth="8046.1.1"}
+	8062.1.1 = {add_trait=trained_warrior}
+	8064.1.1 = {add_spouse=409600219}
+	8080.1.1 = {death="8080.1.1"}
+}
+409600219 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8046.1.1 = {birth="8046.1.1"}
+	8080.1.1 = {death="8080.1.1"}
+}
+110600219 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=105600219
+	mother=405600219
+
+	8049.1.1 = {birth="8049.1.1"}
+	8118.1.1 = {death="8118.1.1"}
+}
+111600219 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=108600219
+	mother=408600219
+
+	8070.1.1 = {birth="8070.1.1"}
+	8126.1.1 = {death="8126.1.1"}
+}
+112600219 = {
+	name="Hodor"	# not a lord
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=109600219
+	mother=409600219
+
+	8064.1.1 = {birth="8064.1.1"}
+	8080.1.1 = {add_trait=trained_warrior}
+	8100.1.1 = {death="8100.1.1"}
+}
+113600219 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=109600219
+	mother=409600219
+
+	8065.1.1 = {birth="8065.1.1"}
+	8102.1.1 = {death = {death_reason = death_murder}}
+}
+114600219 = {
+	name="Hodor"	# a lord
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=109600219
+	mother=409600219
+
+	8066.1.1 = {birth="8066.1.1"}
+	8082.1.1 = {add_trait=skilled_warrior}
+	8084.1.1 = {add_spouse=414600219}
+	8146.1.1 = {death="8146.1.1"}
+}
+414600219 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8066.1.1 = {birth="8066.1.1"}
+	8146.1.1 = {death="8146.1.1"}
+}
+115600219 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=114600219
+	mother=414600219
+
+	8090.1.1 = {birth="8090.1.1"}
+	8155.1.1 = {death="8155.1.1"}
+}
+116600219 = {
+	name="Hodor"	# a lord
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=114600219
+	mother=414600219
+
+	8093.1.1 = {birth="8093.1.1"}
+	8109.1.1 = {add_trait=trained_warrior}
+	8111.1.1 = {add_spouse=416600219}
+	8154.1.1 = {death="8154.1.1"}
+}
+416600219 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8093.1.1 = {birth="8093.1.1"}
+	8154.1.1 = {death="8154.1.1"}
+}
+117600219 = {
+	name="Hodor"	# not a lord
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=114600219
+	mother=414600219
+
+	8095.1.1 = {birth="8095.1.1"}
+	8111.1.1 = {add_trait=trained_warrior}
+	8158.1.1 = {death="8158.1.1"}
+}
+118600219 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=114600219
+	mother=414600219
+
+	8096.1.1 = {birth="8096.1.1"}
+	8142.1.1 = {death="8142.1.1"}
+}
+119600219 = {
+	name="Hodor"	# a lord
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=116600219
+	mother=416600219
+
+	8112.1.1 = {birth="8112.1.1"}
+	8128.1.1 = {add_trait=master_warrior}
+	8130.1.1 = {add_spouse=419600219}
+	8166.1.1 = {death="8166.1.1"}
+}
+419600219 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8112.1.1 = {birth="8112.1.1"}
+	8166.1.1 = {death="8166.1.1"}
+}
+120600219 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=116600219
+	mother=416600219
+
+	8115.1.1 = {birth="8115.1.1"}
+	8161.1.1 = {death="8161.1.1"}
+}
+121600219 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=116600219
+	mother=416600219
+
+	8116.1.1 = {birth="8116.1.1"}
+	8174.1.1 = {death="8174.1.1"}
+}
+122600219 = {
+	name="Hodor"	# not a lord
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=116600219
+	mother=416600219
+
+	8119.1.1 = {birth="8119.1.1"}
+	8135.1.1 = {add_trait=trained_warrior}
+	8137.1.1 = {add_spouse=422600219}
+	8154.1.1 = {death="8154.1.1"}
+}
+422600219 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8119.1.1 = {birth="8119.1.1"}
+	8154.1.1 = {death="8154.1.1"}
+}
+123600219 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=119600219
+	mother=419600219
+
+	8133.1.1 = {birth="8133.1.1"}
+	8200.1.1 = {death="8200.1.1"}
+}
+124600219 = {
+	name="Hodor"	# a lord
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=119600219
+	mother=419600219
+
+	8136.1.1 = {birth="8136.1.1"}
+	8152.1.1 = {add_trait=trained_warrior}
+	8154.1.1 = {add_spouse=424600219}
+	8194.1.1 = {death="8194.1.1"}
+}
+424600219 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8136.1.1 = {birth="8136.1.1"}
+	8194.1.1 = {death="8194.1.1"}
+}
+125600219 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=124600219
+	mother=424600219
+
+	8155.1.1 = {birth="8155.1.1"}
+	8203.1.1 = {death="8203.1.1"}
+}
+126600219 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=122600219
+	mother=422600219
+
+	8142.1.1 = {birth="8142.1.1"}
+	8207.1.1 = {death="8207.1.1"}
+}
+127600219 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=122600219
+	mother=422600219
+
+	8143.1.1 = {birth="8143.1.1"}
+	8179.1.1 = {death = {death_reason = death_murder}}
+}
+128600219 = {
+	name="Hodor"	# a lord
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=122600219
+	mother=422600219
+
+	8144.1.1 = {birth="8144.1.1"}
+	8160.1.1 = {add_trait=master_warrior}
+	8162.1.1 = {add_spouse=428600219}
+	8199.1.1 = {death="8199.1.1"}
+}
+428600219 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8144.1.1 = {birth="8144.1.1"}
+	8199.1.1 = {death="8199.1.1"}
+}
+129600219 = {
+	name="Hodor"	# not a lord
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=122600219
+	mother=422600219
+
+	8145.1.1 = {birth="8145.1.1"}
+	8161.1.1 = {add_trait=trained_warrior}
+	8197.1.1 = {death="8197.1.1"}
+}
+130600219 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=128600219
+	mother=428600219
+
+	8171.1.1 = {birth="8171.1.1"}
+	8213.1.1 = {death="8213.1.1"}
+}
+131600219 = {
+	name="Hodor"	# a lord
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=128600219
+	mother=428600219
+
+	8172.1.1 = {birth="8172.1.1"}
+	8188.1.1 = {add_trait=poor_warrior}
+	8190.1.1 = {add_spouse=431600219}
+	8231.1.1 = {death="8231.1.1"}
+}
+431600219 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8172.1.1 = {birth="8172.1.1"}
+	8231.1.1 = {death="8231.1.1"}
+}
+132600219 = {
+	name="Hodor"	# not a lord
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=128600219
+	mother=428600219
+
+	8174.1.1 = {birth="8174.1.1"}
+	8190.1.1 = {add_trait=trained_warrior}
+	8220.1.1 = {death="8220.1.1"}
+}
+133600219 = {
+	name="Hodor"	# a lord
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=131600219
+	mother=431600219
+
+	8206.1.1 = {birth="8206.1.1"}
+	8222.1.1 = {add_trait=trained_warrior}
+	8224.1.1 = {add_spouse=433600219}
+	8262.1.1 = {death="8262.1.1"}
+}
+433600219 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8206.1.1 = {birth="8206.1.1"}
+	8262.1.1 = {death="8262.1.1"}
+}
+134600219 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=131600219
+	mother=431600219
+
+	8209.1.1 = {birth="8209.1.1"}
+	8249.1.1 = {death = {death_reason = death_murder}}
+}
+135600219 = {
+	name="Hodor"	# not a lord
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=131600219
+	mother=431600219
+
+	8210.1.1 = {birth="8210.1.1"}
+	8226.1.1 = {add_trait=poor_warrior}
+	8240.1.1 = {death="8240.1.1"}
+}
+136600219 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=131600219
+	mother=431600219
+
+	8211.1.1 = {birth="8211.1.1"}
+	8267.1.1 = {death = {death_reason = death_murder}}
+}
+137600219 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=133600219
+	mother=433600219
+
+	8237.1.1 = {birth="8237.1.1"}
+}
+138600219 = {
+	name="Hodor"	# not a lord
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=133600219
+	mother=433600219
+
+	8240.1.1 = {birth="8240.1.1"}
+	8256.1.1 = {add_trait=trained_warrior}
+	8258.1.1 = {add_spouse=438600219}
+	8263.1.1 = {death = {death_reason = death_execution}}
+}
+438600219 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8240.1.1 = {birth="8240.1.1"}
+	8263.1.1 = {death="8263.1.1"}
+}
+139600219 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=133600219
+	mother=433600219
+
+	8243.1.1 = {birth="8243.1.1"}
+}
+140600219 = {
+	name="Hodor"	# a lord
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=133600219
+	mother=433600219
+
+	8244.1.1 = {birth="8244.1.1"}
+	8260.1.1 = {add_trait=skilled_warrior}
+	8262.1.1 = {add_spouse=440600219}
+}
+440600219 = {
+	name="Hodor"
+	female=yes
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	8244.1.1 = {birth="8244.1.1"}
+}
+141600219 = {
+	name="Hodor"	# not a lord
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=140600219
+	mother=440600219
+
+	8277.1.1 = {birth="8277.1.1"}
+	8293.1.1 = {add_trait=trained_warrior}
+}
+142600219 = {
+	name="Hodor"	# not a lord
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=140600219
+	mother=440600219
+
+	8279.1.1 = {birth="8279.1.1"}
+	8295.1.1 = {add_trait=trained_warrior}
+}
+143600219 = {
+	name="Hodor"	# not a lord
+	dynasty=600219
+
+	religion="dothraki_pagan"
+	culture="dothraki"
+
+	father=138600219
+	mother=438600219
+
+	8260.1.1 = {birth="8260.1.1"}
+	8276.1.1 = {add_trait=skilled_warrior}
+}
+

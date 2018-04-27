@@ -1,0 +1,5533 @@
+###House Arryn###
+###The Founder###
+94001 = {
+	name="Hodor" #Jon Arryn's father
+	dynasty=178
+	
+	dna="bgfdgtgvfca"
+	
+	martial = 8
+	diplomacy = 6
+	intrigue = 6
+	stewardship = 6 
+	learning = 5
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	add_trait="skilled_tactician"
+
+	father=200178
+	mother=451178
+	
+	8195.1.1 = {birth="8195.1.1"} 
+	8211.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8225.1.1 = { add_spouse=94086 } 	
+	8258.1.1 = {death="8258.1.1"}
+}
+###Jons Mother###
+94086 = {
+	name="Hodor"
+	female=yes
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	8195.1.1 = {birth="8195.1.1"} 
+	8260.1.1 = {death="8260.1.1"}
+}
+201178 = {
+	name="Hodor" #Jon Arryn's father's brother
+	dynasty=178
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	add_trait="skilled_tactician"
+	
+	father=200178
+	mother=451178
+	
+	8196.1.1 = {birth="8196.1.1"} 
+	8212.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8235.1.1 = { add_spouse = 452178 } 
+	8260.1.1 = {death="8260.1.1"}
+}
+452178 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="valeman"
+
+	8196.1.1 = {birth="8196.1.1"}
+	8260.1.1 = {death="8260.1.1"}
+}
+###The Lord###
+94002 = {
+	name="Hodor" #The Jon Arryn
+	dynasty=178
+	
+	dna="bpolkfilpal"
+	properties="ac0bma"
+
+	martial = 9 #5
+	diplomacy = 9
+	intrigue = 5
+	stewardship = 6
+	learning = 6
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	add_trait="grey_eminence"
+	add_trait="just"
+	add_trait="trusting"
+	add_trait="kind"
+	add_trait="honorable"
+	add_trait="diligent"
+	
+	father=94001
+	mother=94086
+	
+	8225.1.1 = {
+		birth="8225.1.1"
+		effect = { 
+			health = 2
+			fertility = -0.15
+		}
+	} 
+	8241.1.1 = {
+		add_trait="trained_warrior"
+		add_trait="knight"
+	} 
+	8251.1.1 = {add_spouse=94085}
+	8258.1.1 = {add_spouse=94025} 
+	8259.1.1 = { #Ninepenny Kings
+		effect = {
+			# if = {
+				# limit = { NOT = { year = 8259 } }
+				# character_event = { id = 999990206 }
+			# }
+			any_vassal = { set_character_flag = supporting_king  }
+			set_character_flag = supporting_king
+			set_character_flag = warden_of_the_east
+			e_iron_throne = {
+				holder_scope = { 
+					ROOT = {
+						opinion = {
+							who = PREV
+							modifier = opinion_with_king
+							years = 100
+						}	
+					}
+					if = {
+						limit = { NOT = { year = 8260 } }
+						ROOT = {
+							join_defender_wars = PREV
+						}
+					}
+				}
+			}
+		}
+	}
+	8260.1.1 = { #Ninepenny Kings
+		effect = {
+			any_vassal = { clr_character_flag = supporting_king  }
+			clr_character_flag = supporting_king
+			clr_character_flag = warden_of_the_east
+			e_iron_throne = {
+				holder_scope = { 
+					ROOT = {
+						remove_opinion = {
+							who = PREV
+							modifier = opinion_with_king
+						}	
+					}
+				}
+			}
+		}
+	}
+	8260.1.1={ effect = {  } }	
+	8282.5.1 = {add_spouse=5159}
+	8282.9.15 = { #RR
+		effect = {
+			if = {
+				limit = { NOT = { year = 8284 } }
+				character_event = { id = roberts_rebellion.7 }
+				set_defacto_liege = THIS
+				k_stormlands = {
+					holder_scope = { 
+						ROOT = {
+							join_attacker_wars = PREV
+						}
+					}
+				}
+			}
+			any_vassal = { set_character_flag = against_king  }
+			set_character_flag = against_king
+			set_character_flag = warden_of_the_east
+			c_77037 = { 
+				opinion = {
+					modifier = opinion_joined_rebellion
+					who = ROOT
+					years = 20
+				}
+			}
+			c_317 = { 
+				reverse_opinion = {
+					modifier = opinion_with_rebel_leader
+					who = ROOT
+					years = 100
+				}
+			}
+		}
+	}	
+	8284.1.1 = { #CS
+		effect = {
+			character_event = { id = roberts_rebellion.15 }
+			any_vassal = { clr_character_flag = against_king  }
+			clr_character_flag = against_king
+			c_317 = { 
+				reverse_remove_opinion = {
+					modifier = opinion_with_rebel_leader
+					who = ROOT
+				}
+			}
+		}
+	}	
+	#8292.1.1 = { remove_trait="house_arryn" }
+	8297.1.1={
+		# Megaconspiracy... Lysa admitted to it eventually.
+		death = {
+			death_reason = death_murder_unknown_poison
+			killer = 5159
+		}
+	}
+}
+###Jons first wife###
+94085 = {
+	name="Hodor" #First dead wife
+	female=yes
+	dynasty=187	
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94088
+	
+	8225.1.1 = {birth="8225.1.1"} 
+	8257.1.1 = {death="8257.1.1"}
+}
+###Jons Second wife###
+94025 = {
+	name="Hodor" #Jon Arryn's second wife
+	female=yes
+	dynasty=178
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	father=201178
+	mother=452178
+	
+	8235.1.1 = {birth="8235.1.1"} 
+	8258.1.1 = {add_spouse=94002} 
+	8270.1.1 = {
+		add_trait=ill
+		death = {
+			death_reason = death_trait
+		}
+	}
+}
+###Her Daughter, died an infant###
+94084 = {
+	name="Hodor" #Died stillborn
+	female=yes
+	dynasty=178
+
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94002
+	mother=94085
+	
+	8257.1.1 = {
+		birth="8257.1.1" 
+	}
+	8257.1.1 = {
+		death = { death_reason = death_stillborn }
+	}
+}
+###Son by Lysa Tully###
+94003 = {
+	name="Hodor" #Young Weakling Lord of the Eyrie aka Little Robin
+	dynasty=178
+
+	dna="dhjkd0libg0"
+	properties="us0e0kbebcb"	#uj0ebkbebcb"
+	
+	martial = 1
+	diplomacy = 2
+	intrigue = 1
+	stewardship = 2 
+	learning = 2
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	add_trait="stutter"
+	#add_trait="cruel"
+	add_trait="weak"
+	#add_trait="slow"
+	add_trait="rude"
+	add_trait="wroth"
+	add_trait="craven"
+	add_trait="selfish"
+	add_trait="paranoid"
+	
+	father=94002
+	mother=5159
+	
+	8292.1.1 = { 
+		birth="8292.1.1" 
+		guardian = 5159
+		effect = { 
+			set_character_flag = jon_arryn_child 
+			add_trait="ill"
+		}
+	} 
+	8297.1.1 = { 
+		#remove_trait="house_arryn"
+		effect = {
+			mother = { give_minor_title = title_regent }
+			prestige = 700 	
+			any_vassal = {
+				opinion = { #Inherited positive opinion from Jon Arryn
+					who = ROOT
+					modifier = opinion_inherited
+					multiplier = 20
+				}
+			}
+		}		
+	}
+	8298.1.1 = { 
+		effect = {
+			add_trait="rude"
+			add_trait="wroth"
+			add_trait="craven"
+			add_trait="selfish"
+			add_trait="paranoid"
+		}	
+	}
+	8299.2.11 = {
+		effect = {
+			character_event = { id = clash_of_kings.502 }
+			set_character_flag = neutral
+			clr_character_flag = supporting_king
+			clr_character_flag = against_king
+			any_vassal = { 
+				set_character_flag = neutral
+				clr_character_flag = supporting_king
+				clr_character_flag = against_king
+			}
+			e_iron_throne = {
+				holder_scope = {
+					opinion = {
+						who = ROOT
+						modifier = opinion_dithered
+						years = 5
+					}
+				}
+			}
+		}
+	}	
+	8300.1.1 = { 
+		guardian = 94043 #petyr
+	}
+	8300.3.1 = {
+		#remove_trait="house_arryn"
+		effect = {
+			add_weak_claim = k_riverlands
+		}		
+	}
+}
+###Jon Arryn's sister### AKA WAYNWOOD BRANCH
+########################
+94006 = {
+	name="Hodor"
+	female=yes
+	dynasty=178
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	add_trait="charismatic_negotiator"
+	
+	father=94001
+	mother=94086
+	
+	8227.1.1 = {birth="8227.1.1"} 
+	8267.1.1 = {death="8267.1.1"}
+}
+
+###
+
+
+###Jon Arryn's younger brother###
+94004 = {
+	name="Hodor" #Died of a belly ace, at the same time his son was born.
+	dynasty=178
+	
+	martial = 8
+	diplomacy = 6
+	intrigue = 6
+	stewardship = 6 
+	learning = 5
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	add_trait="tough_soldier"
+	
+	father=94001
+	mother=94086
+	
+	8229.1.1 = {birth="8229.1.1"}
+	8245.1.1 = {
+		add_trait="trained_warrior"
+		add_trait="knight"
+	}
+	8258.1.1 = {add_spouse=94030}
+	8262.1.1 = {
+		add_trait=ill
+		death = {
+			death_reason = death_trait
+		}
+	}
+}
+####Jon Arryn's nephew###
+94005 = {
+	name="Hodor" #executed by Aerys with brandon and co.
+	dynasty=178
+	
+	martial = 6
+	diplomacy = 8
+	intrigue = 4
+	stewardship = 6 
+	learning = 5
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	add_trait = "tough_soldier"
+	add_trait = "kind"
+	add_trait = "brave"
+	add_trait = "just"
+	
+	father=94004
+	mother=94030
+	
+	8262.1.1 = {birth="8262.1.1"} 
+	8278.1.1 = {
+		add_trait = "knight"
+		add_trait = "trained_warrior"
+	} 
+	8282.1.1 = {
+		# Executed by Aerys with Brandon and co.
+		death = {
+			death_reason = death_execution_burning
+			killer = 77037
+		}
+	}
+}
+##Household
+2000178 = {
+	name="Hodor" 
+	
+	martial = 3
+	diplomacy = 5
+	intrigue = 4
+	stewardship = 4 
+	learning = 8
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	add_trait = "fair"
+	add_trait = "lustful"
+	add_trait = "poet"
+	add_trait = "proud"
+	add_trait = "gregarious"
+	add_trait = "cruel"
+
+	8280.1.1 = {
+		birth="8280.1.1"
+		effect = {
+			dynasty = none
+		}
+	} 
+	8299.1.1 = { employer=94003 } 
+	8300.3.1 = {
+		death = {
+			death_reason = death_dungeon
+			killer = 94003
+		}
+	}
+}
+2001178 = {
+	name="Hodor" 
+	
+	martial = 4
+	learning = 10
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	add_trait = "scholarly_theologian"
+
+	8242.1.1 = {
+		birth="8242.1.1"
+		effect = {
+			dynasty = none
+		}
+	} 
+	8262.1.1 = {
+		add_trait = "maester"
+		employer=94002
+		effect = { set_character_flag = serving_with_lord }
+	} 
+	8297.1.1={
+		employer=94003 #robert
+	}
+
+}
+##Branch for denys Arryn
+8500178 = {
+	name="Hodor"	# not a lord, younger brother of Othor Arryn
+	dynasty=178
+
+	religion="the_seven"
+	culture="valeman"
+	
+	father=202178 # Eldred Arryn
+	mother=29253 # Jeona Tyrell
+
+	8179.1.1 = {birth="8179.1.1"}
+	8195.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8197.1.1 = {add_spouse=8501178}
+	8230.1.1 = {death="8230.1.1"}
+}
+8501178 = {
+	name="Hodor"	# not a lord
+	female=yes
+
+	religion="the_seven"
+	culture="valeman"
+
+	8179.1.1 = {birth="8179.1.1"}
+	8245.1.1 = {death="8245.1.1"}
+}
+8502178 = {
+	name="Hodor"	# not a lord
+	dynasty=178
+
+	religion="the_seven"
+	culture="valeman"
+
+	father=8500178
+	mother=8501178
+
+	8206.1.1 = {birth="8206.1.1"}
+	8222.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8271.1.1 = {death="8271.1.1"}
+}
+8503178 = {
+	name="Hodor"	# not a lord
+	dynasty=178
+
+	religion="the_seven"
+	culture="valeman"
+
+	father=8500178
+	mother=8501178
+
+	8208.1.1 = {birth="8208.1.1"}
+	8224.1.1 = {add_trait=poor_warrior}
+	8226.1.1 = {add_spouse=8504178}
+	8255.1.1 = {death="8255.1.1"}
+}
+8504178 = {
+	name="Hodor"	# not a lord
+	female=yes
+
+	religion="the_seven"
+	culture="valeman"
+
+	8208.1.1 = {birth="8208.1.1"}
+	8275.1.1 = {death="8275.1.1"}
+}
+8505178 = {
+	name="Hodor"	# a lord
+	dynasty=178
+
+	religion="the_seven"
+	culture="valeman"
+
+	father=8503178
+	mother=8504178
+
+	8235.1.1 = {birth="8235.1.1"}
+	8251.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8253.1.1 = {add_spouse=8506178}
+	8280.1.1 = {death="8280.1.1"}
+}
+8506178 = {
+	name="Hodor"	# not a lord
+	female=yes
+
+	religion="the_seven"
+	culture="valeman"
+
+	8235.1.1 = {birth="8235.1.1"}
+	8280.1.1 = {death="8280.1.1"}
+}
+##Her Husband & Child (Irya's)
+94007 = {
+	name="Hodor" #Died at the bells.
+	dynasty=178
+	
+	dna="bgfdbtlefcf"
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	add_trait="fair"
+	
+	father=8505178
+	mother=8506178
+	
+	8252.1.1 = {birth="8252.1.1"}
+	8268.1.1 = {
+		add_trait="skilled_tactician"
+		add_trait="gregarious"
+		add_trait="master_warrior"
+		add_trait="brave"
+		add_trait="knight"
+		add_trait="duelist"
+	}
+	8273.1.1 = {
+		add_spouse=94010
+		give_nickname = nick_the_darling_of_the_vale
+	} 
+	8282.1.1={ employer=94002 }	
+	8283.1.1 = {
+		death = { 
+			death_reason = death_battle 
+			killer = 316 #Jon Connington
+		}
+	}
+}
+94008 = {
+	name="Hodor" #Deny Arryn's son, died young
+	dynasty=178
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94007
+	mother=94010
+	
+	8275.1.1 = {birth="8275.1.1"} 
+	8282.1.1={ employer=94002 }	
+	8284.1.1 = {death="8284.1.1"}
+}
+###
+###Arryn of Gulltown
+###
+8000178 = {
+	name="Hodor"	# a lord
+	dynasty=8000178
+
+	religion="the_seven"
+	culture="valeman"
+	
+	father=203178
+	mother=8001178
+	
+	add_trait=bastard
+	add_trait = assign_mission_target #cadet dynasty tracker
+
+	8178.1.1 = {
+		birth="8178.1.1"
+		effect = {
+			set_dynasty_flag = is_cadet_house
+			c_203178 = { #arryn founder
+				set_dynasty_flag = has_cadet_house
+				ROOT = { set_dynasty_flag = cadet_house_@PREV }
+			}
+			c_8000178 = { #founder
+				c_the_eyrie = { holder_scope = { set_dynasty_flag = owned_cadet_house_@PREVPREV } }
+			}
+		}
+	}
+	8193.1.1 = {add_spouse=8002178}
+	8194.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8200.1.1 = { employer=203178 } 
+	8234.1.1 = {
+		death="8234.1.1"	
+	}
+}
+8002178 = {
+	name="Hodor"	# not a lord
+	female=yes
+
+	religion="the_seven"
+	culture="valeman"
+	
+	employer=203178
+
+	8175.1.1 = {birth="8175.1.1"}
+	8200.1.1 = { employer=203178 } 
+	8210.1.1 = { employer=8000178 } 
+	8234.1.1 = {death="8234.1.1"}
+}
+8003178 = {
+	name="Hodor"	# a lord
+	dynasty=8000178
+
+	religion="the_seven"
+	culture="valeman"
+
+	father=8000178
+	mother=8002178
+	
+	employer=203178
+	
+	8209.1.1 = {birth="8209.1.1"}
+	8210.1.1 = { employer=8000178 } 
+	8225.1.1 = {add_trait=trained_warrior}
+	8227.1.1 = {add_spouse=8004178}
+	8268.1.1 = {death="8268.1.1"}
+}
+8004178 = {
+	name="Hodor"	# not a lord
+	female=yes
+	religion="the_seven"
+	culture="valeman"
+	
+	employer=203178
+
+	8209.1.1 = {birth="8209.1.1"}
+	8210.1.1 = { employer=8000178 } 
+
+	8234.1.1 = { employer=8003178 } 
+	8268.1.1 = {death="8268.1.1"}
+}
+8005178 = {
+	name="Hodor"	# a lord
+	female=yes
+	dynasty=8000178
+
+	religion="the_seven"
+	culture="valeman"
+
+	father=8003178
+	mother=8004178
+	
+	employer=8000178
+
+	8228.1.1 = {birth="8228.1.1"}
+	8234.1.1 = { employer=8003178 } 
+	8268.1.1 = { employer=8006178 } 
+	8270.1.1 = { employer=8008178 } 
+	8273.1.1 = {death="8273.1.1"}
+}
+8006178 = {
+	name="Hodor"	# Marries the merchants
+	dynasty=8000178
+
+	religion="the_seven"
+	culture="valeman"
+
+	father=8003178
+	mother=8004178
+	
+	employer=8000178
+
+	8230.1.1 = {birth="8230.1.1"}
+	8234.1.1 = { employer=8003178 } 
+	8246.1.1 = {add_trait=poor_warrior}
+	8248.1.1 = {
+		add_spouse=8007178
+		wealth = 600
+		prestige = -200
+	}
+	8278.1.1 = {death="8278.1.1"}
+#	8297.1.1={
+#		add_trait = bastard #to stop gulltown arryns inheriting
+#	}
+}
+8007178 = {
+	name="Hodor"	# daughter of the merchant
+	female=yes
+
+	religion="the_seven"
+	culture="valeman"
+	
+	father = 8014178
+	
+	employer=8000178
+
+	8230.1.1 = {birth="8230.1.1"}
+	8234.1.1 = { employer=8003178 } 
+	8268.1.1 = { employer=8006178 } 
+	8278.1.1 = { employer=8008178 } 
+	8290.1.1 = {death="8290.1.1"}
+}
+8008178 = {
+	name="Hodor"	# a lord
+	dynasty=8000178
+
+	religion="the_seven"
+	culture="valeman"
+
+	father=8006178
+	mother=8007178
+	
+	employer=8003178
+
+	8257.1.1 = {birth="8257.1.1"}
+	8268.1.1 = { employer=8006178 } 
+	8278.1.1 = { employer=8008178 } 
+	8279.1.1 = {add_trait=trained_warrior}
+	8281.1.1 = {add_spouse=8019178}
+}
+8019178 = {
+	name="Hodor"	# not a lord
+	female=yes
+
+	religion="the_seven"
+	culture="valeman"
+	
+	employer=8003178
+
+	8263.1.1 = {birth="8263.1.1"}
+	8268.1.1 = { employer=8006178 } 
+	8278.1.1 = { employer=8008178 } 
+}
+8009178 = {
+	name="Hodor"	# not a lord
+	dynasty=8000178
+
+	religion="the_seven"
+	culture="valeman"
+
+	father=8006178
+	mother=8007178
+	
+	employer=8003178
+
+	8260.1.1 = {birth="8260.1.1"}
+	8268.1.1 = { employer=8006178 } 
+	8278.1.1 = { employer=8008178 } 
+	8280.1.1 = {add_trait=poor_warrior}
+}
+8010178 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=8000178
+
+	religion="the_seven"
+	culture="valeman"
+
+	father=8006178
+	mother=8007178
+	
+	employer=8003178
+
+	8264.1.1 = {birth="8264.1.1"}
+	8268.1.1 = { employer=8006178 } 
+	8278.1.1 = { employer=8008178 } 
+}
+8011178 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=8000178
+
+	religion="the_seven"
+	culture="valeman"
+
+	father=8008178
+	mother=8019178
+	
+	employer=8008178
+
+	8280.1.1 = {birth="8280.1.1"}
+}
+8012178 = {
+	name="Hodor"	# not a lord
+	dynasty=8000178
+
+	religion="the_seven"
+	culture="valeman"
+
+	father=8008178
+	mother=8019178
+	
+	employer=8008178
+
+	8282.1.1 = {birth="8282.1.1"}
+	8298.1.1 = {add_trait=poor_warrior}
+}
+8013178 = {
+	name="Hodor"	# not a lord
+	dynasty=8000178
+
+	religion="the_seven"
+	culture="valeman"
+
+	father=8008178
+	mother=8019178
+	
+	employer=8008178
+
+	8287.1.1 = {birth="8287.1.1"}
+}
+##The Merchant's Family
+8014178 = {
+	name="Hodor"	# not a lord
+
+	religion="the_seven"
+	culture="valeman"
+	
+	stewardship = 13
+	diplomacy = 12
+	
+	add_trait = fortune_builder
+	add_trait = ambitious
+
+	8200.1.1 = {birth="8200.1.1"}
+	8200.1.1 = { employer=203178 } 
+	8210.1.1 = { employer=8000178 } 
+	8234.1.1 = { 
+		employer=8003178
+		wealth = 500		
+	} 
+	8248.1.1 = {
+		prestige = 150
+	}
+	8265.1.1 = {death="8265.1.1"}
+}
+8015178 = {
+	name="Hodor"	
+
+	religion="the_seven"
+	culture="valeman"
+	
+	stewardship = 11
+	
+	add_trait = thrifty_clerk
+	
+	father = 8014178
+	
+	employer=8000178
+
+	8227.1.1 = {birth="8227.1.1"}
+	8234.1.1 = { employer=8003178 } 
+	8257.1.1 = { add_spouse = 8016178 }
+	8265.1.1 = { prestige = 100 wealth = 300 }
+	8268.1.1 = { employer=8006178 } 
+	8278.1.1 = { employer=8008178 } 
+	8290.1.1 = {death="8290.1.1"}
+}
+8016178 = {
+	name="Hodor"	
+	female = yes
+
+	religion="the_seven"
+	culture="valeman"
+	
+	employer=8000178
+
+	8227.1.1 = {birth="8227.1.1"}
+	8234.1.1 = { employer=8003178 } 
+	8268.1.1 = { employer=8006178 } 
+	8278.1.1 = { employer=8008178 } 
+	8290.1.1 = {death="8290.1.1"}
+}
+8017178 = {
+	name="Hodor"	
+
+	religion="the_seven"
+	culture="valeman"
+	
+	stewardship = 11
+	
+	add_trait = thrifty_clerk
+	
+	father = 8015178
+	mother = 8016178
+	
+	employer=8003178
+
+	8265.1.1 = {birth="8265.1.1"}
+	8268.1.1 = { employer=8006178 } 
+	8278.1.1 = { employer=8008178 } 
+	8290.1.1 = { prestige = 50 wealth = 300 }
+}
+8018178 = {
+	name="Hodor"	
+
+	religion="the_seven"
+	culture="valeman"
+	
+	father = 8015178
+	mother = 8016178
+	
+	employer=8006178
+
+	8269.1.1 = {birth="8269.1.1"}
+	8278.1.1 = { employer=8008178 } 
+}
+###
+###House Harding
+###
+94026 = {
+	name="Hodor" #unnamed in canon, father of Harry the Heir
+	
+	dynasty=184
+	
+	dna="bjlmfbccfgk"
+	properties="ae0aaj"
+	
+	religion="the_seven"
+	culture="valeman"
+		
+	father=94087
+	mother=434184
+	
+	
+	8260.1.1 = {birth="8260.1.1"}
+	8276.1.1 = {
+		add_trait = knight
+		add_trait = trained_warrior
+		employer=94021
+	}
+	8282.1.1 = { add_spouse=94018 }
+}
+94027 = {
+	name="Hodor" #Harry the Heir, ward of Lady Waynwood
+	
+	#dynasty=184
+	dynasty = 178
+	
+	dna="bklmgbccfgk"
+	properties="ae0a0k"
+	
+	martial=6
+	intrigue=3
+	diplomacy=6
+	stewardship=4
+	learning=3
+			
+	religion="the_seven"
+	culture="valeman"
+	
+	add_trait="brave"
+	add_trait="fair"	
+	add_trait="tough_soldier"
+	add_trait="lustful"
+	add_trait="proud"
+	add_trait="familyperson"
+	add_trait="gregarious"
+	add_trait="rude"
+	
+	father=94026
+	mother=94018
+	employer=94021
+
+	8284.1.1 = {
+		birth="8284.1.1"
+	}
+	8290.1.1 = {
+		guardian = 94021 #said lady waynwood
+		add_trait = squire
+	}
+	8297.1.1={
+		add_trait = trained_warrior	
+		effect = { add_weak_claim = k_vale }
+	}
+	8298.1.1={
+		effect = { add_trait="lustful" }	
+	}
+	8300.1.1 = {
+		remove_trait = squire
+		add_trait = knight
+		remove_trait = trained_warrior
+		add_trait = skilled_warrior
+	}
+	# 8300.10.1 = {
+		# add_spouse=6059 #sansa
+	# }
+}
+#Lovers/Bastard daughter
+500184 = {
+	name="Hodor" 
+	female=yes
+		
+	religion="the_seven"
+	culture="valeman"
+
+	father=94027
+	mother=475178
+	employer=94021
+	
+	add_trait="bastard"
+	add_trait="fair"
+	give_nickname = nick_stone
+
+	8298.6.1 = {
+		birth="8298.6.1"
+	}
+}
+475178 = {
+	name="Hodor" #mother of first bastard
+	female=yes
+	
+	martial=1
+	stewardship=1
+	intrigue=2
+	diplomacy=2
+	learning=1
+		
+	religion="the_seven"
+	culture="valeman"
+
+	employer=94021
+	
+	add_trait="fair"
+	add_trait="amateurish_plotter"
+
+	8282.1.1 = {
+		birth="8282.1.1"
+	}
+}
+476178 = {
+	name="Hodor" #soldier she wed after birth of child
+		
+	religion="the_seven"
+	culture="valeman"
+	
+	martial=2
+	stewardship=1
+	intrigue=2
+	diplomacy=2
+	learning=1
+	
+	employer=94021
+	
+	add_trait="misguided_warrior"
+
+	8276.1.1 = {
+		birth="8276.1.1"
+	}
+	8292.1.1 = {
+		add_trait=trained_warrior
+	}
+	8299.1.1 = { add_spouse = 475178 }
+}
+477178 = {
+	name="Hodor" #mother of second unborn bastard
+	female=yes
+		
+	religion="the_seven"
+	culture="valeman"
+
+	employer=478178
+	father=478178
+	
+	add_trait="fair"
+	add_trait="flamboyant_schemer"
+
+	8283.1.1 = {
+		birth="8283.1.1"
+	}
+	8299.1.1 = {		
+		effect = {
+			c_94027 = { add_lover = ROOT }
+		}
+	}
+	8300.1.1 = {
+		effect = {
+			random_lover = {
+				limit = { character = 94027 }
+				ROOT = { impregnate = PREV }
+			}
+		}
+	}
+}
+478178 = {
+	name="Hodor" #father of saffron
+		
+	religion="the_seven"
+	culture="valeman"
+	
+	add_trait=midas_touched
+
+	8257.1.1 = {
+		birth="8257.1.1"
+	}
+	8282.1.1 = {
+		effect = { wealth = 200 }
+	}
+}
+#Other family
+501184 = {
+	name="Hodor" 
+	
+	dynasty=184
+	
+	religion="the_seven"
+	culture="valeman"
+		
+	father=94087
+	mother=434184
+	
+	8259.1.1 = {birth="8259.1.1"}
+	8275.1.1 = {
+		add_trait = knight
+		add_trait = trained_warrior
+	}
+	8279.1.1 = {
+		add_spouse=435184
+	}
+}
+435184 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="valeman"
+
+	8259.1.1 = {birth="8259.1.1"}
+}
+502184 = {
+	name="Hodor" 
+	
+	dynasty=184
+	
+	religion="the_seven"
+	culture="valeman"
+		
+	father=94087
+	mother=434184
+	
+	8263.1.1 = {birth="8263.1.1"}
+	8279.1.1 = {
+		add_trait = knight
+		add_trait = poor_warrior
+		effect = {
+			add_friend = 94005 #Elbert Arryn
+			add_friend = 1062 #Ethan Glover
+			add_friend = 1128 #Jeffory mallister
+		}
+	}
+}
+503184 = {
+	name="Hodor" 
+	dynasty=184
+	
+	religion="the_seven"
+	culture="valeman"
+		
+	father=501184
+	mother=435184
+	
+	8280.1.1 = {birth="8280.1.1"}
+	8296.1.1 = {
+		add_trait = knight
+		add_trait = trained_warrior
+	}
+}
+504184 = {
+	name="Hodor" 
+	dynasty=184
+	
+	religion="the_seven"
+	culture="valeman"
+		
+	father=501184
+	mother=435184
+	
+	8282.1.1 = {birth="8282.1.1"}
+	8298.1.1 = {
+		add_trait = poor_warrior
+	}
+}
+#94087 = {
+#	name="Hodor" & Gylbert)
+#	dynasty=184
+#	
+#	religion="the_seven"
+#	culture="valeman"
+#	
+#	8231.1.1 = {birth="8231.1.1"}
+#	8280.1.1 = {death="8280.1.1"}
+#}
+###
+###House Waynwood###
+###
+###Founder
+94019 = {
+	name="Hodor" #unnamed in canon, Anya's grandfather and Elys' father
+	dynasty=182
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	father=3015182
+	mother=4015182
+	
+	8197.1.1 = {birth="8197.1.1"}
+	8213.1.1 = {
+		add_spouse = 2182
+		add_trait = knight
+		add_trait = trained_warrior
+	}
+	8256.1.1 = {death="8256.1.1"}
+}
+2182 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	8197.1.1 = {birth="8197.1.1"}
+	8257.1.1 = {death="8257.1.1"}
+}
+##Issue of Donnel##
+94020 = {
+	name="Hodor" #unnamed in canon, Anya's father and Elys' brother
+	dynasty=182
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94019
+	mother=2182
+	
+	8216.1.1 = {birth="8216.1.1"}
+	8233.1.1 = {
+		add_spouse = 3182
+		add_trait = knight
+		add_trait = trained_warrior
+	}
+	8257.1.1 = {death="8257.1.1"}
+}
+3182 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	8216.1.1 = {birth="8216.1.1"}
+	8257.1.1 = {death="8257.1.1"}
+}
+94009 = {
+	name="Hodor" #grandfather of Harry 'the Heir'
+	
+	dynasty=182
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94019
+	mother=2182
+	
+	8223.1.1 = {birth="8223.1.1"} 
+	8251.1.1 = {add_spouse=94006} 
+	8283.1.1 = {death="8283.1.1"}
+}
+666182 = {		
+	name="Hodor" #wife of Stevron frey
+	female=yes	
+	dynasty=182	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father=94019
+	mother=2182
+	
+	8237.1.1 = {birth="8237.1.1"}
+	8255.1.1 = { 
+		death = { death_reason = death_accident }
+	}
+}
+##Issue of Gyles##
+94021 = {
+	name="Hodor" #Head of House Waynwood, guardian of Harry the Heir
+	female=yes
+	dynasty=182
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	martial = 6
+	diplomacy = 8
+	intrigue = 8
+	stewardship = 2 #she's in debt when Baelish takes the Vale
+	learning = 5
+	
+	add_trait="proud" #Waynwoods prefer ceremony
+	
+	father=94020
+	mother=3182
+	
+	8242.1.1 = {birth="8242.1.1"}
+	8263.1.1 = {
+		add_matrilineal_spouse = 9182
+	}
+	8285.1.1 = { add_trait=widowed }
+}
+9182 = {
+	name="Hodor"
+	
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	8240.1.1 = {birth="8240.1.1"}
+	8285.1.1 = {death="8285.1.1"}
+}
+1182 = {
+	name="Hodor" #wife of geremy frey
+	female=yes
+	dynasty=182
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94020
+	mother=3182
+	
+	8255.1.1 = { birth="8255.1.1"}
+}
+###Issue of Elys###
+94010 = {
+	name="Hodor" #Alys Arryn & Elys Waynwood's eldest daughter 1
+	female=yes
+	dynasty=182
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94009
+	mother=94006
+	
+	8253.1.1 = {birth="8253.1.1"} 
+	8273.1.1 = {add_spouse=94007} 
+	8282.1.1={ employer=94002 }	
+	8284.1.1 = {death="8284.1.1"}
+}
+94011 = {
+	name="Hodor" #Alys Arryn & Elys Waynwood's eldest son 2
+	dynasty=182
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94009
+	mother=94006
+	
+	8253.6.1 = {birth="8253.6.1"} 
+	8256.6.1 = {death="8256.6.1"}
+}
+94012 = {
+	name="Hodor" #Alys Arryn & Elys Waynwood's daughter 3
+	female=yes
+	dynasty=182
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94009
+	mother=94006
+	
+	8255.1.1 = {birth="8255.1.1"} 
+	8259.1.1 = {
+		add_trait="has_small_pox"
+		death = { death_reason = death_trait }
+	}
+}
+94013 = {
+	name="Hodor" #Alys Arryn & Elys Waynwood's daughter 4
+	female=yes
+	dynasty=182
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94009
+	mother=94006
+	
+	8256.1.1 = {birth="8256.1.1"} 
+	8263.1.1 = {
+		add_trait="has_small_pox"
+		death = { death_reason = death_trait }
+	}
+}
+94014 = {
+	name="Hodor" #Alys Arryn & Elys Waynwood's daughter 5 (Joined the SS)
+	female=yes
+	dynasty=182
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94009
+	mother=94006
+	
+	add_trait = lustful
+	
+	8260.1.1 = {birth="8260.1.1"}
+	8280.1.1 = { add_trait="silent_sister" }
+}
+#Lost bastard child#
+1050182 = {
+	name="Hodor" #Alys Arryn & Elys Waynwood's daughter 5 (Joined the SS)
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	mother=94014
+	
+	add_trait = bastard
+	give_nickname = nick_stone
+	
+	8276.1.1 = {
+		birth="8276.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8280.1.1 = {death="8280.1.1"}
+}
+94015 = {
+	name="Hodor" #Alys Arryn & Elys Waynwood's daughter 6
+	female=yes
+	dynasty=182
+	
+	religion="the_seven"
+	culture="valeman"
+
+	father=94009
+	mother=94006
+	
+	8262.1.1 = {birth="8262.1.1"} 
+	8282.1.1 = {
+		add_trait=scarred
+		add_trait=septa
+	} 
+}
+94016 = {
+	name="Hodor" #Alys Arryn & Elys Waynwood's daughter 7
+	female=yes
+	dynasty=182
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94009
+	mother=94006
+	
+	8264.1.1 = {birth="8264.1.1" effect = { fertility = -0.45 } } 
+	8294.1.1 = {death="8294.1.1"}
+}
+94017 = {
+	name="Hodor" #Alys Arryn & Elys Waynwood's daughter 8
+	female=yes
+	dynasty=182
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94009
+	mother=94006
+	
+	8265.1.1 = {birth="8265.1.1"} 
+	8284.1.1 = {
+		death = { death_reason = death_murder } #carried off by Burned Men
+	}
+}
+94018 = {
+	name="Hodor" #Alys Arryn & Elys Waynwood's daughter 9
+	female=yes
+	dynasty=182
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94009
+	mother=94006
+	
+	8263.1.1 = {birth="8263.1.1"} 
+	8282.1.1 = {add_spouse=94026}
+	8284.1.1 = {
+		dynasty = 178 
+		death="8284.1.1" 
+	}
+	# 8297.1.1 = {
+		# death="8297.1.1" 
+	# }
+}
+###Issue of Anya###
+94022 = {
+	name="Hodor" #Heir to House Waynwood
+	dynasty=182
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	martial = 4 #thought Vardis Egen would make short work of Bronn!
+	diplomacy = 6
+	intrigue = 6
+	stewardship = 6
+	learning = 5
+	
+	mother=94021
+	father=9182
+	
+	8263.6.1 = {birth="8263.6.1"}
+	8279.1.1 = {
+		add_spouse=450182
+	}
+	8279.6.1 = {
+		add_trait="underhanded_rogue"
+		add_trait="trained_warrior"
+		add_trait="knight"
+	}
+}
+450182 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="valeman"
+
+	8256.1.1 = {birth="8256.1.1"}
+	8295.1.1 = {death="8295.1.1"}
+}
+175182 = {
+	name="Hodor"
+	female=yes
+	dynasty=182
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	mother=94021
+	father=9182
+	
+	8265.1.1 = {birth="8265.1.1"}
+}
+176182 = {
+	name="Hodor"
+	female=yes
+	dynasty=182
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	mother=94021
+	father=9182
+	
+	8274.1.1 = {birth="8274.1.1"}
+}
+94023 = {
+	name="Hodor" #Lady Anya's second son, Knight of the Bloody gate
+	dynasty=182
+	religion="the_seven"
+	culture="valeman"
+	
+	martial = 5
+	diplomacy = 4
+	intrigue = 4
+	stewardship = 6
+	learning = 3
+	
+	add_trait="zealous"
+	add_trait="brave"
+	add_trait="diligent"
+	add_trait="proud"
+	
+	mother=94021
+	father=9182
+	
+	8278.1.1 = {birth="8278.1.1"} #20 years old
+	8294.1.1 = {
+		add_trait="tough_soldier"
+		add_trait="trained_warrior"
+		add_trait="knight"
+	}
+	8296.1.1 = {
+		employer=94002 #Jon Arryn
+	}
+	8297.1.1 = {
+		employer=94003 #robert
+	}
+	8299.1.1 = {
+		employer=0 #Becomes 
+	}
+}
+177182 = {
+	name="Hodor"
+	female=yes
+	dynasty=182
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	mother=94021
+	father=9182
+	
+	8280.6.1 = {birth="8280.6.1"}
+}
+94024 = {
+	name="Hodor" #Lady Anya's third son
+	dynasty=182
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	mother=94021
+	father=9182
+	
+	add_trait=stutter
+	add_trait=shy
+	add_trait=misguided_warrior
+	
+	8282.1.1 = {birth="8282.1.1"}
+	8293.1.1 = {
+		add_trait=squire
+	}
+	8298.1.1 = { add_trait="poor_warrior" }
+	8300.1.1 = { 
+		remove_trait=squire
+		add_trait=knight
+	}
+}
+###Issue of Morton
+178182 = {
+	name="Hodor" 
+	dynasty=182
+	
+	religion="the_seven"
+	culture="valeman"
+		
+	mother=450182
+	father=94022
+	
+	add_trait=proud
+	add_trait=gregarious
+	
+	8279.6.1 = {birth="8279.6.1"}
+	8295.6.1 = {
+		add_trait="tough_soldier"
+		add_trait="trained_warrior"
+		add_trait="knight"
+	}
+}
+###
+###THE SISTERS####
+###
+#House Sunderland of the Three Sisters#
+10363 = {
+	name="Hodor"	# canon, a lord
+	dynasty=363
+
+	religion="the_seven"
+	culture="sisterman"
+	
+	father=3024363
+	mother=4024363
+
+	8260.1.1 = {birth="8260.1.1"}
+	8276.1.1 = {add_trait=trained_warrior}
+	8278.1.1 = {add_spouse=40363}
+}
+40363 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="sisterman"
+
+	8260.1.1 = {birth="8260.1.1"}
+}
+#Triston's seven sons (they all want to be knights)#
+11363 = {
+	name="Hodor"	# not a lord
+	dynasty=363
+
+	religion="the_seven"
+	culture="sisterman"
+
+	father=10363
+	mother=40363
+
+	8280.1.1 = {birth="8280.1.1"}
+	8296.1.1 = {add_trait=trained_warrior}
+}
+12363 = {
+	name="Hodor"	# not a lord
+	dynasty=363
+
+	religion="the_seven"
+	culture="sisterman"
+
+	father=10363
+	mother=40363
+	
+	add_trait=the_mark
+
+	8282.1.1 = {birth="8282.1.1"}
+	8298.1.1 = {add_trait=trained_warrior}
+}
+13363 = {
+	name="Hodor"	# not a lord
+	dynasty=363
+
+	religion="the_seven"
+	culture="sisterman"
+
+	father=10363
+	mother=40363
+	
+	add_trait=fair
+
+	8283.1.1 = {birth="8283.1.1"}
+	8299.1.1 = {add_trait=trained_warrior}
+}
+14363 = {
+	name="Hodor"	# not a lord
+	dynasty=363
+
+	religion="the_seven"
+	culture="sisterman"
+
+	father=10363
+	mother=40363
+
+	8287.1.1 = {birth="8287.1.1"}
+}
+15363 = {
+	name="Hodor"	# not a lord
+	dynasty=363
+
+	religion="the_seven"
+	culture="sisterman"
+
+	father=10363
+	mother=40363
+
+	8290.1.1 = {birth="8290.1.1"}
+}
+16363 = {
+	name="Hodor"	# not a lord
+	dynasty=363
+
+	religion="the_seven"
+	culture="sisterman"
+
+	father=10363
+	mother=40363
+
+	8292.1.1 = {birth="8292.1.1"}
+}
+17363 = {
+	name="Hodor"	# not a lord
+	dynasty=363
+
+	religion="the_seven"
+	culture="sisterman"
+
+	father=10363
+	mother=40363
+	
+	add_trait=the_mark
+
+	8295.1.1 = {birth="8295.1.1"}
+}
+###House Borrel (Sweetsister)###
+#Borrell
+94035 = {
+	name="Hodor" #unnamed in canon, Lord of Sweetsister during Robert's Rebellion
+	dynasty=165
+	religion="the_seven"
+	culture="sisterman"
+	
+	martial = 5
+	diplomacy = 6
+	intrigue = 9 #Gave Ned Stark hospitality, saying 'if you lose you were never here'
+	stewardship = 6
+	learning = 5
+	
+	father=3019165
+	mother=4019165
+	
+	add_trait="honorable"
+	add_trait="proud"
+	add_trait="deceitful"
+			
+	8225.1.1 = {birth="8225.1.1"}
+	8241.1.1 = {
+		add_trait="elusive_shadow"
+		add_trait="trained_warrior"		
+	}
+	8244.1.1 = {add_spouse = 2165}
+	8290.1.1 = {death="8290.1.1"}
+}
+2165 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="sisterman"
+	
+	add_trait="naive_appeaser"
+	
+	8225.1.1 = {birth="8225.1.1"}
+	8290.1.1 = {death="8290.1.1"}
+}
+94036 = {
+	name="Hodor" #Lord of Sweetsister during the books, Gave Davos hospitality
+	dynasty=165
+	religion="the_seven"
+	culture="sisterman"
+
+	dna="bijjb0gheb0"
+	properties="uk0ifkbebcb"
+	
+	diplomacy = 8
+	intrigue = 6
+	
+	add_trait="ugly"
+	add_trait="gluttonous"
+	add_trait="proud"
+	add_trait="patient"
+	add_trait="deceitful"
+	
+	father=94035
+	mother=2165
+	
+	8245.1.1 = {birth="8245.1.1"}
+	8261.1.1 = {
+		add_trait="trained_warrior"
+	}
+	8265.1.1 = {
+		add_spouse=450165
+	}
+}
+450165 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="sisterman"
+	
+	add_trait="naive_appeaser"
+	
+	8245.1.1 = {birth="8245.1.1"}
+}
+#Children
+150165 = {
+	name="Hodor"
+	female=yes
+	dynasty=165
+	religion="the_seven"
+	culture="sisterman"
+
+	father=94036
+	mother=450165
+	
+	add_trait="ugly"
+	add_trait=the_mark
+	
+	8267.1.1 = {birth="8267.1.1"}
+	8282.1.1 = {
+		add_matrilineal_spouse=451165
+	}
+}
+451165 = {
+	name="Hodor"
+	
+	religion="the_seven"
+	culture="sisterman"
+
+	8260.1.1 = {birth="8260.1.1"}
+}
+151165 = {
+	name="Hodor"
+	dynasty=165
+	religion="the_seven"
+	culture="sisterman"
+
+	father=94036
+	mother=450165
+	
+	add_trait="ugly"
+	add_trait=the_mark
+	
+	8271.1.1 = {birth="8271.1.1"}
+	8287.1.1 = {
+		add_trait="trained_warrior"
+	}
+}
+152165 = {
+	name="Hodor"
+	female=yes
+	dynasty=165
+	religion="the_seven"
+	culture="sisterman"
+
+	father=94036
+	mother=450165
+	
+	8273.1.1 = {birth="8273.1.1"}
+}
+#Grandchildren
+153165 = {
+	name="Hodor"
+	female=yes
+	dynasty=165
+	religion="the_seven"
+	culture="sisterman"
+
+	father=451165
+	mother=150165
+	
+	8283.1.1 = {birth="8283.1.1"}
+}
+154165 = {
+	name="Hodor"
+	female=yes
+	dynasty=165
+	religion="the_seven"
+	culture="sisterman"
+
+	father=451165
+	mother=150165
+	
+	add_trait="ugly"
+	add_trait=the_mark
+	
+	8284.6.1 = {birth="8284.6.1"}
+}
+#Brother
+155165 = {
+	name="Hodor"
+	dynasty=165
+	religion="the_seven"
+	culture="sisterman"
+
+	add_trait="ugly"
+
+	father=94035
+	mother=2165
+	
+	8248.1.1 = {birth="8248.1.1"}
+	8264.1.1 = {
+		add_trait="trained_warrior"
+	}
+	8270.1.1 = {
+		add_spouse=452165
+	}
+	8292.1.1 = {death="8292.1.1"}
+}
+452165 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="sisterman"
+	
+	add_trait="naive_appeaser"
+	
+	8248.1.1 = {birth="8248.1.1"}
+}
+156165 = {
+	name="Hodor"
+	dynasty=165
+	religion="the_seven"
+	culture="sisterman"
+
+	add_trait="ugly"
+
+	father=155165
+	mother=452165
+	
+	8275.1.1 = {birth="8275.1.1"}
+	8291.1.1 = {
+		add_trait="trained_warrior"
+	}
+}
+####Other Sisters###
+####################
+###House Longthorpe###
+94034 = {
+	name="Hodor" #Lord of Longsister
+	dynasty=164
+	religion="the_seven"
+	culture="sisterman"
+	
+	father=3024164
+	mother=4024164
+	
+	8259.1.1 = {birth="8259.1.1"}
+	8276.1.1 = {add_spouse=94093}
+}
+94093 = {
+	name="Hodor" #Wife
+	
+	female=yes
+	
+	religion="the_seven"
+	culture="sisterman"
+	add_trait=the_mark
+	
+	8260.1.1 = {birth="8260.1.1"}
+}
+94094 = {
+	name="Hodor" #Son 1
+	dynasty=164
+	religion="the_seven"
+	culture="sisterman"
+	
+	father=94034
+	mother=94093
+	
+	8277.1.1 = {birth="8277.1.1"}
+}
+9409027 = {
+	name="Hodor"
+	dynasty=164
+	female=yes
+	religion="the_seven"
+	culture="sisterman"
+	
+	father=94034
+	mother=94093
+	
+	8279.1.1 = {birth="8279.1.1"}
+}
+94095 = {
+	name="Hodor" #Son 2
+	dynasty=164
+	religion="the_seven"
+	culture="sisterman"
+	
+	father=94034
+	mother=94093
+	
+	8280.1.1 = {birth="8280.1.1"}
+}
+9409001 = {
+	name="Hodor"
+	dynasty=164
+	female=yes
+	religion="the_seven"
+	culture="sisterman"
+	
+	father=94034
+	mother=94093
+	
+	8283.1.1 = {birth="8283.1.1"}
+}
+###House Torrent###
+94037 = {
+	name="Hodor" #Lord of Littlesister
+	dynasty=166
+	religion="the_seven"
+	culture="sisterman"
+	
+	father=3029166
+	mother=4029166
+	
+	add_trait=the_mark
+	
+	8254.1.1 = {birth="8254.1.1"}
+	8269.1.1 = {add_spouse=94096}	
+}
+94096 = {
+	name="Hodor" #Wife
+	female=yes
+	religion="the_seven"
+	culture="sisterman"
+	
+	8253.1.1 = {birth="8253.1.1"}
+}
+9409002 = {
+	name="Hodor"
+	dynasty=166
+	female=yes
+	religion="the_seven"
+	culture="sisterman"
+	
+	father=94037
+	mother=94096
+	
+	8270.1.1 = {birth="8270.1.1"}
+}
+94097 = {
+	name="Hodor" #Son 1
+	dynasty=166
+	religion="the_seven"
+	culture="sisterman"
+	
+	father=94037
+	mother=94096
+	
+	8271.1.1 = {birth="8271.1.1"}
+}
+94098 = {
+	name="Hodor" #Son 2
+	dynasty=166
+	religion="the_seven"
+	culture="sisterman"
+	
+	father=94037
+	mother=94096
+	
+	8273.1.1 = {birth="8273.1.1"}
+}
+9409003 = {
+	name="Hodor"
+	dynasty=166
+	female=yes
+	religion="the_seven"
+	culture="sisterman"
+	
+	father=94037
+	mother=94096
+	
+	add_trait=the_mark
+	
+	8275.1.1 = {birth="8275.1.1"}
+}
+#################
+###The Fingers###
+#################
+#Pryor
+94038 = {
+	name="Hodor" #Lord of the Pebble
+	dynasty=167
+	religion="the_seven"
+	culture="valeman"
+	
+	father=3025167
+	mother=4025167
+	
+	8246.1.1 = {birth="8246.1.1"}
+	8267.1.1 = {add_spouse=94099}	
+}
+94099 = {
+	name="Hodor" #Wife
+	female=yes
+	religion="the_seven"
+	culture="valeman"
+	
+	8252.1.1 = {birth="8252.1.1"}
+}
+94100 = {
+	name="Hodor" #Son 1
+	dynasty=167
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94038
+	mother=94099
+	
+	8268.1.1 = {birth="8268.1.1"}
+}
+9409004 = {
+	name="Hodor"
+	dynasty=167
+	female=yes
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94038
+	mother=94099
+	
+	8270.1.1 = {birth="8270.1.1"}
+}
+9409005 = {
+	name="Hodor"
+	dynasty=167
+	female=yes
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94038
+	mother=94099
+	
+	8275.1.1 = {birth="8275.1.1"}
+}
+9409006 = {
+	name="Hodor"
+	dynasty=167
+	female=yes
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94038
+	mother=94099
+	
+	8277.1.1 = {birth="8277.1.1"}
+}
+94101 = {
+	name="Hodor" #Son 2
+	dynasty=167
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94038
+	mother=94099
+	
+	8282.1.1 = {birth="8282.1.1"}
+}
+#Elesham
+94039 = {
+	name="Hodor" #unnamed in canon Lord of the Paps
+	dynasty=168
+	religion="the_seven"
+	culture="valeman"
+	
+	father=3025168
+	mother=4025168
+	
+	fertility = 0.15 #died childless
+	
+	8254.1.1 = {birth="8254.1.1"}
+	8281.1.1 = {add_spouse=94016}
+}
+9409007 = {
+	name="Hodor" #made up to prevent the house dying out.
+	dynasty=168
+	religion="the_seven"
+	culture="valeman"
+	
+	father=3025168
+	mother=4025168
+	
+	8257.1.1 = {birth="8257.1.1"}
+	8280.1.1 = {add_spouse=941081}
+}
+9409008 = {
+	name="Hodor"
+	dynasty=168
+	religion="the_seven"
+	culture="valeman"
+	
+	father=9409007
+	mother=941081
+	
+	8283.1.1 = {birth="8283.1.1"}
+}
+9409028 = {
+	name="Hodor"
+	dynasty=168
+	female=yes
+	religion="the_seven"
+	culture="sisterman"
+	
+	father=9409007
+	mother=941081
+	
+	8285.1.1 = {birth="8285.1.1"}
+}
+#Wydman 180
+94081 = {
+	name="Hodor" #non-canon Lord of Wycliffe
+	dynasty=180
+	religion="the_seven"
+	culture="valeman"
+	
+	father=3024180
+	mother=4024180
+	
+	8250.1.1 = {birth="8250.1.1"}
+	8278.1.1 = {add_spouse=94102}
+}
+94102 = {
+	name="Hodor" #Wife
+	female=yes
+	religion="the_seven"
+	culture="valeman"
+	
+	8250.1.1 = {birth="8250.1.1"}
+}
+94103 = {
+	name="Hodor"
+	dynasty=180
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94081
+	mother=94102
+	
+	8268.1.1 = {birth="8268.1.1"}
+	8285.1.1 = {add_spouse=9409002}
+}
+94104 = {
+	name="Hodor"
+	dynasty=180
+	female=yes
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94081
+	mother=94102
+	
+	8271.1.1 = {birth="8271.1.1"}
+}
+9409029 = {
+	name="Hodor"
+	dynasty=180
+	female=yes
+	religion="the_seven"
+	culture="sisterman"
+	
+	father=94103
+	mother=9409002
+	
+	8286.1.1 = {birth="8286.1.1"}
+}
+9409030 = {
+	name="Hodor"
+	dynasty=180
+	female=yes
+	religion="the_seven"
+	culture="sisterman"
+	
+	father=94103
+	mother=9409002
+	
+	8287.1.1 = {birth="8287.1.1"}
+}
+9409031 = {
+	name="Hodor"
+	dynasty=180
+	religion="the_seven"
+	culture="sisterman"
+	
+	father=94103
+	mother=9409002
+	
+	8289.1.1 = {birth="8289.1.1"}
+}
+#Donniger
+94082 = {
+	name="Hodor" #non-canon Lord of Sunset Keep
+	dynasty=173
+	religion="the_seven"
+	culture="valeman"
+	
+	father=3031173
+	mother=4031173
+
+	8241.1.1 = {birth="8241.1.1"}
+	8256.1.1 = {add_spouse=941051}	
+}
+941051 = {
+	name="Hodor" #Wife
+	female=yes
+	religion="the_seven"
+	culture="valeman"
+	
+	8239.1.1 = {birth="8239.1.1"}
+}
+941061 = {
+	name="Hodor"
+	dynasty=173
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94082
+	mother=941051
+	
+	8256.1.1 = {birth="8256.1.1"}
+}
+941071 = {
+	name="Hodor"
+	dynasty=173
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94082
+	mother=941051
+	
+	8259.1.1 = {birth="8259.1.1"}
+}
+941081 = {
+	name="Hodor"
+	dynasty=173
+	female=yes
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94082
+	mother=941051
+	
+	8263.1.1 = {birth="8263.1.1"}
+}
+###Baelish###
+94042 = {
+	name="Hodor" #unnamed in canon, Petyr Baelish's father
+	dynasty=171
+	religion="the_seven"
+	culture="valeman"
+	
+	father=294042
+	mother=394042
+
+	8221.1.1 = {birth="8221.1.1"}
+	8258.1.1 = {add_spouse=194042}
+	8278.1.1 = {death="8278.1.1"}
+}
+194042 = {
+	name="Hodor"
+	female=yes
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	8242.1.1 = {birth="8242.1.1"}
+	8275.1.1 = {death="8275.1.1"}
+}
+94043 = {
+	name="Hodor" #Petyr Baelish, the mastermind!
+	dynasty=171
+	religion="the_seven"
+	culture="valeman"
+	dna="ckglgheebbr" #previous,dmamkjabaay
+	properties="cm0djk0000"	#"cg0dak0000"
+	
+	martial = 1
+	diplomacy = 9
+	intrigue = 10
+	stewardship = 24
+	learning = 5
+		
+	add_trait="genius"
+	#add_trait="arbitrary"
+	add_trait="fashionable"
+	
+	father=94042
+	mother=194042
+	
+	8268.6.1 = {birth="8268.6.1"}
+	8273.6.1 = {
+		add_trait="gregarious"
+		add_trait="brave"
+	}
+	8274.6.1 = {
+		give_nickname = nick_littlefinger
+		#guardian = 159 # Hoster Tully
+	}
+	8281.6.1 = {
+		effect = {
+			k_riverlands = {
+				holder_scope = {
+					random_child = {
+						limit = { 
+							is_female = yes
+							trait = arbitrary
+							trait = envious
+						}
+						add_lover=ROOT # Lysa Tully
+					}
+				}
+			}	
+		}	
+	} 
+	8281.6.1 = { 
+		add_trait="ruthless"
+		add_trait="ambitious"
+		add_trait="cynical"
+		add_trait="deceitful"
+	}
+	8282.1.1 = {
+		add_trait="scarred" #duel with brandon
+		add_trait="elusive_shadow"
+		add_trait=back_seat_leader
+		#add_trait="midas_touched"
+	}
+	8284.1.1 = {
+		employer=317 # Robert Baratheon
+		effect = {
+			add_character_modifier = {
+				name = owns_a_brothel
+				duration = -1
+			}
+			prestige = -30
+			character_event = { id = WoL.10660 days = 100 random = 50 } #random brothel events
+			wealth = 200
+		}
+	} 
+	8298.10.28={
+		employer=9316
+	}
+	8299.7.1 = { 
+		effect = { set_character_flag = helped_king_LP }
+	}
+	8299.10.15 = {
+		effect = {
+			k_vale = {
+				holder_scope = {
+					mother = {
+						add_lover=ROOT # Lysa Tully
+					}
+				}
+			}	
+		}
+	}
+	8299.11.5 = {
+		employer = 94043
+		effect = { 
+			clr_character_flag = helped_king_LP 
+			k_riverlands = { add_pressed_claim = ROOT }
+		}
+	}
+	8300.1.1 = {
+		add_spouse = 5159
+	}
+	8300.3.1 = {
+		add_trait = forbid_marriage
+		effect = { 
+			character_event = { id = feast_for_crows.21 } 
+			gain_regency_effect = yes
+		}
+	}
+	8300.4.15 = {
+		effect = { 
+			set_character_flag = neutral
+			clr_character_flag = supporting_king
+			clr_character_flag = against_king
+		}
+	}
+}
+
+#Littlefinger's houshold
+250171 = { #Hedge Knight in pursuit of Sansa
+	name="Hodor"
+	dynasty = 803026 #of the shady glen
+	
+	intrigue = 5
+	stewardship = 2
+	diplomacy = 2
+	martial = 3
+	learning = 1
+	
+	religion="the_seven"
+	culture="crownlander"
+	
+	add_trait="quick"
+	add_trait="greedy"
+	add_trait="gregarious"
+	add_trait="proud"
+	add_trait="ambitious"
+	add_trait="brave"
+	add_trait="tough_soldier"
+	
+	8272.1.1 = {
+		birth="8272.1.1"
+		effect = {
+			if = {
+				limit = { NOT = { year = 8300 } }
+				c_chyttering_brook = {
+					holder_scope = {
+						ROOT = { move_character = PREV }
+					}
+				}
+			}
+		}
+	}
+	8288.1.1 = {
+		add_trait=knight
+		add_trait=trained_warrior
+		give_nickname = nick_the_mad_mouse
+	}
+	8300.1.1 = { 
+		employer=94043 #Petyr Baelish
+	}
+}
+251171 = { 
+	name="Hodor"
+
+	martial = 3
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	add_trait="fair"
+	add_trait="fashionable"
+	add_trait="honorable"
+	add_trait="misguided_warrior"
+	
+	8280.1.1 = {
+		birth="8280.1.1"
+	}
+	8296.1.1 = {
+		add_trait=knight
+		add_trait=trained_warrior
+		give_nickname = nick_the_beautiful
+		employer=94043 #Petyr Baelish
+	}
+}
+252171 = { 
+	name="Hodor"
+
+	martial = 3
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	add_trait="strong"
+	add_trait="gregarious"
+	add_trait="misguided_warrior"
+	
+	8264.1.1 = {
+		birth="8264.1.1"
+	}
+	8280.1.1 = {
+		add_trait=knight
+		add_trait=trained_warrior
+		give_nickname = nick_the_merry
+	}
+	8300.1.1 = { 
+		employer=94043 #Petyr Baelish
+	}
+}
+################
+###Northweald###
+################
+#Coldwater
+94040 = {
+	name="Hodor" #Lord of Coldwater Burn
+	dynasty=169
+	religion="the_seven"
+	culture="valeman"
+	
+	father=3036169
+	mother=4036169
+	
+	8259.1.1 = {birth="8259.1.1"}
+	8277.1.1 = {add_spouse=94106}	
+}
+94106 = {
+	name="Hodor" #Wife
+	female=yes
+	religion="the_seven"
+	culture="valeman"
+	
+	8266.1.1 = {birth="8266.1.1"}
+}
+94107 = {
+	name="Hodor"
+	dynasty=169
+	female=yes
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94040
+	mother=94106
+	
+	8279.1.1 = {birth="8279.1.1"}
+}
+94108 = {
+	name="Hodor"
+	dynasty=169
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94040
+	mother=94106
+	
+	8281.1.1 = {birth="8281.1.1"}
+}
+9409009 = {
+	name="Hodor"
+	dynasty=169
+	female=yes
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94040
+	mother=94106
+
+	add_trait=twin
+	
+	8283.1.1 = {birth="8283.1.1"}
+}
+9409010 = {
+	name="Hodor"
+	dynasty=169
+	female=yes
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94040
+	mother=94106
+
+	add_trait=twin
+	
+	8283.1.1 = {birth="8283.1.1"}
+}
+#Lynderly
+94045 = {
+	name="Hodor" #Lord of Snakewood
+	dynasty=174
+	religion="the_seven"
+	culture="valeman"
+	
+	father=3023174
+	mother=4023174
+	
+	8259.1.1 = {birth="8259.1.1"}
+	8285.1.1 = {add_spouse = 94122}
+	8288.1.1 = {add_spouse = 9409004}
+}
+9409011 = {
+	name="Hodor"
+	dynasty=174
+	female=yes
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94045
+	mother=94122
+	
+	8286.1.1 = {birth="8286.1.1"}
+}
+175174 = {
+	name="Hodor" 
+	dynasty=174
+	religion="the_seven"
+	culture="valeman"
+	
+	father=3023174
+	mother=4023174
+	
+	8263.1.1 = {birth="8263.1.1"}
+	8279.1.1 = {
+		add_trait=knight
+		add_trait=trained_warrior
+	}
+}
+94046 = {
+	name="Hodor" #Heir of Snakewood
+	dynasty=174
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94045
+	mother=9409004
+	
+	8289.1.1 = {birth="8289.1.1"}
+	8300.1.1 = {
+		add_trait = squire
+		guardian = 2001178 #maester coleman at the eyrie
+	}
+}
+9409012 = {
+	name="Hodor"
+	dynasty=174
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94045
+	mother=9409004
+	
+	8292.1.1 = {birth="8292.1.1"}
+}
+9409032 = {
+	name="Hodor"
+	dynasty=174
+	female=yes
+	religion="the_seven"
+	culture="sisterman"
+
+	father=94045
+	mother=9409004
+	
+	8293.1.1 = {birth="8293.1.1"}
+}
+9409013 = {
+	name="Hodor"
+	dynasty=174
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94045
+	mother=9409004
+	
+	8295.1.1 = {birth="8295.1.1"}
+}
+#Hersy
+94033 = {
+	name="Hodor" #unnamed in canon, Lord of Newkeep
+	dynasty=163
+	religion="the_seven"
+	culture="valeman"
+	
+	father=3029163
+	mother=4029163
+	
+	8251.1.1 = {birth="8251.1.1"}
+	8273.1.1 = {add_spouse=94109}
+}
+94109 = {
+	name="Hodor" #Wife
+	female=yes
+	religion="the_seven"
+	culture="valeman"
+	
+	8255.1.1 = {birth="8255.1.1"}
+}
+94110 = {
+	name="Hodor"
+	dynasty=163
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94033
+	mother=94109
+	
+	8275.1.1 = {birth="8275.1.1"}
+}
+94111 = {
+	name="Hodor"
+	dynasty=163
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94033
+	mother=94109
+	
+	8277.1.1 = {birth="8277.1.1"}
+}
+################
+###Easthweald###
+################
+###House Hunter###
+94052 = {
+	name="Hodor" #Old Lord of Longbow Hall, Has the gout.
+	dynasty=177
+	religion="the_seven"
+	culture="valeman"
+	
+	father=3018177
+	mother=4018177
+		
+	8221.1.1 = {
+		birth="8221.1.1"
+		effect = { health = 3 }
+	}
+	8248.1.1 = {
+		add_spouse = 2177
+		add_trait = knight
+		add_trait = poor_warrior
+	}
+	8290.1.1 = {
+		give_nickname = nick_the_old
+	}
+	8298.1.1 = {add_trait="infirm"}
+	8300.1.1={
+		# Killed by his own son! (Harlan)
+		death = {
+			death_reason = death_murder_unknown
+			killer = 94055
+		}
+	}
+}
+2177 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	8232.1.1 = {birth="8232.1.1"}
+	8284.1.1 = {death="8284.1.1"} #Eon is a suitor for Lysa in books
+}
+94053 = {
+	name="Hodor" #Young Lord of Longbow Hall, fond of wine.
+	dynasty=177
+	religion="the_seven"
+	culture="valeman"
+		
+	father=94052
+	mother=2177
+	
+	add_trait="drunkard"
+	
+	8252.1.1 = {birth="8252.1.1"}
+	8268.1.1 = {
+		add_trait = knight
+		add_trait = poor_warrior
+	}
+	8290.1.1 = {
+		give_nickname = nick_the_young
+	}
+}
+94054 = {
+	name="Hodor" #Second Son of Longbow Hall
+	dynasty=177
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94052
+	mother=2177
+	
+	8255.1.1 = {birth="8255.1.1"}
+	8271.1.1 = {
+		add_trait = knight
+		add_trait = trained_warrior
+	}
+	8280.1.1 = {
+		add_spouse = 450177
+	}
+}
+450177 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	8255.1.1 = {birth="8255.1.1"}
+}
+94055 = {
+	name="Hodor" #3rd son of Longbow Hall, killed his father
+	dynasty=177
+	religion="the_seven"
+	culture="valeman"
+		
+	father=94052
+	mother=2177
+	
+	add_trait="deceitful"
+	add_trait="ambitious"
+	add_trait="envious"
+	add_trait="ruthless"
+	
+	8259.1.1 = {birth="8259.1.1"}
+	8275.1.1 = {
+		add_trait = knight
+		add_trait = trained_warrior
+	}
+	8285.1.1 = {
+		add_spouse = 451177
+	}
+}
+451177 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	8265.1.1 = {birth="8265.1.1"}
+}
+#random grandchildren
+#Eustace's children
+150177 = {
+	name="Hodor"
+	dynasty=177
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94054
+	mother=450177
+	
+	8282.1.1 = {birth="8282.1.1"}
+	8298.1.1 = {
+		add_trait = knight
+		add_trait = trained_warrior
+	}
+}
+151177 = {
+	name="Hodor"
+	dynasty=177
+	female=yes
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94054
+	mother=450177
+	
+	8284.1.1 = {birth="8284.1.1"}
+}
+#Harlan's children
+152177 = {
+	name="Hodor"
+	dynasty=177
+	female=yes
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94055
+	mother=451177
+	
+	8286.1.1 = {birth="8286.1.1"}
+}
+153177 = {
+	name="Hodor"	
+	dynasty=177
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94055
+	mother=451177
+	
+	8289.1.1 = {birth="8289.1.1"}
+}
+154177 = {
+	name="Hodor"
+	dynasty=177
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94055
+	mother=451177
+	
+	8291.1.1 = {birth="8291.1.1"}
+}
+###Melcolm 181
+94078 = {
+	name="Hodor" #unnamed in canon, Lord of Old Anchor
+	dynasty=181
+	religion="the_seven"
+	culture="valeman"
+	
+	father=3018181
+	mother=4018181
+	
+	8253.1.1 = {birth="8253.1.1"}
+	8269.1.1 = {add_spouse=94112}
+}
+94112 = {
+	name="Hodor" #Wife
+	female=yes
+	religion="the_seven"
+	culture="valeman"
+	
+	8248.1.1 = {birth="8248.1.1"}
+}
+94113 = {
+	name="Hodor"
+	dynasty=181
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94078
+	mother=94112
+	
+	8270.1.1 = {birth="8270.1.1"}
+}
+94114 = {
+	name="Hodor"
+	dynasty=181
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94078
+	mother=94112
+	
+	8274.1.1 = {birth="8274.1.1"}
+}
+9409014 = {
+	name="Hodor"
+	dynasty=181
+	female=yes
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94078
+	mother=94112
+	
+	8275.1.1 = {birth="8275.1.1"}
+}
+9409015 = {
+	name="Hodor"
+	dynasty=181
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94078
+	mother=94112
+	
+	8278.1.1 = {birth="8278.1.1"}
+}
+###Upcliff
+94041 = {
+	name="Hodor" #unnamed in canon Lord of Upcliff
+	dynasty=170
+	religion="the_seven"
+	culture="valeman"
+	
+	father=3027170
+	mother=4027170
+
+	8244.1.1 = {birth="8244.1.1"}
+	8259.1.1 = {add_spouse=94115}	
+}
+94115 = {
+	name="Hodor" #Wife
+	female=yes
+	religion="the_seven"
+	culture="valeman"
+	
+	8245.1.1 = {birth="8245.1.1"}
+}
+94116 = {
+	name="Hodor"
+	dynasty=170
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94041
+	mother=94115
+	
+	8262.1.1 = {birth="8262.1.1"}
+	#8291.1.1 = {add_spouse=9409011}
+}
+9409016 = {
+	name="Hodor"
+	dynasty=170
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94116
+	#mother=9409011
+	
+	8292.1.1 = {birth="8292.1.1"}
+}
+9409017 = {
+	name="Hodor"
+	dynasty=170
+	female=yes
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94116
+	#mother=9409011
+	
+	8293.1.1 = {birth="8293.1.1"}
+}
+9409018 = {
+	name="Hodor"
+	dynasty=170
+	female=yes
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94116
+	#mother=9409011
+	
+	8295.1.1 = {birth="8295.1.1"}
+}
+###############
+###Runestone###
+###############
+###House Royce###
+###The lord###
+94068 = {
+	name="Hodor" #Bronze yohn, Lord of Runestone
+	dynasty=187
+	dna="bghmdrbddaf"
+	properties="cq0dbd0000"	#ce0dcd0000"
+	religion="the_seven"
+	culture="valeman"
+	
+	martial = 10
+	diplomacy = 8
+	intrigue = 6
+	stewardship = 6 
+	learning = 6
+		
+	add_trait="strong"
+	add_trait="proud"
+	add_trait="brave"
+	add_trait="trusting"
+	add_trait="authoritative"
+	
+	father=3019187
+	mother=4019187
+	
+	8240.1.1 = {birth="8240.1.1"}
+	8256.1.1 = {
+		add_spouse = 51879
+		add_trait="knight"
+		add_trait="tough_soldier"
+		add_trait="skilled_warrior"
+	}
+	8279.1.1 = {give_nickname = nick_bronze_yohn}
+}
+51879 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+
+	religion="the_seven"
+	culture="valeman"
+	
+	8240.1.1 = {birth="8240.1.1"}
+	8295.1.1 = { death = yes } #Yohn is a suitor for Lysa in books
+}
+##Issue of Yohn##
+94069 = {
+	name="Hodor" #First son of Lord Yohn of Runestone, during the tourney of the hand (for ned) he unhrses Jaime 
+	dynasty=187
+	religion="the_seven"
+	culture="valeman"
+	
+	martial = 9
+	
+	father=94068
+	mother=51879
+		
+	add_trait="strong"
+	add_trait="proud"
+		
+	8274.1.1 = {birth="8274.1.1"}
+	8290.1.1 = {
+		add_trait="tough_soldier"
+		add_trait="trained_warrior"
+		add_trait="knight"
+	}
+}
+94073 = {
+	name="Hodor" #unnamed in canon, daughter of Lord Yohn of Runestone
+	female=yes
+	dynasty=187
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94068
+	mother=51879
+	
+	8275.1.1 = {birth="8275.1.1"}
+}
+94070 = {
+	name="Hodor" #Second son of Lord Yohn of Runestone. Robar the red in Renlys Rainbow guard.
+	dynasty=187
+	religion="the_seven"
+	culture="valeman"
+	
+	martial = 8
+	diplomacy = 8
+	
+	add_trait="fair"
+	add_trait="strong"
+	add_trait="proud"
+	add_trait="duelist"
+	
+	father=94068
+	mother=51879
+	
+	8277.1.1 = {birth="8277.1.1"} #of an age with Renly
+	8293.1.1 = {
+		add_trait="elusive_shadow"
+		add_trait="skilled_warrior"
+		add_trait="knight"
+	}
+	8299.1.1={
+		employer=5317
+	}
+	8299.2.11 = { 
+		effect = {
+			set_character_flag = rainbow_guard
+			give_minor_title = title_bodyguard
+		}
+		give_nickname = nick_the_red
+		#add_trait="rainbowguard"
+	}
+	8299.3.3={
+		# Loras Tyrell kills him in anger.
+		death = {
+			death_reason = death_duel
+			killer = 6253
+		}
+	}
+}
+94071 = {
+	name="Hodor" #Third son of Lord Yohn of Runestone. Dude that dies in the first chapter.
+	dynasty=187
+	religion="the_seven"
+	culture="valeman"
+	
+	add_trait="proud"
+	add_trait="fair"
+	add_trait="fashionable"
+	add_trait="rude"
+	add_trait="brave"
+	
+	father=94068
+	mother=51879
+	
+	8278.1.1 = {birth="8278.1.1"}
+	8294.1.1 = {
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+	8296.1.1 = {	
+		add_trait="nightswatch"
+		effect = {
+			add_character_modifier = {
+				name = nw_ranger
+				duration = -1
+			}
+		}
+	}
+	8297.1.1={
+		# Others took him.
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+94072 = {
+	name="Hodor" #Daughter of Lord Yohn of Runestone
+	female=yes
+	dynasty=187
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94068
+	mother=51879
+	
+	8281.1.1 = {birth="8281.1.1"}
+	8297.1.1 = {add_spouse=94062}
+}
+##Household
+2000187 = {
+	name="Hodor" 
+	
+	martial = 3
+	learning = 9
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	add_trait = "mastermind_theologian"
+	add_trait = "scholar"
+
+	8233.1.1 = { 
+		birth="8233.1.1"
+		effect = {
+			dynasty = none
+		}
+	} 
+	8253.1.1 = {
+		add_trait = "maester"
+		employer=3019187
+		effect = { set_character_flag = serving_with_lord }
+	} 
+	8277.1.1={
+		employer=94068 #Bronze Yohn
+	}
+
+}
+2001187 = {
+	name="Hodor" 
+	
+	martial = 3
+	learning = 8
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	add_trait = "martial_cleric"
+	add_trait = "zealous"
+	add_trait = "celibate"
+
+	8248.1.1 = { 
+		birth="8248.1.1"
+		effect = {
+			dynasty = none
+		}
+	} 
+	8268.1.1 = {
+		add_trait = "septon"
+		employer=3019187
+	} 
+	8277.1.1={
+		employer=94068 #Bronze Yohn
+	}
+
+}
+2002187 = {
+	name="Hodor" 
+	
+	martial = 13
+	learning = 5
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	add_trait = "tough_soldier"
+	add_trait = "strong"
+	add_trait = "bastard"
+	
+	give_nickname = nick_stone
+	employer=3019187
+
+	8260.1.1 = { 
+		birth="8260.1.1"
+		effect = {
+			dynasty = none
+		}
+	} 
+	8276.1.1 = { add_trait = "skilled_warrior" } 
+	8277.1.1={
+		employer=94068 #Bronze Yohn
+	}
+	8282.1.1 = {
+		add_trait = "knight"
+	} 	
+}
+###Gates of the Moon Royce###
+94074 = {
+	name="Hodor" #Lord of House Royce of the Gates of the Moon
+	dynasty=187
+	religion="the_seven"
+	culture="valeman"
+
+	dna="cgfid0ilcg0"
+	properties="un0ickbebcb"
+	
+	martial = 6
+	diplomacy = 7
+	intrigue = 5
+	stewardship = 10 
+	learning = 4
+		
+	add_trait="strong"
+	add_trait="proud"
+	add_trait="brave"
+	add_trait="diligent"
+	add_trait="just"
+	
+	father=294089
+
+	8253.1.1 = {birth="8253.1.1"}
+	8269.1.1 = {
+		add_trait="knight"
+		add_trait="tough_soldier"
+		add_trait="skilled_warrior"
+		add_spouse=475187
+	}
+	8270.1.1 = { employer=94002 }	#Jon Arryn
+	8297.1.1={ employer=94003 } #robert
+	8300.3.1={ employer = 0 }
+}
+475187 = {
+	name="Hodor"	# not a lord
+	female=yes
+
+	religion="the_seven"
+	culture="valeman"
+
+	8253.1.1 = {birth="8253.1.1"}
+	8290.1.1 = {death="8290.1.1"}
+}
+#Children
+94075 = {
+	name="Hodor" #Heir of Lord Nestor of the Gates of the Moon
+	dynasty=187
+	religion="the_seven"
+	culture="valeman"
+	
+	add_trait="strong"
+	add_trait="proud"
+	add_trait="honorable"
+	add_trait="tough_soldier"
+	add_trait="wroth"
+	
+	father=94074
+	mother=475187
+	employer=94002 #Jon Arryn
+	
+	8270.1.1 = {birth="8270.1.1"}
+	8286.1.1 = {
+		add_trait="knight"	
+		add_trait="trained_warrior"
+	}
+	
+	8297.1.1={ employer=94003 } #robert
+	8300.3.1={ employer = 94074 } #father
+}
+94076 = {
+	name="Hodor" #Daughter of Lord Nestor of the Gates of the Moon
+	female=yes
+	dynasty=187
+	
+	martial=1
+	stewardship=5
+	intrigue=6
+	diplomacy=6
+	learning=4
+	
+	religion="the_seven"
+	culture="valeman"
+	employer=94002 #Jon Arryn
+	
+	add_trait="gregarious"
+	add_trait="proud"
+	add_trait="gluttonous"
+	add_trait="fashionable"
+	add_trait="flamboyant_schemer"
+	
+	father=94074
+	mother=475187
+	
+	8279.1.1 = {birth="8279.1.1"}
+	8297.1.1={ employer=94003 } #robert
+	8300.3.1={ employer = 94074 } #father
+}
+###Arnwood Frey's Wife###
+10139 = {
+	name="Hodor"
+	female=yes
+	dynasty=187
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	father=394089
+		
+	8268.1.1 = {birth="8268.1.1"}
+}
+###House Grafton###
+94064 = {
+	name="Hodor" #Lord of Gulltown in Robert's Rebellion <--- Stayed loyal to the targs and robert killed him.
+	dynasty=186
+	
+	religion="the_seven"
+	culture="valeman"
+		
+	add_trait="brave"
+	add_trait="ambitious"
+	
+	father=3025186
+	mother=4025186
+	
+	8228.1.1 = {birth="8228.1.1"}
+	8254.1.1 = {add_spouse = 2186
+				add_trait="tough_soldier"
+				add_trait="trained_warrior"
+				add_trait="knight"
+	}
+	8282.9.15 = { #RR
+		effect = {
+			set_character_flag = supporting_king 
+			set_character_flag = against_rebel_liege
+			any_demesne_title = {
+				limit = { 
+					OR = {
+						tier = COUNT
+						tier = DUKE
+					}
+				}				
+				set_variable = { which = "de_facto_kingdom" value = 4 } #vale
+			}
+			if = {
+				limit = { NOT = { year = 8284 } }
+				e_iron_throne = {
+					holder_scope = {
+						ROOT = {
+							join_defender_wars = PREV
+						}
+					}
+				}
+			}
+		}
+	}	
+	8282.12.12={
+		# Robert did him.
+		death = {
+			death_reason = death_battle
+			killer = 317
+		}
+	}
+}
+2186 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	8228.1.1 = {birth="8228.1.1"}
+}
+9409019 = {
+	name="Hodor"
+	dynasty=186
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94064
+	mother=2186
+	
+	8245.1.1 = {birth="8245.1.1"}
+	8261.1.1 = {add_trait="knight"}
+	8262.1.1 = {add_spouse = 9409020}
+	8282.12.12= { death = {death_reason = death_battle} }
+}
+9409020 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	8246.1.1 = {birth="8246.1.1"}
+}
+94065 = {
+	name="Hodor" #Lord of Gulltown in the books
+	dynasty=186
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	father=9409019
+	mother=9409020
+	
+	add_trait = gluttonous
+	add_trait = authoritative
+	add_trait = proud
+	add_trait = thrifty_clerk
+	add_trait = greedy
+	
+	8264.1.1 = {birth="8264.1.1"}
+	8280.1.1 = {add_trait="knight" add_trait=poor_warrior}
+	8282.1.1 = {add_spouse = 3186}
+}
+3186 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	8266.1.1 = {birth="8266.1.1"}
+}
+94066 = {
+	name="Hodor" #unnamed in canon, son of Gerold Lord of Gulltown
+	dynasty=186
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94065
+	mother=3186
+	
+	8282.1.1 = {birth="8282.1.1"}
+}
+9409033 = {
+	name="Hodor"
+	dynasty=186
+	female=yes
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94065
+	mother=3186
+	
+	8285.1.1 = {birth="8285.1.1"}
+}
+9409021 = {
+	name="Hodor"
+	dynasty=186
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94065
+	mother=3186
+	
+	8289.1.1 = {birth="8289.1.1"}
+}
+9409022 = {
+	name="Hodor"
+	dynasty=186
+	female=yes
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94065
+	mother=3186
+	
+	8290.1.1 = {birth="8290.1.1"}
+}
+94067 = {
+	name="Hodor" #youngest son of Gerold Lord of Gulltown
+	dynasty=186
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94065
+	mother=3186
+	
+	8291.1.1 = {birth="8291.1.1"}
+	8300.1.1 = {
+		add_trait = squire
+		guardian = 2001178 #maester coleman at the eyrie
+	}
+}
+#Ruthermont
+94083 = {
+	name="Hodor" #non-canon Lord of Ruthermont
+	dynasty=188
+	religion="the_seven"
+	culture="valeman"
+	
+	father=2028188
+	mother=4028188
+	
+	8242.1.1 = {birth="8242.1.1"}
+	8266.1.1 = {add_spouse=94118}
+}
+94118 = {
+	name="Hodor" #Wife
+	female=yes
+	religion="the_seven"
+	culture="valeman"
+	
+	8248.1.1 = {birth="8248.1.1"}
+}
+94119 = {
+	name="Hodor"
+	dynasty=188
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94083
+	mother=94118
+	
+	8268.1.1 = {birth="8268.1.1"}
+	8286.1.1 = {death = {death_reason = death_accident} }
+}
+94120 = {
+	name="Hodor"
+	dynasty=188
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94083
+	mother=94118
+	
+	8269.1.1 = {birth="8269.1.1"}
+}
+9409023 = {
+	name="Hodor"
+	dynasty=188
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94083
+	mother=94118
+	
+	8273.1.1 = {birth="8273.1.1"}
+	8289.1.1 = {
+		add_trait = maester
+		employer = 208 #Payne
+		effect = { set_character_flag = serving_with_lord }
+	}
+}
+9409024 = {
+	name="Hodor"
+	dynasty=188
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94083
+	mother=94118
+	
+	8274.1.1 = {birth="8274.1.1"}
+}
+9409025 = {
+	name="Hodor"
+	dynasty=188
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94083
+	mother=94118
+	
+	8279.1.1 = {birth="8279.1.1"}
+	8296.1.1 = {	
+		employer=2128 
+		add_trait="nightswatch"
+	}
+}
+###Redfort 183###
+94058 = {
+	name="Hodor" #Lord of Redfort
+	dynasty=183
+	religion="the_seven"
+	culture="valeman"
+		
+	martial = 7
+	diplomacy = 7
+	intrigue = 6
+	stewardship = 7
+	learning = 5
+	
+	father=3018183
+	mother=4018183
+	
+	add_trait=ambitious
+	add_trait=ruthless
+	add_trait=proud
+	
+	8241.1.1 = {birth="8241.1.1"}
+	8257.1.1 = {
+		add_trait="elusive_shadow"
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+	8268.1.1 = {add_spouse = 2183}
+	8272.1.1 = {add_spouse = 42183}
+	8278.1.1 = {add_spouse = 43183}
+	8291.1.1 = { remove_trait="trained_warrior" }
+}
+2183 = {
+	name="Hodor" #wife 1
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	8245.1.1 = {birth="8245.1.1"}
+	8269.1.1 = {death="8269.1.1"}
+}
+42183 = {
+	name="Hodor" #wife 2
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	8250.1.1 = {birth="8250.1.1"}
+	8275.1.1 = {death="8275.1.1"}
+}
+43183 = {
+	name="Hodor" #wife 3
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	8251.1.1 = {birth="8251.1.1"}
+	8297.1.1 = { death = yes } #Horton is a suitor for Lysa in books
+}
+94059 = {
+	name="Hodor" #Heir of Redfort
+	dynasty=183
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94058
+	mother=2183
+	
+	8269.1.1 = {birth="8269.1.1"}
+	8285.1.1 = {
+		add_trait=knight
+		add_trait=trained_warrior
+	}
+}
+94060 = {
+	name="Hodor" #Second Son of Redfort
+	
+	dynasty=183
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94058
+	mother=42183
+	
+	8273.1.1 = {birth="8273.1.1"}
+	8289.1.1 = {
+		add_trait=knight
+		add_trait=trained_warrior
+	}
+}
+94061 = {
+	name="Hodor" #Third Son of Redfort
+	dynasty=183
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94058
+	mother=42183
+	
+	8275.1.1 = {birth="8275.1.1"}
+	8291.1.1 = {
+		add_trait=knight
+		add_trait=trained_warrior
+	}
+}
+94062 = {
+	name="Hodor" #Fourth son of Redfort, gallant young knight
+	dynasty=183
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94058
+	mother=43183
+	
+	add_trait="fair"
+	add_trait="honorable"
+	add_trait="brave"
+	
+	8281.1.1 = {birth="8281.1.1"}
+	8290.1.1 = {
+		add_trait="squire"
+		guardian=94050
+		add_trait=poor_warrior
+	}
+	8294.1.1 = {
+		remove_trait=poor_warrior
+		add_trait=trained_warrior
+	}
+	8297.1.1 = {
+		remove_trait=trained_warrior
+		add_trait=skilled_warrior
+		add_trait=tough_soldier
+	}
+	8298.1.1 = {
+		effect = {
+			k_vale = {
+				holder_scope = {
+					random_courtier = {
+						limit = {
+							is_female = yes
+							has_nickname = nick_stone
+							trait = fair
+						}
+						add_lover = ROOT #Mya Stone
+					}
+				}
+			}
+		}
+	}
+	8300.1.1 = {
+		effect = { any_lover = { remove_lover = PREV } }
+		add_spouse=94072
+		remove_trait=squire
+		add_trait=knight
+	}
+}
+###############
+###Wickenden###
+###############
+#Waxley
+94077 = {
+	name="Hodor" #Knight of Wickenden
+	dynasty=189
+	religion="the_seven"
+	culture="valeman"
+		
+	father=940801
+	mother=20189
+
+	8261.1.1 = {birth="8261.1.1"}
+	8277.1.1 = {add_spouse = 30189
+		add_trait="tough_soldier"
+		add_trait="trained_warrior"
+		add_trait="knight"
+	}
+}
+30189 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="valeman"
+
+	8266.1.1 = {birth="8266.1.1"}
+}
+940771 = {
+	name="Hodor"
+	dynasty=189
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94077
+	mother=30189
+
+	8283.1.1 = {birth="8283.1.1"}
+}
+9409034 = {
+	name="Hodor"
+	dynasty=189
+	female=yes
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94077
+	mother=30189
+
+	8286.1.1 = {birth="8286.1.1"}
+}
+94080 = {
+	name="Hodor" #Lord Waxley, unnamed in Canon, Lord of Crabs Shore
+	dynasty=189
+	religion="the_seven"
+	culture="valeman"
+		
+	father=940801
+	mother=20189
+	
+	8255.1.1 = {birth="8255.1.1"}
+	8271.1.1 = {add_spouse = 500189
+		add_trait="tough_soldier"
+		add_trait="trained_warrior"
+		add_trait="knight"
+	}
+}
+500189 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	8255.1.1 = {birth="8255.1.1"}
+}
+940772 = {
+	name="Hodor"
+	dynasty=189
+	religion="the_seven"
+	culture="valeman"
+		
+	father=94080
+	mother=500189
+
+	8281.1.1 = {birth="8281.1.1"}
+	8297.1.1 = {
+		add_trait="tough_soldier"
+		add_trait="trained_warrior"
+		add_trait="knight"
+	}
+}
+9409035 = {
+	name="Hodor"
+	dynasty=189
+	female=yes
+	religion="the_seven"
+	culture="valeman"
+		
+	father=94080
+	mother=500189
+
+	8282.1.1 = {birth="8282.1.1"}
+}
+9409036 = {
+	name="Hodor"
+	dynasty=189
+	female=yes
+	religion="the_seven"
+	culture="valeman"
+		
+	father=94080
+	mother=500189
+
+	8284.1.1 = {birth="8284.1.1"}
+}
+9409037 = {
+	name="Hodor"
+	dynasty=189
+	religion="the_seven"
+	culture="valeman"
+		
+	father=94080
+	mother=500189
+
+	8286.1.1 = {birth="8286.1.1"}
+}
+940801 = {
+	name="Hodor" #Linking Father
+	dynasty=189
+	religion="the_seven"
+	culture="valeman"
+		
+	father=3018189
+	mother=4018189
+	
+	8235.1.1 = {birth="8235.1.1"}
+	8251.1.1 = {add_spouse = 20189
+		add_trait="tough_soldier"
+		add_trait="trained_warrior"
+		add_trait="knight"
+	}
+	8275.1.1 = {death="8275.1.1"}
+}
+20189 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	8235.1.1 = {birth="8235.1.1"}
+	8280.1.1 = {death="8280.1.1"}
+}
+#Templeton
+94044 = {
+	name="Hodor" #Knight of Ninestars
+	dynasty=172
+	religion="the_seven"
+	culture="valeman"
+
+	father=3017172
+	mother=4017172
+	
+	8238.1.1 = {birth="8238.1.1"}
+	8254.1.1 = {add_trait="tough_soldier"
+				add_trait="trained_warrior"
+				add_trait="knight"	
+	}
+	8269.1.1 = {add_spouse=694089} #Sarya Royce, Daughter to a Stark Woman
+}
+
+94122 = {
+	name="Hodor"
+	dynasty=172
+	female=yes
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94044
+	mother=694089
+	
+	8270.1.1 = {birth="8270.1.1"}
+	8286.1.1={death = {death_reason = death_dungeon # Childbirth
+		}
+	}
+}
+94123 = {
+	name="Hodor"
+	dynasty=172
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94044
+	mother=694089
+	
+	8266.1.1 = {birth="8266.1.1"}
+	8282.1.1 = {add_trait="knight"}
+	8287.1.1 = {add_spouse="94104"}
+}
+9409026 = {
+	name="Hodor"
+	dynasty=172
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94123
+	mother=94104
+	
+	8288.1.1 = {birth="8288.1.1"}
+}
+######################
+###The Giants Spear###
+######################
+#no Arryns. they are at the beginning of the file#
+###House Corbray
+94048 = {
+	name="Hodor" #unnamed in canon, Lord of Heart's Home in Robert's Rebellion, Father of Lord Lyonel&brothers
+	dynasty=176
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	father=221176
+	mother=4050176
+	
+	8232.1.1 = {birth="8232.1.1" }
+	8248.1.1 = {add_spouse = 2176
+			add_trait="tough_soldier"
+			add_trait="trained_warrior"
+			add_trait="knight"
+	}
+	8252.1.1 = {add_trait = "ladyforlorn"}
+	8283.1.1 = {death="8283.1.1"}
+}
+2176 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="valeman"	
+	
+	8232.1.1 = {birth="8232.1.1"}
+	8283.1.1 = {death="8283.1.1"}
+}
+94049 = {
+	name="Hodor" #Lord of Heart's Home in the books.
+	dynasty=176
+
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94048
+	mother=2176
+	
+	add_trait="chaste"
+	add_trait="greedy"
+	add_trait="selfish"
+	
+	8257.1.1 = {birth="8257.1.1" }
+	8273.1.1 = {
+		add_trait="thrifty_clerk" 
+		add_trait="knight" 
+		add_trait="poor_warrior"
+	}
+	8277.1.1 = {add_spouse = 2000176}
+	8283.1.1 = {add_trait="envious"}
+	8287.1.1 = {add_trait="widowed"}
+	8300.3.1 = {
+		remove_trait="widowed"
+		add_spouse = 2001176	#Marriage arranged by Littlefinger.
+		effect = { wealth = 400 prestige = -200 }		#Receives a significant dowry for marrying a commoner.
+	}
+}
+2000176 = {
+	name="Hodor" #Unnamed first wife of Lord Lyonel.
+	female=yes
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	8260.1.1 = {birth="8260.1.1"}
+	8287.1.1 = {death="8287.1.1"}
+}
+2001176 = {
+	name="Hodor" #Unnamed second wife of Lord Lyonel, daughter of a rich Gulltown merchant.
+	female=yes
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	father = 2002176
+	
+	add_trait=fair
+	
+	8284.3.1 = {
+		birth="8284.3.1"
+		effect = { fertility = 0.25 }
+	}
+}
+
+94050 = {
+	name="Hodor" #Brother of Lyonel Lord of Heart's Home
+	dynasty=176
+
+	religion="the_seven"
+	culture="valeman"
+
+	dna="rrasbljdifg"
+	properties="0d0eik"
+	
+	add_trait="wroth"
+	add_trait="fair"
+	add_trait="homosexual"
+	add_trait="proud"
+	
+	father=94048
+	mother=2176
+	
+	8261.1.1 = {birth="8261.1.1" }
+	8277.1.1 = { 
+		add_trait="tough_soldier" 
+		add_trait="skilled_warrior" 
+	}
+	8282.9.15 = { 
+		employer=94064
+		add_trait="knight" 
+	}
+	8283.1.1 = {
+		add_trait="ladyforlorn"
+		employer=94049
+	}
+}
+94051 = {
+	name="Hodor" #Youngest Corbray brother
+	dynasty=176
+
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94048
+	mother=2176
+	
+	8265.1.1 = {birth="8265.1.1"}
+	8281.1.1 = { 
+		add_trait="trained_warrior" 
+		add_trait="knight" 
+	}
+}
+
+2002176 = {
+	name="Hodor" #the rich Gulltown merchant.
+	
+	stewardship=7
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	add_trait=fortune_builder
+	add_trait=diligent
+	add_trait=ruthless
+	
+	8255.3.1 = {
+		birth="8255.3.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8280.3.1 = {
+		effect = { wealth = 200 }
+	}
+	8300.3.1 = { employer = 94049 }
+}
+###
+###House Tollett
+###
+94031 = {
+	name="Hodor" #Lord of the Grey Glen
+	dynasty=162
+	religion="the_seven"
+	culture="valeman"
+	
+	father=2162
+	mother=3162
+	
+	8252.1.1 = {birth="8252.1.1"}
+	8268.1.1 = {add_spouse = 4162}
+}
+4162 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	8252.1.1 = {birth="8252.1.1"}
+}
+5162 = {
+	name="Hodor"
+	dynasty=162
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94031
+	mother=4162
+	
+	8270.1.1 = {birth="8270.1.1"}
+}
+6162 = {
+	name="Hodor"
+	dynasty=162
+	female=yes
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94031
+	mother=4162
+	
+	8275.1.1 = {birth="8275.1.1"}
+}
+175162 = {
+	name="Hodor"
+	dynasty=162
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94031
+	mother=4162
+	
+	8280.1.1 = {birth="8280.1.1"}
+	8296.1.1 = {
+		add_trait=knight
+		add_trait=trained_warrior
+	}
+}
+2162 = {
+	name="Hodor"
+	dynasty=162
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	father=3023162
+	
+	8230.1.1 = {birth="8230.1.1"}
+	8246.1.1 = {add_spouse = 3162}
+	8275.1.1 = {death="8275.1.1"}
+}
+3162 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	8230.1.1 = {birth="8230.1.1"}
+	8275.1.1 = {death="8275.1.1"}
+}
+94032 = {
+	name="Hodor" #Dolorous Ed
+	dynasty=162
+	religion="the_seven"
+	culture="valeman"
+
+	dna="ajbmd0diaa0"
+	properties="ubj0iikbebcb"	#uj0qikbebcb
+	
+	martial=7
+	stewardship=8
+	diplomacy = 8
+	intrigue = 9
+	learning = 4
+	
+	father=2162
+	mother=3162
+
+	add_trait="depressed"
+	add_trait="fortune_builder"
+	add_trait="trained_warrior"
+	add_trait="humble"
+	add_trait="honest"
+	add_trait="brave"
+	add_trait="content"
+	
+	8266.1.1 = {birth="8266.1.1"} 
+	8278.1.1 = {
+		add_trait="nightswatch"
+		give_nickname = nick_dolorous_ed
+		effect = { 
+			add_character_modifier = {
+				name = nw_steward
+				duration = -1
+			}
+		}
+	}
+}
+################
+###Strongsong###
+################
+###House Belmore###
+94028 = {
+	name="Hodor" #Lord of Strongsong
+	dynasty=161
+	religion="the_seven"
+	culture="valeman"
+	
+	add_trait="gluttonous"
+	add_trait="authoritative"
+	add_trait="proud"
+	add_trait="underhanded_rogue"
+	add_trait="wroth"
+	add_trait="arbitrary"
+	
+	father=94091
+	mother=100161
+	
+	8242.1.1 = {birth="8242.1.1"}
+	8258.1.1 = {add_spouse = 101161}
+}
+101161 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	8242.1.1 = {birth="8242.1.1"}
+}
+102161 = {
+	name="Hodor"
+	dynasty=161
+	female=yes
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94028
+	mother=101161
+	
+	8262.1.1 = {birth="8262.1.1"}
+}
+103161 = {
+	name="Hodor"
+	dynasty=161
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94028
+	mother=101161
+	
+	8266.1.1 = {birth="8266.1.1"}
+}
+94029 = {
+	name="Hodor" #Captain of the Guards at the Eyrie
+	dynasty=161
+	religion="the_seven"
+	culture="valeman"
+	
+	martial = 8
+	diplomacy = 4
+	intrigue = 6
+	stewardship = 6
+	learning = 5
+	
+	add_trait="tough_soldier"
+	
+	father=94091
+	mother=100161
+	
+	8243.1.1 = {birth="8243.1.1"}
+	8259.1.1 = {
+		add_trait="trained_warrior"
+		add_trait="knight"
+	}
+	8262.1.1 = {employer=94002}
+}
+94030 = {
+	name="Hodor" #Elbert Arryn's mother
+	female=yes
+	dynasty=161
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94091
+	mother=100161
+	
+	8230.1.1 = {birth="8230.1.1"}
+}
+94091 = {
+	name="Hodor" #Linking all father.
+	dynasty=161
+	religion="the_seven"
+	culture="valeman"
+	
+	father=3024161
+	mother=4024161
+	
+	8214.1.1 = {birth="8214.1.1"}
+	8230.1.1 = {add_spouse = 100161}
+	8279.1.1 = {death="8279.1.1"}
+}
+100161 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	8214.1.1 = {birth="8214.1.1"}
+	8279.1.1 = {death="8279.1.1"}
+}
+### House Egen###
+94079 = {
+	name="Hodor" #non-canon Lord of Crown Crag
+	dynasty=175
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94092
+	mother=100175
+	
+	8249.1.1 = {birth="8249.1.1"}
+	8265.1.1 = {add_spouse = 101175}
+}
+101175 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	8249.1.1 = {birth="8249.1.1"}
+}
+102175 = {
+	name="Hodor"
+	female=yes
+	dynasty=175
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94079
+	mother=101175
+	
+	8270.1.1 = {birth="8270.1.1"}
+}
+103175 = {
+	name="Hodor"
+	dynasty=175
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94079
+	mother=101175
+	
+	8275.1.1 = {birth="8275.1.1"}
+}
+94047 = {
+	name="Hodor" #At the Eyrie
+	dynasty=175
+	religion="the_seven"
+	culture="valeman"
+
+	dna="ccdkb0biaa0"
+	properties="ug0gikbebcb"
+	
+	martial=6
+	
+	add_trait="tough_soldier"
+	add_trait="diligent"
+	add_trait="proud"
+	add_trait="brave"
+	add_trait="content"
+	
+	father=94092
+	mother=100175
+	
+	8254.1.1 = {birth="8254.1.1"}
+
+	8270.1.1 = { 
+		employer=94002 
+		add_trait="knight"
+		add_trait="poor_warrior"
+	}	
+	8285.1.1 = { 
+		add_spouse=450175
+	}	
+	8298.1.1={
+		death = {
+			death_reason = death_duel_trial_by_combat
+			killer = 200035 # duel against Bronn
+		}
+	}
+}
+450175 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	8264.1.1 = {birth="8264.1.1"}
+}
+94092 = {
+	name="Hodor" #Linking all father.
+	dynasty=175
+	religion="the_seven"
+	culture="valeman"
+	
+	father=318175
+	mother=418175
+	
+	8214.1.1 = {birth="8214.1.1"}
+	8230.1.1 = {add_spouse = 100175}
+	8279.1.1 = {death="8279.1.1"}
+}
+100175 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	8214.1.1 = {birth="8214.1.1"}
+	8279.1.1 = {death="8279.1.1"}
+}
+#Vardis' young son
+150175 = {
+	name="Hodor" #At the Eyrie
+	dynasty=175
+	religion="the_seven"
+	culture="valeman"
+
+	father=94047
+	mother=450175
+	
+	8286.1.1 = {birth="8286.1.1"}
+}
+#################
+###House Moore###
+#################
+94057 = {
+	name="Hodor" #Knight of Kingsguard
+	dynasty=179
+	religion="the_seven"
+	culture="valeman"
+
+	dna="bkdfh0hdba0"
+	properties="ud0pikbebcb"
+	
+	martial = 10
+	diplomacy = 5
+	intrigue = 8
+	stewardship = 4
+	learning = 5
+		
+	add_trait="diligent"
+	add_trait="proud"
+	add_trait="brave"
+	add_trait="deceitful"
+	
+	father=194057
+	mother=294057
+	
+	8264.1.1 = {birth="8264.1.1"}
+	8280.1.1 = {
+		add_trait="skilled_tactician"
+		add_trait="skilled_warrior"
+		add_trait="knight"
+	}
+	8284.1.1={ #kingsguard
+		add_trait="kingsguard"
+		employer=201302 # Barristan Selmy
+	}
+	8299.1.1 = { employer = 3190}		# Jaime Lannister
+	8299.7.1 = {
+		death = { 
+			death_reason = death_battle 
+			killer = 4208 #Pod!
+		}
+	}
+}
+
+394057 = {
+	name="Hodor" #Heir to Darkmoor
+	dynasty=179
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	martial = 5
+	diplomacy = 7
+	intrigue = 5
+	stewardship = 8
+	learning = 12
+	
+	father=194057
+	mother=294057
+	
+	add_trait="quick"
+	
+	8259.1.1 = {birth="8259.1.1"}
+	8271.1.1 = {
+		add_trait="kind"
+		add_trait="just"
+		add_trait="honorable"
+		add_trait="wroth"
+		add_trait="stubborn"
+	}
+	8276.1.1 = {add_trait="trained_warrior" add_trait="knight"}
+	8278.1.1 = {
+		add_trait="knight"
+		add_spouse=494057
+	}
+}
+494057 = {
+	name="Hodor"
+	female=yes
+	
+	religion="the_seven"
+	culture="western_valyrian"
+	
+	add_trait="quick" 
+	add_trait="fair" 
+	
+	8262.1.1 = {birth="8262.1.1"}
+	8276.1.1 = {
+		add_trait = "temperate" 
+		add_trait = "just"
+	}
+}
+694057= {
+	name="Hodor" # Grandson of Jon
+	dynasty=179
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	add_trait=twin
+	add_trait=fair
+	
+	
+	father=394057
+	mother=494057
+	
+	8286.1.1 = {birth="8286.1.1"}
+}
+794057= {
+	name="Hodor" # Grandson of Jon
+	dynasty=179
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	add_trait=twin
+	
+	
+	father=394057
+	mother=494057
+	
+	8286.1.1 = {birth="8286.1.1"}
+}
+594057= {
+	name="Hodor"
+	dynasty=179
+	female=yes
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	add_trait="fair"
+	
+	father=194057
+	mother=294057
+	
+	8261.1.1 = {birth="8261.1.1"}
+}
+
+194057 = {
+	name="Hodor" #Lord Darkmoor
+	dynasty=179
+	
+	religion="the_seven"
+	culture="valeman"
+
+	father=194157
+	mother=294157
+	
+	8236.1.1 = {birth="8236.1.1"}
+	8252.1.1 = {add_trait="knight"}
+	8255.1.1 = {add_spouse=294057}
+}
+294057 = {
+	name="Hodor"
+	female=yes
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	8239.1.1 = {birth="8239.1.1"}
+}
+	
+####Unlanded people####
+
+###House Shett###
+
+394063 = {
+	name="Hodor" # Damon's father
+	dynasty=185
+	religion="the_seven"
+	culture="valeman"
+	
+	father=136185
+	mother=436185
+	
+	8240.1.1 = {birth="8240.1.1"}
+	8256.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8295.1.1 = {death="8295.1.1"}
+}
+494063 = {
+	name="Hodor" # Damon's mother
+	female=yes
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	
+	8244.1.1 = {birth="8244.1.1"}
+}
+##Issue of Aynald##
+94063 = {
+	name="Hodor" #Knight of the Gull tower
+	dynasty=185
+
+	religion="the_seven"
+	culture="valeman"
+	
+	father = 394063
+	mother = 494063
+
+	8264.1.1 = {birth="8264.1.1"}
+	8280.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8282.1.1 = {add_spouse=470185}
+}
+470185 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="valeman"
+
+	8264.1.1 = {birth="8264.1.1"}
+}
+194063 = {
+	name="Hodor"
+	dynasty=185
+	religion="the_seven"
+	culture="valeman"
+	
+	father = 394063
+	mother = 494063
+	
+	8266.1.1 = {birth="8266.1.1"}
+	8282.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8282.1.1 = {add_spouse=594057}
+	
+}
+##Issue of Damon##
+171185 = {
+	name="Hodor"	# not a lord
+	dynasty=185
+
+	religion="the_seven"
+	culture="valeman"
+
+	father=94063
+	mother=470185
+
+	8283.1.1 = {birth="8283.1.1"}
+	8299.1.1 = {add_trait=knight add_trait=poor_warrior}
+}
+172185 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=185
+
+	religion="the_seven"
+	culture="valeman"
+	
+	add_trait=fair
+
+	father=94063
+	mother=470185
+
+	8285.1.1 = {birth="8285.1.1"}
+}
+##Issue of Lymond##
+173185 = {
+	name="Hodor"	# not a lord, canon
+	dynasty=185
+
+	religion="the_seven"
+	culture="valeman"
+
+	father=194063
+	mother=594057
+	
+	add_trait=greedy
+	add_trait=lustful
+	add_trait=misguided_warrior
+
+	8282.1.1 = {birth="8282.1.1"}
+	8298.1.1 = {add_trait=knight add_trait=poor_warrior}
+}
+###House Breakstone###
+136801047 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=801047
+
+	religion="the_seven"
+	culture="valeman"
+
+	father=134801047
+	mother=434801047
+
+	8234.1.1 = {birth="8234.1.1"}
+	8272.1.1 = {death="8272.1.1"}
+}
+137801047 = {
+	name="Hodor"	# a lord
+	dynasty=801047
+
+	religion="the_seven"
+	culture="valeman"
+
+	father=134801047
+	mother=434801047
+
+	8235.1.1 = {birth="8235.1.1"}
+	8251.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8253.1.1 = {add_spouse=437801047}
+}
+437801047 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="valeman"
+
+	8235.1.1 = {birth="8235.1.1"}
+}
+138801047 = {
+	name="Hodor"	# not a lord
+	dynasty=801047
+
+	religion="the_seven"
+	culture="valeman"
+
+	father=137801047
+	mother=437801047
+
+	8253.1.1 = {birth="8253.1.1"}
+	8269.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8271.1.1 = {add_spouse=438801047}
+	8299.1.1 = {death="8299.1.1"}
+}
+438801047 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="valeman"
+
+	8253.1.1 = {birth="8253.1.1"}
+	8299.1.1 = {death="8299.1.1"}
+}
+139801047 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=801047
+
+	religion="the_seven"
+	culture="valeman"
+
+	father=137801047
+	mother=437801047
+
+	8255.1.1 = {birth="8255.1.1"}
+	8293.1.1 = {death="8293.1.1"}
+}
+140801047 = {
+	name="Hodor"	# not a lord
+	dynasty=801047
+
+	religion="the_seven"
+	culture="valeman"
+
+	father=137801047
+	mother=437801047
+
+	8258.1.1 = {birth="8258.1.1"}
+	8274.1.1 = {add_trait=poor_warrior}
+	8276.1.1 = {add_spouse=440801047}
+}
+440801047 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="valeman"
+
+	8258.1.1 = {birth="8258.1.1"}
+}
+141801047 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=801047
+
+	religion="the_seven"
+	culture="valeman"
+
+	father=137801047
+	mother=437801047
+
+	8260.1.1 = {birth="8260.1.1"}
+}
+142801047 = {
+	name="Hodor"	# not a lord
+	dynasty=801047
+
+	religion="the_seven"
+	culture="valeman"
+
+	father=138801047
+	mother=438801047
+
+	8277.1.1 = {birth="8277.1.1"}
+	8293.1.1 = {add_trait=knight add_trait=poor_warrior}
+}
+143801047 = {
+	name="Hodor"	# not a lord, Canon
+	dynasty=801047
+
+	religion="the_seven"
+	culture="valeman"
+
+	father=140801047
+	mother=440801047
+
+	8280.1.1 = {birth="8280.1.1"}
+	8296.1.1 = {add_trait=knight add_trait=skilled_warrior}
+}
+144801047 = {
+	name="Hodor"	# not a lord
+	dynasty=801047
+
+	religion="the_seven"
+	culture="valeman"
+
+	father=140801047
+	mother=440801047
+
+	8283.1.1 = {birth="8283.1.1"}
+	8299.1.1 = {add_trait=knight add_trait=trained_warrior}
+}
+###AAR WINNERS###
+###House Badics###
+###EtzelHoveri - AAR Contest Winner###
+
+110000 = {
+	name="Hodor"
+	dynasty=10000
+	martial=2
+	diplomacy=3
+	stewardship=4
+	intrigue=3
+	learning=3
+	
+	add_trait="skilled_tactician"
+	#add_trait="quick"
+	add_trait="strong"
+	add_trait="ambitious"
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	8256.1.1 = {birth="8256.1.1"}
+	8272.1.1= {
+		add_spouse=210000
+		add_trait="trained_warrior"
+	}
+}
+210000= {
+	name="Hodor"
+	female=yes
+	
+	intrigue=4
+	
+	add_trait="elusive_shadow"
+	#add_trait="quick"
+	add_trait="fair"
+	add_trait="lustful"
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	8251.1.1 = {birth="8251.1.1"}
+	8272.1.1= {add_spouse=110000}
+}
+310000 = {
+	name="Hodor"
+	dynasty=10000
+	
+	diplomacy=4
+	martial=4
+	stewardship=4
+	intrigue=4
+	learning=4
+	
+	#add_trait="quick"
+	add_trait="fair"
+	add_trait="kind"
+	add_trait="patient"
+	add_trait="twin"
+
+	father=110000
+	mother=210000
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	8281.1.1 = {birth="8281.1.1"}
+}
+410000 = {
+	name="Hodor"
+	dynasty=10000
+	female=yes
+	
+	diplomacy=4
+	martial=4
+	stewardship=4
+	intrigue=4
+	learning=4
+	
+	#add_trait="quick"
+	add_trait="fair"
+	add_trait="lustful"
+	add_trait="humble"
+	add_trait="twin"
+
+	father=110000
+	mother=210000
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	8281.1.1 = {birth="8281.1.1"}
+}
+
+###House Saul###
+##Nicholias##
+
+210001= {
+    name="Hodor"
+    dynasty=10001
+    dna="dlcfkbidacl"
+    properties="ce0dck0000"
+	
+	diplomacy=4
+    
+	religion="the_seven"
+    culture="valeman"
+    
+	add_trait="charismatic_negotiator"
+    add_trait="fair"
+    add_trait="ambitious"
+    add_trait="patient"
+    add_trait="charitable"
+    
+	father=110001
+    
+	8266.8.19={birth="8266.8.19"}
+}
+
+310001 = {
+       name="Hodor"
+       dynasty=10001
+       dna="dlafkmidfcf"
+       properties="ch0dik0000"
+	   
+	   
+       
+	   religion="the_seven"
+       culture="valeman"
+       add_trait="tough_soldier"
+       #add_trait="quick"
+       #add_trait="brave"
+       add_trait="zealous"
+       add_trait="skilled_warrior"
+       
+	   father=110001
+       
+	   8268.6.4={birth="8268.6.4"}
+}
+
+110001 = {
+       name="Hodor" #Father
+       dynasty=10001
+       dna="blcchyiaace"
+       properties="ce0dik0000"
+       religion="the_seven"
+       culture="valeman"
+       add_trait="thrifty_clerk"
+       add_trait="hunter"
+       add_trait="brave"
+       add_trait="diligent"
+       add_trait="trained_warrior"
+       8242.1.1={birth="8242.1.1"}
+       8282.1.1={death="8282.1.1"}
+}
+
+##House Back## #Moved to Skull Island
+#Andaries#
+110002= {
+    name="Hodor"
+    dynasty=10002
+    
+	religion="pirate"
+    culture="valeman"
+    
+	martial = 0
+	diplomacy = 0
+	intrigue = 12
+	stewardship = 0 
+	learning = 8
+	
+	add_trait="intricate_webweaver"
+    add_trait="wroth"
+    add_trait="craven"
+    add_trait="inbred"
+    add_trait="cruel"
+	add_trait="zealous"
+	add_trait="authoritative"
+  
+	8248.1.1={birth="8248.1.1"}
+	8266.1.1={add_spouse=210002}
+}
+210002= {
+    name="Hodor"
+    female=yes
+	
+	religion="pirate"
+    culture="valeman"
+    
+	martial = 5
+	diplomacy = 7
+	intrigue = 9
+	stewardship = 12 
+	learning = 9
+	
+	add_trait="elusive_shadow"
+    add_trait="kind"
+    add_trait="deceitful"
+    add_trait="diligent"
+    add_trait="patient"
+  
+	8250.1.1={birth="8250.1.1"}
+}
+310002= {
+    name="Hodor"
+    dynasty=10002
+    
+	religion="pirate"
+    culture="valeman"
+    
+	martial = 7
+	diplomacy = 7
+	intrigue = 8
+	stewardship = 10 
+	learning = 7
+	
+	add_trait="tough_soldier"
+    add_trait="trained_warrior"
+    add_trait="authoritative"
+    add_trait="humble"
+    add_trait="twin"
+  
+	father=110002
+	mother=210002
+  
+	8266.9.1={birth="8266.9.1"}
+}
+410002= {
+    name="Hodor"
+    dynasty=10002
+    
+	religion="pirate"
+    culture="valeman"
+    
+	martial = 14
+	diplomacy = 7
+	intrigue = 8
+	stewardship = 10 
+	learning = 7
+		
+    add_trait="fair"
+    add_trait="twin"
+	  
+	father=110002
+	mother=210002
+  
+	8266.9.1={birth="8266.9.1"}
+	8275.1.1={
+		add_trait="temperate"
+		add_trait="kind"
+		add_trait="deceitful"
+	}
+	8280.1.1={
+		add_trait="grey_eminence"
+		add_trait="brave"
+		add_trait="lustful"
+	}
+}
+##Hedge Knights/Other##
+150801048= {
+    name="Hodor"
+    dynasty=801048 #Lipps
+    
+	religion="the_seven"
+    culture="valeman"
+    
+	martial = 4
+	diplomacy = 2
+	intrigue = 3
+	stewardship = 4
+	learning = 2
+	
+	add_trait="tough_soldier"
+	add_trait="gregarious"
+	
+	8270.1.1={birth="8270.1.1"}
+	8286.1.1={
+		add_trait="knight"
+		add_trait="poor_warrior"
+	}
+}
+

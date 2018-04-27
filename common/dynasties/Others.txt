@@ -1,0 +1,165 @@
+# last dynasty number used is 4500019 (Ironmaker)
+
+#Aztec sillyness
+1035000 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035001 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035002 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035003 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035004 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035005 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035006 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035007 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035008 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035009 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035010 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035011 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035012 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035013 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035014 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035015 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035016 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035017 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035018 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035019 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035020 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035021 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035022 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035023 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035024 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035025 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035026 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035027 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035028 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035029 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035030 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035031 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035032 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035033 = {
+	name="Hodor"
+	culture = nahuatl
+}
+1035034 = {
+	name="Hodor"
+	culture = nahuatl
+}
+
+
+4500018 = {
+	name = "Tall"
+	culture = hedge
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 56
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+4500020 = {
+	name = "Strong"
+	culture = hedge
+}

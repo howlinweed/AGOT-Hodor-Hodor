@@ -1,0 +1,1074 @@
+#Salukho of Talon, house of AFFC Corsair King
+100305000 = {
+	name="Hodor"	# a lord
+	dynasty=305000
+
+	religion="corsair"
+	culture="summer_islander"
+
+	7970.1.1 = {birth="7970.1.1"}
+	7986.1.1 = {add_trait=trained_warrior}
+	7988.1.1 = {add_spouse=400305000}
+	8016.1.1 = {death="8016.1.1"}
+}
+400305000 = {
+	name="Hodor"
+	female=yes
+
+	religion="corsair"
+	culture="summer_islander"
+
+	7970.1.1 = {birth="7970.1.1"}
+	8016.1.1 = {death="8016.1.1"}
+}
+101305000 = {
+	name="Hodor"	# a lord
+	dynasty=305000
+
+	religion="corsair"
+	culture="summer_islander"
+
+	father=100305000
+	mother=400305000
+
+	7998.1.1 = {birth="7998.1.1"}
+	8014.1.1 = {add_trait=trained_warrior}
+	8016.1.1 = {add_spouse=401305000}
+	8043.1.1 = {death="8043.1.1"}
+}
+401305000 = {
+	name="Hodor"
+	female=yes
+
+	religion="corsair"
+	culture="summer_islander"
+
+	7998.1.1 = {birth="7998.1.1"}
+	8043.1.1 = {death="8043.1.1"}
+}
+102305000 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=305000
+
+	religion="corsair"
+	culture="summer_islander"
+
+	father=101305000
+	mother=401305000
+
+	8020.1.1 = {birth="8020.1.1"}
+	8059.1.1 = {death = {death_reason = death_murder}}
+}
+103305000 = {
+	name="Hodor"	# a lord
+	dynasty=305000
+
+	religion="corsair"
+	culture="summer_islander"
+
+	father=101305000
+	mother=401305000
+
+	8022.1.1 = {birth="8022.1.1"}
+	8038.1.1 = {add_trait=trained_warrior}
+	8040.1.1 = {add_spouse=403305000}
+	8085.1.1 = {death="8085.1.1"}
+}
+403305000 = {
+	name="Hodor"
+	female=yes
+
+	religion="corsair"
+	culture="summer_islander"
+
+	8022.1.1 = {birth="8022.1.1"}
+	8085.1.1 = {death="8085.1.1"}
+}
+105305000 = {
+	name="Hodor"	# not a lord
+	dynasty=305000
+
+	religion="corsair"
+	culture="summer_islander"
+
+	father=101305000
+	mother=401305000
+
+	8026.1.1 = {birth="8026.1.1"}
+	8042.1.1 = {add_trait=skilled_warrior}
+	8075.1.1 = {death="8075.1.1"}
+}
+106305000 = {
+	name="Hodor"	# a lord
+	dynasty=305000
+
+	religion="corsair"
+	culture="summer_islander"
+
+	father=103305000
+	mother=403305000
+
+	8057.1.1 = {birth="8057.1.1"}
+	8073.1.1 = {add_trait=trained_warrior}
+	8075.1.1 = {add_spouse=406305000}
+	8121.1.1 = {death="8121.1.1"}
+}
+406305000 = {
+	name="Hodor"
+	female=yes
+
+	religion="corsair"
+	culture="summer_islander"
+
+	8057.1.1 = {birth="8057.1.1"}
+	8121.1.1 = {death="8121.1.1"}
+}
+107305000 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=305000
+
+	religion="corsair"
+	culture="summer_islander"
+
+	father=103305000
+	mother=403305000
+
+	8059.1.1 = {birth="8059.1.1"}
+	8107.1.1 = {death="8107.1.1"}
+}
+108305000 = {
+	name="Hodor"	# a lord
+	dynasty=305000
+
+	religion="corsair"
+	culture="summer_islander"
+
+	father=106305000
+	mother=406305000
+
+	8080.1.1 = {birth="8080.1.1"}
+	8096.1.1 = {add_trait=skilled_warrior}
+	8098.1.1 = {add_spouse=408305000}
+	8132.1.1 = {death="8132.1.1"}
+}
+408305000 = {
+	name="Hodor"
+	female=yes
+
+	religion="corsair"
+	culture="summer_islander"
+
+	8080.1.1 = {birth="8080.1.1"}
+	8132.1.1 = {death="8132.1.1"}
+}
+109305000 = {
+	name="Hodor"	# not a lord
+	dynasty=305000
+
+	religion="corsair"
+	culture="summer_islander"
+
+	father=106305000
+	mother=406305000
+
+	8083.1.1 = {birth="8083.1.1"}
+	8099.1.1 = {add_trait=poor_warrior}
+	8132.1.1 = {death="8132.1.1"}
+}
+110305000 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=305000
+
+	religion="corsair"
+	culture="summer_islander"
+
+	father=106305000
+	mother=406305000
+
+	8084.1.1 = {birth="8084.1.1"}
+	8136.1.1 = {death="8136.1.1"}
+}
+111305000 = {
+	name="Hodor"	# a lord
+	dynasty=305000
+
+	religion="corsair"
+	culture="summer_islander"
+
+	father=108305000
+	mother=408305000
+
+	8098.1.1 = {birth="8098.1.1"}
+	8114.1.1 = {add_trait=trained_warrior}
+	8116.1.1 = {add_spouse=411305000}
+	8165.1.1 = {death="8165.1.1"}
+}
+411305000 = {
+	name="Hodor"
+	female=yes
+
+	religion="corsair"
+	culture="summer_islander"
+
+	8098.1.1 = {birth="8098.1.1"}
+	8165.1.1 = {death="8165.1.1"}
+}
+112305000 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=305000
+
+	religion="corsair"
+	culture="summer_islander"
+
+	father=108305000
+	mother=408305000
+
+	8099.1.1 = {birth="8099.1.1"}
+	8148.1.1 = {death="8148.1.1"}
+}
+113305000 = {
+	name="Hodor"	# not a lord
+	dynasty=305000
+
+	religion="corsair"
+	culture="summer_islander"
+
+	father=111305000
+	mother=411305000
+
+	8132.1.1 = {birth="8132.1.1"}
+	8148.1.1 = {add_trait=poor_warrior}
+	8183.1.1 = {death="8183.1.1"}
+}
+114305000 = {
+	name="Hodor"	# a lord
+	dynasty=305000
+
+	religion="corsair"
+	culture="summer_islander"
+
+	father=111305000
+	mother=411305000
+
+	8133.1.1 = {birth="8133.1.1"}
+	8149.1.1 = {add_trait=master_warrior}
+	8151.1.1 = {add_spouse=414305000}
+	8190.1.1 = {death="8190.1.1"}
+}
+414305000 = {
+	name="Hodor"
+	female=yes
+
+	religion="corsair"
+	culture="summer_islander"
+
+	8133.1.1 = {birth="8133.1.1"}
+	8190.1.1 = {death="8190.1.1"}
+}
+116305000 = {
+	name="Hodor"	# a lord
+	dynasty=305000
+
+	religion="corsair"
+	culture="summer_islander"
+
+	father=111305000
+	mother=411305000
+
+	8139.1.1 = {birth="8139.1.1"}
+	8155.1.1 = {add_trait=skilled_warrior}
+	8157.1.1 = {add_spouse=416305000}
+	8218.1.1 = {death="8218.1.1"}
+}
+416305000 = {
+	name="Hodor"
+	female=yes
+
+	religion="corsair"
+	culture="summer_islander"
+
+	8139.1.1 = {birth="8139.1.1"}
+	8218.1.1 = {death="8218.1.1"}
+}
+117305000 = {
+	name="Hodor"	# a lord
+	female=yes
+	dynasty=305000
+
+	religion="corsair"
+	culture="summer_islander"
+
+	father=116305000
+	mother=416305000
+
+	8159.1.1 = {birth="8159.1.1"}
+	8229.1.1 = {death="8229.1.1"}
+}
+118305000 = {
+	name="Hodor"	# not a lord
+	dynasty=305000
+
+	religion="corsair"
+	culture="summer_islander"
+
+	father=116305000
+	mother=416305000
+
+	8160.1.1 = {birth="8160.1.1"}
+	8176.1.1 = {add_trait=trained_warrior}
+	8178.1.1 = {add_spouse=418305000}
+	8212.1.1 = {death="8212.1.1"}
+}
+418305000 = {
+	name="Hodor"
+	female=yes
+
+	religion="corsair"
+	culture="summer_islander"
+
+	8160.1.1 = {birth="8160.1.1"}
+	8212.1.1 = {death="8212.1.1"}
+}
+119305000 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=305000
+
+	religion="corsair"
+	culture="summer_islander"
+
+	father=116305000
+	mother=416305000
+
+	8162.1.1 = {birth="8162.1.1"}
+	8222.1.1 = {death="8222.1.1"}
+}
+122305000 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=305000
+
+	religion="corsair"
+	culture="summer_islander"
+
+	father=118305000
+	mother=418305000
+
+	8197.1.1 = {birth="8197.1.1"}
+	8274.1.1 = {death="8274.1.1"}
+}
+123305000 = {
+	name="Hodor"	# a lord
+	dynasty=305000
+
+	religion="corsair"
+	culture="summer_islander"
+
+	father=118305000
+	mother=418305000
+
+	8199.1.1 = {birth="8199.1.1"}
+	8215.1.1 = {add_trait=skilled_warrior}
+	8217.1.1 = {add_spouse=423305000}
+	8276.1.1 = {death="8276.1.1"}
+}
+423305000 = {
+	name="Hodor"
+	female=yes
+
+	religion="corsair"
+	culture="summer_islander"
+
+	8199.1.1 = {birth="8199.1.1"}
+	8276.1.1 = {death="8276.1.1"}
+}
+124305000 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=305000
+
+	religion="corsair"
+	culture="summer_islander"
+
+	father=118305000
+	mother=418305000
+
+	8202.1.1 = {birth="8202.1.1"}
+	8231.1.1 = {death="8231.1.1"}
+}
+125305000 = {
+	name="Hodor"	# not a lord
+	dynasty=305000
+
+	religion="corsair"
+	culture="summer_islander"
+
+	father=123305000
+	mother=423305000
+
+	8218.1.1 = {birth="8218.1.1"}
+	8234.1.1 = {add_trait=poor_warrior}
+	8259.1.1 = {death="8259.1.1"}
+}
+126305000 = {
+	name="Hodor"	# a lord
+	dynasty=305000
+
+	religion="corsair"
+	culture="summer_islander"
+
+	father=123305000
+	mother=423305000
+
+	8221.1.1 = {birth="8221.1.1"}
+	8237.1.1 = {add_trait=skilled_warrior}
+	8239.1.1 = {add_spouse=426305000}
+	8291.1.1 = {death="8291.1.1"}
+}
+426305000 = {
+	name="Hodor"
+	female=yes
+
+	religion="corsair"
+	culture="summer_islander"
+
+	8221.1.1 = {birth="8221.1.1"}
+	8291.1.1 = {death="8291.1.1"}
+}
+#Corsair King mentioned in AFFC
+6800123 = {
+	name="Hodor"	
+	dynasty=305000
+	
+	martial = 8
+	diplomacy = 7
+	intrigue = 6
+	stewardship = 4
+	learning = 2
+
+	religion="corsair"
+	culture = summer_islander
+	
+	father=126305000
+	mother=426305000
+	
+	add_trait = ambitious
+	add_trait = gregarious
+	add_trait = tough_soldier
+
+	8265.1.1 = {birth="8265.1.1"}
+	8282.1.1 = {add_trait=skilled_warrior}
+	8283.1.1 = {add_spouse=427305000}
+	8300.1.1 = {
+		effect = {
+			prestige = 250
+			wealth = 100
+		}
+	}
+}
+427305000 = {
+	name="Hodor"
+	female=yes
+
+	religion="corsair"
+	culture="summer_islander"
+
+	8265.1.1 = {birth="8265.1.1"}
+}
+128305000 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=305000
+
+	religion="corsair"
+	culture="summer_islander"
+
+	father=126305000
+	mother=426305000
+
+	8267.1.1 = {birth="8267.1.1"}
+}
+129305000 = {
+	name="Hodor"	# not a lord
+	dynasty=305000
+
+	religion="corsair"
+	culture="summer_islander"
+
+	father=126305000
+	mother=426305000
+
+	8270.1.1 = {birth="8270.1.1"}
+	8286.1.1 = {add_trait=trained_warrior}
+}
+130305000 = {
+	name="Hodor"	# not a lord
+	dynasty=305000
+
+	religion="corsair"
+	culture="summer_islander"
+
+	father=6800123
+	mother=427305000
+
+	8289.1.1 = {birth="8289.1.1"}
+	8305.1.1 = {add_trait=poor_warrior}
+}
+131305000 = {
+	name="Hodor"	# not a lord
+	dynasty=305000
+
+	religion="corsair"
+	culture="summer_islander"
+
+	father=6800123
+	mother=427305000
+
+	8290.1.1 = {birth="8290.1.1"}
+	8306.1.1 = {add_trait=skilled_warrior}
+}
+
+
+#Brotherhood of Bones
+100305001 = {
+	name="Hodor"	# a lord
+	dynasty=305001
+	
+	martial=2
+	intrigue=4
+	diplomacy=6
+	stewardship=4
+	learning=4
+	
+	religion="corsair"
+	culture="summer_islander"
+	
+	add_trait=grey_eminence
+	add_trait=quick
+
+	7970.1.1 = {birth="7970.1.1"}
+	7986.1.1 = {add_trait=skilled_warrior}
+	8025.1.1 = {death="8025.1.1"}
+}
+
+#Xhore of Ax Isle
+100350021 = {
+	name="Hodor"	# a lord, canon The First Corsair
+	dynasty=350021
+	
+	martial=5
+	intrigue=4
+	diplomacy=6
+	stewardship=4
+	learning=4
+
+	religion="corsair"
+	culture="qartheen"
+	
+	add_trait=skilled_tactician
+	add_trait=brave
+	add_trait=ambitious
+	
+	7972.1.1 = {birth="7972.1.1"}
+	7988.1.1 = {add_trait=master_warrior}
+	7990.1.1 = {add_spouse=400350021}
+	8024.1.1 = {death="8024.1.1"}
+}
+400350021 = {
+	name="Hodor"
+	female=yes
+
+	religion="corsair"
+	culture="qartheen"
+
+	7972.1.1 = {birth="7972.1.1"}
+	8024.1.1 = {death="8024.1.1"}
+}
+101350021 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=350021
+
+	religion="corsair"
+	culture="qartheen"
+
+	father=100350021
+	mother=400350021
+
+	7996.1.1 = {birth="7996.1.1"}
+	8058.1.1 = {death="8058.1.1"}
+}
+102350021 = {
+	name="Hodor"	# a lord
+	dynasty=350021
+
+	religion="corsair"
+	culture="qartheen"
+
+	father=100350021
+	mother=400350021
+
+	7998.1.1 = {birth="7998.1.1"}
+	8014.1.1 = {add_trait=trained_warrior}
+	8016.1.1 = {add_spouse=402350021}
+	8045.1.1 = {death="8045.1.1"}
+}
+402350021 = {
+	name="Hodor"
+	female=yes
+
+	religion="corsair"
+	culture="qartheen"
+
+	7998.1.1 = {birth="7998.1.1"}
+	8045.1.1 = {death="8045.1.1"}
+}
+103350021 = {
+	name="Hodor"	# a lord
+	dynasty=350021
+
+	religion="corsair"
+	culture="qartheen"
+
+	father=102350021
+	mother=402350021
+
+	8030.1.1 = {birth="8030.1.1"}
+	8046.1.1 = {add_trait=skilled_warrior}
+	8048.1.1 = {add_spouse=403350021}
+	8072.1.1 = {death="8072.1.1"}
+}
+403350021 = {
+	name="Hodor"
+	female=yes
+
+	religion="corsair"
+	culture="qartheen"
+
+	8030.1.1 = {birth="8030.1.1"}
+	8072.1.1 = {death="8072.1.1"}
+}
+104350021 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=350021
+
+	religion="corsair"
+	culture="qartheen"
+
+	father=102350021
+	mother=402350021
+
+	8031.1.1 = {birth="8031.1.1"}
+	8078.1.1 = {death="8078.1.1"}
+}
+105350021 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=350021
+
+	religion="corsair"
+	culture="qartheen"
+
+	father=103350021
+	mother=403350021
+
+	8050.1.1 = {birth="8050.1.1"}
+	8103.1.1 = {death="8103.1.1"}
+}
+106350021 = {
+	name="Hodor"	# a lord
+	dynasty=350021
+
+	religion="corsair"
+	culture="qartheen"
+
+	father=103350021
+	mother=403350021
+
+	8053.1.1 = {birth="8053.1.1"}
+	8069.1.1 = {add_trait=poor_warrior}
+	8071.1.1 = {add_spouse=406350021}
+	8118.1.1 = {death="8118.1.1"}
+}
+406350021 = {
+	name="Hodor"
+	female=yes
+
+	religion="corsair"
+	culture="qartheen"
+
+	8053.1.1 = {birth="8053.1.1"}
+	8118.1.1 = {death="8118.1.1"}
+}
+107350021 = {
+	name="Hodor"	# not a lord
+	dynasty=350021
+
+	religion="corsair"
+	culture="qartheen"
+
+	father=106350021
+	mother=406350021
+
+	8072.1.1 = {birth="8072.1.1"}
+	8088.1.1 = {add_trait=poor_warrior}
+	8138.1.1 = {death = {death_reason = death_murder}}
+}
+108350021 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=350021
+
+	religion="corsair"
+	culture="qartheen"
+
+	father=106350021
+	mother=406350021
+
+	8074.1.1 = {birth="8074.1.1"}
+	8144.1.1 = {death="8144.1.1"}
+}
+110350021 = {
+	name="Hodor"	# a lord
+	dynasty=350021
+
+	religion="corsair"
+	culture="qartheen"
+
+	father=106350021
+	mother=406350021
+
+	8079.1.1 = {birth="8079.1.1"}
+	8095.1.1 = {add_trait=skilled_warrior}
+	8097.1.1 = {add_spouse=410350021}
+	8154.1.1 = {death="8154.1.1"}
+}
+410350021 = {
+	name="Hodor"
+	female=yes
+
+	religion="corsair"
+	culture="qartheen"
+
+	8079.1.1 = {birth="8079.1.1"}
+	8154.1.1 = {death="8154.1.1"}
+}
+111350021 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=350021
+
+	religion="corsair"
+	culture="qartheen"
+
+	father=110350021
+	mother=410350021
+
+	8107.1.1 = {birth="8107.1.1"}
+	8142.1.1 = {death="8142.1.1"}
+}
+112350021 = {
+	name="Hodor"	# a lord
+	dynasty=350021
+
+	religion="corsair"
+	culture="qartheen"
+
+	father=110350021
+	mother=410350021
+
+	8108.1.1 = {birth="8108.1.1"}
+	8124.1.1 = {add_trait=skilled_warrior}
+	8126.1.1 = {add_spouse=412350021}
+	8165.1.1 = {death="8165.1.1"}
+}
+412350021 = {
+	name="Hodor"
+	female=yes
+
+	religion="corsair"
+	culture="qartheen"
+
+	8108.1.1 = {birth="8108.1.1"}
+	8165.1.1 = {death="8165.1.1"}
+}
+113350021 = {
+	name="Hodor"	# not a lord
+	dynasty=350021
+
+	religion="corsair"
+	culture="qartheen"
+
+	father=112350021
+	mother=412350021
+
+	8126.1.1 = {birth="8126.1.1"}
+	8142.1.1 = {add_trait=poor_warrior}
+	8144.1.1 = {add_spouse=413350021}
+	8164.1.1 = {death = {death_reason = death_murder}}
+}
+413350021 = {
+	name="Hodor"
+	female=yes
+
+	religion="corsair"
+	culture="qartheen"
+
+	8126.1.1 = {birth="8126.1.1"}
+	8164.1.1 = {death="8164.1.1"}
+}
+114350021 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=350021
+
+	religion="corsair"
+	culture="qartheen"
+
+	father=113350021
+	mother=413350021
+
+	8153.1.1 = {birth="8153.1.1"}
+	8206.1.1 = {death="8206.1.1"}
+}
+117350021 = {
+	name="Hodor"	# a lord
+	dynasty=350021
+
+	religion="corsair"
+	culture="qartheen"
+
+	father=113350021
+	mother=413350021
+
+	8159.1.1 = {birth="8159.1.1"}
+	8175.1.1 = {add_trait=trained_warrior}
+	8177.1.1 = {add_spouse=417350021}
+	8213.1.1 = {death="8213.1.1"}
+}
+417350021 = {
+	name="Hodor"
+	female=yes
+
+	religion="corsair"
+	culture="qartheen"
+
+	8159.1.1 = {birth="8159.1.1"}
+	8213.1.1 = {death="8213.1.1"}
+}
+118350021 = {
+	name="Hodor"	# not a lord
+	dynasty=350021
+
+	religion="corsair"
+	culture="qartheen"
+
+	father=117350021
+	mother=417350021
+
+	8181.1.1 = {birth="8181.1.1"}
+	8197.1.1 = {add_trait=poor_warrior}
+	8199.1.1 = {add_spouse=418350021}
+	8249.1.1 = {death="8249.1.1"}
+}
+418350021 = {
+	name="Hodor"
+	female=yes
+
+	religion="corsair"
+	culture="qartheen"
+
+	8181.1.1 = {birth="8181.1.1"}
+	8249.1.1 = {death="8249.1.1"}
+}
+119350021 = {
+	name="Hodor"	# not a lord
+	dynasty=350021
+
+	religion="corsair"
+	culture="qartheen"
+
+	father=117350021
+	mother=417350021
+
+	8184.1.1 = {birth="8184.1.1"}
+	8200.1.1 = {add_trait=poor_warrior}
+	8239.1.1 = {death="8239.1.1"}
+}
+120350021 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=350021
+
+	religion="corsair"
+	culture="qartheen"
+
+	father=117350021
+	mother=417350021
+
+	8186.1.1 = {birth="8186.1.1"}
+	8246.1.1 = {death="8246.1.1"}
+}
+121350021 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=350021
+
+	religion="corsair"
+	culture="qartheen"
+
+	father=117350021
+	mother=417350021
+
+	8188.1.1 = {birth="8188.1.1"}
+	8245.1.1 = {death="8245.1.1"}
+}
+122350021 = {
+	name="Hodor"	# a lord
+	dynasty=350021
+
+	religion="corsair"
+	culture="qartheen"
+
+	father=117350021
+	mother=417350021
+
+	8190.1.1 = {birth="8190.1.1"}
+	8206.1.1 = {add_trait=skilled_warrior}
+	8208.1.1 = {add_spouse=422350021}
+	8263.1.1 = {death="8263.1.1"}
+}
+422350021 = {
+	name="Hodor"
+	female=yes
+
+	religion="corsair"
+	culture="qartheen"
+
+	8190.1.1 = {birth="8190.1.1"}
+	8263.1.1 = {death="8263.1.1"}
+}
+125350021 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=350021
+
+	religion="corsair"
+	culture="qartheen"
+
+	father=122350021
+	mother=422350021
+
+	8218.1.1 = {birth="8218.1.1"}
+	8265.1.1 = {death = {death_reason = death_accident}}
+}
+126350021 = {
+	name="Hodor"	# not a lord
+	dynasty=350021
+
+	religion="corsair"
+	culture="qartheen"
+
+	father=118350021
+	mother=418350021
+
+	8204.1.1 = {birth="8204.1.1"}
+	8220.1.1 = {add_trait=poor_warrior}
+	8249.1.1 = {death="8249.1.1"}
+}
+127350021 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=350021
+
+	religion="corsair"
+	culture="qartheen"
+
+	father=118350021
+	mother=418350021
+
+	8206.1.1 = {birth="8206.1.1"}
+	8251.1.1 = {death = {death_reason = death_accident}}
+}
+128350021 = {
+	name="Hodor"	# a lord
+	dynasty=350021
+
+	religion="corsair"
+	culture="qartheen"
+
+	father=118350021
+	mother=418350021
+
+	8209.1.1 = {birth="8209.1.1"}
+	8225.1.1 = {add_trait=skilled_warrior}
+	8227.1.1 = {add_spouse=428350021}
+	8281.1.1 = {death="8281.1.1"}
+}
+428350021 = {
+	name="Hodor"
+	female=yes
+
+	religion="corsair"
+	culture="qartheen"
+
+	8209.1.1 = {birth="8209.1.1"}
+	8281.1.1 = {death="8281.1.1"}
+}
+129350021 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=350021
+
+	religion="corsair"
+	culture="qartheen"
+
+	father=128350021
+	mother=428350021
+
+	8244.1.1 = {birth="8244.1.1"}
+	8289.1.1 = {death="8289.1.1"}
+}
+130350021 = {
+	name="Hodor"	# a lord
+	dynasty=350021
+
+	religion="corsair"
+	culture="qartheen"
+
+	father=128350021
+	mother=428350021
+
+	8246.1.1 = {birth="8246.1.1"}
+	8262.1.1 = {add_trait=trained_warrior}
+	8264.1.1 = {add_spouse=430350021}
+	8292.1.1 = {death="8292.1.1"}
+}
+430350021 = {
+	name="Hodor"
+	female=yes
+
+	religion="corsair"
+	culture="qartheen"
+
+	8246.1.1 = {birth="8246.1.1"}
+	8292.1.1 = {death="8292.1.1"}
+}
+131350021 = {
+	name="Hodor"	# not a lord
+	dynasty=350021
+
+	religion="corsair"
+	culture="qartheen"
+
+	father=130350021
+	mother=430350021
+
+	8279.1.1 = {birth="8279.1.1"}
+	8295.1.1 = {add_trait=trained_warrior}
+}

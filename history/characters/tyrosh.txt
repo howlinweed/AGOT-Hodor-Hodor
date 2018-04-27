@@ -1,0 +1,3396 @@
+##  House Tumitis
+
+
+155300544 = {
+	name="Hodor"	# a lord
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	7963.1.1 = {birth="7963.1.1"}
+	7987.1.1 = {add_spouse=250300544}
+	8024.1.1 = {death="8024.1.1"}
+}
+250300544 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	7961.1.1 = {birth="7961.1.1"}
+	8019.1.1 = {death="8019.1.1"}
+}
+100300544 = {
+	name="Hodor"	# a lord
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=155300544
+	mother=250300544
+
+	7994.1.1 = {birth="7994.1.1"}
+	8016.1.1 = {add_trait=poor_warrior}
+	8018.1.1 = {add_spouse=200300544}
+	8046.1.1 = {death="8046.1.1"}
+}
+200300544 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8000.1.1 = {birth="8000.1.1"}
+	8046.1.1 = {death="8046.1.1"}
+}
+101300544 = {
+	name="Hodor"	# a lord
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=100300544
+	mother=200300544
+
+	8018.1.1 = {birth="8018.1.1"}
+	8034.1.1 = {add_trait=trained_warrior}
+	8036.1.1 = {add_spouse=201300544}
+	8079.1.1 = {death="8079.1.1"}
+}
+201300544 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8018.1.1 = {birth="8018.1.1"}
+	8079.1.1 = {death="8079.1.1"}
+}
+102300544 = {
+	name="Hodor"	# not a lord
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=100300544
+	mother=200300544
+
+	8021.1.1 = {birth="8021.1.1"}
+	8037.1.1 = {add_trait=trained_warrior}
+	8039.1.1 = {add_spouse=202300544}
+	8085.1.1 = {death="8085.1.1"}
+}
+202300544 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8021.1.1 = {birth="8021.1.1"}
+	8085.1.1 = {death="8085.1.1"}
+}
+103300544 = {
+	name="Hodor"	# not a lord
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=102300544
+	mother=202300544
+
+	8044.1.1 = {birth="8044.1.1"}
+	8060.1.1 = {add_trait=master_warrior}
+	8076.1.1 = {death="8076.1.1"}
+}
+104300544 = {
+	name="Hodor"	# not a lord
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=102300544
+	mother=202300544
+
+	8046.1.1 = {birth="8046.1.1"}
+	8062.1.1 = {add_trait=skilled_warrior}
+	8092.1.1 = {death="8092.1.1"}
+}
+105300544 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=101300544
+	mother=201300544
+
+	8043.1.1 = {birth="8043.1.1"}
+	8106.1.1 = {death="8106.1.1"}
+}
+106300544 = {
+	name="Hodor"	# a lord
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=101300544
+	mother=201300544
+
+	8045.1.1 = {birth="8045.1.1"}
+	8061.1.1 = {add_trait=skilled_warrior}
+	8063.1.1 = {add_spouse=206300544}
+	8111.1.1 = {death="8111.1.1"}
+}
+206300544 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8045.1.1 = {birth="8045.1.1"}
+	8111.1.1 = {death="8111.1.1"}
+}
+107300544 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=101300544
+	mother=201300544
+
+	8048.1.1 = {birth="8048.1.1"}
+	8089.1.1 = {death="8089.1.1"}
+}
+108300544 = {
+	name="Hodor"	# not a lord
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=101300544
+	mother=201300544
+
+	8051.1.1 = {birth="8051.1.1"}
+	8067.1.1 = {add_trait=skilled_warrior}
+	8069.1.1 = {add_spouse=208300544}
+	8109.1.1 = {death="8109.1.1"}
+}
+208300544 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8051.1.1 = {birth="8051.1.1"}
+	8109.1.1 = {death="8109.1.1"}
+}
+109300544 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=106300544
+	mother=206300544
+
+	8064.1.1 = {birth="8064.1.1"}
+	8109.1.1 = {death="8109.1.1"}
+}
+110300544 = {
+	name="Hodor"	# a lord
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=106300544
+	mother=206300544
+
+	8067.1.1 = {birth="8067.1.1"}
+	8083.1.1 = {add_trait=trained_warrior}
+	8085.1.1 = {add_spouse=210300544}
+	8134.1.1 = {death = {death_reason = death_accident}}
+}
+210300544 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8067.1.1 = {birth="8067.1.1"}
+	8134.1.1 = {death="8134.1.1"}
+}
+111300544 = {
+	name="Hodor"	# not a lord
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=106300544
+	mother=206300544
+
+	8068.1.1 = {birth="8068.1.1"}
+	8084.1.1 = {add_trait=poor_warrior}
+	8086.1.1 = {add_spouse=211300544}
+	8105.1.1 = {death="8105.1.1"}
+}
+211300544 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8068.1.1 = {birth="8068.1.1"}
+	8105.1.1 = {death="8105.1.1"}
+}
+112300544 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=110300544
+	mother=210300544
+
+	8088.1.1 = {birth="8088.1.1"}
+	8134.1.1 = {death="8134.1.1"}
+}
+113300544 = {
+	name="Hodor"	# not a lord
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=110300544
+	mother=210300544
+
+	8095.1.1 = {birth="8095.1.1"}
+	8146.1.1 = {death="8146.1.1"}
+}
+114300544 = {
+	name="Hodor"	# a lord
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=110300544
+	mother=210300544
+
+	8094.1.1 = {birth="8094.1.1"}
+	8110.1.1 = {add_trait=poor_warrior}
+	8135.1.1 = {death="8135.1.1"}
+}
+115300544 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=110300544
+	mother=210300544
+
+	8097.1.1 = {birth="8097.1.1"}
+	8156.1.1 = {death="8156.1.1"}
+}
+116300544 = {
+	name="Hodor"	# a lord
+	female=yes
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=111300544
+	mother=211300544
+
+	8090.1.1 = {birth="8090.1.1"}
+	8141.1.1 = {death="8141.1.1"}
+}
+216300544 = {
+	name="Hodor"
+
+	religion="trios"
+	culture="tyroshi"
+
+	8090.1.1 = {birth="8090.1.1"}
+	8106.1.1 = {add_trait=poor_warrior}
+	8108.1.1 = {add_spouse=116300544}
+	8141.1.1 = {death="8141.1.1"}
+}
+117300544 = {
+	name="Hodor"	# a lord
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=216300544
+	mother=116300544
+
+	8117.1.1 = {birth="8117.1.1"}
+	8133.1.1 = {add_trait=trained_warrior}
+	8135.1.1 = {add_spouse=217300544}
+	8167.1.1 = {death="8167.1.1"}
+}
+217300544 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8117.1.1 = {birth="8117.1.1"}
+	8167.1.1 = {death="8167.1.1"}
+}
+118300544 = {
+	name="Hodor"	# a lord
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=117300544
+	mother=217300544
+
+	8146.1.1 = {birth="8146.1.1"}
+	8162.1.1 = {add_trait=poor_warrior}
+	8164.1.1 = {add_spouse=218300544}
+	8179.1.1 = {death="8179.1.1"}
+}
+218300544 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8146.1.1 = {birth="8146.1.1"}
+	8179.1.1 = {death="8179.1.1"}
+}
+119300544 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=117300544
+	mother=217300544
+
+	8148.1.1 = {birth="8148.1.1"}
+	8209.1.1 = {death="8209.1.1"}
+}
+120300544 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=118300544
+	mother=218300544
+
+	8164.1.1 = {birth="8164.1.1"}
+	8183.1.1 = {death="8183.1.1"}
+}
+121300544 = {
+	name="Hodor"	# a lord
+	dynasty=300544
+	
+	martial=8
+	stewardship=8
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=118300544
+	mother=218300544
+	
+	add_trait=ambitious
+
+	8166.1.1 = {birth="8166.1.1"}
+	8182.1.1 = {add_trait=trained_warrior}
+	8184.1.1 = {add_spouse=221300544}
+	8234.1.1 = {death="8234.1.1"}
+}
+221300544 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8166.1.1 = {birth="8166.1.1"}
+	8234.1.1 = {death="8234.1.1"}
+}
+122300544 = {
+	name="Hodor"	# not a lord
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=118300544
+	mother=218300544
+
+	8169.1.1 = {birth="8169.1.1"}
+	8185.1.1 = {add_trait=trained_warrior}
+	8187.1.1 = {add_spouse=222300544}
+	8230.1.1 = {death="8230.1.1"}
+}
+222300544 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8169.1.1 = {birth="8169.1.1"}
+	8230.1.1 = {death="8230.1.1"}
+}
+123300544 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=118300544
+	mother=218300544
+
+	8172.1.1 = {birth="8172.1.1"}
+	8221.1.1 = {death="8221.1.1"}
+}
+124300544 = {
+	name="Hodor"	# not a lord
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=118300544
+	mother=218300544
+
+	8173.1.1 = {birth="8173.1.1"}
+	8189.1.1 = {add_trait=skilled_warrior}
+	8191.1.1 = {add_spouse=224300544}
+	8218.1.1 = {death="8218.1.1"}
+}
+224300544 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8173.1.1 = {birth="8173.1.1"}
+	8218.1.1 = {death="8218.1.1"}
+}
+125300544 = {
+	name="Hodor"	# not a lord
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=121300544
+	mother=221300544
+
+	8186.1.1 = {birth="8186.1.1"}
+	8202.1.1 = {add_trait=skilled_warrior}
+	8229.1.1 = {death="8229.1.1"}
+}
+126300544 = {
+	name="Hodor"	# a lord
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=121300544
+	mother=221300544
+
+	8189.1.1 = {birth="8189.1.1"}
+	8205.1.1 = {add_trait=skilled_warrior}
+	8207.1.1 = {add_spouse=226300544}
+	8250.1.1 = {death="8250.1.1"}
+}
+150300544 = {
+	name="Hodor"	# married Valarr/Daeron Targaryen
+	female=yes
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=121300544
+	mother=221300544
+	
+	add_trait=fair
+
+	8190.1.1 = {
+		birth="8190.1.1"
+		effect = { 
+			fertility = -0.4
+		}
+	}
+	8250.1.1 = {death="8250.1.1"}
+}
+226300544 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8189.1.1 = {birth="8189.1.1"}
+	8250.1.1 = {death="8250.1.1"}
+}
+127300544 = {
+	name="Hodor"	# a lord
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=126300544
+	mother=226300544
+
+	8208.1.1 = {birth="8208.1.1"}
+	8224.1.1 = {add_trait=poor_warrior}
+	8226.1.1 = {add_spouse=227300544}
+	8253.1.1 = {death="8253.1.1"}
+}
+227300544 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8208.1.1 = {birth="8208.1.1"}
+	8253.1.1 = {death="8253.1.1"}
+}
+128300544 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=126300544
+	mother=226300544
+
+	8210.1.1 = {birth="8210.1.1"}
+	8290.1.1 = {death="8290.1.1"}
+}
+129300544 = {
+	name="Hodor"	# a lord
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=127300544
+	mother=227300544
+
+	8235.1.1 = {birth="8235.1.1"}
+	8251.1.1 = {add_trait=trained_warrior}
+	8253.1.1 = {add_spouse=229300544}
+	8274.1.1 = {death="8274.1.1"}
+}
+229300544 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8235.1.1 = {birth="8235.1.1"}
+	8274.1.1 = {death="8274.1.1"}
+}
+130300544 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=129300544
+	mother=229300544
+
+	8256.1.1 = {birth="8256.1.1"}
+}
+131300544 = {
+	name="Hodor"	# a lord
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=129300544
+	mother=229300544
+
+	8258.1.1 = {birth="8258.1.1"}
+	8274.1.1 = {add_trait=poor_warrior}
+}
+132300544 = {
+	name="Hodor"	# not a lord
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=129300544
+	mother=229300544
+
+	8260.1.1 = {birth="8260.1.1"}
+	8276.1.1 = {add_trait=skilled_warrior}
+}
+133300544 = {
+	name="Hodor"	# not a lord
+	dynasty=300544
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=129300544
+	mother=229300544
+
+	8263.1.1 = {birth="8263.1.1"}
+	8279.1.1 = {add_trait=poor_warrior}
+}
+
+
+###  House Adarys
+
+150300543 = {
+	name="Hodor"	# not a lord
+	dynasty=300543
+
+	religion="trios"
+	culture="tyroshi"
+
+	7960.1.1 = {birth="7960.1.1"}
+	7981.1.1 = {add_spouse=250300543}
+	8028.1.1 = {death="8028.1.1"}
+}
+250300543 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	7964.1.1 = {birth="7964.1.1"}
+	8030.1.1 = {death="8030.1.1"}
+}
+100300543 = {
+	name="Hodor"	# a lord
+	dynasty=300543
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=150300543
+	mother=250300543
+
+	8012.1.1 = {birth="8012.1.1"}
+	8028.1.1 = {add_trait=poor_warrior}
+	8030.1.1 = {add_spouse=200300543}
+	8064.1.1 = {death="8064.1.1"}
+}
+200300543 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8012.1.1 = {birth="8012.1.1"}
+	8064.1.1 = {death="8064.1.1"}
+}
+101300543 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300543
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=100300543
+	mother=200300543
+
+	8035.1.1 = {birth="8035.1.1"}
+	8075.1.1 = {death="8075.1.1"}
+}
+102300543 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300543
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=100300543
+	mother=200300543
+
+	8037.1.1 = {birth="8037.1.1"}
+	8083.1.1 = {death="8083.1.1"}
+}
+103300543 = {
+	name="Hodor"	# a lord
+	dynasty=300543
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=100300543
+	mother=200300543
+
+	8040.1.1 = {birth="8040.1.1"}
+	8056.1.1 = {add_trait=poor_warrior}
+	8058.1.1 = {add_spouse=203300543}
+	8098.1.1 = {death="8098.1.1"}
+}
+203300543 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8040.1.1 = {birth="8040.1.1"}
+	8098.1.1 = {death="8098.1.1"}
+}
+104300543 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300543
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=100300543
+	mother=200300543
+
+	8041.1.1 = {birth="8041.1.1"}
+	8092.1.1 = {death="8092.1.1"}
+}
+105300543 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300543
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=103300543
+	mother=203300543
+
+	8060.1.1 = {birth="8060.1.1"}
+	8077.1.1 = {death="8077.1.1"}
+}
+106300543 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300543
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=103300543
+	mother=203300543
+
+	8062.1.1 = {birth="8062.1.1"}
+	8114.1.1 = {death="8114.1.1"}
+}
+107300543 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300543
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=103300543
+	mother=203300543
+
+	8065.1.1 = {birth="8065.1.1"}
+	8079.1.1 = {death="8079.1.1"}
+}
+108300543 = {
+	name="Hodor"	# a lord
+	dynasty=300543
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=103300543
+	mother=203300543
+
+	8066.1.1 = {birth="8066.1.1"}
+	8082.1.1 = {add_trait=poor_warrior}
+	8084.1.1 = {add_spouse=208300543}
+	8116.1.1 = {death="8116.1.1"}
+}
+208300543 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8066.1.1 = {birth="8066.1.1"}
+	8116.1.1 = {death="8116.1.1"}
+}
+109300543 = {
+	name="Hodor"	# a lord
+	dynasty=300543
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=108300543
+	mother=208300543
+
+	8100.1.1 = {birth="8100.1.1"}
+	8116.1.1 = {add_trait=trained_warrior}
+	8118.1.1 = {add_spouse=209300543}
+	8154.1.1 = {death="8154.1.1"}
+}
+209300543 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8100.1.1 = {birth="8100.1.1"}
+	8154.1.1 = {death="8154.1.1"}
+}
+110300543 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300543
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=108300543
+	mother=208300543
+
+	8103.1.1 = {birth="8103.1.1"}
+	8135.1.1 = {death="8135.1.1"}
+}
+111300543 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300543
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=108300543
+	mother=208300543
+
+	8105.1.1 = {birth="8105.1.1"}
+	8184.1.1 = {death = {death_reason = death_accident}}
+}
+112300543 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300543
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=109300543
+	mother=209300543
+
+	8125.1.1 = {birth="8125.1.1"}
+	8159.1.1 = {death="8159.1.1"}
+}
+113300543 = {
+	name="Hodor"	# a lord
+	dynasty=300543
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=109300543
+	mother=209300543
+
+	8126.1.1 = {birth="8126.1.1"}
+	8142.1.1 = {add_trait=trained_warrior}
+	8144.1.1 = {add_spouse=213300543}
+	8164.1.1 = {death="8164.1.1"}
+}
+213300543 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8126.1.1 = {birth="8126.1.1"}
+	8164.1.1 = {death="8164.1.1"}
+}
+114300543 = {
+	name="Hodor"	# not a lord
+	dynasty=300543
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=109300543
+	mother=209300543
+
+	8128.1.1 = {birth="8128.1.1"}
+	8144.1.1 = {add_trait=trained_warrior}
+	8146.1.1 = {add_spouse=214300543}
+	8174.1.1 = {death="8174.1.1"}
+}
+214300543 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8128.1.1 = {birth="8128.1.1"}
+	8174.1.1 = {death="8174.1.1"}
+}
+115300543 = {
+	name="Hodor"	# not a lord
+	dynasty=300543
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=114300543
+	mother=214300543
+
+	8147.1.1 = {birth="8147.1.1"}
+	8163.1.1 = {add_trait=poor_warrior}
+	8165.1.1 = {add_spouse=215300543}
+	8213.1.1 = {death="8213.1.1"}
+}
+215300543 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8147.1.1 = {birth="8147.1.1"}
+	8213.1.1 = {death="8213.1.1"}
+}
+116300543 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300543
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=114300543
+	mother=214300543
+
+	8150.1.1 = {birth="8150.1.1"}
+	8197.1.1 = {death="8197.1.1"}
+}
+117300543 = {
+	name="Hodor"	# a lord
+	dynasty=300543
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=113300543
+	mother=213300543
+
+	8152.1.1 = {birth="8152.1.1"}
+	8168.1.1 = {add_trait=poor_warrior}
+	8170.1.1 = {add_spouse=217300543}
+	8203.1.1 = {death="8203.1.1"}
+}
+217300543 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8152.1.1 = {birth="8152.1.1"}
+	8203.1.1 = {death="8203.1.1"}
+}
+118300543 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300543
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=113300543
+	mother=213300543
+
+	8154.1.1 = {birth="8154.1.1"}
+	8199.1.1 = {death="8199.1.1"}
+}
+119300543 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300543
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=113300543
+	mother=213300543
+
+	8157.1.1 = {birth="8157.1.1"}
+	8209.1.1 = {death="8209.1.1"}
+}
+120300543 = {
+	name="Hodor"	# a lord
+	dynasty=300543
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=117300543
+	mother=217300543
+
+	8178.1.1 = {birth="8178.1.1"}
+	8194.1.1 = {add_trait=trained_warrior}
+	8196.1.1 = {add_spouse=220300543}
+	8245.1.1 = {death="8245.1.1"}
+}
+220300543 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8178.1.1 = {birth="8178.1.1"}
+	8245.1.1 = {death="8245.1.1"}
+}
+121300543 = {
+	name="Hodor"	# not a lord
+	dynasty=300543
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=117300543
+	mother=217300543
+
+	8181.1.1 = {birth="8181.1.1"}
+	8197.1.1 = {add_trait=skilled_warrior}
+	8199.1.1 = {add_spouse=221300543}
+	8227.1.1 = {death="8227.1.1"}
+}
+221300543 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8181.1.1 = {birth="8181.1.1"}
+	8227.1.1 = {death="8227.1.1"}
+}
+122300543 = {
+	name="Hodor"	# a lord
+	dynasty=300543
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=120300543
+	mother=220300543
+
+	8205.1.1 = {birth="8205.1.1"}
+	8221.1.1 = {add_trait=poor_warrior}
+	8247.1.1 = {death="8247.1.1"}
+}
+600000059 = {
+	name="Hodor"
+	dynasty = 300543
+	
+	religion="trios"
+	culture="tyroshi"
+	
+	martial=2
+	diplomacy=7
+	intrigue=5
+	stewardship=5
+	add_trait="scholar"
+	add_trait="ambitious"
+	add_trait="charismatic_negotiator"
+	
+	father=120300543
+	mother=220300543
+	
+	8229.1.1={birth="8229.1.1"}
+	8255.1.1 = {
+		give_nickname = nick_silvertounge
+		add_spouse = 126300533
+		effect = { 
+			set_character_flag = band_of_nine
+			liege = {
+				reverse_opinion = {
+					who = ROOT
+					modifier = opinion_band_of_nine
+					years = 20
+				}
+			}	
+			spouse = {
+				opinion = {
+					who = ROOT
+					modifier = opinion_forced_marriage
+				}
+			}
+		} 
+	}
+	8259.1.1={
+		effect = {
+			if = {
+				limit = { has_landed_title = c_tyrosh }
+				b_tyrosh = { gain_title = ROOT }
+			}	
+		}
+	}
+	8265.6.1 = { 
+		death = {
+			death_reason = death_murder
+			killer = 126300533 #His Queen
+		}
+	}
+}
+123300543 = {
+	name="Hodor"	# not a lord
+	dynasty=300543
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=120300543
+	mother=220300543
+
+	8207.1.1 = {birth="8207.1.1"}
+	8223.1.1 = {add_trait=trained_warrior}
+	8225.1.1 = {add_spouse=223300543}
+	8276.1.1 = {death="8276.1.1"}
+}
+223300543 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8207.1.1 = {birth="8207.1.1"}
+	8276.1.1 = {death="8276.1.1"}
+}
+124300543 = {
+	name="Hodor"	# not a lord
+	dynasty=300543
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=123300543
+	mother=223300543
+
+	8234.1.1 = {birth="8234.1.1"}
+	8250.1.1 = {add_trait=skilled_warrior}
+	8276.1.1 = {death = {death_reason = death_murder}}
+}
+125300543 = {
+	name="Hodor"	# a lord
+	dynasty=300543
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=123300543
+	mother=223300543
+
+	8236.1.1 = {birth="8236.1.1"}
+	8252.1.1 = {add_trait=trained_warrior}
+	8254.1.1 = {add_spouse=225300543}
+}
+225300543 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8236.1.1 = {birth="8236.1.1"}
+	8299.1.1 = {death="8299.1.1"}
+}
+126300543 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300543
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=125300543
+	mother=225300543
+
+	8264.1.1 = {birth="8264.1.1"}
+}
+127300543 = {
+	name="Hodor"	# not a lord
+	dynasty=300543
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=125300543
+	mother=225300543
+
+	8267.1.1 = {birth="8267.1.1"}
+	8283.1.1 = {add_trait=skilled_warrior}
+	8298.1.1 = {death="8298.1.1"}
+}
+128300543 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300543
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=125300543
+	mother=225300543
+
+	8268.1.1 = {birth="8268.1.1"}
+}
+129300543 = {
+	name="Hodor"	# not a lord
+	dynasty=300543
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=125300543
+	mother=225300543
+
+	8270.1.1 = {birth="8270.1.1"}
+	8271.1.1 = {death = {death_reason = death_murder}}
+}
+
+
+###  House Uhoris
+
+150300542 = {
+	name="Hodor"	# a lord
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	7958.1.1 = {birth="7958.1.1"}
+	7972.1.1 = {add_spouse=250300542}
+	8019.1.1 = {death="8019.1.1"}
+}
+250300542 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	7958.1.1 = {birth="7958.1.1"}
+	8024.1.1 = {death="8024.1.1"}
+}
+100300542 = {
+	name="Hodor"	# a lord
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=150300542
+	mother=250300542
+
+	7991.1.1 = {birth="7991.1.1"}
+	8017.1.1 = {add_trait=poor_warrior}
+	8019.1.1 = {add_spouse=200300542}
+	8052.1.1 = {death="8052.1.1"}
+}
+200300542 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8001.1.1 = {birth="8001.1.1"}
+	8052.1.1 = {death="8052.1.1"}
+}
+101300542 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=100300542
+	mother=200300542
+
+	8023.1.1 = {birth="8023.1.1"}
+	8061.1.1 = {death="8061.1.1"}
+}
+102300542 = {
+	name="Hodor"	# a lord
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=100300542
+	mother=200300542
+
+	8025.1.1 = {birth="8025.1.1"}
+	8041.1.1 = {add_trait=poor_warrior}
+	8043.1.1 = {add_spouse=202300542}
+	8071.1.1 = {death="8071.1.1"}
+}
+202300542 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8025.1.1 = {birth="8025.1.1"}
+	8071.1.1 = {death="8071.1.1"}
+}
+103300542 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=100300542
+	mother=200300542
+
+	8028.1.1 = {birth="8028.1.1"}
+	8072.1.1 = {death="8072.1.1"}
+}
+104300542 = {
+	name="Hodor"	# not a lord
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=100300542
+	mother=200300542
+
+	8031.1.1 = {birth="8031.1.1"}
+	8047.1.1 = {add_trait=trained_warrior}
+	8049.1.1 = {add_spouse=204300542}
+	8082.1.1 = {death="8082.1.1"}
+}
+204300542 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8031.1.1 = {birth="8031.1.1"}
+	8082.1.1 = {death="8082.1.1"}
+}
+105300542 = {
+	name="Hodor"	# a lord
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=102300542
+	mother=202300542
+
+	8049.1.1 = {birth="8049.1.1"}
+	8065.1.1 = {add_trait=trained_warrior}
+	8067.1.1 = {add_spouse=205300542}
+	8108.1.1 = {death="8108.1.1"}
+}
+205300542 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8049.1.1 = {birth="8049.1.1"}
+	8108.1.1 = {death="8108.1.1"}
+}
+106300542 = {
+	name="Hodor"	# not a lord
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=102300542
+	mother=202300542
+
+	8050.1.1 = {birth="8050.1.1"}
+	8066.1.1 = {add_trait=poor_warrior}
+	8068.1.1 = {add_spouse=206300542}
+	8100.1.1 = {death="8100.1.1"}
+}
+206300542 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8050.1.1 = {birth="8050.1.1"}
+	8100.1.1 = {death="8100.1.1"}
+}
+107300542 = {
+	name="Hodor"	# not a lord
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=102300542
+	mother=202300542
+
+	8053.1.1 = {birth="8053.1.1"}
+	8069.1.1 = {add_trait=skilled_warrior}
+	8071.1.1 = {add_spouse=207300542}
+	8114.1.1 = {death="8114.1.1"}
+}
+207300542 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8053.1.1 = {birth="8053.1.1"}
+	8114.1.1 = {death="8114.1.1"}
+}
+108300542 = {
+	name="Hodor"	# not a lord
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=102300542
+	mother=202300542
+
+	8056.1.1 = {birth="8056.1.1"}
+	8072.1.1 = {add_trait=skilled_warrior}
+	8074.1.1 = {add_spouse=208300542}
+	8107.1.1 = {death="8107.1.1"}
+}
+208300542 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8056.1.1 = {birth="8056.1.1"}
+	8107.1.1 = {death="8107.1.1"}
+}
+109300542 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=105300542
+	mother=205300542
+
+	8073.1.1 = {birth="8073.1.1"}
+	8125.1.1 = {death="8125.1.1"}
+}
+110300542 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=105300542
+	mother=205300542
+
+	8076.1.1 = {birth="8076.1.1"}
+	8092.1.1 = {death="8092.1.1"}
+}
+111300542 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=105300542
+	mother=205300542
+
+	8078.1.1 = {birth="8078.1.1"}
+	8102.1.1 = {death="8102.1.1"}
+}
+112300542 = {
+	name="Hodor"	# a lord
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=105300542
+	mother=205300542
+
+	8080.1.1 = {birth="8080.1.1"}
+	8096.1.1 = {add_trait=poor_warrior}
+	8098.1.1 = {add_spouse=212300542}
+	8136.1.1 = {death="8136.1.1"}
+}
+212300542 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8080.1.1 = {birth="8080.1.1"}
+	8136.1.1 = {death="8136.1.1"}
+}
+113300542 = {
+	name="Hodor"	# a lord
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=112300542
+	mother=212300542
+
+	8109.1.1 = {birth="8109.1.1"}
+	8125.1.1 = {add_trait=trained_warrior}
+	8127.1.1 = {add_spouse=213300542}
+	8165.1.1 = {death="8165.1.1"}
+}
+213300542 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8109.1.1 = {birth="8109.1.1"}
+	8165.1.1 = {death="8165.1.1"}
+}
+114300542 = {
+	name="Hodor"	# not a lord
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=112300542
+	mother=212300542
+
+	8112.1.1 = {birth="8112.1.1"}
+	8125.1.1 = {death="8125.1.1"}
+}
+115300542 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=112300542
+	mother=212300542
+
+	8113.1.1 = {birth="8113.1.1"}
+	8170.1.1 = {death="8170.1.1"}
+}
+116300542 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=112300542
+	mother=212300542
+
+	8115.1.1 = {birth="8115.1.1"}
+	8155.1.1 = {death="8155.1.1"}
+}
+117300542 = {
+	name="Hodor"	# not a lord
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=112300542
+	mother=212300542
+
+	8117.1.1 = {birth="8117.1.1"}
+	8133.1.1 = {add_trait=skilled_warrior}
+	8135.1.1 = {add_spouse=217300542}
+	8155.1.1 = {death="8155.1.1"}
+}
+217300542 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8117.1.1 = {birth="8117.1.1"}
+	8155.1.1 = {death="8155.1.1"}
+}
+118300542 = {
+	name="Hodor"	# a lord
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=113300542
+	mother=213300542
+
+	8133.1.1 = {birth="8133.1.1"}
+	8149.1.1 = {add_trait=trained_warrior}
+	8151.1.1 = {add_spouse=218300542}
+	8178.1.1 = {death="8178.1.1"}
+}
+218300542 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8133.1.1 = {birth="8133.1.1"}
+	8178.1.1 = {death="8178.1.1"}
+}
+119300542 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=113300542
+	mother=213300542
+
+	8134.1.1 = {birth="8134.1.1"}
+	8184.1.1 = {death="8184.1.1"}
+}
+120300542 = {
+	name="Hodor"	# not a lord
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=113300542
+	mother=213300542
+
+	8135.1.1 = {birth="8135.1.1"}
+	8151.1.1 = {add_trait=master_warrior}
+	8178.1.1 = {death="8178.1.1"}
+}
+121300542 = {
+	name="Hodor"	# not a lord
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=113300542
+	mother=213300542
+
+	8138.1.1 = {birth="8138.1.1"}
+	8154.1.1 = {add_trait=poor_warrior}
+	8196.1.1 = {death="8196.1.1"}
+}
+122300542 = {
+	name="Hodor"	# not a lord
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=113300542
+	mother=213300542
+
+	8141.1.1 = {birth="8141.1.1"}
+	8157.1.1 = {add_trait=poor_warrior}
+	8184.1.1 = {death="8184.1.1"}
+}
+123300542 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=118300542
+	mother=218300542
+
+	8161.1.1 = {birth="8161.1.1"}
+	8216.1.1 = {death="8216.1.1"}
+}
+124300542 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=118300542
+	mother=218300542
+
+	8163.1.1 = {birth="8163.1.1"}
+	8231.1.1 = {death="8231.1.1"}
+}
+125300542 = {
+	name="Hodor"	# a lord
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=118300542
+	mother=218300542
+
+	8164.1.1 = {birth="8164.1.1"}
+	8180.1.1 = {add_trait=poor_warrior}
+	8182.1.1 = {add_spouse=225300542}
+	8224.1.1 = {death="8224.1.1"}
+}
+225300542 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8164.1.1 = {birth="8164.1.1"}
+	8224.1.1 = {death="8224.1.1"}
+}
+126300542 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=118300542
+	mother=218300542
+
+	8167.1.1 = {birth="8167.1.1"}
+	8200.1.1 = {death = {death_reason = death_execution}}
+}
+127300542 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=125300542
+	mother=225300542
+
+	8190.1.1 = {birth="8190.1.1"}
+	8256.1.1 = {death="8256.1.1"}
+}
+128300542 = {
+	name="Hodor"	# a lord
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=125300542
+	mother=225300542
+
+	8191.1.1 = {birth="8191.1.1"}
+	8207.1.1 = {add_trait=poor_warrior}
+	8209.1.1 = {add_spouse=228300542}
+	8237.1.1 = {death="8237.1.1"}
+}
+228300542 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8191.1.1 = {birth="8191.1.1"}
+	8237.1.1 = {death="8237.1.1"}
+}
+129300542 = {
+	name="Hodor"	# a lord
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=128300542
+	mother=228300542
+
+	8220.1.1 = {birth="8220.1.1"}
+	8236.1.1 = {add_trait=skilled_warrior}
+	8238.1.1 = {add_spouse=229300542}
+	8293.1.1 = {death="8293.1.1"}
+}
+229300542 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8220.1.1 = {birth="8220.1.1"}
+	8293.1.1 = {death="8293.1.1"}
+}
+130300542 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=128300542
+	mother=228300542
+
+	8223.1.1 = {birth="8223.1.1"}
+	8291.1.1 = {death="8291.1.1"}
+}
+# 175300542 = { #moved to stepstones.txt
+	# name="Hodor"	# a pirate
+	# dynasty=300542
+	
+	# martial = 3
+	# stewardship = 2
+	# diplomacy = 4
+	# learning = 2
+	# intrigue = 4
+
+	# religion="trios"
+	# culture="tyroshi"
+
+	# father=128300542
+	# mother=228300542
+	
+	# add_trait=skilled_tactician
+	# add_trait=greedy
+	# add_trait=gregarious
+	# add_trait=erudite
+	# add_trait=brave
+	# add_trait=ambitious
+	
+	# 8227.1.1 = {birth="8227.1.1"}
+	# 8243.1.1 = {add_trait=trained_warrior}
+	# 8250.1.1 = {
+		# add_trait = pirate
+		# effect = { 
+			# religion = pirate 
+			# add_artifact = small_flagship
+			# new_artifact = { set_name = "Cobblecat" }
+		# }
+	# }
+	# 8270.1.1 = {
+		# death = {
+			# death_reason = death_execution
+			# killer = 121404 #Nightswatch
+		# }
+	# }
+# }
+131300542 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=129300542
+	mother=229300542
+
+	8240.1.1 = {birth="8240.1.1"}
+	8298.1.1 = {death="8298.1.1"}
+}
+132300542 = {
+	name="Hodor"	# a lord
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=129300542
+	mother=229300542
+
+	8242.1.1 = {birth="8242.1.1"}
+	8258.1.1 = {add_trait=trained_warrior}
+	8260.1.1 = {add_spouse=232300542}
+	8296.1.1 = {death="8296.1.1"}
+}
+232300542 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8242.1.1 = {birth="8242.1.1"}
+	8296.1.1 = {death="8296.1.1"}
+}
+133300542 = {
+	name="Hodor"	# not a lord
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=129300542
+	mother=229300542
+
+	8243.1.1 = {birth="8243.1.1"}
+	8259.1.1 = {add_trait=trained_warrior}
+	8291.1.1 = {death="8291.1.1"}
+}
+134300542 = {
+	name="Hodor"	# not a lord
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=129300542
+	mother=229300542
+
+	8245.1.1 = {birth="8245.1.1"}
+	8261.1.1 = {add_trait=skilled_warrior}
+	8270.1.1 = {death="8270.1.1"}
+}
+135300542 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=132300542
+	mother=232300542
+
+	8266.1.1 = {birth="8266.1.1"}
+}
+136300542 = {
+	name="Hodor"	# a lord
+	dynasty=300542
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=132300542
+	mother=232300542
+
+	8267.1.1 = {birth="8267.1.1"}
+	8283.1.1 = {add_trait=trained_warrior}
+}
+
+
+###  House Lectris
+
+150300533 = {
+	name="Hodor"	# a lord
+	dynasty=300533
+
+	religion="trios"
+	culture="tyroshi"
+
+	7961.1.1 = {birth="7961.1.1"}
+	7983.1.1 = {add_spouse=250300533}
+	8015.1.1 = {death="8015.1.1"}
+}
+250300533 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	7965.1.1 = {birth="7965.1.1"}
+	8020.1.1 = {death="8020.1.1"}
+}
+100300533 = {
+	name="Hodor"	# a lord
+	dynasty=300533
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=150300533
+	mother=250300533
+
+	7985.1.1 = {birth="7985.1.1"}
+	8021.1.1 = {add_trait=poor_warrior}
+	8023.1.1 = {add_spouse=200300533}
+	8051.1.1 = {death="8051.1.1"}
+}
+200300533 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8005.1.1 = {birth="8005.1.1"}
+	8051.1.1 = {death="8051.1.1"}
+}
+101300533 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300533
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=100300533
+	mother=200300533
+
+	8024.1.1 = {birth="8024.1.1"}
+	8033.1.1 = {death = {death_reason = death_murder}}
+}
+102300533 = {
+	name="Hodor"	# a lord
+	dynasty=300533
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=100300533
+	mother=200300533
+
+	8025.1.1 = {birth="8025.1.1"}
+	8041.1.1 = {add_trait=poor_warrior}
+	8043.1.1 = {add_spouse=202300533}
+	8062.1.1 = {death = {death_reason = death_battle}}
+}
+202300533 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8025.1.1 = {birth="8025.1.1"}
+	8062.1.1 = {death="8062.1.1"}
+}
+103300533 = {
+	name="Hodor"	# a lord
+	female=yes
+	dynasty=300533
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=102300533
+	mother=202300533
+
+	8054.1.1 = {birth="8054.1.1"}
+	8097.1.1 = {death="8097.1.1"}
+}
+104300533 = {
+	name="Hodor"	# a lord
+	dynasty=300533
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=102300533
+	mother=202300533
+
+	8055.1.1 = {birth="8055.1.1"}
+	8071.1.1 = {add_trait=skilled_warrior}
+	8073.1.1 = {add_spouse=204300533}
+	8096.1.1 = {add_trait=widowed}
+	8106.1.1 = {death="8106.1.1"}
+}
+204300533 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8055.1.1 = {birth="8055.1.1"}
+	8096.1.1 = {death="8096.1.1"}
+}
+105300533 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300533
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=102300533
+	mother=202300533
+
+	8058.1.1 = {birth="8058.1.1"}
+	8105.1.1 = {death="8105.1.1"}
+}
+106300533 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300533
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=102300533
+	mother=202300533
+
+	8060.1.1 = {birth="8060.1.1"}
+	8120.1.1 = {death = {death_reason = death_murder}}
+}
+107300533 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300533
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=104300533
+	mother=204300533
+
+	8074.1.1 = {birth="8074.1.1"}
+	8101.1.1 = {death="8101.1.1"}
+}
+108300533 = {
+	name="Hodor"	# a lord
+	dynasty=300533
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=104300533
+	mother=204300533
+	
+	8076.1.1 = {birth="8076.1.1"}
+	8094.1.1 = {add_trait=trained_warrior}
+	8096.1.1 = {add_spouse=208300533}
+	8134.1.1 = {death="8134.1.1"}
+}
+208300533 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8078.1.1 = {birth="8078.1.1"}
+	8134.1.1 = {death="8134.1.1"}
+}
+# 105030533 = { #moved to stepstones.txt
+	# name="Hodor"	# a lord, Admiral and Later Pirate King
+	# dynasty=300533
+
+	# religion="trios"
+	# culture="tyroshi"
+
+	# father=104300533
+	# mother=204300533
+	
+	# add_trait = skilled_tactician
+	# add_trait = ruthless
+	# add_trait = greedy
+	# add_trait = ambitious
+
+	# 8079.1.1 = {birth="8079.1.1"}
+	# 8095.1.1 = {add_trait=trained_warrior}
+	# 8132.1.1 = { #Goes Pirate
+		# effect = { religion = pirate }
+		# add_trait = pirate
+	# }
+	# 8140.1.1 = {
+		# death="8140.1.1"
+		# religion = pirate
+	# }
+# }
+109300533 = {
+	name="Hodor"	# a lord
+	dynasty=300533
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=108300533
+	mother=208300533
+
+	8098.1.1 = {birth="8098.1.1"}
+	8114.1.1 = {add_trait=poor_warrior}
+	8116.1.1 = {add_spouse=209300533}
+	8154.1.1 = {death="8154.1.1"}
+}
+209300533 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8098.1.1 = {birth="8098.1.1"}
+	8154.1.1 = {death="8154.1.1"}
+}
+110300533 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300533
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=108300533
+	mother=208300533
+
+	8101.1.1 = {birth="8101.1.1"}
+	8157.1.1 = {death="8157.1.1"}
+}
+111300533 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300533
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=108300533
+	mother=208300533
+
+	8102.1.1 = {birth="8102.1.1"}
+	8161.1.1 = {death="8161.1.1"}
+}
+112300533 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300533
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=109300533
+	mother=209300533
+
+	8120.1.1 = {birth="8120.1.1"}
+	8167.1.1 = {death="8167.1.1"}
+}
+113300533 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300533
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=109300533
+	mother=209300533
+
+	8122.1.1 = {birth="8122.1.1"}
+	8179.1.1 = {death="8179.1.1"}
+}
+114300533 = {
+	name="Hodor"	# a lord
+	dynasty=300533
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=109300533
+	mother=209300533
+
+	8125.1.1 = {birth="8125.1.1"}
+	8141.1.1 = {add_trait=trained_warrior}
+	8143.1.1 = {add_spouse=214300533}
+	8159.1.1 = {death="8159.1.1"}
+}
+214300533 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8125.1.1 = {birth="8125.1.1"}
+	8159.1.1 = {death="8159.1.1"}
+}
+115300533 = {
+	name="Hodor"	# not a lord
+	dynasty=300533
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=109300533
+	mother=209300533
+
+	8127.1.1 = {birth="8127.1.1"}
+	8143.1.1 = {add_trait=skilled_warrior}
+	8145.1.1 = {add_spouse=215300533}
+	8196.1.1 = {death="8196.1.1"}
+}
+215300533 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8127.1.1 = {birth="8127.1.1"}
+	8196.1.1 = {death="8196.1.1"}
+}
+116300533 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300533
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=114300533
+	mother=214300533
+
+	8143.1.1 = {birth="8143.1.1"}
+	8200.1.1 = {death="8200.1.1"}
+}
+117300533 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300533
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=114300533
+	mother=214300533
+
+	8145.1.1 = {birth="8145.1.1"}
+	8199.1.1 = {death="8199.1.1"}
+}
+118300533 = {
+	name="Hodor"	# a lord
+	dynasty=300533
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=114300533
+	mother=214300533
+
+	8147.1.1 = {birth="8147.1.1"}
+	8163.1.1 = {add_trait=skilled_warrior}
+	8165.1.1 = {add_spouse=218300533}
+	8218.1.1 = {death="8218.1.1"}
+}
+218300533 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8147.1.1 = {birth="8147.1.1"}
+	8218.1.1 = {death="8218.1.1"}
+}
+119300533 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300533
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=118300533
+	mother=218300533
+
+	8172.1.1 = {birth="8172.1.1"}
+	8207.1.1 = {death="8207.1.1"}
+}
+121300533 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300533
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=118300533
+	mother=218300533
+
+	8176.1.1 = { birth="8176.1.1" }
+	8212.1.1 = {death="8212.1.1"}
+}
+122300533 = {
+	name="Hodor"	# a lord
+	dynasty=300533
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=118300533
+	mother=218300533
+
+	8176.1.1 = { birth="8176.1.1" }
+	8192.1.1 = {add_trait=skilled_warrior}
+	8194.1.1 = {add_spouse=222300533}
+	8228.1.1 = {death="8228.1.1"}
+}
+222300533 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8176.1.1 = {birth="8176.1.1"}
+	8228.1.1 = {death="8228.1.1"}
+}
+123300533 = {
+	name="Hodor"	# a lord
+	dynasty=300533
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=122300533
+	mother=222300533
+
+	8198.1.1 = {birth="8198.1.1"}
+	8214.1.1 = {add_trait=skilled_warrior}
+	8277.1.1 = {death="8277.1.1"}
+}
+124300533 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300533
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=122300533
+	mother=222300533
+
+	8200.1.1 = {birth="8200.1.1"}
+	8203.1.1 = {death = {death_reason = death_accident}}
+}
+125300533 = {
+	name="Hodor"	# not a lord
+	dynasty=300533
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=122300533
+	mother=222300533
+
+	8202.1.1 = {birth="8202.1.1"}
+	8218.1.1 = {add_trait=poor_warrior}
+	8220.1.1 = {add_spouse=225300533}
+	8256.1.1 = {death="8256.1.1"}
+}
+225300533 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8202.1.1 = {birth="8202.1.1"}
+	8256.1.1 = {death="8256.1.1"}
+}
+126300533 = {
+	name="Hodor"	# not a lord, Queen of Alequo Goldentongue
+	female=yes
+	dynasty=300533
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=125300533
+	mother=225300533
+	
+	add_trait = proud
+	add_trait = fair
+	add_trait = ruthless
+	add_trait = intricate_webweaver
+	
+	8233.1.1 = {birth="8233.1.1"}
+	8265.6.1 = { #Kills her husband
+		#add_trait=dishonorable1
+		effect = {		
+			set_variable = { which = "dishonorable" value = 10 }
+			hidden_tooltip = { character_event = { id = maintenance.3 } }#dishonour trait
+		}
+	}
+	8296.1.1 = {death="8296.1.1"}
+}
+127300533 = {
+	name="Hodor"	# a lord
+	dynasty=300533
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=125300533
+	mother=225300533
+
+	8236.1.1 = {birth="8236.1.1"}
+	8252.1.1 = {add_trait=skilled_warrior}
+}
+128300533 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300533
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=125300533
+	mother=225300533
+
+	8238.1.1 = {birth="8238.1.1"}
+}
+
+
+###  House Zokan
+250300024 = {
+	name="Hodor"	# a lord
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	7932.1.1 = {birth="7932.1.1"}
+	7961.1.1 = {add_spouse=450300024} 
+	7985.1.1 = {death="7985.1.1"}
+}
+450300024 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	7932.1.1 = {birth="7932.1.1"}
+	7985.1.1 = {death="7985.1.1"}
+}
+150300024 = {
+	name="Hodor"	# a lord
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+	
+	father = 250300024
+	mother = 450300024
+
+	7962.1.1 = {birth="7962.1.1"}
+	7993.1.1 = {add_spouse=101300012} #Tycha Arsenys
+	7999.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { year = 8000 }				
+				}
+				character_event = { id = bleeding_years.1 days = 50 }
+			}
+		}
+	}
+	8028.1.1 = {death="8028.1.1"}
+}
+251300024 = {
+	name="Hodor"	# Not a lord
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+	
+	father = 250300024
+	mother = 450300024
+
+	7964.1.1 = {birth="7964.1.1"}
+	7982.1.1 = {add_spouse=2501544} #Durrandon Maid
+	8025.1.1 = {death="8025.1.1"}
+}
+100300024 = {
+	name="Hodor"	# a lord
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=150300024
+	mother=101300012
+
+	7994.1.1 = {birth="7994.1.1"}
+	8016.1.1 = {add_trait=poor_warrior}
+	8018.1.1 = {add_spouse=200300024}
+	8053.1.1 = {death="8053.1.1"}
+}
+200300024 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8000.1.1 = {birth="8000.1.1"}
+	8053.1.1 = {death="8053.1.1"}
+}
+101300024 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=100300024
+	mother=200300024
+
+	8022.1.1 = {birth="8022.1.1"}
+	8079.1.1 = {death="8079.1.1"}
+}
+102300024 = {
+	name="Hodor"	# a lord
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=100300024
+	mother=200300024
+
+	8025.1.1 = {birth="8025.1.1"}
+	8041.1.1 = {add_trait=trained_warrior}
+	8043.1.1 = {add_spouse=202300024}
+	8065.1.1 = {death="8065.1.1"}
+}
+202300024 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8025.1.1 = {birth="8025.1.1"}
+	8065.1.1 = {death="8065.1.1"}
+}
+103300024 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=100300024
+	mother=200300024
+
+	8027.1.1 = {birth="8027.1.1"}
+	8058.1.1 = {death="8058.1.1"}
+}
+104300024 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=100300024
+	mother=200300024
+
+	8029.1.1 = {birth="8029.1.1"}
+	8085.1.1 = {death="8085.1.1"}
+}
+105300024 = {
+	name="Hodor"	# a lord
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=102300024
+	mother=202300024
+
+	8053.1.1 = {birth="8053.1.1"}
+	8069.1.1 = {add_trait=trained_warrior}
+	8071.1.1 = {add_spouse=205300024}
+	8111.1.1 = {death="8111.1.1"}
+}
+205300024 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8053.1.1 = {birth="8053.1.1"}
+	8111.1.1 = {death="8111.1.1"}
+}
+106300024 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=102300024
+	mother=202300024
+
+	8055.1.1 = {birth="8055.1.1"}
+	8082.1.1 = {death="8082.1.1"}
+}
+107300024 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=102300024
+	mother=202300024
+
+	8057.1.1 = {birth="8057.1.1"}
+	8100.1.1 = {death="8100.1.1"}
+}
+108300024 = {
+	name="Hodor"	# not a lord
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=102300024
+	mother=202300024
+
+	8060.1.1 = {birth="8060.1.1"}
+	8076.1.1 = {add_trait=trained_warrior}
+	8078.1.1 = {add_spouse=208300024}
+	8135.1.1 = {death="8135.1.1"}
+}
+208300024 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8060.1.1 = {birth="8060.1.1"}
+	8135.1.1 = {death="8135.1.1"}
+}
+109300024 = {
+	name="Hodor"	# a lord
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=105300024
+	mother=205300024
+
+	8079.1.1 = {birth="8079.1.1"}
+	8095.1.1 = {add_trait=poor_warrior}
+	8146.1.1 = {death="8146.1.1"}
+}
+110300024 = {
+	name="Hodor"	# not a lord
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=105300024
+	mother=205300024
+
+	8082.1.1 = {birth="8082.1.1"}
+	8098.1.1 = {add_trait=trained_warrior}
+	8100.1.1 = {add_spouse=210300024}
+	8146.1.1 = {death="8146.1.1"}
+}
+210300024 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8082.1.1 = {birth="8082.1.1"}
+	8146.1.1 = {death="8146.1.1"}
+}
+111300024 = {
+	name="Hodor"	# not a lord
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=105300024
+	mother=205300024
+
+	8084.1.1 = {birth="8084.1.1"}
+	8100.1.1 = {add_trait=poor_warrior}
+	8145.1.1 = {death="8145.1.1"}
+}
+112300024 = {
+	name="Hodor"	# not a lord
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=105300024
+	mother=205300024
+
+	8086.1.1 = {birth="8086.1.1"}
+	8102.1.1 = {add_trait=trained_warrior}
+	8104.1.1 = {add_spouse=212300024}
+	8165.1.1 = {death="8165.1.1"}
+}
+212300024 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8086.1.1 = {birth="8086.1.1"}
+	8165.1.1 = {death="8165.1.1"}
+}
+113300024 = {
+	name="Hodor"	# a lord
+	female=yes
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=110300024
+	mother=210300024
+
+	8117.1.1 = {birth="8117.1.1"}
+	8185.1.1 = {death="8185.1.1"}
+}
+213300024 = {
+	name="Hodor"
+
+	religion="trios"
+	culture="tyroshi"
+
+	8117.1.1 = {birth="8117.1.1"}
+	8133.1.1 = {add_trait=poor_warrior}
+	8135.1.1 = {add_spouse=113300024}
+	8185.1.1 = {death="8185.1.1"}
+}
+114300024 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=110300024
+	mother=210300024
+
+	8119.1.1 = {birth="8119.1.1"}
+	8153.1.1 = {death="8153.1.1"}
+}
+115300024 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=110300024
+	mother=210300024
+
+	8121.1.1 = {birth="8121.1.1"}
+	8175.1.1 = {death="8175.1.1"}
+}
+116300024 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=110300024
+	mother=210300024
+
+	8124.1.1 = {birth="8124.1.1"}
+	8153.1.1 = {death="8153.1.1"}
+}
+117300024 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=112300024
+	mother=212300024
+
+	8108.1.1 = {birth="8108.1.1"}
+	8167.1.1 = {death="8167.1.1"}
+}
+118300024 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=112300024
+	mother=212300024
+
+	8111.1.1 = {birth="8111.1.1"}
+	8187.1.1 = {death="8187.1.1"}
+}
+119300024 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=112300024
+	mother=212300024
+
+	8112.1.1 = {birth="8112.1.1"}
+	8136.1.1 = {death="8136.1.1"}
+}
+120300024 = {
+	name="Hodor"	# not a lord
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=112300024
+	mother=212300024
+
+	8113.1.1 = {birth="8113.1.1"}
+	8129.1.1 = {add_trait=skilled_warrior}
+	8177.1.1 = {death="8177.1.1"}
+}
+121300024 = {
+	name="Hodor"	# not a lord
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=213300024
+	mother=113300024
+
+	8136.1.1 = {birth="8136.1.1"}
+	8152.1.1 = {add_trait=poor_warrior}
+	8154.1.1 = {add_spouse=221300024}
+	8178.1.1 = {death="8178.1.1"}
+}
+221300024 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8136.1.1 = {birth="8136.1.1"}
+	8178.1.1 = {death="8178.1.1"}
+}
+122300024 = {
+	name="Hodor"	# a lord
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=213300024
+	mother=113300024
+
+	8151.1.1 = {birth="8151.1.1"}
+	8167.1.1 = {add_trait=poor_warrior}
+	8169.1.1 = {add_spouse=222300024}
+	8203.1.1 = {death="8203.1.1"}
+}
+222300024 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8151.1.1 = {birth="8151.1.1"}
+	8203.1.1 = {death="8203.1.1"}
+}
+123300024 = {
+	name="Hodor"	# a lord
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=122300024
+	mother=222300024
+	
+	add_trait = twin
+
+	8170.1.1 = {birth="8170.1.1"}
+	8186.1.1 = {add_trait=poor_warrior}
+	8188.1.1 = {add_spouse=223300024}
+	8225.1.1 = {death="8225.1.1"}
+}
+77024496 = {
+	name="Hodor" # Lady of Tyrosh, married Daemon Blackfyre
+	dynasty=300024
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+	
+	father=122300024
+	mother=222300024
+	
+	add_trait = twin
+	
+	8170.1.1={ 
+		birth="8170.1.1" 
+		effect = { fertility = 0.4 } #had many children
+	} 
+	8220.1.1={
+		death="8220.1.1"
+	}
+}
+223300024 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8170.1.1 = {birth="8170.1.1"}
+	8225.1.1 = {death="8225.1.1"}
+}
+124300024 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=122300024
+	mother=222300024
+
+	8173.1.1 = {birth="8173.1.1"}
+	8222.1.1 = {death="8222.1.1"}
+}
+125300024 = {
+	name="Hodor"	# not a lord
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=122300024
+	mother=222300024
+
+	8175.1.1 = {birth="8175.1.1"}
+	8191.1.1 = {add_trait=trained_warrior}
+	8193.1.1 = {add_spouse=225300024}
+	8214.1.1 = {death = {death_reason = death_accident}}
+}
+225300024 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8175.1.1 = {birth="8175.1.1"}
+	8214.1.1 = {death="8214.1.1"}
+}
+126300024 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=122300024
+	mother=222300024
+
+	8178.1.1 = {birth="8178.1.1"}
+	8232.1.1 = {death="8232.1.1"}
+}
+127300024 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=123300024
+	mother=223300024
+
+	8194.1.1 = {birth="8194.1.1"}
+	8205.1.1 = {death = {death_reason = death_accident}}
+}
+128300024 = {
+	name="Hodor"	# a lord
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=123300024
+	mother=223300024
+
+	8196.1.1 = {birth="8196.1.1"}
+	8212.1.1 = {add_trait=master_warrior}
+	8214.1.1 = {add_spouse=228300024}
+	8270.1.1 = {death="8270.1.1"}
+}
+228300024 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8196.1.1 = {birth="8196.1.1"}
+	8270.1.1 = {death="8270.1.1"}
+}
+129300024 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=128300024
+	mother=228300024
+
+	8224.1.1 = {birth="8224.1.1"}
+	8247.1.1 = {death="8247.1.1"}
+}
+130300024 = {
+	name="Hodor"	# a lord
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=128300024
+	mother=228300024
+
+	8225.1.1 = {birth="8225.1.1"}
+	8241.1.1 = {add_trait=trained_warrior}
+	8243.1.1 = {add_spouse=230300024}
+	8278.1.1 = {death="8278.1.1"}
+}
+230300024 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8225.1.1 = {birth="8225.1.1"}
+	8278.1.1 = {death="8278.1.1"}
+}
+131300024 = {
+	name="Hodor"	# a lord
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=130300024
+	mother=230300024
+
+	8253.1.1 = {birth="8253.1.1"}
+	8269.1.1 = {add_trait=poor_warrior}
+	8275.1.1 = {
+		add_spouse = 43130024
+	}
+}
+43130024 = {
+	name="Hodor"
+	female=yes
+
+	religion="trios"
+	culture="tyroshi"
+
+	8253.1.1 = {birth="8253.1.1"}
+}
+132300024 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=130300024
+	mother=230300024
+
+	8256.1.1 = {birth="8256.1.1"}
+}
+133300024 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=130300024
+	mother=230300024
+
+	8259.1.1 = {birth="8259.1.1"}
+	8278.1.1 = {death="8278.1.1"}
+}
+134300024 = {
+	name="Hodor"	# not a lord
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=130300024
+	mother=230300024
+
+	8260.1.1 = {birth="8260.1.1"}
+	8276.1.1 = {
+		add_trait=poor_warrior
+	}
+}
+
+105030024 = {
+	name="Hodor"
+	female = yes
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=131300024
+	mother=43130024
+
+	8276.1.1 = {birth="8276.1.1"}
+	8286.1.1 = {
+		guardian = 1 #Martell
+	}
+}
+105130024 = {
+	name="Hodor"
+	dynasty=300024
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=131300024
+	mother=43130024
+
+	8280.1.1 = {birth="8280.1.1"}
+	8296.1.1 = {
+		add_trait=poor_warrior
+	}
+}
+
+

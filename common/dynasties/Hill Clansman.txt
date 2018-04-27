@@ -1,0 +1,243 @@
+##Hill Clansman##
+#non-canon
+178900 = {
+	name="Hodor"
+	culture = hill_clansman
+}
+178901 = {
+	name="Hodor"
+	culture = hill_clansman
+}
+178902 = {
+	name="Hodor"
+	culture = hill_clansman
+}
+178903 = {
+	name="Hodor"
+	culture = hill_clansman
+}
+178904 = {
+	name="Hodor"
+	culture = hill_clansman
+}
+178905 = {
+	name="Hodor"
+	culture = hill_clansman
+}
+178906 = {
+	name="Hodor"
+	culture = hill_clansman
+}
+178907 = {
+	name="Hodor"
+	culture = hill_clansman
+}
+178908 = {
+	name="Hodor"
+	culture = hill_clansman
+}
+178909 = {
+	name="Hodor"
+	culture = hill_clansman
+}
+178910 = {
+	name="Hodor"
+	culture = hill_clansman
+}
+178911 = {
+	name="Hodor"
+	culture = hill_clansman
+}
+178912 = {
+	name = Nolt
+	culture = hill_clansman
+}
+178913 = {
+	name = Hough
+	culture = hill_clansman
+}
+178914 = {
+	name = Tofty
+	culture = hill_clansman
+}
+178915 = {
+	name = Hallow
+	culture = hill_clansman
+}
+178916 = {
+	name = Raye
+	culture = hill_clansman
+}
+178917 = {
+	name = Tarn
+	culture = hill_clansman
+}
+178918 = {
+	name = Burney
+	culture = hill_clansman
+}
+178919 = {
+	name = Foy
+	culture = hill_clansman
+}
+178920 = {
+	name = Dorr
+	culture = hill_clansman
+}
+178921 = {
+	name = Reiver
+	culture = hill_clansman
+}
+178922 = {
+	name = Grayne
+	culture = hill_clansman
+}
+178923 = {
+	name = Chiftan
+	culture = hill_clansman
+}
+178924 = {
+	name = Sleat
+	culture = hill_clansman
+}
+178925 = {
+	name = Manrent
+	culture = hill_clansman
+}
+178926 = {
+	name = Laird
+	culture = hill_clansman
+}
+178927 = {
+	name = Wullson
+	culture = hill_clansman
+}
+178928 = {
+	name = Ellott
+	culture = hill_clansman
+}
+178929 = {
+	name = Skott
+	culture = hill_clansman
+}
+178930 = {
+	name = Blackhill
+	culture = hill_clansman
+}
+178931 = {
+	name = Trotter
+	culture = hill_clansman
+}
+178932 = {
+	name = Craw
+	culture = hill_clansman
+}
+178933 = {
+	name = Hurley
+	culture = hill_clansman
+}
+178934 = {
+	name = Lyddal
+	culture = hill_clansman
+}
+178935 = {
+	name = Knottwoode
+	culture = hill_clansman
+}
+178936 = {
+	name = Ker
+	culture = hill_clansman
+}
+
+#canon
+92 = {
+	name="Hodor"
+	culture = hill_clansman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+96 = {
+	name="Hodor"
+	culture = hill_clansman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 11
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+97 = {
+	name="Hodor"
+	culture = hill_clansman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 17
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+98 = {
+	name="Hodor"
+	culture = hill_clansman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 15
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+99 = {
+	name="Hodor"
+	culture = hill_clansman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 40
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+100 = {
+	name="Hodor"
+	culture = hill_clansman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 26
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+

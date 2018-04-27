@@ -1,0 +1,10867 @@
+####The Reach
+####knuckey
+####New Characters use ids 88000-82999
+
+#### A "##" indicates additional information to be inputed
+
+### Oga 5/2;
+### Added uncanon wifes for minor charcters, so that players wont get a free marriage & new sons wont be half brothers of existing ones (All characters are 100Dynasty-married-into, if you want to delete/modify them - They are all Naive appeasers and dont have stats)
+
+###Tyrells
+###Growing Strong###
+##Issue of Leo Longhtorn## VIII
+88000 = {
+	name="Hodor"	#unknown Lord of the Reach
+	dynasty=253 #Tyrell
+	religion="the_seven"
+	culture="reachman"
+	father=88067
+	mother=88068
+	8205.1.1={
+		birth="8205.1.1"	
+	}
+	8227.1.1={
+		add_spouse=88066
+		add_trait="knight"
+	}
+	8247.1.1={
+		death="8247.1.1"
+	}
+}
+88066 = {
+	name="Hodor"	#unknown spouse
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	8205.1.1={
+		birth="8205.1.1"
+	}
+	8227.1.1={
+		add_spouse=88000
+	}
+	8255.1.1={
+		death="8255.1.1"
+	}
+}
+253 = {
+	name="Hodor" #Lord of the Reach
+	dynasty=253 #Tyrell
+	martial=9
+	diplomacy=6
+	intrigue=4
+	stewardship=3
+	learning=3
+	religion="the_seven"
+	
+	culture="reachman"
+	add_trait="slow"
+	
+	father=88000
+	mother=88066
+	8230.1.1={
+		birth="8230.1.1"
+		
+	}
+	8245.1.1={
+		add_trait="falconer"
+		add_trait="indulgent_wastrel"
+	}
+	8250.1.2={
+		add_spouse=6288 #Olenna Redwyne
+		add_trait="knight"
+	}
+	8259.1.1 = { #Ninepenny Kings
+		effect = {
+			# if = {
+				# limit = { NOT = { year = 8259 } }
+				# character_event = { id = 999990209 }
+			# }
+			any_vassal = { 
+				set_character_flag = neutral
+				clr_character_flag = supporting_king
+				clr_character_flag = against_king
+			}
+			set_character_flag = neutral
+			clr_character_flag = supporting_king
+			clr_character_flag = against_king
+			e_iron_throne = {
+				holder_scope = { 
+					opinion = {
+						modifier = opinion_dithered
+						who = ROOT
+						years = 5
+					}
+				}
+			}
+		}
+	}
+	8265.1.1={
+		death = { death_reason = death_accident }
+	}
+}
+1253 = {
+	name="Hodor" #Lord of the Reach
+	dynasty=253 #Tyrell
+	dna="bhagnhpnblj"
+	properties="cd0ddk"
+	martial=2
+	diplomacy=4
+	intrigue=2
+	stewardship=3
+	learning=3
+	religion="the_seven"
+	culture="reachman"
+	
+	add_trait=fair
+	add_trait=misguided_warrior
+	add_trait=gluttonous
+	add_trait=ambitious
+	add_trait=familyperson
+	add_trait=proud
+	
+	add_trait=siege_leader
+	disallow_random_traits = yes
+	
+	father=253
+	mother=6288
+	8256.1.1={
+		birth="8256.1.1"
+		
+	}
+	8276.1.1={
+		add_spouse=2285
+		add_trait="knight"
+		effect = { add_friend = 1288 } #Paxter Redwyne
+	}
+	8282.1.1 = {
+		effect = {
+			#lore children
+			character_event = { id = lore_children.3 days = 400 }
+		}
+	}
+	8282.9.15 = { #RR
+		effect = {
+			if = {
+				limit = { NOT = { year = 8284 } }
+				character_event = { id = roberts_rebellion.11 }
+				set_defacto_liege = THIS
+				e_iron_throne = {
+					holder_scope = {
+						ROOT = {
+							join_defender_wars = PREV
+						}
+					}
+				}
+			}
+			any_vassal = { set_character_flag = supporting_king  }
+			set_character_flag = supporting_king
+			set_character_flag = warden_of_the_south
+			c_77037 = { 
+				ROOT = {
+					opinion = {
+						modifier = opinion_targaryen_loyalist
+						who = PREV
+						years = 50
+					}
+					opinion = {
+						who = PREV
+						modifier = opinion_with_king
+						years = 100
+					}		
+				}
+			}
+		}
+	}	
+	8284.1.1 = { #CS
+		effect = {
+			any_vassal = { clr_character_flag = supporting_king  }
+			clr_character_flag = supporting_king
+			clr_character_flag = warden_of_the_south
+		}
+	}
+	8294.1.1 = { #Lends Iron Throne gold
+		effect = {
+			set_character_flag = liege_loan_300
+			add_character_modifier = {
+				name = "liege_loan"
+				duration = "1825"
+			}
+			e_iron_throne = {
+				holder_scope = {
+					reverse_opinion = {
+						who = ROOT
+						modifier = opinion_liege_loan
+						years = 100
+					}
+				}
+			}
+		}
+	}
+	8299.1.20 = { #ACoK
+		raise_levies = {
+			location = 253 #Bitterbridge
+			force_mult = 1
+		}
+		effect = {
+			set_character_flag = mega_war_liege_loan
+			set_character_flag = neutral
+			clr_character_flag = supporting_king
+			clr_character_flag = against_king
+			any_vassal = { 
+				set_character_flag = neutral
+				clr_character_flag = supporting_king
+				clr_character_flag = against_king
+			}
+			if = {
+				limit = { 
+					k_stormlands = {
+						holder_scope = {
+							character = 5317
+						}
+					}		
+				}
+				character_event = { id = clash_of_kings.506 }			
+				k_stormlands = {
+					holder_scope = {
+						add_alliance = { who = ROOT years = 20 }
+						opinion = {
+							who = ROOT
+							modifier = opinion_joined_cause
+						}
+						reverse_opinion = {
+							modifier = opinion_with_rebel_leader
+							who = ROOT
+							years = 100
+						}
+						ROOT = {
+							join_defender_wars = PREV
+						}
+					}
+				}
+			}	
+			set_character_flag = mace_tyrell
+			set_character_flag = warden_of_the_south
+		}
+	}	
+	8299.3.3 = {
+		effect = {
+			#character_event = { id = 999900233 }
+			if = {
+				limit = { 
+					NOT = { year = 8300 }
+					NOT = { month = 5 } 
+				}
+				set_character_flag = rose_and_the_lion
+				narrative_event = { id = clash_of_kings.20 days = 1 } #rose and the lion
+			}
+		}
+	}
+	8299.5.25 = {
+		raise_levies = {
+			dismiss = yes
+			location = 253 #Bitterbridge
+			force_mult = 1
+		}
+	}
+	8299.6.1 = {		
+		raise_levies = {
+			location = 226 # King's Landing
+			force_mult = 1
+		}
+		effect = {
+			set_character_flag = supporting_king
+			clr_character_flag = neutral
+			any_vassal = { set_character_flag = supporting_king clr_character_flag = neutral }
+			e_iron_throne = {
+				holder_scope = { 
+					ROOT = {
+						opinion = {
+							who = PREV
+							modifier = opinion_with_king
+							years = 100
+						}	
+					}
+					opinion = {
+						who = ROOT
+						modifier = opinion_loyal_to_crown
+						years = 5
+					}
+				}
+			}
+			k_stormlands = {
+				holder_scope = {
+					remove_opinion = {
+						who = ROOT
+						modifier = opinion_joined_cause
+					}
+					reverse_remove_opinion = {
+						modifier = opinion_with_rebel_leader
+						who = ROOT
+					}
+				}
+			}
+			set_character_flag = brightwater_keep_promised
+			spawn_unit = {
+				province = 226 # King's Landing
+				#scaled_by_biggest_garrison = 0.1
+				owner = ROOT
+				leader = 296 #Randyll Tarly
+				troops = {
+					archers = { 20 20 }
+					heavy_infantry = { 120 120 }
+					light_infantry = { 85 85 }
+					light_cavalry = { 21 21 }	
+					knights = { 2 2 }					
+				}
+				attrition = 1.0
+				disband_on_peace = yes
+			} 
+			spawn_unit = {
+				province = 226 # King's Landing
+				#scaled_by_biggest_garrison = 0.1
+				owner = ROOT
+				leader = 5253 #Garlan
+				troops = {
+					archers = { 20 20 }
+					heavy_infantry = { 120 120 }
+					light_infantry = { 85 85 }
+					light_cavalry = { 21 21 }	
+					knights = { 2 2 }					
+				}
+				attrition = 1.0
+				disband_on_peace = yes
+			} 
+		}
+	}
+}
+3253 = {
+	name="Hodor"
+	dynasty=253 #Tyrell
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	
+	add_trait="flamboyant_schemer"
+	add_trait="kind"
+	father=253
+	mother=6288
+	8260.1.1={
+		birth="8260.1.1"
+	}
+	8275.1.1={
+		add_trait="falconer"
+	}
+	8276.1.1={
+		add_spouse=261 #Jon Fossoway
+	}
+}
+2253 = {
+	name="Hodor"
+	dynasty=253 #Tyrell
+	female=yes
+	martial=3
+	diplomacy=4
+	intrigue=4
+	stewardship=4
+	religion="the_seven"
+	culture="reachman"
+	father=253
+	mother=6288
+	8261.1.1={
+		birth="8261.1.1"
+	}
+	8277.1.1={
+		add_spouse=1288  #Paxter Redwyne
+	}
+}                           
+4253 = {
+	name="Hodor"
+	dynasty=253 #Tyrell
+	
+	dna="bfagnhpnblj"
+	properties="0g00h0"
+	
+	martial=4
+	diplomacy=10
+	intrigue=5
+	stewardship=9
+	learning=10
+	religion="the_seven"
+	culture="reachman"
+	add_trait="charismatic_negotiator"
+	add_trait="quick"
+	add_trait="patient"
+	add_trait="familyperson"
+	add_trait="kind"
+	father=1253
+	mother=2285
+	
+	8276.11.11={
+		birth="8276.11.11"
+		effect = { health = 2 }
+	}
+	8287.11.11={
+		add_trait="squire"
+	}
+	8290.11.11={
+		add_trait="master_warrior"
+	}
+	8293.1.1={
+		add_trait="crippled"
+		add_trait="scholar"
+		add_trait="hunter"
+		add_trait="falconer"
+		remove_trait="master_warrior"
+	}
+} 
+5253 = {
+	name="Hodor" 
+	dynasty=253 #Tyrell
+	
+	dna="bfagnhpnblj"
+	properties="0j00n0"
+	
+	martial=10
+	diplomacy=7
+	religion="the_seven"
+	culture="reachman"
+	add_trait="skilled_tactician"
+	add_trait="familyperson"
+	
+	add_trait=trickster
+	add_trait=inspiring_leader
+	disallow_random_traits = yes
+	
+	father=1253
+	mother=2285
+	8277.11.11={
+		birth="8277.11.11"
+		effect = {
+			remove_trait = slothful
+			remove_trait = lustful
+		}
+	}
+	8284.11.11={
+		add_trait="poor_warrior"
+	}
+	8287.1.1 = {	
+		give_nickname = nick_the_gallant
+		add_trait="honorable"
+		add_trait="kind"
+		add_trait="squire"
+		remove_trait="poor_warrior"
+		add_trait="trained_warrior"
+	}
+	8287.1.1 = {
+		add_trait="hunter"
+	}
+	8291.1.1 = {
+		add_trait="skilled_warrior"
+		remove_trait="trained_warrior"
+	}
+	8294.1.1={
+		remove_trait="skilled_warrior"
+		add_trait="master_warrior"
+	}
+	8295.1.1={
+		add_spouse=3261 #Leonette Fossoway
+		remove_trait="squire"
+		add_trait="knight"
+	}
+	8299.7.2 = {
+		effect = {
+			set_character_flag = brightwater_keep_promised
+		}
+	}	
+} 
+6253 = {
+	name="Hodor"
+	dynasty=253 #Tyrell
+	
+	dna="bfagnhpnblj"
+	properties="0n0000"
+	
+	martial=10
+	diplomacy=3
+	intrigue=4
+	stewardship=4
+	learning=2
+	religion="the_seven"
+	culture="reachman"
+	add_trait="tough_soldier"
+	add_trait="fair"	
+	add_trait="wroth"
+	add_trait="proud"
+	add_trait = "familyperson"
+		
+	father=1253
+	mother=2285
+	8282.1.1={
+		birth="8282.1.1"
+	}
+	8285.1.1 = {
+		add_trait="brave"
+	}
+	8289.1.1 = {
+		add_trait="poor_warrior"
+	}
+	8292.1.1={
+		remove_trait="poor_warrior"
+		add_trait="trained_warrior"
+	}
+	8295.1.1 = {
+		remove_trait="trained_warrior"
+		add_trait="skilled_warrior"
+		add_trait="homosexual"
+	}
+	8297.1.1 = {
+		add_trait="duelist"
+		add_trait="fashionable"
+	}
+	8298.1.1 = {	
+		give_nickname = nick_the_knight_of_flowers
+		add_trait="knight"
+		remove_trait="skilled_warrior"
+		add_trait="master_warrior"
+		effect = {
+			c_5317 = {
+				if = {
+					limit = { is_alive = yes }
+					ROOT = { move_character = PREV }
+				}
+			}			
+		}
+	}
+	8299.1.4 = {
+		effect = {
+			c_5317 = {
+				if = {
+					limit = { is_alive = yes }
+					ROOT = {
+						set_character_flag = rainbow_guard
+						give_minor_title = title_bodyguard
+					}
+				}
+			}			
+		}
+		#add_trait="rainbowguard"
+	}	
+	8299.3.3 = { 
+		employer=1253 
+	}
+	8299.7.2 = {
+		add_trait="kingsguard"
+		employer=3190
+	}
+}
+
+7253 = {
+	name="Hodor"
+	dynasty=253 #Tyrell
+	female=yes
+	
+	dna="djhgulcqjaj"	#djmbulpqjaj
+	properties="0c000b"
+			
+	martial=4
+	diplomacy=7
+	intrigue=8
+	stewardship=6
+	learning=8
+	religion="the_seven"
+	culture="reachman"
+	
+	add_trait="intricate_webweaver"
+	add_trait="fair"
+	add_trait="quick"
+	add_trait="familyperson"
+	add_trait="ambitious"
+	add_trait="lustful"
+	add_trait="charitable"
+	
+	disallow_random_traits = yes
+	
+	father=1253
+	mother=2285
+	
+	8283.1.1={
+		birth="8283.1.1"
+	}
+	8297.1.1={		
+		add_trait="fashionable"
+		add_trait="falconer"
+	}
+	#marriages set by husbands
+}
+###minor tyrells
+88001 = {
+	name="Hodor" #the Gross, Lord Seneschal of Highgarden 
+	dynasty=253 #Tyrell
+	martial=3
+	diplomacy=3
+	intrigue=8
+	stewardship=12
+	religion="the_seven"
+	culture="reachman"
+	add_trait="gluttonous"	
+	add_trait="thrifty_clerk"
+	father=88000
+	mother=88066
+	8232.1.1={
+		birth="8232.1.1"
+	}
+	8279.1.1 = {give_nickname = nick_the_gross
+	}
+}
+88002 = {
+	name="Hodor" #Lord Commander of the City Watch of Oldtown 
+	dynasty=253 #Tyrell
+	martial=7
+	diplomacy=3
+	intrigue=5
+	stewardship=3
+	religion="the_seven"
+	culture="reachman"
+	add_trait="tough_soldier"
+	father=88000
+	mother=88066
+	8233.1.1={
+		birth="8233.1.1"
+	}
+	8248.1.1={
+		add_trait="trained_warrior"
+	}
+	8249.1.1 = {add_spouse = 100253}
+	8252.1.1={
+		add_trait="knight"
+	}
+}
+100253 = {
+	name="Hodor" #Uncanon Wife
+	female=yes
+
+	religion="the_seven"
+	culture="reachman"
+	
+	add_trait="naive_appeaser"
+	
+	8233.1.1={
+		birth="8233.1.1"
+	}
+}
+88083 = {
+	name="Hodor" 
+	dynasty=253 #Tyrell
+	martial=3
+	diplomacy=6
+	intrigue=6
+	stewardship=6
+	learning=9
+	religion="the_seven"
+	culture="reachman"
+	add_trait="scholarly_theologian"
+	father=88000
+	mother=88066
+	8236.1.1={
+		birth="8236.1.1"
+	}
+	8262.1.1={
+		add_trait="maester"
+		effect = { set_character_flag = serving_with_lord }
+	}
+	8278.1.1={
+		employer=88129
+	}
+	8292.1.1={
+		employer=88124
+	}
+	8298.1.1={
+		employer=88130
+	}
+}
+88003 = {
+	name="Hodor" #bastard son of garth
+	dynasty=253 #Flowers
+	martial=7
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	religion="the_seven"
+	culture="reachman"
+	father=88001
+	add_trait="bastard"
+	add_trait="tough_soldier"
+	give_nickname = nick_flowers
+	8255.1.1={
+		birth="8255.1.1"
+	}
+	8270.1.1={
+		add_trait="trained_warrior"
+	}
+}
+88004 = {
+	name="Hodor" #bastard son of garth
+	dynasty=253 #Flowers
+	martial=8
+	diplomacy=4
+	intrigue=6
+	stewardship=4
+	religion="the_seven"
+	culture="reachman"
+	father=88001
+	add_trait="bastard"	
+	add_trait="tough_soldier"
+	give_nickname = nick_flowers
+	8258.1.1={
+		birth="8258.1.1"
+	}
+	8273.1.1={
+		add_trait="trained_warrior"
+	}
+}
+88006 = {
+	name="Hodor" #son of moryn
+	dynasty=253 #Tyrell
+	religion="the_seven"
+	culture="reachman"
+	add_trait="tough_soldier"
+	father=88002
+	mother=100253	
+	8250.1.1={
+		birth="8250.1.1"
+	}
+	8267.1.1={
+		add_spouse=88008
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+	8290.1.1={
+		death="8290.1.1"
+	}
+}
+88089 = {
+	name="Hodor" #son of Moryn, studying at the Citadel
+	dynasty=253 #Tyrell
+	martial=3
+	intrigue=8
+	stewardship=6
+	religion="the_seven"
+	culture="reachman"
+	father=88002
+	mother=100253
+	add_trait="slothful"		
+	8275.1.1={
+		birth="8275.1.1"
+	}
+	8290.1.1 = {give_nickname = nick_the_lazy
+				employer = 88129
+	}
+}
+8252 = {
+	name="Hodor" #son of Luthor, ser
+	dynasty=253 #Tyrell
+	martial=7
+	religion="the_seven"
+	culture="reachman"
+	father=88006
+	mother=88008
+	add_trait="tough_soldier"	
+	8268.1.1={
+		birth="8268.1.1"
+		employer=1253
+	}
+	8283.1.1={
+		add_trait="trained_warrior"
+	}
+	8285.1.1={
+		add_spouse=2276
+		add_trait="knight"
+	}
+}
+88009 = {
+	name="Hodor" 
+	dynasty=253 #Tyrell
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=88006
+	mother=88008		
+	8275.1.1={
+		birth="8275.1.1"
+	}
+	8295.1.1={
+		add_spouse=283
+	}
+}
+88010 = {
+	name="Hodor" #Maester of the Citadel
+	dynasty=253 #Tyrell
+	martial=4
+	diplomacy=4
+	intrigue=8
+	stewardship=8
+	learning=12
+	religion="the_seven"
+	culture="reachman"
+	add_trait="martial_cleric"
+	father=88006
+	mother=88008		
+	8277.1.1={
+		birth="8277.1.1"
+	}
+	8295.1.1={
+		add_trait="maester"
+		employer=88124
+		effect = { set_character_flag = serving_with_lord }
+	}
+}
+88011 = {
+	name="Hodor" #lady-in-waiting to Queen Margaery Tyrell
+	dynasty=253 #Tyrell
+	female=yes
+	martial=3
+	diplomacy=5
+	intrigue=9
+	stewardship=7
+	religion="the_seven"
+	culture="reachman"
+	add_trait="flamboyant_schemer"	
+	add_trait="quick"
+	father=8252
+	mother=2276
+	8286.1.1={
+		birth="8286.1.1"
+	}
+}
+88012 = {
+	name="Hodor" #squire
+	dynasty=253 #Tyrell
+	religion="the_seven"
+	culture="reachman"	
+	father=8252
+	mother=2276
+	8287.1.1={
+		birth="8287.1.1"
+	}
+	8297.1.1={
+		add_trait="squire"
+		add_trait="poor_warrior"
+	}
+}
+
+#Cadet Branch of Victor
+#Issue of Leo Longhtorn## VIII
+88069 = {
+	name="Hodor"	#random
+	dynasty=253 #Tyrell
+	religion="the_seven"
+	culture="reachman"
+	father=88067
+	mother=88068
+	8208.1.1={
+		birth="8208.1.1"
+	}
+	8267.1.1={
+		death="8267.1.1"
+	}
+}
+88070 = {
+	name="Hodor"	#random
+	dynasty=253 #Tyrell
+	religion="the_seven"
+	culture="reachman"
+	father=88069
+	8228.1.1={
+		birth="8228.1.1"
+	}
+	8275.1.1={
+		death="8275.1.1"
+	}
+}
+88071 = {
+	name="Hodor"	#random
+	dynasty=253 #Tyrell
+	martial=8
+	religion="the_seven"
+	culture="reachman"
+	father=88070
+	add_trait="tough_soldier"
+	8248.1.1={
+		birth="8248.1.1"
+	}
+	8268.1.1={
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+	8281.6.1={
+		death = {
+			death_reason = death_duel_battle
+			killer = 164307 #smiling knight
+		} #kingswood brotherhood
+	}
+}
+88044 = {
+	name="Hodor" #
+	dynasty=253 #Tyrell
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=88071	
+	8263.1.1={
+		birth="8263.1.1"
+	}
+	8282.1.1={
+		add_spouse=284 #Jon Bulwer
+	}
+	8296.1.1={
+		employer=1284
+	}
+}
+88072 = {
+	name="Hodor" #
+	dynasty=253 #Tyrell
+	martial=6
+	religion="the_seven"
+	culture="reachman"
+	father=88071	
+	add_trait="tough_soldier"
+	8264.1.1={
+		birth="8264.1.1"
+	}
+	8279.1.1={
+		add_trait="trained_warrior"
+	}
+	8281.1.1={
+		add_spouse=6282 #Alys Beesbury
+		add_trait="knight"
+	}
+}
+88093 = {
+	name="Hodor" #
+	dynasty=253 #Tyrell
+	religion="the_seven"
+	culture="reachman"
+	father=88072
+	mother=6282	
+	8285.1.1={
+		birth="8285.1.1"
+	}
+}
+88073 = {
+	name="Hodor" #
+	dynasty=253 #Tyrell
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=88072
+	mother=6282	
+	add_trait="fair"
+	add_trait="shy"
+	8287.1.1={
+		birth="8287.1.1"
+	}
+}
+88074 = {
+	name="Hodor" #
+	dynasty=253 #Tyrell
+	religion="the_seven"
+	culture="reachman"
+	father=88072
+	mother=6282	
+	8289.1.1={
+		birth="8289.1.1"
+	}
+}
+88075 = {
+	name="Hodor" #
+	dynasty=253 #Tyrell
+	religion="the_seven"
+	culture="reachman"
+	father=88072
+	mother=6282	
+	8290.1.1={
+		birth="8290.1.1"
+	}
+}
+88076 = {
+	name="Hodor" #
+	dynasty=253 #Tyrell
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=88072
+	mother=6282	
+	8292.1.1={
+		birth="8292.1.1"
+	}
+}
+
+#Cadet Branch of Quentin
+#Issue of Leo Longhtorn## VIII
+88077 = {
+	name="Hodor"	#random
+	dynasty=253 #Tyrell
+	religion="the_seven"
+	culture="reachman"
+	father=88067
+	mother=88068
+	8210.1.1={
+		birth="8210.1.1"
+	}
+	8265.1.1={
+		death="8265.1.1"
+	}
+}
+88078 = {
+	name="Hodor"	#random
+	dynasty=253 #Tyrell
+	religion="the_seven"
+	culture="reachman"
+	father=88077
+	8228.1.1={
+		birth="8228.1.1"
+	}
+	8279.1.1={
+		death="8279.1.1"
+	}
+}
+88079 = {
+	name="Hodor"	#
+	dynasty=253 #Tyrell
+	religion="the_seven"
+	culture="reachman"
+	martial=6
+	father=88078
+	add_trait="tough_soldier"
+	8246.1.1={
+		birth="8246.1.1"
+	}
+	8261.1.1={
+		add_trait="skilled_warrior"
+	}
+	8266.1.1={
+		add_trait="knight"
+	}
+	8283.1.1={
+		death = {
+			death_reason = death_battle #battle of ashford
+		}
+	}
+}
+88080 = {
+	name="Hodor"	#
+	dynasty=253 #Tyrell
+	religion="the_seven"
+	culture="reachman"
+	martial=7
+	father=88079
+	add_trait="tough_soldier"
+	8262.1.1={
+		birth="8262.1.1"
+	}
+	8278.1.1={
+		add_spouse=88032 #Lysa Meadows
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+}
+88081 = {
+	name="Hodor"	#
+	dynasty=253 #Tyrell
+	religion="the_seven"
+	culture="reachman"
+	father=88080
+	mother=88032
+	8279.1.1={
+		birth="8279.1.1"
+	}
+}
+88082 = {
+	name="Hodor"	#
+	dynasty=253 #Tyrell
+	religion="the_seven"
+	culture="reachman"
+	father=88080
+	mother=88032
+	8280.1.1={
+		birth="8280.1.1"
+	}
+}
+88091 = {
+	name="Hodor"	#
+	dynasty=253 #Tyrell
+	female=yes
+	intrigue=10
+	religion="the_seven"
+	culture="reachman"
+	add_trait="flamboyant_schemer"
+	add_trait="fair"
+	add_trait="lustful"	
+	father=88080
+	mother=88032
+	8281.1.1={
+		birth="8281.1.1"
+	}
+}
+#Courtiers
+1050253 = {
+	name="Hodor"	#The Blue Bard
+
+	intrigue=1
+	learning=1
+	stewardship=2
+	martial=1
+	diplomacy=4
+	
+	religion="the_seven"
+	culture="reachman"
+	
+	add_trait="naive_appeaser"
+	add_trait="fair"
+	add_trait="diligent"
+	
+	8282.1.1={
+		birth="8282.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8294.1.1={
+		employer = 1253
+		add_trait = poet
+		give_nickname = nick_the_blue_bard
+	}
+	8299.6.1 = {
+		employer = 9316
+	}
+	8300.1.2 = {
+		employer = 7316 
+	}
+	8300.6.1 = { #tortured
+		add_trait = maimed
+		add_trait = lunatic
+		add_trait = blinded
+	}
+}
+
+###Redwynes           
+6288 = {
+	name="Hodor"
+	female=yes
+	properties="0f000"
+	
+	dynasty=288 #Redwyne
+	martial=2
+	diplomacy=8
+	intrigue=10
+	stewardship=5
+	
+	religion="the_seven"
+	culture="reachman"
+	
+	add_trait="elusive_shadow"	
+	add_trait="quick"
+	add_trait="diligent"
+	add_trait="familyperson"
+	add_trait="authoritative"
+	
+	father= 288
+	8228.1.1={
+		birth="8228.1.1"
+		effect = { health = 4 }
+	}
+	8240.1.1={
+		add_trait="ambitious"
+	}
+	8250.1.2={
+		add_spouse=253  #Luthor Tyrell
+	}
+	8265.1.1 = {	
+		add_trait = "widowed"
+		add_trait="cynical"
+		give_nickname = nick_the_queen_of_thorns
+		employer = 1253
+	}
+}
+1288 = {
+	name="Hodor" #Lord of the Arbor
+	dynasty=288 #Redwyne
+	dna="ajhedxbgdei"
+	properties="ck0ehk"
+	martial=5
+	diplomacy=7
+	intrigue=7
+	stewardship=6
+	religion="the_seven"
+	culture="reachman"
+	father= 88013
+	add_trait="skilled_tactician"
+	add_trait="patient"
+	add_trait="honest"
+	add_trait="content"
+	8251.1.1={
+		birth="8251.1.1"
+	}
+	8267.1.1={
+		add_trait="knight"
+	}
+	8277.1.1={
+		add_spouse=2253  #Mina Tyrell
+	}
+	8299.2.11 = {
+		effect = {
+			if = {						
+				limit = {
+					NOT = { year = 8300 }
+					NOT = { month = 3 }
+				}
+				set_character_flag = neutral
+				clr_character_flag = supporting_king
+				clr_character_flag = against_king
+				any_demesne_title = {
+					limit = { 
+						OR = {
+							tier = COUNT
+							tier = DUKE
+						}
+					}				
+					set_variable = { which = "de_facto_kingdom" value = 6 } #reach
+				}
+				set_defacto_liege = ROOT
+			}
+		}
+	}
+}
+2288 = {
+	name="Hodor" 
+	dynasty=288 #Redwyne
+	dna="dclmbdicdbx"
+	properties="ce0eik"		
+	martial=7
+	diplomacy=5
+	intrigue=2
+	stewardship=4
+	religion="the_seven"
+	culture="reachman"
+	add_trait="tough_soldier"
+	add_trait="twin"
+	
+	father= 1288
+	mother= 2253
+	8280.1.1={
+		birth="8280.1.1"
+	}
+	8295.1.1={
+		add_trait="poet"
+	}
+	8296.1.1={
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+	8299.2.11 = { #ACoK
+		effect = {
+			e_iron_throne = { #Imprisoned
+				holder_scope = {
+					ROOT = {
+						imprison = PREV
+						remove_character_modifier = the_dungeon
+						set_character_flag = captured_in_battle
+						add_character_modifier = { 
+							name = house_arrest
+							duration = -1
+						}
+					}
+				}
+			}	
+		}
+	}	
+	8299.7.1={
+		employer=9316
+	}
+	8299.7.1={
+		add_trait="wounded" #wounded at blackwater
+	}
+	8300.1.2 = { employer = 7316 } #Tommen I "Baratheon"
+}
+3288 = {
+	name="Hodor" 
+	dynasty=288 #Redwyne
+	dna="dclmbdicdbx"
+	properties="ce0eik"	
+	martial=6
+	diplomacy=4
+	intrigue=2
+	stewardship=4
+	religion="the_seven"
+	culture="reachman"
+	father= 1288
+	mother= 2253
+	add_trait="tough_soldier"
+	add_trait="twin"
+	add_trait="gregarious"
+	8280.1.2={
+		birth="8280.1.2"
+	}
+	8295.1.1={
+		add_trait="trained_warrior"
+	}
+	8296.1.1={
+		add_trait="knight"
+	}
+	8299.2.11 = { #ACoK
+		effect = {
+			e_iron_throne = { #Imprisoned
+				holder_scope = {
+					ROOT = {
+						imprison = PREV
+						remove_character_modifier = the_dungeon
+						set_character_flag = captured_in_battle
+						add_character_modifier = { 
+							name = house_arrest
+							duration = -1
+						}
+					}
+				}
+			}	
+		}
+	}	
+	8299.7.1={
+		employer=1288 #returned home
+		effect = { prisoner = no }
+	}
+	#8281.1.1 = { give_nickname = nick_slobber }
+}
+4288 = {
+	name="Hodor" 
+	dynasty=288 #Redwyne
+	dna="aekbebmcdbo"
+	properties="cb0esk"
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father= 1288
+	mother= 2253
+	8283.1.1={
+		birth="8283.1.1"
+	}
+}
+88096 = {
+	name="Hodor" #random
+	dynasty=288 #Redwyne
+	religion="the_seven"
+	culture="reachman"	
+	
+	father= 88095
+	8203.1.1={
+		birth="8203.1.1"
+	}
+	8224.1.1={
+		add_trait="drunkard"
+	}
+	8262.1.1={
+		death="8262.1.1"
+	}
+}  
+88097 = {
+	name="Hodor" #random
+	dynasty=288 #Redwyne
+	religion="the_seven"
+	culture="reachman"	
+	
+	father= 88096
+	8228.1.1={
+		birth="8228.1.1"
+	}
+	8247.1.1={
+		add_trait="drunkard"
+	}
+	8278.1.1={
+		death="8278.1.1"
+	}
+}  
+8288 = {
+	name="Hodor" #unknown relation to main family
+	dynasty=288 #Redwyne
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father= 88097
+	8256.1.1={
+		birth="8256.1.1"
+	}
+	8274.1.1={
+		add_spouse=88033  #Mathis Rowan
+	}
+}
+88098 = {
+	name="Hodor" #random
+	dynasty=288 #Redwyne
+	religion="the_seven"
+	culture="reachman"	
+	
+	father= 88095
+	8207.1.1={
+		birth="8207.1.1"
+	}
+	8225.1.1={
+		add_trait="drunkard"
+	}
+	8275.1.1={
+		death="8275.1.1"
+	}
+} 
+88099 = {
+	name="Hodor" #random
+	dynasty=288 #Redwyne
+	religion="the_seven"
+	culture="reachman"	
+	
+	father= 88098
+	8232.1.1={
+		birth="8232.1.1"
+	}
+	8254.1.1={
+		add_trait="drunkard"
+	}
+	8280.1.1={
+		death="8280.1.1"
+	}
+} 
+9288 = {
+	name="Hodor" #unknown relation to main family
+	dynasty=288 #Redwyne
+	martial=7
+	religion="the_seven"
+	culture="reachman"
+	add_trait="tough_soldier"
+	father= 88099
+	8264.1.1={
+		birth="8264.1.1"
+	}
+	8280.1.1={
+		add_trait="knight"
+		add_trait="poor_warrior"
+	}
+	8282.1.1={
+		add_spouse=4285 #Denyse Hightower
+	}
+}
+88016 = {
+	name="Hodor" #squire
+	dynasty=288 #Redwyne
+	martial=5
+	religion="the_seven"
+	culture="reachman"
+	father= 9288
+	mother= 4285
+	8286.1.1={
+		birth="8286.1.1"
+	}
+	8296.1.1={
+		add_trait="squire"
+		guardian=9281 #colin florent - maybe a squire exchange with his son who is at arbor
+	}
+	8297.1.1={
+		add_trait="poor_warrior"
+	}
+}
+
+###
+###Hightowers
+###
+#88245 = { Abelar Hightower } - Removed, Other version is in the anchient history.
+#88246 = { Tania } - His wife, Replaced.
+#88250 = { Gormon Hightower } - Replaced.
+#88249 = { Elinor } - His Wife, Removed.
+#88247 = { Otto Hightower } - The bad hand, Replaced.
+####
+
+##Issue of Abelar## XII
+88248 = {
+	name="Hodor" atm. Please check....
+	dynasty=285 #Hightower         
+	female=yes	
+	religion="the_seven"
+	culture="reachman"
+	father=9285
+	mother=19285
+	8202.1.1={
+		birth="8202.1.1"
+	}
+	8278.1.1={
+		death="8278.1.1"
+	}
+}
+88017 = {
+	name="Hodor" #  Lord of Hightower. The one who shut Oldtown for the grey plague.
+	dynasty=285 #Hightower
+
+	martial=7
+	diplomacy=2 # had his throat slit for Seven's sake!
+	intrigue=6
+	stewardship=8
+	learning=10 # he knew how to stop the Grey Plague at least.
+
+	add_trait="cruel" # many people would thing so, what with him barring the gates of Oldtown.
+	add_trait="underhanded_rogue"
+	add_trait="quick" # same as learning.
+	add_trait="scholar" # would go hand in hand with above.
+	add_trait="patient" # as per above.
+	add_trait="proud"
+
+	religion="the_seven"
+	culture="reachman"
+	
+	father=9285
+	mother=19285
+
+	8206.1.1={birth="8206.1.1"}
+	8222.1.1={
+		add_trait="knight"
+	}
+	8226.1.1={ add_trait = vigilance }
+	8238.5.5={
+		death = {
+			death_reason = death_rabble
+		}
+	} # had throat slit. Would mean Leyton's three at his death.
+}
+56 = { # White Bull!
+	name="Hodor" #Commander Kingsguard
+	dynasty=285 #Hightower
+	
+	dna="cccajgccbak"
+	properties="cp0dik0000"	
+	
+	martial=10
+	diplomacy=7
+	intrigue=7
+	stewardship=5
+	
+	religion="the_seven"
+	culture="reachman"
+	add_trait="skilled_tactician"
+	add_trait="strong"
+	add_trait="honest"
+	add_trait="just"
+	add_trait="authoritative"
+	
+	father=9285
+    mother=19285
+	
+	8221.1.1={birth="8221.1.1"} # he needs to be older. Abelar is his Father and he needs to be dead by the time Gerold's brother is Lord. He'd be sixty three now at the tower of Joy. Reasonable age and it would add more meaning to the "White" Bull.
+	8238.1.1={ 	
+		add_trait="knight"
+		add_trait="master_warrior"
+	}
+	8259.1.1={ 	#Joined the kingsguard.
+		add_trait="kingsguard"
+	}
+	8270.1.1 = { give_nickname = nick_the_white_bull }
+	8282.9.15 = { #RR
+		effect = {
+			set_character_flag = TOJ_kingsguard
+			add_trait = wikid
+			character_event = { id = tower_of_joy.3 days = 1 }
+		}
+	}
+	8284.1.1={
+		death = {
+			death_reason = death_battle
+			killer = 59 # Ned Stark
+		}
+		remove_trait = wikid
+	}
+}
+##Issue of Quenton## XIII
+285 = {
+	name="Hodor" #Lord of Hightower 
+	dynasty=285 #Hightower
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=6
+	religion="the_seven"
+	culture="reachman"
+	add_trait="lustful"
+	add_trait="shy"
+	add_trait="patient"
+	add_trait="indulgent_wastrel"
+	father=88017
+	#mother=88249
+	8230.1.1={
+		birth="8230.1.1"
+		effect = { health = 2.5 }
+	}
+	8238.5.5 = {
+		add_trait = vigilance
+	}
+	8244.1.1={
+		add_spouse=88242  #unknown wife 1
+		add_trait="knight"
+		add_trait="poor_warrior"
+	}
+	8261.1.1={
+		add_spouse=88243  #unknown wife 2
+	}
+	8267.1.1={
+		add_spouse=88244  #unknown wife 2
+	}
+	8271.1.1={
+		add_spouse=3281  #Rhea Florent
+	}
+	8281.1.1 = { 
+		give_nickname = nick_the_old 
+		remove_trait="poor_warrior"
+	}
+	8289.1.1={
+		add_trait="depressed"
+		add_trait="slothful"
+	}
+	8295.1.1={
+		add_trait="incapable"
+		add_trait="mystic"
+	}
+}
+88242 = {
+	name="Hodor" #Uncanon Wife 1
+	female=yes
+
+	religion="the_seven"
+	culture="reachman"
+	
+	add_trait="naive_appeaser"
+	
+	8225.1.1={
+		birth="8225.1.1"
+	}
+	8260.1.1={
+		death="8260.1.1"
+	}
+}
+88243 = {
+	name="Hodor" #Uncanon Wife 2
+	female=yes
+
+	religion="the_seven"
+	culture="reachman"
+	
+	add_trait="naive_appeaser"
+	
+	8221.1.1={
+		birth="8221.1.1"
+	}
+	8266.1.1={
+		death="8266.1.1"
+	}
+}
+88244 = {
+	name="Hodor" #Uncanon Wife 3
+	female=yes
+
+	religion="the_seven"
+	culture="reachman"
+	
+	add_trait="naive_appeaser"
+	
+	8231.1.1={
+		birth="8231.1.1"
+	}
+	8270.1.1={
+		death="8270.1.1"
+	}
+}
+18285 = {
+	name="Hodor" #  Leyton's brother who died young. Throat slit by Oldtown mob. Named him this so its as if Leyton was remembering his brother when he named his firstborn.
+	dynasty=285 #Hightower
+
+	religion="the_seven"
+	culture="reachman"
+	
+	father=88017
+
+	8231.1.1={birth="8231.1.1"}
+	8238.5.5={
+		death = {
+			death_reason = death_rabble
+		}
+	} # had throat slit like father. Died at nine, 'young son' leans towards a child over five. GRRM would have said 'infant' or 'babe just off the breast' if he meant a baby or toddler. :P
+}
+##Issue of Bethany## XIV
+88251 = {
+	name="Hodor" #Maester to Lord Rickard of winterfell
+	dynasty=285 #Hightower         
+	religion="the_seven"
+	culture="reachman"
+	mother=88248
+	add_trait="bastard"	
+	give_nickname = nick_flowers
+	diplomacy=9
+	learning=10
+	#employer the citadel
+	8218.1.1={
+		birth="8218.1.1"
+	}
+	8242.1.1={
+		add_trait="maester"
+		add_trait="martial_cleric"	
+		employer=2058 #Rickard	
+		effect = { set_character_flag = serving_with_lord }
+	}
+	8270.1.1={
+		death="8270.1.1"
+	}
+}
+##Issue of Leyton## XIV
+1285 = {
+	name="Hodor" #
+	dynasty=285 #Hightower
+	martial=7
+	diplomacy=6
+	intrigue=2
+	stewardship=10
+	religion="the_seven"
+	culture="reachman"
+	add_trait="tough_soldier"
+	add_trait="fair"
+	add_trait="just"
+	add_trait="diligent"
+	father=285
+	mother=88242
+	8255.1.1={
+		birth="8255.1.1"
+	}
+	8271.1.1={
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+	8280.1.1={
+		add_spouse=88105 #Rhonda Rowan
+	}
+	8281.1.1 = {give_nickname = nick_brightsmile
+	}
+}
+5285 = {
+	name="Hodor"
+	dynasty=285 #Hightower
+	female=yes
+	martial=2
+	diplomacy=2
+	intrigue=6
+	stewardship=2
+	religion="the_seven"
+	culture="reachman"
+	add_trait="lunatic"
+	add_trait="mystic"
+	add_trait="indulgent_wastrel"
+	add_trait="celibate"
+	father=285
+	mother=88242
+	8257.1.1={
+		birth="8257.1.1"
+	}
+	8281.1.1 = {give_nickname = nick_the_mad_maid
+	}
+}                       
+2285 = {
+	name="Hodor"
+	dynasty=285 #Hightower
+	female=yes
+	martial=2
+	diplomacy=7
+	intrigue=3
+	stewardship=6
+	religion="the_seven"
+	culture="reachman"
+	add_trait="honest"
+	add_trait="humble"
+	add_trait="kind"
+	add_trait="underhanded_rogue"
+	father=285
+	mother=88242
+	8260.1.1={
+		birth="8260.1.1"
+	}
+	8276.1.1={
+		add_spouse=1253 #Mace Tyrell
+	}
+}  
+3285 = {
+	name="Hodor"
+	dynasty=285 #Hightower
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=285
+	mother=88243
+	8263.1.1={
+		birth="8263.1.1"
+	}
+	8280.1.1={
+		add_spouse=297 #Arthur Ambrose
+	}
+}  
+4285 = {
+	name="Hodor"
+	dynasty=285 #Hightower
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=285
+	mother=88243
+	8265.1.1={
+		birth="8265.1.1"
+	}
+	8282.1.1={
+		add_spouse=9288 #Desmond Redwyne
+	}
+} 
+6285 = {
+	name="Hodor" #
+	dynasty=285 #Hightower
+	martial=6
+	religion="the_seven"
+	culture="reachman"
+	add_trait="skilled_tactician"
+	add_trait="diligent"
+	add_trait="charitable"
+	father=285
+	mother=88244
+	8267.1.1={
+		birth="8267.1.1"
+	}
+	8281.1.1 = {
+		give_nickname = nick_greysteel
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+}
+7285 = {
+	name="Hodor" #
+	dynasty=285 #Hightower
+	martial=10
+	diplomacy=9
+	intrigue=5
+	stewardship=8
+	learning=12
+	religion="the_seven"
+	culture="reachman"
+	add_trait="fortune_builder"
+	add_trait="diligent"
+	add_trait="scholar"
+	add_trait="honest"
+	father=285
+	mother=88244
+	8268.1.1={
+		birth="8268.1.1"
+	}
+	8281.1.1 = {
+		add_trait="poor_warrior"
+		add_trait="squire"
+	}
+	8284.1.1 = {
+		add_trait="knight"
+		add_trait="trained_warrior"
+		remove_trait="poor_warrior"
+		remove_trait="squire"
+	}
+	8290.1.1={
+		add_spouse=4261 #Jeyne Fossoway
+	}
+}
+8285 = {
+	name="Hodor"
+	dynasty=285 #Hightower
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=285
+	mother=88244
+	8270.1.1={
+		birth="8270.1.1"
+	}
+	8287.1.1={
+		add_spouse=88107 #Jon Cupps
+	}
+} 
+2284 = {
+	name="Hodor" #
+	dynasty=285 #Hightower
+	martial=8
+	diplomacy=8
+	intrigue=6
+	stewardship=5
+	religion="the_seven"
+	culture="reachman"
+	add_trait="charismatic_negotiator"
+	add_trait="charitable"
+	add_trait="honest"
+	father=285
+	mother=3281
+	8272.1.1={
+		birth="8272.1.1"
+	}
+	8288.1.1 = {
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+}
+3284 = {
+	name="Hodor"
+	dynasty=285 #Hightower
+
+	dna="aegbcqcbfcc"
+	properties="0k0dik00000"
+
+	female=yes
+	martial=2
+	diplomacy=4
+	intrigue=4
+	stewardship=4
+	religion="the_seven"
+	culture="reachman"
+	add_trait="fair"
+	add_trait="indulgent_wastrel"
+	add_trait="hedonist"
+	add_trait="greedy"
+	add_trait="gregarious"
+	add_trait="ambitious"
+	father=285
+	mother=3281
+	8273.1.1={
+		birth="8273.1.1"
+	}
+	8289.1.1={
+		add_spouse=102 #Jorah Mormont
+	}
+	8290.1.1={
+		add_trait="depressed"
+	}
+	8294.1.1={
+		remove_spouse=102 #Jorah Mormont
+	}
+	8295.1.1={
+		add_spouse=88108 #Tregar Ormollen
+	}
+}  
+88107 = {
+	name="Hodor"
+	dynasty=1201 #Cupps
+	martial=6
+	religion="the_seven"
+	culture="reachman"
+	add_trait="tough_soldier"
+	employer=285
+	8267.1.1={
+		birth="8267.1.1"
+	}
+	8283.1.1 = {
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+	8287.1.1={
+		add_spouse=8285 #Leyla Hightower
+	}
+} 
+
+###Tarlys### ###Updated with Paternal anicents from 1AL. Oswyle down to Randyll Tarly and his children.### Added some flavour for the field of fire for their family history. ###
+296 = {
+	name="Hodor" #
+	dynasty=296 #Tarly
+
+	dna="dkiditmjbdg"
+	properties="0k0dik"
+
+	martial=12
+	diplomacy=6
+	intrigue=6
+	stewardship=7
+	religion="the_seven"
+	culture="reachman"
+	add_trait="strong"
+	add_trait="proud"
+	add_trait="brave"
+	add_trait="cruel"
+	add_trait="just"
+	
+	add_trait="authoritative"
+	
+	add_trait=organizer
+	add_trait=inspiring_leader
+	add_trait=heavy_infantry_leader
+	disallow_random_traits = yes
+	
+	father=20296	
+	mother=40296
+	8257.1.1={
+		birth="8257.1.1"
+	}
+	8273.1.1={
+		add_trait="knight"
+		add_trait="brilliant_strategist"
+		add_trait="trained_warrior"
+	}
+	8278.1.1={ add_trait="heartsbane" }
+	8279.1.1={
+		add_spouse=2281 #Melessan Florent
+	}
+}
+1296 = {
+	name="Hodor" #
+	dynasty=296 #Tarly
+
+	#dna="cijcf0aae00"
+	#properties="0i00h0"
+	dna="cimjf0iae00"
+	properties="0k00i0"
+
+	martial=1
+	diplomacy=3
+	intrigue=4
+	stewardship=10
+	learning=10
+	religion="the_seven"
+	culture="reachman"
+	father=296
+	mother=2281
+	add_trait="craven"
+	add_trait="scholarly_theologian"
+	add_trait="scholar"
+	add_trait="quick"
+	add_trait="gluttonous"
+	add_trait="kind"
+	add_trait="shy"
+	add_trait="honorable"
+	#add_trait="weak" # i disagree
+	8280.1.1={
+		birth="8280.1.1"
+	}
+	8298.1.1={
+		add_trait="nightswatch"
+		effect = {
+			religion = old_gods
+			add_character_modifier = {
+				name = nw_steward
+				duration = -1
+			}
+		}
+	}
+	# 8300.5.10 = {
+		# employer=88130
+		# add_trait="maester"
+	# }	
+}
+88018 = {
+	name="Hodor"
+	dynasty=296 #Tarly
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=296
+	mother=2281
+	8281.1.1={
+		birth="8281.1.1"
+	}
+} 
+88019 = {
+	name="Hodor" #random name
+	dynasty=296 #Tarly
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=296
+	mother=2281
+	8283.1.1={
+		birth="8283.1.1"
+	}
+} 
+88020 = {
+	name="Hodor" #random name
+	dynasty=296 #Tarly
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=296
+	mother=2281
+	8284.1.1={
+		birth="8284.1.1"
+	}
+} 
+2296 = {
+	name="Hodor" #
+	dynasty=296 #Tarly
+	dna="cimjf0iae00"
+	properties="0p00i0"
+	martial=10
+	diplomacy=5
+	intrigue=5
+	stewardship=4
+	religion="the_seven"
+	culture="reachman"
+	father=296
+	mother=2281
+	add_trait="brave"
+	add_trait="proud"
+	add_trait="gregarious"
+	add_trait="skilled_tactician"
+	8285.1.1={
+		birth="8285.1.1"
+	}
+	8297.1.1={
+		add_trait="trained_warrior"
+		add_trait="squire"
+	}
+	8299.9.1 = { #battle of Duskendale
+		add_spouse = 8138 #Eleanor Mootoon
+	}
+}
+#Relative mentioned in Tv show
+175296 = {
+	name="Hodor" #
+	dynasty=296 #Tarly
+
+	martial=5
+	diplomacy=4
+	intrigue=6
+	stewardship=4
+	
+	religion="the_seven"
+	culture="reachman"
+	
+	add_trait="strong"
+	add_trait="brave"
+	add_trait="authoritative"
+	
+	father=20296	
+	mother=40296
+	
+	8260.1.1={
+		birth="8260.1.1"
+	}
+	8276.1.1={
+		add_trait="knight"
+		add_trait="tough_soldier"
+		add_trait="trained_warrior"
+	}
+	8283.1.1={
+		death = {
+			death_reason = death_duel
+			killer = 317 #Robert
+		}
+	}
+}
+###Florents
+88021 = {
+	name="Hodor" #Unknown Florent Lord of Brightwater
+	dynasty=281 #Florent
+	dna="cldbjilaadp" # The Florents have distintly big ears
+	properties="0g00d"
+	religion="the_seven"
+	culture="reachman"
+	father=88263
+	mother=4012281
+	8210.1.1={
+		birth="8210.1.1"
+		effect = { add_weak_claim = k_reach }
+	}
+	8226.1.1 = {add_spouse = 100281 add_trait="knight" }
+	8265.1.1={
+		death="8265.1.1"
+	}
+}
+100281 = {
+	name="Hodor" #Unknown Florent Wife
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8210.1.1={
+		birth="8210.1.1"
+	}
+	8265.1.1={
+		death="8265.1.1"
+	}
+} 
+281 = {
+	name="Hodor" #Lord of Brightwater
+	dynasty=281 #Florent
+	dna="cldbjilaadp"
+	properties="0e00l"
+	martial=6
+	diplomacy=6
+	intrigue=6
+	stewardship=9
+	religion="the_seven"
+	culture="reachman"
+	add_trait="thrifty_clerk"
+	add_trait="greedy"
+	add_trait="just"
+	add_trait="gregarious"
+	father=88021
+	mother=100281
+	8234.1.1={
+		birth="8234.1.1"
+		effect = { add_weak_claim = k_reach }
+	}
+	8249.1.1={
+		add_spouse=3234 #Melara Crane
+	}
+	8249.1.1={
+		add_trait="knight"
+		add_trait=poor_warrior
+	}
+	8282.12.31={
+		add_trait="ambitious"
+	}
+	8299.3.3 = {
+		raise_levies = {
+			location = 304 #Storms End
+			force_mult = 1
+		}
+		effect = {
+			religion="rhllor"
+			clr_character_flag = neutral
+			set_character_flag = against_king
+			set_character_flag = against_loyal_liege
+			k_stormlands = {
+				holder_scope = { 
+					reverse_opinion = {
+						modifier = opinion_with_rebel_leader
+						who = ROOT
+						years = 100
+					}
+				}
+			}
+			any_demesne_title = {
+				limit = { 
+					OR = {
+						tier = COUNT
+						tier = DUKE
+					}
+				}				
+				set_variable = { which = "de_facto_kingdom" value = 6 } #reach
+			}
+			set_defacto_liege = ROOT
+			k_stormlands = {
+				holder_scope = {
+					ROOT = { join_attacker_wars = PREV }
+				}
+			}
+		}
+	}
+	8299.7.2 = {
+		raise_levies = {
+			dismiss = yes
+			location = 304 #Storms End
+			force_mult = 1
+		}
+		raise_levies = {
+			location = 221 #Dragonstone
+			force_mult = 1
+		}
+	}
+	8299.7.5 = {
+		raise_levies = {
+			dismiss = yes
+			location = 221 #Dragonstone
+			force_mult = 1
+		}
+	}
+	8300.1.3={
+		death = {
+			death_reason = death_sacrificed_rhllor
+			killer = 4317 #burned by mellisandre
+		}	
+	}
+} 
+10281 = {
+	name="Hodor" #
+	dynasty=281 #Florent
+	properties="0j00i"
+	religion="the_seven"
+	culture="reachman"
+	martial=7
+	stewardship=15
+	father=88021
+	mother=100281
+	add_trait="fortune_builder"
+	add_trait="proud"
+	add_trait="ambitious"
+	add_trait="diligent"
+	add_trait="envious"
+	add_trait="arbitrary"
+	8236.1.1={
+		birth="8236.1.1"
+		effect = { add_weak_claim = k_reach }
+	}
+	8253.1.1 = {
+		add_trait="knight"
+	}
+	8287.1.1={
+		employer=4317
+	}
+	8295.1.1={
+		effect = { religion="rhllor" }
+		add_trait="zealous"
+	}
+	8300.3.1={
+		add_spouse=574801 #Gerris Redbeard
+	}
+}
+5281 = {
+	name="Hodor" #
+	dynasty=281 #Florent
+	religion="the_seven"
+	culture="reachman"
+	father=88021
+	mother=100281
+	add_trait="misguided_warrior"
+	8237.1.1={
+		birth="8237.1.1"
+		effect = { add_weak_claim = k_reach }
+	}
+	8253.1.1 = {
+		add_spouse = 101281
+		add_trait="knight"
+	}
+	8285.1.1={
+		death = { death_reason = death_accident } #fall from horse
+	}
+}
+101281 = {
+	name="Hodor" 
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8237.1.1={
+		birth="8237.1.1"
+	}
+} 
+88022 = {
+	name="Hodor" #
+	dynasty=281 #Florent
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=88021
+	mother=100281
+	8239.1.1={
+		birth="8239.1.1"
+		effect = { add_weak_claim = k_reach }
+	}
+	8257.1.1={
+		add_spouse=4234  #Rycherd Crane
+	}
+
+} 
+9281 = {
+	name="Hodor" #
+	dynasty=281 #Florent
+	martial=7
+	stewardship=13
+	religion="the_seven"
+	culture="reachman"
+	father=88021
+	mother=100281
+	add_trait="tough_soldier"
+	8242.1.1={
+		birth="8242.1.1"
+		effect = { add_weak_claim = k_reach }
+	}
+	8258.1.1 = {
+		add_spouse = 102281
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+}
+102281 = {
+	name="Hodor"
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8242.1.1={
+		birth="8242.1.1"
+	}
+} 
+2281 = {
+	name="Hodor" 
+	dynasty=281 #Florent
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=281 
+	mother=3234 
+	8256.1.1={
+		birth="8256.1.1"
+	}
+	8279.1.1={
+		add_spouse=296 #Randyll Tarly
+	}
+} 
+3281 = {
+	name="Hodor" 
+	dynasty=281 #Florent
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=281
+	mother=3234 
+	8257.1.1={
+		birth="8257.1.1"
+	}
+	8271.1.1={
+		add_spouse=285  #Leyton Hightower
+	}
+}
+1281 = {
+	name="Hodor" #
+	dynasty=281 #Florent
+	religion="the_seven"
+	culture="reachman"
+	father=281
+	mother=3234 
+	8265.1.1={
+		birth="8265.1.1"
+	}
+	8282.1.1={
+		add_trait=knight
+		add_trait=poor_warrior
+	}
+	8300.3.1 = {
+		effect = {
+			add_weak_claim = k_reach
+			set_defacto_liege = ROOT
+			clr_character_flag = neutral
+			set_character_flag = against_king
+			set_character_flag = against_loyal_liege
+			any_demesne_title = {
+				limit = { 
+					OR = {
+						tier = COUNT
+						tier = DUKE
+					}
+				}				
+				set_variable = { which = "de_facto_kingdom" value = 6 } #reach
+			}
+			k_stormlands = {
+				holder_scope = { 
+					reverse_opinion = {
+						modifier = opinion_with_rebel_leader
+						who = ROOT
+						years = 100
+					}
+				}
+			}
+		}
+		raise_levies = {
+			location = 221 #Dragonstone
+			force_mult = 1
+		}
+	}
+}   
+                       
+
+6281 = {
+	name="Hodor" 
+	dynasty=281 #Florent
+	female=yes
+	martial=2
+	diplomacy=6
+	intrigue=8
+	stewardship=3
+	religion="the_seven"
+	culture="reachman"
+	father=5281
+	mother=101281
+	add_trait="thrifty_clerk"
+	add_trait="ugly"
+	add_trait="mystic"
+	add_trait="proud"
+	add_trait="ambitious"	
+	8267.1.1={
+		birth="8267.1.1"
+		effect = { fertility = -0.4 health = -1 }
+	}
+	8287.1.1={
+		add_spouse=4317  #Stannis Baratheon
+	}
+	8295.1.1={
+		effect = { religion="rhllor" }
+		add_trait="zealous"
+	}
+}
+88084 = {
+	name="Hodor" 
+	dynasty=281 #Florent
+	martial=7
+	diplomacy=2
+	intrigue=2
+	religion="the_seven"
+	culture="reachman"
+	father=5281
+	mother=101281
+	add_trait="misguided_warrior"
+	8269.1.1={
+		birth="8269.1.1"
+	}
+	8285.1.1 = {
+		add_trait="knight"
+		add_trait="poor_warrior"
+	}
+	8287.1.1={
+		employer=4317  #Stannis Baratheon
+	}
+	8299.3.4 = {
+		effect = {
+			set_character_flag = captured_in_battle
+			k_reach = {
+				holder_scope = {
+					ROOT = { imprison = PREV }
+				}
+			}
+		}
+	}
+}
+7281 = {
+	name="Hodor" 
+	dynasty=281 #Florent
+	martial=6
+	diplomacy=5
+	intrigue=5
+	stewardship=4
+	religion="the_seven"
+	culture="reachman"
+	father=5281
+	mother=101281
+	add_trait="misguided_warrior"
+	add_trait="wroth"
+	8271.1.1={
+		birth="8271.1.1"
+	}
+	8287.1.1 = {
+		add_trait="knight"
+		add_trait="poor_warrior"
+		employer=4317  #Stannis Baratheon
+	}
+	8299.10.10={
+		death = { death_reason = death_battle } #battle of blackwater
+	}
+}
+88023 = {
+	name="Hodor" 
+	dynasty=281 #Florent
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	add_trait="lustful"
+	add_trait="fair"
+	father=9281 
+	mother=102281
+	8270.1.1={
+		birth="8270.1.1"
+	}
+	8290.1.1={
+		add_spouse=279  #Hosman Norcross
+	}
+}
+88024 = {
+	name="Hodor" #maestar at citadel
+	dynasty=281 #Florent
+	martial=3
+	diplomacy=9
+	intrigue=5
+	stewardship=8
+	learning=13
+	religion="the_seven"
+	culture="reachman"
+	add_trait="detached_priest"
+	father=9281
+	mother=102281
+	8271.1.1={
+		birth="8271.1.1"
+	}
+	8295.1.1={
+		employer=237
+		add_trait="maester"
+		effect = { set_character_flag = serving_with_lord }
+	}
+}
+88025 = {
+	name="Hodor" 
+	dynasty=281 #Florent
+	religion="the_seven"
+	culture="reachman"
+	father=9281
+	mother=102281
+	8281.1.1={
+		birth="8281.1.1"
+	}
+	8291.1.1={
+		guardian=9288 #redwyne (desmond)
+		add_trait="squire"
+		add_trait="poor_warrior"
+	}
+}
+150281 = { #unnamed bastard executed by Joffrey
+	name="Hodor" #
+	dynasty=281 #Florent
+	
+	religion="the_seven"
+	culture="reachman"
+
+	father=10281
+	
+	add_trait="bastard"
+	add_trait="proud"
+	add_trait="brave"
+	add_trait="stubborn"
+	add_trait="wroth"
+	
+	give_nickname=nick_flowers
+	
+	8258.1.1={
+		birth="8258.1.1"
+	}
+	8274.1.1 = {
+		add_trait=trained_warrior
+	}
+	8287.1.1={
+		employer=4317
+	}
+	8295.1.1={
+		effect = { religion="rhllor" }
+		add_trait="zealous"
+	}
+	8299.7.2={ #executed after Blackwater
+		death = {
+			death_reason = death_execution
+			killer = 9316
+		}
+	}
+}
+###Ashfords### Updated with Ancestor's, Edwyn to current Lord Leo.###
+88027 = {
+	name="Hodor" #random Lord of Ashford
+	dynasty=265 #Ashford
+	religion="the_seven"
+	culture="reachman"
+	father=265
+	8225.1.1={
+		birth="8225.1.1"
+	}
+	8241.1.1={
+		add_trait="knight"
+	}
+	8276.1.1={
+		death="8276.1.1"
+	}
+}
+88028 = {
+	name="Hodor" #random Lord of Ashford
+	dynasty=265 #Ashford
+	religion="the_seven"
+	culture="reachman"
+	father=88027
+	8255.1.1={
+		birth="8255.1.1"
+	}
+	8271.1.1={
+		add_trait="knight"
+	}
+	8274.1.1={
+		add_spouse=88102
+	}
+}
+88102 = {
+	name="Hodor" #random Lord of Ashford
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	8256.1.1={
+		birth="8256.1.1"
+	}
+	8274.1.1={
+		add_spouse=88028
+	}
+}
+88103 = {
+	name="Hodor" #random Lord of Ashford
+	dynasty=265 #Ashford
+	religion="the_seven"
+	culture="reachman"
+	father=88028
+	mother=88102
+	8276.1.1={
+		birth="8276.1.1"
+	}
+	8292.1.1={
+		add_trait="knight"
+	}
+}
+88104 = {
+	name="Hodor" #random Lord of Ashford
+	dynasty=265 #Ashford
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=88028
+	mother=88102
+	8279.1.1={
+		birth="8279.1.1"
+	}
+}
+###Meadows- 270
+88031 = {
+	name="Hodor" #Random Lord of Grassy Vale
+	dynasty=270 #Meadows
+	religion="the_seven"
+	culture="reachman"
+	father=3031270
+	mother=4031270
+	8242.1.1={
+		birth="8242.1.1"
+	}
+	8258.1.1 = {
+		add_trait="knight"
+	}
+	8262.1.1 = {
+		add_spouse = 150262 #Fossoway
+	}
+	8295.10.10={
+		death="8295.10.10"
+	}
+}
+# 100270 = {
+	# name="Hodor" #Random Wife
+	# female=yes
+	# add_trait="naive_appeaser"
+	# religion="the_seven"
+	# culture="reachman"
+	# 8242.1.1={
+		# birth="8242.1.1"
+	# }
+	# 8295.10.10={
+		# death="8295.10.10"
+	# }
+# }  
+88032 = {
+	name="Hodor" #
+	dynasty=270 #Meadows
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=88031
+	mother=150262
+	8262.1.1={
+		birth="8262.1.1"
+	}
+	8278.1.1={
+		add_spouse=88080 #Olymer Tyrell
+	}
+}  
+1270 = {
+	name="Hodor" #Lord of Grassy Vale
+	dynasty=270 #Meadows
+	martial=8
+	religion="the_seven"
+	culture="reachman"
+	add_trait="tough_soldier"
+	father=88031
+	mother=150262
+	8279.1.1={
+		birth="8279.1.1"
+	}
+	8295.1.1 = {
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+	8299.3.3 = {
+		raise_levies = {
+			location = 301 #Galemont
+			force_mult = 1
+		}
+		effect = {
+			set_defacto_liege = THIS
+			set_character_flag = against_king
+			set_character_flag = against_loyal_liege
+			any_demesne_title = {
+				limit = { 
+					OR = {
+						tier = COUNT
+						tier = DUKE
+					}
+				}				
+				set_variable = { which = "de_facto_kingdom" value = 6 } #reach
+			}
+			k_stormlands = {
+				holder_scope = { 
+					reverse_opinion = {
+						modifier = opinion_with_rebel_leader
+						who = ROOT
+						years = 100
+					}
+					ROOT = { join_attacker_wars = PREV }
+				}
+			}
+		}
+	}
+	8299.7.2 = {
+		raise_levies = {
+			dismiss = yes
+			location = 301 #Galemont
+			force_mult = 1
+		}
+		raise_levies = {
+			location = 221 #Dragonstone
+			force_mult = 1
+		}
+	}
+}  
+###Footly
+248 = {
+	name="Hodor" #Lord of Tumbleton
+	dynasty=248 #Footly
+	religion="the_seven"
+	culture="reachman"
+	add_trait="tough_soldier"
+	father=3026248
+	mother=4026248
+	8252.1.1={
+		birth="8252.1.1"
+	}
+	8268.1.1 = {
+		add_spouse = 100248
+		add_trait="knight"
+	}
+}
+100248 = {
+	name="Hodor" #Uncanon Wife
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8252.1.1={
+		birth="8252.1.1"
+	}
+}
+1248 = {
+	name="Hodor" #
+	dynasty=248 #Footly
+	religion="the_seven"
+	culture="reachman"
+	father=248
+	mother=100248
+	8275.1.1={
+		birth="8275.1.1"
+	}
+	8291.1.1 = {
+		add_trait="knight"
+	}
+}  
+2248 = {
+	name="Hodor" #
+	dynasty=248 #Footly
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=248
+	mother=100248
+	8277.1.1={
+		birth="8277.1.1"
+	}
+}  
+3248 = {
+	name="Hodor" #
+	dynasty=248 #Footly
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=248
+	mother=100248
+	8279.1.1={
+		birth="8279.1.1"
+	}
+}  
+###Rowans
+88106 = {
+	name="Hodor" #
+	dynasty=250 #Rowan
+	religion="the_seven"
+	culture="reachman"
+	father=11250
+	8237.1.1={
+		birth="8237.1.1"
+	}
+	8253.1.1 = {
+		add_trait="knight"
+	}
+	8255.1.1={
+		capital = c_goldengrove
+	}
+	8271.1.1 = { add_spouse = 100250}
+	8290.1.1={
+		death="8290.1.1"
+	}
+}
+100250 = {
+	name="Hodor"
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8237.1.1={
+		birth="8237.1.1"
+	}
+}
+88033 = {
+	name="Hodor" #
+	dynasty=250 #Rowan
+	martial=6
+	diplomacy=6
+	intrigue=6
+	stewardship=10
+	religion="the_seven"
+	culture="reachman"
+	father=88106
+	mother=100250
+	add_trait="fortune_builder"
+	add_trait="temperate"
+	add_trait="diligent"
+	add_trait="patient"
+	add_trait="gregarious"
+	add_trait="just"
+	8255.1.1={
+		birth="8255.1.1"
+	}
+	8271.1.1 = {
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+	8274.1.1={
+		add_spouse=8288  #Bethany Redwyne
+	}
+	8290.1.1={
+		capital = c_goldengrove
+	}
+}
+250 = {
+	name="Hodor" #
+	dynasty=250 #Rowan
+	religion="the_seven"
+	culture="reachman"
+	father=88033
+	mother=8288
+	8276.1.1={
+		birth="8276.1.1"
+	}
+}
+88034 = {
+	name="Hodor" #
+	dynasty=250 #Rowan
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=88033
+	mother=8288
+	8278.1.1={
+		birth="8278.1.1"
+	}
+}
+88035 = {
+	name="Hodor" #
+	dynasty=250 #Rowan
+	religion="the_seven"
+	culture="reachman"
+	father=88033
+	mother=8288
+	8280.1.1={
+		birth="8280.1.1"
+	}
+}   
+88105 = {
+	name="Hodor" #
+	dynasty=250 #Rowan
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=88106
+	mother=100250
+	8264.1.1={
+		birth="8264.1.1"
+	}
+	8280.1.1={
+		add_spouse=1285
+	}
+}  
+###Oakheart -237
+237 = {
+	name="Hodor" #Lady of Old Oak
+	dynasty=237 #Oakheart
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=10237
+	8237.1.1={
+		birth="8237.1.1"
+	}
+	8277.1.1={
+		add_trait = "widowed"
+	}
+}
+100237 = {
+	name="Hodor" #Random
+	religion="the_seven"
+	culture="reachman"
+	8237.1.1={
+		birth="8237.1.1"
+	}
+	8253.1.1 = {
+		add_spouse = 237
+		add_trait="knight"
+	}
+	8277.1.1={
+		death="8277.1.1"
+	}
+}
+2237 = {
+	name="Hodor" #
+	dynasty=237 #Oakheart
+	martial=5
+	diplomacy=5
+	intrigue=6
+	stewardship=4
+	religion="the_seven"
+	culture="reachman"
+	mother=237
+	father=100237
+	add_trait="charismatic_negotiator"
+	8260.1.1={
+		birth="8260.1.1"
+	}
+	8276.1.1 = {
+		add_trait="knight"
+		add_trait="poor_warrior"
+	}
+}
+3237 = {
+	name="Hodor" #
+	dynasty=237 #Oakheart
+	religion="the_seven"
+	culture="reachman"
+	mother=237
+	father=100237
+	8262.1.1={
+		birth="8262.1.1"
+	}
+	8278.1.1 = {
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+}
+1237 = {
+	name="Hodor" 
+	dynasty=237 #Oakheart
+	dna="ageikxeigbg"
+	properties="co0dik0000"
+	martial=10
+	diplomacy=3
+	intrigue=5
+	stewardship=4
+	religion="the_seven"
+	culture="reachman"
+	mother=237
+	father=100237
+	add_trait="tough_soldier"
+	add_trait="brave"
+	add_trait="trusting"
+	add_trait="humble"
+	add_trait="kind"
+	add_trait="duelist"
+	8270.1.1={
+		birth="8270.1.1"
+	}
+	8280.1.1={
+		add_trait="trained_warrior"
+	}
+	8284.1.1={
+		remove_trait="trained_warrior"
+		add_trait="skilled_warrior"
+	}
+	8286.1.1={
+		add_trait="knight"
+	}
+	8290.1.1={ #kingsguard
+		add_trait="kingsguard"
+		employer=201302 # Barristan Selmy
+	}	
+	8299.1.1 = { employer = 3190}		# Jaime Lannister
+	8299.7.1 = {
+		effect = {
+			k_dorne = {
+				holder_scope = {
+					current_heir = {
+						add_lover = ROOT # Arianne Martell
+					}
+				}
+			}
+		}	
+	} 
+	8300.2.25={	
+		death = {
+			death_reason = death_battle
+			killer = 99001
+		}
+	}
+}
+4237 = {
+	name="Hodor" 
+	dynasty=237 #Oakheart
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	mother=237
+	father=100237
+	8267.1.1={
+		birth="8267.1.1"
+	}
+}
+###Caswells 
+88294 = {
+	name="Hodor" #
+	dynasty=264 #Caswell
+	religion="the_seven"
+	culture="reachman"
+	martial=8
+	father=3017264
+	mother=4017264
+	8164.1.1={
+		birth="8164.1.1"
+	}
+	8180.1.1 = {
+		add_trait="knight"
+		add_trait="trained_warrior"
+		add_spouse=4050294
+	}
+	8207.1.1={
+		death="8207.1.1"
+	}
+}
+4050294 = {
+	name="Hodor" #
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	8164.1.1={
+		birth="8164.1.1"
+	}
+	8227.1.1={
+		death="8227.1.1"
+	}
+}
+88293 = {
+	name="Hodor" #
+	dynasty=264 #Caswell
+	religion="the_seven"
+	culture="reachman"
+	martial=4
+	add_trait="drunkard"
+	add_trait="indulgent_wastrel"
+	father=88294
+	mother=4050294
+	8192.1.1={
+		birth="8192.1.1"
+	}
+	8208.1.1 = {
+		add_trait="knight"
+		add_trait="poor_warrior"
+	}
+	8242.1.1={
+		death="8242.1.1"
+	}
+}
+4051294 = {
+	name="Hodor" #
+	dynasty=264 #Caswell
+	religion="the_seven"
+	culture="reachman"
+	father=88294
+	mother=4050294
+	add_trait="fair"
+	8193.1.1={
+		birth="8193.1.1"
+	}
+	8209.1.1 = {
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+	8252.1.1={
+		death="8252.1.1"
+	}
+}
+88292 = {
+	name="Hodor" #
+	dynasty=264 #Caswell
+	religion="the_seven"
+	culture="reachman"
+	father=88293
+	8217.1.1={
+		birth="8217.1.1"
+	}
+	8233.1.1 = {
+		add_trait="knight"
+	}
+	8267.1.1={
+		death="8267.1.1"
+	}
+}
+88036 = {
+	name="Hodor" #
+	dynasty=264 #Caswell
+	religion="the_seven"
+	culture="reachman"
+	father=88292
+	8243.1.1={
+		birth="8243.1.1"
+	}
+	8259.1.1 = {
+		add_trait="knight"
+		add_spouse = 101264
+	}
+	8293.1.1={
+		death="8293.1.1"
+	}
+}
+101264 = {
+	name="Hodor" #
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8243.1.1={
+		birth="8243.1.1"
+	}
+	8293.1.1={
+		death="8293.1.1"
+	}
+} 
+100264 = {
+	name="Hodor" #
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8275.1.1={
+		birth="8275.1.1"
+	}
+} 
+###Issue of Desmond###
+501264 = {
+	name="Hodor" #
+	dynasty=264
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	
+	father=88036
+	mother=101264
+	
+	8263.1.1={
+		birth="8263.1.1"
+	}
+}
+502264 = {
+	name="Hodor" #
+	dynasty=264
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	
+	father=88036
+	mother=101264
+	
+	8267.1.1={
+		birth="8267.1.1"
+	}
+}
+503264 = {
+	name="Hodor" #
+	dynasty=264
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	
+	father=88036
+	mother=101264
+	
+	8269.1.1={
+		birth="8269.1.1"
+	}
+}
+504264 = {
+	name="Hodor" #
+	dynasty=264
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	
+	father=88036
+	mother=101264
+	
+	8272.1.1={
+		birth="8272.1.1"
+	}
+}
+88037 = {
+	name="Hodor" #
+	dynasty=264 #Caswell
+	martial=4
+	diplomacy=7
+	intrigue=6
+	stewardship=7
+	religion="the_seven"
+	culture="reachman"
+	father=88036
+	mother=101264
+	add_trait="craven"
+	add_trait="proud"
+	add_trait="deceitful"
+	add_trait="weak"
+	8275.1.1={
+		birth="8275.1.1"
+	}
+	8291.1.1 = {
+		add_spouse = 100264
+		add_trait="knight"
+		add_trait="poor_warrior"
+	}
+	8299.3.3 = {
+		effect = {
+			set_defacto_liege = THIS
+			set_character_flag = neutral
+			clr_character_flag = supporting_king
+			clr_character_flag = against_king
+			any_demesne_title = {
+				limit = { 
+					OR = {
+						tier = COUNT
+						tier = DUKE
+					}
+				}				
+				set_variable = { which = "de_facto_kingdom" value = 6 } #reach
+			}
+			e_iron_throne = {
+				holder_scope = { 
+					opinion = {
+						modifier = opinion_dithered
+						who = ROOT
+						years = 5
+					}
+				}
+			}
+			k_reach = {
+				holder_scope = { 
+					opinion = {
+						modifier = opinion_dithered
+						who = ROOT
+						years = 5
+					}
+				}
+			}
+		}
+	}
+}  
+###Issue of Lorent###
+88038 = {
+	name="Hodor" #random
+	dynasty=264 #Caswell
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=88037
+	mother=100264
+	8293.1.1={
+		birth="8293.1.1"
+	}
+} 
+88039 = {
+	name="Hodor" #random
+	dynasty=264 #Caswell
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=88037
+	mother=100264
+	8294.1.1={
+		birth="8294.1.1"
+	}
+} 
+###Merryweathers
+263 = {
+	name="Hodor" #
+	dynasty=263 #Merryweather
+	martial=5
+	diplomacy=5
+	intrigue=6
+	stewardship=6
+	religion="the_seven"
+	culture="reachman"
+	add_trait="naive_appeaser"
+	add_trait="gluttonous"
+	add_trait="deceitful"
+	add_trait="gregarious"
+	add_trait="kind"
+	father=3026263
+	mother=4026263
+	8212.1.1={
+		birth="8212.1.1"
+	}
+	8228.1.1={
+		add_trait="knight"
+	}
+	8228.1.1 = {add_spouse = 100263}
+	8286.1.1={
+		death="8286.1.1"
+	}
+}
+100263 = {
+	name="Hodor"
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8212.1.1={
+		birth="8212.1.1"
+	}
+	8286.1.1={
+		death="8286.1.1"
+	}
+} 
+88040 = {
+	name="Hodor" #random
+	dynasty=263 #Merryweather
+	religion="the_seven"
+	culture="reachman"
+	father=263
+	mother=100263
+	8232.1.1={
+		birth="8232.1.1"
+	}
+	8248.1.1 = {
+		add_spouse = 101263
+		add_trait="knight"
+	}
+	8294.1.1={
+		death="8294.1.1"
+	}
+}
+101263 = {
+	name="Hodor" #random
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8232.1.1={
+		birth="8232.1.1"
+	}
+	8294.1.1={
+		death="8294.1.1"
+	}
+} 
+1263 = {
+	name="Hodor" #
+	dynasty=263 #Merryweather
+	martial=5
+	diplomacy=14
+	intrigue=6
+	stewardship=12
+	religion="the_seven"
+	culture="reachman"
+	father=88040
+	mother=101263
+	add_trait="kind"
+	add_trait="thrifty_clerk"
+	8256.1.1={
+		birth="8256.1.1"
+	}
+	8272.1.1 = {
+		add_trait="knight"
+	}
+	8287.1.1={
+		add_spouse=88041 
+	}
+	8299.1.1={ employer=9316 }
+	8300.1.2 = { employer = 7316 } #Tommen I "Baratheon"
+	8300.7.1 = { 
+		employer = 1263 #Leaves after cersei's imprisonment
+	} 
+} 
+88041 = {
+	name="Hodor" #
+	dynasty=360 #of Myr
+
+	dna="bahceycbgam"
+	properties="0o0eik00000"
+
+	female=yes
+	martial=3
+	diplomacy=5
+	intrigue=8
+	stewardship=5
+	religion="rhllor" 
+	culture="myrman"
+	add_trait="fair"
+	add_trait="intricate_webweaver"
+	add_trait="deceitful"
+	add_trait="gregarious"
+	add_trait="lustful"
+	8264.1.1={
+		birth="8264.1.1"
+	}
+	8287.1.1={
+		add_spouse=1263 
+		add_trait="seductress"
+	}
+	8299.1.1={ employer=9316 }
+	8300.1.2 = { employer = 7316 } #Tommen I "Baratheon"
+	8300.7.1 = { 
+		employer = 1263 #Leaves after cersei's imprisonment
+	} 
+} 
+2263 = {
+	name="Hodor" #
+	dynasty=263 #Merryweather
+	religion="the_seven"
+	culture="reachman"
+	father=1263
+	mother=88041
+	8294.1.1={
+		birth="8294.1.1"
+	}
+} 
+###Hutcheson
+5291 = {
+	name="Hodor" #
+	dynasty=291 #Hutcheson
+	religion="the_seven"
+	culture="reachman"
+	father=3031291
+	mother=4031291
+	8230.1.1={
+		birth="8230.1.1"
+	}
+	8246.1.1 = {
+		add_trait="knight"
+	}
+	8278.1.1={
+		death="8278.1.1"
+	}
+}
+291 = {
+	name="Hodor" #
+	dynasty=291 #Hutcheson
+	father=5291
+	religion="the_seven"
+	culture="reachman"
+	8260.1.1={
+		birth="8260.1.1"
+	}
+	8276.1.1 = {
+		add_trait="knight"		
+	}
+	8279.1.1 = {
+		add_spouse=4050291
+	}
+} 
+4050291 = {
+	name="Hodor" #
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	8262.1.1={
+		birth="8262.1.1"
+	}
+} 
+1291 = {
+	name="Hodor" #
+	dynasty=291 #Hutcheson
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=291
+	mother=4050291
+	8280.1.1={
+		birth="8280.1.1"
+	}
+} 
+2298 = {
+	name="Hodor" #
+	dynasty=291 #Hutcheson
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=291
+	mother=4050291
+	8281.1.1={
+		birth="8281.1.1"
+	}
+} 
+3291 = {
+	name="Hodor" #
+	dynasty=291 #Hutcheson
+	female=yes
+	employer=285
+	father=5291
+	religion="the_seven"
+	culture="reachman"
+	8262.1.1={
+		birth="8262.1.1"
+	}
+} 
+4291 = {
+	name="Hodor" #
+	dynasty=291 #Hutcheson
+	female=yes
+	employer=291
+	father=5291
+	religion="the_seven"
+	culture="reachman"
+	8265.1.1={
+		birth="8265.1.1"
+	}
+} 
+2291 = {
+	name="Hodor" #
+	dynasty=291 #Hutcheson
+	female=yes
+	employer=1253
+	father=5291
+	religion="the_seven"
+	culture="reachman"
+	8263.1.1={
+		birth="8263.1.1"
+	}
+} 
+###Cuys
+289 = {
+	name="Hodor" #
+	dynasty=289 #Cuy
+	religion="the_seven"
+	culture="reachman"
+	father=3031289
+	mother=4031289
+	8245.1.1={
+		birth="8245.1.1"
+	}
+	8261.1.1 = {
+		add_spouse = 100289
+		add_trait="knight"
+	}
+}
+100289 = {
+	name="Hodor"
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8245.1.1={
+		birth="8245.1.1"
+	}
+
+} 
+3289 = {
+	name="Hodor" #
+	dynasty=289 #Cuy
+	religion="the_seven"
+	culture="reachman"
+	father=289
+	mother=100289
+	8269.1.1={
+		birth="8269.1.1"
+	}
+	8285.1.1 = {
+		add_trait="poor_warrior"
+		add_trait="knight"
+	}
+} 
+1289 = {
+	name="Hodor" ##renly's rainbowguard
+	dynasty=289 #Cuy
+	martial=7
+	diplomacy=5
+	intrigue=3
+	stewardship=4
+	religion="the_seven"
+	culture="reachman"
+	add_trait="tough_soldier"
+	father=289
+	mother=100289
+	8271.1.1={
+		birth="8271.1.1"
+	}
+	8281.1.1 = {
+		add_trait="trained_warrior"
+		add_trait="squire"
+	}
+	8287.1.1 = {
+		add_trait="skilled_warrior"
+		add_trait="knight"
+		remove_trait="trained_warrior"
+		remove_trait="squire"
+	}
+	8299.1.1={
+		employer=5317
+	}
+	8299.2.11 = { 
+		effect = {
+			set_character_flag = rainbow_guard
+			give_minor_title = title_bodyguard
+		}
+		give_nickname = nick_the_yellow
+		#add_trait="rainbowguard"
+	}
+	8299.3.3={
+		death = {
+			death_reason = death_duel
+			killer = 6253 #slain by loras tyrell
+		}	
+	}
+} 
+2289 = {
+	name="Hodor" 
+	dynasty=289 #Cuy
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=289
+	mother=100289
+	8274.1.1={
+		birth="8274.1.1"
+	}
+}
+###Costayne
+88100 = {
+	name="Hodor" #
+	dynasty=287 #Costayne
+	religion="the_seven"
+	culture="reachman"
+	father=3024287
+	mother=4024287
+	8235.1.1={
+		birth="8235.1.1"
+	}
+	8251.1.1 = {
+		add_spouse = 100287
+		add_trait="knight"
+	}
+	8278.1.1={
+		death="8278.1.1"
+	}
+}
+100287 = {
+	name="Hodor"
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8235.1.1={
+		birth="8235.1.1"
+	}
+	8278.1.1={
+		death="8278.1.1"
+	}
+} 
+287 = {
+	name="Hodor" #
+	dynasty=287 #Costayne
+	religion="the_seven"
+	culture="reachman"
+	father=88100
+	mother=100287
+	8263.1.1={
+		birth="8263.1.1"
+	}
+	8279.1.1 = {
+		add_trait="knight"
+	}
+} 
+88101 = {
+	name="Hodor" #
+	dynasty=287 #Costayne
+	religion="the_seven"
+	culture="reachman"
+	father=88100
+	mother=100287
+	8265.1.1={
+		birth="8265.1.1"
+	}
+	8281.1.1 = {
+		add_spouse = 101287
+	}
+}
+101287 = {
+	name="Hodor"
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8265.1.1={
+		birth="8265.1.1"
+	}
+} 
+1287 = {
+	name="Hodor" #
+	dynasty=287 #Costayne
+	father=88101
+	mother=101287
+	religion="the_seven"
+	culture="reachman"
+	8281.1.1={
+		birth="8281.1.1"
+	}
+} 
+2287 = {
+	name="Hodor" #
+	dynasty=287 #Costayne
+	martial=1
+	diplomacy=7
+	intrigue=8
+	stewardship=4
+	mother=3027287
+	religion="the_seven"
+	culture="reachman"
+	add_trait="gregarious"
+	add_trait="poet"
+	add_trait="flamboyant_schemer"
+	8262.1.1={
+		birth="8262.1.1"
+	}
+	8280.1.1={
+		employer=1253
+	}
+} 
+###Hunt
+2292 = {
+	name="Hodor" #
+	dynasty=292 #Hunt
+	religion="the_seven"
+	culture="reachman"
+	father=3029292
+	mother=4029292
+	8225.1.1={
+		birth="8225.1.1"
+	}
+	8241.1.1 = {
+		add_spouse = 100292
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+	8278.1.1={
+		death="8278.1.1"
+	}
+}
+100292 = {
+	name="Hodor" #
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8225.1.1={
+		birth="8225.1.1"
+	}
+	8278.1.1={
+		death="8278.1.1"
+	}
+}
+292 = {
+	name="Hodor" #
+	dynasty=292 #Hunt
+	religion="the_seven"
+	culture="reachman"
+	father=2292
+	mother=100292
+	8261.1.1={
+		birth="8261.1.1"
+	}
+	8277.1.1 = {
+		add_spouse = 101292
+		add_trait="knight"
+	}
+}
+101292 = {
+	name="Hodor" #
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8261.1.1={
+		birth="8261.1.1"
+	}
+}
+3292 = {
+	name="Hodor" #
+	dynasty=292 #Hunt
+	religion="the_seven"
+	culture="reachman"
+	father=2292
+	mother=100292
+	8264.1.1={
+		birth="8264.1.1"
+	}
+	8280.1.1 = {
+		add_spouse = 102292
+		add_trait="knight"
+	}
+}
+88043 = {
+	name="Hodor" #
+	dynasty=292 #Hunt
+	
+	religion="the_seven"
+	culture="reachman"
+	
+	add_trait="tough_soldier"
+	add_trait="deceitful"
+	add_trait="gregarious"
+	
+	father=2292
+	mother=100292
+	
+	8266.1.1={
+		birth="8266.1.1"
+	}
+	8282.1.1={
+		add_trait="knight"
+		add_trait="trained_warrior"
+		employer=296 #Randyll Tarly
+	}
+	8284.1.1={
+		add_trait="scarred"
+	}
+	8300.1.1 = {
+		death = {
+			death_reason = death_execution_hanging
+			killer = 250159 #Lady Stoneheart
+		}
+	}
+}
+102292 = {
+	name="Hodor" #
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8264.1.1={
+		birth="8264.1.1"
+	}
+}
+1292 = {
+	name="Hodor" #
+	dynasty=292 #Hunt
+	religion="the_seven"
+	culture="reachman"
+	father=292
+	mother=101292
+	8279.1.1={
+		birth="8279.1.1"
+	}
+}
+88042 = {
+	name="Hodor" #
+	dynasty=292 #Hunt
+	religion="the_seven"
+	culture="reachman"
+	add_trait="tough_soldier"
+	father=292
+	mother=101292
+	employer=285
+	8280.1.1={
+		birth="8280.1.1"
+	}
+	8296.1.1={
+		add_trait="knight"
+		add_trait="poor_warrior"
+	}
+}
+
+175292 = { #bastard daughter of hyle
+	name="Hodor"
+	dynasty=292 #Hunt
+	female = yes
+	
+	religion="the_seven"
+	culture="reachman"
+	
+	add_trait="bastard"
+		
+	father=88043
+	
+	give_nickname = nick_flowers
+	
+	8287.1.1={
+		birth="8287.1.1"
+	}
+}
+##Mullendore
+290 = {
+	name="Hodor" #
+	dynasty=290 #Mullendore
+	religion="the_seven"
+	culture="reachman"
+	father=3023290
+	mother=4023290
+	8255.1.1={
+		birth="8255.1.1"
+	}
+	8271.1.1 = {
+		add_spouse = 100290
+		add_trait="knight"
+		add_trait="poor_warrior"
+	}
+}
+100290 = {
+	name="Hodor" #
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8255.1.1={
+		birth="8255.1.1"
+	}
+}
+1290 = {
+	name="Hodor" #
+	dynasty=290 #Mullendore
+	martial=8
+	diplomacy=4
+	intrigue=5
+	stewardship=4
+	religion="the_seven"
+	culture="reachman"
+	father=290
+	mother=100290
+	add_trait="brave"
+	add_trait="gregarious"
+	add_trait="tough_soldier"
+	##cheerful
+	8275.1.1={
+		birth="8275.1.1"
+	}
+	8291.1.1 = {
+		add_trait="knight"
+		add_trait="trained_warrior"
+		give_nickname = nick_blackshield
+	}
+	8299.7.1 = { #battle of blackwater
+		effect = {
+			if = {
+				limit = { has_dlc = "Reapers" }
+				add_trait = one_handed
+			}
+			if = {
+				limit = { NOT = { has_dlc = "Reapers" } }
+				add_trait = "maimed"
+			}
+		}
+	}
+}
+###Bulwers
+284 = {
+	name="Hodor" #
+	dynasty=284 #Bulwer
+	religion="the_seven"
+	culture="reachman"
+	
+	father=3033284
+	mother=4030284
+	
+	8266.1.1={
+		birth="8266.1.1"
+	}
+	8282.1.1={
+		add_spouse=88044 #Victaria Tyrell
+		add_trait="knight"
+	}
+	8296.1.1={
+		add_trait="ill"
+	}
+	8296.1.1={
+		add_trait="ill"
+		death = { death_reason = death_trait }
+	}
+}
+1284 = {
+	name="Hodor" #
+	dynasty=284 #Bulwer
+	female=yes
+	martial=4
+	diplomacy=9
+	intrigue=9
+	stewardship=8
+	religion="the_seven"
+	culture="reachman"
+	father=284
+	mother=88044
+	8292.1.1={
+		birth="8292.1.1"
+	}
+}
+5284 = {
+	name="Hodor" #Alysanne's 'brother', made him an uncle so it makes sense
+	dynasty=284 #Bulwer
+	religion="the_seven"
+	culture="reachman"
+	
+	father=3033284
+	mother=4030284
+	
+	8270.1.1={
+		birth="8270.1.1"
+	}
+	8286.1.1={
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+}
+4284 = {
+	name="Hodor"	# Buford's son, not a lord
+	dynasty=284
+	martial=10
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=3029284
+	mother=4029284
+	
+	add_trait=tough_soldier
+
+	8243.1.1 = {birth="8243.1.1"}
+	8259.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8263.1.1={
+		add_trait="nightswatch"
+		give_nickname = nick_the_black
+		effect = { 
+			add_character_modifier = {
+				name = nw_ranger
+				duration = -1
+			}
+		} 
+	}
+	8300.3.1 = {
+		death = {
+			death_reason = death_battle #bridge of skulls
+		}
+	}
+}
+###Oldflowers 
+332295 = {
+	name="Hodor"	# a lord
+	dynasty=295
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=328295
+	mother=428295
+
+	8239.1.1 = {birth="8239.1.1"}
+	8255.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8257.1.1 = {add_spouse=432295}
+	8282.1.1 = {death="8282.1.1"}
+}
+432295 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="reachman"
+
+	8239.1.1 = {birth="8239.1.1"}
+	8282.1.1 = {death="8282.1.1"}
+}
+295 = {
+	name="Hodor" #
+	dynasty=295 #Oldflowers
+	religion="the_seven"
+	culture="reachman"
+	
+	father=332295
+	mother=432295
+	
+	8265.1.1={
+		birth="8265.1.1"
+	}
+	8281.1.1={
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+}
+333295 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=295
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=332295
+	mother=432295
+
+	8265.1.1 = {birth="8265.1.1"}
+	8318.1.1 = {death="8318.1.1"}
+}
+334295 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=295
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=332295
+	mother=432295
+
+	8268.1.1 = {birth="8268.1.1"}
+	8321.1.1 = {death="8321.1.1"}
+}
+###Beesbury
+282 = {
+	name="Hodor" #
+	dynasty=282 #Beesbury
+	religion="the_seven"
+	culture="reachman"
+	
+	father=3027282
+	mother=4027282
+	
+	8212.1.1={
+		birth="8212.1.1"
+	}
+	8232.1.1 = {
+		add_spouse = 110282
+		add_trait="knight"
+	}
+	8276.1.1={ add_trait=widowed }
+	8290.1.1={ add_trait=blinded_age }
+	8296.1.1={
+		death="8296.1.1"
+	}
+}
+110282 = {
+	name="Hodor"
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8216.1.1={
+		birth="8216.1.1"
+	}
+	8276.1.1={
+		death="8276.1.1"
+	}
+}
+1282 = {
+	name="Hodor" #
+	dynasty=282 #Beesbury
+	religion="the_seven"
+	culture="reachman"
+	father=282
+	mother=110282
+	8246.1.1={
+		birth="8246.1.1"
+	}
+	8262.1.1 = {
+		add_spouse = 112282
+		add_trait="knight"
+	}
+}
+112282 = {
+	name="Hodor"
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8246.1.1={
+		birth="8246.1.1"
+	}
+}
+2282 = {
+	name="Hodor" #
+	dynasty=282 #Beesbury
+	martial=8
+	religion="the_seven"
+	culture="reachman"
+	father=282
+	mother=110282
+	add_trait="gluttonous"
+	add_trait="misguided_warrior"
+	8247.1.1={
+		birth="8247.1.1"
+	}
+	8263.1.1 = {
+		add_spouse = 111282
+		add_trait="knight"
+		add_trait="poor_warrior"
+	}
+}
+111282 = {
+	name="Hodor"
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8240.1.1={
+		birth="8240.1.1"
+	}
+}
+3282 = {
+	name="Hodor" #
+	dynasty=282 #Beesbury
+	martial=8
+	religion="the_seven"
+	culture="reachman"
+	father=1282
+	mother=112282
+	add_trait="misguided_warrior"
+	add_trait="gregarious"
+	8268.1.1={
+		birth="8268.1.1"
+	}
+	8282.1.1 = {
+		add_trait="squire"
+		add_trait="trained_warrior"
+	}
+	8284.1.1 = {
+		add_trait="knight"
+		remove_trait="squire"
+	}
+}
+6282 = {
+	name="Hodor" #
+	dynasty=282 #Beesbury
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=1282
+	mother=112282
+	8265.1.1={
+		birth="8265.1.1"
+		effect = { fertility = 0.2 }
+	}
+	8281.1.1={
+		add_spouse=88072 #Leo Tyrell
+	}
+}
+###Oga Took two Beesbury gals to the Freys!###
+#4282 = {
+#	name="Hodor" #
+#	add_spouse = Rhaegar Frey
+#5282 = {
+#	name="Hodor" #
+#	add_spouse=3129 #Raymund Frey
+#
+###Blackbars
+88092 = {
+	name="Hodor" #random lord
+	dynasty=283 #Blackbar
+	religion="the_seven"
+	culture="reachman"	
+	
+	father=3023283
+	mother=4023283
+	
+	8250.1.1={
+		birth="8250.1.1"
+	}
+	8266.1.1 = {
+		add_spouse = 100283
+		add_trait="knight"
+	}
+}
+100283 = {
+	name="Hodor" #random wife
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"	
+	8250.1.1={
+		birth="8250.1.1"
+	}
+}
+283 = {
+	name="Hodor" #
+	dynasty=283 #Blackbar
+	religion="the_seven"
+	culture="reachman"
+	father=88092
+	mother=100283	
+	8273.1.1={
+		birth="8273.1.1"
+	}
+	8282.1.1 = {
+		add_trait="poor_warrior"
+		add_trait="squire"
+	}
+	8289.1.1 = {
+		add_trait="trained_warrior"
+		add_trait="knight"
+		remove_trait="poor_warrior"
+		remove_trait="squire"
+	}
+	8295.1.1={
+		add_spouse=88009 #Olene Tyrell
+	}
+}
+###Sloanes
+259 = {
+	name="Hodor" # The Lord
+	dynasty=259 #Sloane
+	religion="the_seven"
+	culture="reachman"	
+	
+	father=3025259
+	mother=4025259
+	
+	8250.1.1={
+		birth="8250.1.1"
+	}
+	8266.1.1 = {
+		add_spouse = 1000259
+		add_trait="knight"
+	}
+}
+1000259 = {
+	name="Hodor" #
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"	
+	8250.1.1={
+		birth="8250.1.1"
+	}
+}
+1259 = {
+	name="Hodor" #
+	dynasty=259 #Sloane
+	religion="the_seven"
+	culture="reachman"
+	father=259
+	mother=1000259
+	8272.1.1={
+		birth="8272.1.1"
+	}
+	8298.1.1 = {
+		add_trait="poor_warrior"
+		add_trait="knight"
+	}
+}
+2259 = {
+	name="Hodor" #
+	dynasty=259 #Sloane
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=259
+	mother=1000259	
+	8274.1.1={
+		birth="8274.1.1"
+	}
+}
+3259 = {
+	name="Hodor" #
+	dynasty=259 #Sloane
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=259
+	mother=1000259	
+	8277.1.1={
+		birth="8277.1.1"
+	}
+}
+#Lord's Brother
+3026259 = {
+	name="Hodor"	# not a lord
+	dynasty=259
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=3025259
+	mother=4025259
+
+	8252.1.1 = {birth="8252.1.1"}
+	8268.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8270.1.1 = {add_spouse=4026259}
+}
+4026259 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="reachman"
+
+	8252.1.1 = {birth="8252.1.1"}
+}
+3027259 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=259
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=3026259
+	mother=4026259
+
+	8279.1.1 = {birth="8279.1.1"}
+}
+3028259 = {
+	name="Hodor"	# not a lord
+	dynasty=259
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=3026259
+	mother=4026259
+
+	8281.1.1 = {birth="8281.1.1"}
+	8297.1.1 = {add_trait=knight add_trait=trained_warrior}
+}
+3030259 = {
+	name="Hodor"	# not a lord
+	dynasty=259
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=3026259
+	mother=4026259
+
+	8286.1.1 = {birth="8286.1.1"}
+	8302.1.1 = {add_trait=knight add_trait=trained_warrior}
+}
+###Peakes
+298 = {
+	name="Hodor" #
+	dynasty=298 #Peake
+	martial=7
+	diplomacy=7
+	intrigue=4
+	stewardship=6
+	religion="the_seven"
+	culture="reachman"	
+	father=3029298
+	mother=4029298
+	8245.1.1={
+		birth="8245.1.1"
+	}
+	8261.1.1 = {
+		add_spouse = 100298
+		add_trait="poor_warrior"
+		add_trait="knight"
+	}
+	8296.1.1={
+		death="8296.1.1"
+	}
+}
+100298 = {
+	name="Hodor"
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"	
+	8242.1.1={
+		birth="8242.1.1"
+	}
+	8296.1.1={
+		death="8296.1.1"
+	}
+}
+1298 = {
+	name="Hodor" #
+	dynasty=298 #Peake
+	religion="the_seven"
+	culture="reachman"
+	father=298
+	mother=100298
+	8267.1.1={
+		birth="8267.1.1"
+	}
+	8282.1.1 = {
+		add_spouse = 3003190 #Margot Lannister
+		add_trait="poor_warrior"
+		add_trait="knight"
+	}
+}
+6298 = {
+	name="Hodor"	# Talbert's son, a lord
+	dynasty=298
+	
+	martial = 8
+
+	religion="the_seven"
+	culture="reachman"
+	
+	add_trait = tough_soldier
+
+	father=3031298
+	mother=4030298
+
+	8262.1.1 = { birth="8262.1.1"}
+	8288.1.1 = { add_trait=trained_warrior add_trait=knight }
+	8290.1.1={
+		add_claim=c_starpike #exiled , maybe usurped , in golden company
+		employer = 307 #Myles Toyne
+	}
+	8297.1.1={
+		employer = 88241 #Harry Strickland
+	}
+}
+3298 = {
+	name="Hodor"	# 
+	dynasty=298
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=3031298
+	mother=4030298
+
+	8264.1.1 = { birth="8264.1.1"}
+	8290.1.1 = { add_trait=trained_warrior add_trait=knight }
+	8290.1.1={
+		add_claim=c_starpike #exiled , maybe usurped , in golden company
+		employer = 307 #Myles Toyne
+	}
+	8297.1.1={
+		employer = 88241 #Harry Strickland
+	}
+}
+4298 = {
+	name="Hodor"	# 
+	dynasty=298
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=3031298
+	mother=4030298
+
+	8266.1.1 = { birth="8266.1.1"}
+	8290.1.1={
+		add_claim=c_starpike #exiled , maybe usurped , in golden company
+		employer = 307 #Myles Toyne
+	}
+	8292.1.1 = { add_trait=trained_warrior add_trait=knight }
+	8297.1.1={
+		employer = 88241 #Harry Strickland
+	}
+}
+###Yelshires
+257 = {
+	name="Hodor" #The Lord
+	dynasty=257 #Yelshire
+	religion="the_seven"
+	culture="reachman"	
+	
+	father=3025257
+	mother=4025257
+	
+	8260.1.1={
+		birth="8260.1.1"
+	}
+	8276.1.1 = {
+		add_spouse = 100257
+		add_trait="knight"
+	}
+}
+100257 = {
+	name="Hodor"
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"	
+	8260.1.1={
+		birth="8260.1.1"
+	}
+}
+2257 = {
+	name="Hodor" #
+	dynasty=257 #Yelshire
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=257
+	mother=100257
+	8280.1.1={
+		birth="8280.1.1"
+	}
+}
+#Lord's Siblings
+3028257 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=257
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=3025257
+	mother=4025257
+
+	8262.1.1 = {birth="8262.1.1"}
+}
+3029257 = {
+	name="Hodor"	# not a lord
+	dynasty=257
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=3025257
+	mother=4025257
+
+	8263.1.1 = {birth="8263.1.1"}
+	8279.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8281.1.1 = {add_spouse=4029257}
+}
+4029257 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="reachman"
+
+	8263.1.1 = {birth="8263.1.1"}
+}
+3030257 = {
+	name="Hodor"	# not a lord
+	dynasty=257
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=3029257
+	mother=4029257
+
+	8295.1.1 = {birth="8295.1.1"}
+	8314.1.1 = {add_trait=poor_warrior}
+}
+###Cockshaws
+1271 = {
+	name="Hodor" #
+	dynasty=271 #Cockshaw
+	martial=8
+	diplomacy=6
+	intrigue=2
+	add_trait="envious"
+	add_trait="wroth"
+	add_trait="proud"
+	add_trait="homosexual"
+	add_trait="deceitful"
+	add_trait="misguided_warrior"
+	religion="the_seven"
+	culture="reachman"	
+	
+	father=3021271
+	mother=4021271
+	
+	8180.1.1={
+		birth="8180.1.1"
+	}
+	8188.1.1={
+		effect = { add_friend = 10257 } #Daemon II Blackfyre
+	}
+	8196.1.1={
+		add_trait="knight"
+		add_trait="trained_warrior"		
+	}
+	8212.1.1={
+		death = {
+			death_reason = death_duel
+			killer = 67000 #Dunk
+		}	
+	}
+}
+88045 = {
+	name="Hodor" #
+	dynasty=271 #Cockshaw
+	religion="the_seven"
+	culture="reachman"
+	father=1271	
+	8210.1.1={
+		birth="8210.1.1"
+	}
+	8226.1.1 = {
+		add_spouse = 100271
+		add_trait="knight"
+	}
+	8283.1.1={
+		death="8283.1.1" 
+	}
+}
+100271 = {
+	name="Hodor"
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8210.1.1={
+		birth="8210.1.1"
+	}
+	8283.1.1={
+		death="8283.1.1" 
+	}
+}
+271 = {
+	name="Hodor" #
+	dynasty=271 #Cockshaw
+	religion="the_seven"
+	culture="reachman"
+	father=88045
+	mother=100271	
+	8245.1.1={
+		birth="8245.1.1"
+	}
+	8261.1.1 = {
+		add_spouse = 101271
+		add_trait="knight"
+		add_trait="poor_warrior"
+	}
+}
+101271 = {
+	name="Hodor"
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8245.1.1={
+		birth="8245.1.1"
+	}
+}
+2271 = {
+	name="Hodor" #
+	dynasty=271 #Cockshaw
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=271	
+	mother=101271
+	8270.1.1={
+		birth="8270.1.1"
+	}
+}
+3271 = {
+	name="Hodor" #
+	dynasty=271 #Cockshaw
+	religion="the_seven"
+	culture="reachman"
+	father=271	
+	mother=101271
+	8273.1.1={
+		birth="8273.1.1"
+	}
+	8289.1.1 = {
+		add_trait="knight"
+		add_trait="poor_warrior"
+	}
+}
+4271 = {
+	name="Hodor" #
+	dynasty=271 #Cockshaw
+	religion="the_seven"
+	culture="reachman"
+	father=271	
+	mother=101271
+	8275.1.1={
+		birth="8275.1.1"
+	}
+	8291.1.1 = {
+		add_trait="trained_warrior"
+	}
+}
+###Middleburys
+255 = {
+	name="Hodor" #
+	dynasty=255 #Middlebury
+	religion="the_seven"
+	culture="reachman"	
+	father=3026255
+	mother=4026255
+	8227.1.1={
+		birth="8227.1.1"
+	}
+	8243.1.1 = {
+		add_spouse = 100255
+		add_trait="knight"
+	}
+}
+100255 = {
+	name="Hodor"
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"	
+	8227.1.1={
+		birth="8227.1.1"
+	}
+}
+1255 = {
+	name="Hodor" #
+	dynasty=255 #Middlebury
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=255
+	mother=100255	
+	8259.1.1={
+		birth="8259.1.1"
+	}
+}
+2255 = {
+	name="Hodor" #
+	dynasty=255 #Middlebury
+	religion="the_seven"
+	culture="reachman"
+	father=255
+	mother=100255	
+	8261.1.1={
+		birth="8261.1.1"
+	}
+	8277.1.1 = {
+		add_spouse = 101255
+		add_trait="knight"
+		add_trait="poor_warrior"
+	}
+}
+101255 = {
+	name="Hodor"
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8261.1.1={
+		birth="8261.1.1"
+	}
+}
+3255 = {
+	name="Hodor" #
+	dynasty=255 #Middlebury
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=255
+	mother=100255	
+	8264.1.1={
+		birth="8264.1.1"
+	}
+}
+4255 = {
+	name="Hodor" #
+	dynasty=255 #Middlebury
+	religion="the_seven"
+	culture="reachman"
+	father=2255
+	mother=101255
+	8278.1.1={
+		birth="8278.1.1"
+	}
+	8294.1.1 = {
+		add_trait="knight"
+		add_trait="poor_warrior"
+	}
+}
+88085 = {
+	name="Hodor" #
+	dynasty=255 #Middlebury
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=2255
+	mother=101255	
+	8280.1.1={
+		birth="8280.1.1"
+	}
+}
+###Vyrwels
+293 = {
+	name="Hodor" #
+	dynasty=293 #Vyrwel
+	religion="the_seven"
+	culture="reachman"	
+	father=3030293
+	mother=4030293
+	8245.1.1={
+		birth="8245.1.1"
+	}
+	8261.1.1 = {
+		add_spouse = 100293
+		add_trait="knight"
+		add_trait="poor_warrior"
+	}
+}
+100293 = {
+	name="Hodor"
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"	
+	8245.1.1={
+		birth="8245.1.1"
+	}
+}
+1293 = {
+	name="Hodor" 
+	dynasty=293 #Vyrwel
+	martial=8
+	diplomacy=6
+	intrigue=5
+	stewardship=3
+	add_trait="skilled_tactician"
+	religion="the_seven"
+	culture="reachman"
+	father=293
+	mother=100293
+	8273.1.1={
+		birth="8273.1.1"
+	}
+	8289.1.1 = {
+		add_trait="trained_warrior"
+	}
+	8295.1.1={
+		employer=1253 #Captain of Guard at Highgarden
+	}
+}
+2293 = {
+	name="Hodor" 
+	dynasty=293 #Vyrwel
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=293
+	mother=100293
+	8272.1.1={
+		birth="8272.1.1"
+	}
+}
+3293 = {
+	name="Hodor" 
+	dynasty=293 #Vyrwel
+	religion="the_seven"
+	culture="reachman"
+	father=293
+	mother=100293	
+	8270.1.1={
+		birth="8270.1.1"
+	}
+	8286.1.1 = {
+		add_trait="knight"
+		add_trait="poor_warrior"
+	}
+}
+#Lord's Brother
+3031293 = {
+	name="Hodor"	# not a lord
+	dynasty=293
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=3030293
+	mother=4030293
+
+	8247.1.1 = {birth="8247.1.1"}
+	8263.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8265.1.1 = {add_spouse=4031293}
+}
+4031293 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="reachman"
+
+	8247.1.1 = {birth="8247.1.1"}
+}
+3032293 = {
+	name="Hodor"	# not a lord
+	dynasty=293
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=3031293
+	mother=4031293
+
+	8272.1.1 = {birth="8272.1.1"}
+	8288.1.1 = {add_trait=knight add_trait=trained_warrior}
+}
+3033293 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=293
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=3031293
+	mother=4031293
+
+	8274.1.1 = {birth="8274.1.1"}
+}
+3034293 = {
+	name="Hodor"	# not a lord
+	dynasty=293
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=3031293
+	mother=4031293
+
+	8276.1.1 = {birth="8276.1.1"}
+	8292.1.1 = {add_trait=poor_warrior}
+}
+###Dunns
+254 = {
+	name="Hodor" #
+	dynasty=254 #Dunn
+	religion="the_seven"
+	culture="reachman"	
+	father=3028254
+	mother=4028254
+	8252.1.1={
+		birth="8252.1.1"
+	}
+	8268.1.1 = {
+		add_spouse = 100254
+		add_trait="knight"
+	}
+}
+100254 = {
+	name="Hodor" #
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"	
+	8252.1.1={
+		birth="8252.1.1"
+	}
+}
+1254 = {
+	name="Hodor" ##Margaery retinue
+	dynasty=254 #Dunn
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=254
+	mother=100254
+	8279.1.1={
+		birth="8279.1.1"
+	}
+}
+2254 = {
+	name="Hodor" 
+	dynasty=254 #Dunn
+	religion="the_seven"
+	culture="reachman"
+	father=254
+	mother=100254
+	8277.1.1={
+		birth="8277.1.1"
+	}
+	8293.1.1 = {
+		add_trait="poor_warrior"
+	}
+}
+3254 = {
+	name="Hodor" #Margaery retinue
+	dynasty=254 #Dunn
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=254
+	mother=100254
+	8281.1.1={
+		birth="8281.1.1"
+	}
+}
+#Lord's siblings
+3029254 = {
+	name="Hodor"	# not a lord
+	dynasty=254
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=3028254
+	mother=4028254
+
+	8255.1.1 = {birth="8255.1.1"}
+	8271.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8273.1.1 = {add_spouse=4029254}
+}
+4029254 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="reachman"
+
+	8255.1.1 = {birth="8255.1.1"}
+}
+3030254 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=254
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=3028254
+	mother=4028254
+
+	8258.1.1 = {birth="8258.1.1"}
+}
+3031254 = {
+	name="Hodor"	# not a lord
+	dynasty=254
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=3029254
+	mother=4029254
+
+	8278.1.1 = {birth="8278.1.1"}
+	8294.1.1 = {add_trait=trained_warrior}
+}
+3032254 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=254
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=3029254
+	mother=4029254
+
+	8280.1.1 = {birth="8280.1.1"}
+}
+###Norcross
+1279 = {
+	name="Hodor" #
+	dynasty=279 #Norcross
+	religion="the_seven"
+	culture="reachman"	
+	
+	father=321279
+	mother=421279
+	
+	8243.1.1={
+		birth="8243.1.1"
+	}
+	8259.1.1 = {
+		add_spouse = 100279
+		add_trait="knight"
+	}
+}
+100279 = {
+	name="Hodor" #
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"	
+	8243.1.1={
+		birth="8243.1.1"
+	}
+}
+279 = {
+	name="Hodor" 
+	dynasty=279 #Norcross
+	martial=10
+	religion="the_seven"
+	culture="reachman"
+	add_trait="tough_soldier"
+	father=1279	
+	mother=100279
+	8273.1.1={
+		birth="8273.1.1"
+	}
+	8289.1.1={
+		employer=281 #Household knight of Florents
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+	8290.1.1={
+		add_spouse=88023  #Delena Florent
+	}
+}
+4279 = {
+	name="Hodor" #
+	dynasty=279 #Norcross
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=1279
+	mother=100279
+	8275.1.1={
+		birth="8275.1.1"
+	}
+}
+3279 = {
+	name="Hodor" #
+	dynasty=279 #Norcross
+	religion="the_seven"
+	culture="reachman"
+	father=279
+	mother=88023
+	8291.1.1={
+		birth="8291.1.1"
+	}
+}
+2279 = {
+	name="Hodor" #
+	dynasty=279 #Norcross
+	religion="the_seven"
+	culture="reachman"
+	father=279
+	mother=88023	
+	8297.1.1={
+		birth="8297.1.1"
+	}
+}
+326279 = {
+	name="Hodor"	# canon, not a lord
+	dynasty=279
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=323279
+	mother=423279
+	employer=1253 #Mace Tyrel
+
+	8274.1.1 = {birth="8274.1.1"}
+	8290.1.1 = {add_trait=knight add_trait=trained_warrior}
+}
+###Fossoways of Cider Hall- 261
+262 = {
+	name="Hodor" #random Lord of Cider Hall
+	dynasty=261 #Fossoway
+	religion="the_seven"
+	culture="reachman"
+	father=7262
+	8245.1.1={
+		birth="8245.1.1"
+	}
+	8261.1.1 = {
+		add_spouse = 100262
+		add_trait="knight"
+	}
+	8299.3.3 = { #Supports Stannis until Blackwater
+		raise_levies = {
+			location = 253 #Bitterbridge
+			force_mult = 1
+		}
+		effect = {
+			if = {
+				limit = { 
+					NOT = { month = 6 } 
+					NOT = { year = 8300 }
+				}
+				set_defacto_liege = THIS
+				set_character_flag = against_king
+				set_character_flag = against_loyal_liege
+				any_demesne_title = {
+					limit = { 
+						OR = {
+							tier = COUNT
+							tier = DUKE
+						}
+					}				
+					set_variable = { which = "de_facto_kingdom" value = 6 } #reach
+				}
+				k_stormlands = {
+					holder_scope = { 
+						reverse_opinion = {
+							modifier = opinion_with_rebel_leader
+							who = ROOT
+							years = 100
+						}
+						ROOT = { join_attacker_wars = PREV }
+					}
+				}
+			}	
+		}
+	}
+	8299.7.2 = {
+		raise_levies = {
+			dismiss = yes
+			location = 253 #Bitterbridge
+			force_mult = 1
+		}
+	}
+}
+100262 = {
+	name="Hodor"
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8245.1.1={
+		birth="8245.1.1"
+	}
+}
+150262 = {
+	name="Hodor" #sister for meadows connection
+	female=yes
+	dynasty=261 #Fossoway
+	religion="the_seven"
+	culture="reachman"
+	father=7262
+	8247.1.1={
+		birth="8247.1.1"
+	}
+}
+88030 = {
+	name="Hodor" #
+	dynasty=261 #Fossoway
+	martial=9
+	religion="the_seven"
+	culture="reachman"
+	add_trait="tough_soldier"
+	father=262
+	mother=100262
+	8267.1.1={
+		birth="8267.1.1"
+	}
+	8282.1.1 = {
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+	8299.10.10={
+		death = {
+			death_reason = death_battle #blackwater
+			killer = 3520042 #lothor brune
+		}	
+	}
+}
+88086 = {
+	name="Hodor" #
+	dynasty=261 #Fossoway
+	martial=8
+	religion="the_seven"
+	culture="reachman"
+	add_trait="tough_soldier"
+	father=262
+	mother=100262
+	8271.1.1={
+		birth="8271.1.1"
+	}
+	8287.1.1 = {
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+}
+88087 = {
+	name="Hodor" #
+	dynasty=261 #Fossoway
+	martial=9
+	religion="the_seven"
+	culture="reachman"
+	add_trait="tough_soldier"
+	father=262
+	mother=100262
+	8274.1.1={
+		birth="8274.1.1"
+	}
+	8290.1.1 = {
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+	8299.10.10={
+		death = {
+			death_reason = death_battle #blackwater
+			killer = 3520042 #lothor brune
+		}	
+	}
+}
+###Fossoways of New Barrel- 262
+5262 = {
+	name="Hodor" #Ser Raymun
+	dynasty=262 #Fossoway
+	martial=12
+	intrigue=10
+	religion="the_seven"
+	culture="reachman"
+	add_trait="tough_soldier"
+	add_trait="kind"
+	add_trait="honorable"
+	add_trait="gregarious"
+	father=2262
+	8191.1.1={
+		birth="8191.1.1"
+	}
+	8203.1.1 = {
+		add_trait="squire"
+		add_trait="trained_warrior"
+	}
+	8207.1.1 = {
+		remove_trait="trained_warrior"
+		add_trait="skilled_warrior"
+	}
+	8208.1.1 = {
+		remove_trait="squire"
+		add_trait="knight"
+	}
+	8248.10.10={
+		death="8248.10.10" #
+	}
+}
+1261 = {
+	name="Hodor" 
+	dynasty=262 #Fossoway
+	religion="the_seven"
+	culture="reachman"
+	father=5262
+	8221.1.1={
+		birth="8221.1.1"
+	}
+	8237.1.1 = {
+		add_spouse = 102262
+		add_trait="knight"
+	}
+	8275.10.10={
+		death="8275.10.10" #
+	}
+}
+102262 = {
+	name="Hodor" 
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8221.1.1={
+		birth="8221.1.1"
+	}
+	8275.10.10={
+		death="8275.10.10"
+	}
+}
+88046 = {
+	name="Hodor" 
+	dynasty=262 #Fossoway
+	religion="the_seven"
+	culture="reachman"
+	father=5262
+	8226.1.1={
+		birth="8226.1.1"
+	}
+	8242.1.1 = {
+		add_spouse = 101262
+		add_trait="knight"
+	}
+	8285.10.10={
+		death="8285.10.10" #
+	}
+}
+101262 = {
+	name="Hodor" 
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8226.1.1={
+		birth="8226.1.1"
+	}
+	8285.10.10={
+		death="8285.10.10"
+	}
+}
+2270 = {
+	name="Hodor" 
+	dynasty=262 #Fossoway
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	
+	father=1261
+	mother=102262
+	8239.1.1={
+		birth="8239.1.1"
+	}
+}
+261 = {
+	name="Hodor" 
+	dynasty=262 #Fossoway
+	martial=9
+	diplomacy=15
+	intrigue=7
+	stewardship=7
+	
+	religion="the_seven"
+	culture="reachman"
+		
+	father=1261
+	mother=102262
+	8241.1.1= {birth="8241.1.1"}
+	8257.1.1= {
+		add_trait="knight"
+		add_trait="skilled_warrior"
+		add_trait="misguided_warrior"
+	    add_trait="kind"
+	    add_trait="brave"
+	    add_trait="proud"
+	    add_trait="duelist"
+	}
+	8276.1.1= {add_spouse=3253} #Janna Tyrell
+	8299.3.3 = { #Supports Stannis until Blackwater
+		raise_levies = {
+			location = 253 #Bitterbridge
+			force_mult = 1
+		}
+		effect = {
+			if = {
+				limit = { 
+					NOT = { month = 6 } 
+					NOT = { year = 8300 }
+				}
+				set_defacto_liege = THIS
+				set_character_flag = against_king
+				set_character_flag = against_loyal_liege
+				any_demesne_title = {
+					limit = { 
+						OR = {
+							tier = COUNT
+							tier = DUKE
+						}
+					}				
+					set_variable = { which = "de_facto_kingdom" value = 6 } #reach
+				}
+				k_stormlands = {
+					holder_scope = { 
+						reverse_opinion = {
+							modifier = opinion_with_rebel_leader
+							who = ROOT
+							years = 100
+						}
+						ROOT = { join_attacker_wars = PREV }
+					}
+				}
+			}	
+		}
+	}
+	8299.7.2 = {
+		raise_levies = {
+			dismiss = yes
+			location = 253 #Bitterbridge
+			force_mult = 1
+		}
+	}
+}
+88088 = {
+	name="Hodor" 
+	dynasty=262 #Fossoway
+	religion="the_seven"
+	culture="reachman"
+	father=261
+	mother=3253
+	8277.1.1={
+		birth="8277.1.1"
+	}
+	8293.1.1 = {
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+}
+4261 = {
+	name="Hodor" 
+	dynasty=262 #Fossoway
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=88046
+	mother=101262
+	8272.1.1={
+		birth="8272.1.1"
+	}
+	8290.1.1={
+		add_spouse=7285 #Gunthor Hightower
+	}
+}
+3261 = {
+	name="Hodor" 
+	dynasty=262 #Fossoway
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=88046
+	mother=101262
+	add_trait="kind"
+	add_trait="poet"
+	8275.1.1={
+		birth="8275.1.1"
+	}
+	8295.1.1={
+		add_spouse=5253 #Garlan Tyrell
+	}
+}
+###Woodwrights
+##find barony (plus ancient history)
+239 = {
+	name="Hodor" 
+	dynasty=239 #Woodwright
+	religion="the_seven"
+	culture="reachman"
+	8250.1.1={
+		birth="8250.1.1"
+	}
+	8268.1.1={
+		add_spouse = 88264
+		add_trait="knight"
+	}
+}
+88264 = {
+	name="Hodor" 
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	employer=239
+	8250.1.1={
+		birth="8250.1.1"
+	}
+} 
+1239 = {
+	name="Hodor" 
+	dynasty=239 #Woodwright
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=239
+	mother=88264
+	employer=239
+	8272.1.1={
+		birth="8272.1.1"
+	}
+}
+88265 = {
+	name="Hodor" 
+	dynasty=239 #Woodwright
+	religion="the_seven"
+	culture="reachman"
+	father=239
+	mother=88264
+	employer=239
+	8275.1.1={
+		birth="8275.1.1"
+	}
+	8291.1.1={
+		add_trait="knight"
+		add_trait="poor_warrior"
+		employer=1253
+	}
+}
+88266 = {
+	name="Hodor" 
+	dynasty=239 #Woodwright
+	religion="the_seven"
+	culture="reachman"
+	father=239
+	mother=88264
+	employer=239
+	8277.1.1={
+		birth="8277.1.1"
+	}
+	8293.1.1={
+		add_trait="knight"
+		add_trait="poor_warrior"
+		employer=1253
+	}
+}
+###Westbroook
+240 = {
+	name="Hodor" 
+	dynasty=240 #Westbrook
+	religion="the_seven"
+	culture="reachman"
+	
+	father=3031240
+	mother=4031240
+	
+	8236.1.1={
+		birth="8236.1.1"
+	}
+	8252.1.1 = {
+		add_spouse = 100240
+		add_trait="knight"
+	}
+}
+100240 = {
+	name="Hodor" 
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8236.1.1={
+		birth="8236.1.1"
+	}
+}
+1240 = {
+	name="Hodor" 
+	dynasty=240 #Westbrook
+	religion="the_seven"
+	culture="reachman"
+	father=240
+	mother=100240
+	8266.1.1={
+		birth="8266.1.1"
+	}
+	8282.1.1 = {
+		add_trait="poor_warrior"
+		add_trait="knight"
+		
+	}
+	8290.1.1 = {
+		add_spouse = 4033240
+	}
+}
+4033240 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="reachman"
+
+	8266.1.1 = {birth="8266.1.1"}
+}
+2240 = {
+	name="Hodor" 
+	dynasty=240 #Westbrook
+	religion="the_seven"
+	culture="reachman"
+	father=240
+	mother=100240
+	8268.1.1={
+		birth="8268.1.1"
+	}
+	8284.1.1 = {
+		add_trait="knight"
+	}
+}
+3240 = {
+	name="Hodor" 
+	dynasty=240 #Westbrook
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=240
+	mother=100240
+	8271.1.1={
+		birth="8271.1.1"
+	}
+}
+5240 = {
+	name="Hodor" 
+	dynasty=240 #Westbrook
+	religion="the_seven"
+	culture="reachman"
+	father=1240
+	mother=4033240
+	8292.1.1={
+		birth="8292.1.1"
+	}
+}
+6240 = {
+	name="Hodor" 
+	dynasty=240 #Westbrook
+	religion="the_seven"
+	culture="reachman"
+	father=1240
+	mother=4033240
+	8294.1.1={
+		birth="8294.1.1"
+	}
+}
+7240 = {
+	name="Hodor" 
+	female=yes
+	dynasty=240 #Westbrook
+	religion="the_seven"
+	culture="reachman"
+	father=1240
+	mother=4033240
+	8296.1.1={
+		birth="8296.1.1"
+	}
+}
+#Lord's brother
+3032240 = {
+	name="Hodor"	# not a lord
+	dynasty=240
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=3031240
+	mother=4031240
+
+	8238.1.1 = {birth="8238.1.1"}
+	8254.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8256.1.1 = {add_spouse=4032240}
+	8295.1.1 = {death="8295.1.1"}
+}
+4032240 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="reachman"
+
+	8238.1.1 = {birth="8238.1.1"}
+	8295.1.1 = {death="8295.1.1"}
+}
+3034240 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=240
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=3032240
+	mother=4032240
+
+	8268.1.1 = {birth="8268.1.1"}
+	8314.1.1 = {death="8314.1.1"}
+}
+3035240 = {
+	name="Hodor"	# not a lord
+	dynasty=240
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=3032240
+	mother=4032240
+
+	8271.1.1 = {birth="8271.1.1"}
+	8287.1.1 = {add_trait=poor_warrior}
+	8326.1.1 = {death="8326.1.1"}
+}
+3036240 = {
+	name="Hodor"	# not a lord
+	dynasty=240
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=3032240
+	mother=4032240
+
+	8272.1.1 = {birth="8272.1.1"}
+	8288.1.1 = {add_trait=trained_warrior}
+	8342.1.1 = {death="8342.1.1"}
+}
+
+###Serrys
+88047 = {
+	name="Hodor" #Random Lord
+	dynasty=276 #Serry
+	religion="the_seven"
+	culture="reachman"
+	
+	father=3025276
+	mother=4025276
+	
+	8225.1.1={
+		birth="8225.1.1"
+	}
+	8241.1.1 = {
+		add_spouse = 100276
+		add_trait="knight"
+	}
+	8274.1.1={
+		death="8274.1.1"
+	}
+}
+100276 = {
+	name="Hodor" #Random Wife
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8225.1.1={
+		birth="8225.1.1"
+	}
+	8274.1.1={
+		death="8274.1.1"
+	}
+}
+276 = {
+	name="Hodor" #
+	dynasty=276 #Serry
+	religion="the_seven"
+	culture="reachman"
+	father=88047
+	mother=100276
+	8249.1.1={
+		birth="8249.1.1"
+	}
+	8265.1.1 = {
+		add_spouse = 101276
+		add_trait="knight"
+	}
+}
+101276 = {
+	name="Hodor"
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8249.1.1={
+		birth="8249.1.1"
+	}
+}
+2276 = {
+	name="Hodor" 
+	dynasty=276 #Serry
+	female=yes
+	religion="the_seven"
+	culture="reachman"	
+	father=88047
+	mother=100276
+	8269.1.1={
+		birth="8269.1.1"
+	}
+	8285.1.1={
+		add_spouse=8252   #Theodore Tyrell
+	}
+}
+1276 = {
+	name="Hodor" #
+	dynasty=276 #Serry
+	martial=10
+	religion="the_seven"
+	culture="reachman"
+	add_trait="tough_soldier"
+	add_trait="brave"
+	father=276
+	mother=101276
+	8273.1.1={
+		birth="8273.1.1"
+	}
+	8284.1.1 = {
+		add_trait="poor_warrior"
+	}
+	8289.1.1 = {
+		remove_trait="poor_warrior"
+		add_trait="trained_warrior"
+		add_trait="knight"
+	}
+	8295.1.1={
+		add_spouse=4026276
+	}
+	8300.2.1={
+		death = {
+			death_reason = death_battle 
+			killer=3107 #Victarion
+		} 
+	}
+}
+4026276 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="reachman"
+
+	8278.1.1 = {birth="8278.1.1"}
+}
+3276 = {
+	name="Hodor" 
+	dynasty=276 #Serry
+	religion="the_seven"
+	culture="reachman"	
+	father=1276
+	mother=4026276
+	add_trait=twin
+	8297.1.1={
+		birth="8297.1.1"
+	}
+}
+4276 = {
+	name="Hodor" 
+	dynasty=276 #Serry
+	female=yes
+	religion="the_seven"
+	culture="reachman"	
+	father=1276
+	mother=4026276
+	add_trait=twin
+	8297.1.1={
+		birth="8297.1.1"
+	}
+}
+###Hewetts
+88271 = {
+	name="Hodor" #non-canon
+	dynasty=278 #Hewett
+	religion="the_seven"
+	culture="reachman"
+	add_trait="lustful"
+	father=3025278
+	mother=4025278
+	8215.1.1={
+		birth="8215.1.1"
+	}
+	8231.1.1={
+		add_spouse=88272
+		add_trait="knight"
+	}
+	8271.1.1={
+		death="8271.1.1"
+	}
+}
+88272 = {
+	name="Hodor" #non-canon wife
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	8215.1.1={
+		birth="8215.1.1"
+	}
+	8279.1.1={
+		death="8279.1.1"
+	}
+}   
+278 = {
+	name="Hodor" #
+	dynasty=278 #Hewett
+	religion="the_seven"
+	culture="reachman"
+	add_trait="lustful"
+	father=88271
+	mother=88272
+	8243.1.1={
+		birth="8243.1.1"
+	}
+	8263.1.1={
+		add_spouse=6278
+		add_trait="knight"
+	}
+	8300.2.1={
+		death = {
+			death_reason = death_murder
+			killer = 2107 #euron greyjoy
+		}	
+	}
+}
+2278 = {
+	name="Hodor" #
+	dynasty=278 #Hewett
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=278
+	mother=6278
+	8265.1.1={
+		birth="8265.1.1"
+	}
+}   
+3278 = {
+	name="Hodor" #
+	dynasty=278 #Hewett
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=278
+	mother=6278
+	8267.1.1={
+		birth="8267.1.1"
+	}
+}                               
+1278 = {
+	name="Hodor" #
+	dynasty=278 #Flowers
+	female=yes
+	martial=3
+	diplomacy=7
+	intrigue=12
+	stewardship=6
+	religion="the_seven"
+	culture="reachman"
+	father=278
+	add_trait="bastard"
+	add_trait="fair"
+	add_trait="cruel"
+	add_trait="deceitful"
+	add_trait="proud"
+	add_trait="envious"
+	give_nickname = nick_flowers
+	8281.1.1={
+		birth="8281.1.1"
+	}
+}
+4278 = {
+	name="Hodor" #
+	dynasty=278 #Hewett
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=278
+	mother=6278
+	8269.1.1={
+		birth="8269.1.1"
+	}
+} 
+5278 = {
+	name="Hodor" #
+	dynasty=278 #Hewett
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=278
+	mother=6278
+	8274.1.1={
+		birth="8274.1.1"
+	}
+} 
+88267 = {
+	name="Hodor" #
+	dynasty=278 #Hewett
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=278
+	mother=6278
+	8276.1.1={
+		birth="8276.1.1"
+	}
+} 
+###daughter 1
+88268 = {
+	name="Hodor" #
+	religion="the_seven"
+	culture="reachman"
+	8265.1.1={
+		birth="8265.1.1"
+		employer=278
+	}
+	8281.1.1={
+		add_spouse=2278
+	}
+} 
+88269 = {
+	name="Hodor" #
+	dynasty=278 #Hewett
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=88268
+	mother=2278
+	8282.1.1={
+		birth="8282.1.1"
+		employer=278
+	}
+} 
+88270 = {
+	name="Hodor" #
+	dynasty=278 #Hewett
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=88268
+	mother=2278
+	8286.1.1={
+		birth="8286.1.1"
+		employer=278
+	}
+} 
+##
+8278 = {
+	name="Hodor" ##Nightswatch
+	dynasty=278 #Hewett
+	martial=8
+	religion="the_seven"
+	culture="reachman"
+	add_trait="cruel"
+	add_trait="strong"
+	add_trait="tough_soldier"
+	add_trait="deceitful"
+	father=88271
+	mother=88272
+	8255.1.1={
+		birth="8255.1.1"
+	}
+	8275.1.1={
+		add_trait="nightswatch"
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+}
+###Grimm
+275 = {
+	name="Hodor" 
+	dynasty=275 #Grimm
+	religion="the_seven"
+	culture="reachman"
+	father=3025275
+	mother=4025275
+	8260.1.1={
+		birth="8260.1.1"
+	}
+	8276.1.1 = {
+		add_spouse = 100275
+		add_trait="knight"
+	}
+	8302.1.1 = {
+		effect = {
+			set_character_flag = captured_in_battle
+			b_grey_garden = {
+				holder_scope = {
+					ROOT = { imprison = PREV }
+				}
+			}
+		}
+	}
+}
+100275 = {
+	name="Hodor" 
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8260.1.1={
+		birth="8260.1.1"
+	}
+}
+1275 = {
+	name="Hodor" 
+	dynasty=275 #Grimm
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=275
+	mother=100275
+	8278.1.1={
+		birth="8278.1.1"
+	}
+}
+2275 = {
+	name="Hodor" 
+	dynasty=275 #Grimm
+	religion="the_seven"
+	culture="reachman"
+	father=275
+	mother=100275
+	8280.1.1={
+		birth="8280.1.1"
+	}
+	8296.1.1 = {
+		add_trait="knight"
+	}
+}
+###Chester
+277 = {
+	name="Hodor" 
+	dynasty=277 #Chester
+	martial=12
+	religion="the_seven"
+	culture="reachman"
+	
+	father=6020277
+	mother=5020277
+	
+	8242.1.1={
+		birth="8242.1.1"
+	}
+	8258.1.1 = {
+		add_spouse = 100277
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+	8300.2.1={
+		death = { 
+			death_reason = death_battle 
+			killer = 2107
+		}
+	}
+}
+100277 = {
+	name="Hodor" 
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8242.1.1={
+		birth="8242.1.1"
+	}
+}
+1277 = {
+	name="Hodor" 
+	dynasty=277 #Chester
+	religion="the_seven"
+	culture="reachman"
+	add_trait="tough_soldier"
+	father=277
+	mother=100277
+	8266.1.1={
+		birth="8266.1.1"
+	}
+	8282.1.1 = {
+		add_trait="knight"
+		add_trait="poor_warrior"
+	}
+}
+2277 = {
+	name="Hodor" 
+	dynasty=277 #Chester
+	religion="the_seven"
+	culture="reachman"
+	father=277
+	mother=100277
+	8270.1.1={
+		birth="8270.1.1"
+	}
+	8286.1.1 = {
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+}
+###Hastwycks
+267 = {
+	name="Hodor" 
+	dynasty=267 #Hastwyck
+	religion="the_seven"
+	culture="reachman"
+	
+	father=6031267
+	mother=5031267
+	
+	8263.1.1={
+		birth="8263.1.1"
+	}
+	8279.1.1 = {
+		add_trait="knight"
+		add_trait="poor_warrior"
+	}
+}
+1267 = {
+	name="Hodor" 
+	dynasty=267 #Hastwyck
+	religion="the_seven"
+	culture="reachman"
+	father=267
+	8285.1.1={
+		birth="8285.1.1"
+	}
+}
+2267 = {
+	name="Hodor" 
+	dynasty=267 #Hastwyck
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=267
+	8288.1.1={
+		birth="8288.1.1"
+	}
+}
+###Appletons
+266 = {
+	name="Hodor" 
+	dynasty=266 #Appleton
+	religion="the_seven"
+	culture="reachman"
+	
+	father=6032266
+	mother=5032266
+	
+	8256.1.1={
+		birth="8256.1.1"
+	}
+	8272.1.1 = {
+		add_spouse = 100266
+		add_trait = trained_warrior
+		add_trait = knight
+	}
+}
+100266 = {
+	name="Hodor" 
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8256.1.1={
+		birth="8256.1.1"
+	}
+}
+1266 = {
+	name="Hodor" 
+	dynasty=266 #Appleton
+	female=yes
+	mother=100266
+	religion="the_seven"
+	culture="reachman"
+	father=266
+	8278.1.1={
+		birth="8278.1.1"
+	}
+}
+2266 = {
+	name="Hodor" 
+	dynasty=266 #Appleton
+	religion="the_seven"
+	culture="reachman"
+	father=266
+	mother=100266
+	8281.1.1={
+		birth="8281.1.1"
+	}
+	8297.1.1 = {
+		add_trait="knight"
+		add_trait="poor_warrior"
+	}
+}
+3266 = {
+	name="Hodor" 
+	dynasty=266 #Appleton
+	religion="the_seven"
+	culture="reachman"
+	father=266
+	mother=100266
+	8285.1.1={
+		birth="8285.1.1"
+	}
+}
+###Gracefords
+88048 = {
+	name="Hodor" 
+	dynasty=242 #Graceford
+	religion="the_seven"
+	culture="reachman"
+	
+	father=6026242
+	mother=5026242
+	
+	8244.1.1={
+		birth="8244.1.1"
+	}
+	8260.1.1 = {
+		add_spouse = 100242
+		add_trait="knight"
+	}
+	8290.1.1={
+		death="8290.1.1"
+	}
+}
+100242 = {
+	name="Hodor" 
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8244.1.1={
+		birth="8244.1.1"
+	}
+	8290.1.1={
+		death="8290.1.1"
+	}
+}
+242 = {
+	name="Hodor" 
+	dynasty=242 #Graceford
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=88048
+	mother=100242
+	8276.1.1={
+		birth="8276.1.1"
+	}
+}
+1242 = {
+	name="Hodor" 
+	dynasty=242 #Graceford
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	mother=242
+	8295.1.1={
+		birth="8295.1.1"
+	}
+}
+###House Inchfield###
+88273= {
+	name="Hodor" 
+	##Longinch
+	dynasty=249 #Inchfield
+	martial=6
+	stewardship=14
+	religion="the_seven"
+	culture="reachman"
+	
+	add_trait="tall"
+	add_trait="ugly"
+	
+	father=60217249
+	mother=40217249
+	
+	8169.1.1={birth="8169.1.1"}
+	8185.1.1 = {
+		add_trait="knight"
+		add_trait="trained_warrior"
+		add_trait="wroth"
+	    add_trait="rude"
+	    add_trait="proud"
+	    add_trait="ambitious"
+	    add_trait="tough_soldier"
+		employer=1238
+		give_nickname = nick_longinch
+	}
+	8207.1.1={
+		employer=3238
+	}
+	8211.1.1 = {
+		death = {
+			death_reason = death_duel
+			killer = 67000
+		} 
+	}
+}
+88274= {
+	name="Hodor" 
+	dynasty=249 #Inchfield
+	religion="the_seven"
+	culture="reachman"
+	
+	employer=3238
+	
+	father=60224249
+	mother=40224249 
+	
+	8207.1.1={
+		birth="8207.1.1"
+	}
+	8223.1.1 = {
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+	8242.1.1={
+		employer=88000
+	}
+	8247.1.1={
+		employer=253 
+	}
+	8265.1.1={
+		employer=1253 
+	}
+	8276.1.1={
+		death="8276.1.1"
+	}
+}
+249 = {
+	name="Hodor" 
+	dynasty=249 #Inchfield
+	martial=8
+	stewardship=10
+	religion="the_seven"
+	culture="reachman"
+	
+	father=88274
+	employer=88000
+	
+	8242.1.1={
+		birth="8242.1.1"
+	}
+	8247.1.1={
+		employer=253 
+	}
+	8258.1.1={
+		add_trait="knight"
+		add_spouse=88275
+	}
+	8265.1.1={
+		employer=1253 
+	}
+}
+88275 = {
+	name="Hodor" 
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	8248.1.1={
+		birth="8248.1.1"
+	}
+}
+88049 = {
+	name="Hodor" 
+	dynasty=249 #Inchfield
+	martial=7
+	religion="the_seven"
+	culture="reachman"
+	add_trait="cruel"
+	add_trait="tough_soldier"
+	father=249
+	mother=88275
+	8277.1.1={
+		birth="8277.1.1"
+	}
+	8293.1.1 = {
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+}
+1249 = {
+	name="Hodor" 
+	dynasty=249 #Inchfield
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=249
+	mother=88275
+	8279.1.1={
+		birth="8279.1.1"
+	}
+}
+2249 = {
+	name="Hodor" 
+	dynasty=249 #Inchfield
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=249
+	mother=88275
+	8281.1.1={
+		birth="8281.1.1"
+	}
+}
+###Bridges###
+2268 = {
+	name="Hodor" 
+	dynasty=268 #Bridges
+	religion="the_seven"
+	culture="reachman"
+	8255.1.1={
+		birth="8255.1.1"
+	}
+	8275.1.1={
+		add_spouse=3268
+		add_trait="knight"
+	}
+}
+3268 = {
+	name="Hodor" 
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	8256.1.1={
+		birth="8256.1.1"
+	}
+}
+268 = {
+	name="Hodor" 
+	dynasty=268 #Bridges
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=2268
+	mother=3268
+	employer=2268
+	8276.1.1={
+		birth="8276.1.1"
+	}
+}
+1268 = {
+	name="Hodor" 
+	dynasty=268 #Bridges
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=2268
+	mother=3268
+	employer=2268
+	8278.1.1={
+		birth="8278.1.1"
+	}
+}
+4268 = {
+	name="Hodor" 
+	dynasty=268 #Bridges
+	religion="the_seven"
+	culture="reachman"
+	father=2268
+	mother=3268
+	employer=2268
+	8280.1.1={
+		birth="8280.1.1"
+	}
+	8296.1.1={
+		add_trait="poor_warrior"
+		add_trait="knight"
+	}
+}
+###Cordwayners
+294 = {
+	name="Hodor" 
+	dynasty=294 #Cordwayner
+	religion="the_seven"
+	culture="reachman"
+	
+	father=6028294
+	mother=5028294
+	
+	8252.1.1={
+		birth="8252.1.1"
+	}
+	8268.1.1 = {
+		add_spouse = 100294
+		add_trait="knight"
+		add_trait="poor_warrior"
+	}
+}
+100294 = {
+	name="Hodor" 
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8252.1.1={
+		birth="8252.1.1"
+	}
+}
+1294 = {
+	name="Hodor" 
+	dynasty=294 #Cordwayner
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=294
+	mother=100294
+	8275.1.1={
+		birth="8275.1.1"
+	}
+}
+2294 = {
+	name="Hodor" 
+	dynasty=294 #Cordwayner
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=294
+	mother=100294
+	8278.1.1={
+		birth="8278.1.1"
+	}
+}
+3294 = {
+	name="Hodor" 
+	dynasty=294 #Cordwayner
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=294
+	mother=100294
+	8283.1.1={
+		birth="8283.1.1"
+	}
+}
+###Leygoods
+88276= {
+	name="Hodor" 
+	dynasty=299 #Leygood
+	stewardship=1
+	religion="the_seven"
+	culture="reachman"
+	
+	father=6018299
+	mother=5018299
+	
+	add_trait="indulgent_wastrel"
+	8182.1.1={
+		birth="8182.1.1"
+	}
+	8250.1.1={
+		death="8250.1.1"
+	}
+}
+88277 = {
+	name="Hodor" 
+	dynasty=299 #Leygood
+	religion="the_seven"
+	culture="reachman"
+	father=88276
+	8212.1.1={
+		birth="8212.1.1"
+	}
+	8273.1.1={
+		death="8273.1.1"
+	}
+}
+88278 = {
+	name="Hodor" 
+	dynasty=299 #Leygood
+	religion="the_seven"
+	culture="reachman"
+	father=88277
+	8242.1.1={
+		birth="8242.1.1"
+	}
+	8281.1.1={
+		death="8281.1.1"
+	}
+}
+299 = {
+	name="Hodor" 
+	dynasty=299 #Leygood
+	religion="the_seven"
+	culture="reachman"
+	father=88278
+	8263.1.1={
+		birth="8263.1.1"
+	}
+}
+1299 = {
+	name="Hodor" 
+	dynasty=299 #Leygood
+	religion="the_seven"
+	culture="reachman"
+	father=299
+	8290.1.1={
+		birth="8290.1.1"
+	}
+}
+###Roxton
+247 = {
+	name="Hodor" 
+	dynasty=247 #Roxton
+	religion="the_seven"
+	culture="reachman"
+	
+	father=6023247
+	mother=5023247
+	
+	8254.1.1={
+		birth="8254.1.1"
+	}
+	8270.1.1 = {
+		add_spouse = 100247
+		add_trait="knight"
+		add_trait="poor_warrior"
+	}
+	8274.1.1 = { add_trait = orphan_maker }
+}
+100247 = {
+	name="Hodor" 
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8254.1.1={
+		birth="8254.1.1"
+	}
+}
+1247 = {
+	name="Hodor" 
+	dynasty=247 #Roxton
+	religion="the_seven"
+	culture="reachman"
+	father=247
+	mother=100247
+	8276.1.1={
+		birth="8276.1.1"
+	}
+	8292.1.1 = {
+		add_trait="knight"
+		add_trait="poor_warrior"
+	}
+}
+2247 = {
+	name="Hodor" 
+	dynasty=247 #Roxton
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=247
+	mother=100247
+	8279.1.1={
+		birth="8279.1.1"
+	}
+}
+###Orme
+256 = {
+	name="Hodor" 
+	dynasty=256 #Orme
+	religion="the_seven"
+	culture="reachman"
+	
+	father=6034256
+	mother=5034256
+	
+	8240.1.1={
+		birth="8240.1.1"
+	}
+	8256.1.1 = {
+		add_spouse = 100256
+		add_trait="knight"
+	}
+}
+100256 = {
+	name="Hodor" 
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8240.1.1={
+		birth="8240.1.1"
+	}
+}
+1256 = {
+	name="Hodor" 
+	dynasty=256 #Orme
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=256
+	mother=100256
+	8269.1.1={
+		birth="8269.1.1"
+	}
+}
+2256 = {
+	name="Hodor" 
+	dynasty=256 #Orme
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=256
+	mother=100256
+	8272.1.1={
+		birth="8272.1.1"
+	}
+}
+3256 = {
+	name="Hodor" 
+	dynasty=256 #Orme
+	religion="the_seven"
+	culture="reachman"
+	father=256
+	mother=100256
+	8275.1.1={
+		birth="8275.1.1"
+	}
+}
+###Bushy
+245 = {
+	name="Hodor" 
+	dynasty=245 #Bushy
+	religion="the_seven"
+	culture="reachman"
+	
+	father=6027245
+	mother=5027245
+	
+	8249.1.1={
+		birth="8249.1.1"
+	}
+	8265.1.1 = {
+		add_spouse = 100245
+		add_trait="knight"
+	}
+}
+100245 = {
+	name="Hodor" 
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8249.1.1={
+		birth="8249.1.1"
+	}
+}
+1245 = {
+	name="Hodor" 
+	dynasty=245 #Bushy
+	religion="the_seven"
+	culture="reachman"
+	father=245
+	mother=100245
+	8272.1.1={
+		birth="8272.1.1"
+	}
+	8288.1.1 = {
+		add_trait="poor_warrior"
+		add_trait="knight"
+	}
+}
+2245 = {
+	name="Hodor" 
+	dynasty=245 #Bushy
+	religion="the_seven"
+	culture="reachman"
+	add_trait="tall"
+	add_trait="gregarious"
+	add_trait="tough_soldier"
+	father=245
+	mother=100245
+	martial=8
+	8275.1.1={
+		birth="8275.1.1"
+	}
+	8291.1.1 = {
+		add_trait="trained_warrior"
+		add_trait="knight"
+		give_nickname = nick_the_big
+	}
+	8299.7.1={
+		death = { death_reason = death_battle } ##battle of blackwater
+	}
+}
+###Kidwell
+252 = {
+	name="Hodor" 
+	dynasty=252 #Kidwell
+	religion="the_seven"
+	culture="reachman"
+	
+	father=6034252
+	mother=5034252
+	
+	8219.1.1={
+		birth="8219.1.1"
+	}
+	8235.1.1 = {
+		add_spouse = 100252
+		add_trait="knight"
+	}
+	8285.1.1={
+		death="8285.1.1"
+	}
+}
+100252 = {
+	name="Hodor" 
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8219.1.1={
+		birth="8219.1.1"
+	}
+	8285.1.1={
+		death="8285.1.1"
+	}
+}
+1252 = {
+	name="Hodor" 
+	dynasty=252 #Kidwell
+	religion="the_seven"
+	culture="reachman"
+	father=252
+	mother=100252
+	8245.1.1={
+		birth="8245.1.1"
+	}
+	8261.1.1 = {
+		add_spouse = 101252
+		add_trait="knight"
+	}
+}
+101252 = {
+	name="Hodor" 
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8245.1.1={
+		birth="8245.1.1"
+	}
+}
+2252 = {
+	name="Hodor" 
+	dynasty=252 #Kidwell
+	religion="the_seven"
+	culture="reachman"
+	father=1252
+	mother=101252
+	8272.1.1={
+		birth="8272.1.1"
+	}
+	8288.1.1 = {
+		add_trait="poor_warrior"
+		add_trait="knight"
+	}
+}
+3252 = {
+	name="Hodor" 
+	dynasty=252 #Kidwell
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=1252
+	mother=101252
+	8275.1.1={
+		birth="8275.1.1"
+	}
+}
+4252 = {
+	name="Hodor" 
+	dynasty=252 #Kidwell
+	religion="the_seven"
+	culture="reachman"
+	father=1252
+	mother=101252
+	8279.1.1={
+		birth="8279.1.1"
+	}
+	8295.1.1 = {
+		add_trait="poor_warrior"
+		add_trait="knight"
+	}
+}
+###Shermer
+246 = {
+	name="Hodor" 
+	dynasty=246 #Shermer
+	religion="the_seven"
+	culture="reachman"
+	
+	father=6018246
+	mother=5018246
+	
+	8237.1.1={
+		birth="8237.1.1"
+	}
+	8253.1.1 = {
+		add_spouse = 100246
+		add_trait="knight"
+	}
+}
+100246 = {
+	name="Hodor" 
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8237.1.1={
+		birth="8237.1.1"
+	}
+}
+1246 = {
+	name="Hodor" 
+	dynasty=246 #Shermer
+	religion="the_seven"
+	culture="reachman"
+	father=246
+	mother=100246
+	8258.1.1={
+		birth="8258.1.1"
+	}
+	8274.1.1 = {
+		add_trait="poor_warrior"
+		add_trait="knight"
+	}
+}
+2246 = {
+	name="Hodor" 
+	dynasty=246 #Shermer
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=1246
+	8290.1.1={
+		birth="8290.1.1"
+	}
+}
+###Wythers
+88279= {
+	name="Hodor" 
+	dynasty=244 #Wythers
+	
+	religion="the_seven"
+	culture="reachman"
+	
+	father=6024244
+	mother=5024244
+	
+	8210.1.1={
+		birth="8210.1.1"
+	}
+	8225.1.1 = {
+		add_spouse = 88280
+		add_trait="knight"
+	}
+	8274.1.1={
+		death="8274.1.1"
+	}
+}
+88280= {
+	name="Hodor" 
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	8210.1.1={
+		birth="8210.1.1"
+	}
+	8278.1.1={
+		death="8278.1.1"
+	}
+}
+244 = {
+	name="Hodor" 
+	dynasty=244 #Wythers
+	religion="the_seven"
+	culture="reachman"
+	father=88279
+	mother=88280
+	8248.1.1={
+		birth="8248.1.1"
+	}
+	8264.1.1 = {
+		add_spouse = 100244
+		add_trait="knight"
+	}
+}
+100244 = {
+	name="Hodor" 
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8248.1.1={
+		birth="8248.1.1"
+	}
+}
+1244 = {
+	name="Hodor" 
+	dynasty=244 #Wythers
+	religion="the_seven"
+	culture="reachman"
+	martial=8
+	father=244
+	mother=100244
+	8268.1.1={
+		birth="8268.1.1"
+	}
+	8284.1.1 = {
+		add_trait="skilled_warrior"
+		add_trait="knight"
+		employer=1253 #margaery captain of guards
+	}
+}
+2244 = {
+	name="Hodor" 
+	dynasty=244 #Wythers
+	religion="the_seven"
+	culture="reachman"
+	father=244
+	mother=100244
+	8274.1.1={
+		birth="8274.1.1"
+	}
+	8290.1.1 = {
+		add_trait="poor_warrior"
+		add_trait="knight"
+	}
+}
+3244 = {
+	name="Hodor" 
+	dynasty=244 #Wythers
+	martial=10
+	religion="the_seven"
+	culture="reachman"
+	add_trait=slothful
+	add_trait=tough_soldier
+	father=88279
+	mother=88280
+	8230.1.1={
+		birth="8230.1.1"
+	}
+	8246.1.1={
+		add_trait="trained_warrior"
+		add_trait="knight"
+	}
+	8250.1.1={
+		add_trait="nightswatch"
+		effect = {
+			add_character_modifier = {
+				name = nw_ranger
+				duration = -1
+			}
+		}
+	}
+	8299.7.7={
+		death = { death_reason = death_battle } ##fist of first men
+	}
+}
+###Osgreys
+235 = {
+	name="Hodor" 
+	dynasty=235 #Osgrey
+	religion="the_seven"
+	culture="reachman"
+	martial=6
+	father=88050
+	
+	add_trait=strong
+	add_trait=fair
+	add_trait=proud
+	add_trait=tough_soldier
+	add_trait=ambitious
+	add_trait=honorable
+	
+	8153.1.1={
+		birth="8153.1.1"
+		effect = {
+			health = 3
+			fertility = 0.4
+		}
+	}
+	8170.1.1={
+		add_trait="trained_warrior"
+		add_trait="knight"
+	}
+	8173.1.1={
+		add_spouse=400235
+	}
+	8195.3.7={ #Blackfyre Rebellion
+		raise_levies = {
+			location = 241 #Standfast
+			force_mult = 1
+		}
+		effect = {
+			set_defacto_liege = ROOT
+			set_character_flag = against_king
+			set_character_flag = against_loyal_liege
+			any_demesne_title = {
+				limit = { 
+					OR = {
+						tier = COUNT
+						tier = DUKE
+					}
+				}				
+				set_variable = { which = "de_facto_kingdom" value = 6 } #reach
+			}
+			e_iron_throne = {
+				holder_scope = { 
+					opinion = {
+						modifier = opinion_joined_rebellion
+						who = ROOT
+						years = 20
+					}
+				}
+			}
+			d_daemon_blackfyres_host = {
+				holder_scope = { 
+					opinion = {
+						who = ROOT
+						modifier = opinion_joined_cause
+					}
+					reverse_opinion = {
+						modifier = opinion_with_rebel_leader
+						who = ROOT
+						years = 100
+					}
+					if = {
+						limit = { NOT = { year = 8197 } }
+						ROOT = {
+							join_attacker_wars = PREV
+						}
+					}
+				}
+			}
+		}
+	}
+	8196.6.6={
+		add_trait=depressed
+		add_trait=widowed
+	}
+	8196.12.31={ 
+		effect = {
+			k_reach = {
+				holder_scope = {
+					ROOT = { set_defacto_liege = PREV }
+				}
+			}
+			clr_character_flag = against_king
+			clr_character_flag = against_loyal_liege
+			e_iron_throne = {
+				holder_scope = { 
+					remove_opinion = {
+						modifier = opinion_joined_rebellion
+						who = ROOT
+					}
+				}
+			}
+			d_daemon_blackfyres_host = {
+				holder_scope = { 
+					remove_opinion = {
+						who = ROOT
+						modifier = opinion_joined_cause
+					}
+					reverse_remove_opinion = {
+						modifier = opinion_with_rebel_leader
+						who = ROOT
+					}
+				}
+			}
+		}
+	}
+	8211.1.1={
+		remove_trait=depressed
+		remove_trait=widowed
+		effect = {
+			c_standfast = { remove_claim = ROOT }
+		}
+	}
+	8215.1.1={
+		death="8215.1.1"
+	}
+}
+###Sworn Knight###
+500235 = {
+	name="Hodor" 
+	religion="the_seven"
+	culture="reachman"
+	martial=6
+	diplomacy=0
+	intrigue=4
+	stewardship=3
+	learning=0
+	add_trait=ugly
+	add_trait=cruel
+	add_trait=proud
+	add_trait=deceitful
+	add_trait=arbitrary
+	8170.1.1={
+		birth="8170.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8190.1.1={
+		add_trait="poor_warrior"
+		add_trait="knight"
+		give_nickname=nick_of_the_brown_shield
+	}
+	8205.6.6={
+		employer=235
+	}
+	8211.6.1={
+		employer=0
+	}
+	8220.1.1={
+		death="8220.1.1"
+	}
+}
+###
+400235 = {
+	name="Hodor" 
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	8153.1.1={
+		birth="8153.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8196.6.6={
+		death = {
+			death_reason = death_suicide ##redgrass field
+		}	
+	}
+}
+1235 = {
+	name="Hodor" 
+	dynasty=235 #Osgrey
+	religion="the_seven"
+	culture="reachman"
+	father=235
+	mother=400235
+	8175.1.1={
+		birth="8175.1.1"
+	}
+	8191.1.1={
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+	8196.6.1={
+		death = {
+			death_reason = death_battle ##redgrass field
+		}	
+	}
+}
+2235 = {
+	name="Hodor" 
+	dynasty=235 #Osgrey
+	religion="the_seven"
+	culture="reachman"
+	father=235
+	mother=400235
+	8177.1.1={
+		birth="8177.1.1"
+	}
+	8193.1.1={
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+	8196.6.1={
+		death = {
+			death_reason = death_battle ##redgrass field
+		}	
+	}
+}
+3235 = {
+	name="Hodor" 
+	dynasty=235 #Osgrey
+	religion="the_seven"
+	culture="reachman"
+	father=235
+	mother=400235
+	8184.1.1={
+		birth="8184.1.1"
+	}
+	8189.1.1={
+		guardian=1238 #coldmoat
+	}
+	8192.1.1={
+		add_trait="squire"
+		add_trait="poor_warrior"
+	}
+	8194.1.1={
+		effect = {
+			guardian = {
+				current_heir = {
+					add_friend = ROOT
+				}
+			}
+		}	
+	}
+	8196.6.1={
+		death = {
+			death_reason = death_battle ##redgrass field
+		}	
+	}
+}
+4235 = {
+	name="Hodor" 
+	dynasty=235 #Osgrey
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=235
+	mother=400235
+	8189.1.1={
+		birth="8189.1.1"
+	}
+	8196.6.6={
+		employer=77023	#taken hostage
+	}
+	8205.1.1={
+		add_trait=silent_sister
+	}
+	8209.1.1={
+		add_trait=has_bubonic_plague 
+		death = { death_reason = death_trait }  # Great spring sickness.
+	}
+}
+88053 = {
+	name="Hodor" 
+	dynasty=235 #Osgrey
+	religion="the_seven"
+	culture="reachman"
+	
+	father=235 # Eustace Osgrey
+	mother=3238 # Rohanne Webber
+	
+	add_trait=twin
+	
+	8213.1.1={birth="8213.1.1"}
+	8229.1.1 = {
+		add_spouse = 100235
+		add_trait="knight"
+		add_trait="poor_warrior"
+	}
+	8275.1.1={death="8275.1.1"}
+}
+60000053 = {
+	name="Hodor" 
+	dynasty=235 #Osgrey
+	female=yes
+	
+	dna="aghcajcidbc"
+	properties="0h0cgk00000"
+	
+	religion="the_seven"
+	culture="reachman"
+	
+	father=235 # Eustace Osgrey
+	mother=3238 # Rohanne Webber
+	
+	add_trait=twin
+	
+	8213.1.1={birth="8213.1.1"}
+	8229.1.1 = {
+		add_spouse = 88061 # Willas Webber
+	}
+	8270.1.1={death="8270.1.1"}
+}
+60010053 = {
+	name="Hodor" 
+	dynasty=235 #Osgrey
+	
+	religion="the_seven"
+	culture="reachman"
+	
+	add_trait=strong
+	
+	father=235 # Eustace Osgrey
+	mother=3238 # Rohanne Webber
+	
+	8215.1.1={birth="8215.1.1"}
+	8231.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8275.1.1={death="8275.1.1"}
+}
+100235 = {
+	name="Hodor" 
+	female=yes
+	
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="reachman"
+	8211.1.1={birth="8211.1.1"}
+	8275.1.1={
+		death="8275.1.1"
+	}
+}
+88054 = {
+	name="Hodor" 
+	dynasty=235 #Osgrey
+	religion="the_seven"
+	culture="reachman"
+	father=88053
+	mother=100235
+	8251.1.1={
+		birth="8251.1.1"
+	}
+	8268.1.1 = {
+		#add_spouse = 100235
+		add_trait="knight"
+		add_trait="poor_warrior"
+	}
+}
+88090 = {
+	name="Hodor" 
+	dynasty=235 #Osgrey
+	religion="the_seven"
+	culture="reachman"
+	father=88053
+	mother=100235
+	8255.1.1={
+		birth="8255.1.1"
+	}
+}
+88055 = {
+	name="Hodor" 
+	dynasty=235 #Osgrey
+	religion="the_seven"
+	culture="reachman"
+	father=88054
+	8283.1.1={
+		birth="8283.1.1"
+	}
+}
+88056 = {
+	name="Hodor" 
+	dynasty=235 #Osgrey
+	religion="the_seven"
+	culture="reachman"
+	father=88054
+	8285.1.1={
+		birth="8285.1.1"
+	}
+}
+###Stackhouse
+88057 = {
+	name="Hodor" 
+	dynasty=1471 #Stackhouse
+	religion="the_seven"
+	culture="reachman"
+	
+	father=60261471
+	mother=50261471
+	
+	8254.1.1={
+		birth="8254.1.1"
+	}
+	8270.1.1 = {
+		add_spouse = 1001471
+		add_trait="knight"
+	}
+}
+1001471 = {
+	name="Hodor" 
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8254.1.1={
+		birth="8254.1.1"
+	}
+}
+88058 = {
+	name="Hodor" 
+	dynasty=1471 #Stackhouse
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=88057
+	mother=1001471
+	8279.1.1={
+		birth="8279.1.1"
+	}
+}
+88059 = {
+	name="Hodor" 
+	dynasty=1471 #Stackhouse
+	religion="the_seven"
+	culture="reachman"
+	father=88057
+	mother=1001471
+	8281.1.1={
+		birth="8281.1.1"
+	}
+}
+###Durwell
+236 = {
+	name="Hodor" 
+	dynasty=236 #Durwell
+	religion="the_seven"
+	culture="reachman"
+	
+	father=6027236
+	mother=5027236
+	
+	8256.1.1={
+		birth="8256.1.1"
+	}
+	8272.1.1 = {
+		add_spouse = 100236
+		add_trait="knight"
+	}
+}
+100236 = {
+	name="Hodor" 
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8256.1.1={
+		birth="8256.1.1"
+	}
+}
+1236 = {
+	name="Hodor" 
+	dynasty=236 #Durwell
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=236
+	mother=100236
+	8275.1.1={
+		birth="8275.1.1"
+	}
+}
+2236 = {
+	name="Hodor" 
+	dynasty=236 #Durwell
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=236
+	mother=100236
+	8277.1.1={
+		birth="8277.1.1"
+	}
+}
+###Webbers
+88062 = {
+	name="Hodor" 
+	dynasty=238 #Webber
+	religion="the_seven"
+	culture="reachman"
+	
+	father=88061
+	mother=60000053 # Osgrey daughter of Eustace
+	
+	
+	8240.1.1={birth="8240.1.1"}
+	8256.1.1 = {add_spouse = 100238}
+	8257.1.1 = {add_trait=knight add_trait=trained_warrior}
+}
+60200238 = {
+	name="Hodor" 
+	dynasty=238 #Webber
+	religion="the_seven"
+	culture="reachman"
+	
+	father=88061
+	mother=60000053 # Osgrey daughter of Eustace
+	
+	
+	8243.1.1={birth="8243.1.1"}
+	8259.1.1 = {add_trait=knight add_trait=trained_warrior add_trait=content}
+}
+100238 = {
+	name="Hodor" 
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8240.1.1={
+		birth="8240.1.1"
+	}
+}
+88063 = {
+	name="Hodor" 
+	dynasty=238 #Webber
+	religion="the_seven"
+	culture="reachman"
+	father=88062
+	mother=100238
+	8265.1.1={
+		birth="8265.1.1"
+	}
+	8281.1.1 = {
+		add_trait="knight"
+	}
+}
+88064 = {
+	name="Hodor" 
+	dynasty=238 #Webber
+	religion="the_seven"
+	culture="reachman"
+	father=88062
+	mother=100238
+	8268.1.1={
+		birth="8268.1.1"
+	}
+	8285.1.1 = {
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+}
+###Redding
+3243 = {
+	name="Hodor" 
+	dynasty=243 #Redding
+	religion="the_seven"
+	culture="reachman"
+	
+	father=6034243
+	mother=5034243
+	
+	8245.1.1={
+		birth="8245.1.1"
+	}
+	8261.1.1 = {
+		add_spouse = 100243
+		add_trait="knight"
+	}
+	8273.1.1={
+		death="8273.1.1"
+	}
+}
+100243 = {
+	name="Hodor" 
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8245.1.1={
+		birth="8245.1.1"
+	}
+}
+243 = {
+	name="Hodor" 
+	dynasty=243 #Redding
+	religion="the_seven"
+	culture="reachman"
+	father=3243
+	mother=100243
+	8269.1.1={
+		birth="8269.1.1"
+	}
+	8285.1.1 = {
+		add_trait="knight"
+		add_trait="poor_warrior"
+	}
+}
+1243 = {
+	name="Hodor" 
+	dynasty=243 #Redding
+	religion="the_seven"
+	culture="reachman"
+	father=3243
+	mother=100243
+	8271.1.1={
+		birth="8271.1.1"
+	}
+	8288.1.1 = {
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+}
+2243 = {
+	name="Hodor" 
+	dynasty=243 #Redding
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=243
+	8296.1.1={
+		birth="8296.1.1"
+	}
+}
+###Cranes
+234 = {
+	name="Hodor" 
+	dynasty=234 #Crane
+	religion="the_seven"
+	culture="reachman"
+	
+	father=6022234
+	mother=5022234
+	
+	8218.1.1={
+		birth="8218.1.1"
+	}
+	8234.1.1 = {
+		add_spouse = 100234
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+}
+100234 = {
+	name="Hodor" 
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8218.1.1={
+		birth="8218.1.1"
+	}
+}
+3234 = {
+	name="Hodor" 
+	dynasty=234 #Crane
+	female=yes
+	martial=7
+	diplomacy=5
+	intrigue=5
+	stewardship=4
+	religion="the_seven"
+	culture="reachman"
+	add_trait="gregarious"
+	add_trait="flamboyant_schemer"
+	father=234
+	mother=100234
+	8232.1.1={
+		birth="8232.1.1"
+	}
+	8247.1.1={
+		add_spouse=281  #Alester Florent
+	}
+	8300.1.3={
+		add_trait = widowed	
+	}
+}
+1234 = {
+	name="Hodor" 
+	dynasty=234 #Crane
+	religion="the_seven"
+	culture="reachman"
+	martial=8
+	add_trait=tough_soldier
+	father=234
+	mother=100234
+	8234.1.1={
+		birth="8234.1.1"
+	}
+	8250.1.1 = {
+		add_spouse = 101234
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+	8265.1.1={
+		employer=1253 #master arms highgarden
+	}
+}
+101234 = {
+	name="Hodor" 
+	female=yes
+	add_trait="naive_appeaser"
+	add_trait="fair"
+	religion="the_seven"
+	culture="reachman"
+	8234.1.1={
+		birth="8234.1.1"
+	}
+	8265.1.1={
+		employer=1253 #Husband is master arms highgarden
+	}
+}
+4234 = {
+	name="Hodor" 
+	dynasty=234 #Crane
+	religion="the_seven"
+	culture="reachman"
+	father=234
+	mother=100234
+	8237.1.1={
+		birth="8237.1.1"
+	}
+	8253.1.1 = {
+		add_trait="knight"
+		add_trait="poor_warrior"
+	}
+	8257.1.1={
+		add_spouse=88022  #Rylene Florent
+	}
+}
+2234 = {
+	name="Hodor" ##Rainbow Guard
+	dynasty=234 #Crane
+	religion="the_seven"
+	culture="reachman"
+	father=1234
+	mother=101234
+	martial=14
+	add_trait=tough_soldier
+	8265.1.1={
+		birth="8265.1.1"
+		employer=1253 #father is master arms highgarden
+	}
+	8282.1.1 = {
+		add_trait="knight"
+		add_trait="skilled_warrior"
+	}
+	8299.1.1={
+		employer=5317
+	}
+	8299.2.11 = { 
+		effect = {
+			set_character_flag = rainbow_guard
+			give_minor_title = title_bodyguard
+		}
+		give_nickname = nick_the_purple
+		#add_trait="rainbowguard"
+	}
+	8299.3.4 = {
+		employer=4317
+		effect = {
+			set_character_flag = captured_in_battle
+			k_reach = {
+				holder_scope = {
+					ROOT = { imprison = PREV }
+				}
+			}
+		}
+	}
+}
+5234 = {
+	name="Hodor" ##Maergary retinue
+	dynasty=234 #Crane
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=1234
+	mother=101234
+	add_trait=kind
+	add_trait=gregarious
+	
+	8271.1.1={
+		birth="8271.1.1"
+		employer=1253 #master arms highgarden
+	}
+	8287.1.1={
+		add_trait=falconer
+		give_nickname = nick_the_merry
+	}
+}
+###Varner
+258 = {
+	name="Hodor" 
+	dynasty=258 #Varner
+	religion="the_seven"
+	culture="reachman"
+	
+	father=6022258
+	mother=5022258
+	
+	8245.1.1={
+		birth="8245.1.1"
+	}
+	8261.1.1 = {
+		add_spouse = 100258
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+	8299.3.3 = { #Supports Stannis until Blackwater
+		raise_levies = {
+			location = 253 #Bitterbridge
+			force_mult = 1
+		}
+		effect = {
+			if = {
+				limit = { 
+					NOT = { month = 6 } 
+					NOT = { year = 8300 }
+				}
+				set_defacto_liege = THIS
+				set_character_flag = against_king
+				set_character_flag = against_loyal_liege
+				any_demesne_title = {
+					limit = { 
+						OR = {
+							tier = COUNT
+							tier = DUKE
+						}
+					}				
+					set_variable = { which = "de_facto_kingdom" value = 6 } #reach
+				}
+				k_stormlands = {
+					holder_scope = { 
+						reverse_opinion = {
+							modifier = opinion_with_rebel_leader
+							who = ROOT
+							years = 100
+						}
+						ROOT = { join_attacker_wars = PREV }
+					}
+				}
+			}	
+		}
+	}
+	8299.7.2 = {
+		add_trait = maimed #severely injures knee
+		raise_levies = {
+			dismiss = yes
+			location = 253 #Bitterbridge
+			force_mult = 1
+		}
+	}
+}
+100258 = {
+	name="Hodor" 
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8245.1.1={
+		birth="8245.1.1"
+	}
+}
+1258 = {
+	name="Hodor" 
+	dynasty=258 #Varner
+	religion="the_seven"
+	culture="reachman"
+	father=258
+	mother=100258
+	8269.1.1={
+		birth="8269.1.1"
+	}
+	8285.1.1 = {
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+}
+2258 = {
+	name="Hodor" 
+	dynasty=258 #Varner
+	religion="the_seven"
+	culture="reachman"
+	father=258
+	mother=100258
+	8271.1.1={
+		birth="8271.1.1"
+	}
+	8288.1.1 = {
+		add_trait="knight"
+		add_trait="poor_warrior"
+	}
+}
+###Willum
+272 = {
+	name="Hodor" 
+	dynasty=272 #Willum
+	religion="the_seven"
+	culture="reachman"
+	
+	father=6029272
+	mother=5029272
+	
+	8260.1.1={
+		birth="8260.1.1"
+	}
+	8276.1.1 = {
+		add_spouse = 100272
+		add_trait="knight"
+		add_trait="poor_warrior"
+	}
+	8299.3.3 = { #Supports Stannis until Blackwater
+		raise_levies = {
+			location = 253 #Bitterbridge
+			force_mult = 1
+		}
+		effect = {
+			if = {
+				limit = { 
+					NOT = { month = 6 } 
+					NOT = { year = 8300 }
+				}
+				set_defacto_liege = THIS
+				set_character_flag = against_king
+				set_character_flag = against_loyal_liege
+				any_demesne_title = {
+					limit = { 
+						OR = {
+							tier = COUNT
+							tier = DUKE
+						}
+					}				
+					set_variable = { which = "de_facto_kingdom" value = 6 } #reach
+				}
+				k_stormlands = {
+					holder_scope = { 
+						reverse_opinion = {
+							modifier = opinion_with_rebel_leader
+							who = ROOT
+							years = 100
+						}
+						ROOT = { join_attacker_wars = PREV }
+					}
+				}
+			}	
+		}
+	}
+	8299.7.2 = {
+		raise_levies = {
+			dismiss = yes
+			location = 253 #Bitterbridge
+			force_mult = 1
+		}
+	}
+}
+100272 = {
+	name="Hodor" 
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	8260.1.1={
+		birth="8260.1.1"
+	}
+}
+4272 = {
+	name="Hodor" 
+	dynasty=272 #Willum
+	religion="the_seven"
+	culture="reachman"
+	add_trait=brave
+	father=272
+	mother=100272
+	8280.1.1={
+		birth="8280.1.1"
+	}
+	8296.1.1 = {
+		add_trait="poor_warrior"
+	}
+}
+2272 = {
+	name="Hodor" 
+	dynasty=272 #Willum
+	religion="the_seven"
+	culture="reachman"
+	add_trait=brave
+	father=272
+	mother=100272
+	8281.1.1={
+		birth="8281.1.1"
+	}
+	8297.1.1 = {
+		add_trait="poor_warrior"
+	}
+}
+###Ambrose
+##aubrey ambrose
+297 = {
+	name="Hodor" #
+	dynasty=297 #Ambrose
+	religion="the_seven"
+	culture="reachman"
+	
+	father=6034297
+	mother=5034297
+	
+	8255.1.1={
+		birth="8255.1.1"
+	}
+	8280.1.1={
+		add_spouse=3285 #Alysanne Hightower
+		add_trait="knight"
+	}
+}
+1297 = {
+	name="Hodor" #
+	dynasty=297 #Ambrose
+	martial=8
+	religion="the_seven"
+	culture="reachman"
+	father=297
+	mother=3285
+	add_trait="tough_soldier"
+	add_trait="brave"
+	8281.1.1={
+		birth="8281.1.1"
+	}
+	8293.1.1={
+		add_trait="squire"
+		add_trait="trained_warrior"
+	}
+	8299.1.1={
+		add_spouse=88011 #Elinor Tyrell
+		add_trait="skilled_warrior"
+		remove_trait="trained_warrior"
+	}
+}
+###Misc
+###Archmaesters of Citadel
+88111 = {
+	name="Hodor" #
+	culture=stormlander
+	learning=12
+	religion="the_seven"
+	add_trait="scholarly_theologian"
+	8251.1.1={
+		birth="8251.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8270.1.1={
+		add_trait="maester"
+	}
+	8278.1.1={
+		employer=88129
+		add_trait="archmaester"
+		remove_trait="maester"
+	}
+	8292.1.1={
+		employer=88124
+	}
+	8298.1.1={
+		employer=88130
+	}
+}
+88112 = {
+	name="Hodor" #
+	culture=northman
+	learning=11
+	religion="old_gods"
+	add_trait="mastermind_theologian"
+	employer=88129
+	8257.1.1={
+		birth="8257.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8278.1.1={
+		employer=88129
+		add_trait="archmaester"
+	}
+	8292.1.1={
+		employer=88124
+	}
+	8298.1.1={
+		employer=88130
+	}
+}
+88113 = {
+	name="Hodor" #
+	culture=northman
+	learning=13
+	religion="old_gods"
+	add_trait="martial_cleric"
+	employer=88129
+	8245.1.1={
+		birth="8245.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8265.1.1={
+		add_trait="maester"
+	}
+	8278.1.1={
+		employer=88129
+		add_trait="archmaester"
+		remove_trait="maester"
+	}
+	8292.1.1={
+		employer=88124
+	}
+	8298.1.1={
+		employer=88130
+	}
+}
+88115 = {
+	name="Hodor" #
+	culture=crownlander
+	learning=10
+	religion="the_seven"
+	add_trait="scholarly_theologian"
+	employer=88129
+	8247.1.1={
+		birth="8247.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8267.1.1={
+		add_trait="maester"
+	}
+	8278.1.1={
+		employer=88129
+		remove_trait="maester"
+		add_trait="archmaester"
+	}
+	8292.1.1={
+		employer=88124
+	}
+	8298.1.1={
+		employer=88130
+	}
+}
+88116 = {
+	name="Hodor" #
+	culture=ironborn
+	learning=13
+	religion="drowned_god"
+	add_trait="mastermind_theologian"
+	add_trait="kind"
+	employer=88129
+	8246.1.1={
+		birth="8246.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8266.1.1={
+		add_trait="maester"
+	}
+	8278.1.1={
+		employer=88129
+		remove_trait="maester"
+		add_trait="archmaester"
+	}
+	8292.1.1={
+		employer=88124
+	}
+	8298.1.1={
+		employer=88130
+	}
+}
+88117 = {
+	name="Hodor" #
+	culture=northman
+	learning=17
+	religion="old_gods"
+	add_trait="quick"
+	add_trait="detached_priest"
+	employer=88129
+	8262.1.1={
+		birth="8262.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8278.1.1={
+		employer=88129
+	}
+	8282.1.1={
+		add_trait="maester"
+	}
+	8292.1.1={
+		employer=88124
+	}
+	8298.1.1={
+		employer=88130
+	}
+}
+88118 = {
+	name="Hodor" #
+	culture=crownlander
+	learning=10
+	religion="the_seven"
+	add_trait="mastermind_theologian"
+	employer=88129
+	8251.1.1={
+		birth="8251.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8278.1.1={
+		employer=88129
+		add_trait="archmaester"
+	}
+	8292.1.1={
+		employer=88124
+	}
+	8298.1.1={
+		employer=88130
+	}
+}
+88119 = {
+	name="Hodor" #
+	culture=salt_dornish
+	learning=10
+	religion="the_seven"
+	add_trait="martial_cleric"
+	employer=88129
+	8247.1.1={
+		birth="8247.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8267.1.1={
+		add_trait="maester"
+	}
+	8278.1.1={
+		employer=88129
+		remove_trait="maester"
+		add_trait="archmaester"
+	}
+	8278.1.1={
+		employer=88129
+	}
+	8292.1.1={
+		employer=88124
+	}
+	8298.1.1={
+		employer=88130
+	}
+}
+88120 = {
+	name="Hodor" #
+	culture=westerman
+	learning=10
+	religion="the_seven"
+	add_trait="mastermind_theologian"
+	employer=88129
+	8255.1.1={
+		birth="8255.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8275.1.1={
+		add_trait="maester"
+	}
+	8278.1.1={
+		employer=88129
+		remove_trait="maester"
+		add_trait="archmaester"
+	}
+	8278.1.1={
+		employer=88129
+	}
+	8292.1.1={
+		employer=88124
+	}
+	8298.1.1={
+		employer=88130
+	}
+}
+88121 = {
+	name="Hodor" #
+	culture=ironborn
+	learning=10
+	religion="drowned_god"
+	add_trait="martial_cleric"
+	employer=88129
+	8238.1.1={
+		birth="8238.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8258.1.1={
+		add_trait="maester"
+	}
+	8278.1.1={
+		employer=88129
+		remove_trait="maester"
+		add_trait="archmaester"
+	}
+	8292.1.1={
+		employer=88124
+	}
+	8298.1.1={
+		employer=88130
+	}
+}
+88122 = {
+	name="Hodor" #
+		
+	diplomacy=8
+	learning=10
+	intrigue=7
+	martial=3
+	stewardship=3
+	
+	culture=riverlander
+	religion="the_seven"
+	
+	add_trait="quick"
+	add_trait="ambitious"
+	add_trait="diligent"
+	add_trait="paranoid"
+	add_trait="authoritative"
+	add_trait="martial_cleric"
+	add_trait="deceitful"
+	
+	8242.1.1={
+		birth="8242.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8262.1.1={
+		add_trait="maester"
+		add_trait="robust"
+	}
+	8278.1.1={
+		employer=88129
+		remove_trait="maester"
+		add_trait="archmaester"
+		add_trait="mystic"
+		give_nickname = nick_the_mage
+	}
+	8292.1.1={
+		employer=88124
+	}
+	8298.1.1={
+		employer=88130
+	}
+}
+88123 = {
+	name="Hodor" #
+	culture=westerman
+	learning=10
+	religion="the_seven"
+	add_trait="martial_cleric"
+	employer=88129
+	8248.1.1={
+		birth="8248.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8268.1.1={
+		add_trait="maester"
+	}
+	8278.1.1={
+		employer=88129
+		remove_trait="maester"
+		add_trait="archmaester"
+	}
+	8292.1.1={
+		employer=88124
+	}
+	8298.1.1={
+		employer=88130
+	}
+}
+88124 = {
+	name="Hodor" #
+	culture=riverlander
+	learning=13
+	religion="the_seven"
+	add_trait="mastermind_theologian"
+	employer=88129
+	8242.1.1={
+		birth="8242.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8262.1.1={
+		add_trait="maester"
+	}
+	8278.1.1={
+		employer=88129
+		remove_trait="maester"
+		add_trait="archmaester"
+	}
+	8292.1.1={
+		employer=88124
+	}
+	8298.1.1={
+		employer=88130
+	}
+}	
+88125 = {
+	name="Hodor" #
+	culture=reachman
+	learning=10
+	religion="the_seven"
+	add_trait="martial_cleric"
+	employer=88129
+	8246.1.1={
+		birth="8246.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8266.1.1={
+		add_trait="maester"
+	}
+	8278.1.1={
+		employer=88129
+		remove_trait="maester"
+		add_trait="archmaester"
+	}
+	8292.1.1={
+		employer=88124
+	}
+	8298.1.1={
+		employer=88130
+	}
+}
+88126 = {
+	name="Hodor" #
+	culture=stone_dornish
+	learning=10
+	religion="the_seven"
+	add_trait="detached_priest"
+	employer=88129
+	8243.1.1={
+		birth="8243.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8263.1.1={
+		add_trait="maester"
+	}
+	8278.1.1={
+		employer=88129
+		remove_trait="maester"
+		add_trait="archmaester"
+	}
+	8292.1.1={
+		employer=88124
+	}
+	8298.1.1={
+		employer=88130
+	}
+}
+88127 = {
+	name="Hodor" #
+	culture=valeman
+	learning=12
+	religion="the_seven"
+	add_trait="martial_cleric"
+	employer=88129
+	8253.1.1={
+		birth="8253.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8273.1.1={
+		add_trait="maester"
+	}
+	8278.1.1={
+		employer=88129
+		remove_trait="maester"
+		add_trait="archmaester"
+	}
+	8292.1.1={
+		employer=88124
+	}
+	8298.1.1={
+		employer=88130
+	}
+}
+88128 = {
+	name="Hodor" #
+	culture=westerman
+	learning=14
+	religion="the_seven"
+	add_trait="scholarly_theologian"
+	#add_trait="wise"
+	employer=88129
+	8242.1.1={
+		birth="8242.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8262.1.1={
+		add_trait="maester"
+	}
+	8278.1.1={
+		employer=88129
+		remove_trait="maester"
+		add_trait="archmaester"
+	}
+	8292.1.1={
+		employer=88124
+	}
+	8298.1.1={
+		employer=88130
+	}
+}
+88129 = {
+	name="Hodor" #
+	culture=reachman
+	learning=11
+	religion="the_seven"
+	add_trait="scholarly_theologian"
+	8258.1.1={
+		birth="8258.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8278.1.1={
+		employer=88129
+		remove_trait="maester"
+		add_trait="archmaester"
+	}
+	8292.1.1={
+		employer=88124
+	}
+	8298.1.1={
+		employer=88130
+	}
+}
+88130 = {
+	name="Hodor" #
+	culture=westerman
+	learning=10
+	religion="the_seven"
+	add_trait="scholarly_theologian"
+	employer=88129
+	8251.1.1={
+		birth="8251.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8271.1.1={
+		add_trait="maester"
+	}
+	8278.1.1={
+		employer=88129
+		remove_trait="maester"
+		add_trait="archmaester"
+	}
+	8292.1.1={
+		employer=88124
+	}
+	8298.1.1={
+		employer=88130
+	}
+}
+88131 = {
+	name="Hodor" #
+	culture=valeman
+	learning=10
+	religion="the_seven"
+	add_trait="mastermind_theologian"
+	employer=88129
+	8244.1.1={
+		birth="8244.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8264.1.1={
+		add_trait="maester"
+	}
+	8278.1.1={
+		employer=88129
+		remove_trait="maester"
+		add_trait="archmaester"
+	}
+	8292.1.1={
+		employer=88124
+	}
+	8298.1.1={
+		employer=88130
+	}
+}
+88132 = {
+	name="Hodor" #
+	culture=northman
+	learning=12
+	religion="old_gods"
+	add_trait="scholarly_theologian"
+	employer=88129
+	8228.1.1={
+		birth="8228.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8248.1.1={
+		add_trait="maester"
+	}
+	8278.1.1={
+		employer=88129
+		remove_trait="maester"
+		add_trait="archmaester"
+	}
+	8292.1.1={
+		employer=88124
+	}
+	8295.1.1={
+		add_trait="incapable"
+	}
+	8298.1.1={
+		employer=88130
+	}
+}
+88133 = {
+	name="Hodor" #
+	culture=stormlander
+	learning=10
+	religion="the_seven"
+	add_trait="martial_cleric"
+	employer=88129
+	8241.1.1={
+		birth="8241.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8261.1.1={
+		add_trait="maester"
+	}
+	8278.1.1={
+		employer=88129
+		remove_trait="maester"
+		add_trait="archmaester"
+	}
+	8292.1.1={
+		employer=88124
+	}
+	8298.1.1={
+		employer=88130
+	}
+}
+88134 = {
+	name="Hodor" #
+	culture=reachman
+	learning=12
+	religion="the_seven"
+	add_trait="mastermind_theologian"
+	employer=88129
+	8249.1.1={
+		birth="8249.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8269.1.1={
+		add_trait="maester"
+	}
+	8278.1.1={
+		employer=88129
+		remove_trait="maester"
+		add_trait="archmaester"
+	}
+	8292.1.1={
+		employer=88124
+	}
+	8298.1.1={
+		employer=88130
+	}
+}
+###Maesters
+88140 = {
+	name="Hodor" #
+	learning=12
+	religion="the_seven"
+	culture="reachman"
+	employer=88129
+	8253.1.1={
+		birth="8253.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8275.1.1={
+		employer=1288 #Redwynes
+		add_trait="maester"
+		effect = { set_character_flag = serving_with_lord }
+	}
+}
+88141 = {
+	name="Hodor" #
+	learning=12
+	religion="the_seven"
+	##citadel
+	culture="ironborn"
+	8170.1.1={
+		birth="8170.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8196.1.1={
+		employer=1238
+		add_trait="maester"
+		effect = { set_character_flag = serving_with_lord }
+	}
+	8207.1.1={
+		employer=3238
+	}
+	8240.1.1={
+		death="8240.1.1"
+	}
+}
+88142 = {
+	name="Hodor" #
+	learning=12
+	culture=northman
+	religion="the_seven"
+	employer=88129
+	8265.1.1={
+		birth="8265.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8282.1.1={
+		add_trait="maester"
+		effect = { set_character_flag = serving_with_lord }
+	}
+	8290.1.1={
+		employer=277 #Chester
+	}
+	8300.1.1={
+		death="8300.1.1" #Victarion
+	}
+}
+#88143 = {
+#	name="Hodor" #
+#	dynasty=253 #Tyrell
+#	learning=10
+#	religion="the_seven"
+#	culture="reachman"
+#	8252.1.1={
+#		birth="8252.1.1"
+#	}
+#	8268.1.1={
+#		employer=88129
+#	}
+#	8275.1.1={
+#		employer=284 #Bulwer
+#		add_trait="maester"
+#		add_trait="bastard"
+#	}
+#}
+88144 = {
+	name="Hodor" #
+	culture="reachman"
+	learning=15
+	religion="the_seven"
+	8262.1.1={
+		birth="8262.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8278.1.1={
+		employer=88129
+	}
+	8292.1.1={
+		employer=88124
+	}
+	8298.1.1={
+		employer=88130
+	}
+}
+88400 = {
+	name="Hodor" #the acolyte
+	learning=12
+	religion="the_seven"
+	culture="reachman"
+	add_trait="bastard"
+	employer=88129
+	8278.1.1={
+		birth="8278.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8292.1.1={
+		employer=88124
+	}
+	8298.1.1={
+		employer=88130
+		give_nickname=nick_the_acolyte
+	}
+}
+88145 = {
+	name="Hodor" #Maester at highgarden
+	learning=10
+	religion="the_seven"
+	culture="reachman"
+	add_trait="bastard"
+	employer=1253
+	8250.1.1={
+		birth="8250.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8270.1.1={
+		add_trait="maester"
+		effect = { set_character_flag = serving_with_lord }
+	}
+}  
+88291= {
+	name="Hodor" 
+	religion="the_seven"
+	culture="reachman"
+	add_trait="strong"
+	employer=1288
+	8240.1.1={
+		birth="8240.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8282.1.1={
+		death="8282.1.1"
+	}
+}  
+88146 = {
+	name="Hodor" #Guard of Olenna Redwyne
+	
+	martial = 2
+	learning = 2
+	intrigue = 2
+	stewardship = 1
+	diplomacy = 2
+	
+	religion="the_seven"
+	culture="reachman"
+	
+	add_trait="twin"
+	add_trait="strong"
+	add_trait="tall"
+	add_trait="naive_appeaser"
+	
+	father=88291
+	
+	8272.1.1={
+		birth="8272.1.1"
+		effect = {
+			dynasty = none
+			c_highgarden = {
+				holder_scope = { ROOT = { move_character = PREV } }
+			}
+		}
+	}
+	8288.1.1={
+		add_trait = trained_warrior
+	}
+}  
+88147 = {
+	name="Hodor" #Guard of Olenna Redwyne
+	
+	martial = 2
+	learning = 2
+	intrigue = 2
+	stewardship = 1
+	diplomacy = 2
+	
+	religion="the_seven"
+	culture="reachman"
+	
+	add_trait="twin"
+	add_trait="strong"
+	add_trait="tall"
+	add_trait="naive_appeaser"
+	
+	father=88291
+	
+	8272.1.1={
+		birth="8272.1.1"
+		effect = {
+			dynasty = none
+			c_highgarden = {
+				holder_scope = { ROOT = { move_character = PREV } }
+			}
+		}
+	}
+	8288.1.1={
+		add_trait = trained_warrior
+	}
+}   
+88148 = {
+	name="Hodor" 
+	martial=2
+	stewardship=7
+	religion="the_seven"
+	culture="reachman"
+	add_trait="indulgent_wastrel"
+	add_trait="poet"
+	add_trait="lustful"
+	add_trait="deceitful"
+	add_trait="gregarious"
+	employer=88033 #Rowans
+	8281.1.1={
+		birth="8281.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8298.1.1 = {	
+		add_trait="nightswatch"
+		effect = { 
+			add_character_modifier = {
+				name = nw_steward
+				duration = -1
+			}
+		}
+	}
+	8300.6.1={
+		death="8300.6.1"
+	}
+}  
+88149 = {
+	name="Hodor" #'Rolly Duckfield'
+	martial=10
+	religion="the_seven"
+	culture="reachman"
+	add_trait="tough_soldier"
+	add_trait="strong"
+	add_trait="envious"
+	add_trait="wroth"
+	employer=88036 #Caswells
+	8275.1.1={
+		birth="8275.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8282.1.1={
+		add_trait="poor_warrior"
+	}
+	8288.1.1={
+		remove_trait="poor_warrior"
+		add_trait="trained_warrior"
+	}
+	8291.1.1={
+		remove_trait="trained_warrior"
+		add_trait="skilled_warrior"
+		employer = 307 #Myles Toyne
+	}
+	8297.1.1={
+		employer = 88241 #Harry Strickland
+	}
+	8298.1.1={
+		add_trait="knight"
+		give_nickname=nick_duckfield
+	}
+	8300.3.1 = { employer = 125009 }
+	##88091 banishes, recent golden company history tbd
+}  
+88150 = {
+	name="Hodor" 
+	
+	stewardship = 7
+	martial = 1
+	intrigue = 4
+	diplomacy = 3
+	learning = 1
+	
+	religion="the_seven"
+	culture="reachman"
+	
+	add_trait = thrifty_clerk
+	add_trait = fair
+	add_trait = diligent
+	add_trait = brave
+	add_trait = gregarious
+	
+	8284.1.1={
+		birth="8284.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8299.2.1 = {	
+		add_trait="nightswatch"
+		add_trait="poor_warrior"
+		effect = { 
+			add_character_modifier = {
+				name = nw_steward
+				duration = -1
+			}
+		}
+	}
+	8300.3.1 = {
+		effect = {
+			set_character_flag = NW_personal_steward
+			give_minor_title = title_personal_steward
+		}
+	}
+}
+###Stonecrabs###(non-canonical, named after stonecrab cay near arbor)
+88175 = {
+	name="Hodor" #
+	dynasty = 1426
+	religion="the_seven"
+	culture="reachman"
+	8252.1.1={
+		birth="8252.1.1"
+	}
+	8270.1.1={
+		add_spouse = 88176
+		add_trait="knight"
+		add_trait="poor_warrior"
+	}
+}
+88176 = {
+	name="Hodor" 
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	employer=88175
+	8254.1.1={
+		birth="8254.1.1"
+	}
+}
+88177 = {
+	name="Hodor" #
+	dynasty = 1426
+	religion="the_seven"
+	culture="reachman"
+	father=88175
+	mother=88176
+	employer=88175
+	8274.1.1={
+		birth="8274.1.1"
+	}
+}
+88178 = {
+	name="Hodor" #
+	dynasty = 1426
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=88175
+	mother=88176
+	employer=88175
+	8276.1.1={
+		birth="8276.1.1"
+	}
+}
+88236 = {
+	name="Hodor" #
+	dynasty = 1426
+	religion="the_seven"
+	culture="reachman"
+	father=88175
+	mother=88176
+	employer=88175
+	8278.1.1={
+		birth="8278.1.1"
+	}
+}
+###Goldwynes###(non-canonical, vassals of arbor) ### made into Cadet branch of Redwyne ### Garlan Goldwyne founder ###
+88179 = {
+	name="Hodor" #
+	dynasty = 1427
+	religion="the_seven"
+	culture="reachman"
+	father=291427
+	8250.1.1={
+		birth="8250.1.1"
+	}
+	8268.1.1={
+		add_spouse = 88180
+		add_trait="knight"
+		add_trait="poor_warrior"
+	}
+}
+88180 = {
+	name="Hodor" 
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	employer=88179
+	8252.1.1={
+		birth="8252.1.1"
+	}
+}
+88181 = {
+	name="Hodor" #
+	dynasty = 1427
+	religion="the_seven"
+	culture="reachman"
+	father=88179
+	mother=88180
+	employer=88179
+	8272.1.1={
+		birth="8272.1.1"
+	}
+	8288.1.1={
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+}
+88182 = {
+	name="Hodor" #
+	dynasty = 1427
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=88179
+	mother=88180
+	employer=88179
+	8274.1.1={
+		birth="8274.1.1"
+	}
+}
+88183 = {
+	name="Hodor" #
+	dynasty = 1427
+	religion="the_seven"
+	culture="reachman"
+	father=88179
+	mother=88180
+	employer=88179
+	8276.1.1={
+		birth="8276.1.1"
+	}
+}
+###House Ball###
+88184 = {
+	name="Hodor" #non-canon
+	dynasty=260 #Ball
+	religion="the_seven"
+	culture="reachman"
+	
+	father=62015260
+	mother=42015260
+	
+	8135.1.1={birth="8135.1.1"}
+	8153.1.1={
+		add_spouse=88185
+		add_trait="knight"
+	}
+	8195.3.7={ #Blackfyre Rebellion
+		raise_levies = {
+			location = 271 #Manderford
+			force_mult = 1
+		}
+		effect = {
+			set_defacto_liege = ROOT
+			set_character_flag = against_king
+			set_character_flag = against_loyal_liege
+			any_demesne_title = {
+				limit = { 
+					OR = {
+						tier = COUNT
+						tier = DUKE
+					}
+				}				
+				set_variable = { which = "de_facto_kingdom" value = 6 } #reach
+			}
+			e_iron_throne = {
+				holder_scope = { 
+					opinion = {
+						modifier = opinion_joined_rebellion
+						who = ROOT
+						years = 20
+					}
+				}
+			}
+			d_daemon_blackfyres_host = {
+				holder_scope = { 
+					opinion = {
+						who = ROOT
+						modifier = opinion_joined_cause
+					}
+					reverse_opinion = {
+						modifier = opinion_with_rebel_leader
+						who = ROOT
+						years = 100
+					}
+					if = {
+						limit = { NOT = { year = 8197 } }
+						ROOT = {
+							join_attacker_wars = PREV
+						}
+					}
+				}
+			}
+			spawn_unit = {
+				province = 271 #Manderford
+				scaled_by_biggest_garrison = 5.5
+				owner = ROOT
+				leader = 88187 #Fireball
+				troops = {
+					archers = { 10 10 }
+					heavy_infantry = { 20 20 }
+					light_infantry = { 60 60 }	
+					light_cavalry = { 40 40 }		
+					knights = { 10 10 }						
+				}
+			}
+		}
+	}
+	8196.12.31={ 
+		effect = {
+			k_reach = {
+				holder_scope = {
+					ROOT = { set_defacto_liege = PREV }
+				}
+			}
+			clr_character_flag = against_king
+			clr_character_flag = against_loyal_liege
+			e_iron_throne = {
+				holder_scope = { 
+					remove_opinion = {
+						modifier = opinion_joined_rebellion
+						who = ROOT
+					}
+				}
+			}
+			d_daemon_blackfyres_host = {
+				holder_scope = { 
+					remove_opinion = {
+						who = ROOT
+						modifier = opinion_joined_cause
+					}
+					reverse_remove_opinion = {
+						modifier = opinion_with_rebel_leader
+						who = ROOT
+					}
+				}
+			}
+		}
+	}
+	8200.1.1={
+		death="8200.1.1"
+	}
+}
+88185 = {
+	name="Hodor" #non-canon
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	employer=88184
+	8136.1.1={
+		birth="8136.1.1"
+	}
+	8200.1.1={
+		employer=88186
+	}
+	8206.1.1={
+		death="8206.1.1"
+	}
+}
+88186 = {
+	name="Hodor" 
+	dynasty=260 #Ball
+	religion="the_seven"
+	culture="reachman"
+	employer=88184
+	father=88184
+	mother=88185
+	8154.1.1={
+		birth="8154.1.1"
+	}
+	8180.1.1={
+		add_spouse=88188
+		add_trait="knight"
+	}
+	8225.1.1={
+		death="8225.1.1"
+	}
+}
+88187 = {
+	name="Hodor" ##Fireball
+	dynasty=260 #Ball
+	martial=12
+	religion="the_seven"
+	culture="reachman"
+	add_trait="tough_soldier"
+	add_trait="ambitious"
+	add_trait="brave"
+	add_trait="just"
+	add_trait="stubborn"
+	employer=88184
+	father=88184
+	mother=88185
+	8155.1.1={
+		birth="8155.1.1"
+		give_nickname = nick_fireball
+	}
+	8171.1.1={
+		add_trait="skilled_warrior"
+		add_trait="knight"
+	}
+	8175.1.1={
+		employer=77020
+	}
+	8184.1.1={
+		employer=77023
+	}
+	8195.1.1={
+		employer=77024
+	}
+	8196.5.31={
+		death = {
+			death_reason = death_battle
+		}
+	}
+	##bastard son
+}
+10088187 = {
+	name="Hodor" ##Knight of the Pussywillows
+	dynasty=260 #Ball
+	martial=2
+	religion="the_seven"
+	culture="reachman"
+	add_trait="tough_soldier"
+	add_trait="ambitious"
+	add_trait="brave"
+	add_trait="just"
+	add_trait="bastard"
+	
+	father=88187
+
+	8197.1.1={
+		birth="8197.1.1"
+		give_nickname = nick_flowers
+	}
+	8210.1.1={
+		add_trait="skilled_warrior"
+		add_trait="knight"
+	}
+	8236.1.1={
+		death="8236.1.1"
+	}
+}
+88188 = {
+	name="Hodor" #non-canon
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	
+	employer=88184
+	
+	8160.1.1={
+		birth="8160.1.1"
+	}
+	8200.1.1={
+		employer=88186
+	}
+	8225.1.1={
+		employer=88189
+	}
+	8235.1.1={
+		death="8235.1.1"
+	}
+}
+88189 = {
+	name="Hodor" 
+	dynasty=260 #Ball
+	religion="the_seven"
+	culture="reachman"
+	employer=88184
+	father=88186
+	mother=88188
+	
+	8184.1.1={
+		birth="8184.1.1"
+	}
+	8200.1.1={
+		employer=88186
+		add_trait="knight"
+	}
+	8214.1.1={
+		add_spouse=88190
+	}
+	8260.1.1={
+		death="8260.1.1"
+	}
+}
+88190 = {
+	name="Hodor" #non-canon
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	employer=88184
+	8188.1.1={
+		birth="8188.1.1"
+	}
+	8200.1.1={
+		employer=88186
+	}
+	8225.1.1={
+		employer=88189
+	}
+	8258.1.1={
+		death="8258.1.1"
+	}
+}
+88191 = {
+	name="Hodor" #non-canon
+	dynasty=260 #Ball
+	religion="the_seven"
+	culture="reachman"
+	employer=88186
+	father=88189
+	mother=88190
+	8220.1.1={
+		birth="8220.1.1"
+	}
+	8225.1.1={
+		employer=88189
+	}
+	8244.1.1={
+		add_spouse=88192
+		add_trait="knight"
+	}
+	8290.1.1={
+		death="8290.1.1"
+	}
+}
+88192 = {
+	name="Hodor" #non-canon
+	add_trait="naive_appeaser"
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	employer=88186
+	8220.1.1={
+		birth="8220.1.1"
+	}
+	8225.1.1={
+		employer=88189
+	}
+	8260.1.1={
+		employer=88191
+	}
+	8290.1.1={
+		death="8290.1.1"
+	}
+}
+6278 = {
+	name="Hodor" #
+	dynasty=260 #Ball
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	employer=88189
+	father=88191
+	mother=88192
+	8245.1.1={
+		birth="8245.1.1"
+	}
+	8260.1.1={
+		employer=88191
+	}
+	8263.1.1={
+		add_spouse=278
+	}
+}
+88193 = {
+	name="Hodor" #non-canon
+	dynasty=260 #Ball
+	religion="the_seven"
+	culture="reachman"
+	employer=88189
+	father=88191
+	mother=88192
+	8248.1.1={
+		birth="8248.1.1"
+	}
+	8260.1.1={
+		employer=88191
+		add_trait="knight"
+	}
+	8278.1.1={
+		add_spouse=88194
+	}
+}
+88194 = {
+	name="Hodor" #non-canon
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	employer=88189
+	add_trait="naive_appeaser"
+	8248.1.1={
+		birth="8248.1.1"
+	}
+	8260.1.1={
+		employer=88191
+	}
+	8278.1.1={
+		add_spouse=88193
+	}
+	8290.1.1={
+		employer=88193
+	}
+}
+88195 = {
+	name="Hodor" #non-canon
+	dynasty=260 #Ball
+	religion="the_seven"
+	culture="reachman"
+	employer=88191
+	father=88193
+	mother=88194
+	8269.1.1={
+		birth="8269.1.1"
+	}
+	8290.1.1={
+		employer=88193
+		add_trait="knight"
+	}
+}
+88196 = {
+	name="Hodor" #non-canon
+	dynasty=260 #Ball
+	religion="the_seven"
+	culture="reachman"
+	employer=88191
+	father=88193
+	mother=88194
+	8273.1.1={
+		birth="8273.1.1"
+	}
+	8290.1.1={
+		employer=88193
+		add_trait="knight"
+	}
+}
+###Conklyns###
+88197 = {
+	name="Hodor" #
+	dynasty = 286
+	religion="the_seven"
+	culture="reachman"
+	8170.1.1={
+		birth="8170.1.1"
+	}
+	8190.1.1={
+		add_trait="knight"
+	}
+	8220.1.1={
+		death="8220.1.1"
+	}
+}
+88198 = {
+	name="Hodor" #non-canon
+	dynasty = 286
+	religion="the_seven"
+	culture="reachman"
+	employer=88197
+	father=88197
+	8200.1.1={
+		birth="8200.1.1"
+	}
+	8265.1.1={
+		death="8265.1.1"
+	}
+}
+88199 = {
+	name="Hodor" #non-canon
+	dynasty = 286
+	religion="the_seven"
+	culture="reachman"
+	employer=88198
+	father=88198
+	8230.1.1={
+		birth="8230.1.1"
+	}
+	8251.1.1={
+		add_spouse=88200
+		add_trait="knight"
+	}
+	8293.1.1={
+		death="8293.1.1"
+	}
+}
+88200 = {
+	name="Hodor"#non-canon 
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	employer=88198
+	8230.1.1={
+		birth="8230.1.1"
+	}
+	8265.1.1={
+		employer=88199
+	}
+	8293.1.1={
+		death="8293.1.1"
+	}
+}
+88201 = {
+	name="Hodor" #non-canon
+	dynasty = 286
+	religion="the_seven"
+	culture="reachman"
+	employer=88198
+	father=88199
+	mother=88200
+	8252.1.1={
+		birth="8252.1.1"
+	}
+	8265.1.1={
+		employer=88199
+	}
+	8271.1.1={
+		add_spouse=88202
+	}
+}
+88202 = {
+	name="Hodor" #non-canon
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	employer=88198
+	8252.1.1={
+		birth="8252.1.1"
+	}
+	8265.1.1={
+		employer=88199
+	}
+	8293.1.1={
+		employer=88201
+	}
+}
+88203 = {
+	name="Hodor" #non-canon
+	dynasty = 286
+	religion="the_seven"
+	culture="reachman"
+	father=88201
+	mother=88202
+	employer=88199
+	8272.1.1={
+		birth="8272.1.1"
+	}
+	8293.1.1={
+		employer=88201
+	}
+}
+88204 = {
+	name="Hodor" #non-canon
+	dynasty = 286
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=88201
+	mother=88202
+	employer=88199
+	8274.1.1={
+		birth="8274.1.1"
+	}
+	8293.1.1={
+		employer=88201
+	}
+}
+88205 = {
+	name="Hodor" #non-canon
+	dynasty = 286
+	religion="the_seven"
+	culture="reachman"
+	father=88201
+	mother=88202
+	employer=88199
+	8276.1.1={
+		birth="8276.1.1"
+	}
+	8293.1.1={
+		employer=88201
+		add_trait="knight"
+	}
+}
+###Lowthers####non-canon characters
+88206 = {
+	name="Hodor" #
+	dynasty = 1333
+	religion="the_seven"
+	culture="reachman"
+	8257.1.1={
+		birth="8257.1.1"
+	}
+	8275.1.1={
+		add_spouse = 88207
+		add_trait="knight"
+	}
+}
+88207 = {
+	name="Hodor" 
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	employer=88206
+	8258.1.1={
+		birth="8258.1.1"
+	}
+}
+88208 = {
+	name="Hodor" #
+	dynasty = 1333
+	religion="the_seven"
+	culture="reachman"
+	father=88206
+	mother=88207
+	employer=88206
+	8276.1.1={
+		birth="8276.1.1"
+	}
+}
+88209 = {
+	name="Hodor" #
+	dynasty = 1333
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=88206
+	mother=88207
+	employer=88206
+	8277.1.1={
+		birth="8277.1.1"
+	}
+}
+88210 = {
+	name="Hodor" #
+	dynasty = 1333
+	religion="the_seven"
+	culture="reachman"
+	father=88206
+	mother=88207
+	employer=88206
+	8281.1.1={
+		birth="8281.1.1"
+	}
+}
+###Lyberrs####non-canon characters
+88211 = {
+	name="Hodor" #
+	dynasty = 251
+	religion="the_seven"
+	culture="reachman"
+	8256.1.1={
+		birth="8256.1.1"
+	}
+	8272.1.1={
+		add_spouse = 88212
+		add_trait="knight"
+	}
+}
+88212 = {
+	name="Hodor" 
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	employer=88211
+	8252.1.1={
+		birth="8252.1.1"
+	}
+}
+88213 = {
+	name="Hodor" #
+	dynasty = 251
+	religion="the_seven"
+	culture="reachman"
+	father=88211
+	mother=88212
+	employer=88211
+	8273.1.1={
+		birth="8273.1.1"
+	}
+	8290.1.1={
+		add_trait="knight"
+	}
+}
+88214 = {
+	name="Hodor" #
+	dynasty = 251
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=88211
+	mother=88212
+	employer=88211
+	8275.1.1={
+		birth="8275.1.1"
+	}
+}
+88215 = {
+	name="Hodor" #
+	dynasty = 251
+	religion="the_seven"
+	culture="reachman"
+	father=88211
+	mother=88212
+	employer=88211
+	8277.1.1={
+		birth="8277.1.1"
+	}
+	8293.1.1={
+		add_trait="knight"
+	}
+}
+###Norridge
+121269 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=269
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=119269
+	mother=419269
+
+	8220.1.1 = {birth="8220.1.1"}
+	8281.1.1 = {death="8281.1.1"}
+}
+122269 = {
+	name="Hodor"	# a lord
+	dynasty=269
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=119269
+	mother=419269
+
+	8224.1.1 = {birth="8224.1.1"}
+	8240.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8242.1.1 = {add_spouse=422269}
+	8272.1.1 = {death="8272.1.1"}
+}
+422269 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="reachman"
+
+	8224.1.1 = {birth="8224.1.1"}
+	8272.1.1 = {death="8272.1.1"}
+}
+123269 = {
+	name="Hodor"	# not a lord, lover of Daeron Targaryen
+	dynasty=269
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=119269
+	mother=419269
+	
+	add_trait = homosexual
+	add_trait = kind
+	add_trait = just
+	add_trait = tough_soldier
+
+	8228.1.1 = {birth="8228.1.1"}
+	8244.1.1 = {
+		add_trait=knight 
+		add_trait=trained_warrior
+		employer=77034
+	}
+	8251.1.1={
+		death = {
+			death_reason = death_battle # leading an army to quash the rebellion of the Rat, the Hawk and the Pig.
+		}
+	}
+}
+124269 = {
+	name="Hodor"	# not a lord
+	dynasty=269
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=119269
+	mother=419269
+
+	8230.1.1 = {birth="8230.1.1"}
+	8246.1.1 = {add_trait=poor_warrior}
+	8285.1.1 = {death="8285.1.1"}
+}
+88008 = {
+	name="Hodor"
+	female=yes
+	dynasty=269
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=122269
+	mother=422269
+
+	8250.1.1 = {birth="8250.1.1"}
+	8267.1.1={
+		add_spouse=88006
+	}
+}
+126269 = {
+	name="Hodor"	# a lord
+	dynasty=269
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=122269
+	mother=422269
+
+	8252.1.1 = {birth="8252.1.1"}
+	8268.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8270.1.1 = {add_spouse=426269}
+}
+426269 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="reachman"
+
+	8252.1.1 = {birth="8252.1.1"}
+}
+127269 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=269
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=122269
+	mother=422269
+
+	8255.1.1 = {birth="8255.1.1"}
+}
+128269 = {
+	name="Hodor"	# not a lord
+	dynasty=269
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=122269
+	mother=422269
+
+	8257.1.1 = {birth="8257.1.1"}
+	8273.1.1 = {add_trait=poor_warrior}
+}
+129269 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=269
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=126269
+	mother=426269
+
+	8274.1.1 = {birth="8274.1.1"}
+}
+130269 = {
+	name="Hodor"	# not a lord
+	dynasty=269
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=126269
+	mother=426269
+
+	8276.1.1 = {birth="8276.1.1"}
+	8292.1.1 = {add_trait=knight add_trait=trained_warrior}
+}
+###Pomminghams####non-canon characters
+88223 = {
+	name="Hodor" #
+	dynasty = 274
+	religion="the_seven"
+	culture="reachman"
+	8256.1.1={
+		birth="8256.1.1"
+	}
+	8272.1.1={
+		add_spouse = 88224
+		add_trait="knight"
+	}
+}
+88224 = {
+	name="Hodor" 
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	employer=88223
+	8252.1.1={
+		birth="8252.1.1"
+	}
+}
+88225 = {
+	name="Hodor" #
+	dynasty = 274
+	religion="the_seven"
+	culture="reachman"
+	father=88223
+	mother=88224
+	employer=88223
+	8273.1.1={
+		birth="8273.1.1"
+	}
+}
+88226 = {
+	name="Hodor" #
+	dynasty = 274
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=88223
+	mother=88224
+	employer=88223
+	8275.1.1={
+		birth="8275.1.1"
+	}
+}
+###Rhyslings####
+88227 = {
+	name="Hodor" #
+	dynasty = 1423
+	religion="the_seven"
+	culture="reachman"
+	martial=8	
+	add_trait="tough_soldier"
+	8142.1.1={
+		birth="8142.1.1"
+	}
+	8156.1.1={
+		add_trait="skilled_warrior"
+		add_trait="knight"
+		add_trait="duelist"
+	}
+	8204.1.1={
+		add_trait="scarred"
+		add_trait = one_eyed
+	}
+	8219.1.1={
+		death="8219.1.1"
+	}
+}
+88228 = {
+	name="Hodor" #non-canon
+	dynasty = 1423
+	religion="the_seven"
+	culture="reachman"
+	father=88227
+	8169.1.1={
+		birth="8169.1.1"
+	}
+	8235.1.1={
+		death="8235.1.1"
+	}
+}
+88229 = {
+	name="Hodor" #non-canon
+	dynasty = 1423
+	religion="the_seven"
+	culture="reachman"
+	father=88228
+	employer=88228
+	8198.1.1={
+		birth="8198.1.1"
+	}
+	8273.1.1={
+		death="8273.1.1"
+	}
+}
+88230 = {
+	name="Hodor" #non-canon
+	dynasty = 1423
+	religion="the_seven"
+	culture="reachman"
+	father=88229
+	employer=88228
+	8226.1.1={
+		birth="8226.1.1"
+	}
+	8243.1.1={
+		add_spouse=88231
+		add_trait="knight"
+	}
+}
+88231 = {
+	name="Hodor" #non-canon
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	employer=88228
+	8227.1.1={
+		birth="8227.1.1"
+	}
+}
+88232 = {
+	name="Hodor" #non-canon
+	dynasty = 1423
+	religion="the_seven"
+	culture="reachman"
+	father=88230
+	mother=88231
+	employer=88229
+	8250.1.1={
+		birth="8250.1.1"
+	}
+	8272.1.1={
+		add_spouse=88233
+	}
+}
+88233 = {
+	name="Hodor" #non-canon
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	employer=88229
+	8250.1.1={
+		birth="8250.1.1"
+	}
+}
+88234 = {
+	name="Hodor" #non-canon
+	dynasty = 1423
+	religion="the_seven"
+	culture="reachman"
+	father=88232
+	mother=88233
+	employer=88230
+	8273.1.1={
+		birth="8273.1.1"
+	}
+}
+88235 = {
+	name="Hodor" #non-canon
+	dynasty = 1423
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=88232
+	mother=88233
+	employer=88230
+	8275.1.1={
+		birth="8275.1.1"
+	}
+}
+###Risleys####non-canon characters
+1001425 = {
+	name="Hodor"	# a lord
+	dynasty=1425
+
+	religion="the_seven"
+	culture="reachman"
+
+	8145.1.1 = {birth="8145.1.1"}
+	8161.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8163.1.1 = {add_spouse=4001425}
+	8196.1.1 = {death="8196.1.1"}
+}
+4001425 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="reachman"
+
+	8145.1.1 = {birth="8145.1.1"}
+	8196.1.1 = {death="8196.1.1"}
+}
+1011425 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=1425
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=1001425
+	mother=4001425
+
+	8170.1.1 = {birth="8170.1.1"}
+	8225.1.1 = {death="8225.1.1"}
+}
+1021425 = {
+	name="Hodor"	# a lord
+	dynasty=1425
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=1001425
+	mother=4001425
+
+	8171.1.1 = {birth="8171.1.1"}
+	8187.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8189.1.1 = {add_spouse=4021425}
+	8250.1.1 = {death="8250.1.1"}
+}
+4021425 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="reachman"
+
+	8171.1.1 = {birth="8171.1.1"}
+	8250.1.1 = {death="8250.1.1"}
+}
+1031425 = {
+	name="Hodor"	# not a lord
+	dynasty=1425
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=1021425
+	mother=4021425
+
+	8189.1.1 = {birth="8189.1.1"}
+	8205.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8207.1.1 = {add_spouse=4031425}
+	8250.1.1 = {death="8250.1.1"}
+}
+4031425 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="reachman"
+
+	8189.1.1 = {birth="8189.1.1"}
+	8250.1.1 = {death="8250.1.1"}
+}
+1041425 = {
+	name="Hodor"	# not a lord
+	dynasty=1425
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=1021425
+	mother=4021425
+
+	8191.1.1 = {birth="8191.1.1"}
+	8207.1.1 = {
+		add_trait=knight 
+		add_trait=trained_warrior
+		add_spouse=10143 #Butterwell
+	}
+	8212.1.1 = {
+		add_trait=crippled
+	}
+	8239.1.1 = {death="8239.1.1"}
+}
+1051425 = {
+	name="Hodor"	# a lord
+	dynasty=1425
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=1031425
+	mother=4031425
+
+	8220.1.1 = {birth="8220.1.1"}
+	8236.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8238.1.1 = {add_spouse=4051425}
+	8271.1.1 = {death="8271.1.1"}
+}
+4051425 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="reachman"
+
+	8220.1.1 = {birth="8220.1.1"}
+	8271.1.1 = {death="8271.1.1"}
+}
+1061425 = {
+	name="Hodor"	# not a lord
+	dynasty=1425
+
+	religion="the_seven"
+	culture="reachman"
+
+	father=1051425
+	mother=4051425
+
+	8255.1.1 = {birth="8255.1.1"}
+	8271.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8308.1.1 = {death="8308.1.1"}
+}
+
+88237 = {
+	name="Hodor" #
+	dynasty = 1425
+	religion="the_seven"
+	culture="reachman"
+	
+	father=1051425
+	mother=4051425
+	
+	8254.1.1={
+		birth="8254.1.1"
+	}
+	8270.1.1={
+		add_spouse = 88224
+		add_trait="knight"
+	}
+}
+88238 = {
+	name="Hodor" 
+	female=yes
+	add_trait="naive_appeaser"
+	religion="the_seven"
+	culture="reachman"
+	employer=88237
+	8255.1.1={
+		birth="8255.1.1"
+	}
+}
+88239 = {
+	name="Hodor" #
+	dynasty = 1425
+	religion="the_seven"
+	culture="reachman"
+	father=88237
+	mother=88238
+	employer=88237
+	8271.1.1={
+		birth="8271.1.1"
+	}
+}
+88240 = {
+	name="Hodor" #
+	dynasty = 1425
+	female=yes
+	religion="the_seven"
+	culture="reachman"
+	father=88237
+	mother=88238
+	employer=88237
+	8273.1.1={
+		birth="8273.1.1"
+	}
+}
+##Stricklands##
+88241 = {
+	name="Hodor" #
+	dynasty = 1428
+	
+	religion="the_seven"
+	culture="reachman"
+	
+	martial = 9
+	diplomacy = 3
+	intrigue = 8
+	stewardship = 7
+	learning = 3
+	
+	add_trait="fortune_builder"
+	add_trait="craven"
+	add_trait="proud"
+	add_trait="patient"
+	add_trait="gluttonous"
+	add_trait="ambitious"
+	
+	father=30271428
+	mother=40271428
+	
+	8248.1.1={
+		birth="8248.1.1"
+		effect = {
+			if = {
+				limit = { is_ruler = no }
+				k_golden_company = {
+					holder_scope = {
+						ROOT = { move_character = PREV }
+					}
+				}
+			}	
+		}
+	}
+	8264.1.1={
+		add_trait="trained_warrior"
+		add_trait="knight"
+	}
+	8265.1.1 = {
+		add_claim=d_tumbleton
+		add_claim=c_tumbleton
+	}
+	8282.1.1={
+		#employer = 307 #Myles Toyne
+	}
+	# 8300.3.1={
+		# effect = {
+			# d_golden_company = {
+				# grant_title = ROOT
+			# }
+		# }
+	# }
+}
+
+##Robert Flowers Kingsguard
+##Mollander Citadel
+##Orland of Oldtown
+##Plummer (Steward Ashford)
+##Roone citadel    
+##Sam Stoops stewrad standfast

@@ -1,0 +1,77 @@
+##Free Cities
+
+
+600000047 = { #mistress of Aegon IV
+	name="Hodor"
+	dynasty=300505
+	female=yes
+	
+	religion="rhllor"
+	culture="lysene"
+	
+	martial=2
+	diplomacy=7
+	intrigue=5
+	stewardship=5
+	add_trait="fair"
+	add_trait="lustful"
+	add_trait="proud"
+	add_trait="rude"
+	add_trait="scholar"
+	add_trait="charismatic_negotiator"
+
+	
+	8139.1.1={birth="8139.1.1" }
+	8181.1.1={
+		employer=77020
+	} 
+	8182.1.1 = {death = {death_reason = death_dungeon}} # Childbirth
+}
+600000063 = {
+	name="Hodor"
+	properties="00000"
+	
+	religion="qarth_warlocks"
+	culture="qartheen"
+	
+	martial=2
+	diplomacy=7
+	intrigue=8
+	stewardship=5
+		
+	add_trait="deceitful"
+	add_trait="elusive_shadow"
+	
+	8243.1.1={
+		birth="8243.1.1"
+		effect = {
+			dynasty = none
+		}
+	}
+	8263.1.1={
+		add_trait="scholar"
+		add_trait="mystic"
+		add_trait="warlock"
+	}
+	8300.1.1={ #Captured by Euron
+		add_trait = maimed #legs gone
+		effect = {
+			c_pyke = {
+				holder_scope = {
+					ROOT = { imprison = PREV }
+					if = {
+						limit = { character = 2107 }
+						reverse_opinion = {
+							who = ROOT
+							modifier = opinion_tortured_me
+						}
+					}
+				}	
+			}
+		}
+	}
+}
+
+
+
+

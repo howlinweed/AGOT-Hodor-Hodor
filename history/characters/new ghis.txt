@@ -1,0 +1,5717 @@
+199360025 = { #Grazdan the Great
+	name="Hodor"	
+	
+	martial = 6
+	diplomacy = 8
+	intrigue = 7
+	stewardship = 9
+	learning = 8
+
+	religion="harpy"
+	culture="ghiscari"
+	
+	add_trait = grey_eminence
+	add_trait = ambitious
+	add_trait = diligent
+	add_trait = authoritative
+	add_trait = quick
+	
+	give_nickname = nick_the_great
+	
+	disallow_random_traits = yes
+
+	3000.1.1 = {birth="3000.1.1"}
+	3016.1.1 = {
+		add_trait = skilled_warrior
+	}
+	3068.1.1 = {death="3068.1.1"}
+}
+
+
+######  House Grazdan  ###### descended from Grazdan the Great founder of Old Ghis.
+
+150360025 = {
+	name="Hodor"	# a lord
+	dynasty=360025
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7959.1.1 = {birth="7959.1.1"}
+	7982.1.1 = {add_spouse=250360025}
+	8023.1.1 = {death="8023.1.1"}
+}
+250360025 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7964.1.1 = {birth="7964.1.1"}
+	8031.1.1 = {death="8031.1.1"}
+}
+100360025 = {
+	name="Hodor"	# a lord
+	dynasty=360025
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=150360025
+	mother=250360025
+
+	7987.1.1 = {birth="7987.1.1"}
+	8016.1.1 = {add_trait=poor_warrior}
+	8018.1.1 = {add_spouse=200360025}
+	8041.1.1 = {death="8041.1.1"}
+}
+200360025 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8000.1.1 = {birth="8000.1.1"}
+	8041.1.1 = {death="8041.1.1"}
+}
+101360025 = {
+	name="Hodor"	# a lord
+	dynasty=360025
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100360025
+	mother=200360025
+
+	8028.1.1 = {birth="8028.1.1"}
+	8044.1.1 = {add_trait=trained_warrior}
+	8046.1.1 = {add_spouse=201360025}
+	8097.1.1 = {death="8097.1.1"}
+}
+201360025 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8028.1.1 = {birth="8028.1.1"}
+	8097.1.1 = {death="8097.1.1"}
+}
+102360025 = {
+	name="Hodor"	# not a lord
+	dynasty=360025
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100360025
+	mother=200360025
+
+	8031.1.1 = {birth="8031.1.1"}
+	8047.1.1 = {add_trait=poor_warrior}
+	8049.1.1 = {add_spouse=202360025}
+	8080.1.1 = {death="8080.1.1"}
+}
+202360025 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8031.1.1 = {birth="8031.1.1"}
+	8080.1.1 = {death="8080.1.1"}
+}
+103360025 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360025
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100360025
+	mother=200360025
+
+	8033.1.1 = {birth="8033.1.1"}
+	8069.1.1 = {death="8069.1.1"}
+}
+104360025 = {
+	name="Hodor"	# a lord
+	dynasty=360025
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101360025
+	mother=201360025
+
+	8047.1.1 = {birth="8047.1.1"}
+	8063.1.1 = {add_trait=trained_warrior}
+	8065.1.1 = {add_spouse=204360025}
+	8112.1.1 = {death="8112.1.1"}
+}
+204360025 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8047.1.1 = {birth="8047.1.1"}
+	8112.1.1 = {death="8112.1.1"}
+}
+105360025 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360025
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101360025
+	mother=201360025
+
+	8050.1.1 = {birth="8050.1.1"}
+	8117.1.1 = {death="8117.1.1"}
+}
+106360025 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360025
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101360025
+	mother=201360025
+
+	8053.1.1 = {birth="8053.1.1"}
+	8117.1.1 = {death="8117.1.1"}
+}
+107360025 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360025
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101360025
+	mother=201360025
+
+	8056.1.1 = {birth="8056.1.1"}
+	8111.1.1 = {death="8111.1.1"}
+}
+108360025 = {
+	name="Hodor"	# a lord
+	dynasty=360025
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=104360025
+	mother=204360025
+
+	8074.1.1 = {birth="8074.1.1"}
+	8090.1.1 = {add_trait=poor_warrior}
+	8092.1.1 = {add_spouse=208360025}
+	8120.1.1 = {death="8120.1.1"}
+}
+208360025 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8074.1.1 = {birth="8074.1.1"}
+	8120.1.1 = {death="8120.1.1"}
+}
+109360025 = {
+	name="Hodor"	# not a lord
+	dynasty=360025
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=104360025
+	mother=204360025
+
+	8077.1.1 = {birth="8077.1.1"}
+	8093.1.1 = {add_trait=trained_warrior}
+	8119.1.1 = {death="8119.1.1"}
+}
+110360025 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360025
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=104360025
+	mother=204360025
+
+	8078.1.1 = {birth="8078.1.1"}
+	8129.1.1 = {death="8129.1.1"}
+}
+111360025 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360025
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=108360025
+	mother=208360025
+
+	8093.1.1 = {birth="8093.1.1"}
+	8116.1.1 = {death="8116.1.1"}
+}
+112360025 = {
+	name="Hodor"	# a lord
+	dynasty=360025
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=108360025
+	mother=208360025
+
+	8095.1.1 = {birth="8095.1.1"}
+	8111.1.1 = {add_trait=poor_warrior}
+	8113.1.1 = {add_spouse=212360025}
+	8141.1.1 = {death = {death_reason = death_accident}}
+}
+212360025 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8095.1.1 = {birth="8095.1.1"}
+	8141.1.1 = {death="8141.1.1"}
+}
+113360025 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360025
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=112360025
+	mother=212360025
+
+	8118.1.1 = {birth="8118.1.1"}
+	8185.1.1 = {death = {death_reason = death_accident}}
+}
+114360025 = {
+	name="Hodor"	# a lord
+	dynasty=360025
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=112360025
+	mother=212360025
+
+	8120.1.1 = {birth="8120.1.1"}
+	8136.1.1 = {add_trait=trained_warrior}
+	8138.1.1 = {add_spouse=214360025}
+	8164.1.1 = {death="8164.1.1"}
+}
+214360025 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8120.1.1 = {birth="8120.1.1"}
+	8164.1.1 = {death="8164.1.1"}
+}
+115360025 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360025
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=112360025
+	mother=212360025
+
+	8121.1.1 = {birth="8121.1.1"}
+	8180.1.1 = {death="8180.1.1"}
+}
+116360025 = {
+	name="Hodor"	# not a lord
+	dynasty=360025
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=112360025
+	mother=212360025
+
+	8124.1.1 = {birth="8124.1.1"}
+	8140.1.1 = {add_trait=trained_warrior}
+	8178.1.1 = {death="8178.1.1"}
+}
+117360025 = {
+	name="Hodor"	# a lord
+	dynasty=360025
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=114360025
+	mother=214360025
+
+	8143.1.1 = {birth="8143.1.1"}
+	8159.1.1 = {add_trait=skilled_warrior}
+	8161.1.1 = {add_spouse=217360025}
+	8179.1.1 = {death = {death_reason = death_battle}}
+}
+217360025 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8143.1.1 = {birth="8143.1.1"}
+	8179.1.1 = {death="8179.1.1"}
+}
+118360025 = {
+	name="Hodor"	# not a lord
+	dynasty=360025
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=114360025
+	mother=214360025
+
+	8144.1.1 = {birth="8144.1.1"}
+	8160.1.1 = {add_trait=trained_warrior}
+	8162.1.1 = {add_spouse=218360025}
+	8200.1.1 = {death="8200.1.1"}
+}
+218360025 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8144.1.1 = {birth="8144.1.1"}
+	8200.1.1 = {death="8200.1.1"}
+}
+119360025 = {
+	name="Hodor"	# not a lord
+	dynasty=360025
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=114360025
+	mother=214360025
+
+	8147.1.1 = {birth="8147.1.1"}
+	8163.1.1 = {add_trait=trained_warrior}
+	8203.1.1 = {death="8203.1.1"}
+}
+120360025 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360025
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=114360025
+	mother=214360025
+
+	8150.1.1 = {birth="8150.1.1"}
+	8181.1.1 = {death = {death_reason = death_murder}}
+}
+121360025 = {
+	name="Hodor"	# not a lord
+	dynasty=360025
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=114360025
+	mother=214360025
+
+	8152.1.1 = {birth="8152.1.1"}
+	8168.1.1 = {add_trait=master_warrior}
+	8190.1.1 = {death = {death_reason = death_execution}}
+}
+122360025 = {
+	name="Hodor"	# a lord
+	dynasty=360025
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=117360025
+	mother=217360025
+
+	8172.1.1 = {birth="8172.1.1"}
+	8188.1.1 = {add_trait=skilled_warrior}
+	8190.1.1 = {add_spouse=222360025}
+	8231.1.1 = {death="8231.1.1"}
+}
+222360025 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8172.1.1 = {birth="8172.1.1"}
+	8231.1.1 = {death="8231.1.1"}
+}
+123360025 = {
+	name="Hodor"	# not a lord
+	dynasty=360025
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=117360025
+	mother=217360025
+
+	8174.1.1 = {birth="8174.1.1"}
+	8190.1.1 = {add_trait=poor_warrior}
+	8244.1.1 = {death="8244.1.1"}
+}
+124360025 = {
+	name="Hodor"	# a lord
+	dynasty=360025
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=122360025
+	mother=222360025
+
+	8207.1.1 = {birth="8207.1.1"}
+	8223.1.1 = {add_trait=trained_warrior}
+	8225.1.1 = {add_spouse=224360025}
+	8251.1.1 = {death="8251.1.1"}
+}
+224360025 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8207.1.1 = {birth="8207.1.1"}
+	8251.1.1 = {death="8251.1.1"}
+}
+125360025 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360025
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=122360025
+	mother=222360025
+
+	8208.1.1 = {birth="8208.1.1"}
+	8238.1.1 = {death="8238.1.1"}
+}
+126360025 = {
+	name="Hodor"	# a lord
+	dynasty=360025
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=124360025
+	mother=224360025
+
+	8233.1.1 = {birth="8233.1.1"}
+	8249.1.1 = {add_trait=poor_warrior}
+	8251.1.1 = {add_spouse=226360025}
+	8277.1.1 = {death = {death_reason = death_accident}}
+}
+226360025 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8233.1.1 = {birth="8233.1.1"}
+	8277.1.1 = {death="8277.1.1"}
+}
+127360025 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360025
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=124360025
+	mother=224360025
+
+	8234.1.1 = {birth="8234.1.1"}
+	8273.1.1 = {death="8273.1.1"}
+}
+128360025 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360025
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=124360025
+	mother=224360025
+
+	8236.1.1 = {birth="8236.1.1"}
+	8295.1.1 = {death="8295.1.1"}
+}
+129360025 = {
+	name="Hodor"	# not a lord
+	dynasty=360025
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=124360025
+	mother=224360025
+
+	8237.1.1 = {birth="8237.1.1"}
+	8253.1.1 = {add_trait=poor_warrior}
+}
+130360025 = {
+	name="Hodor"	# a lord
+	dynasty=360025
+	
+	diplomacy = 5
+	martial = 8
+	stewardship = 3
+	intrigue = 3
+	learning = 7
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=126360025
+	mother=226360025
+	
+	add_trait = charismatic_negotiator
+	add_trait = paranoid
+	add_trait = craven
+	add_trait = honest
+	add_trait = proud
+	add_trait = erudite
+
+	8259.1.1 = {
+		birth="8259.1.1"
+	}
+	8275.1.1 = {
+		add_trait = poor_warrior
+	}
+}
+131360025 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360025
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=126360025
+	mother=226360025
+
+	8262.1.1 = {birth="8262.1.1"}
+}
+
+#####  House Jaghaz
+
+100069148 = {
+	name="Hodor"	# a lord
+	dynasty=69148
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7958.1.1 = {birth="7958.1.1"}
+	7974.1.1 = {add_trait=poor_warrior}
+	7976.1.1 = {add_spouse=400069148}
+	8033.1.1 = {death="8033.1.1"}
+}
+400069148 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7958.1.1 = {birth="7958.1.1"}
+	8033.1.1 = {death="8033.1.1"}
+}
+100169148 = {
+	name="Hodor"	# a lord
+	dynasty=69148
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100069148
+	mother=400069148
+
+	7991.1.1 = {birth="7991.1.1"}
+	8007.1.1 = {add_trait=skilled_warrior}
+	8009.1.1 = {add_spouse=400169148}
+	8046.1.1 = {death="8046.1.1"}
+}
+400169148 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7991.1.1 = {birth="7991.1.1"}
+	8046.1.1 = {death="8046.1.1"}
+}
+100269148 = {
+	name="Hodor"	# not a lord
+	dynasty=69148
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100069148
+	mother=400069148
+
+	7992.1.1 = {birth="7992.1.1"}
+	8008.1.1 = {add_trait=skilled_warrior}
+	8049.1.1 = {death="8049.1.1"}
+}
+100369148 = {
+	name="Hodor"	# not a lord
+	dynasty=69148
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100169148
+	mother=400169148
+
+	8019.1.1 = {birth="8019.1.1"}
+	8035.1.1 = {add_trait=poor_warrior}
+	8043.1.1 = {death="8043.1.1"}
+}
+100469148 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69148
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100169148
+	mother=400169148
+
+	8020.1.1 = {birth="8020.1.1"}
+	8073.1.1 = {death="8073.1.1"}
+}
+100569148 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69148
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100169148
+	mother=400169148
+
+	8022.1.1 = {birth="8022.1.1"}
+	8082.1.1 = {death="8082.1.1"}
+}
+100669148 = {
+	name="Hodor"	# a lord
+	dynasty=69148
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100169148
+	mother=400169148
+
+	8025.1.1 = {birth="8025.1.1"}
+	8041.1.1 = {add_trait=poor_warrior}
+	8043.1.1 = {add_spouse=400669148}
+	8072.1.1 = {death="8072.1.1"}
+}
+400669148 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8025.1.1 = {birth="8025.1.1"}
+	8072.1.1 = {death="8072.1.1"}
+}
+100769148 = {
+	name="Hodor"	# not a lord
+	dynasty=69148
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100169148
+	mother=400169148
+
+	8027.1.1 = {birth="8027.1.1"}
+	8043.1.1 = {add_trait=trained_warrior}
+	8081.1.1 = {death="8081.1.1"}
+}
+100869148 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69148
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100669148
+	mother=400669148
+
+	8051.1.1 = {birth="8051.1.1"}
+	8127.1.1 = {death="8127.1.1"}
+}
+100969148 = {
+	name="Hodor"	# a lord
+	dynasty=69148
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100669148
+	mother=400669148
+
+	8053.1.1 = {birth="8053.1.1"}
+	8069.1.1 = {add_trait=trained_warrior}
+	8071.1.1 = {add_spouse=400969148}
+	8099.1.1 = {death="8099.1.1"}
+}
+400969148 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8053.1.1 = {birth="8053.1.1"}
+	8099.1.1 = {death="8099.1.1"}
+}
+101069148 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69148
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100669148
+	mother=400669148
+
+	8056.1.1 = {birth="8056.1.1"}
+	8109.1.1 = {death="8109.1.1"}
+}
+101169148 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69148
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100669148
+	mother=400669148
+
+	8059.1.1 = {birth="8059.1.1"}
+	8102.1.1 = {death="8102.1.1"}
+}
+101269148 = {
+	name="Hodor"	# a lord
+	dynasty=69148
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100969148
+	mother=400969148
+
+	8073.1.1 = {birth="8073.1.1"}
+	8089.1.1 = {add_trait=poor_warrior}
+	8091.1.1 = {add_spouse=401269148}
+	8123.1.1 = {death="8123.1.1"}
+}
+401269148 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8073.1.1 = {birth="8073.1.1"}
+	8123.1.1 = {death="8123.1.1"}
+}
+101369148 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69148
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101269148
+	mother=401269148
+
+	8108.1.1 = {birth="8108.1.1"}
+	8142.1.1 = {death = {death_reason = death_murder}}
+}
+101469148 = {
+	name="Hodor"	# a lord
+	dynasty=69148
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101269148
+	mother=401269148
+
+	8109.1.1 = {birth="8109.1.1"}
+	8125.1.1 = {add_trait=trained_warrior}
+	8127.1.1 = {add_spouse=401469148}
+	8142.1.1 = {death = {death_reason = death_battle}}
+}
+401469148 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8109.1.1 = {birth="8109.1.1"}
+	8142.1.1 = {death="8142.1.1"}
+}
+101569148 = {
+	name="Hodor"	# a lord
+	dynasty=69148
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101469148
+	mother=401469148
+
+	8129.1.1 = {birth="8129.1.1"}
+	8145.1.1 = {add_trait=poor_warrior}
+	8147.1.1 = {add_spouse=401569148}
+	8201.1.1 = {death="8201.1.1"}
+}
+401569148 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8129.1.1 = {birth="8129.1.1"}
+	8201.1.1 = {death="8201.1.1"}
+}
+101669148 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69148
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101469148
+	mother=401469148
+
+	8132.1.1 = {birth="8132.1.1"}
+	8198.1.1 = {death = {death_reason = death_accident}}
+}
+101769148 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69148
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101569148
+	mother=401569148
+
+	8147.1.1 = {birth="8147.1.1"}
+	8180.1.1 = {death="8180.1.1"}
+}
+101869148 = {
+	name="Hodor"	# a lord
+	dynasty=69148
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101569148
+	mother=401569148
+
+	8150.1.1 = {birth="8150.1.1"}
+	8166.1.1 = {add_trait=poor_warrior}
+	8168.1.1 = {add_spouse=401869148}
+	8225.1.1 = {death="8225.1.1"}
+}
+401869148 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8150.1.1 = {birth="8150.1.1"}
+	8225.1.1 = {death="8225.1.1"}
+}
+101969148 = {
+	name="Hodor"	# a lord
+	dynasty=69148
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101869148
+	mother=401869148
+
+	8185.1.1 = {birth="8185.1.1"}
+	8201.1.1 = {add_trait=poor_warrior}
+	8203.1.1 = {add_spouse=401969148}
+	8245.1.1 = {death="8245.1.1"}
+}
+401969148 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8185.1.1 = {birth="8185.1.1"}
+	8245.1.1 = {death="8245.1.1"}
+}
+102069148 = {
+	name="Hodor"	# a lord
+	dynasty=69148
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101969148
+	mother=401969148
+
+	8207.1.1 = {birth="8207.1.1"}
+	8223.1.1 = {add_trait=poor_warrior}
+	8225.1.1 = {add_spouse=402069148}
+	8267.1.1 = {death="8267.1.1"}
+}
+402069148 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8207.1.1 = {birth="8207.1.1"}
+	8267.1.1 = {death="8267.1.1"}
+}
+102169148 = {
+	name="Hodor"	# not a lord
+	dynasty=69148
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101969148
+	mother=401969148
+
+	8209.1.1 = {birth="8209.1.1"}
+	8225.1.1 = {add_trait=poor_warrior}
+	8261.1.1 = {death="8261.1.1"}
+}
+102269148 = {
+	name="Hodor"	# not a lord
+	dynasty=69148
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101969148
+	mother=401969148
+
+	8212.1.1 = {birth="8212.1.1"}
+	8228.1.1 = {add_trait=skilled_warrior}
+	8270.1.1 = {death="8270.1.1"}
+}
+102369148 = {
+	name="Hodor"	# a lord
+	dynasty=69148
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102069148
+	mother=402069148
+
+	8226.1.1 = {birth="8226.1.1"}
+	8242.1.1 = {add_trait=poor_warrior}
+	8244.1.1 = {add_spouse=402369148}
+	8295.1.1 = {death="8295.1.1"}
+}
+402369148 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8226.1.1 = {birth="8226.1.1"}
+	8295.1.1 = {death="8295.1.1"}
+}
+102469148 = {
+	name="Hodor"	# a lord
+	dynasty=69148
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102369148
+	mother=402369148
+
+	8251.1.1 = {birth="8251.1.1"}
+	8267.1.1 = {add_trait=skilled_warrior}
+	8269.1.1 = {add_spouse=402469148}
+}
+402469148 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8251.1.1 = {birth="8251.1.1"}
+}
+102569148 = {
+	name="Hodor"	# not a lord
+	dynasty=69148
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102369148
+	mother=402369148
+
+	8252.1.1 = {birth="8252.1.1"}
+	8268.1.1 = {add_trait=skilled_warrior}
+	8295.1.1 = {death="8295.1.1"}
+}
+102669148 = {
+	name="Hodor"	# not a lord
+	dynasty=69148
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102469148
+	mother=402469148
+
+	8280.1.1 = {birth="8280.1.1"}
+	8296.1.1 = {add_trait=trained_warrior}
+}
+102769148 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69148
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102469148
+	mother=402469148
+
+	8282.1.1 = {birth="8282.1.1"}
+}
+102869148 = {
+	name="Hodor"	# not a lord
+	dynasty=69148
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102469148
+	mother=402469148
+
+	8283.1.1 = {birth="8283.1.1"}
+	8299.1.1 = {add_trait=trained_warrior}
+}
+102969148 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69148
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102469148
+	mother=402469148
+
+	8284.1.1 = {birth="8284.1.1"}
+}
+
+
+#####  House Qarghiz
+
+100069149 = {
+	name="Hodor"	# a lord
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7960.1.1 = {birth="7960.1.1"}
+	7976.1.1 = {add_trait=poor_warrior}
+	7978.1.1 = {add_spouse=400069149}
+	8038.1.1 = {death="8038.1.1"}
+}
+400069149 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7960.1.1 = {birth="7960.1.1"}
+	8038.1.1 = {death="8038.1.1"}
+}
+100169149 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100069149
+	mother=400069149
+
+	7984.1.1 = {birth="7984.1.1"}
+	8011.1.1 = {death="8011.1.1"}
+}
+100269149 = {
+	name="Hodor"	# a lord
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100069149
+	mother=400069149
+
+	7985.1.1 = {birth="7985.1.1"}
+	8001.1.1 = {add_trait=poor_warrior}
+	8003.1.1 = {add_spouse=400269149}
+	8053.1.1 = {death="8053.1.1"}
+}
+400269149 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7985.1.1 = {birth="7985.1.1"}
+	8053.1.1 = {death="8053.1.1"}
+}
+100369149 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100269149
+	mother=400269149
+
+	8009.1.1 = {birth="8009.1.1"}
+	8030.1.1 = {death="8030.1.1"}
+}
+100469149 = {
+	name="Hodor"	# a lord
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100269149
+	mother=400269149
+
+	8011.1.1 = {birth="8011.1.1"}
+	8027.1.1 = {add_trait=poor_warrior}
+	8029.1.1 = {add_spouse=400469149}
+	8076.1.1 = {death="8076.1.1"}
+}
+400469149 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8011.1.1 = {birth="8011.1.1"}
+	8076.1.1 = {death="8076.1.1"}
+}
+100569149 = {
+	name="Hodor"	# a lord
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100469149
+	mother=400469149
+
+	8032.1.1 = {birth="8032.1.1"}
+	8048.1.1 = {add_trait=skilled_warrior}
+	8050.1.1 = {add_spouse=400569149}
+	8085.1.1 = {death="8085.1.1"}
+}
+400569149 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8032.1.1 = {birth="8032.1.1"}
+	8085.1.1 = {death="8085.1.1"}
+}
+100669149 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100469149
+	mother=400469149
+
+	8035.1.1 = {birth="8035.1.1"}
+	8093.1.1 = {death = {death_reason = death_murder}}
+}
+100769149 = {
+	name="Hodor"	# not a lord
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100469149
+	mother=400469149
+
+	8038.1.1 = {birth="8038.1.1"}
+	8054.1.1 = {add_trait=poor_warrior}
+	8099.1.1 = {death="8099.1.1"}
+}
+100869149 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100469149
+	mother=400469149
+
+	8041.1.1 = {birth="8041.1.1"}
+	8095.1.1 = {death="8095.1.1"}
+}
+100969149 = {
+	name="Hodor"	# a lord
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100569149
+	mother=400569149
+
+	8058.1.1 = {birth="8058.1.1"}
+	8074.1.1 = {add_trait=skilled_warrior}
+	8076.1.1 = {add_spouse=400969149}
+	8107.1.1 = {death="8107.1.1"}
+}
+400969149 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8058.1.1 = {birth="8058.1.1"}
+	8107.1.1 = {death="8107.1.1"}
+}
+101069149 = {
+	name="Hodor"	# a lord
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100969149
+	mother=400969149
+
+	8089.1.1 = {birth="8089.1.1"}
+	8105.1.1 = {add_trait=poor_warrior}
+	8107.1.1 = {add_spouse=401069149}
+	8144.1.1 = {death="8144.1.1"}
+}
+401069149 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8089.1.1 = {birth="8089.1.1"}
+	8144.1.1 = {death="8144.1.1"}
+}
+101169149 = {
+	name="Hodor"	# not a lord
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100969149
+	mother=400969149
+
+	8092.1.1 = {birth="8092.1.1"}
+	8108.1.1 = {add_trait=trained_warrior}
+	8139.1.1 = {death="8139.1.1"}
+}
+101269149 = {
+	name="Hodor"	# a lord
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101069149
+	mother=401069149
+
+	8118.1.1 = {birth="8118.1.1"}
+	8134.1.1 = {add_trait=poor_warrior}
+	8136.1.1 = {add_spouse=401269149}
+	8153.1.1 = {death="8153.1.1"}
+}
+401269149 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8118.1.1 = {birth="8118.1.1"}
+	8153.1.1 = {death="8153.1.1"}
+}
+101369149 = {
+	name="Hodor"	# a lord
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101269149
+	mother=401269149
+
+	8136.1.1 = {birth="8136.1.1"}
+	8152.1.1 = {add_trait=poor_warrior}
+	8154.1.1 = {add_spouse=401369149}
+	8181.1.1 = {death="8181.1.1"}
+}
+401369149 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8136.1.1 = {birth="8136.1.1"}
+	8181.1.1 = {death="8181.1.1"}
+}
+101469149 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101269149
+	mother=401269149
+
+	8138.1.1 = {birth="8138.1.1"}
+	8201.1.1 = {death="8201.1.1"}
+}
+101569149 = {
+	name="Hodor"	# not a lord
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101269149
+	mother=401269149
+
+	8139.1.1 = {birth="8139.1.1"}
+	8155.1.1 = {add_trait=poor_warrior}
+	8202.1.1 = {death="8202.1.1"}
+}
+101669149 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101269149
+	mother=401269149
+
+	8141.1.1 = {birth="8141.1.1"}
+	8216.1.1 = {death="8216.1.1"}
+}
+101769149 = {
+	name="Hodor"	# a lord
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101369149
+	mother=401369149
+
+	8157.1.1 = {birth="8157.1.1"}
+	8173.1.1 = {add_trait=poor_warrior}
+	8175.1.1 = {add_spouse=401769149}
+	8201.1.1 = {death="8201.1.1"}
+}
+401769149 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8157.1.1 = {birth="8157.1.1"}
+	8201.1.1 = {death="8201.1.1"}
+}
+101869149 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101369149
+	mother=401369149
+
+	8159.1.1 = {birth="8159.1.1"}
+	8233.1.1 = {death="8233.1.1"}
+}
+101969149 = {
+	name="Hodor"	# a lord
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101769149
+	mother=401769149
+
+	8178.1.1 = {birth="8178.1.1"}
+	8194.1.1 = {add_trait=poor_warrior}
+	8196.1.1 = {add_spouse=401969149}
+	8220.1.1 = {death="8220.1.1"}
+}
+401969149 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8178.1.1 = {birth="8178.1.1"}
+	8220.1.1 = {death="8220.1.1"}
+}
+102069149 = {
+	name="Hodor"	# a lord
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101969149
+	mother=401969149
+
+	8197.1.1 = {birth="8197.1.1"}
+	8213.1.1 = {add_trait=master_warrior}
+	8215.1.1 = {add_spouse=402069149}
+	8237.1.1 = {death="8237.1.1"}
+}
+402069149 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8197.1.1 = {birth="8197.1.1"}
+	8237.1.1 = {death="8237.1.1"}
+}
+102169149 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101969149
+	mother=401969149
+
+	8198.1.1 = {birth="8198.1.1"}
+	8235.1.1 = {death="8235.1.1"}
+}
+102269149 = {
+	name="Hodor"	# not a lord
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101969149
+	mother=401969149
+
+	8199.1.1 = {birth="8199.1.1"}
+	8215.1.1 = {add_trait=master_warrior}
+	8237.1.1 = {death = {death_reason = death_battle}}
+}
+102369149 = {
+	name="Hodor"	# not a lord
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101969149
+	mother=401969149
+
+	8202.1.1 = {birth="8202.1.1"}
+	8218.1.1 = {add_trait=poor_warrior}
+	8244.1.1 = {death="8244.1.1"}
+}
+102469149 = {
+	name="Hodor"	# a lord
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102069149
+	mother=402069149
+
+	8217.1.1 = {birth="8217.1.1"}
+	8233.1.1 = {add_trait=trained_warrior}
+	8235.1.1 = {add_spouse=402469149}
+	8286.1.1 = {death="8286.1.1"}
+}
+402469149 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8217.1.1 = {birth="8217.1.1"}
+	8286.1.1 = {death="8286.1.1"}
+}
+102569149 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102069149
+	mother=402069149
+
+	8218.1.1 = {birth="8218.1.1"}
+	8283.1.1 = {death="8283.1.1"}
+}
+102669149 = {
+	name="Hodor"	# a lord
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102469149
+	mother=402469149
+
+	8250.1.1 = {birth="8250.1.1"}
+	8266.1.1 = {add_trait=poor_warrior}
+	8268.1.1 = {add_spouse=402669149}
+}
+402669149 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8250.1.1 = {birth="8250.1.1"}
+}
+102769149 = {
+	name="Hodor"	# not a lord
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102469149
+	mother=402469149
+
+	8241.1.1 = {birth="8241.1.1"}
+	8257.1.1 = {add_trait=poor_warrior}
+}
+102869149 = {
+	name="Hodor"	# not a lord
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102469149
+	mother=402469149
+
+	8243.1.1 = {birth="8243.1.1"}
+	8259.1.1 = {add_trait=skilled_warrior}
+	8277.1.1 = {death="8277.1.1"}
+}
+102969149 = {
+	name="Hodor"	# not a lord
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102669149
+	mother=402669149
+
+	8271.1.1 = {birth="8271.1.1"}
+	8287.1.1 = {add_trait=poor_warrior}
+}
+103069149 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102669149
+	mother=402669149
+
+	8273.1.1 = {birth="8273.1.1"}
+}
+103169149 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102669149
+	mother=402669149
+
+	8276.1.1 = {birth="8276.1.1"}
+}
+103269149 = {
+	name="Hodor"	# not a lord
+	dynasty=69149
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102669149
+	mother=402669149
+
+	8279.1.1 = {birth="8279.1.1"}
+	8295.1.1 = {add_trait=skilled_warrior}
+}
+
+
+#####  House Zarghaz
+
+100069150 = {
+	name="Hodor"	# a lord
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7955.1.1 = {birth="7955.1.1"}
+	7971.1.1 = {add_trait=poor_warrior}
+	7973.1.1 = {add_spouse=400069150}
+	8032.1.1 = {death="8032.1.1"}
+}
+400069150 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7955.1.1 = {birth="7955.1.1"}
+	8032.1.1 = {death="8032.1.1"}
+}
+100169150 = {
+	name="Hodor"	# a lord
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100069150
+	mother=400069150
+
+	7980.1.1 = {birth="7980.1.1"}
+	7996.1.1 = {add_trait=trained_warrior}
+	7998.1.1 = {add_spouse=400169150}
+	8043.1.1 = {death="8043.1.1"}
+}
+400169150 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7980.1.1 = {birth="7980.1.1"}
+	8043.1.1 = {death="8043.1.1"}
+}
+100269150 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100069150
+	mother=400069150
+
+	7981.1.1 = {birth="7981.1.1"}
+	8034.1.1 = {death="8034.1.1"}
+}
+100369150 = {
+	name="Hodor"	# not a lord
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100069150
+	mother=400069150
+
+	7983.1.1 = {birth="7983.1.1"}
+	7999.1.1 = {add_trait=trained_warrior}
+	8031.1.1 = {death="8031.1.1"}
+}
+100469150 = {
+	name="Hodor"	# a lord
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100169150
+	mother=400169150
+
+	8008.1.1 = {birth="8008.1.1"}
+	8024.1.1 = {add_trait=poor_warrior}
+	8026.1.1 = {add_spouse=400469150}
+	8051.1.1 = {death="8051.1.1"}
+}
+400469150 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8008.1.1 = {birth="8008.1.1"}
+	8051.1.1 = {death="8051.1.1"}
+}
+100569150 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100169150
+	mother=400169150
+
+	8010.1.1 = {birth="8010.1.1"}
+	8060.1.1 = {death="8060.1.1"}
+}
+100669150 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100169150
+	mother=400169150
+
+	8013.1.1 = {birth="8013.1.1"}
+	8086.1.1 = {death="8086.1.1"}
+}
+100769150 = {
+	name="Hodor"	# a lord
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100469150
+	mother=400469150
+
+	8040.1.1 = {birth="8040.1.1"}
+	8056.1.1 = {add_trait=trained_warrior}
+	8058.1.1 = {add_spouse=400769150}
+	8106.1.1 = {death="8106.1.1"}
+}
+400769150 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8040.1.1 = {birth="8040.1.1"}
+	8106.1.1 = {death="8106.1.1"}
+}
+100869150 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100469150
+	mother=400469150
+
+	8042.1.1 = {birth="8042.1.1"}
+	8096.1.1 = {death="8096.1.1"}
+}
+100969150 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100469150
+	mother=400469150
+
+	8045.1.1 = {birth="8045.1.1"}
+	8093.1.1 = {death="8093.1.1"}
+}
+101069150 = {
+	name="Hodor"	# a lord
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100769150
+	mother=400769150
+
+	8075.1.1 = {birth="8075.1.1"}
+	8091.1.1 = {add_trait=poor_warrior}
+	8093.1.1 = {add_spouse=401069150}
+	8124.1.1 = {death="8124.1.1"}
+}
+401069150 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8075.1.1 = {birth="8075.1.1"}
+	8124.1.1 = {death="8124.1.1"}
+}
+101169150 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101069150
+	mother=401069150
+
+	8099.1.1 = {birth="8099.1.1"}
+	8169.1.1 = {death="8169.1.1"}
+}
+101269150 = {
+	name="Hodor"	# a lord
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101069150
+	mother=401069150
+
+	8102.1.1 = {birth="8102.1.1"}
+	8118.1.1 = {add_trait=trained_warrior}
+	8120.1.1 = {add_spouse=401269150}
+	8136.1.1 = {death = {death_reason = death_battle}}
+}
+401269150 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8102.1.1 = {birth="8102.1.1"}
+	8136.1.1 = {death="8136.1.1"}
+}
+101369150 = {
+	name="Hodor"	# a lord
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101269150
+	mother=401269150
+
+	8129.1.1 = {birth="8129.1.1"}
+	8145.1.1 = {add_trait=poor_warrior}
+	8147.1.1 = {add_spouse=401369150}
+	8175.1.1 = {death="8175.1.1"}
+}
+401369150 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8129.1.1 = {birth="8129.1.1"}
+	8175.1.1 = {death="8175.1.1"}
+}
+101469150 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101269150
+	mother=401269150
+
+	8131.1.1 = {birth="8131.1.1"}
+	8175.1.1 = {death="8175.1.1"}
+}
+101569150 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101269150
+	mother=401269150
+
+	8132.1.1 = {birth="8132.1.1"}
+	8206.1.1 = {death="8206.1.1"}
+}
+101669150 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101269150
+	mother=401269150
+
+	8135.1.1 = {birth="8135.1.1"}
+	8186.1.1 = {death="8186.1.1"}
+}
+101769150 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101369150
+	mother=401369150
+
+	8154.1.1 = {birth="8154.1.1"}
+	8213.1.1 = {death="8213.1.1"}
+}
+101869150 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101369150
+	mother=401369150
+
+	8156.1.1 = {birth="8156.1.1"}
+	8203.1.1 = {death="8203.1.1"}
+}
+101969150 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101369150
+	mother=401369150
+
+	8157.1.1 = {birth="8157.1.1"}
+	8208.1.1 = {death="8208.1.1"}
+}
+102069150 = {
+	name="Hodor"	# a lord
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101369150
+	mother=401369150
+
+	8158.1.1 = {birth="8158.1.1"}
+	8174.1.1 = {add_trait=poor_warrior}
+	8176.1.1 = {add_spouse=402069150}
+	8219.1.1 = {death="8219.1.1"}
+}
+402069150 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8158.1.1 = {birth="8158.1.1"}
+	8219.1.1 = {death="8219.1.1"}
+}
+102169150 = {
+	name="Hodor"	# a lord
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102069150
+	mother=402069150
+
+	8180.1.1 = {birth="8180.1.1"}
+	8196.1.1 = {add_trait=poor_warrior}
+	8198.1.1 = {add_spouse=402169150}
+	8222.1.1 = {death="8222.1.1"}
+}
+402169150 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8180.1.1 = {birth="8180.1.1"}
+	8222.1.1 = {death="8222.1.1"}
+}
+102269150 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102069150
+	mother=402069150
+
+	8181.1.1 = {birth="8181.1.1"}
+	8257.1.1 = {death="8257.1.1"}
+}
+102369150 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102169150
+	mother=402169150
+
+	8212.1.1 = {birth="8212.1.1"}
+	8255.1.1 = {death="8255.1.1"}
+}
+102469150 = {
+	name="Hodor"	# a lord
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102169150
+	mother=402169150
+
+	8215.1.1 = {birth="8215.1.1"}
+	8231.1.1 = {add_trait=skilled_warrior}
+	8233.1.1 = {add_spouse=402469150}
+	8274.1.1 = {death="8274.1.1"}
+}
+402469150 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8215.1.1 = {birth="8215.1.1"}
+	8274.1.1 = {death="8274.1.1"}
+}
+102569150 = {
+	name="Hodor"	# not a lord
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102169150
+	mother=402169150
+
+	8217.1.1 = {birth="8217.1.1"}
+	8233.1.1 = {add_trait=trained_warrior}
+	8269.1.1 = {death="8269.1.1"}
+}
+102669150 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102169150
+	mother=402169150
+
+	8220.1.1 = {birth="8220.1.1"}
+	8289.1.1 = {death="8289.1.1"}
+}
+102769150 = {
+	name="Hodor"	# a lord
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102469150
+	mother=402469150
+
+	8240.1.1 = {birth="8240.1.1"}
+	8256.1.1 = {add_trait=skilled_warrior}
+	8258.1.1 = {add_spouse=402769150}
+	8284.1.1 = {death="8284.1.1"}
+}
+402769150 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8240.1.1 = {birth="8240.1.1"}
+	8284.1.1 = {death="8284.1.1"}
+}
+102869150 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102769150
+	mother=402769150
+
+	8267.1.1 = {birth="8267.1.1"}
+}
+102969150 = {
+	name="Hodor"	# a lord
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102769150
+	mother=402769150
+
+	8268.1.1 = {birth="8268.1.1"}
+	8284.1.1 = {add_trait=poor_warrior}
+	8286.1.1 = {add_spouse=402969150}
+}
+402969150 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8268.1.1 = {birth="8268.1.1"}
+}
+103069150 = {
+	name="Hodor"	# not a lord
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102969150
+	mother=402969150
+
+	8287.1.1 = {birth="8287.1.1"}
+	8303.1.1 = {add_trait=poor_warrior}
+}
+103169150 = {
+	name="Hodor"	# not a lord
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102969150
+	mother=402969150
+
+	8290.1.1 = {birth="8290.1.1"}
+	8306.1.1 = {add_trait=poor_warrior}
+}
+103269150 = {
+	name="Hodor"	# not a lord
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102969150
+	mother=402969150
+
+	8293.1.1 = {birth="8293.1.1"}
+	8309.1.1 = {add_trait=trained_warrior}
+}
+103369150 = {
+	name="Hodor"	# not a lord
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102969150
+	mother=402969150
+
+	8295.1.1 = {birth="8295.1.1"}
+	8311.1.1 = {add_trait=poor_warrior}
+}
+103469150 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69150
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102969150
+	mother=402969150
+
+	8298.1.1 = {birth="8298.1.1"}
+}
+
+
+#####  House Bezzlar
+
+100069151 = {
+	name="Hodor"	# a lord
+	dynasty=69151
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7958.1.1 = {birth="7958.1.1"}
+	7974.1.1 = {add_trait=poor_warrior}
+	7976.1.1 = {add_spouse=400069151}
+	8039.1.1 = {death="8039.1.1"}
+}
+400069151 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7958.1.1 = {birth="7958.1.1"}
+	8039.1.1 = {death="8039.1.1"}
+}
+100169151 = {
+	name="Hodor"	# a lord
+	dynasty=69151
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100069151
+	mother=400069151
+
+	7987.1.1 = {birth="7987.1.1"}
+	8003.1.1 = {add_trait=trained_warrior}
+	8005.1.1 = {add_spouse=400169151}
+	8064.1.1 = {death="8064.1.1"}
+}
+400169151 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7987.1.1 = {birth="7987.1.1"}
+	8064.1.1 = {death="8064.1.1"}
+}
+100269151 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69151
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100069151
+	mother=400069151
+
+	7988.1.1 = {birth="7988.1.1"}
+	8061.1.1 = {death="8061.1.1"}
+}
+100369151 = {
+	name="Hodor"	# not a lord
+	dynasty=69151
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100069151
+	mother=400069151
+
+	7990.1.1 = {birth="7990.1.1"}
+	8006.1.1 = {add_trait=trained_warrior}
+	8043.1.1 = {death="8043.1.1"}
+}
+100469151 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69151
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100169151
+	mother=400169151
+
+	8011.1.1 = {birth="8011.1.1"}
+	8070.1.1 = {death="8070.1.1"}
+}
+100569151 = {
+	name="Hodor"	# not a lord
+	dynasty=69151
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100169151
+	mother=400169151
+
+	8014.1.1 = {birth="8014.1.1"}
+	8030.1.1 = {add_trait=poor_warrior}
+	8061.1.1 = {death="8061.1.1"}
+}
+100669151 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69151
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100169151
+	mother=400169151
+
+	8016.1.1 = {birth="8016.1.1"}
+	8084.1.1 = {death="8084.1.1"}
+}
+100769151 = {
+	name="Hodor"	# a lord
+	dynasty=69151
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100169151
+	mother=400169151
+
+	8018.1.1 = {birth="8018.1.1"}
+	8034.1.1 = {add_trait=poor_warrior}
+	8036.1.1 = {add_spouse=400769151}
+	8076.1.1 = {death="8076.1.1"}
+}
+400769151 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8018.1.1 = {birth="8018.1.1"}
+	8076.1.1 = {death="8076.1.1"}
+}
+100869151 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69151
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100769151
+	mother=400769151
+
+	8051.1.1 = {birth="8051.1.1"}
+	8114.1.1 = {death="8114.1.1"}
+}
+100969151 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69151
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100769151
+	mother=400769151
+
+	8054.1.1 = {birth="8054.1.1"}
+	8104.1.1 = {death="8104.1.1"}
+}
+101069151 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69151
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100769151
+	mother=400769151
+
+	8057.1.1 = {birth="8057.1.1"}
+	8110.1.1 = {death="8110.1.1"}
+}
+101169151 = {
+	name="Hodor"	# a lord
+	dynasty=69151
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100769151
+	mother=400769151
+
+	8059.1.1 = {birth="8059.1.1"}
+	8075.1.1 = {add_trait=trained_warrior}
+	8077.1.1 = {add_spouse=401169151}
+	8107.1.1 = {death="8107.1.1"}
+}
+401169151 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8059.1.1 = {birth="8059.1.1"}
+	8107.1.1 = {death="8107.1.1"}
+}
+101269151 = {
+	name="Hodor"	# a lord
+	dynasty=69151
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101169151
+	mother=401169151
+
+	8083.1.1 = {birth="8083.1.1"}
+	8099.1.1 = {add_trait=poor_warrior}
+	8101.1.1 = {add_spouse=401269151}
+	8160.1.1 = {death="8160.1.1"}
+}
+401269151 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8083.1.1 = {birth="8083.1.1"}
+	8160.1.1 = {death="8160.1.1"}
+}
+101369151 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69151
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101169151
+	mother=401169151
+
+	8085.1.1 = {birth="8085.1.1"}
+	8159.1.1 = {death="8159.1.1"}
+}
+101469151 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69151
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101269151
+	mother=401269151
+
+	8118.1.1 = {birth="8118.1.1"}
+	8155.1.1 = {death="8155.1.1"}
+}
+101569151 = {
+	name="Hodor"	# not a lord
+	dynasty=69151
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101269151
+	mother=401269151
+
+	8119.1.1 = {birth="8119.1.1"}
+	8135.1.1 = {add_trait=trained_warrior}
+	8145.1.1 = {death="8145.1.1"}
+}
+101669151 = {
+	name="Hodor"	# a lord
+	dynasty=69151
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101269151
+	mother=401269151
+
+	8121.1.1 = {birth="8121.1.1"}
+	8137.1.1 = {add_trait=poor_warrior}
+	8139.1.1 = {add_spouse=401669151}
+	8164.1.1 = {death="8164.1.1"}
+}
+401669151 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8121.1.1 = {birth="8121.1.1"}
+	8164.1.1 = {death="8164.1.1"}
+}
+101769151 = {
+	name="Hodor"	# a lord
+	dynasty=69151
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101669151
+	mother=401669151
+
+	8149.1.1 = {birth="8149.1.1"}
+	8165.1.1 = {add_trait=master_warrior}
+	8167.1.1 = {add_spouse=401769151}
+	8225.1.1 = {death="8225.1.1"}
+}
+401769151 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8149.1.1 = {birth="8149.1.1"}
+	8225.1.1 = {death="8225.1.1"}
+}
+101869151 = {
+	name="Hodor"	# not a lord
+	dynasty=69151
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101669151
+	mother=401669151
+
+	8151.1.1 = {birth="8151.1.1"}
+	8167.1.1 = {add_trait=skilled_warrior}
+	8209.1.1 = {death="8209.1.1"}
+}
+101969151 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69151
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101669151
+	mother=401669151
+
+	8154.1.1 = {birth="8154.1.1"}
+	8193.1.1 = {death="8193.1.1"}
+}
+102069151 = {
+	name="Hodor"	# not a lord
+	dynasty=69151
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101769151
+	mother=401769151
+
+	8184.1.1 = {birth="8184.1.1"}
+	8200.1.1 = {add_trait=poor_warrior}
+	8220.1.1 = {death="8220.1.1"}
+}
+102169151 = {
+	name="Hodor"	# a lord
+	dynasty=69151
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101769151
+	mother=401769151
+
+	8186.1.1 = {birth="8186.1.1"}
+	8202.1.1 = {add_trait=skilled_warrior}
+	8204.1.1 = {add_spouse=402169151}
+	8233.1.1 = {death="8233.1.1"}
+}
+402169151 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8186.1.1 = {birth="8186.1.1"}
+	8233.1.1 = {death="8233.1.1"}
+}
+102269151 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69151
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102169151
+	mother=402169151
+
+	8204.1.1 = {birth="8204.1.1"}
+	8262.1.1 = {death="8262.1.1"}
+}
+102369151 = {
+	name="Hodor"	# a lord
+	dynasty=69151
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102169151
+	mother=402169151
+
+	8206.1.1 = {birth="8206.1.1"}
+	8222.1.1 = {add_trait=poor_warrior}
+	8224.1.1 = {add_spouse=402369151}
+	8265.1.1 = {death="8265.1.1"}
+}
+402369151 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8206.1.1 = {birth="8206.1.1"}
+	8265.1.1 = {death="8265.1.1"}
+}
+102469151 = {
+	name="Hodor"	# not a lord
+	dynasty=69151
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102169151
+	mother=402169151
+
+	8208.1.1 = {birth="8208.1.1"}
+	8224.1.1 = {add_trait=poor_warrior}
+	8252.1.1 = {death="8252.1.1"}
+}
+102569151 = {
+	name="Hodor"	# not a lord
+	dynasty=69151
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102169151
+	mother=402169151
+
+	8209.1.1 = {birth="8209.1.1"}
+	8225.1.1 = {add_trait=poor_warrior}
+	8276.1.1 = {death="8276.1.1"}
+}
+102669151 = {
+	name="Hodor"	# a lord
+	dynasty=69151
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102369151
+	mother=402369151
+
+	8232.1.1 = {birth="8232.1.1"}
+	8248.1.1 = {add_trait=poor_warrior}
+	8250.1.1 = {add_spouse=402669151}
+}
+402669151 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8232.1.1 = {birth="8232.1.1"}
+}
+102769151 = {
+	name="Hodor"	# not a lord
+	dynasty=69151
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102669151
+	mother=402669151
+
+	8253.1.1 = {birth="8253.1.1"}
+	8269.1.1 = {add_trait=poor_warrior}
+}
+102869151 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69151
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102669151
+	mother=402669151
+
+	8256.1.1 = {birth="8256.1.1"}
+}
+102969151 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69151
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102669151
+	mother=402669151
+
+	8259.1.1 = {birth="8259.1.1"}
+}
+
+
+#####  House Riznahz
+
+100069152 = {
+	name="Hodor"	# a lord
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7959.1.1 = {birth="7959.1.1"}
+	7975.1.1 = {add_trait=poor_warrior}
+	7977.1.1 = {add_spouse=400069152}
+	8036.1.1 = {death="8036.1.1"}
+}
+400069152 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7959.1.1 = {birth="7959.1.1"}
+	8036.1.1 = {death="8036.1.1"}
+}
+100169152 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100069152
+	mother=400069152
+
+	7987.1.1 = {birth="7987.1.1"}
+	8060.1.1 = {death="8060.1.1"}
+}
+100269152 = {
+	name="Hodor"	# a lord
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100069152
+	mother=400069152
+
+	7990.1.1 = {birth="7990.1.1"}
+	8006.1.1 = {add_trait=skilled_warrior}
+	8008.1.1 = {add_spouse=400269152}
+	8058.1.1 = {death="8058.1.1"}
+}
+400269152 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7990.1.1 = {birth="7990.1.1"}
+	8058.1.1 = {death="8058.1.1"}
+}
+100369152 = {
+	name="Hodor"	# not a lord
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100069152
+	mother=400069152
+
+	7992.1.1 = {birth="7992.1.1"}
+	8008.1.1 = {add_trait=poor_warrior}
+	8042.1.1 = {death="8042.1.1"}
+}
+100469152 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100069152
+	mother=400069152
+
+	7995.1.1 = {birth="7995.1.1"}
+	8021.1.1 = {death="8021.1.1"}
+}
+100569152 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100069152
+	mother=400069152
+
+	7996.1.1 = {birth="7996.1.1"}
+	8054.1.1 = {death="8054.1.1"}
+}
+100669152 = {
+	name="Hodor"	# a lord
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100269152
+	mother=400269152
+
+	8013.1.1 = {birth="8013.1.1"}
+	8029.1.1 = {add_trait=poor_warrior}
+	8031.1.1 = {add_spouse=400669152}
+	8073.1.1 = {death="8073.1.1"}
+}
+400669152 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8013.1.1 = {birth="8013.1.1"}
+	8073.1.1 = {death="8073.1.1"}
+}
+100769152 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100269152
+	mother=400269152
+
+	8014.1.1 = {birth="8014.1.1"}
+	8048.1.1 = {death="8048.1.1"}
+}
+100869152 = {
+	name="Hodor"	# a lord
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100669152
+	mother=400669152
+
+	8046.1.1 = {birth="8046.1.1"}
+	8062.1.1 = {add_trait=trained_warrior}
+	8064.1.1 = {add_spouse=400869152}
+	8100.1.1 = {death="8100.1.1"}
+}
+400869152 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8046.1.1 = {birth="8046.1.1"}
+	8100.1.1 = {death="8100.1.1"}
+}
+100969152 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100669152
+	mother=400669152
+
+	8048.1.1 = {birth="8048.1.1"}
+	8085.1.1 = {death="8085.1.1"}
+}
+101069152 = {
+	name="Hodor"	# a lord
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100869152
+	mother=400869152
+
+	8081.1.1 = {birth="8081.1.1"}
+	8097.1.1 = {add_trait=trained_warrior}
+	8099.1.1 = {add_spouse=401069152}
+	8135.1.1 = {death="8135.1.1"}
+}
+401069152 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8081.1.1 = {birth="8081.1.1"}
+	8135.1.1 = {death="8135.1.1"}
+}
+101169152 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100869152
+	mother=400869152
+
+	8082.1.1 = {birth="8082.1.1"}
+	8124.1.1 = {death="8124.1.1"}
+}
+101269152 = {
+	name="Hodor"	# a lord
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101069152
+	mother=401069152
+
+	8114.1.1 = {birth="8114.1.1"}
+	8130.1.1 = {add_trait=poor_warrior}
+	8132.1.1 = {add_spouse=401269152}
+	8166.1.1 = {death="8166.1.1"}
+}
+401269152 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8114.1.1 = {birth="8114.1.1"}
+	8166.1.1 = {death="8166.1.1"}
+}
+101369152 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101069152
+	mother=401069152
+
+	8115.1.1 = {birth="8115.1.1"}
+	8144.1.1 = {death = {death_reason = death_execution}}
+}
+101469152 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101069152
+	mother=401069152
+
+	8116.1.1 = {birth="8116.1.1"}
+	8149.1.1 = {death="8149.1.1"}
+}
+101569152 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101069152
+	mother=401069152
+
+	8119.1.1 = {birth="8119.1.1"}
+	8155.1.1 = {death="8155.1.1"}
+}
+101669152 = {
+	name="Hodor"	# a lord
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101269152
+	mother=401269152
+
+	8138.1.1 = {birth="8138.1.1"}
+	8154.1.1 = {add_trait=skilled_warrior}
+	8156.1.1 = {add_spouse=401669152}
+	8179.1.1 = {death="8179.1.1"}
+}
+401669152 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8138.1.1 = {birth="8138.1.1"}
+	8179.1.1 = {death="8179.1.1"}
+}
+101769152 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101269152
+	mother=401269152
+
+	8140.1.1 = {birth="8140.1.1"}
+	8162.1.1 = {death="8162.1.1"}
+}
+101869152 = {
+	name="Hodor"	# not a lord
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101269152
+	mother=401269152
+
+	8143.1.1 = {birth="8143.1.1"}
+	8159.1.1 = {add_trait=trained_warrior}
+	8187.1.1 = {death="8187.1.1"}
+}
+101969152 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101269152
+	mother=401269152
+
+	8146.1.1 = {birth="8146.1.1"}
+	8185.1.1 = {death="8185.1.1"}
+}
+102069152 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101269152
+	mother=401269152
+
+	8149.1.1 = {birth="8149.1.1"}
+	8175.1.1 = {death="8175.1.1"}
+}
+102169152 = {
+	name="Hodor"	# a lord
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101669152
+	mother=401669152
+
+	8166.1.1 = {birth="8166.1.1"}
+	8182.1.1 = {add_trait=poor_warrior}
+	8184.1.1 = {add_spouse=402169152}
+	8233.1.1 = {death="8233.1.1"}
+}
+402169152 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8166.1.1 = {birth="8166.1.1"}
+	8233.1.1 = {death="8233.1.1"}
+}
+102269152 = {
+	name="Hodor"	# not a lord
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101669152
+	mother=401669152
+
+	8167.1.1 = {birth="8167.1.1"}
+	8183.1.1 = {add_trait=trained_warrior}
+	8240.1.1 = {death="8240.1.1"}
+}
+102369152 = {
+	name="Hodor"	# a lord
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102169152
+	mother=402169152
+
+	8191.1.1 = {birth="8191.1.1"}
+	8207.1.1 = {add_trait=poor_warrior}
+	8209.1.1 = {add_spouse=402369152}
+	8255.1.1 = {death = {death_reason = death_accident}}
+}
+402369152 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8191.1.1 = {birth="8191.1.1"}
+	8255.1.1 = {death="8255.1.1"}
+}
+102469152 = {
+	name="Hodor"	# a lord
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102369152
+	mother=402369152
+
+	8209.1.1 = {birth="8209.1.1"}
+	8225.1.1 = {add_trait=trained_warrior}
+	8227.1.1 = {add_spouse=402469152}
+	8268.1.1 = {death="8268.1.1"}
+}
+402469152 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8209.1.1 = {birth="8209.1.1"}
+	8268.1.1 = {death="8268.1.1"}
+}
+102569152 = {
+	name="Hodor"	# not a lord
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102369152
+	mother=402369152
+
+	8210.1.1 = {birth="8210.1.1"}
+	8226.1.1 = {add_trait=trained_warrior}
+	8276.1.1 = {death = {death_reason = death_accident}}
+}
+102669152 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102369152
+	mother=402369152
+
+	8212.1.1 = {birth="8212.1.1"}
+	8271.1.1 = {death="8271.1.1"}
+}
+102769152 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102369152
+	mother=402369152
+
+	8215.1.1 = {birth="8215.1.1"}
+	8247.1.1 = {death="8247.1.1"}
+}
+102869152 = {
+	name="Hodor"	# a lord
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102469152
+	mother=402469152
+
+	8231.1.1 = {birth="8231.1.1"}
+	8247.1.1 = {add_trait=skilled_warrior}
+	8249.1.1 = {add_spouse=402869152}
+	8298.1.1 = {death="8298.1.1"}
+}
+402869152 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8231.1.1 = {birth="8231.1.1"}
+	8298.1.1 = {death="8298.1.1"}
+}
+102969152 = {
+	name="Hodor"	# not a lord
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102469152
+	mother=402469152
+
+	8233.1.1 = {birth="8233.1.1"}
+	8249.1.1 = {add_trait=trained_warrior}
+	8289.1.1 = {death="8289.1.1"}
+}
+103069152 = {
+	name="Hodor"	# not a lord
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102469152
+	mother=402469152
+
+	8234.1.1 = {birth="8234.1.1"}
+	8250.1.1 = {add_trait=skilled_warrior}
+	8294.1.1 = {death="8294.1.1"}
+}
+103169152 = {
+	name="Hodor"	# a lord
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102869152
+	mother=402869152
+
+	8259.1.1 = {birth="8259.1.1"}
+	8275.1.1 = {add_trait=poor_warrior}
+	8277.1.1 = {add_spouse=403169152}
+}
+403169152 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8259.1.1 = {birth="8259.1.1"}
+}
+103269152 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=103169152
+	mother=403169152
+
+	8282.1.1 = {birth="8282.1.1"}
+}
+103369152 = {
+	name="Hodor"	# not a lord
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=103169152
+	mother=403169152
+
+	8283.1.1 = {birth="8283.1.1"}
+	8299.1.1 = {add_trait=poor_warrior}
+}
+103469152 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=103169152
+	mother=403169152
+
+	8284.1.1 = {birth="8284.1.1"}
+}
+103569152 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69152
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=103169152
+	mother=403169152
+
+	8287.1.1 = {birth="8287.1.1"}
+}
+
+
+####  House Larhak
+
+100069153 = {
+	name="Hodor"	# a lord
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7958.1.1 = {birth="7958.1.1"}
+	7974.1.1 = {add_trait=poor_warrior}
+	7976.1.1 = {add_spouse=400069153}
+	8037.1.1 = {death="8037.1.1"}
+}
+400069153 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7958.1.1 = {birth="7958.1.1"}
+	8037.1.1 = {death="8037.1.1"}
+}
+100169153 = {
+	name="Hodor"	# a lord
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100069153
+	mother=400069153
+
+	7982.1.1 = {birth="7982.1.1"}
+	7998.1.1 = {add_trait=poor_warrior}
+	8000.1.1 = {add_spouse=400169153}
+	8062.1.1 = {death="8062.1.1"}
+}
+400169153 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7982.1.1 = {birth="7982.1.1"}
+	8062.1.1 = {death="8062.1.1"}
+}
+100269153 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100069153
+	mother=400069153
+
+	7985.1.1 = {birth="7985.1.1"}
+	8046.1.1 = {death="8046.1.1"}
+}
+100369153 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100069153
+	mother=400069153
+
+	7988.1.1 = {birth="7988.1.1"}
+	8063.1.1 = {death="8063.1.1"}
+}
+100469153 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100069153
+	mother=400069153
+
+	7989.1.1 = {birth="7989.1.1"}
+	8015.1.1 = {death = {death_reason = death_execution}}
+}
+100569153 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100069153
+	mother=400069153
+
+	7991.1.1 = {birth="7991.1.1"}
+	8060.1.1 = {death="8060.1.1"}
+}
+100669153 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100169153
+	mother=400169153
+
+	8001.1.1 = {birth="8001.1.1"}
+	8060.1.1 = {death="8060.1.1"}
+}
+100769153 = {
+	name="Hodor"	# a lord
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100169153
+	mother=400169153
+
+	8004.1.1 = {birth="8004.1.1"}
+	8020.1.1 = {add_trait=poor_warrior}
+	8022.1.1 = {add_spouse=400769153}
+	8080.1.1 = {death="8080.1.1"}
+}
+400769153 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8004.1.1 = {birth="8004.1.1"}
+	8080.1.1 = {death="8080.1.1"}
+}
+100869153 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100169153
+	mother=400169153
+
+	8007.1.1 = {birth="8007.1.1"}
+	8053.1.1 = {death="8053.1.1"}
+}
+100969153 = {
+	name="Hodor"	# not a lord
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100169153
+	mother=400169153
+
+	8010.1.1 = {birth="8010.1.1"}
+	8026.1.1 = {add_trait=skilled_warrior}
+	8051.1.1 = {death="8051.1.1"}
+}
+101069153 = {
+	name="Hodor"	# a lord
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100769153
+	mother=400769153
+
+	8028.1.1 = {birth="8028.1.1"}
+	8044.1.1 = {add_trait=poor_warrior}
+	8046.1.1 = {add_spouse=401069153}
+	8087.1.1 = {death="8087.1.1"}
+}
+401069153 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8028.1.1 = {birth="8028.1.1"}
+	8087.1.1 = {death="8087.1.1"}
+}
+101169153 = {
+	name="Hodor"	# a lord
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101069153
+	mother=401069153
+
+	8053.1.1 = {birth="8053.1.1"}
+	8069.1.1 = {add_trait=poor_warrior}
+	8071.1.1 = {add_spouse=401169153}
+	8106.1.1 = {death="8106.1.1"}
+}
+401169153 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8053.1.1 = {birth="8053.1.1"}
+	8106.1.1 = {death="8106.1.1"}
+}
+101269153 = {
+	name="Hodor"	# not a lord
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101069153
+	mother=401069153
+
+	8056.1.1 = {birth="8056.1.1"}
+	8072.1.1 = {add_trait=poor_warrior}
+	8088.1.1 = {death="8088.1.1"}
+}
+101369153 = {
+	name="Hodor"	# not a lord
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101069153
+	mother=401069153
+
+	8058.1.1 = {birth="8058.1.1"}
+	8074.1.1 = {add_trait=skilled_warrior}
+	8122.1.1 = {death="8122.1.1"}
+}
+101469153 = {
+	name="Hodor"	# a lord
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101169153
+	mother=401169153
+
+	8071.1.1 = {birth="8071.1.1"}
+	8087.1.1 = {add_trait=trained_warrior}
+	8089.1.1 = {add_spouse=401469153}
+	8117.1.1 = {death="8117.1.1"}
+}
+401469153 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8071.1.1 = {birth="8071.1.1"}
+	8117.1.1 = {death="8117.1.1"}
+}
+101569153 = {
+	name="Hodor"	# not a lord
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101169153
+	mother=401169153
+
+	8074.1.1 = {birth="8074.1.1"}
+	8090.1.1 = {add_trait=poor_warrior}
+	8098.1.1 = {death="8098.1.1"}
+}
+101669153 = {
+	name="Hodor"	# not a lord
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101169153
+	mother=401169153
+
+	8077.1.1 = {birth="8077.1.1"}
+	8093.1.1 = {add_trait=poor_warrior}
+	8127.1.1 = {death="8127.1.1"}
+}
+101769153 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101169153
+	mother=401169153
+
+	8080.1.1 = {birth="8080.1.1"}
+	8102.1.1 = {death = {death_reason = death_murder}}
+}
+101869153 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101469153
+	mother=401469153
+
+	8094.1.1 = {birth="8094.1.1"}
+	8160.1.1 = {death="8160.1.1"}
+}
+101969153 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101469153
+	mother=401469153
+
+	8096.1.1 = {birth="8096.1.1"}
+	8154.1.1 = {death="8154.1.1"}
+}
+102069153 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101469153
+	mother=401469153
+
+	8098.1.1 = {birth="8098.1.1"}
+	8151.1.1 = {death="8151.1.1"}
+}
+102169153 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101469153
+	mother=401469153
+
+	8100.1.1 = {birth="8100.1.1"}
+	8148.1.1 = {death="8148.1.1"}
+}
+102269153 = {
+	name="Hodor"	# a lord
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101469153
+	mother=401469153
+
+	8103.1.1 = {birth="8103.1.1"}
+	8119.1.1 = {add_trait=poor_warrior}
+	8121.1.1 = {add_spouse=402269153}
+	8136.1.1 = {death="8136.1.1"}
+}
+402269153 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8103.1.1 = {birth="8103.1.1"}
+	8136.1.1 = {death="8136.1.1"}
+}
+102369153 = {
+	name="Hodor"	# a lord
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102269153
+	mother=402269153
+
+	8129.1.1 = {birth="8129.1.1"}
+	8145.1.1 = {add_trait=trained_warrior}
+	8147.1.1 = {add_spouse=402369153}
+	8199.1.1 = {death="8199.1.1"}
+}
+402369153 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8129.1.1 = {birth="8129.1.1"}
+	8199.1.1 = {death="8199.1.1"}
+}
+102469153 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102269153
+	mother=402269153
+
+	8130.1.1 = {birth="8130.1.1"}
+	8168.1.1 = {death="8168.1.1"}
+}
+102569153 = {
+	name="Hodor"	# not a lord
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102269153
+	mother=402269153
+
+	8131.1.1 = {birth="8131.1.1"}
+	8147.1.1 = {add_trait=skilled_warrior}
+	8161.1.1 = {death="8161.1.1"}
+}
+102669153 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102369153
+	mother=402369153
+
+	8154.1.1 = {birth="8154.1.1"}
+	8199.1.1 = {death="8199.1.1"}
+}
+102769153 = {
+	name="Hodor"	# a lord
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102369153
+	mother=402369153
+
+	8155.1.1 = {birth="8155.1.1"}
+	8171.1.1 = {add_trait=trained_warrior}
+	8173.1.1 = {add_spouse=402769153}
+	8221.1.1 = {death="8221.1.1"}
+}
+402769153 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8155.1.1 = {birth="8155.1.1"}
+	8221.1.1 = {death="8221.1.1"}
+}
+102869153 = {
+	name="Hodor"	# not a lord
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102369153
+	mother=402369153
+
+	8156.1.1 = {birth="8156.1.1"}
+	8172.1.1 = {add_trait=trained_warrior}
+	8210.1.1 = {death="8210.1.1"}
+}
+102969153 = {
+	name="Hodor"	# a lord
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102769153
+	mother=402769153
+
+	8177.1.1 = {birth="8177.1.1"}
+	8193.1.1 = {add_trait=poor_warrior}
+	8195.1.1 = {add_spouse=402969153}
+	8236.1.1 = {death="8236.1.1"}
+}
+402969153 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8177.1.1 = {birth="8177.1.1"}
+	8236.1.1 = {death="8236.1.1"}
+}
+103069153 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102769153
+	mother=402769153
+
+	8180.1.1 = {birth="8180.1.1"}
+	8219.1.1 = {death="8219.1.1"}
+}
+103169153 = {
+	name="Hodor"	# not a lord
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102769153
+	mother=402769153
+
+	8183.1.1 = {birth="8183.1.1"}
+	8199.1.1 = {add_trait=poor_warrior}
+	8238.1.1 = {death="8238.1.1"}
+}
+103269153 = {
+	name="Hodor"	# a lord
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102969153
+	mother=402969153
+
+	8202.1.1 = {birth="8202.1.1"}
+	8218.1.1 = {add_trait=poor_warrior}
+	8220.1.1 = {add_spouse=403269153}
+	8251.1.1 = {death="8251.1.1"}
+}
+403269153 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8202.1.1 = {birth="8202.1.1"}
+	8251.1.1 = {death="8251.1.1"}
+}
+103369153 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=103269153
+	mother=403269153
+
+	8229.1.1 = {birth="8229.1.1"}
+	8256.1.1 = {death="8256.1.1"}
+}
+103469153 = {
+	name="Hodor"	# a lord
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=103269153
+	mother=403269153
+
+	8230.1.1 = {birth="8230.1.1"}
+	8246.1.1 = {add_trait=skilled_warrior}
+	8248.1.1 = {add_spouse=403469153}
+	8277.1.1 = {death="8277.1.1"}
+}
+403469153 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8230.1.1 = {birth="8230.1.1"}
+	8277.1.1 = {death="8277.1.1"}
+}
+103569153 = {
+	name="Hodor"	# not a lord
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=103269153
+	mother=403269153
+
+	8231.1.1 = {birth="8231.1.1"}
+	8247.1.1 = {add_trait=poor_warrior}
+	8262.1.1 = {death = {death_reason = death_murder}}
+}
+103669153 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=103269153
+	mother=403269153
+
+	8233.1.1 = {birth="8233.1.1"}
+	8267.1.1 = {death="8267.1.1"}
+}
+103769153 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=103469153
+	mother=403469153
+
+	8249.1.1 = {birth="8249.1.1"}
+}
+103869153 = {
+	name="Hodor"	# a lord
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=103469153
+	mother=403469153
+
+	8251.1.1 = {birth="8251.1.1"}
+	8267.1.1 = {add_trait=skilled_warrior}
+	8269.1.1 = {add_spouse=403869153}
+}
+403869153 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8251.1.1 = {birth="8251.1.1"}
+}
+103969153 = {
+	name="Hodor"	# not a lord
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=103469153
+	mother=403469153
+
+	8252.1.1 = {birth="8252.1.1"}
+	8268.1.1 = {add_trait=poor_warrior}
+}
+104069153 = {
+	name="Hodor"	# not a lord
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=103469153
+	mother=403469153
+
+	8254.1.1 = {birth="8254.1.1"}
+	8270.1.1 = {add_trait=skilled_warrior}
+	8285.1.1 = {death="8285.1.1"}
+}
+104169153 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=103469153
+	mother=403469153
+
+	8256.1.1 = {birth="8256.1.1"}
+}
+104269153 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=103869153
+	mother=403869153
+
+	8284.1.1 = {birth="8284.1.1"}
+}
+104369153 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=103869153
+	mother=403869153
+
+	8287.1.1 = {birth="8287.1.1"}
+}
+104469153 = {
+	name="Hodor"	# not a lord
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=103869153
+	mother=403869153
+
+	8290.1.1 = {birth="8290.1.1"}
+	8306.1.1 = {add_trait=poor_warrior}
+}
+104569153 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69153
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=103869153
+	mother=403869153
+
+	8291.1.1 = {birth="8291.1.1"}
+}
+
+
+#####  House Taraq
+
+100069154 = {
+	name="Hodor"	# a lord
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7957.1.1 = {birth="7957.1.1"}
+	7973.1.1 = {add_trait=poor_warrior}
+	7975.1.1 = {add_spouse=400069154}
+	8026.1.1 = {death="8026.1.1"}
+}
+400069154 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7957.1.1 = {birth="7957.1.1"}
+	8026.1.1 = {death="8026.1.1"}
+}
+100169154 = {
+	name="Hodor"	# a lord
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100069154
+	mother=400069154
+
+	7975.1.1 = {birth="7975.1.1"}
+	7991.1.1 = {add_trait=trained_warrior}
+	7993.1.1 = {add_spouse=400169154}
+	8036.1.1 = {death="8036.1.1"}
+}
+400169154 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7975.1.1 = {birth="7975.1.1"}
+	8036.1.1 = {death="8036.1.1"}
+}
+100269154 = {
+	name="Hodor"	# not a lord
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100069154
+	mother=400069154
+
+	7976.1.1 = {birth="7976.1.1"}
+	7992.1.1 = {add_trait=poor_warrior}
+	8020.1.1 = {death="8020.1.1"}
+}
+100369154 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100069154
+	mother=400069154
+
+	7978.1.1 = {birth="7978.1.1"}
+	8012.1.1 = {death="8012.1.1"}
+}
+100469154 = {
+	name="Hodor"	# a lord
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100169154
+	mother=400169154
+
+	8002.1.1 = {birth="8002.1.1"}
+	8018.1.1 = {add_trait=poor_warrior}
+	8020.1.1 = {add_spouse=400469154}
+	8066.1.1 = {death="8066.1.1"}
+}
+400469154 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8002.1.1 = {birth="8002.1.1"}
+	8066.1.1 = {death="8066.1.1"}
+}
+100569154 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100169154
+	mother=400169154
+
+	8003.1.1 = {birth="8003.1.1"}
+	8064.1.1 = {death="8064.1.1"}
+}
+100669154 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100169154
+	mother=400169154
+
+	8004.1.1 = {birth="8004.1.1"}
+	8064.1.1 = {death="8064.1.1"}
+}
+100769154 = {
+	name="Hodor"	# not a lord
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100169154
+	mother=400169154
+
+	8005.1.1 = {birth="8005.1.1"}
+	8021.1.1 = {add_trait=trained_warrior}
+	8060.1.1 = {death="8060.1.1"}
+}
+100869154 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100469154
+	mother=400469154
+
+	8022.1.1 = {birth="8022.1.1"}
+	8061.1.1 = {death="8061.1.1"}
+}
+100969154 = {
+	name="Hodor"	# a lord
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100469154
+	mother=400469154
+
+	8024.1.1 = {birth="8024.1.1"}
+	8040.1.1 = {add_trait=poor_warrior}
+	8042.1.1 = {add_spouse=400969154}
+	8091.1.1 = {death="8091.1.1"}
+}
+400969154 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8024.1.1 = {birth="8024.1.1"}
+	8091.1.1 = {death="8091.1.1"}
+}
+101069154 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100969154
+	mother=400969154
+
+	8047.1.1 = {birth="8047.1.1"}
+	8099.1.1 = {death = {death_reason = death_accident}}
+}
+101169154 = {
+	name="Hodor"	# a lord
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100969154
+	mother=400969154
+
+	8050.1.1 = {birth="8050.1.1"}
+	8066.1.1 = {add_trait=trained_warrior}
+	8068.1.1 = {add_spouse=401169154}
+	8127.1.1 = {death="8127.1.1"}
+}
+401169154 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8050.1.1 = {birth="8050.1.1"}
+	8127.1.1 = {death="8127.1.1"}
+}
+101269154 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101169154
+	mother=401169154
+
+	8070.1.1 = {birth="8070.1.1"}
+	8136.1.1 = {death="8136.1.1"}
+}
+101369154 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101169154
+	mother=401169154
+
+	8072.1.1 = {birth="8072.1.1"}
+	8121.1.1 = {death="8121.1.1"}
+}
+101469154 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101169154
+	mother=401169154
+
+	8073.1.1 = {birth="8073.1.1"}
+	8116.1.1 = {death="8116.1.1"}
+}
+101569154 = {
+	name="Hodor"	# not a lord
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101169154
+	mother=401169154
+
+	8074.1.1 = {birth="8074.1.1"}
+	8090.1.1 = {add_trait=trained_warrior}
+	8107.1.1 = {death = {death_reason = death_battle}}
+}
+101669154 = {
+	name="Hodor"	# a lord
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101169154
+	mother=401169154
+
+	8077.1.1 = {birth="8077.1.1"}
+	8093.1.1 = {add_trait=trained_warrior}
+	8095.1.1 = {add_spouse=401669154}
+	8137.1.1 = {death="8137.1.1"}
+}
+401669154 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8077.1.1 = {birth="8077.1.1"}
+	8137.1.1 = {death="8137.1.1"}
+}
+101769154 = {
+	name="Hodor"	# a lord
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101669154
+	mother=401669154
+
+	8102.1.1 = {birth="8102.1.1"}
+	8118.1.1 = {add_trait=poor_warrior}
+	8120.1.1 = {add_spouse=401769154}
+	8148.1.1 = {death="8148.1.1"}
+}
+401769154 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8102.1.1 = {birth="8102.1.1"}
+	8148.1.1 = {death="8148.1.1"}
+}
+101869154 = {
+	name="Hodor"	# a lord
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101769154
+	mother=401769154
+
+	8127.1.1 = {birth="8127.1.1"}
+	8143.1.1 = {add_trait=skilled_warrior}
+	8145.1.1 = {add_spouse=401869154}
+	8203.1.1 = {death="8203.1.1"}
+}
+401869154 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8127.1.1 = {birth="8127.1.1"}
+	8203.1.1 = {death="8203.1.1"}
+}
+101969154 = {
+	name="Hodor"	# not a lord
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101769154
+	mother=401769154
+
+	8130.1.1 = {birth="8130.1.1"}
+	8146.1.1 = {add_trait=trained_warrior}
+	8173.1.1 = {death="8173.1.1"}
+}
+102069154 = {
+	name="Hodor"	# not a lord
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101869154
+	mother=401869154
+
+	8153.1.1 = {birth="8153.1.1"}
+	8169.1.1 = {add_trait=trained_warrior}
+	8196.1.1 = {death = {death_reason = death_accident}}
+}
+102169154 = {
+	name="Hodor"	# a lord
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101869154
+	mother=401869154
+
+	8156.1.1 = {birth="8156.1.1"}
+	8172.1.1 = {add_trait=poor_warrior}
+	8213.1.1 = {death="8213.1.1"}
+}
+102269154 = {
+	name="Hodor"	# a lord
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101869154
+	mother=401869154
+
+	8158.1.1 = {birth="8158.1.1"}
+	8174.1.1 = {add_trait=trained_warrior}
+	8176.1.1 = {add_spouse=402269154}
+	8214.1.1 = {death="8214.1.1"}
+}
+402269154 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8158.1.1 = {birth="8158.1.1"}
+	8214.1.1 = {death="8214.1.1"}
+}
+102369154 = {
+	name="Hodor"	# not a lord
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101869154
+	mother=401869154
+
+	8159.1.1 = {birth="8159.1.1"}
+	8175.1.1 = {add_trait=master_warrior}
+	8210.1.1 = {death="8210.1.1"}
+}
+102469154 = {
+	name="Hodor"	# a lord
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102269154
+	mother=402269154
+
+	8180.1.1 = {birth="8180.1.1"}
+	8196.1.1 = {add_trait=poor_warrior}
+	8198.1.1 = {add_spouse=402469154}
+	8222.1.1 = {death="8222.1.1"}
+}
+402469154 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8180.1.1 = {birth="8180.1.1"}
+	8222.1.1 = {death="8222.1.1"}
+}
+102569154 = {
+	name="Hodor"	# not a lord
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102269154
+	mother=402269154
+
+	8181.1.1 = {birth="8181.1.1"}
+	8197.1.1 = {add_trait=poor_warrior}
+	8242.1.1 = {death="8242.1.1"}
+}
+102669154 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102269154
+	mother=402269154
+
+	8184.1.1 = {birth="8184.1.1"}
+	8221.1.1 = {death="8221.1.1"}
+}
+102769154 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102269154
+	mother=402269154
+
+	8187.1.1 = {birth="8187.1.1"}
+	8246.1.1 = {death="8246.1.1"}
+}
+102869154 = {
+	name="Hodor"	# not a lord
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102269154
+	mother=402269154
+
+	8190.1.1 = {birth="8190.1.1"}
+	8206.1.1 = {add_trait=skilled_warrior}
+	8237.1.1 = {death="8237.1.1"}
+}
+102969154 = {
+	name="Hodor"	# a lord
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102469154
+	mother=402469154
+
+	8198.1.1 = {birth="8198.1.1"}
+	8214.1.1 = {add_trait=poor_warrior}
+	8216.1.1 = {add_spouse=402969154}
+	8231.1.1 = {death = {death_reason = death_battle}}
+}
+402969154 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8198.1.1 = {birth="8198.1.1"}
+	8231.1.1 = {death="8231.1.1"}
+}
+103069154 = {
+	name="Hodor"	# not a lord
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102469154
+	mother=402469154
+
+	8199.1.1 = {birth="8199.1.1"}
+	8215.1.1 = {add_trait=skilled_warrior}
+	8259.1.1 = {death="8259.1.1"}
+}
+103169154 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102469154
+	mother=402469154
+
+	8200.1.1 = {birth="8200.1.1"}
+	8257.1.1 = {death="8257.1.1"}
+}
+103269154 = {
+	name="Hodor"	# a lord
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102969154
+	mother=402969154
+
+	8221.1.1 = {birth="8221.1.1"}
+	8237.1.1 = {add_trait=trained_warrior}
+	8239.1.1 = {add_spouse=403269154}
+	8288.1.1 = {death="8288.1.1"}
+}
+403269154 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8221.1.1 = {birth="8221.1.1"}
+	8288.1.1 = {death="8288.1.1"}
+}
+103369154 = {
+	name="Hodor"	# not a lord
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102969154
+	mother=402969154
+
+	8223.1.1 = {birth="8223.1.1"}
+	8239.1.1 = {add_trait=trained_warrior}
+	8279.1.1 = {death="8279.1.1"}
+}
+103469154 = {
+	name="Hodor"	# not a lord
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102969154
+	mother=402969154
+
+	8226.1.1 = {birth="8226.1.1"}
+	8242.1.1 = {add_trait=trained_warrior}
+}
+103569154 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102969154
+	mother=402969154
+
+	8229.1.1 = {birth="8229.1.1"}
+	8298.1.1 = {death="8298.1.1"}
+}
+103669154 = {
+	name="Hodor"	# a lord
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=103269154
+	mother=403269154
+
+	8239.1.1 = {birth="8239.1.1"}
+	8255.1.1 = {add_trait=poor_warrior}
+	8257.1.1 = {add_spouse=403669154}
+}
+403669154 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8239.1.1 = {birth="8239.1.1"}
+}
+103769154 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=103269154
+	mother=403269154
+
+	8242.1.1 = {birth="8242.1.1"}
+	8295.1.1 = {death="8295.1.1"}
+}
+103869154 = {
+	name="Hodor"	# not a lord
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=103269154
+	mother=403269154
+
+	8245.1.1 = {birth="8245.1.1"}
+	8261.1.1 = {add_trait=poor_warrior}
+}
+103969154 = {
+	name="Hodor"	# not a lord
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=103669154
+	mother=403669154
+
+	8266.1.1 = {birth="8266.1.1"}
+	8282.1.1 = {add_trait=trained_warrior}
+}
+104069154 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=103669154
+	mother=403669154
+
+	8267.1.1 = {birth="8267.1.1"}
+}
+104169154 = {
+	name="Hodor"	# not a lord
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=103669154
+	mother=403669154
+
+	8268.1.1 = {birth="8268.1.1"}
+	8284.1.1 = {add_trait=trained_warrior}
+}
+104269154 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=103669154
+	mother=403669154
+
+	8271.1.1 = {birth="8271.1.1"}
+}
+104369154 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69154
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=103669154
+	mother=403669154
+
+	8274.1.1 = {birth="8274.1.1"}
+}
+
+
+####  House Marlaq
+
+100069155 = {
+	name="Hodor"	# a lord
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7959.1.1 = {birth="7959.1.1"}
+	7975.1.1 = {add_trait=poor_warrior}
+	7977.1.1 = {add_spouse=400069155}
+	8035.1.1 = {death="8035.1.1"}
+}
+400069155 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7959.1.1 = {birth="7959.1.1"}
+	8035.1.1 = {death="8035.1.1"}
+}
+100169155 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100069155
+	mother=400069155
+
+	7990.1.1 = {birth="7990.1.1"}
+	8053.1.1 = {death="8053.1.1"}
+}
+100269155 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100069155
+	mother=400069155
+
+	7992.1.1 = {birth="7992.1.1"}
+	8031.1.1 = {death = {death_reason = death_accident}}
+}
+100369155 = {
+	name="Hodor"	# a lord
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100069155
+	mother=400069155
+
+	7995.1.1 = {birth="7995.1.1"}
+	8011.1.1 = {add_trait=trained_warrior}
+	8013.1.1 = {add_spouse=400369155}
+	8051.1.1 = {death="8051.1.1"}
+}
+400369155 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7995.1.1 = {birth="7995.1.1"}
+	8051.1.1 = {death="8051.1.1"}
+}
+100469155 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100069155
+	mother=400069155
+
+	7998.1.1 = {birth="7998.1.1"}
+	8029.1.1 = {death="8029.1.1"}
+}
+100569155 = {
+	name="Hodor"	# a lord
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100369155
+	mother=400369155
+
+	8028.1.1 = {birth="8028.1.1"}
+	8044.1.1 = {add_trait=master_warrior}
+	8046.1.1 = {add_spouse=400569155}
+	8071.1.1 = {death="8071.1.1"}
+}
+400569155 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8028.1.1 = {birth="8028.1.1"}
+	8071.1.1 = {death="8071.1.1"}
+}
+100669155 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100369155
+	mother=400369155
+
+	8029.1.1 = {birth="8029.1.1"}
+	8080.1.1 = {death="8080.1.1"}
+}
+100769155 = {
+	name="Hodor"	# not a lord
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100369155
+	mother=400369155
+
+	8032.1.1 = {birth="8032.1.1"}
+	8041.1.1 = {death="8041.1.1"}
+}
+100869155 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100369155
+	mother=400369155
+
+	8033.1.1 = {birth="8033.1.1"}
+	8082.1.1 = {death="8082.1.1"}
+}
+100969155 = {
+	name="Hodor"	# a lord
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100569155
+	mother=400569155
+
+	8059.1.1 = {birth="8059.1.1"}
+	8075.1.1 = {add_trait=skilled_warrior}
+	8077.1.1 = {add_spouse=400969155}
+	8119.1.1 = {death="8119.1.1"}
+}
+400969155 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8059.1.1 = {birth="8059.1.1"}
+	8119.1.1 = {death="8119.1.1"}
+}
+101069155 = {
+	name="Hodor"	# not a lord
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100569155
+	mother=400569155
+
+	8062.1.1 = {birth="8062.1.1"}
+	8078.1.1 = {add_trait=trained_warrior}
+	8134.1.1 = {death="8134.1.1"}
+}
+101169155 = {
+	name="Hodor"	# not a lord
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100569155
+	mother=400569155
+
+	8064.1.1 = {birth="8064.1.1"}
+	8080.1.1 = {add_trait=master_warrior}
+	8098.1.1 = {death = {death_reason = death_murder}}
+}
+101269155 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100569155
+	mother=400569155
+
+	8067.1.1 = {birth="8067.1.1"}
+	8121.1.1 = {death="8121.1.1"}
+}
+101369155 = {
+	name="Hodor"	# not a lord
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100569155
+	mother=400569155
+
+	8070.1.1 = {birth="8070.1.1"}
+	8086.1.1 = {add_trait=trained_warrior}
+	8124.1.1 = {death="8124.1.1"}
+}
+101469155 = {
+	name="Hodor"	# a lord
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100969155
+	mother=400969155
+
+	8082.1.1 = {birth="8082.1.1"}
+	8098.1.1 = {add_trait=poor_warrior}
+	8100.1.1 = {add_spouse=401469155}
+	8123.1.1 = {death="8123.1.1"}
+}
+401469155 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8082.1.1 = {birth="8082.1.1"}
+	8123.1.1 = {death="8123.1.1"}
+}
+101569155 = {
+	name="Hodor"	# not a lord
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100969155
+	mother=400969155
+
+	8085.1.1 = {birth="8085.1.1"}
+	8101.1.1 = {add_trait=master_warrior}
+	8137.1.1 = {death="8137.1.1"}
+}
+101669155 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=100969155
+	mother=400969155
+
+	8088.1.1 = {birth="8088.1.1"}
+	8143.1.1 = {death="8143.1.1"}
+}
+101769155 = {
+	name="Hodor"	# a lord
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101469155
+	mother=401469155
+
+	8109.1.1 = {birth="8109.1.1"}
+	8125.1.1 = {add_trait=skilled_warrior}
+	8127.1.1 = {add_spouse=401769155}
+	8147.1.1 = {death="8147.1.1"}
+}
+401769155 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8109.1.1 = {birth="8109.1.1"}
+	8147.1.1 = {death="8147.1.1"}
+}
+101869155 = {
+	name="Hodor"	# not a lord
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101469155
+	mother=401469155
+
+	8112.1.1 = {birth="8112.1.1"}
+	8128.1.1 = {add_trait=trained_warrior}
+	8143.1.1 = {death="8143.1.1"}
+}
+101969155 = {
+	name="Hodor"	# a lord
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101769155
+	mother=401769155
+
+	8136.1.1 = {birth="8136.1.1"}
+	8152.1.1 = {add_trait=master_warrior}
+	8154.1.1 = {add_spouse=401969155}
+	8209.1.1 = {death="8209.1.1"}
+}
+401969155 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8136.1.1 = {birth="8136.1.1"}
+	8209.1.1 = {death="8209.1.1"}
+}
+102069155 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101769155
+	mother=401769155
+
+	8138.1.1 = {birth="8138.1.1"}
+	8187.1.1 = {death="8187.1.1"}
+}
+102169155 = {
+	name="Hodor"	# a lord
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101969155
+	mother=401969155
+
+	8167.1.1 = {birth="8167.1.1"}
+	8183.1.1 = {add_trait=skilled_warrior}
+	8185.1.1 = {add_spouse=402169155}
+	8238.1.1 = {death="8238.1.1"}
+}
+402169155 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8167.1.1 = {birth="8167.1.1"}
+	8238.1.1 = {death="8238.1.1"}
+}
+102269155 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=101969155
+	mother=401969155
+
+	8168.1.1 = {birth="8168.1.1"}
+	8210.1.1 = {death="8210.1.1"}
+}
+102369155 = {
+	name="Hodor"	# a lord
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102169155
+	mother=402169155
+
+	8192.1.1 = {birth="8192.1.1"}
+	8208.1.1 = {add_trait=poor_warrior}
+	8210.1.1 = {add_spouse=402369155}
+	8269.1.1 = {death="8269.1.1"}
+}
+402369155 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8192.1.1 = {birth="8192.1.1"}
+	8269.1.1 = {death="8269.1.1"}
+}
+102469155 = {
+	name="Hodor"	# not a lord
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102169155
+	mother=402169155
+
+	8195.1.1 = {birth="8195.1.1"}
+	8211.1.1 = {add_trait=poor_warrior}
+	8237.1.1 = {death = {death_reason = death_accident}}
+}
+102569155 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102169155
+	mother=402169155
+
+	8198.1.1 = {birth="8198.1.1"}
+	8219.1.1 = {death = {death_reason = death_execution}}
+}
+102669155 = {
+	name="Hodor"	# not a lord
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102369155
+	mother=402369155
+
+	8215.1.1 = {birth="8215.1.1"}
+	8231.1.1 = {add_trait=poor_warrior}
+	8263.1.1 = {death="8263.1.1"}
+}
+102769155 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102369155
+	mother=402369155
+
+	8217.1.1 = {birth="8217.1.1"}
+	8275.1.1 = {death="8275.1.1"}
+}
+102869155 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102369155
+	mother=402369155
+
+	8219.1.1 = {birth="8219.1.1"}
+	8268.1.1 = {death="8268.1.1"}
+}
+102969155 = {
+	name="Hodor"	# a lord
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102369155
+	mother=402369155
+
+	8222.1.1 = {birth="8222.1.1"}
+	8238.1.1 = {add_trait=trained_warrior}
+	8240.1.1 = {add_spouse=402969155}
+	8281.1.1 = {death="8281.1.1"}
+}
+402969155 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8222.1.1 = {birth="8222.1.1"}
+	8281.1.1 = {death="8281.1.1"}
+}
+103069155 = {
+	name="Hodor"	# not a lord
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102369155
+	mother=402369155
+
+	8225.1.1 = {birth="8225.1.1"}
+	8241.1.1 = {add_trait=skilled_warrior}
+	8257.1.1 = {death = {death_reason = death_battle}}
+}
+103169155 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102969155
+	mother=402969155
+
+	8254.1.1 = {birth="8254.1.1"}
+}
+103269155 = {
+	name="Hodor"	# a lord
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102969155
+	mother=402969155
+
+	8255.1.1 = {birth="8255.1.1"}
+	8271.1.1 = {add_trait=skilled_warrior}
+	8273.1.1 = {add_spouse=403269155}
+}
+403269155 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	8255.1.1 = {birth="8255.1.1"}
+}
+103369155 = {
+	name="Hodor"	# not a lord
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102969155
+	mother=402969155
+
+	8256.1.1 = {birth="8256.1.1"}
+	8272.1.1 = {add_trait=poor_warrior}
+	8290.1.1 = {death="8290.1.1"}
+}
+103469155 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=102969155
+	mother=402969155
+
+	8257.1.1 = {birth="8257.1.1"}
+	8299.1.1 = {death="8299.1.1"}
+}
+103569155 = {
+	name="Hodor"	# not a lord
+	dynasty=69155
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=103269155
+	mother=403269155
+
+	8282.1.1 = {birth="8282.1.1"}
+	8298.1.1 = {add_trait=master_warrior}
+}
+
+

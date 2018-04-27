@@ -1,0 +1,2346 @@
+####  House Moth
+
+1055927 = {
+	name="Hodor"	# a lord
+	dynasty=55927
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	7955.1.1 = {birth="7955.1.1"}
+	7971.1.1 = {add_trait=poor_warrior}
+	7973.1.1 = {add_spouse=4055927}
+	8022.1.1 = {death="8022.1.1"}
+}
+4055927 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	7955.1.1 = {birth="7955.1.1"}
+	8022.1.1 = {death="8022.1.1"}
+}
+1155927 = {
+	name="Hodor"	# a lord
+	dynasty=55927
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1055927
+	mother=4055927
+
+	7984.1.1 = {birth="7984.1.1"}
+	8000.1.1 = {add_trait=trained_warrior}
+	8002.1.1 = {add_spouse=41055927}
+	8040.1.1 = {death="8040.1.1"}
+}
+41055927 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	7984.1.1 = {birth="7984.1.1"}
+	8040.1.1 = {death="8040.1.1"}
+}
+1255927 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55927
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1055927
+	mother=4055927
+
+	7987.1.1 = {birth="7987.1.1"}
+	8018.1.1 = {death="8018.1.1"}
+}
+1355927 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55927
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1055927
+	mother=4055927
+
+	7989.1.1 = {birth="7989.1.1"}
+	8045.1.1 = {death="8045.1.1"}
+}
+1455927 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55927
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1055927
+	mother=4055927
+
+	7991.1.1 = {birth="7991.1.1"}
+	8046.1.1 = {death="8046.1.1"}
+}
+1555927 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55927
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1155927
+	mother=41055927
+
+	8012.1.1 = {birth="8012.1.1"}
+	8060.1.1 = {death="8060.1.1"}
+}
+1655927 = {
+	name="Hodor"	# a lord
+	dynasty=55927
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1155927
+	mother=41055927
+
+	8014.1.1 = {birth="8014.1.1"}
+	8030.1.1 = {add_trait=poor_warrior}
+	8032.1.1 = {add_spouse=4655927}
+	8042.1.1 = {death="8042.1.1"}
+}
+4655927 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8014.1.1 = {birth="8014.1.1"}
+	8042.1.1 = {death="8042.1.1"}
+}
+1755927 = {
+	name="Hodor"	# a lord
+	dynasty=55927
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1655927
+	mother=4655927
+
+	8041.1.1 = {birth="8041.1.1"}
+	8057.1.1 = {add_trait=trained_warrior}
+	8059.1.1 = {add_spouse=4755927}
+	8081.1.1 = {death="8081.1.1"}
+}
+4755927 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8041.1.1 = {birth="8041.1.1"}
+	8081.1.1 = {death="8081.1.1"}
+}
+1855927 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55927
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1755927
+	mother=4755927
+
+	8070.1.1 = {birth="8070.1.1"}
+	8131.1.1 = {death="8131.1.1"}
+}
+1955927 = {
+	name="Hodor"	# a lord
+	dynasty=55927
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1755927
+	mother=4755927
+
+	8073.1.1 = {birth="8073.1.1"}
+	8089.1.1 = {add_trait=trained_warrior}
+	8091.1.1 = {add_spouse=4955927}
+	8127.1.1 = {death="8127.1.1"}
+}
+4955927 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8073.1.1 = {birth="8073.1.1"}
+	8127.1.1 = {death="8127.1.1"}
+}
+2055927 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55927
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1955927
+	mother=4955927
+
+	8098.1.1 = {birth="8098.1.1"}
+	8153.1.1 = {death="8153.1.1"}
+}
+2155927 = {
+	name="Hodor"	# a lord
+	dynasty=55927
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1955927
+	mother=4955927
+
+	8100.1.1 = {birth="8100.1.1"}
+	8116.1.1 = {add_trait=poor_warrior}
+	8118.1.1 = {add_spouse=4155927}
+	8146.1.1 = {death="8146.1.1"}
+}
+4155927 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8100.1.1 = {birth="8100.1.1"}
+	8146.1.1 = {death="8146.1.1"}
+}
+2255927 = {
+	name="Hodor"	# a lord
+	dynasty=55927
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2155927
+	mother=4155927
+
+	8127.1.1 = {birth="8127.1.1"}
+	8143.1.1 = {add_trait=skilled_warrior}
+	8145.1.1 = {add_spouse=42055927}
+	8159.1.1 = {death="8159.1.1"}
+}
+42055927 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8127.1.1 = {birth="8127.1.1"}
+	8199.1.1 = {death="8199.1.1"}
+}
+2355927 = {
+	name="Hodor"	# not a lord
+	dynasty=55927
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2155927
+	mother=4155927
+
+	8130.1.1 = {birth="8130.1.1"}
+	8146.1.1 = {add_trait=skilled_warrior}
+	8173.1.1 = {death="8173.1.1"}
+}
+2455927 = {
+	name="Hodor"	# not a lord
+	dynasty=55927
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2155927
+	mother=4155927
+
+	8132.1.1 = {birth="8132.1.1"}
+	8148.1.1 = {add_trait=poor_warrior}
+	8168.1.1 = {death="8168.1.1"}
+}
+2555927 = {
+	name="Hodor"	# a lord
+	dynasty=55927
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2255927
+	mother=42055927
+
+	8157.1.1 = {birth="8157.1.1"}
+	8173.1.1 = {add_trait=skilled_warrior}
+	8180.1.1 = {add_spouse=4555927}
+	8229.1.1 = {death="8229.1.1"}
+}
+4555927 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8162.1.1 = {birth="8162.1.1"}
+	8229.1.1 = {death="8229.1.1"}
+}
+2655927 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55927
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2255927
+	mother=42055927
+
+	8158.1.1 = {birth="8158.1.1"}
+	8242.1.1 = {death="8242.1.1"}
+}
+2755927 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55927
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2555927
+	mother=4555927
+
+	8194.1.1 = {birth="8194.1.1"}
+	8257.1.1 = {death="8257.1.1"}
+}
+2855927 = {
+	name="Hodor"	# a lord
+	dynasty=55927
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2555927
+	mother=4555927
+
+	8195.1.1 = {birth="8195.1.1"}
+	8211.1.1 = {add_trait=trained_warrior}
+	8213.1.1 = {add_spouse=4855927}
+	8255.1.1 = {death="8255.1.1"}
+}
+4855927 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8195.1.1 = {birth="8195.1.1"}
+	8255.1.1 = {death="8255.1.1"}
+}
+2955927 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55927
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2555927
+	mother=4555927
+
+	8197.1.1 = {birth="8197.1.1"}
+	8254.1.1 = {death="8254.1.1"}
+}
+3055927 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55927
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2855927
+	mother=4855927
+
+	8219.1.1 = {birth="8219.1.1"}
+	8251.1.1 = {death="8251.1.1"}
+}
+3155927 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55927
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2855927
+	mother=4855927
+
+	8220.1.1 = {birth="8220.1.1"}
+	8253.1.1 = {death="8253.1.1"}
+}
+3255927 = {
+	name="Hodor"	# a lord
+	dynasty=55927
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2855927
+	mother=4855927
+
+	8223.1.1 = {birth="8223.1.1"}
+	8239.1.1 = {add_trait=poor_warrior}
+	8241.1.1 = {add_spouse=4255927}
+	8263.1.1 = {death="8263.1.1"}
+}
+4255927 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8223.1.1 = {birth="8223.1.1"}
+	8263.1.1 = {death="8263.1.1"}
+}
+3355927 = {
+	name="Hodor"	# a lord
+	dynasty=55927
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3255927
+	mother=4255927
+
+	8241.1.1 = {birth="8241.1.1"}
+	8257.1.1 = {add_trait=poor_warrior}
+	8259.1.1 = {add_spouse=4355927}
+	8296.1.1 = {death="8296.1.1"}
+}
+4355927 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8241.1.1 = {birth="8241.1.1"}
+	8296.1.1 = {death="8296.1.1"}
+}
+3455927 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55927
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3255927
+	mother=4255927
+
+	8243.1.1 = {birth="8243.1.1"}
+	8289.1.1 = {death="8289.1.1"}
+}
+3555927 = {
+	name="Hodor"	# not a lord
+	dynasty=55927
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3255927
+	mother=4255927
+
+	8246.1.1 = {birth="8246.1.1"}
+	8262.1.1 = {add_trait=trained_warrior}
+}
+3655927 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55927
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3355927
+	mother=4355927
+
+	8259.1.1 = {birth="8259.1.1"}
+	8291.1.1 = {death="8291.1.1"}
+}
+3755927 = {
+	name="Hodor"	# a lord
+	dynasty=55927
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3355927
+	mother=4355927
+
+	8260.1.1 = {birth="8260.1.1"}
+	8276.1.1 = {add_trait=skilled_warrior}
+}
+3855927 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55927
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3355927
+	mother=4355927
+
+	8263.1.1 = {birth="8263.1.1"}
+	8290.1.1 = {death="8290.1.1"}
+}
+3955927 = {
+	name="Hodor"	# not a lord
+	dynasty=55927
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3355927
+	mother=4355927
+
+	8266.1.1 = {birth="8266.1.1"}
+	8282.1.1 = {add_trait=trained_warrior}
+}
+
+
+####  House Bartogg
+
+1055928 = {
+	name="Hodor"	# a lord
+	dynasty=55928
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	7968.1.1 = {birth="7968.1.1"}
+	7984.1.1 = {add_trait=poor_warrior}
+	7986.1.1 = {add_spouse=40055928}
+	8045.1.1 = {death="8045.1.1"}
+}
+40055928 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	7968.1.1 = {birth="7968.1.1"}
+	8045.1.1 = {death="8045.1.1"}
+}
+1155928 = {
+	name="Hodor"	# a lord
+	dynasty=55928
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1055928
+	mother=40055928
+
+	7995.1.1 = {birth="7995.1.1"}
+	8011.1.1 = {add_trait=trained_warrior}
+	8013.1.1 = {add_spouse=41055928}
+	8053.1.1 = {death="8053.1.1"}
+}
+41055928 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	7995.1.1 = {birth="7995.1.1"}
+	8053.1.1 = {death="8053.1.1"}
+}
+1255928 = {
+	name="Hodor"	# a lord
+	dynasty=55928
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1155928
+	mother=41055928
+
+	8022.1.1 = {birth="8022.1.1"}
+	8038.1.1 = {add_trait=poor_warrior}
+	8040.1.1 = {add_spouse=42055928}
+	8057.1.1 = {death="8057.1.1"}
+}
+42055928 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8022.1.1 = {birth="8022.1.1"}
+	8057.1.1 = {death="8057.1.1"}
+}
+1355928 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55928
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1155928
+	mother=41055928
+
+	8024.1.1 = {birth="8024.1.1"}
+	8069.1.1 = {death="8069.1.1"}
+}
+1455928 = {
+	name="Hodor"	# a lord
+	dynasty=55928
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1255928
+	mother=42055928
+
+	8053.1.1 = {birth="8053.1.1"}
+	8069.1.1 = {add_trait=poor_warrior}
+	8071.1.1 = {add_spouse=44055928}
+	8092.1.1 = {death="8092.1.1"}
+}
+44055928 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8053.1.1 = {birth="8053.1.1"}
+	8092.1.1 = {death="8092.1.1"}
+}
+1555928 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55928
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1255928
+	mother=42055928
+
+	8055.1.1 = {birth="8055.1.1"}
+	8111.1.1 = {death="8111.1.1"}
+}
+1655928 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55928
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1255928
+	mother=42055928
+
+	8056.1.1 = {birth="8056.1.1"}
+	8111.1.1 = {death="8111.1.1"}
+}
+1755928 = {
+	name="Hodor"	# a lord
+	dynasty=55928
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1455928
+	mother=44055928
+
+	8076.1.1 = {birth="8076.1.1"}
+	8092.1.1 = {add_trait=trained_warrior}
+	8094.1.1 = {add_spouse=4755928}
+	8112.1.1 = {death="8112.1.1"}
+}
+4755928 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8076.1.1 = {birth="8076.1.1"}
+	8112.1.1 = {death="8112.1.1"}
+}
+1855928 = {
+	name="Hodor"	# not a lord
+	dynasty=55928
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1455928
+	mother=44055928
+
+	8078.1.1 = {birth="8078.1.1"}
+	8094.1.1 = {add_trait=poor_warrior}
+	8147.1.1 = {death="8147.1.1"}
+}
+1955928 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55928
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1455928
+	mother=44055928
+
+	8080.1.1 = {birth="8080.1.1"}
+	8111.1.1 = {death="8111.1.1"}
+}
+2055928 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55928
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1455928
+	mother=44055928
+
+	8081.1.1 = {birth="8081.1.1"}
+	8137.1.1 = {death="8137.1.1"}
+}
+2155928 = {
+	name="Hodor"	# not a lord
+	dynasty=55928
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1455928
+	mother=44055928
+
+	8082.1.1 = {birth="8082.1.1"}
+	8098.1.1 = {add_trait=trained_warrior}
+	8139.1.1 = {death="8139.1.1"}
+}
+2255928 = {
+	name="Hodor"	# a lord
+	dynasty=55928
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1755928
+	mother=4755928
+
+	8097.1.1 = {birth="8097.1.1"}
+	8113.1.1 = {add_trait=skilled_warrior}
+	8115.1.1 = {add_spouse=4255928}
+	8160.1.1 = {death="8160.1.1"}
+}
+4255928 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8097.1.1 = {birth="8097.1.1"}
+	8160.1.1 = {death="8160.1.1"}
+}
+2355928 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55928
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2255928
+	mother=4255928
+
+	8122.1.1 = {birth="8122.1.1"}
+	8173.1.1 = {death="8173.1.1"}
+}
+2455928 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55928
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2255928
+	mother=4255928
+
+	8125.1.1 = {birth="8125.1.1"}
+	8161.1.1 = {death="8161.1.1"}
+}
+2555928 = {
+	name="Hodor"	# a lord
+	dynasty=55928
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2255928
+	mother=4255928
+
+	8128.1.1 = {birth="8128.1.1"}
+	8144.1.1 = {add_trait=poor_warrior}
+	8146.1.1 = {add_spouse=4555928}
+	8165.1.1 = {death="8165.1.1"}
+}
+4555928 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8128.1.1 = {birth="8128.1.1"}
+	8165.1.1 = {death="8165.1.1"}
+}
+2655928 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55928
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2255928
+	mother=4255928
+
+	8131.1.1 = {birth="8131.1.1"}
+	8200.1.1 = {death = {death_reason = death_murder}}
+}
+2755928 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55928
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2255928
+	mother=4255928
+
+	8132.1.1 = {birth="8132.1.1"}
+	8180.1.1 = {death="8180.1.1"}
+}
+2855928 = {
+	name="Hodor"	# a lord
+	dynasty=55928
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2555928
+	mother=4555928
+
+	8141.1.1 = {birth="8141.1.1"}
+	8157.1.1 = {add_trait=trained_warrior}
+	8158.1.1 = {add_spouse=48055928}
+	8197.1.1 = {death = {death_reason = death_battle}}
+}
+48055928 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8141.1.1 = {birth="8141.1.1"}
+	8197.1.1 = {death="8197.1.1"}
+}
+2955928 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55928
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2555928
+	mother=4555928
+
+	8154.1.1 = {birth="8154.1.1"}
+	8210.1.1 = {death="8210.1.1"}
+}
+3055928 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55928
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2555928
+	mother=4555928
+
+	8155.1.1 = {birth="8155.1.1"}
+	8194.1.1 = {death="8194.1.1"}
+}
+3155928 = {
+	name="Hodor"	# not a lord
+	dynasty=55928
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2555928
+	mother=4555928
+
+	8156.1.1 = {birth="8156.1.1"}
+	8172.1.1 = {add_trait=poor_warrior}
+	8206.1.1 = {death="8206.1.1"}
+}
+3255928 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55928
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2855928
+	mother=48055928
+
+	8159.1.1 = {birth="8159.1.1"}
+	8245.1.1 = {death="8245.1.1"}
+}
+3355928 = {
+	name="Hodor"	# a lord
+	dynasty=55928
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2855928
+	mother=48055928
+
+	8160.1.1 = {birth="8160.1.1"}
+	8209.1.1 = {add_trait=poor_warrior}
+	8211.1.1 = {add_spouse=4355928}
+	8247.1.1 = {death="8247.1.1"}
+}
+4355928 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8160.1.1 = {birth="8160.1.1"}
+	8247.1.1 = {death="8247.1.1"}
+}
+3455928 = {
+	name="Hodor"	# a lord
+	dynasty=55928
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3355928
+	mother=4355928
+
+	8217.1.1 = {birth="8217.1.1"}
+	8233.1.1 = {add_trait=poor_warrior}
+	8235.1.1 = {add_spouse=4455928}
+	8274.1.1 = {death="8274.1.1"}
+}
+4455928 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8217.1.1 = {birth="8217.1.1"}
+	8274.1.1 = {death="8274.1.1"}
+}
+3555928 = {
+	name="Hodor"	# not a lord
+	dynasty=55928
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3355928
+	mother=4355928
+
+	8219.1.1 = {birth="8219.1.1"}
+	8235.1.1 = {add_trait=poor_warrior}
+	8265.1.1 = {death="8265.1.1"}
+}
+3655928 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55928
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3355928
+	mother=4355928
+
+	8222.1.1 = {birth="8222.1.1"}
+	8243.1.1 = {death="8243.1.1"}
+}
+3755928 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55928
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3455928
+	mother=4455928
+
+	8240.1.1 = {birth="8240.1.1"}
+}
+3855928 = {
+	name="Hodor"	# a lord
+	dynasty=55928
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3455928
+	mother=4455928
+
+	8241.1.1 = {birth="8241.1.1"}
+	8257.1.1 = {add_trait=skilled_warrior}
+	8259.1.1 = {add_spouse=4855928}
+	8283.1.1 = {death="8283.1.1"}
+}
+4855928 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8241.1.1 = {birth="8241.1.1"}
+	8283.1.1 = {death="8283.1.1"}
+}
+3955928 = {
+	name="Hodor"	# a lord
+	female=yes
+	dynasty=55928
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3855928
+	mother=4855928
+
+	8276.1.1 = {birth="8276.1.1"}
+}
+4055928 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3855928
+	mother=4855928
+
+	8277.1.1 = {birth="8277.1.1"}
+}
+4155928 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3855928
+	mother=4855928
+
+	8280.1.1 = {birth="8280.1.1"}
+}
+
+
+####  House Joth
+
+1055929 = {
+	name="Hodor"	# a lord
+	dynasty=55929
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	7969.1.1 = {birth="7969.1.1"}
+	7985.1.1 = {add_trait=poor_warrior}
+	7987.1.1 = {add_spouse=46755929}
+	8036.1.1 = {death="8036.1.1"}
+}
+46755929 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	7969.1.1 = {birth="7969.1.1"}
+	8036.1.1 = {death="8036.1.1"}
+}
+1155929 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55929
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1055929
+	mother=46755929
+
+	7991.1.1 = {birth="7991.1.1"}
+	8001.1.1 = {death = {death_reason = death_murder}}
+}
+1255929 = {
+	name="Hodor"	# a lord
+	dynasty=55929
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1055929
+	mother=46755929
+
+	7994.1.1 = {birth="7994.1.1"}
+	8010.1.1 = {add_trait=poor_warrior}
+	8012.1.1 = {add_spouse=4255929}
+	8048.1.1 = {death="8048.1.1"}
+}
+4255929 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	7994.1.1 = {birth="7994.1.1"}
+	8048.1.1 = {death="8048.1.1"}
+}
+1355929 = {
+	name="Hodor"	# not a lord
+	dynasty=55929
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1055929
+	mother=46755929
+
+	7996.1.1 = {birth="7996.1.1"}
+	7998.1.1 = {death="7998.1.1"}
+}
+1455929 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55929
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1055929
+	mother=46755929
+
+	7999.1.1 = {birth="7999.1.1"}
+	8037.1.1 = {death="8037.1.1"}
+}
+1555929 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55929
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1255929
+	mother=4255929
+
+	8013.1.1 = {birth="8013.1.1"}
+	8084.1.1 = {death = {death_reason = death_murder}}
+}
+1655929 = {
+	name="Hodor"	# a lord
+	dynasty=55929
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1255929
+	mother=4255929
+
+	8015.1.1 = {birth="8015.1.1"}
+	8031.1.1 = {add_trait=skilled_warrior}
+	8033.1.1 = {add_spouse=4655929}
+	8085.1.1 = {death="8085.1.1"}
+}
+4655929 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8015.1.1 = {birth="8015.1.1"}
+	8085.1.1 = {death="8085.1.1"}
+}
+1755929 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55929
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1655929
+	mother=4655929
+
+	8037.1.1 = {birth="8037.1.1"}
+	8079.1.1 = {death="8079.1.1"}
+}
+1855929 = {
+	name="Hodor"	# a lord
+	dynasty=55929
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1655929
+	mother=4655929
+
+	8038.1.1 = {birth="8038.1.1"}
+	8054.1.1 = {add_trait=poor_warrior}
+	8056.1.1 = {add_spouse=48055929}
+	8089.1.1 = {death="8089.1.1"}
+}
+48055929 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8038.1.1 = {birth="8038.1.1"}
+	8089.1.1 = {death="8089.1.1"}
+}
+1955929 = {
+	name="Hodor"	# not a lord
+	dynasty=55929
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1655929
+	mother=4655929
+
+	8040.1.1 = {birth="8040.1.1"}
+	8056.1.1 = {add_trait=poor_warrior}
+	8085.1.1 = {death="8085.1.1"}
+}
+2055929 = {
+	name="Hodor"	# a lord
+	dynasty=55929
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1855929
+	mother=48055929
+
+	8065.1.1 = {birth="8065.1.1"}
+	8081.1.1 = {add_trait=poor_warrior}
+	8083.1.1 = {add_spouse=40155929}
+	8121.1.1 = {death="8121.1.1"}
+}
+40155929 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8065.1.1 = {birth="8065.1.1"}
+	8121.1.1 = {death="8121.1.1"}
+}
+2155929 = {
+	name="Hodor"	# not a lord
+	dynasty=55929
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1855929
+	mother=48055929
+
+	8068.1.1 = {birth="8068.1.1"}
+	8084.1.1 = {add_trait=poor_warrior}
+	8114.1.1 = {death="8114.1.1"}
+}
+2255929 = {
+	name="Hodor"	# not a lord
+	dynasty=55929
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1855929
+	mother=48055929
+
+	8071.1.1 = {birth="8071.1.1"}
+	8087.1.1 = {add_trait=poor_warrior}
+	8113.1.1 = {death="8113.1.1"}
+}
+2355929 = {
+	name="Hodor"	# not a lord
+	dynasty=55929
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1855929
+	mother=48055929
+
+	8074.1.1 = {birth="8074.1.1"}
+	8090.1.1 = {add_trait=poor_warrior}
+	8146.1.1 = {death="8146.1.1"}
+}
+2455929 = {
+	name="Hodor"	# a lord
+	dynasty=55929
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2055929
+	mother=40155929
+
+	8088.1.1 = {birth="8088.1.1"}
+	8104.1.1 = {add_trait=poor_warrior}
+	8106.1.1 = {add_spouse=44055929}
+	8149.1.1 = {death="8149.1.1"}
+}
+44055929 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8088.1.1 = {birth="8088.1.1"}
+	8149.1.1 = {death="8149.1.1"}
+}
+2555929 = {
+	name="Hodor"	# not a lord
+	dynasty=55929
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2055929
+	mother=40155929
+
+	8089.1.1 = {birth="8089.1.1"}
+	8105.1.1 = {add_trait=skilled_warrior}
+	8121.1.1 = {death="8121.1.1"}
+}
+2655929 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55929
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2055929
+	mother=40155929
+
+	8090.1.1 = {birth="8090.1.1"}
+	8147.1.1 = {death="8147.1.1"}
+}
+2755929 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55929
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2055929
+	mother=40155929
+
+	8091.1.1 = {birth="8091.1.1"}
+	8117.1.1 = {death="8117.1.1"}
+}
+2855929 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55929
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2455929
+	mother=44055929
+
+	8120.1.1 = {birth="8120.1.1"}
+	8190.1.1 = {death="8190.1.1"}
+}
+2955929 = {
+	name="Hodor"	# a lord
+	dynasty=55929
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2455929
+	mother=44055929
+
+	8121.1.1 = {birth="8121.1.1"}
+	8137.1.1 = {add_trait=poor_warrior}
+	8139.1.1 = {add_spouse=49055929}
+	8162.1.1 = {death="8162.1.1"}
+}
+49055929 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8121.1.1 = {birth="8121.1.1"}
+	8162.1.1 = {death="8162.1.1"}
+}
+3055929 = {
+	name="Hodor"	# not a lord
+	dynasty=55929
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2455929
+	mother=44055929
+
+	8124.1.1 = {birth="8124.1.1"}
+	8140.1.1 = {add_trait=skilled_warrior}
+	8154.1.1 = {death="8154.1.1"}
+}
+3155929 = {
+	name="Hodor"	# not a lord
+	dynasty=55929
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2455929
+	mother=44055929
+
+	8125.1.1 = {birth="8125.1.1"}
+	8141.1.1 = {add_trait=skilled_warrior}
+	8179.1.1 = {death="8179.1.1"}
+}
+3255929 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55929
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2955929
+	mother=49055929
+
+	8149.1.1 = {birth="8149.1.1"}
+	8204.1.1 = {death="8204.1.1"}
+}
+3355929 = {
+	name="Hodor"	# a lord
+	dynasty=55929
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2955929
+	mother=49055929
+
+	8152.1.1 = {birth="8152.1.1"}
+	8168.1.1 = {add_trait=poor_warrior}
+	8170.1.1 = {add_spouse=4355929}
+	8206.1.1 = {death="8206.1.1"}
+}
+4355929 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8152.1.1 = {birth="8152.1.1"}
+	8206.1.1 = {death="8206.1.1"}
+}
+3455929 = {
+	name="Hodor"	# a lord
+	dynasty=55929
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3355929
+	mother=4355929
+
+	8173.1.1 = {birth="8173.1.1"}
+	8189.1.1 = {add_trait=poor_warrior}
+	8191.1.1 = {add_spouse=4455929}
+	8214.1.1 = {death="8214.1.1"}
+}
+4455929 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8173.1.1 = {birth="8173.1.1"}
+	8214.1.1 = {death="8214.1.1"}
+}
+3555929 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55929
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3355929
+	mother=4355929
+
+	8176.1.1 = {birth="8176.1.1"}
+	8222.1.1 = {death = {death_reason = death_accident}}
+}
+3655929 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55929
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3455929
+	mother=4455929
+
+	8198.1.1 = {birth="8198.1.1"}
+	8258.1.1 = {death="8258.1.1"}
+}
+3755929 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55929
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3455929
+	mother=4455929
+
+	8201.1.1 = {birth="8201.1.1"}
+	8242.1.1 = {death="8242.1.1"}
+}
+3855929 = {
+	name="Hodor"	# a lord
+	dynasty=55929
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3455929
+	mother=4455929
+
+	8203.1.1 = {birth="8203.1.1"}
+	8219.1.1 = {add_trait=poor_warrior}
+	8221.1.1 = {add_spouse=4855929}
+	8258.1.1 = {death="8258.1.1"}
+}
+4855929 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8203.1.1 = {birth="8203.1.1"}
+	8258.1.1 = {death="8258.1.1"}
+}
+3955929 = {
+	name="Hodor"	# a lord
+	dynasty=55929
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3855929
+	mother=4855929
+
+	8238.1.1 = {birth="8238.1.1"}
+	8254.1.1 = {add_trait=poor_warrior}
+	8256.1.1 = {add_spouse=4955929}
+	8297.1.1 = {death="8297.1.1"}
+}
+4955929 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8238.1.1 = {birth="8238.1.1"}
+	8297.1.1 = {death="8297.1.1"}
+}
+4055929 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3855929
+	mother=4855929
+
+	8239.1.1 = {birth="8239.1.1"}
+	8274.1.1 = {death="8274.1.1"}
+}
+40055929 = {
+	name="Hodor"
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3955929
+	mother=4955929
+
+	8266.1.1 = {birth="8266.1.1"}
+	8282.1.1 = {add_trait=poor_warrior}
+}
+4155929 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3955929
+	mother=4955929
+
+	8269.1.1 = {birth="8269.1.1"}
+}
+
+
+####  House Sluggolsh
+
+1055931 = {
+	name="Hodor"	# a lord
+	dynasty=55931
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	7962.1.1 = {birth="7962.1.1"}
+	7978.1.1 = {add_trait=poor_warrior}
+	7980.1.1 = {add_spouse=40155931}
+	8029.1.1 = {death="8029.1.1"}
+}
+40155931 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	7962.1.1 = {birth="7962.1.1"}
+	8029.1.1 = {death="8029.1.1"}
+}
+1155931 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55931
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1055931
+	mother=40155931
+
+	7986.1.1 = {birth="7986.1.1"}
+	8013.1.1 = {death="8013.1.1"}
+}
+1255931 = {
+	name="Hodor"	# a lord
+	dynasty=55931
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1055931
+	mother=40155931
+
+	7989.1.1 = {birth="7989.1.1"}
+	8005.1.1 = {add_trait=poor_warrior}
+	8007.1.1 = {add_spouse=42255931}
+	8041.1.1 = {death="8041.1.1"}
+}
+42255931 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	7989.1.1 = {birth="7989.1.1"}
+	8041.1.1 = {death="8041.1.1"}
+}
+1355931 = {
+	name="Hodor"	# not a lord
+	dynasty=55931
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1055931
+	mother=40155931
+
+	7990.1.1 = {birth="7990.1.1"}
+	8006.1.1 = {add_trait=trained_warrior}
+	8070.1.1 = {death="8070.1.1"}
+}
+1455931 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55931
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1055931
+	mother=40155931
+
+	7991.1.1 = {birth="7991.1.1"}
+	8035.1.1 = {death="8035.1.1"}
+}
+1555931 = {
+	name="Hodor"	# not a lord
+	dynasty=55931
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1055931
+	mother=40155931
+
+	7994.1.1 = {birth="7994.1.1"}
+	8010.1.1 = {add_trait=trained_warrior}
+	8044.1.1 = {death="8044.1.1"}
+}
+1655931 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55931
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1255931
+	mother=42255931
+
+	8010.1.1 = {birth="8010.1.1"}
+	8061.1.1 = {death="8061.1.1"}
+}
+1755931 = {
+	name="Hodor"	# a lord
+	dynasty=55931
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1255931
+	mother=42255931
+
+	8012.1.1 = {birth="8012.1.1"}
+	8028.1.1 = {add_trait=trained_warrior}
+	8030.1.1 = {add_spouse=47055931}
+	8049.1.1 = {death = {death_reason = death_murder}}
+}
+47055931 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8012.1.1 = {birth="8012.1.1"}
+	8049.1.1 = {death="8049.1.1"}
+}
+1855931 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55931
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1755931
+	mother=47055931
+
+	8032.1.1 = {birth="8032.1.1"}
+	8053.1.1 = {death="8053.1.1"}
+}
+1955931 = {
+	name="Hodor"	# a lord
+	dynasty=55931
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1755931
+	mother=47055931
+
+	8033.1.1 = {birth="8033.1.1"}
+	8049.1.1 = {add_trait=trained_warrior}
+	8051.1.1 = {add_spouse=49055931}
+	8106.1.1 = {death="8106.1.1"}
+}
+49055931 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8033.1.1 = {birth="8033.1.1"}
+	8106.1.1 = {death="8106.1.1"}
+}
+2055931 = {
+	name="Hodor"	# not a lord
+	dynasty=55931
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1755931
+	mother=47055931
+
+	8036.1.1 = {birth="8036.1.1"}
+	8052.1.1 = {add_trait=skilled_warrior}
+	8097.1.1 = {death="8097.1.1"}
+}
+2155931 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55931
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1755931
+	mother=47055931
+
+	8038.1.1 = {birth="8038.1.1"}
+	8117.1.1 = {death="8117.1.1"}
+}
+2255931 = {
+	name="Hodor"	# a lord
+	dynasty=55931
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1955931
+	mother=49055931
+
+	8065.1.1 = {birth="8065.1.1"}
+	8081.1.1 = {add_trait=trained_warrior}
+	8083.1.1 = {add_spouse=42155931}
+	8132.1.1 = {death="8132.1.1"}
+}
+42155931 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8065.1.1 = {birth="8065.1.1"}
+	8132.1.1 = {death="8132.1.1"}
+}
+2355931 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55931
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1955931
+	mother=49055931
+
+	8066.1.1 = {birth="8066.1.1"}
+	8100.1.1 = {death="8100.1.1"}
+}
+2455931 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55931
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1955931
+	mother=49055931
+
+	8069.1.1 = {birth="8069.1.1"}
+	8121.1.1 = {death="8121.1.1"}
+}
+2555931 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55931
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=1955931
+	mother=49055931
+
+	8072.1.1 = {birth="8072.1.1"}
+	8126.1.1 = {death="8126.1.1"}
+}
+2655931 = {
+	name="Hodor"	# a lord
+	dynasty=55931
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2255931
+	mother=42155931
+
+	8088.1.1 = {birth="8088.1.1"}
+	8104.1.1 = {add_trait=trained_warrior}
+	8106.1.1 = {add_spouse=4655931}
+	8158.1.1 = {death="8158.1.1"}
+}
+4655931 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8088.1.1 = {birth="8088.1.1"}
+	8158.1.1 = {death="8158.1.1"}
+}
+2755931 = {
+	name="Hodor"	# not a lord
+	dynasty=55931
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2255931
+	mother=42155931
+
+	8090.1.1 = {birth="8090.1.1"}
+	8106.1.1 = {add_trait=trained_warrior}
+	8149.1.1 = {death="8149.1.1"}
+}
+2855931 = {
+	name="Hodor"	# not a lord
+	dynasty=55931
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2255931
+	mother=42155931
+
+	8093.1.1 = {birth="8093.1.1"}
+	8109.1.1 = {add_trait=poor_warrior}
+	8169.1.1 = {death="8169.1.1"}
+}
+2955931 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55931
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2255931
+	mother=42155931
+
+	8094.1.1 = {birth="8094.1.1"}
+	8136.1.1 = {death="8136.1.1"}
+}
+3055931 = {
+	name="Hodor"	# not a lord
+	dynasty=55931
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2255931
+	mother=42155931
+
+	8095.1.1 = {birth="8095.1.1"}
+	8111.1.1 = {add_trait=poor_warrior}
+	8157.1.1 = {death="8157.1.1"}
+}
+3155931 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55931
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2655931
+	mother=4655931
+
+	8111.1.1 = {birth="8111.1.1"}
+	8146.1.1 = {death="8146.1.1"}
+}
+3255931 = {
+	name="Hodor"	# not a lord
+	dynasty=55931
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2655931
+	mother=4655931
+
+	8112.1.1 = {birth="8112.1.1"}
+	8128.1.1 = {add_trait=trained_warrior}
+	8155.1.1 = {death="8155.1.1"}
+}
+3355931 = {
+	name="Hodor"	# a lord
+	dynasty=55931
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=2655931
+	mother=4655931
+
+	8115.1.1 = {birth="8115.1.1"}
+	8131.1.1 = {add_trait=poor_warrior}
+	8133.1.1 = {add_spouse=4355931}
+	8169.1.1 = {death="8169.1.1"}
+}
+4355931 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8115.1.1 = {birth="8115.1.1"}
+	8169.1.1 = {death="8169.1.1"}
+}
+3455931 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55931
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3355931
+	mother=4355931
+
+	8142.1.1 = {birth="8142.1.1"}
+	8209.1.1 = {death="8209.1.1"}
+}
+3555931 = {
+	name="Hodor"	# a lord
+	dynasty=55931
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3355931
+	mother=4355931
+
+	8144.1.1 = {birth="8144.1.1"}
+	8160.1.1 = {add_trait=poor_warrior}
+	8162.1.1 = {add_spouse=4555931}
+	8204.1.1 = {death="8204.1.1"}
+}
+4555931 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8144.1.1 = {birth="8144.1.1"}
+	8204.1.1 = {death="8204.1.1"}
+}
+3655931 = {
+	name="Hodor"	# not a lord
+	dynasty=55931
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3555931
+	mother=4555931
+
+	8162.1.1 = {birth="8162.1.1"}
+	8178.1.1 = {add_trait=skilled_warrior}
+	8189.1.1 = {death="8189.1.1"}
+}
+3755931 = {
+	name="Hodor"	# a lord
+	dynasty=55931
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3555931
+	mother=4555931
+
+	8164.1.1 = {birth="8164.1.1"}
+	8180.1.1 = {add_trait=trained_warrior}
+	8182.1.1 = {add_spouse=4755931}
+	8224.1.1 = {death="8224.1.1"}
+}
+4755931 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8164.1.1 = {birth="8164.1.1"}
+	8224.1.1 = {death="8224.1.1"}
+}
+3855931 = {
+	name="Hodor"	# a lord
+	dynasty=55931
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3755931
+	mother=4755931
+
+	8193.1.1 = {birth="8193.1.1"}
+	8209.1.1 = {add_trait=master_warrior}
+	8211.1.1 = {add_spouse=4855931}
+	8232.1.1 = {death="8232.1.1"}
+}
+4855931 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8193.1.1 = {birth="8193.1.1"}
+	8232.1.1 = {death="8232.1.1"}
+}
+3955931 = {
+	name="Hodor"	# a lord
+	dynasty=55931
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3855931
+	mother=4855931
+
+	8212.1.1 = {birth="8212.1.1"}
+	8228.1.1 = {add_trait=poor_warrior}
+	8230.1.1 = {add_spouse=4955931}
+	8264.1.1 = {death="8264.1.1"}
+}
+4955931 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8212.1.1 = {birth="8212.1.1"}
+	8264.1.1 = {death="8264.1.1"}
+}
+40255931 = {
+	name="Hodor"
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3855931
+	mother=4855931
+
+	8213.1.1 = {birth="8213.1.1"}
+	8229.1.1 = {add_trait=trained_warrior}
+	8270.1.1 = {death="8270.1.1"}
+}
+41055931 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3855931
+	mother=4855931
+
+	8214.1.1 = {birth="8214.1.1"}
+	8254.1.1 = {death="8254.1.1"}
+}
+4255931 = {
+	name="Hodor"
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3855931
+	mother=4855931
+
+	8215.1.1 = {birth="8215.1.1"}
+	8231.1.1 = {add_trait=trained_warrior}
+	8269.1.1 = {death="8269.1.1"}
+}
+40355931 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3955931
+	mother=4955931
+
+	8237.1.1 = {birth="8237.1.1"}
+	8269.1.1 = {death="8269.1.1"}
+}
+4155931 = {
+	name="Hodor"
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3955931
+	mother=4955931
+
+	8240.1.1 = {birth="8240.1.1"}
+	8256.1.1 = {add_trait=poor_warrior}
+	8258.1.1 = {add_spouse=41155931}
+	8289.1.1 = {death="8289.1.1"}
+}
+41155931 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8240.1.1 = {birth="8240.1.1"}
+	8289.1.1 = {death="8289.1.1"}
+}
+42555931 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=3955931
+	mother=4955931
+
+	8241.1.1 = {birth="8241.1.1"}
+}
+40555931 = {
+	name="Hodor"
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=4155931
+	mother=41155931
+
+	8267.1.1 = {birth="8267.1.1"}
+	8283.1.1 = {add_trait=skilled_warrior}
+	8285.1.1 = {add_spouse=40455931}
+}
+40455931 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	8267.1.1 = {birth="8267.1.1"}
+}
+4055931 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_ibben"
+	culture="ibbenese"
+
+	father=40555931
+	mother=40455931
+
+	8300.1.1 = {birth="8300.1.1"}
+}
+
+
+

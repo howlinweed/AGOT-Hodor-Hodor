@@ -1,0 +1,1363 @@
+##Nightswatch characters
+##ids 121000-121499
+
+121000 = {
+	name="Hodor" #996th Lord Commander	
+	dynasty=15 #Qorgyle
+	dna="afbeaycaaar"
+	properties="cj0eck0000"
+	
+	martial = 12
+	stewardship = 12
+	
+	religion="the_seven"
+	culture="sand_dornish"
+	
+	father=62815
+	mother=52815
+	
+	
+	8232.1.1 = {birth="8232.1.1"}
+	8248.1.1 = {add_trait=knight add_trait=skilled_warrior add_trait=tough_soldier}
+	8251.1.1 = {add_trait=diligent}
+	8262.1.1 = { add_trait=nightswatch}
+	8288.1.1 = {death="8288.1.1"}
+}
+121001 = {
+	name="Hodor" #	
+	martial = 8
+	religion="the_seven"
+	culture="valeman"
+	8255.1.1 = {
+		birth="8255.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8275.1.1 = {	
+		add_trait="nightswatch"
+		effect = { 
+			add_character_modifier = {
+				name = nw_ranger
+				duration = -1
+			}
+			c_shadow_tower = { holder_scope = { ROOT = { move_character = PREV } } }
+		}
+	}
+}
+121002 = {
+	name="Hodor" #	
+	martial = 6
+	stewardship = 10 
+	religion="drowned_god"	
+	culture="ironborn"
+	add_trait="tough_soldier"
+	add_trait="strong"
+	add_trait="bastard"
+	give_nickname = nick_pyke
+	8256.1.1 = {
+		birth="8256.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8275.1.1 = {	
+		add_trait="nightswatch"
+	}
+}
+121003 = {
+	name="Hodor" #	
+	martial = 4
+	religion="the_seven"	
+	culture="stormlander"
+	add_trait="tough_soldier"
+	add_trait="strong"
+	add_trait="honest"
+	add_trait="trusting"
+	
+	8258.1.1 = {
+		birth="8258.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8282.1.1 = {
+		employer=317
+	}
+	8290.1.1 = {	
+		add_trait="nightswatch"
+		add_trait="crippled"
+		effect = { 
+			add_character_modifier = {
+				name = nw_steward
+				duration = -1
+			}
+		}
+	}
+	8299.11.11 = {
+		death = {
+			death_reason = death_duel
+			killer = 157013
+		}
+	}
+
+}
+121004 = {
+	name="Hodor" #	
+	dynasty=205
+	stewardship = 7
+	religion="the_seven"	
+	culture="westerman"
+	add_trait="thrifty_clerk"
+	
+	father = 205
+	mother=2205	
+	
+	8251.1.1 = {
+		birth="8251.1.1"
+	}
+	8275.1.1 = {	
+		add_trait="nightswatch"
+		effect = { 
+			add_character_modifier = {
+				name = nw_builder
+				duration = -1
+			}
+			d_nightswatch = {
+				holder_scope = {
+					ROOT = { move_character = PREV }
+				}
+			}
+			remove_title = job_castellan
+			remove_title = job_chancellor
+			remove_title = job_marshal
+			remove_title = job_spymaster
+			remove_title = job_spiritual
+			give_job_title = job_treasurer
+		} 
+	}
+}
+121005 = {
+	name="Hodor" #	Halfhand
+	martial = 8
+	religion="the_seven"	
+	culture="westerman"
+	
+	add_trait="skilled_tactician"	
+	add_trait="just"
+	add_trait="brave"
+	add_trait="patient"
+	8252.1.1 = {
+		birth="8252.1.1"
+	}
+	8268.1.1 = {
+		add_trait="master_warrior"
+	}
+	8272.1.1 = {	
+		add_trait="nightswatch"
+		effect = {
+			add_character_modifier = {
+				name = nw_ranger
+				duration = -1
+			}
+		}
+	}
+	8278.1.1 = {
+		effect = {
+			if = {
+				limit = { has_dlc = "Reapers" }
+				add_trait = one_handed
+			}
+			if = {
+				limit = { NOT = { has_dlc = "Reapers" } }
+				add_trait = "disfigured_AGOT"
+			}
+		}
+		give_nickname = nick_half_hand
+	}
+	8299.7.1 = {
+		death="8299.7.1"
+	}
+	
+}
+
+121006 = {
+	name="Hodor" 
+	
+	martial = 3
+	learning = 1
+	diplomacy = 4
+	intrigue = 2
+	stewardship = 3
+	
+	religion="the_seven"
+	culture="riverlander"
+		
+	add_trait="brave"
+	add_trait="strong"
+	add_trait="misguided_warrior"
+	add_trait="slow"
+	add_trait="kind"
+	add_trait="honorable"
+	
+	disallow_random_traits = yes
+	
+	8277.1.1 = {
+		birth="8277.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8293.1.1 = {
+		add_trait="trained_warrior"
+	}
+	8295.1.1 = {	
+		add_trait="nightswatch"
+		give_nickname = nick_the_small
+		effect = { 
+			add_character_modifier = {
+				name = nw_steward
+				duration = -1
+			}
+		}
+	}
+	8299.7.14 = {
+		death="8299.7.14"
+	}
+}
+121007 = {
+	name="Hodor" 
+	
+	religion="old_gods"	
+	culture="northman"
+	
+	diplomacy = 10
+		
+	add_trait="brave"
+	add_trait="tough_soldier"
+	add_trait="ugly"
+	add_trait="wroth"
+	add_trait="honorable"
+	add_trait="rude"
+	add_trait="diligent"
+	
+	8256.1.1 = {
+		birth="8256.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8272.1.1 = {
+		add_trait="skilled_warrior"
+	}
+	8275.1.1 = {	
+		add_trait="nightswatch"
+		effect = {
+			add_character_modifier = {
+				name = nw_ranger
+				duration = -1
+			}
+		}
+	}
+	8294.1.1 ={		
+		effect = { 
+			if = {
+				limit = { has_dlc = Reapers }
+				add_trait = one_handed
+			}
+			if = {
+				limit = { NOT = { has_dlc = Reapers } }
+				add_trait = disfigured_AGOT
+			}
+			d_nightswatch = {
+				holder_scope = {
+					ROOT = { move_character = PREV }
+				}
+			}
+			remove_title = job_castellan
+			remove_title = job_marshal
+			remove_title = job_treasurer
+			remove_title = job_spymaster
+			remove_title = job_spiritual
+			give_job_title = job_chancellor
+		} 
+	}
+	8299.2.3 = {
+		death="8299.2.3"
+	}
+}
+121008 = {
+	name="Hodor"
+	religion="the_seven"
+	culture="riverlander"
+	add_trait="craven"
+	8270.1.1 = {
+		birth="8270.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8289.1.1 = {	
+		add_trait="nightswatch"
+		effect = { 
+			add_character_modifier = {
+				name = nw_steward
+				duration = -1
+			}
+		}
+	}
+	8299.7.1 = {
+		death="8299.7.1"
+	}
+}
+121009 = {
+	name="Hodor" 
+	dna="bhagnhpnblj"
+	properties="cd0ddk"
+	
+	religion="trios"	
+	culture="tyroshi"	
+	
+	add_trait="trained_warrior"
+	
+	8261.1.1 = {
+		birth="8261.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8282.1.1={
+		add_trait="nightswatch"
+		give_nickname = nick_lophand
+		add_trait="scarred" # Not life-threatening
+		effect = {
+			add_character_modifier = {
+				name = nw_ranger
+				duration = -1
+			}
+		}
+	}
+	8299.5.5 = {	
+		employer=121411
+		add_trait = "deserter"
+	}
+}
+121010 = {
+	name="Hodor" 
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	add_trait="drunkard"
+	add_trait="zealous"
+	
+	8250.1.1 = {
+		birth="8250.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8282.1.1={
+		add_trait="nightswatch"
+		add_trait="septon"
+	}
+}
+121410 = {
+	name="Hodor"	
+	stewardship = 8
+	learning = 8
+	
+	religion="the_seven"
+	culture="stormlander"
+	
+	8240.1.1 = {
+		birth="8240.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8260.1.1 = { add_trait="maester"}
+	8270.1.1 = { 
+		add_trait="nightswatch" 
+		effect = { 
+			add_character_modifier = {
+				name = nw_steward
+				duration = -1
+			}
+		}
+	}
+}
+121420 = {
+	name="Hodor"	
+	
+	martial = 2
+	intrigue = 2
+	diplomacy = 2
+	stewardship = 1
+	learning = 1
+	
+	religion="the_seven"
+	culture="crownlander"
+	
+	add_trait=gregarious
+	add_trait=kind
+	add_trait=honest
+	add_trait=poet
+	add_trait=cynical
+	
+	disallow_random_traits = yes
+	
+	8283.1.1 = {
+		birth="8283.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8298.1.1 = {
+		add_trait="nightswatch"
+		effect = {
+			add_friend = 1002059 #Jon
+			add_friend = 121421 #Grenn
+			add_friend = 1296 #Sam
+			add_friend = 121419 #toad
+			add_character_modifier = {
+				name = nw_ranger
+				duration = -1
+			}
+		}
+	}
+	8299.1.1 = {
+		add_trait="trained_warrior"
+		add_trait="misguided_warrior"
+	}
+}
+121421 = {
+	name="Hodor"	
+	
+	martial = 4
+	intrigue = 1
+	diplomacy = 3
+	stewardship = 1
+	learning = 1
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait=strong
+	add_trait=lustful
+	add_trait=honorable
+	add_trait=proud
+	
+	disallow_random_traits = yes
+	
+	8282.1.1 = {
+		birth="8282.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8298.1.1 = {
+		add_trait="nightswatch"
+		effect = {
+			add_friend = 1002059 #Jon
+			add_friend = 121420 #Pyp
+			add_friend = 1296 #Sam
+			add_friend = 121419 #toad
+			add_character_modifier = {
+				name = nw_ranger
+				duration = -1
+			}
+		}
+	}
+	8298.1.1 = {
+		add_trait="trained_warrior"
+		add_trait="misguided_warrior"
+	}
+}
+121423 = {
+	name="Hodor"
+	religion="old_gods"
+	culture="northman"
+	
+	dna="cgflhibdabu"
+	properties="0j0chk00000000"
+	
+	martial = 4
+	diplomacy = 1
+	learning = 1
+	
+	add_trait=strong
+	add_trait=rude
+	add_trait=wroth
+	add_trait=proud
+	
+	disallow_random_traits = yes
+	
+	8283.1.1 = {
+		birth="8283.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8300.1.1 = {
+		add_trait="nightswatch"
+		add_trait="trained_warrior"
+		add_trait="misguided_warrior"
+		effect = {
+			add_friend = 511443 #Gared
+		}
+	}
+}
+121424 = {
+	name="Hodor"	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	dna="amgchmlbabf"
+	properties="gb0ihi00000000"
+	
+	martial = 1
+	intrigue = 5
+	diplomacy = 1
+	
+	mother = 121430
+	
+	add_trait=quick
+	add_trait=greedy
+	add_trait=patient
+	add_trait=ambitious
+	add_trait=deceitful
+	add_trait=wildling
+	
+	disallow_random_traits = yes
+	
+	8281.1.1 = {
+		birth="8281.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8300.1.1 = { 
+		add_trait="nightswatch"
+		add_trait="intricate_webweaver"
+		effect = {
+			add_friend = 511443 #Gared
+		}
+	}
+}
+121429 = {
+	name="Hodor"	
+	female=yes
+	religion="beyond_wall_old_gods"
+	culture="western_valyrian"
+	
+	dna="agkbfzeaifh"
+	properties="gl0eck00000000"
+	
+	martial = 3
+	intrigue = 2
+	
+	mother = 121430
+	
+	add_trait=quick
+	add_trait=rude
+	add_trait=patient
+	add_trait=ambitious
+	add_trait=familyperson
+	
+	disallow_random_traits = yes
+	
+	8284.1.1 = {
+		birth="8284.1.1"
+		effect = { 
+			culture = wildling #for white hair
+			dynasty = none
+		} 
+	}
+	8300.1.1 = {
+		add_trait="tough_soldier"
+		add_trait="trained_warrior"
+	}
+}
+121430 = {
+	name="Hodor"	
+	female = yes
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	martial = 3
+	intrigue = 2
+	
+	add_trait=quick
+	add_trait=rude
+	add_trait=patient
+	add_trait=ambitious
+	add_trait=familyperson
+	
+	disallow_random_traits = yes
+	
+	8260.1.1 = {
+		birth="8260.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8276.1.1 = {
+		add_trait="tough_soldier"
+		add_trait="trained_warrior"
+	}
+}
+121431 = {
+	name="Hodor"	
+	
+	religion="old_gods"
+	culture="northman"
+	
+	martial = 4
+	
+	add_trait=quick
+	add_trait=rude
+	add_trait=wroth
+	add_trait=stubborn
+	add_trait=cynical
+	
+	8246.1.1 = {
+		birth="8246.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8262.1.1 = {add_trait=trained_warrior}
+	8275.1.1 = {	
+		add_trait="nightswatch"
+	}
+	8280.1.1 = {
+		effect = {
+			if = {
+				limit = { has_dlc = "Reapers" }
+				add_trait = one_handed
+			}
+			if = {
+				limit = { NOT = { has_dlc = "Reapers" } }
+				add_trait = disfigured_AGOT
+			}
+		}	
+		give_nickname = nick_frostfinger
+	}
+}
+
+
+########
+#####Historic Lord Commanders#####
+########
+121400 = {
+	name="Hodor"	# Canon, one of the worst Lord Commander's in history
+	dynasty=174399 # Mudd
+	
+	martial = 12
+	stewardship = 12
+	
+	religion="old_gods"
+	culture="old_first_man"
+	
+	father=617174399
+	
+	
+	6173.1.1 = {birth="6173.1.1"}
+	6195.1.1 = { add_trait=nightswatch}
+	6218.1.1 = {death=yes}
+}
+121403 = {
+	name="Hodor"	
+	dynasty=84 #Flint #Canon, tried to make himself King Beyond the Wall
+	
+	martial = 12
+	stewardship = 12
+	
+	religion="old_gods"
+	culture="hill_clansman"
+		
+	6234.1.1 = {birth="6234.1.1"}
+	6248.1.1 = {add_trait=skilled_warrior add_trait=tough_soldier}
+	6254.1.1 = {add_trait=ambitious}
+	6268.1.1 = { add_trait=nightswatch}
+	6286.1.1 = {death="6286.1.1"}
+}
+121406 = {
+	name="Hodor" #Canon, one of the worst Lord Commanders.	
+	dynasty=174415 #Rankenfell
+	
+	martial = 12
+	stewardship = 12
+	
+	religion="old_gods"
+	culture="old_first_man"
+		
+	6324.1.1 = {birth="6324.1.1"}
+	6340.1.1 = {add_trait=skilled_warrior add_trait=tough_soldier}
+	6361.1.1 = { add_trait=nightswatch}
+	6377.1.1 = { give_nickname = nick_the_mad}
+	6378.1.1 = {death="6378.1.1"}
+}
+121404 = {
+	name="Hodor"	
+	
+	martial = 12
+	stewardship = 12
+	
+	religion="old_gods"
+	culture="old_first_man"
+
+	#father=60200197
+
+	add_trait="bastard"
+	give_nickname = nick_hill
+		
+	6384.1.1 = {birth="6384.1.1"}
+	6400.1.1 = {add_trait=skilled_warrior add_trait=tough_soldier}
+	6405.6.1={ add_trait=nightswatch}
+	6428.1.1 = {death="6428.1.1"}
+}
+
+
+
+121401 = {
+	name="Hodor" # Canon, tried to pass Castle Black and the Watch to his bastard son.	
+	dynasty=285 #Hightower
+	
+	martial = 12
+	stewardship = 12
+	
+	religion="the_seven"
+	culture="reachman"
+		
+	7649.1.1 = {birth="7649.1.1"}
+	7665.1.1 = {add_trait=knight}
+	7680.1.1 = { add_trait=nightswatch}
+	7708.1.1 = {death = {death_reason = death_execution}}
+}
+121402 = {
+	name="Hodor" #Canon, Runcel's bastard son.	
+	dynasty=285 #Hightower
+	
+	martial = 12
+	stewardship = 12
+	
+	religion="the_seven"
+	culture="reachman"
+
+	father=121401
+
+	add_trait="bastard"
+	give_nickname = nick_flowers
+	
+	7679.1.1 = {birth="7679.1.1"}
+	7680.1.1 = { add_trait=nightswatch}
+	7708.1.1 = {death = {death_reason = death_execution}}
+}
+
+
+
+
+
+1000868 = {
+	name="Hodor"	# a lord
+	#dynasty=random
+
+	religion="old_gods"
+	culture="northman"
+
+	7958.1.1 = {birth="7958.1.1"}
+	7974.1.1 = {add_trait=nightswatch add_trait=poor_warrior}
+	8015.1.1 = {death="8015.1.1"}
+}
+1001868 = {
+	name="Hodor"	# a lord
+	#dynasty=random
+
+	religion="old_gods"
+	culture="northman"
+
+	7976.1.1 = {birth="7976.1.1"}
+	7992.1.1 = {add_trait=nightswatch add_trait=poor_warrior}
+	8028.1.1 = {death="8028.1.1"}
+}
+1002868 = {
+	name="Hodor"	# a lord
+	#dynasty=random
+
+	religion="old_gods"
+	culture="northman"
+
+	7988.1.1 = {birth="7988.1.1"}
+	8004.1.1 = {add_trait=nightswatch add_trait=poor_warrior}
+	8035.1.1 = {death="8035.1.1"}
+}
+1003868 = {
+	name="Hodor"	# a lord
+	#dynasty=random
+
+	religion="old_gods"
+	culture="northman"
+
+	8005.1.1 = {birth="8005.1.1"}
+	8021.1.1 = {add_trait=nightswatch add_trait=poor_warrior}
+	8049.1.1 = {death="8049.1.1"}
+}
+1004868 = {
+	name="Hodor"	# a lord
+	#dynasty=random
+
+	religion="old_gods"
+	culture="northman"
+
+	8016.1.1 = {birth="8016.1.1"}
+	8032.1.1 = {add_trait=nightswatch add_trait=poor_warrior}
+	8062.1.1 = {death="8062.1.1"}
+}
+1005868 = {
+	name="Hodor"	# a lord
+	#dynasty=random
+
+	religion="old_gods"
+	culture="northman"
+
+	8037.1.1 = {birth="8037.1.1"}
+	8053.1.1 = {add_trait=nightswatch add_trait=poor_warrior}
+	8081.1.1 = {death="8081.1.1"}
+}
+1006868 = {
+	name="Hodor"	# a lord
+	#dynasty=random
+
+	religion="old_gods"
+	culture="northman"
+
+	8059.1.1 = {birth="8059.1.1"}
+	8075.1.1 = {add_trait=nightswatch add_trait=poor_warrior}
+	8108.1.1 = {death="8108.1.1"}
+}
+1007868 = {
+	name="Hodor"	# a lord
+	#dynasty=random
+
+	religion="old_gods"
+	culture="northman"
+
+	8081.1.1 = {birth="8081.1.1"}
+	8097.1.1 = {add_trait=nightswatch add_trait=poor_warrior}
+	8137.1.1 = {death="8137.1.1"}
+}
+1008868 = {
+	name="Hodor"	# a lord
+	#dynasty=random
+
+	religion="old_gods"
+	culture="northman"
+
+	8103.1.1 = {birth="8103.1.1"}
+	8119.1.1 = {add_trait=nightswatch add_trait=poor_warrior}
+	8161.1.1 = {death="8161.1.1"}
+}
+1009868 = {
+	name="Hodor"	# a lord
+	#dynasty=random
+
+	religion="old_gods"
+	culture="northman"
+
+	8133.1.1 = {birth="8133.1.1"}
+	8149.1.1 = {add_trait=nightswatch add_trait=poor_warrior}
+	8192.1.1 = {death="8192.1.1"}
+}
+1010868 = {
+	name="Hodor"	# a lord
+	#dynasty=random
+
+	religion="old_gods"
+	culture="northman"
+
+	8174.1.1 = {birth="8174.1.1"}
+	8190.1.1 = {add_trait=nightswatch add_trait=poor_warrior}
+	8217.1.1 = {death="8217.1.1"}
+}
+1011868 = {
+	name="Hodor"	# a lord
+	#dynasty=random
+
+	religion="old_gods"
+	culture="northman"
+
+	8189.1.1 = {birth="8189.1.1"}
+	8205.1.1 = {add_trait=nightswatch add_trait=poor_warrior}
+	8245.1.1 = {death="8245.1.1"}
+}
+1012868 = {
+	name="Hodor"	# a lord
+	#dynasty=random
+
+	religion="old_gods"
+	culture="northman"
+
+	8209.1.1 = {birth="8209.1.1"}
+	8225.1.1 = {add_trait=nightswatch add_trait=poor_warrior}
+	8258.1.1 = {death="8258.1.1"}
+}
+1013868 = {
+	name="Hodor"	# a lord
+	#dynasty=random
+
+	religion="old_gods"
+	culture="northman"
+
+	8212.1.1 = {birth="8212.1.1"}
+	8228.1.1 = {add_trait=nightswatch add_trait=poor_warrior}
+	8276.1.1 = {death="8276.1.1"}
+}
+1014868 = {
+	name="Hodor"	# a lord
+	#dynasty=random
+
+	religion="old_gods"
+	culture="northman"
+
+	8243.1.1 = {birth="8243.1.1"}
+	8259.1.1 = {add_trait=nightswatch add_trait=poor_warrior}
+	8294.1.1 = {death="8294.1.1"}
+}
+1015868 = {
+	name="Hodor"	# a lord
+	
+
+	religion="old_gods"
+	culture="northman"
+
+	8277.1.1 = {birth="8277.1.1"}
+	8293.1.1 = {add_trait=nightswatch add_trait=poor_warrior}
+	8312.1.1 = {death="8312.1.1"}
+}
+
+
+#####  Mutineers
+
+121411 = {
+	name="Hodor"	
+	
+	religion="the_seven"
+	culture="stormlander"
+	
+	8267.1.1 = {
+		birth="8267.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8295.1.1 = { 
+		add_trait="nightswatch"
+		effect = { 
+			add_character_modifier = {
+				name = nw_ranger
+				duration = -1
+			}
+		}
+	}
+	8299.5.5 = { 
+		add_trait="deserter"
+		remove_trait="nightswatch"
+	}
+}
+121412 = {
+	name="Hodor"	
+	
+	religion="the_seven"
+	culture="reachman"
+	
+	8273.1.1 = {
+		birth="8273.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8291.1.1 = { 
+		add_trait="nightswatch"
+		effect = {
+			add_character_modifier = {
+				name = nw_ranger
+				duration = -1
+			}
+		}	
+	}
+	8299.5.5 = {	
+		employer=121411
+		add_trait="deserter"
+		remove_trait="nightswatch"
+	}
+}
+121413 = {
+	name="Hodor"	
+	
+	religion="the_seven"
+	culture="crownlander"
+	
+	8274.1.1 = {
+		birth="8274.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8295.1.1 = {
+		add_trait="nightswatch"
+		effect = { 
+			add_character_modifier = {
+				name = nw_ranger
+				duration = -1
+			}
+		}
+	}
+	8299.5.5 = {	
+		employer=121411
+		add_trait="deserter"
+		remove_trait="nightswatch"
+	}
+}
+121414 = {
+	name="Hodor"	
+	
+	religion="the_seven"
+	culture="sisterman"
+	
+	8270.1.1 = {
+		birth="8270.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8291.1.1 = { 
+		add_trait="nightswatch"
+		effect = {
+			add_character_modifier = {
+				name = nw_steward
+				duration = -1
+			}
+		}	
+	}
+	8299.5.5 = {	
+		employer=121411
+		add_trait="deserter"
+		remove_trait="nightswatch"
+	}
+}
+121415 = {
+	name="Hodor"	
+	
+	religion="the_seven"
+	culture="crownlander"
+
+	add_trait="clubfooted"
+	
+	8276.1.1 = {
+		birth="8276.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8294.1.1 = { 
+		add_trait="nightswatch"
+		effect = { 
+			add_character_modifier = {
+				name = nw_steward
+				duration = -1
+			}
+		}
+	}
+	8299.5.5 = {	
+		employer=121411
+		add_trait="deserter"
+		remove_trait="nightswatch"
+	}
+}
+121416 = {
+	name="Hodor"	
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	8272.1.1 = {
+		birth="8272.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8295.1.1 = { 
+		add_trait="nightswatch"
+		effect = {
+			add_character_modifier = {
+				name = nw_ranger
+				duration = -1
+			}
+		}
+	}
+	8299.5.5 = {	
+		employer=121411
+		add_trait="deserter"
+		remove_trait="nightswatch"
+	}
+}
+
+#####
+
+121417 = {
+	name="Hodor" # canon
+	
+	martial = 5
+	stewardship = 3
+	diplomacy = 2
+	intrigue = 3
+	learning = 1
+	
+	religion="the_seven"
+	culture="valeman"
+
+	add_trait=honorable
+	add_trait=diligent
+	add_trait=tough_soldier
+	add_trait=bastard
+	give_nickname=nick_stone
+		
+	8269.1.1 = {
+		birth="8269.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8285.1.1 = {
+		add_trait=nightswatch
+		add_trait=trained_warrior
+		effect = { 
+			add_character_modifier = {
+				name = nw_steward
+				duration = -1
+			}
+		}
+	}
+}
+
+121418 = {
+	name="Hodor"
+	
+	martial = 4
+	stewardship = 2
+	diplomacy = 2
+	intrigue = 3
+	learning = 2
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait=gregarious
+	add_trait=patient
+	add_trait=diligent
+	add_trait=tough_soldier
+	add_trait=just
+	add_trait=strong
+	
+	8275.1.1 = {
+		birth="8275.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8290.1.1 = {
+		employer=121002 #eastwatch
+		add_trait=nightswatch
+		add_trait=skilled_warrior
+		effect = { 
+			add_character_modifier = {
+				name = nw_ranger
+				duration = -1
+			}
+		}
+		give_nickname = nick_the_iron
+	}
+	8300.3.1 = {	
+		employer=1002059 
+	}
+}
+
+121419 = {
+	name="Hodor"
+	
+	martial = 2
+	stewardship = 1
+	diplomacy = 1
+	intrigue = 2
+	learning = 1
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait=ugly
+	add_trait=rude
+	add_trait=gregarious
+	add_trait=honest
+	
+	8284.1.1 = {
+		birth="8284.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8298.1.1 = {
+		add_trait=nightswatch
+		add_trait=poor_warrior
+		effect = { 
+			add_character_modifier = {
+				name = nw_ranger
+				duration = -1
+			}
+		}
+		give_nickname = nick_toad
+	}
+}
+
+121474 = {
+	name="Hodor"
+	
+	martial = 1
+	stewardship = 2
+	diplomacy = 2
+	intrigue = 1
+	learning = 3
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	add_trait=weak
+	add_trait=bastard
+	
+	8284.1.1 = {
+		birth="8284.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8298.1.1 = {
+		add_trait=nightswatch
+		effect = { 
+			add_character_modifier = {
+				name = nw_steward
+				duration = -1
+			}
+		}
+	}
+}
+
+121475 = {
+	name="Hodor"
+	
+	martial = 3
+	stewardship = 1
+	diplomacy = 2
+	intrigue = 3
+	learning = 1
+	
+	religion="the_seven"
+	culture="crownlander"
+	
+	add_trait=greedy
+	add_trait=tough_soldier
+	add_trait=ruthless
+	add_trait=just
+	add_trait=gregarious
+	add_trait=brave
+	
+	8248.1.1 = {
+		birth="8248.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8264.1.1 = {
+		add_trait=skilled_warrior
+	}
+	8281.6.1 = {
+		add_trait=nightswatch		
+		effect = { 
+			add_character_modifier = {
+				name = nw_ranger
+				duration = -1
+			}
+		}
+	}
+}
+121476 = {
+	name="Hodor"
+	
+	martial = 3
+	stewardship = 3
+	diplomacy = 2
+	intrigue = 1
+	learning = 1
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait=tough_soldier
+	add_trait=honorable
+	add_trait=cynical
+	
+	8270.1.1 = {
+		birth="8270.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8286.1.1 = {
+		add_trait=trained_warrior
+		add_trait=nightswatch	
+		give_nickname = nick_the_black
+		effect = { 
+			add_character_modifier = {
+				name = nw_ranger
+				duration = -1
+			}
+		}
+	}
+}
+121477 = {
+	name="Hodor"
+	
+	martial = 2
+	stewardship = 3
+	diplomacy = 3
+	intrigue = 2
+	learning = 8
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait=thrifty_clerk
+	add_trait=honorable
+	add_trait=cynical
+	
+	8273.1.1 = {
+		birth="8273.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8289.1.1 = {
+		add_trait=nightswatch	
+		give_nickname = nick_the_brown
+		effect = { 
+			add_character_modifier = {
+				name = nw_steward
+				duration = -1
+			}
+		}
+	}
+	8299.7.7={
+		death = { death_reason = death_battle } ##fist of first men
+	}
+}

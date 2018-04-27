@@ -1,0 +1,7094 @@
+#########################  Kayakayana  ###################################
+
+###  House Paavola
+10055945 = {
+	name="Hodor"	# a lord
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+	
+	add_trait=strong
+
+	7966.1.1 = {birth="7966.1.1"}
+	7982.1.1 = {add_trait=trained_warrior}
+	7984.1.1 = {add_spouse=40055945}
+	8023.1.1 = {death="8023.1.1"}
+}
+40055945 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	7966.1.1 = {birth="7966.1.1"}
+	7982.1.1 = {add_trait=skilled_warrior}
+	8023.1.1 = {death="8023.1.1"}
+}
+10155945 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10055945
+	mother=40055945
+
+	7984.1.1 = {birth="7984.1.1"}
+	8000.1.1 = {add_trait=trained_warrior}
+	8047.1.1 = {death="8047.1.1"}
+}
+10255945 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10055945
+	mother=40055945
+
+	7986.1.1 = {birth="7986.1.1"}
+	8002.1.1 = {add_trait=skilled_warrior}
+	8044.1.1 = {death="8044.1.1"}
+}
+10355945 = {
+	name="Hodor"	# a lord
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10055945
+	mother=40055945
+	
+	add_trait=strong
+
+	7987.1.1 = {birth="7987.1.1"}
+	8003.1.1 = {add_trait=trained_warrior}
+	8005.1.1 = {add_spouse=40355945}
+	8036.1.1 = {death="8036.1.1"}
+}
+40355945 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	7987.1.1 = {birth="7987.1.1"}
+	8003.1.1 = {add_trait=trained_warrior}
+	8036.1.1 = {death="8036.1.1"}
+}
+10455945 = {
+	name="Hodor"	# not a lord
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10055945
+	mother=40055945
+
+	7990.1.1 = {birth="7990.1.1"}
+	8006.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+	8041.1.1 = {death="8041.1.1"}
+}
+10555945 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10355945
+	mother=40355945
+
+	8009.1.1 = {birth="8009.1.1"}
+	8025.1.1 = {add_trait=trained_warrior}
+	8056.1.1 = {death="8056.1.1"}
+}
+10655945 = {
+	name="Hodor"	# not a lord
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10355945
+	mother=40355945
+
+	8011.1.1 = {birth="8011.1.1"}
+	8027.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8083.1.1 = {death="8083.1.1"}
+}
+10755945 = {
+	name="Hodor"	# a lord
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10355945
+
+	add_trait=tall
+	add_trait=adopted
+	
+	8017.1.1 = {birth="8017.1.1"}
+	8033.1.1 = {add_trait=trained_warrior}
+	8035.1.1 = {add_spouse=40755945}
+	8082.1.1 = {death="8082.1.1"}
+}
+40755945 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	8017.1.1 = {birth="8017.1.1"}
+	8033.1.1 = {add_trait=trained_warrior}
+	8082.1.1 = {death="8082.1.1"}
+}
+10855945 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10755945
+	mother=40755945
+
+	8040.1.1 = {birth="8040.1.1"}
+	8056.1.1 = {add_trait=skilled_warrior}
+	8067.1.1 = {death="8067.1.1"}
+}
+10955945 = {
+	name="Hodor"	# not a lord
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10755945
+	mother=40755945
+
+	8042.1.1 = {birth="8042.1.1"}
+	8058.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8077.1.1 = {death="8077.1.1"}
+}
+11055945 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10755945
+	mother=40755945
+
+	8044.1.1 = {birth="8044.1.1"}
+	8060.1.1 = {add_trait=skilled_warrior}
+	8120.1.1 = {death = {death_reason = death_accident}}
+}
+11155945 = {
+	name="Hodor"	# a lord
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10755945
+	mother=40755945
+
+	8046.1.1 = {birth="8046.1.1"}
+	8062.1.1 = {add_trait=trained_warrior}
+	8064.1.1 = {add_spouse=41155945}
+	8103.1.1 = {death="8103.1.1"}
+}
+41155945 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	8046.1.1 = {birth="8046.1.1"}
+	8062.1.1 = {add_trait=poor_warrior}
+	8103.1.1 = {death="8103.1.1"}
+}
+11255945 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=11155945
+	mother=41155945
+
+	8066.1.1 = {birth="8066.1.1"}
+	8082.1.1 = {add_trait=trained_warrior}
+	8103.1.1 = {death="8103.1.1"}
+}
+11355945 = {
+	name="Hodor"	# a lord
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=11155945
+	
+	add_trait=fair
+	add_trait=adopted
+
+	8070.1.1 = {birth="8070.1.1"}
+	8086.1.1 = {add_trait=poor_warrior}
+	8088.1.1 = {add_spouse=41355945}
+	8106.1.1 = {death="8106.1.1"}
+}
+41355945 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	8070.1.1 = {birth="8070.1.1"}
+	8086.1.1 = {add_trait=trained_warrior}
+	8106.1.1 = {death="8106.1.1"}
+}
+11455945 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=11355945
+	mother=41355945
+
+	8093.1.1 = {birth="8093.1.1"}
+	8109.1.1 = {add_trait=trained_warrior}
+	8155.1.1 = {death="8155.1.1"}
+}
+11555945 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=11355945
+	mother=41355945
+
+	8096.1.1 = {birth="8096.1.1"}
+	8112.1.1 = {add_trait=skilled_warrior}
+	8123.1.1 = {death="8123.1.1"}
+}
+11655945 = {
+	name="Hodor"	# a lord
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=11355945
+	mother=41355945
+	
+	add_trait=fair
+
+	8099.1.1 = {birth="8099.1.1"}
+	8115.1.1 = {add_trait=trained_warrior}
+	8117.1.1 = {add_spouse=41655945}
+	8141.1.1 = {death="8141.1.1"}
+}
+41655945 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	8099.1.1 = {birth="8099.1.1"}
+	8115.1.1 = {add_trait=trained_warrior}
+	8141.1.1 = {death="8141.1.1"}
+}
+11755945 = {
+	name="Hodor"	# not a lord
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=11355945
+	mother=41355945
+
+	8100.1.1 = {birth="8100.1.1"}
+	8116.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8152.1.1 = {death="8152.1.1"}
+}
+11855945 = {
+	name="Hodor"	# not a lord
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=11355945
+	mother=41355945
+
+	8102.1.1 = {birth="8102.1.1"}
+	8118.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+	8146.1.1 = {death="8146.1.1"}
+}
+11955945 = {
+	name="Hodor"	# a lord
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=11655945
+	mother=41655945
+	
+	add_trait=strong
+
+	8118.1.1 = {birth="8118.1.1"}
+	8134.1.1 = {add_trait=skilled_warrior}
+	8136.1.1 = {add_spouse=41955945}
+	8149.1.1 = {death="8149.1.1"}
+}
+41955945 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	8118.1.1 = {birth="8118.1.1"}
+	8134.1.1 = {add_trait=trained_warrior}
+	8149.1.1 = {death="8149.1.1"}
+}
+12055945 = {
+	name="Hodor"	# a lord
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=11955945
+	mother=41955945
+	
+	add_trait=strong
+
+	8142.1.1 = {birth="8142.1.1"}
+	8158.1.1 = {add_trait=trained_warrior}
+	8160.1.1 = {add_spouse=42055945}
+	8189.1.1 = {death="8189.1.1"}
+}
+42055945 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	8142.1.1 = {birth="8142.1.1"}
+	8158.1.1 = {add_trait=skilled_warrior}
+	8189.1.1 = {death="8189.1.1"}
+}
+12155945 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=11955945
+	mother=41955945
+
+	8144.1.1 = {birth="8144.1.1"}
+	8160.1.1 = {add_trait=poor_warrior}
+	8224.1.1 = {death="8224.1.1"}
+}
+12255945 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=11955945
+	mother=41955945
+
+	8147.1.1 = {birth="8147.1.1"}
+	8163.1.1 = {add_trait=trained_warrior}
+	8195.1.1 = {death="8195.1.1"}
+}
+12355945 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12055945
+	mother=42055945
+
+	8160.1.1 = {birth="8160.1.1"}
+	8176.1.1 = {add_trait=trained_warrior}
+	8202.1.1 = {death="8202.1.1"}
+}
+12455945 = {
+	name="Hodor"	# a lord
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12055945
+	mother=42055945
+	
+	add_trait=tall
+	add_trait=strong
+
+	8163.1.1 = {birth="8163.1.1"}
+	8179.1.1 = {add_trait=skilled_warrior}
+	8181.1.1 = {add_spouse=42455945}
+	8237.1.1 = {death="8237.1.1"}
+}
+42455945 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	8163.1.1 = {birth="8163.1.1"}
+	8179.1.1 = {add_trait=trained_warrior}
+	8237.1.1 = {death="8237.1.1"}
+}
+12555945 = {
+	name="Hodor"	# not a lord
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12055945
+	mother=42055945
+
+	8165.1.1 = {birth="8165.1.1"}
+	8181.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+	8222.1.1 = {death="8222.1.1"}
+}
+12655945 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12455945
+	mother=42455945
+
+	8187.1.1 = {birth="8187.1.1"}
+	8203.1.1 = {add_trait=trained_warrior}
+	8228.1.1 = {death="8228.1.1"}
+}
+12755945 = {
+	name="Hodor"	# a lord
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12455945
+	mother=42455945
+	
+	add_trait=strong
+
+	8188.1.1 = {birth="8188.1.1"}
+	8204.1.1 = {add_trait=skilled_warrior}
+	8206.1.1 = {add_spouse=42755945}
+	8255.1.1 = {death="8255.1.1"}
+}
+42755945 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	8188.1.1 = {birth="8188.1.1"}
+	8204.1.1 = {add_trait=trained_warrior}
+	8255.1.1 = {death="8255.1.1"}
+}
+12855945 = {
+	name="Hodor"	# not a lord
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12455945
+	mother=42455945
+
+	8189.1.1 = {birth="8189.1.1"}
+	8205.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8256.1.1 = {death="8256.1.1"}
+}
+12955945 = {
+	name="Hodor"	# not a lord
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12455945
+	mother=42455945
+
+	8190.1.1 = {birth="8190.1.1"}
+	8206.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+	8231.1.1 = {death="8231.1.1"}
+}
+13055945 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12455945
+	mother=42455945
+
+	8193.1.1 = {birth="8193.1.1"}
+	8209.1.1 = {add_trait=skilled_warrior}
+	8247.1.1 = {death="8247.1.1"}
+}
+13155945 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12755945
+	mother=42755945
+
+	8210.1.1 = {birth="8210.1.1"}
+	8226.1.1 = {add_trait=skilled_warrior}
+	8247.1.1 = {death="8247.1.1"}
+}
+13255945 = {
+	name="Hodor"	# a lord
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12755945
+	mother=42755945
+	
+	add_trait=tall
+
+	8211.1.1 = {birth="8211.1.1"}
+	8227.1.1 = {add_trait=trained_warrior}
+	8229.1.1 = {add_spouse=43255945}
+	8267.1.1 = {death="8267.1.1"}
+}
+43255945 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	8211.1.1 = {birth="8211.1.1"}
+	8227.1.1 = {add_trait=trained_warrior}
+	8267.1.1 = {death="8267.1.1"}
+}
+13355945 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12755945
+	mother=42755945
+
+	8213.1.1 = {birth="8213.1.1"}
+	8229.1.1 = {add_trait=poor_warrior}
+	8246.1.1 = {death="8246.1.1"}
+}
+13455945 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12755945
+	mother=42755945
+
+	8214.1.1 = {birth="8214.1.1"}
+	8230.1.1 = {add_trait=trained_warrior}
+	8288.1.1 = {death = {death_reason = death_accident}}
+}
+13555945 = {
+	name="Hodor"	# a lord
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=13255945
+	mother=43255945
+	
+	add_trait=fair
+
+	8239.1.1 = {birth="8239.1.1"}
+	8255.1.1 = {add_trait=trained_warrior}
+	8257.1.1 = {add_spouse=43555945}
+	8281.1.1 = {death="8281.1.1"}
+}
+43555945 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	8239.1.1 = {birth="8239.1.1"}
+	8255.1.1 = {add_trait=trained_warrior}
+	8281.1.1 = {death="8281.1.1"}
+}
+13655945 = {
+	name="Hodor"	# not a lord
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=13555945
+	mother=43555945
+
+	8264.1.1 = {birth="8264.1.1"}
+	8280.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+}
+13755945 = {
+	name="Hodor"	# a lord
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=13555945
+	mother=43555945
+	
+	add_trait=fair
+
+	8267.1.1 = {birth="8267.1.1"}
+	8283.1.1 = {add_trait=poor_warrior}
+	8285.1.1 = {add_spouse=43755945}
+}
+43755945 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	8267.1.1 = {birth="8267.1.1"}
+	8283.1.1 = {add_trait=poor_warrior}
+}
+13855945 = {
+	name="Hodor"	# not a lord
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=13555945
+	mother=43555945
+
+	8270.1.1 = {birth="8270.1.1"}
+	8286.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+}
+13955945 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=13755945
+	mother=43755945
+
+	8287.1.1 = {birth="8287.1.1"}
+	8303.1.1 = {add_trait=trained_warrior}
+}
+14055945 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=13755945
+	mother=43755945
+
+	8289.1.1 = {birth="8289.1.1"}
+	8305.1.1 = {add_trait=poor_warrior}
+}
+14155945 = {
+	name="Hodor"	# not a lord
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=13755945
+	mother=43755945
+
+	8290.1.1 = {birth="8290.1.1"}
+	8306.1.1 = {add_trait=trained_warrior}
+}
+14255945 = {
+	name="Hodor"	# not a lord
+	dynasty=55945
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=13755945
+	mother=43755945
+
+	8293.1.1 = {birth="8293.1.1"}
+	8309.1.1 = {add_trait=poor_warrior}
+}
+
+
+###  House Mikkola
+10055946 = {
+	name="Hodor"	# a lord
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+	
+	add_trait=fair
+
+	7950.1.1 = {birth="7950.1.1"}
+	7966.1.1 = {add_trait=trained_warrior}
+	7968.1.1 = {add_spouse=40055946}
+	8008.1.1 = {death="8008.1.1"}
+}
+40055946 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	7950.1.1 = {birth="7950.1.1"}
+	7966.1.1 = {add_trait=trained_warrior}
+	8008.1.1 = {death="8008.1.1"}
+}
+10155946 = {
+	name="Hodor"	# a lord
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10055946
+	mother=40055946
+	
+	add_trait=fair
+
+	7970.1.1 = {birth="7970.1.1"}
+	7986.1.1 = {add_trait=trained_warrior}
+	7988.1.1 = {add_spouse=40155946}
+	8027.1.1 = {death="8027.1.1"}
+}
+40155946 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	7970.1.1 = {birth="7970.1.1"}
+	7986.1.1 = {add_trait=skilled_warrior}
+	8027.1.1 = {death="8027.1.1"}
+}
+10255946 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10155946
+	mother=40155946
+
+	7994.1.1 = {birth="7994.1.1"}
+	8010.1.1 = {add_trait=skilled_warrior}
+	8016.1.1 = {death="8016.1.1"}
+}
+10355946 = {
+	name="Hodor"	# not a lord
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10155946
+	mother=40155946
+
+	7995.1.1 = {birth="7995.1.1"}
+	8011.1.1 = {add_trait=poor_warrior}
+	8050.1.1 = {death="8050.1.1"}
+}
+10455946 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10155946
+	mother=40155946
+
+	7996.1.1 = {birth="7996.1.1"}
+	8012.1.1 = {add_trait=poor_warrior}
+	8022.1.1 = {death="8022.1.1"}
+}
+10555946 = {
+	name="Hodor"	# a lord
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10155946
+	mother=40155946
+	
+	add_trait=strong
+	add_trait=fair
+
+	7998.1.1 = {birth="7998.1.1"}
+	8014.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8016.1.1 = {add_spouse=40555946}
+	8057.1.1 = {death="8057.1.1"}
+}
+40555946 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	7998.1.1 = {birth="7998.1.1"}
+	8014.1.1 = {add_trait=trained_warrior}
+	8057.1.1 = {death="8057.1.1"}
+}
+10655946 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10155946
+	mother=40155946
+
+	8001.1.1 = {birth="8001.1.1"}
+	8017.1.1 = {add_trait=trained_warrior}
+	8033.1.1 = {death="8033.1.1"}
+}
+10755946 = {
+	name="Hodor"	# not a lord
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10555946
+	mother=40555946
+
+	8023.1.1 = {birth="8023.1.1"}
+	8039.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8072.1.1 = {death="8072.1.1"}
+}
+10855946 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10555946
+	mother=40555946
+
+	8025.1.1 = {birth="8025.1.1"}
+	8041.1.1 = {add_trait=trained_warrior}
+	8087.1.1 = {death="8087.1.1"}
+}
+10955946 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10555946
+	mother=40555946
+
+	8027.1.1 = {birth="8027.1.1"}
+	8043.1.1 = {add_trait=trained_warrior}
+	8082.1.1 = {death="8082.1.1"}
+}
+11055946 = {
+	name="Hodor"	# a lord
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10555946
+	
+	add_trait=tall
+	add_trait=adopted
+
+	8027.1.1 = {birth="8027.1.1"}
+	8043.1.1 = {add_trait=skilled_warrior}
+	8045.1.1 = {add_spouse=41055946}
+	8105.1.1 = {death="8105.1.1"}
+}
+41055946 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	8027.1.1 = {birth="8027.1.1"}
+	8043.1.1 = {add_trait=trained_warrior}
+	8105.1.1 = {death="8105.1.1"}
+}
+11155946 = {
+	name="Hodor"	# not a lord
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=11055946
+	mother=41055946
+	
+	add_trait=tall
+
+	8054.1.1 = {birth="8054.1.1"}
+	8070.1.1 = {add_trait=trained_warrior}
+	8072.1.1 = {add_spouse=41155946}
+	8105.1.1 = {death="8105.1.1"}
+}
+41155946 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	8054.1.1 = {birth="8054.1.1"}
+	8070.1.1 = {add_trait=trained_warrior}
+	8105.1.1 = {death="8105.1.1"}
+}
+11255946 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=11055946
+	mother=41055946
+
+	8055.1.1 = {birth="8055.1.1"}
+	8071.1.1 = {add_trait=poor_warrior}
+	8114.1.1 = {death="8114.1.1"}
+}
+11355946 = {
+	name="Hodor"	# not a lord
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=11055946
+	mother=41055946
+
+	8057.1.1 = {birth="8057.1.1"}
+	8073.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+	8103.1.1 = {death="8103.1.1"}
+}
+11455946 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=11055946
+	mother=41055946
+
+	8060.1.1 = {birth="8060.1.1"}
+	8076.1.1 = {add_trait=skilled_warrior}
+	8113.1.1 = {death="8113.1.1"}
+}
+11555946 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=11155946
+	mother=41155946
+
+	8085.1.1 = {birth="8085.1.1"}
+	8101.1.1 = {add_trait=poor_warrior}
+	8124.1.1 = {death = {death_reason = death_murder}}
+}
+11655946 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=11155946
+	mother=41155946
+
+	8088.1.1 = {birth="8088.1.1"}
+	8104.1.1 = {add_trait=trained_warrior}
+	8120.1.1 = {death="8120.1.1"}
+}
+11755946 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=11155946
+	mother=41155946
+
+	8090.1.1 = {birth="8090.1.1"}
+	8106.1.1 = {add_trait=skilled_warrior}
+	8165.1.1 = {death="8165.1.1"}
+}
+11855946 = {
+	name="Hodor"	# a lord
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=11155946
+	mother=41155946
+	
+	add_trait=tall
+
+	8091.1.1 = {birth="8091.1.1"}
+	8107.1.1 = {add_trait=trained_warrior}
+	8109.1.1 = {add_spouse=41855946}
+	8168.1.1 = {death="8168.1.1"}
+}
+41855946 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	8091.1.1 = {birth="8091.1.1"}
+	8107.1.1 = {add_trait=trained_warrior}
+	8168.1.1 = {death="8168.1.1"}
+}
+11955946 = {
+	name="Hodor"	# not a lord
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=11155946
+	mother=41155946
+
+	8092.1.1 = {birth="8092.1.1"}
+	8108.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+	8145.1.1 = {death="8145.1.1"}
+}
+12055946 = {
+	name="Hodor"	# not a lord
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=11855946
+	mother=41855946
+	
+	add_trait=tall
+	add_trait=fair
+
+	8118.1.1 = {birth="8118.1.1"}
+	8134.1.1 = {add_trait=trained_warrior}
+	8136.1.1 = {add_spouse=42055946}
+	8150.1.1 = {death="8150.1.1"}
+}
+42055946 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	8118.1.1 = {birth="8118.1.1"}
+	8134.1.1 = {add_trait=poor_warrior}
+	8160.1.1 = {death="8160.1.1"}
+}
+12155946 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=11855946
+	mother=41855946
+
+	8119.1.1 = {birth="8119.1.1"}
+	8135.1.1 = {add_trait=trained_warrior}
+	8171.1.1 = {death="8171.1.1"}
+}
+12255946 = {
+	name="Hodor"	# not a lord
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12055946
+	mother=42055946
+
+	8146.1.1 = {birth="8146.1.1"}
+	8162.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+	8195.1.1 = {death="8195.1.1"}
+}
+12355946 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12055946
+	mother=42055946
+
+	8148.1.1 = {birth="8148.1.1"}
+	8164.1.1 = {add_trait=trained_warrior}
+	8197.1.1 = {death="8197.1.1"}
+}
+12455946 = {
+	name="Hodor"	# a lord
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12055946
+	mother=42055946
+	
+	add_trait=fair
+
+	8150.1.1 = {birth="8150.1.1"}
+	8167.1.1 = {add_trait=skilled_warrior}
+	8169.1.1 = {add_spouse=42455946}
+	8196.1.1 = {death="8196.1.1"}
+}
+42455946 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	8151.1.1 = {birth="8151.1.1"}
+	8167.1.1 = {add_trait=trained_warrior}
+	8196.1.1 = {death="8196.1.1"}
+}
+12555946 = {
+	name="Hodor"	# a lord
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12455946
+	mother=42455946
+	
+	add_trait=fair
+
+	8172.1.1 = {birth="8172.1.1"}
+	8188.1.1 = {add_trait=skilled_warrior}
+	8190.1.1 = {add_spouse=42555946}
+	8226.1.1 = {death="8226.1.1"}
+}
+42555946 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	8172.1.1 = {birth="8172.1.1"}
+	8188.1.1 = {add_trait=trained_warrior}
+	8226.1.1 = {death="8226.1.1"}
+}
+12655946 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12455946
+	mother=42455946
+
+	8174.1.1 = {birth="8174.1.1"}
+	8190.1.1 = {add_trait=trained_warrior}
+	8226.1.1 = {death="8226.1.1"}
+}
+12755946 = {
+	name="Hodor"	# not a lord
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12455946
+	mother=42455946
+
+	8176.1.1 = {birth="8176.1.1"}
+	8192.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8236.1.1 = {death="8236.1.1"}
+}
+12855946 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12455946
+	mother=42455946
+
+	8179.1.1 = {birth="8179.1.1"}
+	8195.1.1 = {add_trait=skilled_warrior}
+	8213.1.1 = {death="8213.1.1"}
+}
+12955946 = {
+	name="Hodor"	# a lord
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12555946
+	mother=42555946
+	
+	add_trait=tall
+
+	8199.1.1 = {birth="8199.1.1"}
+	8215.1.1 = {add_trait=poor_warrior}
+	8217.1.1 = {add_spouse=42955946}
+	8249.1.1 = {death="8249.1.1"}
+}
+42955946 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	8199.1.1 = {birth="8199.1.1"}
+	8215.1.1 = {add_trait=trained_warrior}
+	8249.1.1 = {death="8249.1.1"}
+}
+13055946 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12555946
+	mother=42555946
+
+	8200.1.1 = {birth="8200.1.1"}
+	8216.1.1 = {add_trait=trained_warrior}
+	8280.1.1 = {death="8280.1.1"}
+}
+13155946 = {
+	name="Hodor"	# not a lord
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12955946
+	mother=42955946
+
+	8225.1.1 = {birth="8225.1.1"}
+	8241.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+	8279.1.1 = {death="8279.1.1"}
+}
+13255946 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12955946
+	mother=42955946
+
+	8226.1.1 = {birth="8226.1.1"}
+	8242.1.1 = {add_trait=skilled_warrior}
+	8306.1.1 = {death="8306.1.1"}
+}
+13355946 = {
+	name="Hodor"	# not a lord
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12955946
+	mother=42955946
+
+	8229.1.1 = {birth="8229.1.1"}
+	8245.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+	8302.1.1 = {death = {death_reason = death_murder}}
+}
+13455946 = {
+	name="Hodor"	# a lord
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12955946
+	mother=42955946
+	
+	add_trait=strong
+	add_trait=fair
+
+	8230.1.1 = {birth="8230.1.1"}
+	8246.1.1 = {add_trait=poor_warrior}
+	8248.1.1 = {add_spouse=43455946}
+	8306.1.1 = {death="8306.1.1"}
+}
+43455946 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	8230.1.1 = {birth="8230.1.1"}
+	8246.1.1 = {add_trait=poor_warrior}
+	8306.1.1 = {death="8306.1.1"}
+}
+13555946 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12955946
+	mother=42955946
+
+	8232.1.1 = {birth="8232.1.1"}
+	8248.1.1 = {add_trait=trained_warrior}
+	8284.1.1 = {death="8284.1.1"}
+}
+13655946 = {
+	name="Hodor"	# not a lord
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=13455946
+	mother=43455946
+	
+	add_trait=strong
+
+	8258.1.1 = {birth="8258.1.1"}
+	8274.1.1 = {add_trait=trained_warrior}
+	8276.1.1 = {add_spouse=43655946}
+}
+43655946 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	8258.1.1 = {birth="8258.1.1"}
+	8274.1.1 = {add_trait=trained_warrior}
+}
+13755946 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=13455946
+	mother=43455946
+
+	8260.1.1 = {birth="8260.1.1"}
+	8276.1.1 = {add_trait=trained_warrior}
+}
+13855946 = {
+	name="Hodor"	# not a lord
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=13455946
+	mother=43455946
+
+	8263.1.1 = {birth="8263.1.1"}
+	8279.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+}
+13955946 = {
+	name="Hodor"	# not a lord
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=13655946
+	mother=43655946
+	
+	add_trait=strong
+
+	8277.1.1 = {birth="8277.1.1"}
+	8293.1.1 = {add_trait=trained_warrior}
+}
+14055946 = {
+	name="Hodor"	# not a lord
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=13655946
+	mother=43655946
+
+	8279.1.1 = {birth="8279.1.1"}
+	8295.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+}
+14155946 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=13655946
+	mother=43655946
+
+	8282.1.1 = {birth="8282.1.1"}
+	8298.1.1 = {add_trait=trained_warrior}
+}
+14255946 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=13655946
+	mother=43655946
+
+	8285.1.1 = {birth="8285.1.1"}
+	8301.1.1 = {add_trait=skilled_warrior}
+}
+14355946 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55946
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=13655946
+	mother=43655946
+
+	8286.1.1 = {birth="8286.1.1"}
+	8302.1.1 = {add_trait=trained_warrior}
+}
+
+
+###  House Malinen
+10055947 = {
+	name="Hodor"	# a lord
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+	
+	add_trait=strong
+
+	7975.1.1 = {birth="7975.1.1"}
+	7991.1.1 = {add_trait=trained_warrior}
+	7993.1.1 = {add_spouse=40055947}
+	8031.1.1 = {death="8031.1.1"}
+}
+40055947 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	7975.1.1 = {birth="7975.1.1"}
+	7991.1.1 = {add_trait=skilled_warrior}
+	8031.1.1 = {death="8031.1.1"}
+}
+10155947 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10055947
+	mother=40055947
+
+	7995.1.1 = {birth="7995.1.1"}
+	8011.1.1 = {add_trait=trained_warrior}
+	8027.1.1 = {death="8027.1.1"}
+}
+10255947 = {
+	name="Hodor"	# a lord
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10055947
+	mother=40055947
+	
+	add_trait=strong
+
+	7996.1.1 = {birth="7996.1.1"}
+	8012.1.1 = {add_trait=trained_warrior}
+	8014.1.1 = {add_spouse=40255947}
+	8032.1.1 = {death="8032.1.1"}
+}
+40255947 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	7996.1.1 = {birth="7996.1.1"}
+	8012.1.1 = {add_trait=trained_warrior}
+	8032.1.1 = {death="8032.1.1"}
+}
+10355947 = {
+	name="Hodor"	# not a lord
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10055947
+	mother=40055947
+
+	7998.1.1 = {birth="7998.1.1"}
+	8014.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+	8056.1.1 = {death="8056.1.1"}
+}
+10455947 = {
+	name="Hodor"	# a lord
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10255947
+	
+	add_trait=fair
+	add_trait=adopted
+
+	8014.1.1 = {birth="8014.1.1"}
+	8030.1.1 = {add_trait=poor_warrior}
+	8032.1.1 = {add_spouse=40455947}
+	8071.1.1 = {death = {death_reason = death_accident}}
+}
+40455947 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	8014.1.1 = {birth="8014.1.1"}
+	8030.1.1 = {add_trait=skilled_warrior}
+	8071.1.1 = {death="8071.1.1"}
+}
+10555947 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10255947
+	mother=40255947
+
+	8016.1.1 = {birth="8016.1.1"}
+	8032.1.1 = {add_trait=skilled_warrior}
+	8049.1.1 = {death="8049.1.1"}
+}
+10655947 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10255947
+	mother=40255947
+
+	8018.1.1 = {birth="8018.1.1"}
+	8034.1.1 = {add_trait=trained_warrior}
+	8075.1.1 = {death="8075.1.1"}
+}
+10755947 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10455947
+	mother=40455947
+
+	8037.1.1 = {birth="8037.1.1"}
+	8053.1.1 = {add_trait=trained_warrior}
+	8091.1.1 = {death="8091.1.1"}
+}
+10855947 = {
+	name="Hodor"	# a lord
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10455947
+	mother=40455947
+	
+	add_trait=fair
+
+	8038.1.1 = {birth="8038.1.1"}
+	8054.1.1 = {add_trait=skilled_warrior}
+	8056.1.1 = {add_spouse=40855947}
+	8083.1.1 = {death="8083.1.1"}
+}
+40855947 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	8038.1.1 = {birth="8038.1.1"}
+	8054.1.1 = {add_trait=trained_warrior}
+	8083.1.1 = {death="8083.1.1"}
+}
+10955947 = {
+	name="Hodor"	# not a lord
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10455947
+	mother=40455947
+
+	8040.1.1 = {birth="8040.1.1"}
+	8056.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8112.1.1 = {death="8112.1.1"}
+}
+11055947 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10455947
+	mother=40455947
+
+	8043.1.1 = {birth="8043.1.1"}
+	8059.1.1 = {add_trait=trained_warrior}
+	8106.1.1 = {death="8106.1.1"}
+}
+11155947 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10455947
+	mother=40455947
+
+	8045.1.1 = {birth="8045.1.1"}
+	8061.1.1 = {add_trait=trained_warrior}
+	8097.1.1 = {death="8097.1.1"}
+}
+11255947 = {
+	name="Hodor"	# not a lord
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10855947
+	mother=40855947
+
+	8059.1.1 = {birth="8059.1.1"}
+	8075.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+	8098.1.1 = {death="8098.1.1"}
+}
+11355947 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10855947
+	mother=40855947
+
+	8060.1.1 = {birth="8060.1.1"}
+	8076.1.1 = {add_trait=trained_warrior}
+	8110.1.1 = {death="8110.1.1"}
+}
+11455947 = {
+	name="Hodor"	# a lord
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=10855947
+	mother=40855947
+	
+	add_trait=fair
+
+	8061.1.1 = {birth="8061.1.1"}
+	8077.1.1 = {add_trait=trained_warrior}
+	8079.1.1 = {add_spouse=41455947}
+	8119.1.1 = {death="8119.1.1"}
+}
+41455947 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	8061.1.1 = {birth="8061.1.1"}
+	8077.1.1 = {add_trait=skilled_warrior}
+	8119.1.1 = {death="8119.1.1"}
+}
+11555947 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=11455947
+	mother=41455947
+
+	8094.1.1 = {birth="8094.1.1"}
+	8110.1.1 = {add_trait=poor_warrior}
+	8145.1.1 = {death="8145.1.1"}
+}
+11655947 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=11455947
+	mother=41455947
+
+	8095.1.1 = {birth="8095.1.1"}
+	8111.1.1 = {add_trait=skilled_warrior}
+	8143.1.1 = {death="8143.1.1"}
+}
+11755947 = {
+	name="Hodor"	# a lord
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=11455947
+
+	add_trait=strong
+	add_trait=adopted
+
+	8098.1.1 = {birth="8098.1.1"}
+	8114.1.1 = {add_trait=poor_warrior}
+	8116.1.1 = {add_spouse=41755947}
+	8167.1.1 = {death="8167.1.1"}
+}
+41755947 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	8098.1.1 = {birth="8098.1.1"}
+	8114.1.1 = {add_trait=trained_warrior}
+	8167.1.1 = {death="8167.1.1"}
+}
+11855947 = {
+	name="Hodor"	# not a lord
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=11755947
+	mother=41755947
+
+	8123.1.1 = {birth="8123.1.1"}
+	8139.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+	8174.1.1 = {death="8174.1.1"}
+}
+11955947 = {
+	name="Hodor"	# a lord
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=11755947
+	mother=41755947
+	
+	add_trait=strong
+
+	8124.1.1 = {birth="8124.1.1"}
+	8140.1.1 = {add_trait=skilled_warrior}
+	8142.1.1 = {add_spouse=41955947}
+	8195.1.1 = {death="8195.1.1"}
+}
+41955947 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	8124.1.1 = {birth="8124.1.1"}
+	8140.1.1 = {add_trait=trained_warrior}
+	8195.1.1 = {death="8195.1.1"}
+}
+12055947 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=11955947
+	mother=41955947
+
+	8143.1.1 = {birth="8143.1.1"}
+	8159.1.1 = {add_trait=master_warrior}
+	8186.1.1 = {death="8186.1.1"}
+}
+12155947 = {
+	name="Hodor"	# a lord
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=11955947
+	mother=41955947
+	
+	add_trait=strong
+
+	8145.1.1 = {birth="8145.1.1"}
+	8161.1.1 = {add_trait=trained_warrior}
+	8163.1.1 = {add_spouse=42155947}
+	8210.1.1 = {death="8210.1.1"}
+}
+42155947 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	8145.1.1 = {birth="8145.1.1"}
+	8161.1.1 = {add_trait=trained_warrior}
+	8210.1.1 = {death="8210.1.1"}
+}
+12255947 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12155947
+	mother=42155947
+
+	8180.1.1 = {birth="8180.1.1"}
+	8196.1.1 = {add_trait=skilled_warrior}
+	8239.1.1 = {death="8239.1.1"}
+}
+12355947 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12155947
+	mother=42155947
+
+	8181.1.1 = {birth="8181.1.1"}
+	8197.1.1 = {add_trait=trained_warrior}
+	8239.1.1 = {death="8239.1.1"}
+}
+12455947 = {
+	name="Hodor"	# not a lord
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12155947
+	mother=42155947
+
+	8184.1.1 = {birth="8184.1.1"}
+	8200.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+	8236.1.1 = {death="8236.1.1"}
+}
+12555947 = {
+	name="Hodor"	# a lord
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12155947
+	mother=42155947
+	
+	add_trait=strong
+
+	8187.1.1 = {birth="8187.1.1"}
+	8203.1.1 = {add_trait=trained_warrior}
+	8205.1.1 = {add_spouse=42555947}
+	8245.1.1 = {death="8245.1.1"}
+}
+42555947 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	8187.1.1 = {birth="8187.1.1"}
+	8203.1.1 = {add_trait=trained_warrior}
+	8245.1.1 = {death="8245.1.1"}
+}
+12655947 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12555947
+	mother=42555947
+
+	8205.1.1 = {birth="8205.1.1"}
+	8215.1.1 = {death="8215.1.1"}
+}
+12755947 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12555947
+	mother=42555947
+
+	8208.1.1 = {birth="8208.1.1"}
+	8224.1.1 = {add_trait=poor_warrior}
+	8265.1.1 = {death="8265.1.1"}
+}
+12855947 = {
+	name="Hodor"	# not a lord
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12555947
+	mother=42555947
+	
+	add_trait=strong
+
+	8210.1.1 = {birth="8210.1.1"}
+	8226.1.1 = {add_trait=trained_warrior}
+	8228.1.1 = {add_spouse=42855947}
+	8241.1.1 = {death="8241.1.1"}
+}
+42855947 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	8210.1.1 = {birth="8210.1.1"}
+	8226.1.1 = {add_trait=trained_warrior}
+	8255.1.1 = {death="8255.1.1"}
+}
+12955947 = {
+	name="Hodor"	# not a lord
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12555947
+	mother=42555947
+	
+	add_trait=strong
+
+	8213.1.1 = {birth="8213.1.1"}
+	8229.1.1 = {add_trait=skilled_warrior}
+	8264.1.1 = {death="8264.1.1"}
+}
+13055947 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12855947
+	mother=42855947
+
+	8238.1.1 = {birth="8238.1.1"}
+	8254.1.1 = {add_trait=trained_warrior}
+	8284.1.1 = {death="8284.1.1"}
+}
+13155947 = {
+	name="Hodor"	# a lord
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=12855947
+	
+	add_trait=tall
+	add_trait=fair
+	add_trait=adopted
+
+	8240.1.1 = {birth="8240.1.1"}
+	8256.1.1 = {add_trait=skilled_warrior}
+	8263.1.1 = {add_spouse=43155947}
+	8298.1.1 = {death="8298.1.1"}
+}
+43155947 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	8245.1.1 = {birth="8245.1.1"}
+	8261.1.1 = {add_trait=poor_warrior}
+	8298.1.1 = {death="8298.1.1"}
+}
+13255947 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=13155947
+	mother=43155947
+
+	8266.1.1 = {birth="8266.1.1"}
+	8282.1.1 = {add_trait=trained_warrior}
+}
+13355947 = {
+	name="Hodor"	# not a lord
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=13155947
+	mother=43155947
+
+	8268.1.1 = {birth="8268.1.1"}
+	8284.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+}
+13455947 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=13155947
+	mother=43155947
+
+	8270.1.1 = {birth="8270.1.1"}
+	8286.1.1 = {add_trait=trained_warrior}
+}
+13555947 = {
+	name="Hodor"	# a lord
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=13155947
+	mother=43155947
+	
+	add_trait=tall
+	add_trait=fair
+
+	8273.1.1 = {birth="8273.1.1"}
+	8289.1.1 = {add_trait=skilled_warrior}
+	8291.1.1 = {add_spouse=43555947}
+}
+43555947 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	8273.1.1 = {birth="8273.1.1"}
+	8289.1.1 = {add_trait=trained_warrior}
+}
+13655947 = {
+	name="Hodor"	# not a lord
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=13155947
+	mother=43155947
+	
+	add_trait=tall
+
+	8275.1.1 = {birth="8275.1.1"}
+	8291.1.1 = {add_trait=trained_warrior}
+}
+13755947 = {
+	name="Hodor"	# not a lord
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=13555947
+	mother=43555947
+	
+	add_trait=fair
+
+	8294.1.1 = {birth="8294.1.1"}
+	8310.1.1 = {add_trait=poor_warrior}
+}
+13855947 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=13555947
+	mother=43555947
+
+	8296.1.1 = {birth="8296.1.1"}
+	8312.1.1 = {add_trait=skilled_warrior}
+}
+13955947 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=13555947
+	mother=43555947
+
+	8297.1.1 = {birth="8297.1.1"}
+	8313.1.1 = {add_trait=skilled_warrior}
+}
+14055947 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55947
+
+	religion="gods_bone_mountains"
+	culture="kayakayanayan"
+
+	father=13555947
+	mother=43555947
+
+	8299.1.1 = {birth="8299.1.1"}
+	8315.1.1 = {add_trait=master_warrior}
+}
+
+
+
+#########################  Samyriana  ##############################################
+
+###  House Anttila
+10055948 = {
+	name="Hodor"	# a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	7945.1.1 = {birth="7945.1.1"}
+	7961.1.1 = {add_trait=poor_warrior}
+	7963.1.1 = {add_spouse=40055948}
+	8003.1.1 = {death="8003.1.1"}
+}
+40055948 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	7945.1.1 = {birth="7945.1.1"}
+	8003.1.1 = {death="8003.1.1"}
+}
+10155948 = {
+	name="Hodor"	# a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10055948
+	mother=40055948
+
+	7968.1.1 = {birth="7968.1.1"}
+	7984.1.1 = {add_trait=poor_warrior}
+	7986.1.1 = {add_spouse=40155948}
+	8019.1.1 = {death="8019.1.1"}
+}
+40155948 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	7968.1.1 = {birth="7968.1.1"}
+	8019.1.1 = {death="8019.1.1"}
+}
+10255948 = {
+	name="Hodor"	# not a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10055948
+	mother=40055948
+
+	7970.1.1 = {birth="7970.1.1"}
+	7986.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+	8017.1.1 = {death="8017.1.1"}
+}
+10355948 = {
+	name="Hodor"	# not a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10055948
+	mother=40055948
+
+	7971.1.1 = {birth="7971.1.1"}
+	7987.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+	8013.1.1 = {death = {death_reason = death_accident}}
+}
+10455948 = {
+	name="Hodor"	# a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10155948
+	mother=40155948
+
+	7997.1.1 = {birth="7997.1.1"}
+	8013.1.1 = {add_trait=trained_warrior}
+	8015.1.1 = {add_spouse=40455948}
+	8032.1.1 = {death = {death_reason = death_murder}}
+}
+40455948 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	7997.1.1 = {birth="7997.1.1"}
+	8032.1.1 = {death="8032.1.1"}
+}
+10555948 = {
+	name="Hodor"	# not a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10155948
+	mother=40155948
+
+	7998.1.1 = {birth="7998.1.1"}
+	8014.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+	8075.1.1 = {death="8075.1.1"}
+}
+10655948 = {
+	name="Hodor"	# not a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10155948
+	mother=40155948
+
+	7999.1.1 = {birth="7999.1.1"}
+	8015.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8033.1.1 = {death="8033.1.1"}
+}
+10755948 = {
+	name="Hodor"	# a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10455948
+	mother=40455948
+
+	8020.1.1 = {birth="8020.1.1"}
+	8036.1.1 = {add_trait=trained_warrior}
+	8038.1.1 = {add_spouse=40755948}
+	8081.1.1 = {death="8081.1.1"}
+}
+40755948 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8020.1.1 = {birth="8020.1.1"}
+	8081.1.1 = {death="8081.1.1"}
+}
+10855948 = {
+	name="Hodor"	# not a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10455948
+	mother=40455948
+
+	8023.1.1 = {birth="8023.1.1"}
+	8039.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8052.1.1 = {death="8052.1.1"}
+}
+10955948 = {
+	name="Hodor"	# a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10755948
+	mother=40755948
+
+	8040.1.1 = {birth="8040.1.1"}
+	8056.1.1 = {add_trait=trained_warrior}
+	8058.1.1 = {add_spouse=40955948}
+	8082.1.1 = {death="8082.1.1"}
+}
+40955948 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8040.1.1 = {birth="8040.1.1"}
+	8082.1.1 = {death="8082.1.1"}
+}
+11055948 = {
+	name="Hodor"	# not a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10755948
+	mother=40755948
+
+	8041.1.1 = {birth="8041.1.1"}
+	8057.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8114.1.1 = {death="8114.1.1"}
+}
+11155948 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10755948
+	mother=40755948
+
+	8044.1.1 = {birth="8044.1.1"}
+	8048.1.1 = {death="8048.1.1"}
+}
+11255948 = {
+	name="Hodor"	# not a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10755948
+	mother=40755948
+
+	8047.1.1 = {birth="8047.1.1"}
+	8063.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8126.1.1 = {death="8126.1.1"}
+}
+11355948 = {
+	name="Hodor"	# a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10955948
+	mother=40955948
+
+	8061.1.1 = {birth="8061.1.1"}
+	8077.1.1 = {add_trait=poor_warrior}
+	8079.1.1 = {add_spouse=41355948}
+	8129.1.1 = {death="8129.1.1"}
+}
+41355948 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8061.1.1 = {birth="8061.1.1"}
+	8129.1.1 = {death="8129.1.1"}
+}
+11455948 = {
+	name="Hodor"	# not a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10955948
+	mother=40955948
+
+	8063.1.1 = {birth="8063.1.1"}
+	8079.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8128.1.1 = {death="8128.1.1"}
+}
+11555948 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10955948
+	mother=40955948
+
+	8065.1.1 = {birth="8065.1.1"}
+	8124.1.1 = {death="8124.1.1"}
+}
+11655948 = {
+	name="Hodor"	# a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11355948
+	mother=41355948
+
+	8080.1.1 = {birth="8080.1.1"}
+	8096.1.1 = {add_trait=poor_warrior}
+	8098.1.1 = {add_spouse=41655948}
+	8145.1.1 = {death="8145.1.1"}
+}
+41655948 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8080.1.1 = {birth="8080.1.1"}
+	8145.1.1 = {death="8145.1.1"}
+}
+11755948 = {
+	name="Hodor"	# not a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11355948
+	mother=41355948
+
+	8083.1.1 = {birth="8083.1.1"}
+	8099.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8121.1.1 = {death="8121.1.1"}
+}
+11855948 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11655948
+	mother=41655948
+
+	8100.1.1 = {birth="8100.1.1"}
+	8146.1.1 = {death="8146.1.1"}
+}
+11955948 = {
+	name="Hodor"	# a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11655948
+	mother=41655948
+
+	8102.1.1 = {birth="8102.1.1"}
+	8118.1.1 = {add_trait=poor_warrior}
+	8120.1.1 = {add_spouse=41955948}
+	8147.1.1 = {death="8147.1.1"}
+}
+41955948 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8102.1.1 = {birth="8102.1.1"}
+	8147.1.1 = {death="8147.1.1"}
+}
+12055948 = {
+	name="Hodor"	# not a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11655948
+	mother=41655948
+
+	8103.1.1 = {birth="8103.1.1"}
+	8119.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8162.1.1 = {death = {death_reason = death_accident}}
+}
+12155948 = {
+	name="Hodor"	# not a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11655948
+	mother=41655948
+
+	8104.1.1 = {birth="8104.1.1"}
+	8120.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8135.1.1 = {death="8135.1.1"}
+}
+12255948 = {
+	name="Hodor"	# not a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11655948
+	mother=41655948
+
+	8106.1.1 = {birth="8106.1.1"}
+	8122.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8176.1.1 = {death="8176.1.1"}
+}
+12355948 = {
+	name="Hodor"	# a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11955948
+	mother=41955948
+
+	8126.1.1 = {birth="8126.1.1"}
+	8142.1.1 = {add_trait=poor_warrior}
+	8144.1.1 = {add_spouse=42355948}
+	8163.1.1 = {death = {death_reason = death_murder}}
+}
+42355948 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8126.1.1 = {birth="8126.1.1"}
+	8163.1.1 = {death="8163.1.1"}
+}
+12455948 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11955948
+	mother=41955948
+
+	8129.1.1 = {birth="8129.1.1"}
+	8195.1.1 = {death="8195.1.1"}
+}
+12555948 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11955948
+	mother=41955948
+
+	8132.1.1 = {birth="8132.1.1"}
+	8191.1.1 = {death="8191.1.1"}
+}
+12655948 = {
+	name="Hodor"	# not a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11955948
+	mother=41955948
+
+	8134.1.1 = {birth="8134.1.1"}
+	8150.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8178.1.1 = {death="8178.1.1"}
+}
+12755948 = {
+	name="Hodor"	# a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=12355948
+	mother=42355948
+
+	8151.1.1 = {birth="8151.1.1"}
+	8167.1.1 = {add_trait=poor_warrior}
+	8169.1.1 = {add_spouse=42755948}
+	8187.1.1 = {death="8187.1.1"}
+}
+42755948 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8151.1.1 = {birth="8151.1.1"}
+	8187.1.1 = {death="8187.1.1"}
+}
+12855948 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=12355948
+	mother=42355948
+
+	8153.1.1 = {birth="8153.1.1"}
+	8196.1.1 = {death="8196.1.1"}
+}
+12955948 = {
+	name="Hodor"	# not a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=12355948
+	mother=42355948
+
+	8154.1.1 = {birth="8154.1.1"}
+	8170.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8217.1.1 = {death="8217.1.1"}
+}
+13055948 = {
+	name="Hodor"	# a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=12755948
+	mother=42755948
+
+	8172.1.1 = {birth="8172.1.1"}
+	8188.1.1 = {add_trait=poor_warrior}
+	8190.1.1 = {add_spouse=43055948}
+	8219.1.1 = {death="8219.1.1"}
+}
+43055948 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8172.1.1 = {birth="8172.1.1"}
+	8219.1.1 = {death="8219.1.1"}
+}
+13155948 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=12755948
+	mother=42755948
+
+	8174.1.1 = {birth="8174.1.1"}
+	8233.1.1 = {death="8233.1.1"}
+}
+13255948 = {
+	name="Hodor"	# a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13055948
+	mother=43055948
+
+	8200.1.1 = {birth="8200.1.1"}
+	8216.1.1 = {add_trait=poor_warrior}
+	8218.1.1 = {add_spouse=43255948}
+	8275.1.1 = {death="8275.1.1"}
+}
+43255948 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8200.1.1 = {birth="8200.1.1"}
+	8275.1.1 = {death="8275.1.1"}
+}
+13355948 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13055948
+	mother=43055948
+
+	8201.1.1 = {birth="8201.1.1"}
+	8233.1.1 = {death="8233.1.1"}
+}
+13455948 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13255948
+	mother=43255948
+
+	8235.1.1 = {birth="8235.1.1"}
+	8288.1.1 = {death="8288.1.1"}
+}
+13555948 = {
+	name="Hodor"	# a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13255948
+	mother=43255948
+
+	8236.1.1 = {birth="8236.1.1"}
+	8252.1.1 = {add_trait=trained_warrior}
+	8254.1.1 = {add_spouse=43555948}
+	8285.1.1 = {death="8285.1.1"}
+}
+43555948 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8236.1.1 = {birth="8236.1.1"}
+	8285.1.1 = {death="8285.1.1"}
+}
+13655948 = {
+	name="Hodor"	# a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13555948
+	mother=43555948
+
+	add_trait = tall
+	add_trait = strong
+	
+	8259.1.1 = {birth="8259.1.1"}
+	8275.1.1 = {add_trait=trained_warrior}
+	8277.1.1 = {add_spouse=43655948}
+	8322.1.1 = {death="8322.1.1"}
+}
+43655948 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8259.1.1 = {birth="8259.1.1"}
+	8322.1.1 = {death="8322.1.1"}
+}
+13755948 = {
+	name="Hodor"	# not a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13555948
+	mother=43555948
+
+	8260.1.1 = {birth="8260.1.1"}
+	8276.1.1 = {add_trait=eunuch add_trait=skilled_warrior}
+	8294.1.1 = {death = {death_reason = death_battle}}
+}
+13855948 = {
+	name="Hodor"	# not a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13555948
+	mother=43555948
+
+	8262.1.1 = {birth="8262.1.1"}
+	8278.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8314.1.1 = {death="8314.1.1"}
+}
+13955948 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13555948
+	mother=43555948
+
+	8264.1.1 = {birth="8264.1.1"}
+	8297.1.1 = {death="8297.1.1"}
+}
+14055948 = {
+	name="Hodor"	# not a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13555948
+	mother=43555948
+
+	8265.1.1 = {birth="8265.1.1"}
+	8281.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8311.1.1 = {death="8311.1.1"}
+}
+14155948 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13655948
+	mother=43655948
+
+	8277.1.1 = {birth="8277.1.1"}
+	8325.1.1 = {death = {death_reason = death_murder}}
+}
+14255948 = {
+	name="Hodor"	# not a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13655948
+	mother=43655948
+
+	add_trait = tall
+	
+	8278.1.1 = {birth="8278.1.1"}
+	8294.1.1 = {add_trait=trained_warrior}
+	8351.1.1 = {death="8351.1.1"}
+}
+14355948 = {
+	name="Hodor"	# not a lord
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13655948
+	mother=43655948
+
+	8281.1.1 = {birth="8281.1.1"}
+	8297.1.1 = {add_trait=eunuch add_trait=skilled_warrior}
+	8332.1.1 = {death="8332.1.1"}
+}
+14455948 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55948
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13655948
+	mother=43655948
+
+	8284.1.1 = {birth="8284.1.1"}
+	8332.1.1 = {death="8332.1.1"}
+}
+
+
+### House Tannous
+10055949 = {
+	name="Hodor"	# a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	7945.1.1 = {birth="7945.1.1"}
+	7961.1.1 = {add_trait=poor_warrior}
+	7963.1.1 = {add_spouse=40055949}
+	8003.1.1 = {death="8003.1.1"}
+}
+40055949 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	7945.1.1 = {birth="7945.1.1"}
+	8003.1.1 = {death="8003.1.1"}
+}
+10155949 = {
+	name="Hodor"	# a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10055949
+	mother=40055949
+
+	7968.1.1 = {birth="7968.1.1"}
+	7984.1.1 = {add_trait=poor_warrior}
+	7986.1.1 = {add_spouse=40155949}
+	8019.1.1 = {death="8019.1.1"}
+}
+40155949 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	7968.1.1 = {birth="7968.1.1"}
+	8019.1.1 = {death="8019.1.1"}
+}
+10255949 = {
+	name="Hodor"	# not a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10055949
+	mother=40055949
+
+	7970.1.1 = {birth="7970.1.1"}
+	7986.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+	8017.1.1 = {death="8017.1.1"}
+}
+10355949 = {
+	name="Hodor"	# not a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10055949
+	mother=40055949
+
+	7971.1.1 = {birth="7971.1.1"}
+	7987.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+	8013.1.1 = {death = {death_reason = death_accident}}
+}
+10455949 = {
+	name="Hodor"	# a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10155949
+	mother=40155949
+
+	7997.1.1 = {birth="7997.1.1"}
+	8013.1.1 = {add_trait=trained_warrior}
+	8015.1.1 = {add_spouse=40455949}
+	8032.1.1 = {death = {death_reason = death_murder}}
+}
+40455949 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	7997.1.1 = {birth="7997.1.1"}
+	8032.1.1 = {death="8032.1.1"}
+}
+10555949 = {
+	name="Hodor"	# not a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10155949
+	mother=40155949
+
+	7998.1.1 = {birth="7998.1.1"}
+	8014.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+	8075.1.1 = {death="8075.1.1"}
+}
+10655949 = {
+	name="Hodor"	# not a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10155949
+	mother=40155949
+
+	7999.1.1 = {birth="7999.1.1"}
+	8015.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8033.1.1 = {death="8033.1.1"}
+}
+10755949 = {
+	name="Hodor"	# a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10455949
+	mother=40455949
+
+	8020.1.1 = {birth="8020.1.1"}
+	8036.1.1 = {add_trait=trained_warrior}
+	8038.1.1 = {add_spouse=40755949}
+	8081.1.1 = {death="8081.1.1"}
+}
+40755949 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8020.1.1 = {birth="8020.1.1"}
+	8081.1.1 = {death="8081.1.1"}
+}
+10855949 = {
+	name="Hodor"	# not a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10455949
+	mother=40455949
+
+	8023.1.1 = {birth="8023.1.1"}
+	8039.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8052.1.1 = {death="8052.1.1"}
+}
+10955949 = {
+	name="Hodor"	# a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10755949
+	mother=40755949
+
+	8040.1.1 = {birth="8040.1.1"}
+	8056.1.1 = {add_trait=trained_warrior}
+	8058.1.1 = {add_spouse=40955949}
+	8082.1.1 = {death="8082.1.1"}
+}
+40955949 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8040.1.1 = {birth="8040.1.1"}
+	8082.1.1 = {death="8082.1.1"}
+}
+11055949 = {
+	name="Hodor"	# not a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10755949
+	mother=40755949
+
+	8041.1.1 = {birth="8041.1.1"}
+	8057.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8114.1.1 = {death="8114.1.1"}
+}
+11155949 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10755949
+	mother=40755949
+
+	8044.1.1 = {birth="8044.1.1"}
+	8048.1.1 = {death="8048.1.1"}
+}
+11255949 = {
+	name="Hodor"	# not a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10755949
+	mother=40755949
+
+	8047.1.1 = {birth="8047.1.1"}
+	8063.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8126.1.1 = {death="8126.1.1"}
+}
+11355949 = {
+	name="Hodor"	# a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10955949
+	mother=40955949
+
+	8061.1.1 = {birth="8061.1.1"}
+	8077.1.1 = {add_trait=poor_warrior}
+	8079.1.1 = {add_spouse=41355949}
+	8129.1.1 = {death="8129.1.1"}
+}
+41355949 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8061.1.1 = {birth="8061.1.1"}
+	8129.1.1 = {death="8129.1.1"}
+}
+11455949 = {
+	name="Hodor"	# not a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10955949
+	mother=40955949
+
+	8063.1.1 = {birth="8063.1.1"}
+	8079.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8128.1.1 = {death="8128.1.1"}
+}
+11555949 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10955949
+	mother=40955949
+
+	8065.1.1 = {birth="8065.1.1"}
+	8124.1.1 = {death="8124.1.1"}
+}
+11655949 = {
+	name="Hodor"	# a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11355949
+	mother=41355949
+
+	8080.1.1 = {birth="8080.1.1"}
+	8096.1.1 = {add_trait=poor_warrior}
+	8098.1.1 = {add_spouse=41655949}
+	8145.1.1 = {death="8145.1.1"}
+}
+41655949 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8080.1.1 = {birth="8080.1.1"}
+	8145.1.1 = {death="8145.1.1"}
+}
+11755949 = {
+	name="Hodor"	# not a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11355949
+	mother=41355949
+
+	8083.1.1 = {birth="8083.1.1"}
+	8099.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8121.1.1 = {death="8121.1.1"}
+}
+11855949 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11655949
+	mother=41655949
+
+	8100.1.1 = {birth="8100.1.1"}
+	8146.1.1 = {death="8146.1.1"}
+}
+11955949 = {
+	name="Hodor"	# a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11655949
+	mother=41655949
+
+	8102.1.1 = {birth="8102.1.1"}
+	8118.1.1 = {add_trait=poor_warrior}
+	8120.1.1 = {add_spouse=41955949}
+	8147.1.1 = {death="8147.1.1"}
+}
+41955949 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8102.1.1 = {birth="8102.1.1"}
+	8147.1.1 = {death="8147.1.1"}
+}
+12055949 = {
+	name="Hodor"	# not a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11655949
+	mother=41655949
+
+	8103.1.1 = {birth="8103.1.1"}
+	8119.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8162.1.1 = {death = {death_reason = death_accident}}
+}
+12155949 = {
+	name="Hodor"	# not a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11655949
+	mother=41655949
+
+	8104.1.1 = {birth="8104.1.1"}
+	8120.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8135.1.1 = {death="8135.1.1"}
+}
+12255949 = {
+	name="Hodor"	# not a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11655949
+	mother=41655949
+
+	8106.1.1 = {birth="8106.1.1"}
+	8122.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8176.1.1 = {death="8176.1.1"}
+}
+12355949 = {
+	name="Hodor"	# a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11955949
+	mother=41955949
+
+	8126.1.1 = {birth="8126.1.1"}
+	8142.1.1 = {add_trait=poor_warrior}
+	8144.1.1 = {add_spouse=42355949}
+	8163.1.1 = {death = {death_reason = death_murder}}
+}
+42355949 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8126.1.1 = {birth="8126.1.1"}
+	8163.1.1 = {death="8163.1.1"}
+}
+12455949 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11955949
+	mother=41955949
+
+	8129.1.1 = {birth="8129.1.1"}
+	8195.1.1 = {death="8195.1.1"}
+}
+12555949 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11955949
+	mother=41955949
+
+	8132.1.1 = {birth="8132.1.1"}
+	8191.1.1 = {death="8191.1.1"}
+}
+12655949 = {
+	name="Hodor"	# not a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11955949
+	mother=41955949
+
+	8134.1.1 = {birth="8134.1.1"}
+	8150.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8178.1.1 = {death="8178.1.1"}
+}
+12755949 = {
+	name="Hodor"	# a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=12355949
+	mother=42355949
+
+	8151.1.1 = {birth="8151.1.1"}
+	8167.1.1 = {add_trait=poor_warrior}
+	8169.1.1 = {add_spouse=42755949}
+	8187.1.1 = {death="8187.1.1"}
+}
+42755949 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8151.1.1 = {birth="8151.1.1"}
+	8187.1.1 = {death="8187.1.1"}
+}
+12855949 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=12355949
+	mother=42355949
+
+	8153.1.1 = {birth="8153.1.1"}
+	8196.1.1 = {death="8196.1.1"}
+}
+12955949 = {
+	name="Hodor"	# not a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=12355949
+	mother=42355949
+
+	8154.1.1 = {birth="8154.1.1"}
+	8170.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8217.1.1 = {death="8217.1.1"}
+}
+13055949 = {
+	name="Hodor"	# a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=12755949
+	mother=42755949
+
+	8172.1.1 = {birth="8172.1.1"}
+	8188.1.1 = {add_trait=poor_warrior}
+	8190.1.1 = {add_spouse=43055949}
+	8219.1.1 = {death="8219.1.1"}
+}
+43055949 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8172.1.1 = {birth="8172.1.1"}
+	8219.1.1 = {death="8219.1.1"}
+}
+13155949 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=12755949
+	mother=42755949
+
+	8174.1.1 = {birth="8174.1.1"}
+	8233.1.1 = {death="8233.1.1"}
+}
+13255949 = {
+	name="Hodor"	# a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13055949
+	mother=43055949
+
+	8200.1.1 = {birth="8200.1.1"}
+	8216.1.1 = {add_trait=poor_warrior}
+	8218.1.1 = {add_spouse=43255949}
+	8275.1.1 = {death="8275.1.1"}
+}
+43255949 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8200.1.1 = {birth="8200.1.1"}
+	8275.1.1 = {death="8275.1.1"}
+}
+13355949 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13055949
+	mother=43055949
+
+	8201.1.1 = {birth="8201.1.1"}
+	8233.1.1 = {death="8233.1.1"}
+}
+13455949 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13255949
+	mother=43255949
+
+	8235.1.1 = {birth="8235.1.1"}
+	8288.1.1 = {death="8288.1.1"}
+}
+13555949 = {
+	name="Hodor"	# a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13255949
+	mother=43255949
+
+	8236.1.1 = {birth="8236.1.1"}
+	8252.1.1 = {add_trait=trained_warrior}
+	8254.1.1 = {add_spouse=43555949}
+	8285.1.1 = {death="8285.1.1"}
+}
+43555949 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8236.1.1 = {birth="8236.1.1"}
+	8285.1.1 = {death="8285.1.1"}
+}
+13655949 = {
+	name="Hodor"	# a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13555949
+	mother=43555949
+
+	add_trait = fair
+	add_trait = quick
+	
+	8259.1.1 = {birth="8259.1.1"}
+	8275.1.1 = {add_trait=trained_warrior}
+	8277.1.1 = {add_spouse=43655949}
+	8322.1.1 = {death="8322.1.1"}
+}
+43655949 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8259.1.1 = {birth="8259.1.1"}
+	8322.1.1 = {death="8322.1.1"}
+}
+13755949 = {
+	name="Hodor"	# not a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13555949
+	mother=43555949
+
+	8260.1.1 = {birth="8260.1.1"}
+	8276.1.1 = {add_trait=eunuch add_trait=skilled_warrior}
+	8294.1.1 = {death = {death_reason = death_battle}}
+}
+13855949 = {
+	name="Hodor"	# not a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13555949
+	mother=43555949
+
+	8262.1.1 = {birth="8262.1.1"}
+	8278.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8314.1.1 = {death="8314.1.1"}
+}
+13955949 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13555949
+	mother=43555949
+
+	8264.1.1 = {birth="8264.1.1"}
+	8297.1.1 = {death="8297.1.1"}
+}
+14055949 = {
+	name="Hodor"	# not a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13555949
+	mother=43555949
+
+	8265.1.1 = {birth="8265.1.1"}
+	8281.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8311.1.1 = {death="8311.1.1"}
+}
+14155949 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13655949
+	mother=43655949
+
+	8277.1.1 = {birth="8277.1.1"}
+	8325.1.1 = {death = {death_reason = death_murder}}
+}
+14255949 = {
+	name="Hodor"	# not a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13655949
+	mother=43655949
+
+	add_trait = quick
+	
+	8278.1.1 = {birth="8278.1.1"}
+	8294.1.1 = {add_trait=trained_warrior}
+	8351.1.1 = {death="8351.1.1"}
+}
+14355949 = {
+	name="Hodor"	# not a lord
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13655949
+	mother=43655949
+
+	8281.1.1 = {birth="8281.1.1"}
+	8297.1.1 = {add_trait=eunuch add_trait=skilled_warrior}
+	8332.1.1 = {death="8332.1.1"}
+}
+14455949 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55949
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13655949
+	mother=43655949
+
+	8284.1.1 = {birth="8284.1.1"}
+	8332.1.1 = {death="8332.1.1"}
+}
+
+
+### House Kivimaki
+10055950 = {
+	name="Hodor"	# a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	7945.1.1 = {birth="7945.1.1"}
+	7961.1.1 = {add_trait=poor_warrior}
+	7963.1.1 = {add_spouse=40055950}
+	8003.1.1 = {death="8003.1.1"}
+}
+40055950 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	7945.1.1 = {birth="7945.1.1"}
+	8003.1.1 = {death="8003.1.1"}
+}
+10155950 = {
+	name="Hodor"	# a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10055950
+	mother=40055950
+
+	7968.1.1 = {birth="7968.1.1"}
+	7984.1.1 = {add_trait=poor_warrior}
+	7986.1.1 = {add_spouse=40155950}
+	8019.1.1 = {death="8019.1.1"}
+}
+40155950 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	7968.1.1 = {birth="7968.1.1"}
+	8019.1.1 = {death="8019.1.1"}
+}
+10255950 = {
+	name="Hodor"	# not a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10055950
+	mother=40055950
+
+	7970.1.1 = {birth="7970.1.1"}
+	7986.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+	8017.1.1 = {death="8017.1.1"}
+}
+10355950 = {
+	name="Hodor"	# not a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10055950
+	mother=40055950
+
+	7971.1.1 = {birth="7971.1.1"}
+	7987.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+	8013.1.1 = {death = {death_reason = death_accident}}
+}
+10455950 = {
+	name="Hodor"	# a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10155950
+	mother=40155950
+
+	7997.1.1 = {birth="7997.1.1"}
+	8013.1.1 = {add_trait=trained_warrior}
+	8015.1.1 = {add_spouse=40455950}
+	8032.1.1 = {death = {death_reason = death_murder}}
+}
+40455950 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	7997.1.1 = {birth="7997.1.1"}
+	8032.1.1 = {death="8032.1.1"}
+}
+10555950 = {
+	name="Hodor"	# not a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10155950
+	mother=40155950
+
+	7998.1.1 = {birth="7998.1.1"}
+	8014.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+	8075.1.1 = {death="8075.1.1"}
+}
+10655950 = {
+	name="Hodor"	# not a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10155950
+	mother=40155950
+
+	7999.1.1 = {birth="7999.1.1"}
+	8015.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8033.1.1 = {death="8033.1.1"}
+}
+10755950 = {
+	name="Hodor"	# a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10455950
+	mother=40455950
+
+	8020.1.1 = {birth="8020.1.1"}
+	8036.1.1 = {add_trait=trained_warrior}
+	8038.1.1 = {add_spouse=40755950}
+	8081.1.1 = {death="8081.1.1"}
+}
+40755950 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8020.1.1 = {birth="8020.1.1"}
+	8081.1.1 = {death="8081.1.1"}
+}
+10855950 = {
+	name="Hodor"	# not a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10455950
+	mother=40455950
+
+	8023.1.1 = {birth="8023.1.1"}
+	8039.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8052.1.1 = {death="8052.1.1"}
+}
+10955950 = {
+	name="Hodor"	# a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10755950
+	mother=40755950
+
+	8040.1.1 = {birth="8040.1.1"}
+	8056.1.1 = {add_trait=trained_warrior}
+	8058.1.1 = {add_spouse=40955950}
+	8082.1.1 = {death="8082.1.1"}
+}
+40955950 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8040.1.1 = {birth="8040.1.1"}
+	8056.1.1 = {add_trait=poor_warrior}
+	8082.1.1 = {death="8082.1.1"}
+}
+11055950 = {
+	name="Hodor"	# not a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10755950
+	mother=40755950
+
+	8041.1.1 = {birth="8041.1.1"}
+	8057.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8114.1.1 = {death="8114.1.1"}
+}
+11155950 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10755950
+	mother=40755950
+
+	8044.1.1 = {birth="8044.1.1"}
+	8048.1.1 = {death="8048.1.1"}
+}
+11255950 = {
+	name="Hodor"	# not a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10755950
+	mother=40755950
+
+	8047.1.1 = {birth="8047.1.1"}
+	8063.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8126.1.1 = {death="8126.1.1"}
+}
+11355950 = {
+	name="Hodor"	# a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10955950
+	mother=40955950
+
+	8061.1.1 = {birth="8061.1.1"}
+	8077.1.1 = {add_trait=poor_warrior}
+	8079.1.1 = {add_spouse=41355950}
+	8129.1.1 = {death="8129.1.1"}
+}
+41355950 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8061.1.1 = {birth="8061.1.1"}
+	8129.1.1 = {death="8129.1.1"}
+}
+11455950 = {
+	name="Hodor"	# not a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10955950
+	mother=40955950
+
+	8063.1.1 = {birth="8063.1.1"}
+	8079.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8128.1.1 = {death="8128.1.1"}
+}
+11555950 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=10955950
+	mother=40955950
+
+	8065.1.1 = {birth="8065.1.1"}
+	8124.1.1 = {death="8124.1.1"}
+}
+11655950 = {
+	name="Hodor"	# a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11355950
+	mother=41355950
+
+	8080.1.1 = {birth="8080.1.1"}
+	8096.1.1 = {add_trait=poor_warrior}
+	8098.1.1 = {add_spouse=41655950}
+	8145.1.1 = {death="8145.1.1"}
+}
+41655950 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8080.1.1 = {birth="8080.1.1"}
+	8145.1.1 = {death="8145.1.1"}
+}
+11755950 = {
+	name="Hodor"	# not a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11355950
+	mother=41355950
+
+	8083.1.1 = {birth="8083.1.1"}
+	8099.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8121.1.1 = {death="8121.1.1"}
+}
+11855950 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11655950
+	mother=41655950
+
+	8100.1.1 = {birth="8100.1.1"}
+	8146.1.1 = {death="8146.1.1"}
+}
+11955950 = {
+	name="Hodor"	# a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11655950
+	mother=41655950
+
+	8102.1.1 = {birth="8102.1.1"}
+	8118.1.1 = {add_trait=poor_warrior}
+	8120.1.1 = {add_spouse=41955950}
+	8147.1.1 = {death="8147.1.1"}
+}
+41955950 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8102.1.1 = {birth="8102.1.1"}
+	8147.1.1 = {death="8147.1.1"}
+}
+12055950 = {
+	name="Hodor"	# not a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11655950
+	mother=41655950
+
+	8103.1.1 = {birth="8103.1.1"}
+	8119.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8162.1.1 = {death = {death_reason = death_accident}}
+}
+12155950 = {
+	name="Hodor"	# not a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11655950
+	mother=41655950
+
+	8104.1.1 = {birth="8104.1.1"}
+	8120.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8135.1.1 = {death="8135.1.1"}
+}
+12255950 = {
+	name="Hodor"	# not a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11655950
+	mother=41655950
+
+	8106.1.1 = {birth="8106.1.1"}
+	8122.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8176.1.1 = {death="8176.1.1"}
+}
+12355950 = {
+	name="Hodor"	# a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11955950
+	mother=41955950
+
+	8126.1.1 = {birth="8126.1.1"}
+	8142.1.1 = {add_trait=poor_warrior}
+	8144.1.1 = {add_spouse=42355950}
+	8163.1.1 = {death = {death_reason = death_murder}}
+}
+42355950 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8126.1.1 = {birth="8126.1.1"}
+	8163.1.1 = {death="8163.1.1"}
+}
+12455950 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11955950
+	mother=41955950
+
+	8129.1.1 = {birth="8129.1.1"}
+	8195.1.1 = {death="8195.1.1"}
+}
+12555950 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11955950
+	mother=41955950
+
+	8132.1.1 = {birth="8132.1.1"}
+	8191.1.1 = {death="8191.1.1"}
+}
+12655950 = {
+	name="Hodor"	# not a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=11955950
+	mother=41955950
+
+	8134.1.1 = {birth="8134.1.1"}
+	8150.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8178.1.1 = {death="8178.1.1"}
+}
+12755950 = {
+	name="Hodor"	# a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=12355950
+	mother=42355950
+
+	8151.1.1 = {birth="8151.1.1"}
+	8167.1.1 = {add_trait=poor_warrior}
+	8169.1.1 = {add_spouse=42755950}
+	8187.1.1 = {death="8187.1.1"}
+}
+42755950 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8151.1.1 = {birth="8151.1.1"}
+	8187.1.1 = {death="8187.1.1"}
+}
+12855950 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=12355950
+	mother=42355950
+
+	8153.1.1 = {birth="8153.1.1"}
+	8196.1.1 = {death="8196.1.1"}
+}
+12955950 = {
+	name="Hodor"	# not a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=12355950
+	mother=42355950
+
+	8154.1.1 = {birth="8154.1.1"}
+	8170.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8217.1.1 = {death="8217.1.1"}
+}
+13055950 = {
+	name="Hodor"	# a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=12755950
+	mother=42755950
+
+	8172.1.1 = {birth="8172.1.1"}
+	8188.1.1 = {add_trait=poor_warrior}
+	8190.1.1 = {add_spouse=43055950}
+	8219.1.1 = {death="8219.1.1"}
+}
+43055950 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8172.1.1 = {birth="8172.1.1"}
+	8219.1.1 = {death="8219.1.1"}
+}
+13155950 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=12755950
+	mother=42755950
+
+	8174.1.1 = {birth="8174.1.1"}
+	8233.1.1 = {death="8233.1.1"}
+}
+13255950 = {
+	name="Hodor"	# a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13055950
+	mother=43055950
+
+	8200.1.1 = {birth="8200.1.1"}
+	8216.1.1 = {add_trait=poor_warrior}
+	8218.1.1 = {add_spouse=43255950}
+	8275.1.1 = {death="8275.1.1"}
+}
+43255950 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8200.1.1 = {birth="8200.1.1"}
+	8275.1.1 = {death="8275.1.1"}
+}
+13355950 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13055950
+	mother=43055950
+
+	8201.1.1 = {birth="8201.1.1"}
+	8233.1.1 = {death="8233.1.1"}
+}
+13455950 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13255950
+	mother=43255950
+
+	8235.1.1 = {birth="8235.1.1"}
+	8288.1.1 = {death="8288.1.1"}
+}
+13555950 = {
+	name="Hodor"	# a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13255950
+	mother=43255950
+
+	8236.1.1 = {birth="8236.1.1"}
+	8252.1.1 = {add_trait=trained_warrior}
+	8254.1.1 = {add_spouse=43555950}
+	8285.1.1 = {death="8285.1.1"}
+}
+43555950 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8236.1.1 = {birth="8236.1.1"}
+	8285.1.1 = {death="8285.1.1"}
+}
+13655950 = {
+	name="Hodor"	# a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13555950
+	mother=43555950
+	
+	add_trait = strong
+
+	8259.1.1 = {birth="8259.1.1"}
+	8275.1.1 = {add_trait=trained_warrior}
+	8277.1.1 = {add_spouse=43655950}
+	8322.1.1 = {death="8322.1.1"}
+}
+43655950 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	8259.1.1 = {birth="8259.1.1"}
+	8322.1.1 = {death="8322.1.1"}
+}
+13755950 = {
+	name="Hodor"	# not a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13555950
+	mother=43555950
+
+	8260.1.1 = {birth="8260.1.1"}
+	8276.1.1 = {add_trait=eunuch add_trait=skilled_warrior}
+	8294.1.1 = {death = {death_reason = death_battle}}
+}
+13855950 = {
+	name="Hodor"	# not a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13555950
+	mother=43555950
+
+	8262.1.1 = {birth="8262.1.1"}
+	8278.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8314.1.1 = {death="8314.1.1"}
+}
+13955950 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13555950
+	mother=43555950
+
+	8264.1.1 = {birth="8264.1.1"}
+	8297.1.1 = {death="8297.1.1"}
+}
+14055950 = {
+	name="Hodor"	# not a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13555950
+	mother=43555950
+
+	8265.1.1 = {birth="8265.1.1"}
+	8281.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8311.1.1 = {death="8311.1.1"}
+}
+14155950 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13655950
+	mother=43655950
+
+	8277.1.1 = {birth="8277.1.1"}
+	8325.1.1 = {death = {death_reason = death_murder}}
+}
+14255950 = {
+	name="Hodor"	# not a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13655950
+	mother=43655950
+
+	add_trait = strong
+	
+	8278.1.1 = {birth="8278.1.1"}
+	8294.1.1 = {add_trait=trained_warrior}
+	8351.1.1 = {death="8351.1.1"}
+}
+14355950 = {
+	name="Hodor"	# not a lord
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13655950
+	mother=43655950
+
+	8281.1.1 = {birth="8281.1.1"}
+	8297.1.1 = {add_trait=eunuch add_trait=skilled_warrior}
+	8332.1.1 = {death="8332.1.1"}
+}
+14455950 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55950
+
+	religion="gods_bone_mountains"
+	culture="samyrianan"
+
+	father=13655950
+	mother=43655950
+
+	8284.1.1 = {birth="8284.1.1"}
+	8332.1.1 = {death="8332.1.1"}
+}
+
+
+
+##############################  bayasabhadi  ##########################################
+
+###  House Laurila
+10055951 = {
+	name="Hodor"	# a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	7945.1.1 = {birth="7945.1.1"}
+	7961.1.1 = {add_trait=poor_warrior}
+	7963.1.1 = {add_spouse=40055951}
+	8003.1.1 = {death="8003.1.1"}
+}
+40055951 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	7945.1.1 = {birth="7945.1.1"}
+	8003.1.1 = {death="8003.1.1"}
+}
+10155951 = {
+	name="Hodor"	# a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10055951
+	mother=40055951
+
+	7968.1.1 = {birth="7968.1.1"}
+	7984.1.1 = {add_trait=poor_warrior}
+	7986.1.1 = {add_spouse=40155951}
+	8019.1.1 = {death="8019.1.1"}
+}
+40155951 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	7968.1.1 = {birth="7968.1.1"}
+	8019.1.1 = {death="8019.1.1"}
+}
+10255951 = {
+	name="Hodor"	# not a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10055951
+	mother=40055951
+
+	7970.1.1 = {birth="7970.1.1"}
+	7986.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+	8017.1.1 = {death="8017.1.1"}
+}
+10355951 = {
+	name="Hodor"	# not a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10055951
+	mother=40055951
+
+	7971.1.1 = {birth="7971.1.1"}
+	7987.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+	8013.1.1 = {death = {death_reason = death_accident}}
+}
+10455951 = {
+	name="Hodor"	# a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10155951
+	mother=40155951
+
+	7997.1.1 = {birth="7997.1.1"}
+	8013.1.1 = {add_trait=trained_warrior}
+	8015.1.1 = {add_spouse=40455951}
+	8032.1.1 = {death = {death_reason = death_murder}}
+}
+40455951 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	7997.1.1 = {birth="7997.1.1"}
+	8032.1.1 = {death="8032.1.1"}
+}
+10555951 = {
+	name="Hodor"	# not a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10155951
+	mother=40155951
+
+	7998.1.1 = {birth="7998.1.1"}
+	8014.1.1 = {add_trait=poor_warrior}
+	8075.1.1 = {death="8075.1.1"}
+}
+10655951 = {
+	name="Hodor"	# not a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10155951
+	mother=40155951
+
+	7999.1.1 = {birth="7999.1.1"}
+	8015.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8033.1.1 = {death="8033.1.1"}
+}
+10755951 = {
+	name="Hodor"	# a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10455951
+	mother=40455951
+
+	8020.1.1 = {birth="8020.1.1"}
+	8036.1.1 = {add_trait=trained_warrior}
+	8038.1.1 = {add_spouse=40755951}
+	8081.1.1 = {death="8081.1.1"}
+}
+40755951 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8020.1.1 = {birth="8020.1.1"}
+	8081.1.1 = {death="8081.1.1"}
+}
+10855951 = {
+	name="Hodor"	# not a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10455951
+	mother=40455951
+
+	8023.1.1 = {birth="8023.1.1"}
+	8039.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8052.1.1 = {death="8052.1.1"}
+}
+10955951 = {
+	name="Hodor"	# a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10755951
+	mother=40755951
+
+	8040.1.1 = {birth="8040.1.1"}
+	8056.1.1 = {add_trait=trained_warrior}
+	8058.1.1 = {add_spouse=40955951}
+	8082.1.1 = {death="8082.1.1"}
+}
+40955951 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8040.1.1 = {birth="8040.1.1"}
+	8056.1.1 = {add_trait=poor_warrior}
+	8082.1.1 = {death="8082.1.1"}
+}
+11055951 = {
+	name="Hodor"	# not a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10755951
+	mother=40755951
+
+	8041.1.1 = {birth="8041.1.1"}
+	8057.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8114.1.1 = {death="8114.1.1"}
+}
+11155951 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10755951
+	mother=40755951
+
+	8044.1.1 = {birth="8044.1.1"}
+	8048.1.1 = {death="8048.1.1"}
+}
+11255951 = {
+	name="Hodor"	# not a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10755951
+	mother=40755951
+
+	8047.1.1 = {birth="8047.1.1"}
+	8063.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8126.1.1 = {death="8126.1.1"}
+}
+11355951 = {
+	name="Hodor"	# a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10955951
+	mother=40955951
+
+	8061.1.1 = {birth="8061.1.1"}
+	8077.1.1 = {add_trait=poor_warrior}
+	8079.1.1 = {add_spouse=41355951}
+	8129.1.1 = {death="8129.1.1"}
+}
+41355951 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8061.1.1 = {birth="8061.1.1"}
+	8129.1.1 = {death="8129.1.1"}
+}
+11455951 = {
+	name="Hodor"	# not a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10955951
+	mother=40955951
+
+	8063.1.1 = {birth="8063.1.1"}
+	8079.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8128.1.1 = {death="8128.1.1"}
+}
+11555951 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10955951
+	mother=40955951
+
+	8065.1.1 = {birth="8065.1.1"}
+	8124.1.1 = {death="8124.1.1"}
+}
+11655951 = {
+	name="Hodor"	# a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11355951
+	mother=41355951
+
+	8080.1.1 = {birth="8080.1.1"}
+	8096.1.1 = {add_trait=poor_warrior}
+	8098.1.1 = {add_spouse=41655951}
+	8145.1.1 = {death="8145.1.1"}
+}
+41655951 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8080.1.1 = {birth="8080.1.1"}
+	8145.1.1 = {death="8145.1.1"}
+}
+11755951 = {
+	name="Hodor"	# not a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11355951
+	mother=41355951
+
+	8083.1.1 = {birth="8083.1.1"}
+	8099.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8121.1.1 = {death="8121.1.1"}
+}
+11855951 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11655951
+	mother=41655951
+
+	8100.1.1 = {birth="8100.1.1"}
+	8146.1.1 = {death="8146.1.1"}
+}
+11955951 = {
+	name="Hodor"	# a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11655951
+	mother=41655951
+
+	8102.1.1 = {birth="8102.1.1"}
+	8118.1.1 = {add_trait=poor_warrior}
+	8120.1.1 = {add_spouse=41955951}
+	8147.1.1 = {death="8147.1.1"}
+}
+41955951 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8102.1.1 = {birth="8102.1.1"}
+	8147.1.1 = {death="8147.1.1"}
+}
+12055951 = {
+	name="Hodor"	# not a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11655951
+	mother=41655951
+
+	8103.1.1 = {birth="8103.1.1"}
+	8119.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8162.1.1 = {death = {death_reason = death_accident}}
+}
+12155951 = {
+	name="Hodor"	# not a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11655951
+	mother=41655951
+
+	8104.1.1 = {birth="8104.1.1"}
+	8120.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8135.1.1 = {death="8135.1.1"}
+}
+12255951 = {
+	name="Hodor"	# not a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11655951
+	mother=41655951
+
+	8106.1.1 = {birth="8106.1.1"}
+	8122.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8176.1.1 = {death="8176.1.1"}
+}
+12355951 = {
+	name="Hodor"	# a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11955951
+	mother=41955951
+
+	8126.1.1 = {birth="8126.1.1"}
+	8142.1.1 = {add_trait=poor_warrior}
+	8144.1.1 = {add_spouse=42355951}
+	8163.1.1 = {death = {death_reason = death_murder}}
+}
+42355951 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8126.1.1 = {birth="8126.1.1"}
+	8163.1.1 = {death="8163.1.1"}
+}
+12455951 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11955951
+	mother=41955951
+
+	8129.1.1 = {birth="8129.1.1"}
+	8195.1.1 = {death="8195.1.1"}
+}
+12555951 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11955951
+	mother=41955951
+
+	8132.1.1 = {birth="8132.1.1"}
+	8191.1.1 = {death="8191.1.1"}
+}
+12655951 = {
+	name="Hodor"	# not a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11955951
+	mother=41955951
+
+	8134.1.1 = {birth="8134.1.1"}
+	8150.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8178.1.1 = {death="8178.1.1"}
+}
+12755951 = {
+	name="Hodor"	# a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=12355951
+	mother=42355951
+
+	8151.1.1 = {birth="8151.1.1"}
+	8167.1.1 = {add_trait=poor_warrior}
+	8169.1.1 = {add_spouse=42755951}
+	8187.1.1 = {death="8187.1.1"}
+}
+42755951 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8151.1.1 = {birth="8151.1.1"}
+	8187.1.1 = {death="8187.1.1"}
+}
+12855951 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=12355951
+	mother=42355951
+
+	8153.1.1 = {birth="8153.1.1"}
+	8196.1.1 = {death="8196.1.1"}
+}
+12955951 = {
+	name="Hodor"	# not a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=12355951
+	mother=42355951
+
+	8154.1.1 = {birth="8154.1.1"}
+	8170.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8217.1.1 = {death="8217.1.1"}
+}
+13055951 = {
+	name="Hodor"	# a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=12755951
+	mother=42755951
+
+	8172.1.1 = {birth="8172.1.1"}
+	8188.1.1 = {add_trait=poor_warrior}
+	8190.1.1 = {add_spouse=43055951}
+	8219.1.1 = {death="8219.1.1"}
+}
+43055951 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8172.1.1 = {birth="8172.1.1"}
+	8219.1.1 = {death="8219.1.1"}
+}
+13155951 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=12755951
+	mother=42755951
+
+	8174.1.1 = {birth="8174.1.1"}
+	8233.1.1 = {death="8233.1.1"}
+}
+13255951 = {
+	name="Hodor"	# a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13055951
+	mother=43055951
+
+	8200.1.1 = {birth="8200.1.1"}
+	8216.1.1 = {add_trait=poor_warrior}
+	8218.1.1 = {add_spouse=43255951}
+	8275.1.1 = {death="8275.1.1"}
+}
+43255951 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8200.1.1 = {birth="8200.1.1"}
+	8275.1.1 = {death="8275.1.1"}
+}
+13355951 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13055951
+	mother=43055951
+
+	8201.1.1 = {birth="8201.1.1"}
+	8233.1.1 = {death="8233.1.1"}
+}
+13455951 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13255951
+	mother=43255951
+
+	8235.1.1 = {birth="8235.1.1"}
+	8288.1.1 = {death="8288.1.1"}
+}
+13555951 = {
+	name="Hodor"	# a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13255951
+	mother=43255951
+
+	8236.1.1 = {birth="8236.1.1"}
+	8252.1.1 = {add_trait=trained_warrior}
+	8254.1.1 = {add_spouse=43555951}
+	8285.1.1 = {death="8285.1.1"}
+}
+43555951 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8236.1.1 = {birth="8236.1.1"}
+	8285.1.1 = {death="8285.1.1"}
+}
+13655951 = {
+	name="Hodor"	# a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13555951
+	mother=43555951
+
+	add_trait = fair
+	add_trait = tall
+	
+	8259.1.1 = {birth="8259.1.1"}
+	8275.1.1 = {add_trait=trained_warrior}
+	8277.1.1 = {add_spouse=43655951}
+	8322.1.1 = {death="8322.1.1"}
+}
+43655951 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8259.1.1 = {birth="8259.1.1"}
+	8322.1.1 = {death="8322.1.1"}
+}
+13755951 = {
+	name="Hodor"	# not a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13555951
+	mother=43555951
+
+	8260.1.1 = {birth="8260.1.1"}
+	8276.1.1 = {add_trait=eunuch add_trait=skilled_warrior}
+	8294.1.1 = {death = {death_reason = death_battle}}
+}
+13855951 = {
+	name="Hodor"	# not a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13555951
+	mother=43555951
+
+	8262.1.1 = {birth="8262.1.1"}
+	8278.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8314.1.1 = {death="8314.1.1"}
+}
+13955951 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13555951
+	mother=43555951
+
+	8264.1.1 = {birth="8264.1.1"}
+	8297.1.1 = {death="8297.1.1"}
+}
+14055951 = {
+	name="Hodor"	# not a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13555951
+	mother=43555951
+
+	8265.1.1 = {birth="8265.1.1"}
+	8281.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8311.1.1 = {death="8311.1.1"}
+}
+14155951 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13655951
+	mother=43655951
+
+	8277.1.1 = {birth="8277.1.1"}
+	8325.1.1 = {death = {death_reason = death_murder}}
+}
+14255951 = {
+	name="Hodor"	# not a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13655951
+	mother=43655951
+
+	add_trait = tall
+	
+	8278.1.1 = {birth="8278.1.1"}
+	8294.1.1 = {add_trait=trained_warrior}
+	8351.1.1 = {death="8351.1.1"}
+}
+14355951 = {
+	name="Hodor"	# not a lord
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13655951
+	mother=43655951
+
+	8281.1.1 = {birth="8281.1.1"}
+	8297.1.1 = {add_trait=eunuch add_trait=skilled_warrior}
+	8332.1.1 = {death="8332.1.1"}
+}
+14455951 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55951
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13655951
+	mother=43655951
+
+	8284.1.1 = {birth="8284.1.1"}
+	8332.1.1 = {death="8332.1.1"}
+}
+
+
+###  House Siimes
+10055952 = {
+	name="Hodor"	# a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	7945.1.1 = {birth="7945.1.1"}
+	7961.1.1 = {add_trait=poor_warrior}
+	7963.1.1 = {add_spouse=40055952}
+	8003.1.1 = {death="8003.1.1"}
+}
+40055952 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	7945.1.1 = {birth="7945.1.1"}
+	8003.1.1 = {death="8003.1.1"}
+}
+10155952 = {
+	name="Hodor"	# a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10055952
+	mother=40055952
+
+	7968.1.1 = {birth="7968.1.1"}
+	7984.1.1 = {add_trait=poor_warrior}
+	7986.1.1 = {add_spouse=40155952}
+	8019.1.1 = {death="8019.1.1"}
+}
+40155952 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	7968.1.1 = {birth="7968.1.1"}
+	8019.1.1 = {death="8019.1.1"}
+}
+10255952 = {
+	name="Hodor"	# not a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10055952
+	mother=40055952
+
+	7970.1.1 = {birth="7970.1.1"}
+	7986.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+	8017.1.1 = {death="8017.1.1"}
+}
+10355952 = {
+	name="Hodor"	# not a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10055952
+	mother=40055952
+
+	7971.1.1 = {birth="7971.1.1"}
+	7987.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+	8013.1.1 = {death = {death_reason = death_accident}}
+}
+10455952 = {
+	name="Hodor"	# a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10155952
+	mother=40155952
+
+	7997.1.1 = {birth="7997.1.1"}
+	8013.1.1 = {add_trait=trained_warrior}
+	8015.1.1 = {add_spouse=40455952}
+	8032.1.1 = {death = {death_reason = death_murder}}
+}
+40455952 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	7997.1.1 = {birth="7997.1.1"}
+	8032.1.1 = {death="8032.1.1"}
+}
+10555952 = {
+	name="Hodor"	# not a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10155952
+	mother=40155952
+
+	7998.1.1 = {birth="7998.1.1"}
+	8014.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+	8075.1.1 = {death="8075.1.1"}
+}
+10655952 = {
+	name="Hodor"	# not a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10155952
+	mother=40155952
+
+	7999.1.1 = {birth="7999.1.1"}
+	8015.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8033.1.1 = {death="8033.1.1"}
+}
+10755952 = {
+	name="Hodor"	# a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10455952
+	mother=40455952
+
+	8020.1.1 = {birth="8020.1.1"}
+	8036.1.1 = {add_trait=trained_warrior}
+	8038.1.1 = {add_spouse=40755952}
+	8081.1.1 = {death="8081.1.1"}
+}
+40755952 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8020.1.1 = {birth="8020.1.1"}
+	8081.1.1 = {death="8081.1.1"}
+}
+10855952 = {
+	name="Hodor"	# not a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10455952
+	mother=40455952
+
+	8023.1.1 = {birth="8023.1.1"}
+	8039.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8052.1.1 = {death="8052.1.1"}
+}
+10955952 = {
+	name="Hodor"	# a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10755952
+	mother=40755952
+
+	8040.1.1 = {birth="8040.1.1"}
+	8056.1.1 = {add_trait=trained_warrior}
+	8058.1.1 = {add_spouse=40955952}
+	8082.1.1 = {death="8082.1.1"}
+}
+40955952 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8040.1.1 = {birth="8040.1.1"}
+	8056.1.1 = {add_trait=poor_warrior}
+	8082.1.1 = {death="8082.1.1"}
+}
+11055952 = {
+	name="Hodor"	# not a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10755952
+	mother=40755952
+
+	8041.1.1 = {birth="8041.1.1"}
+	8057.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8114.1.1 = {death="8114.1.1"}
+}
+11155952 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10755952
+	mother=40755952
+
+	8044.1.1 = {birth="8044.1.1"}
+	8048.1.1 = {death="8048.1.1"}
+}
+11255952 = {
+	name="Hodor"	# not a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10755952
+	mother=40755952
+
+	8047.1.1 = {birth="8047.1.1"}
+	8063.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8126.1.1 = {death="8126.1.1"}
+}
+11355952 = {
+	name="Hodor"	# a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10955952
+	mother=40955952
+
+	8061.1.1 = {birth="8061.1.1"}
+	8077.1.1 = {add_trait=poor_warrior}
+	8079.1.1 = {add_spouse=41355952}
+	8129.1.1 = {death="8129.1.1"}
+}
+41355952 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8061.1.1 = {birth="8061.1.1"}
+	8129.1.1 = {death="8129.1.1"}
+}
+11455952 = {
+	name="Hodor"	# not a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10955952
+	mother=40955952
+
+	8063.1.1 = {birth="8063.1.1"}
+	8079.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8128.1.1 = {death="8128.1.1"}
+}
+11555952 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10955952
+	mother=40955952
+
+	8065.1.1 = {birth="8065.1.1"}
+	8124.1.1 = {death="8124.1.1"}
+}
+11655952 = {
+	name="Hodor"	# a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11355952
+	mother=41355952
+
+	8080.1.1 = {birth="8080.1.1"}
+	8096.1.1 = {add_trait=poor_warrior}
+	8098.1.1 = {add_spouse=41655952}
+	8145.1.1 = {death="8145.1.1"}
+}
+41655952 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8080.1.1 = {birth="8080.1.1"}
+	8145.1.1 = {death="8145.1.1"}
+}
+11755952 = {
+	name="Hodor"	# not a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11355952
+	mother=41355952
+
+	8083.1.1 = {birth="8083.1.1"}
+	8099.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8121.1.1 = {death="8121.1.1"}
+}
+11855952 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11655952
+	mother=41655952
+
+	8100.1.1 = {birth="8100.1.1"}
+	8146.1.1 = {death="8146.1.1"}
+}
+11955952 = {
+	name="Hodor"	# a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11655952
+	mother=41655952
+
+	8102.1.1 = {birth="8102.1.1"}
+	8118.1.1 = {add_trait=poor_warrior}
+	8120.1.1 = {add_spouse=41955952}
+	8147.1.1 = {death="8147.1.1"}
+}
+41955952 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8102.1.1 = {birth="8102.1.1"}
+	8147.1.1 = {death="8147.1.1"}
+}
+12055952 = {
+	name="Hodor"	# not a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11655952
+	mother=41655952
+
+	8103.1.1 = {birth="8103.1.1"}
+	8119.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8162.1.1 = {death = {death_reason = death_accident}}
+}
+12155952 = {
+	name="Hodor"	# not a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11655952
+	mother=41655952
+
+	8104.1.1 = {birth="8104.1.1"}
+	8120.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8135.1.1 = {death="8135.1.1"}
+}
+12255952 = {
+	name="Hodor"	# not a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11655952
+	mother=41655952
+
+	8106.1.1 = {birth="8106.1.1"}
+	8122.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8176.1.1 = {death="8176.1.1"}
+}
+12355952 = {
+	name="Hodor"	# a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11955952
+	mother=41955952
+
+	8126.1.1 = {birth="8126.1.1"}
+	8142.1.1 = {add_trait=poor_warrior}
+	8144.1.1 = {add_spouse=42355952}
+	8163.1.1 = {death = {death_reason = death_murder}}
+}
+42355952 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8126.1.1 = {birth="8126.1.1"}
+	8163.1.1 = {death="8163.1.1"}
+}
+12455952 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11955952
+	mother=41955952
+
+	8129.1.1 = {birth="8129.1.1"}
+	8195.1.1 = {death="8195.1.1"}
+}
+12555952 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11955952
+	mother=41955952
+
+	8132.1.1 = {birth="8132.1.1"}
+	8191.1.1 = {death="8191.1.1"}
+}
+12655952 = {
+	name="Hodor"	# not a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11955952
+	mother=41955952
+
+	8134.1.1 = {birth="8134.1.1"}
+	8150.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8178.1.1 = {death="8178.1.1"}
+}
+12755952 = {
+	name="Hodor"	# a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=12355952
+	mother=42355952
+
+	8151.1.1 = {birth="8151.1.1"}
+	8167.1.1 = {add_trait=poor_warrior}
+	8169.1.1 = {add_spouse=42755952}
+	8187.1.1 = {death="8187.1.1"}
+}
+42755952 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8151.1.1 = {birth="8151.1.1"}
+	8187.1.1 = {death="8187.1.1"}
+}
+12855952 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=12355952
+	mother=42355952
+
+	8153.1.1 = {birth="8153.1.1"}
+	8196.1.1 = {death="8196.1.1"}
+}
+12955952 = {
+	name="Hodor"	# not a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=12355952
+	mother=42355952
+
+	8154.1.1 = {birth="8154.1.1"}
+	8170.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8217.1.1 = {death="8217.1.1"}
+}
+13055952 = {
+	name="Hodor"	# a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=12755952
+	mother=42755952
+
+	8172.1.1 = {birth="8172.1.1"}
+	8188.1.1 = {add_trait=poor_warrior}
+	8190.1.1 = {add_spouse=43055952}
+	8219.1.1 = {death="8219.1.1"}
+}
+43055952 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8172.1.1 = {birth="8172.1.1"}
+	8219.1.1 = {death="8219.1.1"}
+}
+13155952 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=12755952
+	mother=42755952
+
+	8174.1.1 = {birth="8174.1.1"}
+	8233.1.1 = {death="8233.1.1"}
+}
+13255952 = {
+	name="Hodor"	# a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13055952
+	mother=43055952
+
+	8200.1.1 = {birth="8200.1.1"}
+	8216.1.1 = {add_trait=poor_warrior}
+	8218.1.1 = {add_spouse=43255952}
+	8275.1.1 = {death="8275.1.1"}
+}
+43255952 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8200.1.1 = {birth="8200.1.1"}
+	8275.1.1 = {death="8275.1.1"}
+}
+13355952 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13055952
+	mother=43055952
+
+	8201.1.1 = {birth="8201.1.1"}
+	8233.1.1 = {death="8233.1.1"}
+}
+13455952 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13255952
+	mother=43255952
+
+	8235.1.1 = {birth="8235.1.1"}
+	8288.1.1 = {death="8288.1.1"}
+}
+13555952 = {
+	name="Hodor"	# a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13255952
+	mother=43255952
+
+	8236.1.1 = {birth="8236.1.1"}
+	8252.1.1 = {add_trait=trained_warrior}
+	8254.1.1 = {add_spouse=43555952}
+	8285.1.1 = {death="8285.1.1"}
+}
+43555952 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8236.1.1 = {birth="8236.1.1"}
+	8285.1.1 = {death="8285.1.1"}
+}
+13655952 = {
+	name="Hodor"	# a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13555952
+	mother=43555952
+
+	add_trait = genius
+	
+	8259.1.1 = {birth="8259.1.1"}
+	8275.1.1 = {add_trait=trained_warrior}
+	8277.1.1 = {add_spouse=43655952}
+	8322.1.1 = {death="8322.1.1"}
+}
+43655952 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8259.1.1 = {birth="8259.1.1"}
+	8322.1.1 = {death="8322.1.1"}
+}
+13755952 = {
+	name="Hodor"	# not a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13555952
+	mother=43555952
+
+	8260.1.1 = {birth="8260.1.1"}
+	8276.1.1 = {add_trait=eunuch add_trait=skilled_warrior}
+	8294.1.1 = {death = {death_reason = death_battle}}
+}
+13855952 = {
+	name="Hodor"	# not a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13555952
+	mother=43555952
+
+	8262.1.1 = {birth="8262.1.1"}
+	8278.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8314.1.1 = {death="8314.1.1"}
+}
+13955952 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13555952
+	mother=43555952
+
+	8264.1.1 = {birth="8264.1.1"}
+	8297.1.1 = {death="8297.1.1"}
+}
+14055952 = {
+	name="Hodor"	# not a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13555952
+	mother=43555952
+
+	8265.1.1 = {birth="8265.1.1"}
+	8281.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8311.1.1 = {death="8311.1.1"}
+}
+14155952 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13655952
+	mother=43655952
+
+	8277.1.1 = {birth="8277.1.1"}
+	8325.1.1 = {death = {death_reason = death_murder}}
+}
+14255952 = {
+	name="Hodor"	# not a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13655952
+	mother=43655952
+
+	add_trait = quick
+	
+	8278.1.1 = {birth="8278.1.1"}
+	8294.1.1 = {add_trait=trained_warrior}
+	8351.1.1 = {death="8351.1.1"}
+}
+14355952 = {
+	name="Hodor"	# not a lord
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13655952
+	mother=43655952
+
+	8281.1.1 = {birth="8281.1.1"}
+	8297.1.1 = {add_trait=eunuch add_trait=skilled_warrior}
+	8332.1.1 = {death="8332.1.1"}
+}
+14455952 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55952
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13655952
+	mother=43655952
+
+	8284.1.1 = {birth="8284.1.1"}
+	8332.1.1 = {death="8332.1.1"}
+}
+
+### House Vuorinen
+10055953 = {
+	name="Hodor"	# a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	7945.1.1 = {birth="7945.1.1"}
+	7961.1.1 = {add_trait=poor_warrior}
+	7963.1.1 = {add_spouse=40055953}
+	8003.1.1 = {death="8003.1.1"}
+}
+40055953 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	7945.1.1 = {birth="7945.1.1"}
+	8003.1.1 = {death="8003.1.1"}
+}
+10155953 = {
+	name="Hodor"	# a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10055953
+	mother=40055953
+
+	7968.1.1 = {birth="7968.1.1"}
+	7984.1.1 = {add_trait=poor_warrior}
+	7986.1.1 = {add_spouse=40155953}
+	8019.1.1 = {death="8019.1.1"}
+}
+40155953 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	7968.1.1 = {birth="7968.1.1"}
+	8019.1.1 = {death="8019.1.1"}
+}
+10255953 = {
+	name="Hodor"	# not a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10055953
+	mother=40055953
+
+	7970.1.1 = {birth="7970.1.1"}
+	7986.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+	8017.1.1 = {death="8017.1.1"}
+}
+10355953 = {
+	name="Hodor"	# not a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10055953
+	mother=40055953
+
+	7971.1.1 = {birth="7971.1.1"}
+	7987.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+	8013.1.1 = {death = {death_reason = death_accident}}
+}
+10455953 = {
+	name="Hodor"	# a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10155953
+	mother=40155953
+
+	7997.1.1 = {birth="7997.1.1"}
+	8013.1.1 = {add_trait=trained_warrior}
+	8015.1.1 = {add_spouse=40455953}
+	8032.1.1 = {death = {death_reason = death_murder}}
+}
+40455953 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	7997.1.1 = {birth="7997.1.1"}
+	8032.1.1 = {death="8032.1.1"}
+}
+10555953 = {
+	name="Hodor"	# not a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10155953
+	mother=40155953
+
+	7998.1.1 = {birth="7998.1.1"}
+	8014.1.1 = {add_trait=eunuch add_trait=poor_warrior}
+	8075.1.1 = {death="8075.1.1"}
+}
+10655953 = {
+	name="Hodor"	# not a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10155953
+	mother=40155953
+
+	7999.1.1 = {birth="7999.1.1"}
+	8015.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8033.1.1 = {death="8033.1.1"}
+}
+10755953 = {
+	name="Hodor"	# a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10455953
+	mother=40455953
+
+	8020.1.1 = {birth="8020.1.1"}
+	8036.1.1 = {add_trait=trained_warrior}
+	8038.1.1 = {add_spouse=40755953}
+	8081.1.1 = {death="8081.1.1"}
+}
+40755953 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8020.1.1 = {birth="8020.1.1"}
+	8081.1.1 = {death="8081.1.1"}
+}
+10855953 = {
+	name="Hodor"	# not a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10455953
+	mother=40455953
+
+	8023.1.1 = {birth="8023.1.1"}
+	8039.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8052.1.1 = {death="8052.1.1"}
+}
+10955953 = {
+	name="Hodor"	# a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10755953
+	mother=40755953
+
+	8040.1.1 = {birth="8040.1.1"}
+	8056.1.1 = {add_trait=trained_warrior}
+	8058.1.1 = {add_spouse=40955953}
+	8082.1.1 = {death="8082.1.1"}
+}
+40955953 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8040.1.1 = {birth="8040.1.1"}
+	8056.1.1 = {add_trait=poor_warrior}
+	8082.1.1 = {death="8082.1.1"}
+}
+11055953 = {
+	name="Hodor"	# not a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10755953
+	mother=40755953
+
+	8041.1.1 = {birth="8041.1.1"}
+	8057.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8114.1.1 = {death="8114.1.1"}
+}
+11155953 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10755953
+	mother=40755953
+
+	8044.1.1 = {birth="8044.1.1"}
+	8048.1.1 = {death="8048.1.1"}
+}
+11255953 = {
+	name="Hodor"	# not a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10755953
+	mother=40755953
+
+	8047.1.1 = {birth="8047.1.1"}
+	8063.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8126.1.1 = {death="8126.1.1"}
+}
+11355953 = {
+	name="Hodor"	# a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10955953
+	mother=40955953
+
+	8061.1.1 = {birth="8061.1.1"}
+	8077.1.1 = {add_trait=poor_warrior}
+	8079.1.1 = {add_spouse=41355953}
+	8129.1.1 = {death="8129.1.1"}
+}
+41355953 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8061.1.1 = {birth="8061.1.1"}
+	8129.1.1 = {death="8129.1.1"}
+}
+11455953 = {
+	name="Hodor"	# not a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10955953
+	mother=40955953
+
+	8063.1.1 = {birth="8063.1.1"}
+	8079.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8128.1.1 = {death="8128.1.1"}
+}
+11555953 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=10955953
+	mother=40955953
+
+	8065.1.1 = {birth="8065.1.1"}
+	8124.1.1 = {death="8124.1.1"}
+}
+11655953 = {
+	name="Hodor"	# a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11355953
+	mother=41355953
+
+	8080.1.1 = {birth="8080.1.1"}
+	8096.1.1 = {add_trait=poor_warrior}
+	8098.1.1 = {add_spouse=41655953}
+	8145.1.1 = {death="8145.1.1"}
+}
+41655953 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8080.1.1 = {birth="8080.1.1"}
+	8145.1.1 = {death="8145.1.1"}
+}
+11755953 = {
+	name="Hodor"	# not a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11355953
+	mother=41355953
+
+	8083.1.1 = {birth="8083.1.1"}
+	8099.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8121.1.1 = {death="8121.1.1"}
+}
+11855953 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11655953
+	mother=41655953
+
+	8100.1.1 = {birth="8100.1.1"}
+	8146.1.1 = {death="8146.1.1"}
+}
+11955953 = {
+	name="Hodor"	# a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11655953
+	mother=41655953
+
+	8102.1.1 = {birth="8102.1.1"}
+	8118.1.1 = {add_trait=poor_warrior}
+	8120.1.1 = {add_spouse=41955953}
+	8147.1.1 = {death="8147.1.1"}
+}
+41955953 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8102.1.1 = {birth="8102.1.1"}
+	8147.1.1 = {death="8147.1.1"}
+}
+12055953 = {
+	name="Hodor"	# not a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11655953
+	mother=41655953
+
+	8103.1.1 = {birth="8103.1.1"}
+	8119.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8162.1.1 = {death = {death_reason = death_accident}}
+}
+12155953 = {
+	name="Hodor"	# not a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11655953
+	mother=41655953
+
+	8104.1.1 = {birth="8104.1.1"}
+	8120.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8135.1.1 = {death="8135.1.1"}
+}
+12255953 = {
+	name="Hodor"	# not a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11655953
+	mother=41655953
+
+	8106.1.1 = {birth="8106.1.1"}
+	8122.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8176.1.1 = {death="8176.1.1"}
+}
+12355953 = {
+	name="Hodor"	# a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11955953
+	mother=41955953
+
+	8126.1.1 = {birth="8126.1.1"}
+	8142.1.1 = {add_trait=poor_warrior}
+	8144.1.1 = {add_spouse=42355953}
+	8163.1.1 = {death = {death_reason = death_murder}}
+}
+42355953 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8126.1.1 = {birth="8126.1.1"}
+	8163.1.1 = {death="8163.1.1"}
+}
+12455953 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11955953
+	mother=41955953
+
+	8129.1.1 = {birth="8129.1.1"}
+	8195.1.1 = {death="8195.1.1"}
+}
+12555953 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11955953
+	mother=41955953
+
+	8132.1.1 = {birth="8132.1.1"}
+	8191.1.1 = {death="8191.1.1"}
+}
+12655953 = {
+	name="Hodor"	# not a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=11955953
+	mother=41955953
+
+	8134.1.1 = {birth="8134.1.1"}
+	8150.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8178.1.1 = {death="8178.1.1"}
+}
+12755953 = {
+	name="Hodor"	# a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=12355953
+	mother=42355953
+
+	8151.1.1 = {birth="8151.1.1"}
+	8167.1.1 = {add_trait=poor_warrior}
+	8169.1.1 = {add_spouse=42755953}
+	8187.1.1 = {death="8187.1.1"}
+}
+42755953 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8151.1.1 = {birth="8151.1.1"}
+	8187.1.1 = {death="8187.1.1"}
+}
+12855953 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=12355953
+	mother=42355953
+
+	8153.1.1 = {birth="8153.1.1"}
+	8196.1.1 = {death="8196.1.1"}
+}
+12955953 = {
+	name="Hodor"	# not a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=12355953
+	mother=42355953
+
+	8154.1.1 = {birth="8154.1.1"}
+	8170.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8217.1.1 = {death="8217.1.1"}
+}
+13055953 = {
+	name="Hodor"	# a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=12755953
+	mother=42755953
+
+	8172.1.1 = {birth="8172.1.1"}
+	8188.1.1 = {add_trait=poor_warrior}
+	8190.1.1 = {add_spouse=43055953}
+	8219.1.1 = {death="8219.1.1"}
+}
+43055953 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8172.1.1 = {birth="8172.1.1"}
+	8219.1.1 = {death="8219.1.1"}
+}
+13155953 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=12755953
+	mother=42755953
+
+	8174.1.1 = {birth="8174.1.1"}
+	8233.1.1 = {death="8233.1.1"}
+}
+13255953 = {
+	name="Hodor"	# a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13055953
+	mother=43055953
+
+	8200.1.1 = {birth="8200.1.1"}
+	8216.1.1 = {add_trait=poor_warrior}
+	8218.1.1 = {add_spouse=43255953}
+	8275.1.1 = {death="8275.1.1"}
+}
+43255953 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8200.1.1 = {birth="8200.1.1"}
+	8275.1.1 = {death="8275.1.1"}
+}
+13355953 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13055953
+	mother=43055953
+
+	8201.1.1 = {birth="8201.1.1"}
+	8233.1.1 = {death="8233.1.1"}
+}
+13455953 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13255953
+	mother=43255953
+
+	8235.1.1 = {birth="8235.1.1"}
+	8288.1.1 = {death="8288.1.1"}
+}
+13555953 = {
+	name="Hodor"	# a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13255953
+	mother=43255953
+
+	8236.1.1 = {birth="8236.1.1"}
+	8252.1.1 = {add_trait=trained_warrior}
+	8254.1.1 = {add_spouse=43555953}
+	8285.1.1 = {death="8285.1.1"}
+}
+43555953 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8236.1.1 = {birth="8236.1.1"}
+	8285.1.1 = {death="8285.1.1"}
+}
+13655953 = {
+	name="Hodor"	# a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13555953
+	mother=43555953
+
+	add_trait = strong
+	add_trait = fair
+	
+	8259.1.1 = {birth="8259.1.1"}
+	8275.1.1 = {add_trait=trained_warrior}
+	8277.1.1 = {add_spouse=43655953}
+	8322.1.1 = {death="8322.1.1"}
+}
+43655953 = {
+	name="Hodor"
+	female=yes
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	8259.1.1 = {birth="8259.1.1"}
+	8322.1.1 = {death="8322.1.1"}
+}
+13755953 = {
+	name="Hodor"	# not a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13555953
+	mother=43555953
+
+	8260.1.1 = {birth="8260.1.1"}
+	8276.1.1 = {add_trait=eunuch add_trait=skilled_warrior}
+	8294.1.1 = {death = {death_reason = death_battle}}
+}
+13855953 = {
+	name="Hodor"	# not a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13555953
+	mother=43555953
+
+	8262.1.1 = {birth="8262.1.1"}
+	8278.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8314.1.1 = {death="8314.1.1"}
+}
+13955953 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13555953
+	mother=43555953
+
+	8264.1.1 = {birth="8264.1.1"}
+	8297.1.1 = {death="8297.1.1"}
+}
+14055953 = {
+	name="Hodor"	# not a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13555953
+	mother=43555953
+
+	8265.1.1 = {birth="8265.1.1"}
+	8281.1.1 = {add_trait=eunuch add_trait=trained_warrior}
+	8311.1.1 = {death="8311.1.1"}
+}
+14155953 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13655953
+	mother=43655953
+
+	8277.1.1 = {birth="8277.1.1"}
+	8325.1.1 = {death = {death_reason = death_murder}}
+}
+14255953 = {
+	name="Hodor"	# not a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13655953
+	mother=43655953
+
+	add_trait = fair
+	
+	8278.1.1 = {birth="8278.1.1"}
+	8294.1.1 = {add_trait=trained_warrior}
+	8351.1.1 = {death="8351.1.1"}
+}
+14355953 = {
+	name="Hodor"	# not a lord
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13655953
+	mother=43655953
+
+	8281.1.1 = {birth="8281.1.1"}
+	8297.1.1 = {add_trait=eunuch add_trait=skilled_warrior}
+	8332.1.1 = {death="8332.1.1"}
+}
+14455953 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=55953
+
+	religion="gods_bone_mountains"
+	culture="bayasabhadi"
+
+	father=13655953
+	mother=43655953
+
+	8284.1.1 = {birth="8284.1.1"}
+	8332.1.1 = {death="8332.1.1"}
+}

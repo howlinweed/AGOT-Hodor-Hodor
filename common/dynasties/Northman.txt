@@ -1,0 +1,1593 @@
+800800 = {
+	name = Wolfe
+	culture = northman
+}
+800801 = {
+	name = Orland
+	culture = northman
+}
+800802 = {
+	name = Algrey
+	culture = northman
+}
+800803 = {
+	name = Greyfuir
+	culture = northman
+}
+800804 = {
+	name = Holham
+	culture = northman
+}
+800805 = {
+	name = Thelly
+	culture = northman
+}
+800806 = {
+	name = Ryegate
+	culture = northman
+}
+800807 = {
+	name = Hooton
+	culture = northman
+}
+800808 = {
+	name = Colwyn
+	culture = northman
+}
+800809 = {
+	name = Loom
+	culture = northman
+}
+800810 = {
+	name = Flinn
+	culture = northman
+}
+800811 = {
+	name = Gorrey
+	culture = northman
+}
+800812 = {
+	name = Icemark
+	culture = northman
+}
+800813 = {
+	name = Farrows
+	culture = northman
+}
+800814 = {
+	name = Linden
+	culture = northman
+}
+800815 = {
+	name = Greyshot
+	culture = northman
+}
+800816 = {
+	name = Bordon
+	culture = northman
+}
+800817 = {
+	name = Pall
+	culture = northman
+}
+800818 = {
+	name = Peale
+	culture = northman
+}
+800819 = {
+	name = Rossell
+	culture = northman
+}
+800820 = {
+	name = Weale
+	culture = northman
+}
+800821 = {
+	name = Kedge
+	culture = northman
+}
+800822 = {
+	name = Sables
+	culture = northman
+}
+800823 = {
+	name = Nobley
+	culture = northman
+}
+800824 = {
+	name = Spring
+	culture = northman
+}
+800825 = {
+	name = Barrows
+	culture = northman
+}
+800826 = {
+	name = Raventree
+	culture = northman
+}
+800827 = {
+	name = Hatcher
+	culture = northman
+}
+800828 = {
+	name = Greycastle
+	culture = northman
+}
+800829 = {
+	name = Barrowton
+	culture = northman
+}
+800830 = {
+	name = Osbryn
+	culture = northman
+}
+800831 = {
+	name = Graunce
+	culture = northman
+}
+800832 = {
+	name = Smalls
+	culture = northman
+}
+800833 = {
+	name = Ryder
+	culture = northman
+}
+800834 = {
+	name = Greenwood
+	culture = northman
+}
+800835 = {
+	name = Towers
+	culture = northman
+}
+800836 = {
+	name = Amber
+	culture = northman
+}
+800837 = {
+	name = Frost
+	culture = northman
+}
+800838 = {
+	name = Degore
+	culture = northman
+}
+800839 = {
+	name = Ashwood
+	culture = northman
+}
+800840 = {
+	name = Holt
+	culture = northman
+}
+800841 = {
+	name = Long
+	culture = northman
+}
+800842 = {
+	name = Goodmen
+	culture = northman
+}
+800843 = {
+	name = Finn
+	culture = northman
+}
+800844 = {
+	name = Flintt
+	culture = northman
+}
+800845 = {
+	name = Ashem
+	culture = northman
+}
+800846 = {
+	name = Coldshire
+	culture = northman
+}
+800847 = {
+	name = Winterdust
+	culture = northman
+}
+800848 = {
+	name = Frostarm
+	culture = northman
+}
+800849 = {
+	name = Snowleaf
+	culture = northman
+}
+800850 = {
+	name = Hallomere
+	culture = northman
+}
+800851 = {
+	name = Whiteforest
+	culture = half_southron
+}
+800852 = {
+	name = Whitesteel
+	culture = half_southron
+}
+800853 = {
+	name = Whitewhisk
+	culture = half_southron
+}
+800854 = {
+	name = Winterless
+	culture = half_southron
+}
+800855 = {
+	name = Coldflow
+	culture = half_southron
+}
+800856 = {
+	name = Thicketh
+	culture = half_southron
+}
+800857 = {
+	name = Tymber
+	culture = half_southron
+}
+800858 = {
+	name = Bowman
+	culture = half_southron
+}
+800859 = {
+	name = Bander
+	culture = half_southron
+}
+800860 = {
+	name = Crander
+	culture = half_southron
+}
+800861 = {
+	name = Mandersnow
+	culture = half_southron
+}
+800862 = {
+	name = Snowrivers
+	culture = half_southron
+}
+800863 = {
+	name = Sanderly
+	culture = half_southron
+}
+800864 = {
+	name = Dirgewoode
+	culture = northman
+}
+800865 = {
+	name = Loneleaf
+	culture = northman
+}
+800866 = {
+	name = Elfhorne
+	culture = northman
+}
+800867 = {
+	name = Silverfield
+	culture = half_southron
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 57
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	can_appear = no
+}
+
+
+59 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 41
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+63859 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 54
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	used_for_random = no
+	can_appear = no
+}
+60 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+61 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+62 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 10
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+63 = {
+	name="Hodor"
+	culture = northman
+}
+65 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 45
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+68 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 30
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+69 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 33
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+70 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 38
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+71 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 31
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+76 = {
+	name = "Hayes"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 46
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+79 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+81 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 37
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+82 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 39
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+83 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 12
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+84 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+85 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 27
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+86 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 23
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+87 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+88 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 19
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+89 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 14
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+90 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 36
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+91 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 18
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+93 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 35
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+94 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 16
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+95 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 28
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+101 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 34
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+102 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 24
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+350 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 13
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+351 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1443 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 44
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1444 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 48
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1445 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 43
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1446 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 42
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+1872 = {
+	name="Hodor"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 55
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1559 = {
+	name="Stark-Targaryen"
+	culture = northman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 56
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	used_for_random = no
+	can_appear = no
+}
+
+###Northamn Andal###
+89000 = {
+	name = "Hornsby"
+	culture = northman_andal
+}
+89001 = {
+	name = "Thorpe"
+	culture = northman_andal
+}
+89002 = {
+	name = "Jaswell"
+	culture = northman_andal
+}
+89003 = {
+	name = "Carlet"
+	culture = northman_andal
+}
+89004 = {
+	name = "Folman"
+	culture = northman_andal
+}
+89005 = {
+	name = "Carnaby"
+	culture = northman_andal
+}
+89006 = {
+	name = "Laxley"
+	culture = northman_andal
+}
+89007 = {
+	name = "Rutland"
+	culture = northman_andal
+}
+89008 = {
+	name = "Brightmyre"
+	culture = northman_andal
+}
+89009 = {
+	name = "Yellowbrook"
+	culture = northman_andal
+}
+89010 = {
+	name = "Moatwell"
+	culture = northman_andal
+}
+89011 = {
+	name = "Egelston"
+	culture = northman_andal
+}
+89012 = {
+	name = "Ysley"
+	culture = northman_andal
+}
+89013 = {
+	name = "Chamberlyng"
+	culture = northman_andal
+}
+89014 = {
+	name = "Mackelsworth"
+	culture = northman_andal
+}
+89015 = {
+	name = "Upton"
+	culture = northman_andal
+}
+89016 = {
+	name = "Chacewell"
+	culture = northman_andal
+}
+89017 = {
+	name = "Cynders"
+	culture = northman_andal
+}
+89018 = {
+	name = "Felton"
+	culture = northman_andal
+}
+89019 = {
+	name = "Evenhart"
+	culture = northman_andal
+}
+89020 = {
+	name = "Turner"
+	culture = northman_andal
+}
+89021 = {
+	name = "Dedwyck"
+	culture = northman_andal
+}
+89022 = {
+	name = "Stockwayn"
+	culture = northman_andal
+}
+89023 = {
+	name = "Burdyck"
+	culture = northman_andal
+}
+89024 = {
+	name = "Paston"
+	culture = northman_andal
+}
+89025 = {
+	name = "Hillcroft"
+	culture = northman_andal
+}
+89026 = {
+	name = "Clint"
+	culture = northman_andal
+}
+89027 = {
+	name = "Layton"
+	culture = northman_andal
+}
+89028 = {
+	name = "Mendham"
+	culture = northman_andal
+}
+89029 = {
+	name = "Wyckling"
+	culture = northman_andal
+}
+89030 = {
+	name = "Rumbold"
+	culture = northman_andal
+}
+89031 = {
+	name = "Morholt"
+	culture = northman_andal
+}
+89032 = {
+	name = "Bradgood"
+	culture = northman_andal
+}
+89033 = {
+	name = "Pendric"
+	culture = northman_andal
+}
+89034 = {
+	name = "Brakenell"
+	culture = northman_andal
+}
+89035 = {
+	name = "Goldmere"
+	culture = northman_andal
+}
+89036 = {
+	name = "Lindingham"
+	culture = northman_andal
+}
+89037 = {
+	name = "Lannet"
+	culture = northman_andal
+}
+89038 = {
+	name = "Ashwick"
+	culture = northman_andal
+}
+89039 = {
+	name = "Westfield"
+	culture = northman_andal
+}
+89040 = {
+	name = "Brakenell"
+	culture = northman_andal
+}
+89041 = {
+	name = "Overdam"
+	culture = northman_andal
+}
+89042 = {
+	name = "Kyndall"
+	culture = northman_andal
+}
+89043 = {
+	name = "Rockson"
+	culture = northman_andal
+}
+89044 = {
+	name = "Goldfallow"
+	culture = northman_andal
+}
+89045 = {
+	name = "Rockemar"
+	culture = northman_andal
+}
+89046 = {
+	name = "Maeson"
+	culture = northman_andal
+}
+89047 = {
+	name = "Seltar"
+	culture = northman_andal
+}
+89048 = {
+	name = "Lanser"
+	culture = northman_andal
+}
+89049 = {
+	name = "Merchin"
+	culture = northman_andal
+}
+89050 = {
+	name = "Campiron"
+	culture = northman_andal
+}
+89051 = {
+	name = "Rocke"
+	culture = northman_andal
+}
+89052 = {
+	name = "Linster"
+	culture = northman_andal
+}
+89053 = {
+	name = "Crooke"
+	culture = northman_andal
+}
+89054 = {
+	name = "Farheart"
+	culture = northman_andal
+}
+89055 = {
+	name = "Hearock"
+	culture = northman_andal
+}
+89056 = {
+	name = "Cinderton"
+	culture = northman_andal
+}
+89057 = {
+	name = "Gloryridge"
+	culture = northman_andal
+}
+89058 = {
+	name = "Silverfall"
+	culture = northman_andal
+}
+89059 = {
+	name = "Stoutspear"
+	culture = northman_andal
+}
+89060 = {
+	name = "Silverfist"
+	culture = northman_andal
+}
+89061 = {
+	name = "Goldhammer"
+	culture = northman_andal
+}
+89062 = {
+	name = "Leadbetter"
+	culture = northman_andal
+}
+89063 = {
+	name = "Smythe"
+	culture = northman_andal
+}
+89064 = {
+	name = "Goldhyl"
+	culture = northman_andal
+}
+89065 = {
+	name = "Buckshorn"
+	culture = northman_andal
+}
+89066 = {
+	name = "Redwyck"
+	culture = northman_andal
+}
+89067 = {
+	name = "Fishwell"
+	culture = northman_andal
+}
+89068 = {
+	name = "Newhall"
+	culture = northman_andal
+}
+89069 = {
+	name = "Hendy"
+	culture = northman_andal
+}
+89070 = {
+	name = "Pickwood"
+	culture = northman_andal
+}
+89071 = {
+	name = "Lychfield"
+	culture = northman_andal
+}
+89072 = {
+	name = "Durgood"
+	culture = northman_andal
+}
+89073 = {
+	name = "Grindell"
+	culture = northman_andal
+}
+89074 = {
+	name = "Knollwood"
+	culture = northman_andal
+}
+89075 = {
+	name = "Hagtree"
+	culture = northman_andal
+}
+89076 = {
+	name = "Gorland"
+	culture = northman_andal
+}
+89077 = {
+	name = "Merion"
+	culture = northman_andal
+}
+89078 = {
+	name = "Blakyston"
+	culture = northman_andal
+}
+89079 = {
+	name = "Brindlewood"
+	culture = northman_andal
+}
+89080 = {
+	name = "Crower"
+	culture = northman_andal
+}
+89081 = {
+	name = "Claughton"
+	culture = northman_andal
+}
+89082 = {
+	name = "Glenshaw"
+	culture = northman_andal
+}
+89083 = {
+	name = "Gotwyck"
+	culture = northman_andal
+}
+89084 = {
+	name = "Hallamore"
+	culture = northman_andal
+}
+89085 = {
+	name = "Shearer"
+	culture = northman_andal
+}
+89086 = {
+	name = "Kingwood"
+	culture = northman_andal
+}
+89087 = {
+	name = "Gullet"
+	culture = northman_andal
+}
+89088 = {
+	name = "Emmerwyck"
+	culture = northman_andal
+}
+89089 = {
+	name = "Whitrose"
+	culture = northman_andal
+}
+89090 = {
+	name = "Brock"
+	culture = northman_andal
+}
+89092 = {
+	name = "Bentley"
+	culture = northman_andal
+}
+89093 = {
+	name = "Lansdale"
+	culture = northman_andal
+}
+89094 = {
+	name = "Leek"
+	culture = northman_andal
+}
+89095 = {
+	name = "Wolfe"
+	culture = northman_andal
+}
+89096 = {
+	name = "Orland"
+	culture = northman_andal
+}
+89097 = {
+	name = "Algrey"
+	culture = northman_andal
+}
+89098 = {
+	name = "Greyfuir"
+	culture = northman_andal
+}
+89099 = {
+	name = "Holham"
+	culture = northman_andal
+}
+89100 = {
+	name = "Thelly"
+	culture = northman_andal
+}
+89101 = {
+	name = "Ryegate"
+	culture = northman_andal
+}
+89102 = {
+	name = "Hooton"
+	culture = northman_andal
+}
+89103 = {
+	name = "Colwyn"
+	culture = northman_andal
+}
+89104 = {
+	name = "Loom"
+	culture = northman_andal
+}
+89105 = {
+	name = "Flinn"
+	culture = northman_andal
+}
+89106 = {
+	name = "Gorrey"
+	culture = northman_andal
+}
+89107 = {
+	name = "Icemark"
+	culture = northman_andal
+}
+89108 = {
+	name = "Farrows"
+	culture = northman_andal
+}
+89109 = {
+	name = "Linden"
+	culture = northman_andal
+}
+89110 = {
+	name = "Greyshot"
+	culture = northman_andal
+}
+89111 = {
+	name = "Bordon"
+	culture = northman_andal
+}
+89112 = {
+	name = "Pall"
+	culture = northman_andal
+}
+89113 = {
+	name = "Peale"
+	culture = northman_andal
+}
+89114 = {
+	name = "Rossell"
+	culture = northman_andal
+}
+89115 = {
+	name = "Weale"
+	culture = northman_andal
+}
+89116 = {
+	name = "Kedge"
+	culture = northman_andal
+}
+89117 = {
+	name = "Sables"
+	culture = northman_andal
+}
+89118 = {
+	name = "Nobley"
+	culture = northman_andal
+}
+89119 = {
+	name = "Spring"
+	culture = northman_andal
+}
+89120 = {
+	name = "Barrows"
+	culture = northman_andal
+}
+89121 = {
+	name = "Raventree"
+	culture = northman_andal
+}
+89122 = {
+	name = "Hatcher"
+	culture = northman_andal
+}
+89123 = {
+	name = "Greycastle"
+	culture = northman_andal
+}
+89124 = {
+	name = "Barrowton"
+	culture = northman_andal
+}
+89125 = {
+	name = "Osbryn"
+	culture = northman_andal
+}
+89126 = {
+	name = "Graunce"
+	culture = northman_andal
+}
+89127 = {
+	name = "Smalls"
+	culture = northman_andal
+}
+89128 = {
+	name = "Ryder"
+	culture = northman_andal
+}
+89129 = {
+	name = "Greenwood"
+	culture = northman_andal
+}
+89130 = {
+	name = "Towers"
+	culture = northman_andal
+}
+89131 = {
+	name = "Amber"
+	culture = northman_andal
+}
+89132 = {
+	name = "Frost"
+	culture = northman_andal
+}
+89133 = {
+	name = "Degore"
+	culture = northman_andal
+}
+89134 = {
+	name = "Ashwood"
+	culture = northman_andal
+}
+89135 = {
+	name = "Holt"
+	culture = northman_andal
+}
+89136 = {
+	name = "Long"
+	culture = northman_andal
+}
+89137 = {
+	name = "Goodmen"
+	culture = northman_andal
+}
+89138 = {
+	name = "Finn"
+	culture = northman_andal
+}
+89139 = {
+	name = "Flintt"
+	culture = northman_andal
+}
+89140 = {
+	name = "Ashem"
+	culture = northman_andal
+}
+89141 = {
+	name = "Coldshire"
+	culture = northman_andal
+}
+89142 = {
+	name = "Winterdust"
+	culture = northman_andal
+}
+89143 = {
+	name = "Frostarm"
+	culture = northman_andal
+}
+89144 = {
+	name = "Snowleaf"
+	culture = northman_andal
+}
+89145 = {
+	name = "Hallomere"
+	culture = northman_andal
+}
+89146 = {
+	name = "Whiteforest"
+	culture = northman_andal
+}
+89147 = {
+	name = "Whitesteel"
+	culture = northman_andal
+}
+89148 = {
+	name = "Whitewhisk"
+	culture = northman_andal
+}
+89149 = {
+	name = "Winterless"
+	culture = northman_andal
+}
+89150 = {
+	name = "Coldflow"
+	culture = northman_andal
+}
+89151 = {
+	name = "Thicketh"
+	culture = northman_andal
+}
+89152 = {
+	name = "Tymber"
+	culture = northman_andal
+}
+89153 = {
+	name = "Bowman"
+	culture = northman_andal
+}
+89154 = {
+	name = "Bander"
+	culture = northman_andal
+}
+89155 = {
+	name = "Crander"
+	culture = northman_andal
+}
+89156 = {
+	name = "Mandersnow"
+	culture = northman_andal
+}
+89157 = {
+	name = "Snowrivers"
+	culture = northman_andal
+}
+89158 = {
+	name = "Sanderly"
+	culture = northman_andal
+}
+89159 = {
+	name = "Dirgewoode"
+	culture = northman_andal
+}
+89160 = {
+	name = "Loneleaf"
+	culture = northman_andal
+}
+89161 = {
+	name = "Elfhorne"
+	culture = northman_andal
+}
+89162 = {
+	name = "Silverfield"
+	culture = northman_andal
+}
+89163 = {
+	name = "Prinksett"
+	culture = northman_andal
+}
+89164 = {
+	name = "Fisher"
+	culture = northman_andal
+}
+89165 = {
+	name = "Ryswell"
+	culture = northman_andal
+}
+89166 = {
+	name = "Stout"
+	culture = northman_andal
+}
+89167 = {
+	name = "Whitehill"
+	culture = northman_andal
+}
+89168 = {
+	name = "Slate"
+	culture = northman_andal
+}
+89169 = {
+	name = "Hayes"
+	culture = northman_andal
+}
+89170 = {
+	name = "Wells"
+	culture = northman_andal
+}
+89171 = {
+	name = "Woolfield"
+	culture = northman_andal
+}
+89172 = {
+	name = "Hornwood"
+	culture = northman_andal
+}
+89173 = {
+	name = "Flint"
+	culture = northman_andal
+}
+89174 = {
+	name = "Overton"
+	culture = northman_andal
+}
+89175 = {
+	name = "Mollen"
+	culture = northman_andal
+}
+89176 = {
+	name = "Locke"
+	culture = northman_andal
+}
+89177 = {
+	name = "Waterman"
+	culture = northman_andal
+}
+89178 = {
+	name = "Lightfoot"
+	culture = northman_andal
+}
+89179 = {
+	name = "Lake"
+	culture = northman_andal
+}
+89180 = {
+	name = "Poole"
+	culture = northman_andal
+}
+89181 = {
+	name = "Tallhart"
+	culture = northman_andal
+}
+89182 = {
+	name = "Ironsmith"
+	culture = northman_andal
+}
+89183 = {
+	name = "Condon"
+	culture = northman_andal
+}
+89184 = {
+	name = "Forrester"
+	culture = northman_andal
+}
+89185 = {
+	name = "Woods"
+	culture = northman_andal
+}
+89186 = {
+	name = "Branch"
+	culture = northman_andal
+}
+89187 = {
+	name = "Bole"
+	culture = northman_andal
+}
+89188 = {
+	name = "Tuttle"
+	culture = northman_andal
+}

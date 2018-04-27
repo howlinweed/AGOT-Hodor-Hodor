@@ -1,0 +1,980 @@
+559101 = {
+	name="Hodor"
+	culture = wildling
+}
+559102 = {
+	name="Hodor"
+	culture = wildling
+}
+559103 = {
+	name="Hodor"
+	culture = wildling
+}
+559104 = {
+	name="Hodor"
+	culture = wildling
+}
+559105 = {
+	name="Hodor"
+	culture = wildling
+}
+559106 = {
+	name="Hodor"
+	culture = wildling
+}
+559107 = {
+	name="Hodor"
+	culture = wildling
+}
+559108 = {
+	name="Hodor"
+	culture = wildling
+}
+559109 = {
+	name="Hodor"
+	culture = wildling
+}
+559110 = {
+	name="Hodor"
+	culture = wildling
+}
+559111 = {
+	name="Hodor"
+	culture = wildling
+}
+
+559112 = {
+	name="Hodor"
+	culture = wildling
+}
+559113 = {
+	name="Hodor"
+	culture = wildling
+}
+559114 = {
+	name="Hodor"
+	culture = wildling
+}
+559115 = {
+	name="Hodor"
+	culture = wildling
+}
+559116 = {
+	name="Hodor"
+	culture = wildling
+}
+559117 = {
+	name="Hodor"
+	culture = wildling
+}
+559118 = {
+	name="Hodor"
+	culture = wildling
+}
+559119 = {
+	name="Hodor"
+	culture = wildling
+}
+559120 = {
+	name="Hodor"
+	culture = wildling
+}
+559121 = {
+	name="Hodor"
+	culture = wildling
+}
+559122 = {
+	name="Hodor"
+	culture = wildling
+}
+559123 = {
+	name="Hodor"
+	culture = wildling
+}
+559124 = {
+	name="Hodor"
+	culture = wildling
+}
+559125 = {
+	name="Hodor"
+	culture = wildling
+}
+559126 = {
+	name="White Mask"
+	culture = wildling
+}
+559127 = {
+	name="Hodor"
+	culture = wildling
+}
+559128 = {
+	name="Hodor"
+	culture = wildling
+}
+559129 = {
+	name="Hodor"
+	culture = wildling
+}
+559130 = {
+	name="Hodor"
+	culture = wildling
+}
+559131 = {
+	name="Hodor"
+	culture = wildling
+}
+174345 = {
+	name="of Ruddy Hall"
+	culture = wildling
+}
+174346 = {
+	name="of Skirling Pass"
+	culture = wildling
+}
+174347 = {
+	name = "Rayder"
+	culture = wildling
+}
+174348 = {
+	name="Hodor"
+	culture = wildling
+}
+174349 = {
+	name="Hodor"
+	culture = wildling
+	}
+174350 = {
+	name="Hodor"
+	culture = wildling
+}
+174351 = {
+	name="Hodor"
+	culture = wildling
+}
+174352 = {
+	name="Hodor"
+	culture = wildling
+}
+174353 = {
+	name="Hodor"
+	culture = wildling
+}
+174402 = {
+	name="Wooden Ear"
+	culture = wildling
+}
+174403 = {
+	name="Hodor"
+	culture = wildling
+}
+174404 = {
+	name="Hodor"
+	culture = wildling
+}
+174408 = {
+	name="Hodor"
+	culture = wildling
+}
+1174345 = {
+	name="Hodor"
+	culture = wildling
+}
+4500016 = {
+	name = "Palefist"
+	culture = wildling
+}
+4500017 = {
+	name = "Bloodfang"
+	culture = wildling
+}
+559132 = {
+	name = "Skullskinner"
+	culture = wildling
+}
+559133 = {
+	name = "Hallowbluff"
+	culture = wildling
+}
+559134 = {
+	name = "Whitehunt"
+	culture = wildling
+}
+559135 = {
+	name = "Bronzefrost"
+	culture = wildling
+}
+559136 = {
+	name = "Starwood"
+	culture = wildling
+}
+559137 = {
+	name = "Bluespear"
+	culture = wildling
+}
+559138 = {
+	name = "Warghorn"
+	culture = wildling
+}
+559139 = {
+	name = "Heartwhisper"
+	culture = wildling
+}
+559140 = {
+	name = "Burninghead"
+	culture = wildling
+}
+559141 = {
+	name = "Hardhunter"
+	culture = wildling
+}
+559142 = {
+	name = "Lockblade"
+	culture = wildling
+}
+559143 = {
+	name = "Stonemorn"
+	culture = wildling
+}
+559144 = {
+	name = "Greensky"
+	culture = wildling
+}
+559145 = {
+	name = "Boarshaper"
+	culture = wildling
+}
+559146 = {
+	name = "Bridgeshield"
+	culture = wildling
+}
+559147 = {
+	name = "Skullarm"
+	culture = wildling
+}
+559148 = {
+	name = "Sealcut"
+	culture = wildling
+}
+559149 = {
+	name = "Crowbane"
+	culture = wildling
+}
+559150 = {
+	name = "Freeskull"
+	culture = wildling
+}
+559151 = {
+	name = "Pikeshot"
+	culture = wildling
+}
+559152 = {
+	name = "Egelbone"
+	culture = wildling
+}
+559153 = {
+	name = "Shieldblood"
+	culture = wildling
+}
+559154 = {
+	name = "Varabane"
+	culture = wildling
+}
+559155 = {
+	name = "Sternhell"
+	culture = wildling
+}
+559156 = {
+	name = "Spearwarrior"
+	culture = wildling
+}
+559157 = {
+	name = "Skywillow"
+	culture = wildling
+}
+559158 = {
+	name = "Manwatcher"
+	culture = wildling
+}
+559159 = {
+	name = "Redtree"
+	culture = wildling
+}
+559160 = {
+	name = "Bloodmember"
+	culture = wildling
+}
+559161 = {
+	name = "Blackwolf"
+	culture = wildling
+}
+559162 = {
+	name = "Weirbar"
+	culture = wildling
+}
+559163 = {
+	name = "Wolfkiller"
+	culture = wildling
+}
+559164 = {
+	name = "Demonface"
+	culture = wildling
+}
+559165 = {
+	name = "Thanrage"
+	culture = wildling
+}
+559166 = {
+	name = "Songmask"
+	culture = wildling
+}
+559167 = {
+	name = "Torbow"
+	culture = wildling
+}
+559168 = {
+	name = "Godsword"
+	culture = wildling
+}
+559169 = {
+	name = "Woodsmane"
+	culture = wildling
+}
+559170 = {
+	name = "Goreshield"
+	culture = wildling
+}
+559171 = {
+	name = "Drydemon"
+	culture = wildling
+}
+559172 = {
+	name = "Warriorkin"
+	culture = wildling
+}
+559173 = {
+	name = "Woodskinner"
+	culture = wildling
+}
+559174 = {
+	name = "Songwarrior"
+	culture = wildling
+}
+559175 = {
+	name = "Burningboar"
+	culture = wildling
+}
+559176 = {
+	name = "Wolfmember"
+	culture = wildling
+}
+559177 = {
+	name = "Starwhisper"
+	culture = wildling
+}
+559178 = {
+	name = "Shadeface"
+	culture = wildling
+}
+559179 = {
+	name = "Sternsun"
+	culture = wildling
+}
+559180 = {
+	name = "Oldhorn"
+	culture = wildling
+}
+559181 = {
+	name = "Greenchief"
+	culture = wildling
+}
+559182 = {
+	name = "Bridgeshaper"
+	culture = wildling
+}
+559183 = {
+	name = "Redbone"
+	culture = wildling
+}
+559184 = {
+	name = "Sealtamer"
+	culture = wildling
+}
+559185 = {
+	name = "Pikehead"
+	culture = wildling
+}
+559186 = {
+	name = "Demonfrost"
+	culture = wildling
+}
+559187 = {
+	name = "Whitekiller"
+	culture = wildling
+}
+559188 = {
+	name = "Axehunt"
+	culture = wildling
+}
+559189 = {
+	name = "Bloodconn"
+	culture = wildling
+}
+559190 = {
+	name = "Skytree"
+	culture = wildling
+}
+559191 = {
+	name = "Boarhunter"
+	culture = wildling
+}
+559192 = {
+	name = "Icerage"
+	culture = wildling
+}
+559193 = {
+	name = "Heartcut"
+	culture = wildling
+}
+559194 = {
+	name = "Blackgaze"
+	culture = wildling
+}
+559195 = {
+	name = "Marawatcher"
+	culture = wildling
+}
+559196 = {
+	name = "Godserpent"
+	culture = wildling
+}
+559197 = {
+	name = "Kingsblood"
+	culture = wildling
+}
+559198 = {
+	name = "Hallowclaw"
+	culture = wildling
+}
+559199 = {
+	name = "Weirspear"
+	culture = wildling
+}
+559200 = {
+	name = "Bluebluff"
+	culture = wildling
+}
+559201 = {
+	name = "Lockmask"
+	culture = wildling
+}
+559202 = {
+	name = "Warriordemon"
+	culture = wildling
+}
+559203 = {
+	name = "Flintwood"
+	culture = wildling
+}
+559204 = {
+	name = "Egelskull"
+	culture = wildling
+}
+559205 = {
+	name = "Drynmane"
+	culture = wildling
+}
+559206 = {
+	name = "Shieldarm"
+	culture = wildling
+}
+559207 = {
+	name = "Torbow"
+	culture = wildling
+}
+559208 = {
+	name = "Highwolf"
+	culture = wildling
+}
+559209 = {
+	name = "Hardsheep"
+	culture = wildling
+}
+559210 = {
+	name = "Thannkin"
+	culture = wildling
+}
+559211 = {
+	name = "Bearhell"
+	culture = wildling
+}
+559212 = {
+	name = "Bronzegrand"
+	culture = wildling
+}
+559213 = {
+	name = "Mansword"
+	culture = wildling
+}
+559214 = {
+	name = "Crowguard"
+	culture = wildling
+}
+559215 = {
+	name = "Skullbane"
+	culture = wildling
+}
+559216 = {
+	name = "Spearbane"
+	culture = wildling
+}
+559217 = {
+	name = "Freemorn"
+	culture = wildling
+}
+559218 = {
+	name = "Granblade"
+	culture = wildling
+}
+559219 = {
+	name = "Nightstar"
+	culture = wildling
+}
+559220 = {
+	name = "Varashot"
+	culture = wildling
+}
+559221 = {
+	name = "Stonepeak"
+	culture = wildling
+}
+559223 = {
+	name = Hardblade
+	culture = wildling
+}
+559224 = {
+	name = Tallseeker
+	culture = wildling
+}
+559225 = {
+	name = Hellbelly
+	culture = wildling
+}
+559226 = {
+	name = Icebane
+	culture = wildling
+}
+559227 = {
+	name = Moonmourn
+	culture = wildling
+}
+559228 = {
+	name = Bluebeard
+	culture = wildling
+}
+559229 = {
+	name = Icecrest
+	culture = wildling
+}
+559230 = {
+	name = Steelwood
+	culture = wildling
+}
+559231 = {
+	name = Fasthand
+	culture = wildling
+}
+559232 = {
+	name = Amberscar
+	culture = wildling
+}
+559233 = {
+	name = Nightshield
+	culture = wildling
+}
+559234 = {
+	name = Threespark
+	culture = wildling
+}
+559235 = {
+	name = Stoneflame
+	culture = wildling
+}
+559236 = {
+	name = Fernwalker
+	culture = wildling
+}
+559237 = {
+	name = Steelcreek
+	culture = wildling
+}
+559238 = {
+	name = Iceaxe
+	culture = wildling
+}
+559239 = {
+	name = Yellowhair
+	culture = wildling
+}
+
+### Giants
+6660010 = {
+	name = "Mar Tun Doh Weg"
+	culture = giant
+}
+6660011 = {
+	name = "Weg Wun Dar Wun"
+	culture = giant
+}
+6660012 = {
+	name = "Doh War Wun Tug"
+	culture = giant
+}
+6660013 = {
+	name = "Mar Weg Doh Wun"
+	culture = giant
+}
+6660014 = {
+	name = "Doh Wun Dar Weg"
+	culture = giant
+}
+6660015 = {
+	name = "Weg Mar Bun Doh"
+	culture = giant
+}
+
+###  Thenn catch-all
+
+6660016 = {
+	name = "of Thenn"
+	culture = thenn
+}
+#for historical thenns
+174344 = {
+	name="of Thenn"
+	culture = thenn
+	used_for_random = no
+	can_appear = no
+}
+1174344 = {
+	name="Hodor"
+	culture = thenn
+	used_for_random = no
+	can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 47
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+## Frozen Shore
+559250 = {
+	name="Hodor"
+	culture = frozen_shore
+}
+559251 = {
+	name="Hodor"
+	culture = frozen_shore
+}
+559252 = {
+	name="Hodor"
+	culture = frozen_shore
+}
+559253 = {
+	name="Hodor"
+	culture = frozen_shore
+}
+559254 = {
+	name="Hodor"
+	culture = frozen_shore
+}
+559255 = {
+	name="Hodor"
+	culture = frozen_shore
+}
+559256 = {
+	name="Hodor"
+	culture = frozen_shore
+}
+559257 = {
+	name="Hodor"
+	culture = frozen_shore
+}
+559258 = {
+	name="Hodor"
+	culture = frozen_shore
+}
+559259 = {
+	name="Hodor"
+	culture = frozen_shore
+}
+559260 = {
+	name="Hodor"
+	culture = frozen_shore
+}
+559261 = {
+	name="Hodor"
+	culture = frozen_shore
+}
+559262 = {
+	name="Hodor"
+	culture = frozen_shore
+}
+559263 = {
+	name="Hodor"
+	culture = frozen_shore
+}
+559264 = {
+	name="Hodor"
+	culture = frozen_shore
+}
+559265 = {
+	name="Hodor"
+	culture = frozen_shore
+}
+559266 = {
+	name="Hodor"
+	culture = frozen_shore
+}
+559267 = {
+	name="Hodor"
+	culture = frozen_shore
+}
+559268 = {
+	name="Hodor"
+	culture = frozen_shore
+}
+559269 = {
+	name="Hodor"
+	culture = frozen_shore
+}
+559270 = {
+	name="Hodor"
+	culture = frozen_shore
+}
+559271 = {
+	name="Hodor"
+	culture = frozen_shore
+}
+559272 = {
+	name="Hodor"
+	culture = frozen_shore
+}
+559273 = {
+	name="Hodor"
+	culture = frozen_shore
+}
+559274 = {
+	name="Hodor"
+	culture = frozen_shore
+}
+
+## Hornfoot
+559300 = {
+	name="Hodor"
+	culture = hornfoot
+}
+559301 = {
+	name="Hodor"
+	culture = hornfoot
+}
+559302 = {
+	name="Hodor"
+	culture = hornfoot
+}
+559303 = {
+	name="Hodor"
+	culture = hornfoot
+}
+559304 = {
+	name="Hodor"
+	culture = hornfoot
+}
+559305 = {
+	name="Hodor"
+	culture = hornfoot
+}
+559306 = {
+	name="Hodor"
+	culture = hornfoot
+}
+559307 = {
+	name="Hodor"
+	culture = hornfoot
+}
+559308 = {
+	name="Hodor"
+	culture = hornfoot
+}
+559309 = {
+	name="Hodor"
+	culture = hornfoot
+}
+559310 = {
+	name="Hodor"
+	culture = hornfoot
+}
+559311 = {
+	name="Hodor"
+	culture = hornfoot
+}
+559312 = {
+	name="Hodor"
+	culture = hornfoot
+}
+559313 = {
+	name="Hodor"
+	culture = hornfoot
+}
+559314 = {
+	name="Hodor"
+	culture = hornfoot
+}
+559315 = {
+	name="Hodor"
+	culture = hornfoot
+}
+559316 = {
+	name="Hodor"
+	culture = hornfoot
+}
+559317 = {
+	name="Hodor"
+	culture = hornfoot
+}
+559318 = {
+	name="Hodor"
+	culture = hornfoot
+}
+559319 = {
+	name="Hodor"
+	culture = hornfoot
+}
+559320 = {
+	name="Hodor"
+	culture = hornfoot
+}
+559321 = {
+	name="Hodor"
+	culture = hornfoot
+}
+559322 = {
+	name="Hodor"
+	culture = hornfoot
+}
+559323 = {
+	name="Hodor"
+	culture = hornfoot
+}
+559324 = {
+	name="Hodor"
+	culture = hornfoot
+}
+
+## Cannibal Clan
+559350 = {
+	name = Icefist
+	culture = cannibal_clan
+}
+559351 = {
+	name = Keenbend
+	culture = cannibal_clan
+}
+559352 = {
+	name = Deadeater
+	culture = cannibal_clan
+}
+559353 = {
+	name = Fleshfeast
+	culture = cannibal_clan
+}
+559354 = {
+	name = Clanbreaker
+	culture = cannibal_clan
+}
+559355 = {
+	name = Redriver
+	culture = cannibal_clan
+}
+559356 = {
+	name = Winterschief
+	culture = cannibal_clan
+}
+559357 = {
+	name = Riverblood
+	culture = cannibal_clan
+}
+559358 = {
+	name = Icebrow
+	culture = cannibal_clan
+}
+559359 = {
+	name = Crowcleaver
+	culture = cannibal_clan
+}
+559360 = {
+	name = Bonegorger
+	culture = cannibal_clan
+}
+559361 = {
+	name = Runerun
+	culture = cannibal_clan
+}
+559362 = {
+	name = Strongtooth
+	culture = cannibal_clan
+}
+559363 = {
+	name = Cannibal
+	culture = cannibal_clan
+}
+559364 = {
+	name = Manhunter
+	culture = cannibal_clan
+}
+559365 = {
+	name = Iceblood
+	culture = cannibal_clan
+}
+559366 = {
+	name = Mournflayer
+	culture = cannibal_clan
+}
+559367 = {
+	name = Crowcloak
+	culture = cannibal_clan
+}
+559368 = {
+	name = Greensbane
+	culture = cannibal_clan
+}
+559369 = {
+	name = Battlesteel
+	culture = cannibal_clan
+}
+559370 = {
+	name = Lordeater
+	culture = cannibal_clan
+}
+559371 = {
+	name = Iceriver
+	culture = cannibal_clan
+}
+559372 = {
+	name = Drinkblood
+	culture = cannibal_clan
+}
+559373 = {
+	name = Bronzeforest
+	culture = cannibal_clan
+}
+559374 = {
+	name = Bones
+	culture = cannibal_clan
+}

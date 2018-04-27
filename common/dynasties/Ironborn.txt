@@ -1,0 +1,934 @@
+#Non-canon Houses for random
+174440 = {
+	name="Hodor"
+	culture = ironborn
+}
+174441 = {
+	name="Hodor"
+	culture = ironborn
+}
+174442 = {
+	name="Hodor"
+	culture = ironborn
+}
+174443 = {
+	name="Hodor"
+	culture = ironborn
+}
+174444 = {
+	name="Hodor"
+	culture = ironborn
+}
+174445 = {
+	name="Hodor"
+	culture = ironborn
+}
+174446 = {
+	name="Hodor"
+	culture = ironborn
+}
+174447 = {
+	name="Hodor"
+	culture = ironborn
+}
+174448 = {
+	name="Hodor"
+	culture = ironborn
+}
+174449 = {
+	name="Hodor"
+	culture = ironborn
+}
+174450 = {
+	name="Hodor"
+	culture = ironborn
+}
+174451 = {
+	name = Rothbone
+	culture = ironborn
+}
+174452 = {
+	name = Mastley
+	culture = ironborn
+}
+174453 = {
+	name = Nateby
+	culture = ironborn
+}
+174454 = {
+	name = Farlyn
+	culture = ironborn
+}
+174455 = {
+	name = Setbone
+	culture = ironborn
+}
+174456 = {
+	name = Mottingly
+	culture = ironborn
+}
+174457 = {
+	name = Tilden
+	culture = ironborn
+}
+174458 = {
+	name = Gargrave
+	culture = ironborn
+}
+174459 = {
+	name = Seaman
+	culture = ironborn
+}
+174460 = {
+	name = Blackram
+	culture = ironborn
+}
+174461 = {
+	name = Stonekyme
+	culture = ironborn
+}
+174462 = {
+	name = Barrows
+	culture = ironborn
+}
+174463 = {
+	name = Staves
+	culture = ironborn
+}
+174464 = {
+	name = Stayr
+	culture = ironborn
+}
+174465 = {
+	name = Folwynd
+	culture = ironborn
+}
+174466 = {
+	name = Flagg
+	culture = ironborn
+}
+174467 = {
+	name = Vyx
+	culture = ironborn
+}
+174468 = {
+	name = Shields
+	culture = ironborn
+}
+174469 = {
+	name = Mistwater
+	culture = ironborn
+}
+174470 = {
+	name = Ironmark
+	culture = ironborn
+}
+174471 = {
+	name = Seabury
+	culture = ironborn
+}
+174472 = {
+	name = Lynch
+	culture = ironborn
+}
+174473 = {
+	name = Hake
+	culture = ironborn
+}
+174474 = {
+	name = Pews
+	culture = ironborn
+}
+174475 = {
+	name = Burrows
+	culture = ironborn
+}
+174476 = {
+	name = Sharpley
+	culture = ironborn
+}
+174477 = {
+	name = Meade
+	culture = ironborn
+}
+174478 = {
+	name = Grix
+	culture = ironborn
+}
+174479 = {
+	name = Irondale
+	culture = ironborn
+}
+174480 = {
+	name = Tidewater
+	culture = ironborn
+}
+174481 = {
+	name = Tidebreaker
+	culture = ironborn
+}
+174482 = {
+	name = Breakwater
+	culture = ironborn
+}
+174483 = {
+	name = Breakiron
+	culture = ironborn
+}
+174484 = {
+	name = Ironbreaker
+	culture = ironborn
+}
+174485 = {
+	name = Seadrinker
+	culture = ironborn
+}
+174486 = {
+	name = Thralltaker
+	culture = ironborn
+}
+174487 = {
+	name = Longwater
+	culture = ironborn
+}
+174488 = {
+	name = Farwater
+	culture = ironborn
+}
+174489 = {
+	name = Ironwater
+	culture = ironborn
+}
+174490 = {
+	name = Pisswater
+	culture = ironborn
+}
+174491 = {
+	name = Irontide
+	culture = ironborn
+}
+
+#canon
+64 = {
+	name="Hodor"
+	culture = ironborn
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+66 = {
+	name="Hodor"
+	culture = ironborn
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 19
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	used_for_random = no
+}
+67 = {
+	name="Hodor"
+	culture = ironborn
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 12
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+107 = {
+	name = "Greyjoy"
+	culture = ironborn
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+108 = {
+	name="Hodor"
+	culture = ironborn
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 17
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+109 = {
+	name="Hodor"
+	culture = ironborn
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+110 = {
+	name="Hodor"
+	culture = ironborn
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+111 = {
+	name="Hodor"
+	culture = ironborn
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 16
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+112 = {
+	name="Hodor"
+	culture = ironborn
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+113 = {
+	name="Hodor"
+	culture = ironborn
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 14
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+114 = {
+	name="Hodor"
+	culture = ironborn
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+115 = {
+	name="Hodor"
+	culture = ironborn
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 15
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+116 = {
+	name="Hodor"
+	culture = ironborn
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+117 = {
+	name="Hodor"
+	culture = ironborn
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 13
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+118 = {
+	name="Hodor"
+	culture = ironborn
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+119 = {
+	name="Hodor"
+	culture = ironborn
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+120 = {
+	name="Hodor"
+	culture = ironborn
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 9
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+121 = {
+	name = "Drumm"
+	culture = ironborn
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 10
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+122 = {
+	name="Hodor"
+	culture = ironborn
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 11
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+123 = {
+	name="Hodor"
+	culture = ironborn
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 18
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+124 = {
+	name="Hodor"
+	culture = ironborn
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 25
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	can_appear = no
+}
+174419 = {
+	name="Hodor"
+	culture = ironborn
+	divine_blood=yes
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 20
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	can_appear = no
+}
+174420 = {
+	name="Hodor"
+	culture = ironborn
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 21
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	used_for_random = no
+	can_appear = no
+}
+174421 = {
+	name="Hodor"
+	culture = ironborn
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 22
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	can_appear = no
+}
+174422 = {
+	name="Hodor"
+	culture = ironborn
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 23
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	can_appear = no
+}
+174423 = {
+	name="Hodor"
+	culture = ironborn
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 24
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	can_appear = no
+}
+174424 = {
+	name="Hodor"
+	culture = ironborn
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 26
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	can_appear = no
+}
+
+4500019 = {
+	name = "Ironmaker"
+	culture = ironborn
+	used_for_random = no
+	can_appear = no
+}
+
+1836582 = {
+	name="Hodor" #Nagga
+	culture = dragon_culture
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	can_appear = no
+	used_for_random = no
+}
+
+#Old Ironborn
+175440 = {
+	name="Hodor"
+	culture = old_ironborn
+}
+175441 = {
+	name="Hodor"
+	culture = old_ironborn
+}
+175442 = {
+	name="Hodor"
+	culture = old_ironborn
+}
+175443 = {
+	name="Hodor"
+	culture = old_ironborn
+}
+175444 = {
+	name="Hodor"
+	culture = old_ironborn
+}
+175445 = {
+	name="Hodor"
+	culture = old_ironborn
+}
+175446 = {
+	name="Hodor"
+	culture = old_ironborn
+}
+175447 = {
+	name="Hodor"
+	culture = old_ironborn
+}
+175448 = {
+	name="Hodor"
+	culture = old_ironborn
+}
+175449 = {
+	name="Hodor"
+	culture = old_ironborn
+}
+175450 = {
+	name="Hodor"
+	culture = old_ironborn
+}
+175451 = {
+	name = Rothbone
+	culture = old_ironborn
+}
+175452 = {
+	name = Mastley
+	culture = old_ironborn
+}
+175453 = {
+	name = Nateby
+	culture = old_ironborn
+}
+175454 = {
+	name = Farlyn
+	culture = old_ironborn
+}
+175455 = {
+	name = Setbone
+	culture = old_ironborn
+}
+175456 = {
+	name = Mottingly
+	culture = old_ironborn
+}
+175457 = {
+	name = Tilden
+	culture = old_ironborn
+}
+175458 = {
+	name = Gargrave
+	culture = old_ironborn
+}
+175459 = {
+	name = Seaman
+	culture = old_ironborn
+}
+175460 = {
+	name = Blackram
+	culture = old_ironborn
+}
+175461 = {
+	name = Stonekyme
+	culture = old_ironborn
+}
+175462 = {
+	name = Barrows
+	culture = old_ironborn
+}
+175463 = {
+	name = Staves
+	culture = old_ironborn
+}
+175464 = {
+	name = Stayr
+	culture = old_ironborn
+}
+175465 = {
+	name = Folwynd
+	culture = old_ironborn
+}
+175466 = {
+	name = Flagg
+	culture = old_ironborn
+}
+175467 = {
+	name = Vyx
+	culture = old_ironborn
+}
+175468 = {
+	name = Shields
+	culture = old_ironborn
+}
+175469 = {
+	name = Mistwater
+	culture = old_ironborn
+}
+175470 = {
+	name = Ironmark
+	culture = old_ironborn
+}
+175471 = {
+	name = Seabury
+	culture = old_ironborn
+}
+175472 = {
+	name = Lynch
+	culture = old_ironborn
+}
+175473 = {
+	name = Hake
+	culture = old_ironborn
+}
+175474 = {
+	name = Pews
+	culture = old_ironborn
+}
+175475 = {
+	name = Burrows
+	culture = old_ironborn
+}
+175476 = {
+	name = Sharpley
+	culture = old_ironborn
+}
+175477 = {
+	name = Meade
+	culture = old_ironborn
+}
+175478 = {
+	name = Grix
+	culture = old_ironborn
+}
+175479 = {
+	name = Irondale
+	culture = old_ironborn
+}
+175480 = {
+	name = Tidewater
+	culture = old_ironborn
+}
+175481 = {
+	name = Tidebreaker
+	culture = old_ironborn
+}
+175482 = {
+	name = Breakwater
+	culture = old_ironborn
+}
+175483 = {
+	name = Breakiron
+	culture = old_ironborn
+}
+175484 = {
+	name = Ironbreaker
+	culture = old_ironborn
+}
+175485 = {
+	name = Seadrinker
+	culture = old_ironborn
+}
+175486 = {
+	name = Thralltaker
+	culture = old_ironborn
+}
+175487 = {
+	name = Longwater
+	culture = old_ironborn
+}
+175488 = {
+	name = Farwater
+	culture = old_ironborn
+}
+175489 = {
+	name = Ironwater
+	culture = old_ironborn
+}
+175490 = {
+	name = Pisswater
+	culture = old_ironborn
+}
+175491 = {
+	name = Irontide
+	culture = old_ironborn
+}
+175492 = {
+	name="Hodor"
+	culture = old_ironborn
+}
+175493 = {
+	name="Hodor"
+	culture = old_ironborn
+}
+175494 = {
+	name="Hodor"
+	culture = old_ironborn
+}
+175495 = {
+	name="Hodor"
+	culture = old_ironborn
+}
+175496 = {
+	name="Hodor"
+	culture = old_ironborn
+}
+175497 = {
+	name="Hodor"
+	culture = old_ironborn
+}
+175498 = {
+	name="Hodor"
+	culture = old_ironborn
+}
+175499 = {
+	name="Hodor"
+	culture = old_ironborn
+}
+175500 = {
+	name="Hodor"
+	culture = old_ironborn
+}
+175501 = {
+	name="Hodor"
+	culture = old_ironborn
+}
+175502 = {
+	name="Hodor"
+	culture = old_ironborn
+}
+175503 = {
+	name="Hodor"
+	culture = old_ironborn
+}
+175504 = {
+	name="Hodor"
+	culture = old_ironborn
+}
+175505 = {
+	name="Hodor"
+	culture = old_ironborn
+}
+175506 = {
+	name="Hodor"
+	culture = old_ironborn
+}
+175507 = {
+	name="Hodor"
+	culture = old_ironborn
+}
+175508 = {
+	name="Hodor"
+	culture = old_ironborn
+}
+175509 = {
+	name="Hodor"
+	culture = old_ironborn
+}
+

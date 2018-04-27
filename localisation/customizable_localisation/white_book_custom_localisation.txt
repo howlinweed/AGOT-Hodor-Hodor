@@ -1,0 +1,534 @@
+#Used in the kingsguard whitebook decision
+defined_text = {
+	name = GetKGWhiteBookWasLC
+	
+	text = {
+		localisation_key = TOOLTIPKGWASLC #was Lord Commander of the Kingsguard 
+		trigger = { liege = { character = PREV } }
+		
+	}
+	text = {
+		localisation_key = TOOLTIPKGDURINGKING #was Lord Commander of the Kingsguard during the reign of [This.Liege.GetTitledFirstName] of the House [This.Liege.GetOnlyDynastyName]
+		trigger = { NOT = { liege = { character = PREV } } }
+	}
+}
+defined_text = {
+	name = GetKGWhiteBookWasKG
+	
+	text = {
+		localisation_key = TOOLTIPKGWASMEM #was a member of the Kingsguard 
+		trigger = { 
+			OR = {
+				liege = { character = PREV } 
+				liege = { liege = { character = PREV } }
+			}	
+		}
+		
+	}
+	text = {
+		localisation_key = TOOLTIPKGMEMDURINGKING #was a member of the Kingsguard during the reign of [This.Liege.GetTitledFirstName] of the House [This.Liege.GetOnlyDynastyName]
+		trigger = { 
+			NOT = { liege = { character = PREV } } 
+			NOT = { liege = { liege = { character = PREV } } }
+		}
+	}
+}
+defined_text = {
+	name = GetKGWhiteBookNickname
+	
+	text = {
+		localisation_key = TOOLTIPKGBLANK
+		trigger = { 
+			OR = {
+				has_nickname = no
+				has_bastard_nickname_trigger = yes
+			}	
+		}
+		
+	}
+	text = {
+		localisation_key = TOOLTIPKGKNOWNNICK #, also known as '[This.GetFirstNameWithNick]', 
+		trigger = { 
+			has_nickname = yes
+			has_bastard_nickname_trigger = no	
+		}
+	}
+}
+defined_text = {
+	name = GetKGWhiteBookTrait1
+	
+	text = {
+		localisation_key = TOOLTIPKGBLANK
+		weight_multiplier = { factor = 1 }
+	}
+	text = {
+		localisation_key = TOOLTIPKGHONOURABLE # and was a knight of the highest honor
+		trigger = { trait = honorable }
+		weight_multiplier = { factor = 1000 }
+	}
+	text = {
+		localisation_key = TOOLTIPKGRUTHLESS
+		trigger = { trait = ruthless }
+		weight_multiplier = { factor = 1000 }
+	}
+	text = {
+		localisation_key = TOOLTIPKGBRAVE
+		trigger = { trait = brave }
+		weight_multiplier = { factor = 1000 }
+	}
+	text = {
+		localisation_key = TOOLTIPKGDILIGENT
+		trigger = { trait = diligent }
+		weight_multiplier = { factor = 1000 }
+	}
+	text = {
+		localisation_key = TOOLTIPKGKIND
+		trigger = { trait = kind }
+		weight_multiplier = { factor = 1000 }
+	}
+	text = {
+		localisation_key = TOOLTIPKGLUNATIC
+		trigger = { trait = lunatic }
+		weight_multiplier = { factor = 1000 }
+	}
+	text = {
+		localisation_key = TOOLTIPKGDRUNKARD
+		trigger = { trait = drunkard }
+		weight_multiplier = { factor = 1000 }
+	}
+	text = {
+		localisation_key = TOOLTIPKGLUSTFUL
+		trigger = { trait = lustful }
+		weight_multiplier = { factor = 1000 }
+	}
+	text = {
+		localisation_key = TOOLTIPKGLUTTONOUS
+		trigger = { trait = gluttonous }
+		weight_multiplier = { factor = 1000 }
+	}
+	text = {
+		localisation_key = TOOLTIPKwroth
+		trigger = { trait = wroth }
+		weight_multiplier = { factor = 1000 }
+	}
+	text = {
+		localisation_key = TOOLTIPKhumble
+		trigger = { trait = humble }
+		weight_multiplier = { factor = 1000 }
+	}
+}
+defined_text = {
+	name = GetKGWhiteBookTrait2
+	
+	text = {
+		localisation_key = TOOLTIPKGBLANK
+		weight_multiplier = { factor = 1 }
+	}
+	text = {
+		localisation_key = TOOLTIPKGfair # as well as being most fair to look upon
+		trigger = { trait = fair }
+		weight_multiplier = { factor = 1000 }
+	}
+	text = {
+		localisation_key = TOOLTIPKGstrong
+		trigger = { is_strong_trigger = yes }
+		weight_multiplier = { factor = 1000 }
+	}
+	text = {
+		localisation_key = TOOLTIPKGtall 
+		trigger = { trait = tall }
+		weight_multiplier = { factor = 1000 }
+	}
+	text = {
+		localisation_key = TOOLTIPKGweak
+		trigger = { is_weak_trigger = yes }
+		weight_multiplier = { factor = 1000 }
+	}
+	text = {
+		localisation_key = TOOLTIPKGugly
+		trigger = { trait = ugly }
+		weight_multiplier = { factor = 1000 }
+	}
+}	
+defined_text = {
+	name = GetKGWhiteBookIntellect
+	
+	text = {
+		localisation_key = TOOLTIPKGBLANK
+		trigger = {
+			is_smart_incl_genius_trigger = no
+		}
+	}
+	text = {
+		localisation_key = TOOLTIPKGGENIUS #As well as being a knight of fierce intellect, 
+		trigger = {
+			is_smart_incl_genius_trigger = yes
+			OR = {
+				trait = master_warrior
+				trait = skilled_warrior
+			}
+		}
+	}
+	text = {
+		localisation_key = TOOLTIPKGGENIUSDESPITE #Despite being a knight of fierce intellect, 
+		trigger = {
+			is_smart_incl_genius_trigger = yes
+			NOR = {
+				trait = master_warrior
+				trait = skilled_warrior
+			}
+		}
+	}
+}	
+defined_text = {
+	name = GetKGWhiteBookCombatTrait
+	
+	text = {
+		localisation_key = TOOLTIPKGMASTERWARRIOR #[This.GetSheHeCap] was one of the greatest warriors of their generation, their martial prowess being famed throughout the Kingdom.
+		trigger = {
+			trait = master_warrior
+		}
+	}
+	text = {
+		localisation_key = TOOLTIPKGSKILLEDWARRIOR
+		trigger = {
+			trait = skilled_warrior
+		}
+	}
+	text = {
+		localisation_key = TOOLTIPKGTRAINEDWARRIOR
+		trigger = {
+			trait = trained_warrior
+		}
+	}
+	text = {
+		localisation_key = TOOLTIPKGPOORWARRIOR
+		trigger = {
+			NOR = {
+				trait = trained_warrior
+				trait = skilled_warrior
+				trait = master_warrior
+			}
+		}
+	}
+}	
+defined_text = {
+	name = GetKGWhiteBookValyrianSteel
+	
+	text = {
+		localisation_key = TOOLTIPKGBLANK
+		weight_multiplier = { factor = 1 }
+	}
+	
+	text = {
+		localisation_key = TOOLTIPKGVALYRIANSTEEL #[This.GetTitledFirstNameNoRegnal] wielded [This.GetValyrianSword], greatly aiding [This.GetHerHis] ability to protect [This.GetHerHis] liege
+		trigger = {
+			OR = {
+				trait = valyrian_steel
+				trait = ice
+				trait = longclaw
+				trait = blackfyre
+				trait = longclaw_snow
+				trait = brightroar
+				trait = heartsbane
+				trait = nightfall
+				trait = darksister
+				trait = ladyforlorn
+				trait = redrain
+				trait = widowswail
+				trait = oathkeeper
+				trait = crabspincer
+				trait = strangers_mercy
+				trait = vigilance
+				trait = orphan_maker
+				trait = truth
+				trait = lamentation 
+				trait = poison
+				trait = anger
+				trait = black_death
+				trait = compassion
+				trait = concession
+				trait = del_pino
+				trait = el_swordo
+				trait = gold_sword
+				trait = happyness
+				trait = hubris
+				trait = justice
+				trait = kingmaker
+				trait = passion
+				trait = rage
+				trait = sightblinder
+				trait = the_monarchist
+				trait = the_usurper
+				trait = worldeater
+				trait = worlds_envy
+			}
+		}
+		weight_multiplier = { factor = 1000 }
+	}	
+	text = {
+		localisation_key = TOOLTIPKGDAWN
+		trigger = {
+			trait = dawn
+		}
+		weight_multiplier = { factor = 1000 }
+	}
+}
+defined_text = {
+	name = GetKGWhiteBookDragonRider
+	
+	text = {
+		localisation_key = TOOLTIPKGBLANK
+		trigger = { NOT = { trait = dragon_rider } }
+	}
+	text = {
+		localisation_key = TOOLTIPKGDRAGON #Famously, [This.GetTitledFirstNameNoRegnal] was known to be a dragon rider
+		trigger = {
+			trait = dragon_rider
+		}
+		weight_multiplier = { factor = 1 }
+	}
+	text = {
+		localisation_key = TOOLTIPKGDRAGONAND #, and famously was known to be a dragon rider
+		trigger = {
+			trait = dragon_rider
+			OR = {
+				trait = valyrian_steel
+				trait = dawn
+				trait = ice
+				trait = longclaw
+				trait = blackfyre
+				trait = longclaw_snow
+				trait = brightroar
+				trait = heartsbane
+				trait = nightfall
+				trait = darksister
+				trait = ladyforlorn
+				trait = redrain
+				trait = widowswail
+				trait = oathkeeper
+				trait = crabspincer
+				trait = strangers_mercy
+				trait = vigilance
+				trait = orphan_maker
+				trait = truth
+				trait = lamentation 
+				trait = poison
+				trait = anger
+				trait = black_death
+				trait = compassion
+				trait = concession
+				trait = del_pino
+				trait = el_swordo
+				trait = gold_sword
+				trait = happyness
+				trait = hubris
+				trait = justice
+				trait = kingmaker
+				trait = passion
+				trait = rage
+				trait = sightblinder
+				trait = the_monarchist
+				trait = the_usurper
+				trait = worldeater
+				trait = worlds_envy
+			}
+		}
+		weight_multiplier = { factor = 1000 }
+	}	
+}
+defined_text = {
+	name = GetKGWhiteBookAnimalCompanion
+	
+	text = {
+		localisation_key = TOOLTIPKGBLANK
+		trigger = {
+			NOR = {
+				trait = crow
+				trait = wolf
+				trait = sea_lion
+				trait = whale
+				trait = eagle
+				trait = shadowcat
+				trait = boar
+				trait = snowbear
+				trait = direwolf
+				trait = dog
+				trait = brownbear
+			}
+		}
+	}
+	text = {
+		localisation_key = TOOLTIPKGANIMAL #[This.GetTitledFirstNameNoRegnal] was known to be the owner of a [This.GetAnimalCompanion]
+		trigger = {
+			OR = {
+				trait = crow
+				trait = wolf
+				trait = sea_lion
+				trait = whale
+				trait = eagle
+				trait = shadowcat
+				trait = boar
+				trait = snowbear
+				trait = direwolf
+				trait = dog
+				trait = brownbear
+			}
+		}
+		weight_multiplier = { factor = 1 }
+	}
+	text = {
+		localisation_key = TOOLTIPKGANIMALAND #, and famously was known to be the owner of a [This.GetAnimalCompanion]
+		trigger = {
+			OR = {
+				trait = crow
+				trait = wolf
+				trait = sea_lion
+				trait = whale
+				trait = eagle
+				trait = shadowcat
+				trait = boar
+				trait = snowbear
+				trait = direwolf
+				trait = dog
+				trait = brownbear
+			}
+			OR = {
+				trait = dragon_rider
+				trait = valyrian_steel
+				trait = dawn
+				trait = ice
+				trait = longclaw
+				trait = blackfyre
+				trait = longclaw_snow
+				trait = brightroar
+				trait = heartsbane
+				trait = nightfall
+				trait = darksister
+				trait = ladyforlorn
+				trait = redrain
+				trait = widowswail
+				trait = oathkeeper
+				trait = crabspincer
+				trait = strangers_mercy
+				trait = vigilance
+				trait = orphan_maker
+				trait = truth
+				trait = lamentation 
+				trait = poison
+				trait = anger
+				trait = black_death
+				trait = compassion
+				trait = concession
+				trait = del_pino
+				trait = el_swordo
+				trait = gold_sword
+				trait = happyness
+				trait = hubris
+				trait = justice
+				trait = kingmaker
+				trait = passion
+				trait = rage
+				trait = sightblinder
+				trait = the_monarchist
+				trait = the_usurper
+				trait = worldeater
+				trait = worlds_envy
+			}
+		}
+		weight_multiplier = { factor = 500 }
+	}	
+	text = {
+		localisation_key = TOOLTIPKGANIMALaswellas # as well as the owner of a [This.GetAnimalCompanion]
+		trigger = {
+			OR = {
+				trait = crow
+				trait = wolf
+				trait = sea_lion
+				trait = whale
+				trait = eagle
+				trait = shadowcat
+				trait = boar
+				trait = snowbear
+				trait = direwolf
+				trait = dog
+				trait = brownbear
+			}
+			AND = {
+				trait = dragon_rider
+				OR = {				
+					trait = valyrian_steel
+					trait = dawn
+					trait = ice
+					trait = longclaw
+					trait = blackfyre
+					trait = longclaw_snow
+					trait = brightroar
+					trait = heartsbane
+					trait = nightfall
+					trait = darksister
+					trait = ladyforlorn
+					trait = redrain
+					trait = widowswail
+					trait = oathkeeper
+					trait = crabspincer
+					trait = strangers_mercy
+					trait = vigilance
+					trait = orphan_maker
+					trait = truth
+					trait = lamentation 
+					trait = poison
+					trait = anger
+					trait = black_death
+					trait = compassion
+					trait = concession
+					trait = del_pino
+					trait = el_swordo
+					trait = gold_sword
+					trait = happyness
+					trait = hubris
+					trait = justice
+					trait = kingmaker
+					trait = passion
+					trait = rage
+					trait = sightblinder
+					trait = the_monarchist
+					trait = the_usurper
+					trait = worldeater
+					trait = worlds_envy
+				}
+			}	
+		}
+		weight_multiplier = { factor = 9999 }
+	}
+}
+defined_text = {
+	name = GetKGWhiteBookTrait3
+	
+	text = {
+		localisation_key = TOOLTIPKGBLANK
+		trigger = { is_alive = yes }
+		weight_multiplier = { factor = 1 }
+	}
+	text = {
+		localisation_key = TOOLTIPKGDEATHREASON
+		trigger = { is_alive = no }
+		weight_multiplier = { factor = 250 }
+	}
+	text = {
+		localisation_key = TOOLTIPKGDRAGONSLAYER # [This.GetFirstName]'s most famous deed was the slaying of a dragon, an act which won [This.GetHerHim] great renown throughout the realm.
+		trigger = { trait = dragon_slayer }
+		weight_multiplier = { factor = 1000 }
+	}
+	text = {
+		localisation_key = TOOLTIPKGKINSLAYER
+		trigger = { is_any_kinslayer_trigger = yes }
+		weight_multiplier = { factor = 1000 }
+	}
+	text = {
+		localisation_key = TOOLTIPKGDWARF
+		trigger = { trait = dwarf }
+		weight_multiplier = { factor = 1000 }
+	}
+
+}	

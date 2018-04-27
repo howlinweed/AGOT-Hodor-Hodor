@@ -1,0 +1,1493 @@
+##non canon for random##
+804000 = {
+	name = Thornton
+	culture = reachman
+}
+804001 = {
+	name = Bloom
+	culture = reachman
+}
+804002 = {
+	name = Stakely
+	culture = reachman
+}
+804003 = {
+	name = Kenwick
+	culture = reachman
+}
+804004 = {
+	name = Tackerton
+	culture = reachman
+}
+804005 = {
+	name = Newbridge
+	culture = reachman
+}
+804006 = {
+	name = Chetwood
+	culture = reachman
+}
+804007 = {
+	name = Tydwell
+	culture = reachman
+}
+804008 = {
+	name = Campester
+	culture = reachman
+}
+804009 = {
+	name = Meadowgard
+	culture = reachman
+}
+804010 = {
+	name = Cadmond
+	culture = reachman
+}
+804011 = {
+	name = Caskwell
+	culture = reachman
+}
+804012 = {
+	name = Toddard
+	culture = reachman
+}
+804013 = {
+	name = Clovering
+	culture = reachman
+}
+804014 = {
+	name = Hedgeway
+	culture = reachman
+}
+804015 = {
+	name = Harwell
+	culture = reachman
+}
+804016 = {
+	name = Seyforth
+	culture = reachman
+}
+804017 = {
+	name = Willows
+	culture = reachman
+}
+804018 = {
+	name = Glennon
+	culture = reachman
+}
+804019 = {
+	name = Hammersmyth
+	culture = reachman
+}
+804020 = {
+	name = Burdyck
+	culture = reachman
+}
+804021 = {
+	name = Werrell
+	culture = reachman
+}
+804022 = {
+	name = Sugdale
+	culture = reachman
+}
+804023 = {
+	name = Groswell
+	culture = reachman
+}
+804024 = {
+	name = Duntower
+	culture = reachman
+}
+804025 = {
+	name = Tavott
+	culture = reachman
+}
+804026 = {
+	name = Appledore
+	culture = reachman
+}
+804027 = {
+	name = Endicott
+	culture = reachman
+}
+804028 = {
+	name = Wynthorpe
+	culture = reachman
+}
+804029 = {
+	name = Lonshaw
+	culture = reachman
+}
+804030 = {
+	name = Roseworth
+	culture = reachman
+}
+804031 = {
+	name = Kolten
+	culture = reachman
+}
+804032 = {
+	name = Sweetblood
+	culture = reachman
+}
+804033 = {
+	name = Crabtree
+	culture = reachman
+}
+804034 = {
+	name = Gallister
+	culture = reachman
+}
+804035 = {
+	name = Pelgrin
+	culture = reachman
+}
+804036 = {
+	name = Watford
+	culture = reachman
+}
+804037 = {
+	name = Gilford
+	culture = reachman
+}
+804038 = {
+	name = Grandidge
+	culture = reachman
+}
+804039 = {
+	name = Greenley
+	culture = reachman
+}
+804040 = {
+	name = Barlow
+	culture = reachman
+}
+804041 = {
+	name = Honeytree
+	culture = reachman
+}
+804042 = {
+	name = Bowyer
+	culture = reachman
+}
+804043 = {
+	name = Norgate
+	culture = reachman
+}
+804044 = {
+	name = Bridlewood
+	culture = reachman
+}
+804045 = {
+	name = Lychbury
+	culture = reachman
+}
+804046 = {
+	name = Goodland
+	culture = reachman
+}
+804047 = {
+	name = Stewarr
+	culture = reachman
+}
+804048 = {
+	name = Oatwright
+	culture = reachman
+}
+804049 = {
+	name = Tarbor
+	culture = reachman
+}
+804050 = {
+	name = Goldflowers
+	culture = reachman
+}
+804051 = {
+	name = Cartwell
+	culture = reachman
+}
+804052 = {
+	name = Kidwell
+	culture = reachman
+}
+804053 = {
+	name = Barner
+	culture = reachman
+}
+804054 = {
+	name = Hutter
+	culture = reachman
+}
+804055 = {
+	name = Hayard
+	culture = reachman
+}
+804056 = {
+	name = Furrows
+	culture = reachman
+}
+804057 = {
+	name = Garner
+	culture = reachman
+}
+804058 = {
+	name = Greenroot
+	culture = reachman
+}
+804059 = {
+	name = Summerstride
+	culture = reachman
+}
+804060 = {
+	name = Highmantle
+	culture = reachman
+}
+804061 = {
+	name = Highoak
+	culture = reachman
+}
+804062 = {
+	name = Redwynd
+	culture = reachman
+}
+804063 = {
+	name = Barleyrot
+	culture = reachman
+}
+804064 = {
+	name = Summerbeam
+	culture = reachman
+}
+804065 = {
+	name = Highbow
+	culture = reachman
+}
+804066 = {
+	name = Roseheart
+	culture = reachman
+}
+804067 = {
+	name = Roseridge
+	culture = reachman
+}
+804068 = {
+	name = Goldengrain
+	culture = reachman
+}
+804069 = {
+	name = Havenscribe
+	culture = reachman
+}
+804070 = {
+	name = Goodhaven
+	culture = reachman
+}
+804071 = {
+	name = Grainhaven
+	culture = reachman
+}
+804072 = {
+	name = Springhaven
+	culture = reachman
+}
+
+##canon##
+80 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 21
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+234 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 35
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+235 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 44
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+236 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 14
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+237 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 38
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+238 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+239 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 40
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+240 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 53
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+241 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 68
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+242 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 24
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+243 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 36
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+244 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 54
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+245 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+246 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 41
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+247 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 46
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+248 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 51
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+249 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 29
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+250 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 16
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+251 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 63
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+252 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 28
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+253 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 23
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+254 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 13
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+255 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 32
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+256 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 21
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+257 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 55
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+258 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 58
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+259 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 15
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+260 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 61
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+261 = {
+	name="Hodor" #of Cider Hall
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 11
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+262 = {
+	name="Hodor" #of New Barrel
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 10
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+263 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 31
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+264 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+265 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+266 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+267 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 22
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+268 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 34
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+269 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 64
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+270 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 19
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+271 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+272 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 57
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+274 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 65
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	
+}
+275 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 17
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+276 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 43
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+277 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 18
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+278 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 39
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+279 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 33
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+280 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 70
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+281 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+282 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 25
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+283 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+284 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 9
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+285 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 37
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+286 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 69
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+287 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 45
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+288 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 47
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+289 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 48
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+290 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 52
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+291 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 50
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+292 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 27
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+293 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 12
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+294 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 20
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+295 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 42
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+296 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 26
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+297 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 56
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+298 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 49
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+299 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 30
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1005 = {
+	name="Hodor"
+	culture = reachman
+	used_for_random = no
+	can_appear = no
+}
+1201 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 73
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1254 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 59
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	used_for_random = no
+	can_appear = no
+}
+1333 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 62
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1423 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 66
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1425 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 67
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1427 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 60
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1426 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1428 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 72
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1471 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+174425 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 74
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+174426 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 75
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+174427 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 76
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+174428 = {
+	name="Hodor"
+	culture = reachman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 77
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1874 = {
+	name="Hodor"
+	culture = reachman
+}

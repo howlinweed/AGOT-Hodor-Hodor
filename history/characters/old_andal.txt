@@ -1,0 +1,2887 @@
+#First King of the Andals
+900174999 = {
+	name="Hodor"
+	dynasty = 174999 #of the Hill
+	
+	religion="the_seven"
+	culture="old_andal"
+	
+	martial=10
+	diplomacy=7
+	intrigue=5
+	stewardship=10
+	
+	add_trait="knight"
+	add_trait="quick"
+	add_trait="master_warrior"
+	add_trait="diligent"
+	add_trait="zealous"
+	add_trait="brave"
+	add_trait="authoritative"
+
+	10.1.1={birth="10.1.1"}
+	88.1.1={death="88.1.1"}
+}
+#King of Lorath
+901174999 = {
+	name="Hodor"
+	dynasty = 174917
+	
+	religion="the_seven"
+	culture="old_andal"
+	
+	martial=7
+	diplomacy=6
+	intrigue=5
+	stewardship=5
+	
+	add_trait="quick"
+	add_trait="ambitious"
+	add_trait="brilliant_strategist"
+	add_trait="ruthless"
+	add_trait="brave"
+	add_trait="wroth"
+	add_trait="zealous"
+	
+	6425.1.1={birth="6425.1.1"}
+	6431.1.1={
+		add_trait="skilled_warrior"
+		add_trait="knight"
+	}
+	6459.1.1={
+		give_nickname=nick_the_great
+	}
+	6479.1.1={
+		death={
+			death_reason=death_battle
+		}
+	}
+}
+###House Hill
+100174900 = {
+	name="Hodor"	# a lord
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	7965.1.1 = {birth="7965.1.1"}
+	7981.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7983.1.1 = {add_spouse=400174900}
+	8023.1.1 = {death="8023.1.1"}
+}
+400174900 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	7965.1.1 = {birth="7965.1.1"}
+	8023.1.1 = {death="8023.1.1"}
+}
+101174900 = {
+	name="Hodor"	# a lord
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=100174900
+	mother=400174900
+
+	7993.1.1 = {birth="7993.1.1"}
+	8009.1.1 = {add_trait=knight add_trait=skilled_warrior}
+	8011.1.1 = {add_spouse=401174900}
+	8065.1.1 = {death="8065.1.1"}
+}
+401174900 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	7993.1.1 = {birth="7993.1.1"}
+	8065.1.1 = {death="8065.1.1"}
+}
+102174900 = {
+	name="Hodor"	# not a lord
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=100174900
+	mother=400174900
+
+	7994.1.1 = {birth="7994.1.1"}
+	8010.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8012.1.1 = {add_spouse=402174900}
+	8050.1.1 = {death="8050.1.1"}
+}
+402174900 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	7994.1.1 = {birth="7994.1.1"}
+	8050.1.1 = {death="8050.1.1"}
+}
+103174900 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=101174900
+	mother=401174900
+
+	8021.1.1 = {birth="8021.1.1"}
+	8079.1.1 = {death="8079.1.1"}
+}
+104174900 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=102174900
+	mother=402174900
+
+	8013.1.1 = {birth="8013.1.1"}
+	8071.1.1 = {death="8071.1.1"}
+}
+105174900 = {
+	name="Hodor"	# a lord
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=102174900
+	mother=402174900
+
+	8015.1.1 = {birth="8015.1.1"}
+	8031.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8033.1.1 = {add_spouse=405174900}
+	8076.1.1 = {death="8076.1.1"}
+}
+405174900 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8015.1.1 = {birth="8015.1.1"}
+	8076.1.1 = {death="8076.1.1"}
+}
+106174900 = {
+	name="Hodor"	# not a lord
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=102174900
+	mother=402174900
+
+	8018.1.1 = {birth="8018.1.1"}
+	8034.1.1 = {add_trait=poor_warrior}
+	8069.1.1 = {death="8069.1.1"}
+}
+107174900 = {
+	name="Hodor"	# a lord
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=105174900
+	mother=405174900
+
+	8044.1.1 = {birth="8044.1.1"}
+	8060.1.1 = {add_trait=poor_warrior}
+	8062.1.1 = {add_spouse=407174900}
+	8097.1.1 = {death="8097.1.1"}
+}
+407174900 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8044.1.1 = {birth="8044.1.1"}
+	8097.1.1 = {death="8097.1.1"}
+}
+108174900 = {
+	name="Hodor"	# a lord
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=107174900
+	mother=407174900
+
+	8067.1.1 = {birth="8067.1.1"}
+	8083.1.1 = {add_trait=poor_warrior}
+	8101.1.1 = {death = {death_reason = death_murder}}
+}
+109174900 = {
+	name="Hodor"	# a lord
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=107174900
+	mother=407174900
+
+	8070.1.1 = {birth="8070.1.1"}
+	8086.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8088.1.1 = {add_spouse=409174900}
+	8118.1.1 = {death="8118.1.1"}
+}
+409174900 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8070.1.1 = {birth="8070.1.1"}
+	8118.1.1 = {death="8118.1.1"}
+}
+110174900 = {
+	name="Hodor"	# a lord
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=109174900
+	mother=409174900
+
+	8103.1.1 = {birth="8103.1.1"}
+	8119.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8126.1.1 = {death="8126.1.1"}
+}
+111174900 = {
+	name="Hodor"	# a lord
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=109174900
+	mother=409174900
+
+	8106.1.1 = {birth="8106.1.1"}
+	8122.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8124.1.1 = {add_spouse=411174900}
+	8172.1.1 = {death="8172.1.1"}
+}
+411174900 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8106.1.1 = {birth="8106.1.1"}
+	8172.1.1 = {death="8172.1.1"}
+}
+112174900 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=109174900
+	mother=409174900
+
+	8109.1.1 = {birth="8109.1.1"}
+	8150.1.1 = {death = {death_reason = death_accident}}
+}
+113174900 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=109174900
+	mother=409174900
+
+	8110.1.1 = {birth="8110.1.1"}
+	8148.1.1 = {death="8148.1.1"}
+}
+114174900 = {
+	name="Hodor"	# not a lord
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=109174900
+	mother=409174900
+
+	8111.1.1 = {birth="8111.1.1"}
+	8127.1.1 = {add_trait=poor_warrior}
+	8166.1.1 = {death="8166.1.1"}
+}
+115174900 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=111174900
+	mother=411174900
+
+	8135.1.1 = {birth="8135.1.1"}
+	8158.1.1 = {death="8158.1.1"}
+}
+116174900 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=111174900
+	mother=411174900
+
+	8137.1.1 = {birth="8137.1.1"}
+	8191.1.1 = {death="8191.1.1"}
+}
+117174900 = {
+	name="Hodor"	# not a lord
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=111174900
+	mother=411174900
+
+	8138.1.1 = {birth="8138.1.1"}
+	8154.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8168.1.1 = {death="8168.1.1"}
+}
+118174900 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=111174900
+	mother=411174900
+
+	8140.1.1 = {birth="8140.1.1"}
+	8181.1.1 = {death = {death_reason = death_accident}}
+}
+119174900 = {
+	name="Hodor"	# a lord
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=111174900
+	mother=411174900
+
+	8142.1.1 = {birth="8142.1.1"}
+	8158.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8160.1.1 = {add_spouse=419174900}
+	8194.1.1 = {death="8194.1.1"}
+}
+419174900 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8142.1.1 = {birth="8142.1.1"}
+	8194.1.1 = {death="8194.1.1"}
+}
+120174900 = {
+	name="Hodor"	# a lord
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=119174900
+	mother=419174900
+
+	8163.1.1 = {birth="8163.1.1"}
+	8179.1.1 = {add_trait=poor_warrior}
+	8181.1.1 = {add_spouse=420174900}
+	8217.1.1 = {death="8217.1.1"}
+}
+420174900 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8163.1.1 = {birth="8163.1.1"}
+	8217.1.1 = {death="8217.1.1"}
+}
+121174900 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=119174900
+	mother=419174900
+
+	8166.1.1 = {birth="8166.1.1"}
+	8203.1.1 = {death="8203.1.1"}
+}
+122174900 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=120174900
+	mother=420174900
+
+	8187.1.1 = {birth="8187.1.1"}
+	8252.1.1 = {death="8252.1.1"}
+}
+123174900 = {
+	name="Hodor"	# a lord
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=120174900
+	mother=420174900
+
+	8189.1.1 = {birth="8189.1.1"}
+	8205.1.1 = {add_trait=poor_warrior}
+	8207.1.1 = {add_spouse=423174900}
+	8241.1.1 = {death="8241.1.1"}
+}
+423174900 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8189.1.1 = {birth="8189.1.1"}
+	8241.1.1 = {death="8241.1.1"}
+}
+124174900 = {
+	name="Hodor"	# a lord
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=123174900
+	mother=423174900
+
+	8209.1.1 = {birth="8209.1.1"}
+	8225.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8227.1.1 = {add_spouse=424174900}
+	8289.1.1 = {death="8289.1.1"}
+}
+424174900 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8209.1.1 = {birth="8209.1.1"}
+	8289.1.1 = {death="8289.1.1"}
+}
+125174900 = {
+	name="Hodor"	# not a lord
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=123174900
+	mother=423174900
+
+	8211.1.1 = {birth="8211.1.1"}
+	8227.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8268.1.1 = {death="8268.1.1"}
+}
+126174900 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=124174900
+	mother=424174900
+
+	8232.1.1 = {birth="8232.1.1"}
+	8270.1.1 = {death="8270.1.1"}
+}
+127174900 = {
+	name="Hodor"	# not a lord
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=124174900
+	mother=424174900
+
+	8233.1.1 = {birth="8233.1.1"}
+	8249.1.1 = {add_trait=knight add_trait=master_warrior}
+	8251.1.1 = {add_spouse=427174900}
+	8289.1.1 = {death="8289.1.1"}
+}
+427174900 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8233.1.1 = {birth="8233.1.1"}
+	8289.1.1 = {death="8289.1.1"}
+}
+128174900 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=124174900
+	mother=424174900
+
+	8236.1.1 = {birth="8236.1.1"}
+	8283.1.1 = {death="8283.1.1"}
+}
+129174900 = {
+	name="Hodor"	# not a lord
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=124174900
+	mother=424174900
+
+	8238.1.1 = {birth="8238.1.1"}
+	8254.1.1 = {add_trait=poor_warrior}
+	8292.1.1 = {death="8292.1.1"}
+}
+130174900 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=127174900
+	mother=427174900
+
+	8258.1.1 = {birth="8258.1.1"}
+}
+131174900 = {
+	name="Hodor"	# a lord
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=127174900
+	mother=427174900
+
+	8261.1.1 = {birth="8261.1.1"}
+	8277.1.1 = {add_trait=poor_warrior}
+	8279.1.1 = {add_spouse=431174900}
+}
+431174900 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8261.1.1 = {birth="8261.1.1"}
+}
+132174900 = {
+	name="Hodor"	# not a lord
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=127174900
+	mother=427174900
+
+	8264.1.1 = {birth="8264.1.1"}
+	8280.1.1 = {add_trait=poor_warrior}
+}
+133174900 = {
+	name="Hodor"	# not a lord
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=127174900
+	mother=427174900
+
+	8265.1.1 = {birth="8265.1.1"}
+	8281.1.1 = {add_trait=trained_warrior}
+}
+134174900 = {
+	name="Hodor"	# not a lord
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=131174900
+	mother=431174900
+
+	8279.1.1 = {birth="8279.1.1"}
+	8295.1.1 = {add_trait=knight add_trait=trained_warrior}
+}
+135174900 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=131174900
+	mother=431174900
+
+	8280.1.1 = {birth="8280.1.1"}
+}
+136174900 = {
+	name="Hodor"	# not a lord
+	dynasty=174900
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=131174900
+	mother=431174900
+
+	8281.1.1 = {birth="8281.1.1"}
+	8297.1.1 = {add_trait=knight add_trait=poor_warrior}
+}
+###House Willow
+100174901 = {
+	name="Hodor"	# a lord
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	7944.1.1 = {birth="7944.1.1"}
+	7960.1.1 = {add_trait=poor_warrior}
+	7962.1.1 = {add_spouse=400174901}
+	8009.1.1 = {death="8009.1.1"}
+}
+400174901 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	7944.1.1 = {birth="7944.1.1"}
+	8009.1.1 = {death="8009.1.1"}
+}
+101174901 = {
+	name="Hodor"	# not a lord
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=100174901
+	mother=400174901
+
+	7966.1.1 = {birth="7966.1.1"}
+	7982.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7984.1.1 = {add_spouse=401174901}
+	8001.1.1 = {death="8001.1.1"}
+}
+401174901 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	7966.1.1 = {birth="7966.1.1"}
+	8001.1.1 = {death="8001.1.1"}
+}
+102174901 = {
+	name="Hodor"	# not a lord
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=100174901
+	mother=400174901
+
+	7969.1.1 = {birth="7969.1.1"}
+	7985.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8021.1.1 = {death="8021.1.1"}
+}
+103174901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=100174901
+	mother=400174901
+
+	7970.1.1 = {birth="7970.1.1"}
+	8029.1.1 = {death="8029.1.1"}
+}
+104174901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=100174901
+	mother=400174901
+
+	7973.1.1 = {birth="7973.1.1"}
+	8025.1.1 = {death="8025.1.1"}
+}
+105174901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=101174901
+	mother=401174901
+
+	7995.1.1 = {birth="7995.1.1"}
+	8028.1.1 = {death="8028.1.1"}
+}
+106174901 = {
+	name="Hodor"	# a lord
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=101174901
+	mother=401174901
+
+	7998.1.1 = {birth="7998.1.1"}
+	8014.1.1 = {add_trait=knight add_trait=master_warrior}
+	8016.1.1 = {add_spouse=406174901}
+	8054.1.1 = {death="8054.1.1"}
+}
+406174901 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	7998.1.1 = {birth="7998.1.1"}
+	8054.1.1 = {death="8054.1.1"}
+}
+107174901 = {
+	name="Hodor"	# a lord
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=106174901
+	mother=406174901
+
+	8026.1.1 = {birth="8026.1.1"}
+	8042.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8044.1.1 = {add_spouse=407174901}
+	8096.1.1 = {death="8096.1.1"}
+}
+407174901 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8026.1.1 = {birth="8026.1.1"}
+	8096.1.1 = {death="8096.1.1"}
+}
+108174901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=106174901
+	mother=406174901
+
+	8029.1.1 = {birth="8029.1.1"}
+	8090.1.1 = {death="8090.1.1"}
+}
+109174901 = {
+	name="Hodor"	# not a lord
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=107174901
+	mother=407174901
+
+	8044.1.1 = {birth="8044.1.1"}
+	8060.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8062.1.1 = {add_spouse=409174901}
+	8084.1.1 = {death="8084.1.1"}
+}
+409174901 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8044.1.1 = {birth="8044.1.1"}
+	8084.1.1 = {death="8084.1.1"}
+}
+110174901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=107174901
+	mother=407174901
+
+	8046.1.1 = {birth="8046.1.1"}
+	8112.1.1 = {death="8112.1.1"}
+}
+111174901 = {
+	name="Hodor"	# not a lord
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=107174901
+	mother=407174901
+
+	8047.1.1 = {birth="8047.1.1"}
+	8063.1.1 = {add_trait=poor_warrior}
+	8101.1.1 = {death="8101.1.1"}
+}
+112174901 = {
+	name="Hodor"	# a lord
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=109174901
+	mother=409174901
+
+	8072.1.1 = {birth="8072.1.1"}
+	8088.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8090.1.1 = {add_spouse=412174901}
+	8130.1.1 = {death="8130.1.1"}
+}
+412174901 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8072.1.1 = {birth="8072.1.1"}
+	8130.1.1 = {death="8130.1.1"}
+}
+113174901 = {
+	name="Hodor"	# not a lord
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=109174901
+	mother=409174901
+
+	8074.1.1 = {birth="8074.1.1"}
+	8090.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8147.1.1 = {death="8147.1.1"}
+}
+114174901 = {
+	name="Hodor"	# not a lord
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=109174901
+	mother=409174901
+
+	8077.1.1 = {birth="8077.1.1"}
+	8093.1.1 = {add_trait=knight add_trait=skilled_warrior}
+	8154.1.1 = {death="8154.1.1"}
+}
+115174901 = {
+	name="Hodor"	# a lord
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=112174901
+	mother=412174901
+
+	8097.1.1 = {birth="8097.1.1"}
+	8113.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8115.1.1 = {add_spouse=415174901}
+	8140.1.1 = {death="8140.1.1"}
+}
+415174901 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8097.1.1 = {birth="8097.1.1"}
+	8140.1.1 = {death="8140.1.1"}
+}
+116174901 = {
+	name="Hodor"	# not a lord
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=112174901
+	mother=412174901
+
+	8099.1.1 = {birth="8099.1.1"}
+	8115.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8142.1.1 = {death="8142.1.1"}
+}
+117174901 = {
+	name="Hodor"	# a lord
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=115174901
+	mother=415174901
+
+	8122.1.1 = {birth="8122.1.1"}
+	8138.1.1 = {add_trait=knight add_trait=skilled_warrior}
+	8140.1.1 = {add_spouse=417174901}
+	8165.1.1 = {death="8165.1.1"}
+}
+417174901 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8122.1.1 = {birth="8122.1.1"}
+	8165.1.1 = {death="8165.1.1"}
+}
+118174901 = {
+	name="Hodor"	# not a lord
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=115174901
+	mother=415174901
+
+	8125.1.1 = {birth="8125.1.1"}
+	8141.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8158.1.1 = {death="8158.1.1"}
+}
+119174901 = {
+	name="Hodor"	# not a lord
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=115174901
+	mother=415174901
+
+	8127.1.1 = {birth="8127.1.1"}
+	8143.1.1 = {add_trait=trained_warrior}
+	8186.1.1 = {death="8186.1.1"}
+}
+120174901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=115174901
+	mother=415174901
+
+	8130.1.1 = {birth="8130.1.1"}
+	8198.1.1 = {death="8198.1.1"}
+}
+121174901 = {
+	name="Hodor"	# a lord
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=117174901
+	mother=417174901
+
+	8144.1.1 = {birth="8144.1.1"}
+	8160.1.1 = {add_trait=poor_warrior}
+	8195.1.1 = {death="8195.1.1"}
+}
+122174901 = {
+	name="Hodor"	# a lord
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=117174901
+	mother=417174901
+
+	8147.1.1 = {birth="8147.1.1"}
+	8163.1.1 = {add_trait=trained_warrior}
+	8165.1.1 = {add_spouse=422174901}
+	8216.1.1 = {death="8216.1.1"}
+}
+422174901 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8147.1.1 = {birth="8147.1.1"}
+	8216.1.1 = {death="8216.1.1"}
+}
+123174901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=117174901
+	mother=417174901
+
+	8150.1.1 = {birth="8150.1.1"}
+	8206.1.1 = {death="8206.1.1"}
+}
+124174901 = {
+	name="Hodor"	# not a lord
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=117174901
+	mother=417174901
+
+	8152.1.1 = {birth="8152.1.1"}
+	8168.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8172.1.1 = {death="8172.1.1"}
+}
+125174901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=122174901
+	mother=422174901
+
+	8165.1.1 = {birth="8165.1.1"}
+	8204.1.1 = {death="8204.1.1"}
+}
+126174901 = {
+	name="Hodor"	# a lord
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=122174901
+	mother=422174901
+
+	8167.1.1 = {birth="8167.1.1"}
+	8183.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8185.1.1 = {add_spouse=426174901}
+	8237.1.1 = {death="8237.1.1"}
+}
+426174901 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8167.1.1 = {birth="8167.1.1"}
+	8237.1.1 = {death="8237.1.1"}
+}
+127174901 = {
+	name="Hodor"	# not a lord
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=122174901
+	mother=422174901
+
+	8170.1.1 = {birth="8170.1.1"}
+	8186.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8188.1.1 = {add_spouse=427174901}
+	8234.1.1 = {death="8234.1.1"}
+}
+427174901 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8170.1.1 = {birth="8170.1.1"}
+	8234.1.1 = {death="8234.1.1"}
+}
+128174901 = {
+	name="Hodor"	# not a lord
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=122174901
+	mother=422174901
+
+	8173.1.1 = {birth="8173.1.1"}
+	8189.1.1 = {add_trait=poor_warrior}
+	8215.1.1 = {death = {death_reason = death_murder}}
+}
+129174901 = {
+	name="Hodor"	# a lord
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=126174901
+	mother=426174901
+
+	8190.1.1 = {birth="8190.1.1"}
+	8206.1.1 = {add_trait=poor_warrior}
+	8253.1.1 = {death="8253.1.1"}
+}
+130174901 = {
+	name="Hodor"	# a lord
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=127174901
+	mother=427174901
+
+	8203.1.1 = {birth="8203.1.1"}
+	8219.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8221.1.1 = {add_spouse=430174901}
+	8279.1.1 = {death="8279.1.1"}
+}
+430174901 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8203.1.1 = {birth="8203.1.1"}
+	8279.1.1 = {death="8279.1.1"}
+}
+131174901 = {
+	name="Hodor"	# not a lord
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=130174901
+	mother=430174901
+
+	8230.1.1 = {birth="8230.1.1"}
+	8246.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8248.1.1 = {add_spouse=431174901}
+	8267.1.1 = {death="8267.1.1"}
+}
+431174901 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8230.1.1 = {birth="8230.1.1"}
+	8267.1.1 = {death="8267.1.1"}
+}
+132174901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=130174901
+	mother=430174901
+
+	8231.1.1 = {birth="8231.1.1"}
+	8280.1.1 = {death = {death_reason = death_accident}}
+}
+133174901 = {
+	name="Hodor"	# a lord
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=131174901
+	mother=431174901
+
+	8257.1.1 = {birth="8257.1.1"}
+	8273.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8275.1.1 = {add_spouse=433174901}
+}
+433174901 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8257.1.1 = {birth="8257.1.1"}
+}
+134174901 = {
+	name="Hodor"	# not a lord
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=131174901
+	mother=431174901
+
+	8258.1.1 = {birth="8258.1.1"}
+	8274.1.1 = {add_trait=poor_warrior}
+	8276.1.1 = {add_spouse=434174901}
+}
+434174901 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8258.1.1 = {birth="8258.1.1"}
+}
+135174901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=131174901
+	mother=431174901
+
+	8261.1.1 = {birth="8261.1.1"}
+}
+136174901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=133174901
+	mother=433174901
+
+	8286.1.1 = {birth="8286.1.1"}
+}
+137174901 = {
+	name="Hodor"	# not a lord
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=133174901
+	mother=433174901
+
+	8287.1.1 = {birth="8287.1.1"}
+	8303.1.1 = {add_trait=trained_warrior}
+}
+138174901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=133174901
+	mother=433174901
+
+	8288.1.1 = {birth="8288.1.1"}
+}
+139174901 = {
+	name="Hodor"	# not a lord
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=133174901
+	mother=433174901
+
+	8290.1.1 = {birth="8290.1.1"}
+	8306.1.1 = {add_trait=poor_warrior}
+}
+140174901 = {
+	name="Hodor"	# not a lord
+	dynasty=174901
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=134174901
+	mother=434174901
+
+	8287.1.1 = {birth="8287.1.1"}
+	8303.1.1 = {add_trait=poor_warrior}
+}
+#House Ninewater
+100174915 = {
+	name="Hodor"	# a lord
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	7960.1.1 = {birth="7960.1.1"}
+	7976.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7978.1.1 = {add_spouse=400174915}
+	8021.1.1 = {death="8021.1.1"}
+}
+400174915 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	7960.1.1 = {birth="7960.1.1"}
+	8021.1.1 = {death="8021.1.1"}
+}
+101174915 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=100174915
+	mother=400174915
+
+	7991.1.1 = {birth="7991.1.1"}
+	8036.1.1 = {death="8036.1.1"}
+}
+102174915 = {
+	name="Hodor"	# a lord
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=100174915
+	mother=400174915
+
+	7993.1.1 = {birth="7993.1.1"}
+	8009.1.1 = {add_trait=poor_warrior}
+	8038.1.1 = {death="8038.1.1"}
+}
+103174915 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=100174915
+	mother=400174915
+
+	7995.1.1 = {birth="7995.1.1"}
+	8040.1.1 = {death="8040.1.1"}
+}
+104174915 = {
+	name="Hodor"	# a lord
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=100174915
+	mother=400174915
+
+	7996.1.1 = {birth="7996.1.1"}
+	8013.1.1 = {add_trait=knight add_trait=skilled_warrior}
+	8015.1.1 = {add_spouse=404174915}
+	8069.1.1 = {death="8069.1.1"}
+}
+404174915 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	7996.1.1 = {birth="7996.1.1"}
+	8069.1.1 = {death="8069.1.1"}
+}
+105174915 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=104174915
+	mother=404174915
+
+	8020.1.1 = {birth="8020.1.1"}
+	8089.1.1 = {death="8089.1.1"}
+}
+106174915 = {
+	name="Hodor"	# a lord
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=104174915
+	mother=404174915
+
+	8022.1.1 = {birth="8022.1.1"}
+	8038.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8040.1.1 = {add_spouse=406174915}
+	8077.1.1 = {death="8077.1.1"}
+}
+406174915 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8022.1.1 = {birth="8022.1.1"}
+	8077.1.1 = {death="8077.1.1"}
+}
+107174915 = {
+	name="Hodor"	# a lord
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=104174915
+	mother=404174915
+
+	8023.1.1 = {birth="8023.1.1"}
+	8039.1.1 = {add_trait=knight add_trait=skilled_warrior}
+	8041.1.1 = {add_spouse=407174915}
+	8093.1.1 = {death="8093.1.1"}
+}
+407174915 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8023.1.1 = {birth="8023.1.1"}
+	8093.1.1 = {death="8093.1.1"}
+}
+108174915 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=104174915
+	mother=404174915
+
+	8026.1.1 = {birth="8026.1.1"}
+	8051.1.1 = {death="8051.1.1"}
+}
+109174915 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=106174915
+	mother=406174915
+
+	8041.1.1 = {birth="8041.1.1"}
+	8089.1.1 = {death="8089.1.1"}
+}
+110174915 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=106174915
+	mother=406174915
+
+	8044.1.1 = {birth="8044.1.1"}
+	8087.1.1 = {death="8087.1.1"}
+}
+111174915 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=107174915
+	mother=407174915
+
+	8049.1.1 = {birth="8049.1.1"}
+	8053.1.1 = {death="8053.1.1"}
+}
+112174915 = {
+	name="Hodor"	# a lord
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=107174915
+	mother=407174915
+
+	8051.1.1 = {birth="8051.1.1"}
+	8067.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8069.1.1 = {add_spouse=412174915}
+	8115.1.1 = {death="8115.1.1"}
+}
+412174915 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8051.1.1 = {birth="8051.1.1"}
+	8115.1.1 = {death="8115.1.1"}
+}
+113174915 = {
+	name="Hodor"	# not a lord
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=107174915
+	mother=407174915
+
+	8054.1.1 = {birth="8054.1.1"}
+	8070.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8095.1.1 = {death="8095.1.1"}
+}
+114174915 = {
+	name="Hodor"	# a lord
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=112174915
+	mother=412174915
+
+	8077.1.1 = {birth="8077.1.1"}
+	8093.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8095.1.1 = {add_spouse=414174915}
+	8128.1.1 = {death="8128.1.1"}
+}
+414174915 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8077.1.1 = {birth="8077.1.1"}
+	8128.1.1 = {death="8128.1.1"}
+}
+115174915 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=112174915
+	mother=412174915
+
+	8078.1.1 = {birth="8078.1.1"}
+	8130.1.1 = {death="8130.1.1"}
+}
+116174915 = {
+	name="Hodor"	# a lord
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=114174915
+	mother=414174915
+
+	8097.1.1 = {birth="8097.1.1"}
+	8113.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8115.1.1 = {add_spouse=416174915}
+	8130.1.1 = {death = {death_reason = death_murder}}
+}
+416174915 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8097.1.1 = {birth="8097.1.1"}
+	8130.1.1 = {death="8130.1.1"}
+}
+117174915 = {
+	name="Hodor"	# not a lord
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=114174915
+	mother=414174915
+
+	8099.1.1 = {birth="8099.1.1"}
+	8115.1.1 = {add_trait=knight add_trait=skilled_warrior}
+	8148.1.1 = {death="8148.1.1"}
+}
+118174915 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=114174915
+	mother=414174915
+
+	8101.1.1 = {birth="8101.1.1"}
+	8154.1.1 = {death="8154.1.1"}
+}
+119174915 = {
+	name="Hodor"	# a lord
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=116174915
+	mother=416174915
+
+	8129.1.1 = {birth="8129.1.1"}
+	8145.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8150.1.1 = {add_spouse=419174915}
+	8187.1.1 = {death="8187.1.1"}
+}
+419174915 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8132.1.1 = {birth="8132.1.1"}
+	8187.1.1 = {death="8187.1.1"}
+}
+120174915 = {
+	name="Hodor"	# not a lord
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=119174915
+	mother=419174915
+
+	8152.1.1 = {birth="8152.1.1"}
+	8168.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8170.1.1 = {add_spouse=420174915}
+	8185.1.1 = {death = {death_reason = death_murder}}
+}
+420174915 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8152.1.1 = {birth="8152.1.1"}
+	8185.1.1 = {death="8185.1.1"}
+}
+121174915 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=119174915
+	mother=419174915
+
+	8155.1.1 = {birth="8155.1.1"}
+	8233.1.1 = {death="8233.1.1"}
+}
+122174915 = {
+	name="Hodor"	# not a lord
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=119174915
+	mother=419174915
+
+	8156.1.1 = {birth="8156.1.1"}
+	8172.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8203.1.1 = {death="8203.1.1"}
+}
+123174915 = {
+	name="Hodor"	# a lord
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=120174915
+	mother=420174915
+
+	8181.1.1 = {birth="8181.1.1"}
+	8197.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8199.1.1 = {add_spouse=423174915}
+	8245.1.1 = {death="8245.1.1"}
+}
+423174915 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8181.1.1 = {birth="8181.1.1"}
+	8245.1.1 = {death="8245.1.1"}
+}
+124174915 = {
+	name="Hodor"	# not a lord
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=120174915
+	mother=420174915
+
+	8184.1.1 = {birth="8184.1.1"}
+	8200.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8244.1.1 = {death="8244.1.1"}
+}
+125174915 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=123174915
+	mother=423174915
+
+	8207.1.1 = {birth="8207.1.1"}
+	8249.1.1 = {death="8249.1.1"}
+}
+126174915 = {
+	name="Hodor"	# a lord
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=123174915
+	mother=423174915
+
+	8209.1.1 = {birth="8209.1.1"}
+	8225.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8227.1.1 = {add_spouse=426174915}
+	8263.1.1 = {death="8263.1.1"}
+}
+426174915 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8209.1.1 = {birth="8209.1.1"}
+	8263.1.1 = {death="8263.1.1"}
+}
+127174915 = {
+	name="Hodor"	# not a lord
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=123174915
+	mother=423174915
+
+	8211.1.1 = {birth="8211.1.1"}
+	8227.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8280.1.1 = {death="8280.1.1"}
+}
+128174915 = {
+	name="Hodor"	# a lord
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=126174915
+	mother=426174915
+
+	8236.1.1 = {birth="8236.1.1"}
+	8252.1.1 = {add_trait=knight add_trait=skilled_warrior}
+	8254.1.1 = {add_spouse=428174915}
+	8289.1.1 = {death="8289.1.1"}
+}
+428174915 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8236.1.1 = {birth="8236.1.1"}
+	8289.1.1 = {death="8289.1.1"}
+}
+129174915 = {
+	name="Hodor"	# not a lord
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=126174915
+	mother=426174915
+
+	8237.1.1 = {birth="8237.1.1"}
+	8253.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8265.1.1 = {death="8265.1.1"}
+}
+130174915 = {
+	name="Hodor"	# not a lord
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=126174915
+	mother=426174915
+
+	8239.1.1 = {birth="8239.1.1"}
+	8255.1.1 = {add_trait=knight add_trait=poor_warrior}
+}
+131174915 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=128174915
+	mother=428174915
+
+	8261.1.1 = {birth="8261.1.1"}
+}
+132174915 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=128174915
+	mother=428174915
+
+	8263.1.1 = {birth="8263.1.1"}
+}
+133174915 = {
+	name="Hodor"	# a lord
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=128174915
+	mother=428174915
+
+	8265.1.1 = {birth="8265.1.1"}
+	8281.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8283.1.1 = {add_spouse=433174915}
+}
+433174915 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8265.1.1 = {birth="8265.1.1"}
+}
+134174915 = {
+	name="Hodor"	# not a lord
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=128174915
+	mother=428174915
+
+	8266.1.1 = {birth="8266.1.1"}
+	8282.1.1 = {add_trait=knight add_trait=skilled_warrior}
+}
+135174915 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=128174915
+	mother=428174915
+
+	8269.1.1 = {birth="8269.1.1"}
+}
+136174915 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=133174915
+	mother=433174915
+
+	8287.1.1 = {birth="8287.1.1"}
+}
+137174915 = {
+	name="Hodor"	# not a lord
+	dynasty=174915
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=133174915
+	mother=433174915
+
+	8288.1.1 = {birth="8288.1.1"}
+	8304.1.1 = {add_trait=knight add_trait=trained_warrior}
+}
+###House Greatwood
+100174909 = {
+	name="Hodor"	# a lord
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	7957.1.1 = {birth="7957.1.1"}
+	7973.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7975.1.1 = {add_spouse=400174909}
+	8015.1.1 = {death="8015.1.1"}
+}
+400174909 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	7957.1.1 = {birth="7957.1.1"}
+	8015.1.1 = {death="8015.1.1"}
+}
+101174909 = {
+	name="Hodor"	# a lord
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=100174909
+	mother=400174909
+
+	7979.1.1 = {birth="7979.1.1"}
+	7995.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7996.1.1 = {add_spouse=401174909}
+	8035.1.1 = {death="8035.1.1"}
+}
+401174909 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	7979.1.1 = {birth="7979.1.1"}
+	8035.1.1 = {death="8035.1.1"}
+}
+102174909 = {
+	name="Hodor"	# not a lord
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=100174909
+	mother=400174909
+
+	7981.1.1 = {birth="7981.1.1"}
+	7996.1.1 = {add_trait=poor_warrior}
+	7999.1.1 = {add_spouse=402174909}
+	8034.1.1 = {death="8034.1.1"}
+}
+402174909 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	7981.1.1 = {birth="7981.1.1"}
+	8034.1.1 = {death="8034.1.1"}
+}
+103174909 = {
+	name="Hodor"	# not a lord
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=100174909
+	mother=400174909
+
+	7984.1.1 = {birth="7984.1.1"}
+	8000.1.1 = {add_trait=knight add_trait=skilled_warrior}
+	8045.1.1 = {death="8045.1.1"}
+}
+104174909 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=100174909
+	mother=400174909
+
+	7985.1.1 = {birth="7985.1.1"}
+	8031.1.1 = {death="8031.1.1"}
+}
+105174909 = {
+	name="Hodor"	# a lord
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=102174909
+	mother=402174909
+
+	8008.1.1 = {birth="8008.1.1"}
+	8024.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8026.1.1 = {add_spouse=405174909}
+	8060.1.1 = {death="8060.1.1"}
+}
+405174909 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8008.1.1 = {birth="8008.1.1"}
+	8060.1.1 = {death="8060.1.1"}
+}
+106174909 = {
+	name="Hodor"	# not a lord
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=102174909
+	mother=402174909
+
+	8010.1.1 = {birth="8010.1.1"}
+	8026.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8059.1.1 = {death="8059.1.1"}
+}
+107174909 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=102174909
+	mother=402174909
+
+	8011.1.1 = {birth="8011.1.1"}
+	8048.1.1 = {death="8048.1.1"}
+}
+108174909 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=102174909
+	mother=402174909
+
+	8013.1.1 = {birth="8013.1.1"}
+	8057.1.1 = {death="8057.1.1"}
+}
+109174909 = {
+	name="Hodor"	# not a lord
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=102174909
+	mother=402174909
+
+	8014.1.1 = {birth="8014.1.1"}
+	8030.1.1 = {add_trait=poor_warrior}
+	8068.1.1 = {death="8068.1.1"}
+}
+110174909 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=105174909
+	mother=405174909
+
+	8037.1.1 = {birth="8037.1.1"}
+	8112.1.1 = {death="8112.1.1"}
+}
+111174909 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=105174909
+	mother=405174909
+
+	8039.1.1 = {birth="8039.1.1"}
+	8085.1.1 = {death="8085.1.1"}
+}
+112174909 = {
+	name="Hodor"	# a lord
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=105174909
+	mother=405174909
+
+	8041.1.1 = {birth="8041.1.1"}
+	8057.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8059.1.1 = {add_spouse=412174909}
+	8118.1.1 = {death="8118.1.1"}
+}
+412174909 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8041.1.1 = {birth="8041.1.1"}
+	8118.1.1 = {death="8118.1.1"}
+}
+113174909 = {
+	name="Hodor"	# not a lord
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=105174909
+	mother=405174909
+
+	8043.1.1 = {birth="8043.1.1"}
+	8059.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8111.1.1 = {death="8111.1.1"}
+}
+114174909 = {
+	name="Hodor"	# not a lord
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=105174909
+	mother=405174909
+
+	8044.1.1 = {birth="8044.1.1"}
+	8060.1.1 = {add_trait=knight add_trait=skilled_warrior}
+	8099.1.1 = {death="8099.1.1"}
+}
+115174909 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=112174909
+	mother=412174909
+
+	8060.1.1 = {birth="8060.1.1"}
+	8102.1.1 = {death="8102.1.1"}
+}
+116174909 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=112174909
+	mother=412174909
+
+	8061.1.1 = {birth="8061.1.1"}
+	8140.1.1 = {death="8140.1.1"}
+}
+117174909 = {
+	name="Hodor"	# a lord
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=112174909
+	mother=412174909
+
+	8062.1.1 = {birth="8062.1.1"}
+	8078.1.1 = {add_trait=knight add_trait=skilled_warrior}
+	8080.1.1 = {add_spouse=417174909}
+	8127.1.1 = {death="8127.1.1"}
+}
+417174909 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8062.1.1 = {birth="8062.1.1"}
+	8127.1.1 = {death="8127.1.1"}
+}
+118174909 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=112174909
+	mother=412174909
+
+	8065.1.1 = {birth="8065.1.1"}
+	8106.1.1 = {death = {death_reason = death_murder}}
+}
+119174909 = {
+	name="Hodor"	# not a lord
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=112174909
+	mother=412174909
+
+	8066.1.1 = {birth="8066.1.1"}
+	8082.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8144.1.1 = {death="8144.1.1"}
+}
+120174909 = {
+	name="Hodor"	# a lord
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=117174909
+	mother=417174909
+
+	8085.1.1 = {birth="8085.1.1"}
+	8101.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8103.1.1 = {add_spouse=420174909}
+	8134.1.1 = {death="8134.1.1"}
+}
+420174909 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8085.1.1 = {birth="8085.1.1"}
+	8134.1.1 = {death="8134.1.1"}
+}
+121174909 = {
+	name="Hodor"	# not a lord
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=117174909
+	mother=417174909
+
+	8086.1.1 = {birth="8086.1.1"}
+	8102.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8142.1.1 = {death="8142.1.1"}
+}
+122174909 = {
+	name="Hodor"	# not a lord
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=117174909
+	mother=417174909
+
+	8087.1.1 = {birth="8087.1.1"}
+	8103.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8151.1.1 = {death="8151.1.1"}
+}
+123174909 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=117174909
+	mother=417174909
+
+	8090.1.1 = {birth="8090.1.1"}
+	8145.1.1 = {death="8145.1.1"}
+}
+124174909 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=117174909
+	mother=417174909
+
+	8091.1.1 = {birth="8091.1.1"}
+	8120.1.1 = {death="8120.1.1"}
+}
+125174909 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=120174909
+	mother=420174909
+
+	8119.1.1 = {birth="8119.1.1"}
+	8178.1.1 = {death="8178.1.1"}
+}
+126174909 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=120174909
+	mother=420174909
+
+	8120.1.1 = {birth="8120.1.1"}
+	8170.1.1 = {death="8170.1.1"}
+}
+127174909 = {
+	name="Hodor"	# a lord
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=120174909
+	mother=420174909
+
+	8121.1.1 = {birth="8121.1.1"}
+	8137.1.1 = {add_trait=trained_warrior}
+	8139.1.1 = {add_spouse=427174909}
+	8167.1.1 = {death="8167.1.1"}
+}
+427174909 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8121.1.1 = {birth="8121.1.1"}
+	8167.1.1 = {death="8167.1.1"}
+}
+128174909 = {
+	name="Hodor"	# a lord
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=127174909
+	mother=427174909
+
+	8141.1.1 = {birth="8141.1.1"}
+	8157.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8159.1.1 = {add_spouse=428174909}
+	8199.1.1 = {death="8199.1.1"}
+}
+428174909 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8141.1.1 = {birth="8141.1.1"}
+	8199.1.1 = {death="8199.1.1"}
+}
+129174909 = {
+	name="Hodor"	# not a lord
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=127174909
+	mother=427174909
+
+	8144.1.1 = {birth="8144.1.1"}
+	8160.1.1 = {add_trait=poor_warrior}
+	8198.1.1 = {death="8198.1.1"}
+}
+130174909 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=127174909
+	mother=427174909
+
+	8145.1.1 = {birth="8145.1.1"}
+	8220.1.1 = {death="8220.1.1"}
+}
+131174909 = {
+	name="Hodor"	# not a lord
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=128174909
+	mother=428174909
+
+	8173.1.1 = {birth="8173.1.1"}
+	8189.1.1 = {add_trait=poor_warrior}
+	8191.1.1 = {add_spouse=431174909}
+	8198.1.1 = {death = {death_reason = death_battle}}
+}
+431174909 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8173.1.1 = {birth="8173.1.1"}
+	8198.1.1 = {death="8198.1.1"}
+}
+132174909 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=128174909
+	mother=428174909
+
+	8175.1.1 = {birth="8175.1.1"}
+	8221.1.1 = {death="8221.1.1"}
+}
+133174909 = {
+	name="Hodor"	# a lord
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=131174909
+	mother=431174909
+
+	8194.1.1 = {birth="8194.1.1"}
+	8210.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8212.1.1 = {add_spouse=433174909}
+	8268.1.1 = {death="8268.1.1"}
+}
+433174909 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8194.1.1 = {birth="8194.1.1"}
+	8268.1.1 = {death="8268.1.1"}
+}
+134174909 = {
+	name="Hodor"	# not a lord
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=131174909
+	mother=431174909
+
+	8196.1.1 = {birth="8196.1.1"}
+	8212.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8255.1.1 = {death="8255.1.1"}
+}
+135174909 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=131174909
+	mother=431174909
+
+	8198.1.1 = {birth="8198.1.1"}
+	8270.1.1 = {death="8270.1.1"}
+}
+136174909 = {
+	name="Hodor"	# a lord
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=133174909
+	mother=433174909
+
+	8220.1.1 = {birth="8220.1.1"}
+	8236.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8238.1.1 = {add_spouse=436174909}
+	8282.1.1 = {death="8282.1.1"}
+}
+436174909 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8220.1.1 = {birth="8220.1.1"}
+	8282.1.1 = {death="8282.1.1"}
+}
+137174909 = {
+	name="Hodor"	# not a lord
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=133174909
+	mother=433174909
+
+	8221.1.1 = {birth="8221.1.1"}
+	8237.1.1 = {add_trait=knight add_trait=skilled_warrior}
+	8252.1.1 = {death="8252.1.1"}
+}
+138174909 = {
+	name="Hodor"	# a lord
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=136174909
+	mother=436174909
+
+	8247.1.1 = {birth="8247.1.1"}
+	8263.1.1 = {add_trait=knight add_trait=skilled_warrior}
+	8265.1.1 = {add_spouse=438174909}
+}
+438174909 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8247.1.1 = {birth="8247.1.1"}
+}
+139174909 = {
+	name="Hodor"	# not a lord
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=136174909
+	mother=436174909
+
+	8248.1.1 = {birth="8248.1.1"}
+	8264.1.1 = {add_trait=poor_warrior}
+	8266.1.1 = {add_spouse=439174909}
+}
+439174909 = {
+	name="Hodor"
+	female=yes
+
+	religion="the_seven"
+	culture="old_andal"
+
+	8248.1.1 = {birth="8248.1.1"}
+}
+140174909 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=136174909
+	mother=436174909
+
+	8250.1.1 = {birth="8250.1.1"}
+}
+141174909 = {
+	name="Hodor"	# not a lord
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=138174909
+	mother=438174909
+
+	8270.1.1 = {birth="8270.1.1"}
+	8286.1.1 = {add_trait=poor_warrior}
+}
+142174909 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=138174909
+	mother=438174909
+
+	8272.1.1 = {birth="8272.1.1"}
+}
+143174909 = {
+	name="Hodor"	# not a lord
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=138174909
+	mother=438174909
+
+	8274.1.1 = {birth="8274.1.1"}
+	8290.1.1 = {add_trait=knight add_trait=trained_warrior}
+}
+144174909 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=139174909
+	mother=439174909
+
+	8275.1.1 = {birth="8275.1.1"}
+}
+145174909 = {
+	name="Hodor"	# not a lord
+	dynasty=174909
+
+	religion="the_seven"
+	culture="old_andal"
+
+	father=139174909
+	mother=439174909
+
+	8276.1.1 = {birth="8276.1.1"}
+	8292.1.1 = {add_trait=knight add_trait=poor_warrior}
+}

@@ -1,0 +1,5231 @@
+##Meereen
+##House Kandaq
+
+150360009 = {
+	name="Hodor"	# a lord
+	dynasty=360009
+
+	religion="harpy"
+	culture="meereenese"
+
+	7953.1.1 = {birth="7953.1.1"}
+	7980.1.1 = {add_spouse=250360009}
+	8025.1.1 = {death="8025.1.1"}
+}
+250360009 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	7953.1.1 = {birth="7953.1.1"}
+	7990.1.1 = {death="7990.1.1"}
+}
+
+100360009 = {
+	name="Hodor"	# a lord
+	dynasty=360009
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=150360009
+	mother=250360009
+
+	7989.1.1 = {birth="7989.1.1"}
+	8016.1.1 = {add_trait=poor_warrior}
+	8018.1.1 = {add_spouse=200360009}
+	8048.1.1 = {death="8048.1.1"}
+}
+200360009 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8000.1.1 = {birth="8000.1.1"}
+	8048.1.1 = {death="8048.1.1"}
+}
+101360009 = {
+	name="Hodor"	# a lord
+	dynasty=360009
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=100360009
+	mother=200360009
+
+	8029.1.1 = {birth="8029.1.1"}
+	8045.1.1 = {add_trait=trained_warrior}
+	8047.1.1 = {add_spouse=201360009}
+	8062.1.1 = {death="8062.1.1"}
+}
+201360009 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8029.1.1 = {birth="8029.1.1"}
+	8062.1.1 = {death="8062.1.1"}
+}
+102360009 = {
+	name="Hodor"	# not a lord
+	dynasty=360009
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=100360009
+	mother=200360009
+
+	8031.1.1 = {birth="8031.1.1"}
+	8047.1.1 = {add_trait=poor_warrior}
+	8107.1.1 = {death="8107.1.1"}
+}
+103360009 = {
+	name="Hodor"	# not a lord
+	dynasty=360009
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=100360009
+	mother=200360009
+
+	8024.1.1 = {birth="8024.1.1"}
+	8040.1.1 = {add_trait=trained_warrior}
+	8073.1.1 = {death="8073.1.1"}
+}
+104360009 = {
+	name="Hodor"	# not a lord
+	dynasty=360009
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=100360009
+	mother=200360009
+
+	8027.1.1 = {birth="8027.1.1"}
+	8043.1.1 = {add_trait=poor_warrior}
+	8073.1.1 = {death="8073.1.1"}
+}
+105360009 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360009
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=100360009
+	mother=200360009
+
+	8029.1.1 = {birth="8029.1.1"}
+	8098.1.1 = {death="8098.1.1"}
+}
+106360009 = {
+	name="Hodor"	# a lord
+	dynasty=360009
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=101360009
+	mother=201360009
+
+	8049.1.1 = {birth="8049.1.1"}
+	8065.1.1 = {add_trait=trained_warrior}
+	8067.1.1 = {add_spouse=206360009}
+	8083.1.1 = {death="8083.1.1"}
+}
+206360009 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8049.1.1 = {birth="8049.1.1"}
+	8083.1.1 = {death="8083.1.1"}
+}
+107360009 = {
+	name="Hodor"	# not a lord
+	dynasty=360009
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=101360009
+	mother=201360009
+
+	8051.1.1 = {birth="8051.1.1"}
+	8067.1.1 = {add_trait=poor_warrior}
+	8110.1.1 = {death = {death_reason = death_accident}}
+}
+108360009 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360009
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=101360009
+	mother=201360009
+
+	8053.1.1 = {birth="8053.1.1"}
+	8107.1.1 = {death="8107.1.1"}
+}
+109360009 = {
+	name="Hodor"	# not a lord
+	dynasty=360009
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=101360009
+	mother=201360009
+
+	8054.1.1 = {birth="8054.1.1"}
+	8070.1.1 = {add_trait=trained_warrior}
+	8096.1.1 = {death="8096.1.1"}
+}
+110360009 = {
+	name="Hodor"	# a lord
+	dynasty=360009
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=106360009
+	mother=206360009
+
+	8073.1.1 = {birth="8073.1.1"}
+	8089.1.1 = {add_trait=poor_warrior}
+	8091.1.1 = {add_spouse=210360009}
+	8125.1.1 = {death="8125.1.1"}
+}
+210360009 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8073.1.1 = {birth="8073.1.1"}
+	8125.1.1 = {death="8125.1.1"}
+}
+111360009 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360009
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=106360009
+	mother=206360009
+
+	8074.1.1 = {birth="8074.1.1"}
+	8096.1.1 = {death="8096.1.1"}
+}
+112360009 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360009
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=110360009
+	mother=210360009
+
+	8093.1.1 = {birth="8093.1.1"}
+	8146.1.1 = {death="8146.1.1"}
+}
+113360009 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360009
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=110360009
+	mother=210360009
+
+	8094.1.1 = {birth="8094.1.1"}
+	8139.1.1 = {death="8139.1.1"}
+}
+114360009 = {
+	name="Hodor"	# a lord
+	dynasty=360009
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=110360009
+	mother=210360009
+
+	8096.1.1 = {birth="8096.1.1"}
+	8112.1.1 = {add_trait=skilled_warrior}
+	8114.1.1 = {add_spouse=214360009}
+	8140.1.1 = {death="8140.1.1"}
+}
+214360009 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8096.1.1 = {birth="8096.1.1"}
+	8140.1.1 = {death="8140.1.1"}
+}
+115360009 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360009
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=110360009
+	mother=210360009
+
+	8098.1.1 = {birth="8098.1.1"}
+	8170.1.1 = {death="8170.1.1"}
+}
+116360009 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360009
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=114360009
+	mother=214360009
+
+	8125.1.1 = {birth="8125.1.1"}
+	8166.1.1 = {death="8166.1.1"}
+}
+117360009 = {
+	name="Hodor"	# a lord
+	dynasty=360009
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=114360009
+	mother=214360009
+
+	8128.1.1 = {birth="8128.1.1"}
+	8140.1.1 = {}
+	8144.1.1 = {add_trait=skilled_warrior}
+	8146.1.1 = {add_spouse=217360009}
+	8201.1.1 = {death="8201.1.1"}
+}
+217360009 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8128.1.1 = {birth="8128.1.1"}
+	8201.1.1 = {death="8201.1.1"}
+}
+118360009 = {
+	name="Hodor"	# not a lord
+	dynasty=360009
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=114360009
+	mother=214360009
+
+	8130.1.1 = {birth="8130.1.1"}
+	8146.1.1 = {add_trait=poor_warrior}
+	8178.1.1 = {death="8178.1.1"}
+}
+119360009 = {
+	name="Hodor"	# not a lord
+	dynasty=360009
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=114360009
+	mother=214360009
+
+	8132.1.1 = {birth="8132.1.1"}
+	8148.1.1 = {add_trait=skilled_warrior}
+	8177.1.1 = {death="8177.1.1"}
+}
+120360009 = {
+	name="Hodor"	# a lord
+	dynasty=360009
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=117360009
+	mother=217360009
+
+	8155.1.1 = {birth="8155.1.1"}
+	8171.1.1 = {add_trait=trained_warrior}
+	8173.1.1 = {add_spouse=220360009}
+	8201.1.1 = {}
+	8223.1.1 = {death="8223.1.1"}
+}
+220360009 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8155.1.1 = {birth="8155.1.1"}
+	8223.1.1 = {death="8223.1.1"}
+}
+121360009 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360009
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=117360009
+	mother=217360009
+
+	8156.1.1 = {birth="8156.1.1"}
+	8210.1.1 = {death="8210.1.1"}
+}
+122360009 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360009
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=117360009
+	mother=217360009
+
+	8158.1.1 = {birth="8158.1.1"}
+	8213.1.1 = {death="8213.1.1"}
+}
+123360009 = {
+	name="Hodor"	# not a lord
+	dynasty=360009
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=117360009
+	mother=217360009
+
+	8160.1.1 = {birth="8160.1.1"}
+	8176.1.1 = {add_trait=poor_warrior}
+	8205.1.1 = {death="8205.1.1"}
+}
+124360009 = {
+	name="Hodor"	# not a lord
+	dynasty=360009
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=117360009
+	mother=217360009
+
+	8161.1.1 = {birth="8161.1.1"}
+	8177.1.1 = {add_trait=poor_warrior}
+	8218.1.1 = {death="8218.1.1"}
+}
+125360009 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360009
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=120360009
+	mother=220360009
+
+	8181.1.1 = {birth="8181.1.1"}
+	8239.1.1 = {death="8239.1.1"}
+}
+126360009 = {
+	name="Hodor"	# a lord
+	dynasty=360009
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=120360009
+	mother=220360009
+
+	8182.1.1 = {birth="8182.1.1"}
+	8198.1.1 = {add_trait=skilled_warrior}
+	8200.1.1 = {add_spouse=226360009}
+	8223.1.1 = {}
+	8245.1.1 = {death="8245.1.1"}
+}
+226360009 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8182.1.1 = {birth="8182.1.1"}
+	8245.1.1 = {death="8245.1.1"}
+}
+127360009 = {
+	name="Hodor"	# a lord
+	dynasty=360009
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=126360009
+	mother=226360009
+
+	8208.1.1 = {birth="8208.1.1"}
+	8224.1.1 = {add_trait=poor_warrior}
+	8226.1.1 = {add_spouse=227360009}
+	8245.1.1 = {}
+	8275.1.1 = {death="8275.1.1"}
+}
+227360009 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8208.1.1 = {birth="8208.1.1"}
+	8275.1.1 = {death="8275.1.1"}
+}
+
+16571011 = {
+	name="Hodor" ## THE Shavepate
+	dynasty=360009
+	martial = 5
+	diplomacy = 6
+	intrigue = 2
+	stewardship = 9
+	learning = 4
+	culture = meereenese
+	religion = harpy 
+
+	father=127360009
+	mother=227360009		
+	
+	add_trait="elusive_shadow"
+	add_trait="quick"
+	add_trait="diligent"
+	add_trait="ruthless"
+	add_trait="deceitful"
+	add_trait="cynical"
+	add_trait="ugly"
+	
+	8254.1.1 = {
+		birth="8254.1.1"
+	}
+	8270.1.1 = {
+		add_trait = trained_warrior
+	}
+	8283.1.1 = {
+		add_spouse = 46571011
+	}
+	8300.1.1 = {
+		effect = {
+			liege = {
+				reverse_opinion = {
+					modifier = opinion_loyal_servant
+					who = ROOT
+				}
+			}	
+		}
+	}
+}
+46571011 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8254.1.1 = {
+		birth="8254.1.1"
+	}
+}
+16571111 = {
+	name="Hodor" 
+	female = yes
+	dynasty=360009
+	
+	culture = meereenese
+	religion = harpy 
+
+	father=16571011
+	mother=46571011	
+	
+	8284.1.1 = {
+		birth="8284.1.1"
+	}
+}
+16571211 = {
+	name="Hodor" 
+	female = yes
+	dynasty=360009
+	
+	culture = meereenese
+	religion = harpy 
+
+	father=16571011
+	mother=46571011	
+	
+	8286.1.1 = {
+		birth="8286.1.1"
+	}
+}
+##House Reznak
+
+150360008 = {
+	name="Hodor"	# a lord
+	dynasty=360008
+
+	religion="harpy"
+	culture="meereenese"
+
+	7960.1.1 = {birth="7960.1.1"}
+	7979.1.1 = {add_spouse=250360008}
+	8027.1.1 = {death="8027.1.1"}
+}
+250360008 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	7960.1.1 = {birth="7960.1.1"}
+	8023.1.1 = {death="8023.1.1"}
+}
+100360008 = {
+	name="Hodor"	# a lord
+	dynasty=360008
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=150360008
+	mother=250360008
+
+	7996.1.1 = {birth="7996.1.1"}
+	8016.1.1 = {add_trait=poor_warrior}
+	8018.1.1 = {add_spouse=200360008}
+	8027.1.1 = {}
+	8045.1.1 = {death="8045.1.1"}
+}
+200360008 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8000.1.1 = {birth="8000.1.1"}
+	8036.1.1 = {death="8036.1.1"}
+}
+101360008 = {
+	name="Hodor"	# a lord
+	dynasty=360008
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=100360008
+	mother=200360008
+
+	8029.1.1 = {birth="8029.1.1"}
+	8045.1.1 = {add_trait=master_warrior}
+	8045.1.1 = {}
+	8047.1.1 = {add_spouse=201360008}
+	8087.1.1 = {death="8087.1.1"}
+}
+201360008 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8029.1.1 = {birth="8029.1.1"}
+	8087.1.1 = {death="8087.1.1"}
+}
+102360008 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360008
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=100360008
+	mother=200360008
+
+	8031.1.1 = {birth="8031.1.1"}
+	8086.1.1 = {death="8086.1.1"}
+}
+103360008 = {
+	name="Hodor"	# not a lord
+	dynasty=360008
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=100360008
+	mother=200360008
+
+	8034.1.1 = {birth="8034.1.1"}
+	8050.1.1 = {add_trait=trained_warrior}
+	8096.1.1 = {death="8096.1.1"}
+}
+104360008 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360008
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=101360008
+	mother=201360008
+
+	8061.1.1 = {birth="8061.1.1"}
+	8103.1.1 = {death="8103.1.1"}
+}
+105360008 = {
+	name="Hodor"	# a lord
+	dynasty=360008
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=101360008
+	mother=201360008
+
+	8062.1.1 = {birth="8062.1.1"}
+	8078.1.1 = {add_trait=poor_warrior}
+	8080.1.1 = {add_spouse=205360008}
+	8087.1.1 = {}
+	8128.1.1 = {death="8128.1.1"}
+}
+205360008 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8062.1.1 = {birth="8062.1.1"}
+	8128.1.1 = {death="8128.1.1"}
+}
+106360008 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360008
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=101360008
+	mother=201360008
+
+	8063.1.1 = {birth="8063.1.1"}
+	8122.1.1 = {death="8122.1.1"}
+}
+107360008 = {
+	name="Hodor"	# not a lord
+	dynasty=360008
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=101360008
+	mother=201360008
+
+	8065.1.1 = {birth="8065.1.1"}
+	8081.1.1 = {add_trait=trained_warrior}
+	8107.1.1 = {death="8107.1.1"}
+}
+108360008 = {
+	name="Hodor"	# not a lord
+	dynasty=360008
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=105360008
+	mother=205360008
+
+	8094.1.1 = {birth="8094.1.1"}
+	8105.1.1 = {death="8105.1.1"}
+}
+109360008 = {
+	name="Hodor"	# a lord
+	dynasty=360008
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=105360008
+	mother=205360008
+
+	8095.1.1 = {birth="8095.1.1"}
+	8111.1.1 = {add_trait=poor_warrior}
+	8120.1.1 = {add_spouse=209360008}
+	8128.1.1 = {}
+	8145.1.1 = {death="8145.1.1"}
+}
+209360008 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8095.1.1 = {birth="8095.1.1"}
+	8145.1.1 = {death="8145.1.1"}
+}
+110360008 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360008
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=105360008
+	mother=205360008
+
+	8081.1.1 = {birth="8081.1.1"}
+	8104.1.1 = {death="8104.1.1"}
+}
+111360008 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360008
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=105360008
+	mother=205360008
+
+	8084.1.1 = {birth="8084.1.1"}
+	8149.1.1 = {death="8149.1.1"}
+}
+113360008 = {
+	name="Hodor"	# not a lord
+	dynasty=360008
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=105360008
+	mother=205360008
+
+	8088.1.1 = {birth="8088.1.1"}
+	8104.1.1 = {add_trait=skilled_warrior}
+	8145.1.1 = {death="8145.1.1"}
+}
+114360008 = {
+	name="Hodor"	# not a lord
+	dynasty=360008
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=105360008
+	mother=205360008
+
+	8091.1.1 = {birth="8091.1.1"}
+	8107.1.1 = {add_trait=poor_warrior}
+	8147.1.1 = {death="8147.1.1"}
+}
+115360008 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360008
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=109360008
+	mother=209360008
+
+	8120.1.1 = {birth="8120.1.1"}
+	8153.1.1 = {death="8153.1.1"}
+}
+116360008 = {
+	name="Hodor"	# a lord
+	dynasty=360008
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=109360008
+	mother=209360008
+
+	8122.1.1 = {birth="8122.1.1"}
+	8138.1.1 = {add_trait=master_warrior}
+	8140.1.1 = {add_spouse=216360008}
+	8145.1.1 = {}
+	8171.1.1 = {death="8171.1.1"}
+}
+216360008 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8122.1.1 = {birth="8122.1.1"}
+	8171.1.1 = {death="8171.1.1"}
+}
+117360008 = {
+	name="Hodor"	# not a lord
+	dynasty=360008
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=109360008
+	mother=209360008
+
+	8125.1.1 = {birth="8125.1.1"}
+	8141.1.1 = {add_trait=trained_warrior}
+	8179.1.1 = {death="8179.1.1"}
+}
+118360008 = {
+	name="Hodor"	# not a lord
+	dynasty=360008
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=109360008
+	mother=209360008
+
+	8128.1.1 = {birth="8128.1.1"}
+	8144.1.1 = {add_trait=skilled_warrior}
+	8160.1.1 = {death = {death_reason = death_battle}}
+}
+119360008 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360008
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=116360008
+	mother=216360008
+
+	8146.1.1 = {birth="8146.1.1"}
+	8197.1.1 = {death="8197.1.1"}
+}
+120360008 = {
+	name="Hodor"	# a lord
+	dynasty=360008
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=116360008
+	mother=216360008
+
+	8147.1.1 = {birth="8147.1.1"}
+	8163.1.1 = {add_trait=trained_warrior}
+	8165.1.1 = {add_spouse=220360008}
+	8171.1.1 = {}
+	8204.1.1 = {death="8204.1.1"}
+}
+220360008 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8147.1.1 = {birth="8147.1.1"}
+	8204.1.1 = {death="8204.1.1"}
+}
+121360008 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360008
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=116360008
+	mother=216360008
+
+	8150.1.1 = {birth="8150.1.1"}
+	8161.1.1 = {death="8161.1.1"}
+}
+122360008 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360008
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=116360008
+	mother=216360008
+
+	8152.1.1 = {birth="8152.1.1"}
+	8209.1.1 = {death="8209.1.1"}
+}
+123360008 = {
+	name="Hodor"	# a lord
+	dynasty=360008
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=120360008
+	mother=220360008
+
+	8167.1.1 = {birth="8167.1.1"}
+	8183.1.1 = {add_trait=poor_warrior}
+	8187.1.1 = {add_spouse=223360008}
+	8204.1.1 = {}
+	8233.1.1 = {death="8233.1.1"}
+}
+223360008 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8167.1.1 = {birth="8167.1.1"}
+	8233.1.1 = {death="8233.1.1"}
+}
+124360008 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360008
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=120360008
+	mother=220360008
+
+	8169.1.1 = {birth="8169.1.1"}
+	8216.1.1 = {death="8216.1.1"}
+}
+125360008 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360008
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=123360008
+	mother=223360008
+
+	8196.1.1 = {birth="8196.1.1"}
+	8230.1.1 = {death="8230.1.1"}
+}
+126360008 = {
+	name="Hodor"	# a lord
+	dynasty=360008
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=123360008
+	mother=223360008
+
+	8191.1.1 = {birth="8191.1.1"}
+	8207.1.1 = {add_trait=poor_warrior}
+	8209.1.1 = {add_spouse=226360008}
+	8233.1.1 = {}
+	8249.1.1 = {death="8249.1.1"}
+}
+226360008 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8191.1.1 = {birth="8191.1.1"}
+	8249.1.1 = {death="8249.1.1"}
+}
+127360008 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360008
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=123360008
+	mother=223360008
+
+	8192.1.1 = {birth="8192.1.1"}
+	8261.1.1 = {death = {death_reason = death_murder}}
+}
+128360008 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360008
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=123360008
+	mother=223360008
+
+	8193.1.1 = {birth="8193.1.1"}
+	8259.1.1 = {death="8259.1.1"}
+}
+129360008 = {
+	name="Hodor"	# a lord
+	dynasty=360008
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=126360008
+	mother=226360008
+
+	8226.1.1 = {birth="8226.1.1"}
+	8242.1.1 = {add_trait=poor_warrior}
+	8244.1.1 = {add_spouse=229360008}
+	8249.1.1 = {}
+	8279.1.1 = {death="8279.1.1"}
+}
+229360008 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8226.1.1 = {birth="8226.1.1"}
+	8268.1.1 = {death="8268.1.1"}
+}
+130360008 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360008
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=126360008
+	mother=226360008
+
+	8227.1.1 = {birth="8227.1.1"}
+	8268.1.1 = {death="8268.1.1"}
+}
+16571012 = {
+	name="Hodor" 
+	dynasty=360008
+	diplomacy = 12
+	intrigue = 16
+	stewardship = 9
+	learning = 8
+	culture = meereenese
+	religion = harpy 
+
+	father=129360008
+	mother=229360008		
+	
+
+	add_trait="diligent"
+	add_trait="patient"
+	add_trait="deceitful"
+	add_trait="cynical"
+	
+	8250.1.1 = {
+		birth="8250.1.1"
+	}
+	8279.1.1 = {}
+}
+
+##House Loraq
+
+
+150360003 = {
+	name="Hodor"	# famous citizen
+	dynasty=360003
+	
+	stewardship = 6
+	martial = 3
+	diplomacy = 5
+	intrigue = 4
+	learning = 4
+	
+	add_trait = grey_eminence
+	add_trait = ambitious
+	add_trait = diligent
+
+	religion="harpy"
+	culture="meereenese"
+
+	7960.1.1 = {birth="7960.1.1"}
+	7983.1.1 = {add_spouse=250360003}
+	8016.1.1 = {death="8016.1.1"}
+}
+250360003 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	7965.1.1 = {birth="7965.1.1"}
+	8012.1.1 = {death="8012.1.1"}
+}
+100360003 = {
+	name="Hodor"	# a lord
+	dynasty=360003
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=150360003
+	mother=250360003
+
+	7987.1.1 = {birth="7987.1.1"}
+	8016.1.1 = {add_trait=poor_warrior}
+	8016.1.1 = {}
+	8018.1.1 = {add_spouse=200360003}
+	8047.1.1 = {death="8047.1.1"}
+}
+200360003 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	7993.1.1 = {birth="7993.1.1"}
+	8032.1.1 = {death="8032.1.1"}
+}
+101360003 = {
+	name="Hodor"
+	female=yes
+	dynasty=360003
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=100360003
+	mother=200360003
+
+	8024.1.1 = {birth="8024.1.1"}
+	8066.1.1 = {death = {death_reason = death_accident}}
+}
+102360003 = {
+	name="Hodor"	# a lord
+	dynasty=360003
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=100360003
+	mother=200360003
+
+	8025.1.1 = {birth="8025.1.1"}
+	8041.1.1 = {add_trait=poor_warrior}
+	8043.1.1 = {add_spouse=202360003}
+	8047.1.1 = {}
+	8090.1.1 = {death="8090.1.1"}
+}
+202360003 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8025.1.1 = {birth="8025.1.1"}
+	8090.1.1 = {death="8090.1.1"}
+}
+103360003 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360003
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=100360003
+	mother=200360003
+
+	8027.1.1 = {birth="8027.1.1"}
+	8106.1.1 = {death="8106.1.1"}
+}
+104360003 = {
+	name="Hodor"	# not a lord
+	dynasty=360003
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=100360003
+	mother=200360003
+
+	8030.1.1 = {birth="8030.1.1"}
+	8034.1.1 = {death="8034.1.1"}
+}
+105360003 = {
+	name="Hodor"	# a lord
+	dynasty=360003
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=102360003
+	mother=202360003
+
+	8047.1.1 = {birth="8047.1.1"}
+	8063.1.1 = {add_trait=skilled_warrior}
+	8065.1.1 = {add_spouse=205360003}
+	8090.1.1 = {}
+	8106.1.1 = {death = {death_reason = death_accident}}
+}
+205360003 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8047.1.1 = {birth="8047.1.1"}
+	8106.1.1 = {death="8106.1.1"}
+}
+106360003 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360003
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=102360003
+	mother=202360003
+
+	8048.1.1 = {birth="8048.1.1"}
+	8119.1.1 = {death="8119.1.1"}
+}
+107360003 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360003
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=102360003
+	mother=202360003
+
+	8050.1.1 = {birth="8050.1.1"}
+	8089.1.1 = {death="8089.1.1"}
+}
+108360003 = {
+	name="Hodor"	# not a lord
+	dynasty=360003
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=102360003
+	mother=202360003
+
+	8051.1.1 = {birth="8051.1.1"}
+	8067.1.1 = {add_trait=trained_warrior}
+	8105.1.1 = {death="8105.1.1"}
+}
+109360003 = {
+	name="Hodor"	# not a lord
+	dynasty=360003
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=102360003
+	mother=202360003
+
+	8052.1.1 = {birth="8052.1.1"}
+	8068.1.1 = {add_trait=poor_warrior}
+	8083.1.1 = {death="8083.1.1"}
+}
+110360003 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360003
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=105360003
+	mother=205360003
+
+	8069.1.1 = {birth="8069.1.1"}
+	8128.1.1 = {death="8128.1.1"}
+}
+111360003 = {
+	name="Hodor"	# famous citizen
+	dynasty=360003
+	
+	stewardship = 5
+	martial = 2
+	diplomacy = 4
+	intrigue = 3
+	learning = 5
+	
+	add_trait = fortune_builder
+	add_trait = ambitious
+	add_trait = diligent
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=105360003
+	mother=205360003
+
+	8070.1.1 = {birth="8070.1.1"}
+	8086.1.1 = {add_trait=poor_warrior}
+	8088.1.1 = {add_spouse=211360003}
+	8106.1.1 = {}
+	8124.1.1 = {death="8124.1.1"}
+}
+211360003 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8070.1.1 = {birth="8070.1.1"}
+	8124.1.1 = {death="8124.1.1"}
+}
+112360003 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360003
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=111360003
+	mother=211360003
+
+	8088.1.1 = {birth="8088.1.1"}
+	8124.1.1 = {death="8124.1.1"}
+}
+113360003 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360003
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=111360003
+	mother=211360003
+
+	8091.1.1 = {birth="8091.1.1"}
+	8141.1.1 = {death="8141.1.1"}
+}
+114360003 = {
+	name="Hodor"	# famous citizen
+	dynasty=360003
+	
+	stewardship = 7
+	martial = 3
+	diplomacy = 6
+	intrigue = 7
+	learning = 6
+	
+	add_trait = midas_touched
+	add_trait = ambitious
+	add_trait = diligent
+	
+	religion="harpy"
+	culture="meereenese"
+
+	father=111360003
+	mother=211360003
+
+	8094.1.1 = {birth="8094.1.1"}
+	8110.1.1 = {add_trait=trained_warrior}
+	8112.1.1 = {add_spouse=214360003}
+	8124.1.1 = {}
+	8160.1.1 = {death="8160.1.1"}
+}
+214360003 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8094.1.1 = {birth="8094.1.1"}
+	8160.1.1 = {death="8160.1.1"}
+}
+115360003 = {
+	name="Hodor"	# not a lord
+	dynasty=360003
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=111360003
+	mother=211360003
+
+	8095.1.1 = {birth="8095.1.1"}
+	8101.1.1 = {death = {death_reason = death_accident}}
+}
+117360003 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360003
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=114360003
+	mother=214360003
+
+	8120.1.1 = {birth="8120.1.1"}
+	8162.1.1 = {death="8162.1.1"}
+}
+118360003 = {
+	name="Hodor"	# a lord
+	dynasty=360003
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=114360003
+	mother=214360003
+
+	8123.1.1 = {birth="8123.1.1"}
+	8139.1.1 = {add_trait=poor_warrior}
+	8141.1.1 = {add_spouse=218360003}
+	8160.1.1 = {}
+	8179.1.1 = {death="8179.1.1"}
+}
+218360003 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8123.1.1 = {birth="8123.1.1"}
+	8179.1.1 = {death="8179.1.1"}
+}
+119360003 = {
+	name="Hodor"	# not a lord
+	dynasty=360003
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=114360003
+	mother=214360003
+
+	8125.1.1 = {birth="8125.1.1"}
+	8141.1.1 = {add_trait=poor_warrior}
+	8167.1.1 = {death="8167.1.1"}
+}
+120360003 = {
+	name="Hodor"	# a lord
+	dynasty=360003
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=118360003
+	mother=218360003
+
+	8154.1.1 = {birth="8154.1.1"}
+	8170.1.1 = {add_trait=poor_warrior}
+	8172.1.1 = {add_spouse=220360003}
+	8179.1.1 = {}
+	8212.1.1 = {death="8212.1.1"}
+}
+220360003 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8154.1.1 = {birth="8154.1.1"}
+	8212.1.1 = {death="8212.1.1"}
+}
+121360003 = {
+	name="Hodor"	# not a lord
+	dynasty=360003
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=120360003
+	mother=220360003
+
+	8176.1.1 = {birth="8176.1.1"}
+	8187.1.1 = {death="8187.1.1"}
+}
+122360003 = {
+	name="Hodor"	# a lord
+	dynasty=360003
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=120360003
+	mother=220360003
+
+	8173.1.1 = {birth="8173.1.1"}
+	8189.1.1 = {add_trait=poor_warrior}
+	8191.1.1 = {add_spouse=222360003}
+	8212.1.1 = {}
+	8238.1.1 = {death="8238.1.1"}
+}
+222360003 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8173.1.1 = {birth="8173.1.1"}
+	8238.1.1 = {death="8238.1.1"}
+}
+123360003 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360003
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=120360003
+	mother=220360003
+
+	8174.1.1 = {birth="8174.1.1"}
+	8217.1.1 = {death="8217.1.1"}
+}
+124360003 = {
+	name="Hodor"	# a lord
+	dynasty=360003
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=122360003
+	mother=222360003
+
+	8208.1.1 = {birth="8208.1.1"}
+	8224.1.1 = {add_trait=skilled_warrior}
+	8226.1.1 = {add_spouse=224360003}
+	8238.1.1 = {}
+	8250.1.1 = {death="8250.1.1"}
+}
+224360003 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8208.1.1 = {birth="8208.1.1"}
+	8250.1.1 = {death="8250.1.1"}
+}
+125360003 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360003
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=122360003
+	mother=222360003
+
+	8211.1.1 = {birth="8211.1.1"}
+	8254.1.1 = {death="8254.1.1"}
+}
+126360003 = {
+	name="Hodor"	# not a lord
+	dynasty=360003
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=122360003
+	mother=222360003
+
+	8212.1.1 = {birth="8212.1.1"}
+	8228.1.1 = {add_trait=poor_warrior}
+	8247.1.1 = {death="8247.1.1"}
+}
+127360003 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360003
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=122360003
+	mother=222360003
+
+	8213.1.1 = {birth="8213.1.1"}
+	8269.1.1 = {death="8269.1.1"}
+}
+128360003 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360003
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=124360003
+	mother=224360003
+
+	8226.1.1 = {birth="8226.1.1"}
+	8296.1.1 = {death="8296.1.1"}
+}
+129360003 = {
+	name="Hodor"	# a lord
+	dynasty=360003
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=124360003
+	mother=224360003
+
+	8229.1.1 = {birth="8229.1.1"}
+	8245.1.1 = {add_trait=poor_warrior}
+	8247.1.1 = {add_spouse=229360003}
+	8250.1.1 = {}
+	8286.1.1 = {death="8286.1.1"}
+}
+229360003 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8229.1.1 = {birth="8229.1.1"}
+	#8286.1.1 = {death="8286.1.1"} #she was alive in books
+}
+130360003 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360003
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=124360003
+	mother=224360003
+
+	8232.1.1 = {birth="8232.1.1"}
+	8280.1.1 = {death="8280.1.1"}
+}
+131360003 = {
+	name="Hodor"	# not a lord
+	dynasty=360003
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=124360003
+	mother=224360003
+
+	8235.1.1 = {birth="8235.1.1"}
+	8251.1.1 = {add_trait=poor_warrior}
+	8253.1.1 = {add_spouse=231360003}
+	8284.1.1 = {death="8284.1.1"}
+}
+231360003 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8235.1.1 = {birth="8235.1.1"}
+	8286.1.1 = {death="8286.1.1"}
+}
+
+16571013 = {
+	name="Hodor"  ##Marries Dany
+	dynasty=360003
+	martial = 4
+	diplomacy = 5
+	intrigue = 2
+	stewardship = 6
+	culture = meereenese
+	religion = harpy 
+
+	father=129360003
+	mother=229360003		
+	
+	add_trait="ambitious"
+	add_trait="patient"
+	add_trait="deceitful"
+	add_trait="cynical"
+	
+	8266.1.1 = {
+		birth="8266.1.1"
+	}
+	8286.1.1 = {}
+	8298.10.10 = {  # Drogo's death
+		effect = {
+			if = {
+				limit = { ai = yes }
+				add_trait = forbid_marriage
+			}
+		}
+	}
+	8300.1.1 = { 
+		effect = {
+			b_meereen = { ROOT = { capital = PREV } }
+		}
+	}
+}
+132360003 = { #king hazoo had two bastards
+	name="Hodor"
+	dynasty=360003
+	
+	father=16571013
+	culture = meereenese
+	religion = harpy 
+	add_trait=bastard
+	
+	8287.1.1 = { birth="8287.1.1" }
+}
+133360003 = { #king hazoo had two bastards
+	name="Hodor"
+	dynasty=360003
+	female=yes
+	
+	father=16571013
+	culture = meereenese
+	religion = harpy 
+	add_trait=bastard
+	
+	8289.1.1 = { birth="8289.1.1" }
+}
+134360003 = { #hizdahr has some sisters
+	name="Hodor"
+	dynasty=360003
+	female=yes
+	culture = meereenese
+	religion = harpy 
+	father=129360003
+	mother=229360003
+	
+	8272.1.1 = {
+		birth="8272.1.1"
+	}
+}
+135360003 = { #hizdahr has some sisters
+	name="Hodor"
+	dynasty=360003
+	female=yes
+	culture = meereenese
+	religion = harpy 
+	father=129360003
+	mother=229360003
+	
+	8277.1.1 = {
+		birth="8277.1.1"
+	}
+}
+136360003 = { #some female cousing of Hizdahr was hostage
+	name="Hodor"
+	dynasty=360003
+	female=yes
+	culture = meereenese
+	religion = harpy 
+	father=131360003
+	mother=231360003	
+	
+	8265.1.1 = {
+		birth="8265.1.1"
+	}
+}
+137360003 = { #canon
+	name="Hodor"
+	dynasty=360003
+	culture = meereenese
+	religion = harpy 
+	father=16571014 #he is too young to be son of other zo loraq
+	mother=237360003
+	8292.1.1 = {
+		birth="8292.1.1"
+	}
+}
+237360003 = { #mother to bhakaz wife of marghaz. uncanon but necessery to have bhakaz
+	name="Hodor"
+	female=yes
+	dynasty=360030
+	culture = meereenese
+	religion = harpy 
+	father=101360030
+	mother=201360030
+	
+	8272.1.1 = {
+		birth="8272.1.1"
+	}
+	8291.1.1 = { add_spouse=16571014 }
+}
+16571014 = {
+	name="Hodor"  ## Canon
+	dynasty=360003
+	martial = 6
+	intrigue = 4
+	culture = meereenese
+	religion = harpy 
+
+	father=131360003
+	mother=231360003		
+	
+	add_trait="deceitful"
+	add_trait="cynical"
+	add_trait="gluttonous"
+	add_trait="proud"
+	add_trait="ambitious"
+	
+	8263.1.1 = {
+		birth="8263.1.1"
+		employer=157004
+	}
+	8282.1.1 = {
+		employer=16571013
+	}
+}
+
+##House Galare
+
+150360004 = {
+	name="Hodor"	# a lord
+	dynasty=360004
+
+	religion="harpy"
+	culture="meereenese"
+
+	7964.1.1 = {birth="7964.1.1"}
+	7982.1.1 = {add_spouse=250360004}
+	8020.1.1 = {death="8020.1.1"}
+}
+250360004 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	7963.1.1 = {birth="7963.1.1"}
+	8015.1.1 = {death="8015.1.1"}
+}
+
+100360004 = {
+	name="Hodor"	# a lord
+	dynasty=360004
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=150360004
+	mother=250360004
+
+	7984.1.1 = {birth="7984.1.1"}
+	8016.1.1 = {add_trait=poor_warrior}
+	8018.1.1 = {add_spouse=200360004}
+	8020.1.1 = {}
+	8053.1.1 = {death="8053.1.1"}
+}
+200360004 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	7984.1.1 = {birth="7984.1.1"}
+	8038.1.1 = {death="8038.1.1"}
+}
+101360004 = {
+	name="Hodor"	# a lord
+	dynasty=360004
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=100360004
+	mother=200360004
+
+	8029.1.1 = {birth="8029.1.1"}
+	8045.1.1 = {add_trait=poor_warrior}
+	8047.1.1 = {add_spouse=201360004}
+	8053.1.1 = {}
+	8078.1.1 = {death="8078.1.1"}
+}
+201360004 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8029.1.1 = {birth="8029.1.1"}
+	8078.1.1 = {death="8078.1.1"}
+}
+102360004 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360004
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=100360004
+	mother=200360004
+
+	8031.1.1 = {birth="8031.1.1"}
+	8080.1.1 = {death="8080.1.1"}
+}
+103360004 = {
+	name="Hodor"	# a lord
+	dynasty=360004
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=101360004
+	mother=201360004
+
+	8050.1.1 = {birth="8050.1.1"}
+	8066.1.1 = {add_trait=poor_warrior}
+	8068.1.1 = {add_spouse=203360004}
+	8078.1.1 = {}
+	8105.1.1 = {death="8105.1.1"}
+}
+203360004 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8050.1.1 = {birth="8050.1.1"}
+	8105.1.1 = {death="8105.1.1"}
+}
+104360004 = {
+	name="Hodor"	# not a lord
+	dynasty=360004
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=101360004
+	mother=201360004
+
+	8052.1.1 = {birth="8052.1.1"}
+	8068.1.1 = {add_trait=skilled_warrior}
+	8109.1.1 = {death="8109.1.1"}
+}
+105360004 = {
+	name="Hodor"	# not a lord
+	dynasty=360004
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=101360004
+	mother=201360004
+
+	8055.1.1 = {birth="8055.1.1"}
+	8071.1.1 = {add_trait=skilled_warrior}
+	8124.1.1 = {death="8124.1.1"}
+}
+106360004 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360004
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=101360004
+	mother=201360004
+
+	8057.1.1 = {birth="8057.1.1"}
+	8074.1.1 = {death="8074.1.1"}
+}
+107360004 = {
+	name="Hodor"	# a lord
+	dynasty=360004
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=103360004
+	mother=203360004
+
+	8069.1.1 = {birth="8069.1.1"}
+	8085.1.1 = {add_trait=trained_warrior}
+	8087.1.1 = {add_spouse=207360004}
+	8105.1.1 = {}
+	8118.1.1 = {death="8118.1.1"}
+}
+207360004 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8069.1.1 = {birth="8069.1.1"}
+	8118.1.1 = {death="8118.1.1"}
+}
+108360004 = {
+	name="Hodor"	# not a lord
+	dynasty=360004
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=103360004
+	mother=203360004
+
+	8070.1.1 = {birth="8070.1.1"}
+	8086.1.1 = {add_trait=poor_warrior}
+	8093.1.1 = {death="8093.1.1"}
+}
+109360004 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360004
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=103360004
+	mother=203360004
+
+	8072.1.1 = {birth="8072.1.1"}
+	8141.1.1 = {death="8141.1.1"}
+}
+110360004 = {
+	name="Hodor"	# not a lord
+	dynasty=360004
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=103360004
+	mother=203360004
+
+	8073.1.1 = {birth="8073.1.1"}
+	8089.1.1 = {add_trait=poor_warrior}
+	8134.1.1 = {death="8134.1.1"}
+}
+111360004 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360004
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=107360004
+	mother=207360004
+
+	8097.1.1 = {birth="8097.1.1"}
+	8127.1.1 = {death="8127.1.1"}
+}
+112360004 = {
+	name="Hodor"	# a lord
+	dynasty=360004
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=107360004
+	mother=207360004
+
+	8099.1.1 = {birth="8099.1.1"}
+	8115.1.1 = {add_trait=skilled_warrior}
+	8117.1.1 = {add_spouse=212360004}
+	8118.1.1 = {}
+	8166.1.1 = {death="8166.1.1"}
+}
+212360004 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8099.1.1 = {birth="8099.1.1"}
+	8166.1.1 = {death="8166.1.1"}
+}
+113360004 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360004
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=107360004
+	mother=207360004
+
+	8101.1.1 = {birth="8101.1.1"}
+	8130.1.1 = {death = {death_reason = death_accident}}
+}
+114360004 = {
+	name="Hodor"	# not a lord
+	dynasty=360004
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=107360004
+	mother=207360004
+
+	8103.1.1 = {birth="8103.1.1"}
+	8119.1.1 = {add_trait=poor_warrior}
+	8164.1.1 = {death="8164.1.1"}
+}
+115360004 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360004
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=112360004
+	mother=212360004
+
+	8127.1.1 = {birth="8127.1.1"}
+	8182.1.1 = {death="8182.1.1"}
+}
+116360004 = {
+	name="Hodor"	# a lord
+	dynasty=360004
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=112360004
+	mother=212360004
+
+	8128.1.1 = {birth="8128.1.1"}
+	8144.1.1 = {add_trait=poor_warrior}
+	8146.1.1 = {add_spouse=216360004}
+	8166.1.1 = {}
+	8179.1.1 = {death="8179.1.1"}
+}
+216360004 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8128.1.1 = {birth="8128.1.1"}
+	8179.1.1 = {death="8179.1.1"}
+}
+117360004 = {
+	name="Hodor"	# not a lord
+	dynasty=360004
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=112360004
+	mother=212360004
+
+	8129.1.1 = {birth="8129.1.1"}
+	8145.1.1 = {add_trait=poor_warrior}
+	8184.1.1 = {death="8184.1.1"}
+}
+118360004 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360004
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=116360004
+	mother=216360004
+
+	8157.1.1 = {birth="8157.1.1"}
+	8190.1.1 = {death = {death_reason = death_execution}}
+}
+119360004 = {
+	name="Hodor"	# a lord
+	dynasty=360004
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=116360004
+	mother=216360004
+
+	8158.1.1 = {birth="8158.1.1"}
+	8174.1.1 = {add_trait=trained_warrior}
+	8176.1.1 = {add_spouse=219360004}
+	8179.1.1 = {}
+	8200.1.1 = {death="8200.1.1"}
+}
+219360004 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8158.1.1 = {birth="8158.1.1"}
+	8200.1.1 = {death="8200.1.1"}
+}
+120360004 = {
+	name="Hodor"	# not a lord
+	dynasty=360004
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=116360004
+	mother=216360004
+
+	8161.1.1 = {birth="8161.1.1"}
+	8177.1.1 = {add_trait=poor_warrior}
+	8214.1.1 = {death="8214.1.1"}
+}
+121360004 = {
+	name="Hodor"	# not a lord
+	dynasty=360004
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=116360004
+	mother=216360004
+
+	8162.1.1 = {birth="8162.1.1"}
+	8178.1.1 = {add_trait=poor_warrior}
+	8198.1.1 = {death="8198.1.1"}
+}
+122360004 = {
+	name="Hodor"	# not a lord
+	dynasty=360004
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=116360004
+	mother=216360004
+
+	8163.1.1 = {birth="8163.1.1"}
+	8179.1.1 = {add_trait=trained_warrior}
+	8198.1.1 = {death = {death_reason = death_execution}}
+}
+123360004 = {
+	name="Hodor"	# a lord
+	dynasty=360004
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=119360004
+	mother=219360004
+
+	8180.1.1 = {birth="8180.1.1"}
+	8199.1.1 = {add_spouse=223360004}
+	8200.1.1 = {}
+	8209.1.1 = {add_trait=skilled_warrior}
+	8229.1.1 = {death="8229.1.1"}
+}
+223360004 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8180.1.1 = {birth="8180.1.1"}
+	8229.1.1 = {death="8229.1.1"}
+}
+124360004 = {
+	name="Hodor"	# not a lord
+	dynasty=360004
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=119360004
+	mother=219360004
+
+	8195.1.1 = {birth="8195.1.1"}
+	8211.1.1 = {add_trait=trained_warrior}
+	8242.1.1 = {add_spouse=228360004}
+	8264.1.1 = {death="8264.1.1"}
+}
+125360004 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360004
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=119360004
+	mother=219360004
+
+	8196.1.1 = {birth="8196.1.1"}
+	8263.1.1 = {death = {death_reason = death_accident}}
+}
+126360004 = {
+	name="Hodor"	# not a lord
+	dynasty=360004
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=119360004
+	mother=219360004
+
+	8197.1.1 = {birth="8197.1.1"}
+	8213.1.1 = {add_trait=trained_warrior}
+	#8236.1.1 = {death="8236.1.1"} #not dead cause Galazza Galare have very young cousins
+	8276.1.1 = { add_spouse = 226360004 }
+	8290.1.1 = { death="8290.1.1" }	
+}
+130360004 = {
+	name="Hodor" #canon
+	dynasty=360004
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	add_trait=temperate
+	add_trait=ambitious
+	
+	father=126360004
+	mother=226360004
+	
+	8287.1.1 = { birth="8287.1.1" }
+	8300.1.1 = { employer=77041 }
+}
+131360004 = {
+	name="Hodor" #canon
+	dynasty=360004
+	female=yes
+		
+	religion="harpy"
+	culture="meereenese"
+	
+	father=126360004
+	mother=226360004
+	
+	8289.1.1 = { birth="8289.1.1" }
+	8300.1.1 = { employer=77041 }
+}
+127360004 = {
+	name="Hodor"	# a lord
+	dynasty=360004
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=123360004
+	mother=223360004
+
+	8203.1.1 = {birth="8203.1.1"}
+	8229.1.1 = {}
+	8238.1.1 = {add_trait=poor_warrior}
+	8243.1.1 = {death = {death_reason = death_accident}}
+}
+151360004 = {
+	name="Hodor"	# The green Grace
+	female=yes
+	dynasty=360004
+	
+	dna="dkclkolades"
+	properties="mj0eak"
+	
+	martial = 1
+	stewardship = 3
+	learning = 11
+	diplomacy = 13
+	intrigue = 13
+	
+	add_trait = scholarly_theologian
+	add_trait = honorable
+	add_trait = kind
+	add_trait = chaste
+	add_trait = patient
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=123360004
+	mother=223360004
+	
+	8217.1.1 = {
+		birth="8217.1.1"
+		effect = { health = 4.5 }
+	}
+	8243.1.1 = {
+		add_trait = grace
+		effect = {
+			if = {
+				limit = { is_ruler = no }
+				b_graces = { holder_scope = { ROOT = { move_character = PREV } } }
+			}
+		}	
+	}
+}
+128360004 = {
+	name="Hodor"	# a lord
+	dynasty=360004
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=123360004
+	mother=223360004
+
+	8225.1.1 = {birth="8225.1.1"}
+	8241.1.1 = {add_trait=poor_warrior}
+	#8242.1.1 = {add_spouse=228360004}
+	8243.1.1 = {}
+	8287.1.1 = {death="8287.1.1"}
+}
+228360004 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8225.1.1 = {birth="8225.1.1"}
+	8287.1.1 = {death="8287.1.1"}
+}
+129360004 = {
+	name="Hodor"	# not a lord
+	dynasty=360004
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=123360004
+	mother=223360004
+
+	8228.1.1 = {birth="8228.1.1"}
+	8244.1.1 = {add_trait=trained_warrior}
+	8264.1.1 = {death="8264.1.1"}
+}
+
+16571015 = {
+	name="Hodor"  ## Canon, brother of the Green Grace.
+	dynasty=360004
+	martial = 4
+	diplomacy = 5
+	intrigue = 2
+	stewardship = 9
+	culture = meereenese
+	religion = harpy 
+
+	father=124360004 #128360004 #he was cousin not nephew of Galazza
+	mother=228360004		
+	
+
+	add_trait="diligent"
+	add_trait="patient"
+	add_trait="deceitful"
+	add_trait="cynical"
+	add_trait="greedy" #his former slaves case
+	
+	8260.1.1 = {
+		birth="8260.1.1"
+	}
+	8287.1.1 = {}
+}
+
+
+####  House Pahl
+
+150360007 = {
+	name="Hodor"	# a lord
+	dynasty=360007
+
+	religion="harpy"
+	culture="meereenese"
+
+	7967.1.1 = {birth="7967.1.1"}
+	7985.1.1 = {add_spouse=250360007}
+	8017.1.1 = {death="8017.1.1"}
+}
+250360007 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	7969.1.1 = {birth="7969.1.1"}
+	8022.1.1 = {death="8022.1.1"}
+}
+
+100360007 = {
+	name="Hodor"	# a lord
+	dynasty=360007
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=150360007
+	mother=250360007
+
+	7994.1.1 = {birth="7994.1.1"}
+	8016.1.1 = {add_trait=poor_warrior}
+	8017.1.1 = {}
+	8018.1.1 = {add_spouse=200360007}
+	8046.1.1 = {death="8046.1.1"}
+}
+200360007 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8000.1.1 = {birth="8000.1.1"}
+	8040.1.1 = {death="8040.1.1"}
+}
+101360007 = {
+	name="Hodor"	# a lord
+	dynasty=360007
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=100360007
+	mother=200360007
+
+	8029.1.1 = {birth="8029.1.1"}
+	8045.1.1 = {add_trait=trained_warrior}
+	8046.1.1 = {}
+	8047.1.1 = {add_spouse=201360007}
+	8079.1.1 = {death="8079.1.1"}
+}
+201360007 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8029.1.1 = {birth="8029.1.1"}
+	8079.1.1 = {death="8079.1.1"}
+}
+102360007 = {
+	name="Hodor"	# not a lord
+	dynasty=360007
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=100360007
+	mother=200360007
+
+	8032.1.1 = {birth="8032.1.1"}
+	8048.1.1 = {add_trait=skilled_warrior}
+	8050.1.1 = {add_spouse=202360007}
+	8081.1.1 = {death = {death_reason = death_accident}}
+}
+202360007 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8032.1.1 = {birth="8032.1.1"}
+	8081.1.1 = {death="8081.1.1"}
+}
+103360007 = {
+	name="Hodor"	# not a lord
+	dynasty=360007
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=100360007
+	mother=200360007
+
+	8038.1.1 = {birth="8038.1.1"}
+	8054.1.1 = {add_trait=poor_warrior}
+	8082.1.1 = {death="8082.1.1"}
+}
+104360007 = {
+	name="Hodor"	# a lord
+	dynasty=360007
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=101360007
+	mother=201360007
+
+	8053.1.1 = {birth="8053.1.1"}
+	8069.1.1 = {add_trait=poor_warrior}
+	8071.1.1 = {add_spouse=204360007}
+	8079.1.1 = {}
+	8112.1.1 = {death="8112.1.1"}
+}
+204360007 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8053.1.1 = {birth="8053.1.1"}
+	8112.1.1 = {death="8112.1.1"}
+}
+105360007 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360007
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=104360007
+	mother=204360007
+
+	8081.1.1 = {birth="8081.1.1"}
+	8149.1.1 = {death = {death_reason = death_accident}}
+}
+106360007 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360007
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=104360007
+	mother=204360007
+
+	8083.1.1 = {birth="8083.1.1"}
+	8133.1.1 = {death="8133.1.1"}
+}
+107360007 = {
+	name="Hodor"	# a lord
+	dynasty=360007
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=104360007
+	mother=204360007
+
+	8086.1.1 = {birth="8086.1.1"}
+	8102.1.1 = {add_trait=poor_warrior}
+	8104.1.1 = {add_spouse=207360007}
+	8112.1.1 = {}
+	8142.1.1 = {death="8142.1.1"}
+}
+207360007 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8086.1.1 = {birth="8086.1.1"}
+	8120.1.1 = {death="8120.1.1"}
+}
+108360007 = {
+	name="Hodor"	# not a lord
+	dynasty=360007
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=104360007
+	mother=204360007
+
+	8089.1.1 = {birth="8089.1.1"}
+	8105.1.1 = {add_trait=skilled_warrior}
+	8107.1.1 = {add_spouse=208360007}
+	8155.1.1 = {death="8155.1.1"}
+}
+208360007 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8089.1.1 = {birth="8089.1.1"}
+	8155.1.1 = {death="8155.1.1"}
+}
+109360007 = {
+	name="Hodor"	# not a lord
+	dynasty=360007
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=104360007
+	mother=204360007
+
+	8092.1.1 = {birth="8092.1.1"}
+	8108.1.1 = {add_trait=poor_warrior}
+	8172.1.1 = {death="8172.1.1"}
+}
+110360007 = {
+	name="Hodor"	# a lord
+	dynasty=360007
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=107360007
+	mother=207360007
+
+	8109.1.1 = {birth="8109.1.1"}
+	8125.1.1 = {add_trait=poor_warrior}
+	8127.1.1 = {add_spouse=210360007}
+	8142.1.1 = {}
+	8186.1.1 = {death="8186.1.1"}
+}
+210360007 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8109.1.1 = {birth="8109.1.1"}
+	8186.1.1 = {death="8186.1.1"}
+}
+111360007 = {
+	name="Hodor"	# not a lord
+	dynasty=360007
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=107360007
+	mother=207360007
+
+	8112.1.1 = {birth="8112.1.1"}
+	8128.1.1 = {add_trait=master_warrior}
+	8170.1.1 = {death="8170.1.1"}
+}
+112360007 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360007
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=107360007
+	mother=207360007
+
+	8114.1.1 = {birth="8114.1.1"}
+	8157.1.1 = {death = {death_reason = death_accident}}
+}
+113360007 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360007
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=107360007
+	mother=207360007
+
+	8117.1.1 = {birth="8117.1.1"}
+	8136.1.1 = {death="8136.1.1"}
+}
+114360007 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360007
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=110360007
+	mother=210360007
+
+	8138.1.1 = {birth="8138.1.1"}
+	8173.1.1 = {death="8173.1.1"}
+}
+115360007 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360007
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=110360007
+	mother=210360007
+
+	8140.1.1 = {birth="8140.1.1"}
+	8196.1.1 = {death = {death_reason = death_murder}}
+}
+116360007 = {
+	name="Hodor"	# a lord
+	dynasty=360007
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=110360007
+	mother=210360007
+
+	8143.1.1 = {birth="8143.1.1"}
+	8159.1.1 = {add_trait=skilled_warrior}
+	8161.1.1 = {add_spouse=216360007}
+	8186.1.1 = {}
+	8223.1.1 = {death="8223.1.1"}
+}
+216360007 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8143.1.1 = {birth="8143.1.1"}
+	8223.1.1 = {death="8223.1.1"}
+}
+117360007 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360007
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=110360007
+	mother=210360007
+
+	8146.1.1 = {birth="8146.1.1"}
+	8177.1.1 = {death="8177.1.1"}
+}
+118360007 = {
+	name="Hodor"	# not a lord
+	dynasty=360007
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=110360007
+	mother=210360007
+
+	8147.1.1 = {birth="8147.1.1"}
+	8163.1.1 = {add_trait=skilled_warrior}
+	8203.1.1 = {death="8203.1.1"}
+}
+119360007 = {
+	name="Hodor"	# a lord
+	dynasty=360007
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=116360007
+	mother=216360007
+
+	8172.1.1 = {birth="8172.1.1"}
+	8188.1.1 = {add_trait=trained_warrior}
+	8190.1.1 = {add_spouse=219360007}
+	8223.1.1 = {}
+	8238.1.1 = {death="8238.1.1"}
+}
+219360007 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8172.1.1 = {birth="8172.1.1"}
+	8238.1.1 = {death="8238.1.1"}
+}
+120360007 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360007
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=116360007
+	mother=216360007
+
+	8174.1.1 = {birth="8174.1.1"}
+	8220.1.1 = {death="8220.1.1"}
+}
+121360007 = {
+	name="Hodor"	# a lord
+	dynasty=360007
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=119360007
+	mother=219360007
+
+	8204.1.1 = {birth="8204.1.1"}
+	8220.1.1 = {add_trait=trained_warrior}
+	8222.1.1 = {add_spouse=221360007}
+	8238.1.1 = {}
+	8267.1.1 = {death="8267.1.1"}
+}
+221360007 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8204.1.1 = {birth="8204.1.1"}
+	8267.1.1 = {death="8267.1.1"}
+}
+122360007 = {
+	name="Hodor"	# a lord
+	dynasty=360007
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=121360007
+	mother=221360007
+
+	8229.1.1 = {birth="8229.1.1"}
+	8245.1.1 = {add_trait=poor_warrior}
+	8247.1.1 = {add_spouse=222360007}
+	8267.1.1 = {}
+	8298.1.1 = {death="8298.1.1"}
+}
+222360007 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8229.1.1 = {birth="8229.1.1"}
+	8298.1.1 = {death="8298.1.1"}
+}
+123360007 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360007
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=121360007
+	mother=221360007
+
+	8230.1.1 = {birth="8230.1.1"}
+	8286.1.1 = {death="8286.1.1"}
+}
+124360007 = {
+	name="Hodor"	# not a lord
+	dynasty=360007
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=121360007
+	mother=221360007
+
+	8231.1.1 = {birth="8231.1.1"}
+	8247.1.1 = {add_trait=master_warrior}
+	8254.1.1 = {death="8254.1.1"}
+}
+125360007 = {
+	name="Hodor"	# a lord
+	dynasty=360007
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=122360007
+	mother=222360007
+
+	8254.1.1 = {birth="8254.1.1"}
+	8263.1.1 = {add_trait=trained_warrior }
+	8270.1.1 = { add_trait=midas_touched  } #brown ben plumm said that he was richest man in meereen.
+	8274.1.1 = { add_spouse=225360007 }
+	8298.1.1 = {}
+	8300.1.1 = {
+		death = {
+			death_reason = death_execution_crucifixion 
+			killer = 77041
+		}
+	}
+}
+225360007 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="meereenese"
+
+	8260.1.1 = {birth="8260.1.1"}
+	8290.1.1 = {
+		death = {
+			death_reason = death_accident
+		}
+	}
+}
+128360007 = {
+	name="Hodor" # commander of watch, father of Oznak zo Pahl
+	dynasty=360007
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	martial=8 #so he will be master-at-arms
+	
+	father=122360007
+	mother=222360007
+	
+	8258.1.1 = {birth="8258.1.1"}
+	8274.1.1 = { 
+		add_trait = skilled_warrior
+		add_trait = skilled_tactician #skills to be commander of city watch
+	}
+	8276.1.1 = { add_spouse=228360007 }
+	8290.1.1 = { employer=16571013 } #master at arms in meereen
+	8300.1.1 = {
+		death = {death_reason = death_battle}
+	}
+}
+129360007 = {
+	name="Hodor" # champion of meereen. canon.
+	dynasty=360007
+	dna="cdbmeclcaae"
+	properties="kj0dek00000"
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=128360007
+	mother=228360007
+	
+	add_trait = proud
+	add_trait = rude #he insulted Dany
+	add_trait = brave #some bravery he had...
+	
+	8277.1.1 = {birth="8277.1.1"}
+	8290.1.1 = { employer=16571013 } #champion of meereen later
+	8293.1.1 = {
+		add_trait = trained_warrior
+		add_trait = misguided_warrior 
+		add_trait = duelist
+	}
+	8300.1.1 = {
+		death = {
+			death_reason = death_duel 
+			killer = 12300101 
+		}
+	}
+}
+130360007 = {
+	name="Hodor"
+	dynasty=360007
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=122360007
+	mother=222360007
+	
+	8262.1.1 = {birth="8262.1.1"}
+	8288.1.1 = {add_spouse=230360007}
+	8300.1.1 = {
+		death = {
+			death_reason = death_execution_crucifixion 
+			killer = 77041
+		}
+	}
+}
+131360007 = {
+	name="Hodor"
+	dynasty=360007
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=122360007
+	mother=222360007
+	
+	8267.1.1 = {birth="8267.1.1"} #old enough to be crucified, young enough to have no sons
+	8300.1.1 = {
+		death = {
+			death_reason = death_execution_crucifixion
+			killer = 77041
+		}
+	}
+}
+132360007 = {
+	name="Hodor" #canon
+	dynasty=360007
+	female=yes
+	dna="ajbgahafaan"
+	properties="ck0cak00000"
+	religion="harpy"
+	culture="meereenese"
+	
+	add_trait = proud
+	add_trait = fair
+	add_trait = fashionable
+	
+	father=130360007
+	mother=230360007
+	
+	8290.1.1 = {birth="8290.1.1"} 
+	8300.1.1 = {
+		employer=77041
+	}
+}
+133360007 = {
+	name="Hodor" #random daughter of zo pahls cause its no fully female house
+	dynasty=360007
+	female=yes
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=125360007
+	mother=225360007
+	
+	8275.1.1 = {birth="8275.1.1"}
+	8300.1.1 = {
+		effect = {
+			k_meereen = {
+				holder_scope = {
+					ROOT = {
+						opinion = {
+							who = PREVPREV
+							modifier = opinion_vengeance
+							years = 2400
+						}
+					}
+				}
+			}
+		}
+	}
+}
+134360007 = {
+	name="Hodor" #random daughter of zo pahls cause its no fully female house
+	dynasty=360007
+	female=yes
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=125360007
+	mother=225360007
+	
+	8278.1.1 = {birth="8278.1.1"}
+	8300.1.1 = {
+		effect = {
+			k_meereen = {
+				holder_scope = {
+					ROOT = {
+						opinion = {
+							who = PREVPREV
+							modifier = opinion_vengeance
+							years = 2400
+						}
+					}
+				}
+			}
+		}
+	}
+}
+135360007 = {
+	name="Hodor"	# not a lord #Bitter old women with a taste for blood
+	dynasty=360007
+	female=yes
+	
+	religion="harpy"
+	culture="meereenese"
+
+	father=121360007
+	mother=221360007
+
+	add_trait=ruthless
+	add_trait=familyperson
+	add_trait=cruel
+	add_trait=envious
+	add_trait=proud
+	add_trait=wroth 
+	
+	8234.1.1 = {birth="8234.1.1"}
+	8250.1.1 = { add_trait = intricate_webweaver }
+	8300.1.1 = { #66 years old during crucification of whole family
+		effect = {
+			k_meereen = {
+				holder_scope = {
+					ROOT = {
+						opinion = {
+							who = PREVPREV
+							modifier = opinion_vengeance
+							years = 2400
+						}
+					}
+				}
+			}
+		}
+	}
+	
+}
+126360007 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=360007
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=122360007
+	mother=222360007
+
+	8255.1.1 = {birth="8255.1.1"}
+	8292.1.1 = {death="8292.1.1"}
+}
+127360007 = {
+	name="Hodor"	# not a lord #Bitter old women with a taste for blood
+	female=yes
+	dynasty=360007
+
+	religion="harpy"
+	culture="meereenese"
+
+	father=122360007
+	mother=222360007
+
+	add_trait=ruthless
+	add_trait=cruel
+	add_trait=familyperson
+	add_trait=proud
+	
+	8257.1.1 = {birth="8257.1.1"} #43 years. So second in command in zo pahl familly
+	8263.1.1 = { add_trait = intricate_webweaver }
+	8300.1.1 = {
+		effect = {
+			k_meereen = {
+				holder_scope = {
+					ROOT = {
+						opinion = {
+							who = PREVPREV
+							modifier = opinion_vengeance
+							years = 2400
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+###zo Hazdahn###Ruler of Hazdahn before Dothraki owned it
+10069190 = {
+	name="Hodor"	# a lord
+	dynasty=69190
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7955.1.1 = {birth="7955.1.1"}
+	7971.1.1 = {add_trait=skilled_warrior}
+	7973.1.1 = {add_spouse=40069190}
+	8010.1.1 = {death = {death_reason = death_battle}}
+}
+40069190 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7955.1.1 = {birth="7955.1.1"}
+	8010.1.1 = {death="8010.1.1"}
+}
+10169190 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69190
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=10069190
+	mother=40069190
+
+	7989.1.1 = {birth="7989.1.1"}
+	8015.1.1 = {
+		add_trait = slave
+		effect = {
+			random_playable_ruler = {
+				limit = { culture = dothraki }
+				ROOT = { move_character = PREV }
+				reverse_opinion = { who = ROOT modifier = opinion_my_owner }
+				opinion = { who = ROOT modifier = opinion_my_slave }
+			}
+		}
+	}
+	8035.1.1 = {death="8035.1.1"}
+}
+10269190 = {
+	name="Hodor"	# a lord
+	dynasty=69190
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=10069190
+	mother=40069190
+
+	7990.1.1 = {birth="7990.1.1"}
+	8006.1.1 = {add_trait=trained_warrior}
+	8008.1.1 = {add_spouse=40269190}
+	8015.1.1 = {death = {death_reason = death_battle}}
+}
+40269190 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7990.1.1 = {birth="7990.1.1"}
+	8015.1.1 = {death="8015.1.1"}
+}
+10369190 = {
+	name="Hodor"	# not a lord
+	dynasty=69190
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=10069190
+	mother=40069190
+
+	7992.1.1 = {birth="7992.1.1"}
+	8008.1.1 = {add_trait=trained_warrior}
+	8015.1.1 = {death = {death_reason = death_battle}}
+}
+10469190 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69190
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=10069190
+	mother=40069190
+
+	7995.1.1 = {birth="7995.1.1"}
+	8015.1.1 = {
+		add_trait = slave
+		effect = {
+			random_playable_ruler = {
+				limit = { culture = dothraki }
+				ROOT = { move_character = PREV }
+				reverse_opinion = { who = ROOT modifier = opinion_my_owner }
+				opinion = { who = ROOT modifier = opinion_my_slave }
+			}
+		}
+	}
+	8037.1.1 = {death="8037.1.1"}
+}
+10569190 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69190
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=10269190
+	mother=40269190
+
+	8010.1.1 = {birth="8010.1.1"}
+	8015.1.1 = {
+		add_trait = slave
+		effect = {
+			random_playable_ruler = {
+				limit = { culture = dothraki }
+				ROOT = { move_character = PREV }
+				reverse_opinion = { who = ROOT modifier = opinion_my_owner }
+				opinion = { who = ROOT modifier = opinion_my_slave }
+			}
+		}
+	}
+	8050.1.1 = {death="8050.1.1"}
+}
+10669190 = {
+	name="Hodor"	# not a lord
+	dynasty=69190
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=10269190
+	mother=40269190
+
+	8012.1.1 = {birth="8012.1.1"}
+	8015.1.1 = {
+		add_trait = slave
+		effect = {
+			random_playable_ruler = {
+				limit = { culture = dothraki }
+				ROOT = { move_character = PREV }
+				reverse_opinion = { who = ROOT modifier = opinion_my_owner }
+				opinion = { who = ROOT modifier = opinion_my_slave }
+			}
+		}
+	}
+	8028.1.1 = {add_trait=poor_warrior}
+	8066.1.1 = {death="8066.1.1"}
+}
+
+
+####  House Tazraaq
+
+10069118 = {
+	name="Hodor"	# a lord
+	dynasty=69200
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7964.1.1 = {birth="7964.1.1"}
+	7980.1.1 = {add_trait=poor_warrior}
+	7982.1.1 = {add_spouse=40069118}
+	8010.1.1 = {death="8010.1.1"}
+}
+40069118 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7964.1.1 = {birth="7964.1.1"}
+	8010.1.1 = {death="8010.1.1"}
+}
+10169118 = {
+	name="Hodor"	# a lord
+	dynasty=69200
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=10069118
+	mother=40069118
+
+	7985.1.1 = {birth="7985.1.1"}
+	8001.1.1 = {add_trait=poor_warrior}
+	8032.1.1 = {death="8032.1.1"}
+}
+10269118 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69200
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=10069118
+	mother=40069118
+
+	7987.1.1 = {birth="7987.1.1"}
+	8043.1.1 = {death="8043.1.1"}
+}
+10369118 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69200
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=10069118
+	mother=40069118
+
+	7990.1.1 = {birth="7990.1.1"}
+	8036.1.1 = {death="8036.1.1"}
+}
+
+
+####  House Bahraz
+
+10069119 = {
+	name="Hodor"	# a lord
+	dynasty=69201
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7965.1.1 = {birth="7965.1.1"}
+	7981.1.1 = {add_trait=poor_warrior}
+	7983.1.1 = {add_spouse=40069119}
+	8015.1.1 = {death="8015.1.1"}
+}
+40069119 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7965.1.1 = {birth="7965.1.1"}
+	8015.1.1 = {death="8015.1.1"}
+}
+10169119 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69201
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=10069119
+	mother=40069119
+
+	7993.1.1 = {birth="7993.1.1"}
+	8017.1.1 = {death="8017.1.1"}
+}
+10269119 = {
+	name="Hodor"	# not a lord
+	dynasty=69201
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=10069119
+	mother=40069119
+
+	7996.1.1 = {birth="7996.1.1"}
+	8012.1.1 = {add_trait=skilled_warrior}
+	8049.1.1 = {death="8049.1.1"}
+}
+10369119 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69201
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=10069119
+	mother=40069119
+
+	7999.1.1 = {birth="7999.1.1"}
+	8062.1.1 = {death="8062.1.1"}
+}
+10469119 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69201
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=10069119
+	mother=40069119
+
+	8002.1.1 = {birth="8002.1.1"}
+	8068.1.1 = {death="8068.1.1"}
+}
+10569119 = {
+	name="Hodor"	# not a lord
+	dynasty=69201
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=10069119
+	mother=40069119
+
+	8003.1.1 = {birth="8003.1.1"}
+	8019.1.1 = {add_trait=trained_warrior}
+	8056.1.1 = {death="8056.1.1"}
+}
+
+
+####  House Larghaz
+
+10069120 = {
+	name="Hodor"	# a lord
+	dynasty=69202
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7969.1.1 = {birth="7969.1.1"}
+	7985.1.1 = {add_trait=poor_warrior}
+	7987.1.1 = {add_spouse=40069120}
+	8015.1.1 = {death="8015.1.1"}
+}
+40069120 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7969.1.1 = {birth="7969.1.1"}
+	8015.1.1 = {death="8015.1.1"}
+}
+10169120 = {
+	name="Hodor"	# not a lord
+	dynasty=69202
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=10069120
+	mother=40069120
+
+	8001.1.1 = {birth="8001.1.1"}
+	8017.1.1 = {add_trait=trained_warrior}
+	8059.1.1 = {death="8059.1.1"}
+}
+10269120 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69202
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=10069120
+	mother=40069120
+
+	8004.1.1 = {birth="8004.1.1"}
+	8053.1.1 = {death = {death_reason = death_accident}}
+}
+
+
+####  House Hiznhak
+
+10069205 = {
+	name="Hodor"	# a lord
+	dynasty=69205
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7964.1.1 = {birth="7964.1.1"}
+	7980.1.1 = {add_trait=poor_warrior}
+	7982.1.1 = {add_spouse=40069205}
+	8015.1.1 = {death="8015.1.1"}
+}
+40069205 = {
+	name="Hodor"
+	female=yes
+
+	religion="harpy"
+	culture="ghiscari"
+
+	7964.1.1 = {birth="7964.1.1"}
+	8015.1.1 = {death="8015.1.1"}
+}
+10169205 = {
+	name="Hodor"	# not a lord
+	dynasty=69205
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=10069205
+	mother=40069205
+
+	7998.1.1 = {birth="7998.1.1"}
+	8014.1.1 = {add_trait=skilled_warrior}
+	8053.1.1 = {death="8053.1.1"}
+}
+10269205 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69205
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=10069205
+	mother=40069205
+
+	7999.1.1 = {birth="7999.1.1"}
+	8058.1.1 = {death="8058.1.1"}
+}
+10369205 = {
+	name="Hodor"	# not a lord
+	dynasty=69205
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=10069205
+	mother=40069205
+
+	8000.1.1 = {birth="8000.1.1"}
+	8016.1.1 = {add_trait=trained_warrior}
+	8056.1.1 = {death="8056.1.1"}
+}
+10469205 = {
+	name="Hodor"	# not a lord
+	dynasty=69205
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=10069205
+	mother=40069205
+
+	8001.1.1 = {birth="8001.1.1"}
+	8017.1.1 = {add_trait=trained_warrior}
+	8059.1.1 = {death="8059.1.1"}
+}
+10569205 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=69205
+
+	religion="harpy"
+	culture="ghiscari"
+
+	father=10069205
+	mother=40069205
+
+	8004.1.1 = {birth="8004.1.1"}
+	8079.1.1 = {death="8079.1.1"}
+}
+
+#### House Zhak
+
+101360016 = {
+	name="Hodor"
+	
+	dynasty=360016
+
+	religion="harpy"
+	culture="meereenese"
+	
+	8210.1.1 = {birth="8210.1.1"}
+	8229.1.1 = {add_spouse=201360016}
+	8252.1.1 = {death="8252.1.1"}
+	
+}
+201360016 = {
+	name="Hodor"
+	female=yes
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	8210.1.1 = { birth="8210.1.1"} #meereen is supposed to be filled with crones and grandpas
+}
+111360016 = {
+	name="Hodor"
+	female=yes
+	
+	dynasty=360016
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=101360016
+	mother=201360016
+	
+	8225.1.1 = { birth="8225.1.1"}
+	8281.1.1 = { death="8281.1.1"}
+}
+102360016 = {
+	name="Hodor"
+	
+	dynasty=360016
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=101360016
+	mother=201360016
+	employer = 101360016
+	8232.1.1 = {birth="8232.1.1"}
+	8252.1.1 = { employer = 102360016 }
+	8254.1.1 = { add_spouse = 104360005 }
+	8300.1.1 = {
+		death = {
+			death_reason = death_execution_crucifixion 
+			killer = 77041
+		}
+	}
+}
+106360016 = {
+	name="Hodor"
+	
+	dynasty=360016
+	
+	father=102360016
+	mother=104360005	
+	
+	religion="harpy"
+	culture="meereenese"
+	employer = 102360016
+	8256.1.1 = {birth="8256.1.1"}
+	
+	8280.1.1 = { add_spouse = 103360011 }
+	8300.1.1 = {
+		death = {
+			death_reason = death_execution_crucifixion 
+			killer = 77041
+		}
+	}
+}
+107360016 = {
+	name="Hodor" #hostage #1
+	
+	dynasty=360016
+	
+	father=106360016
+	mother= 103360011
+
+	religion="harpy"
+	culture="meereenese"
+	employer = 102360016
+	8288.1.1 = { birth="8288.1.1" }
+	
+	8300.1.1 = { employer = 77041 }
+}
+109360016 = {
+	name="Hodor"
+	
+	dynasty=360016
+	
+	father=102360016
+	mother=104360005	
+	
+	religion="harpy"
+	culture="meereenese"
+	employer = 102360016
+	8266.1.1 = {birth="8266.1.1"}
+	8296.1.1 = { add_spouse = 107360010 }
+}
+110360016 = {
+	name="Hodor" #the one accused of rape on his bedslave
+	
+	dynasty=360016
+	
+	father=102360016
+	mother=104360005	
+	
+	add_trait = lustful 
+	
+	religion="harpy"
+	culture="meereenese"
+	employer = 102360016
+	8273.1.1 = {birth="8273.1.1"}
+	8300.1.1 = { employer = 109360016 }
+}
+230360007 = {
+	name="Hodor"
+	dynasty=360016
+	female=yes
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=102360016
+	mother=104360005	
+	
+	add_trait = fair #so Kezmya may be fair after someone
+	
+	8274.1.1 = {birth="8274.1.1"}
+	8288.1.1 = {add_spouse=130360007}
+	8300.1.1 = {
+		effect = {
+			k_meereen = {
+				holder_scope = {
+					ROOT = {
+						opinion = {
+							who = PREVPREV
+							modifier = opinion_vengeance
+							years = 2400
+						}
+					}
+				}
+			}
+		}
+	}
+	
+}
+199360016 = {
+	name = "Tezza"
+	female=yes
+	
+	dynasty=360016
+	father=109360016
+	mother= 107360010
+
+	religion="harpy"
+	culture="meereenese"
+	
+	8297.1.1 = { birth="8297.1.1" }
+}
+103360016 = {
+	name="Hodor"
+	
+	dynasty=360016
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=101360016
+	mother=201360016
+	employer = 101360016
+	8243.1.1 = {birth="8243.1.1"}
+	
+	8252.1.1 = { employer = 102360016 }
+	8271.1.1 = { add_spouse = 203360016 }
+	8300.1.1 = {
+		death = {
+			death_reason = death_execution_crucifixion 
+			killer = 77041
+		}
+	}
+}
+203360016 = {
+	name="Hodor"
+	female=yes
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	8243.1.1 = {birth="8243.1.1"}
+}
+104360016 = { #There is supposed to be more than one alive Zhak
+	name="Hodor"
+	
+	dynasty=360016
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=101360016
+	mother=201360016
+	employer = 102360016 
+	8252.1.1 = {birth="8252.1.1"}	
+	8280.1.1 = {add_spouse=204360016}
+	8300.1.1 = { employer = 109360016 }
+}
+
+105360016 = {
+	name="Hodor"
+	female=yes
+	
+	dynasty=360016
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=104360016
+	mother=204360016
+	
+	8284.1.1 = {birth="8284.1.1"} 
+	8298.1.1 = { add_spouse = 106360010 }
+}
+108360016 = {
+	name="Hodor"
+	female=yes
+	
+	dynasty=360016
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=104360016
+	mother=204360016
+	
+	8292.1.1 = {birth="8292.1.1"} 
+	8300.1.1 = { employer = 77041 }
+}
+#### Merreq house
+
+101360005 = {
+	name="Hodor"
+	
+	dynasty=360005
+
+	religion="harpy"
+	culture="meereenese"
+	
+	8211.1.1 = { birth="8211.1.1"}
+	8244.1.1 = { add_spouse=111360016 }
+	8265.1.1 = { death="8265.1.1"}
+}
+104360005 = {
+	name="Hodor"
+	female=yes
+	
+	dynasty=360005
+	
+	father=101360005
+	mother=111360016
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	8240.1.1 = { birth="8240.1.1"}
+}
+	
+102360005 = {
+	name="Hodor"
+	
+	dynasty=360005
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=101360005
+	mother=111360016
+	employer = 101360005
+	8245.1.1 = { birth="8245.1.1"}
+	
+	8259.1.1 = { add_spouse=202360005 }
+	8265.1.1 = { employer = 102360005 }
+	8300.1.1 = {
+		death = {
+			death_reason = death_execution_crucifixion 
+			killer = 77041
+		}
+	}
+}
+202360005 = {
+	name="Hodor"
+	female=yes
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	8243.1.1 = { birth="8243.1.1"}
+	8292.1.1 = { death="8292.1.1"}
+}
+228360007 = {
+	name="Hodor" 
+	female=yes
+	
+	dynasty=360005
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=102360005
+	mother=202360005
+	
+	8260.1.1 = {birth="8260.1.1"}
+	8300.1.1 = {
+		effect = {
+			k_meereen = {
+				holder_scope = {
+					ROOT = {
+						opinion = {
+							who = PREVPREV
+							modifier = opinion_vengeance
+							years = 2400
+						}
+					}
+				}
+			}
+		}
+	}
+}
+103360005 = {
+	name="Hodor"
+	dynasty=360005
+	
+	father=102360005
+	mother=202360005
+	
+	religion="harpy"
+	culture="meereenese"
+	employer = 101360005
+	8264.1.1 = { birth="8264.1.1"}
+	8265.1.1 = { employer = 102360005 }
+	8300.1.1 = {
+		death = {
+			death_reason = death_execution_crucifixion 
+			killer = 77041
+		}
+	}
+}
+105360005 = {
+	name="Hodor"
+	dynasty=360005
+	
+	father=102360005
+	mother=202360005
+	
+	religion="harpy"
+	culture="meereenese"
+	employer = 102360005
+	
+	8274.1.1 = { birth="8274.1.1"}
+	8292.1.1 = { add_spouse=105360010 }
+	8300.1.1 = { employer = 105360005 }
+}
+106360005 = {
+	name="Hodor" #little hostage girl #canon 
+	dynasty=360005
+	female=yes
+	
+	add_trait=kind
+	add_trait=shy
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=105360005
+	mother=105360010
+
+	8293.1.1 = { birth="8293.1.1" }
+	8300.1.1 = { employer = 77041 }
+}
+107360005 = {
+	name="Hodor" #little hostage boy
+	dynasty=360005
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=105360005
+	mother=105360010
+	employer = 102360005
+	8294.1.1 = { birth="8294.1.1" }
+	8300.1.1 = { employer = 77041 }
+}
+
+### House Quazzar
+
+101360010 = {
+	name="Hodor"
+	dynasty=360010
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	8220.1.1 = { birth="8220.1.1"}
+	8250.1.1 = { add_spouse=135360007 }
+	8286.1.1 = { death="8286.1.1"}
+	
+}
+102360010 = {
+	name="Hodor"
+	dynasty=360010
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=101360010
+	mother=135360007
+	employer=101360010
+	8254.1.1 = { birth="8254.1.1"}
+	
+	8268.1.1 = { add_spouse=127360007 }	
+	8286.1.1 = { employer=102360010 }
+	8300.1.1 = {
+		death = {
+			death_reason = death_execution_crucifixion 
+			killer = 77041
+		}
+	}
+}
+103360010 = {
+	name="Hodor"
+	dynasty=360010
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=102360010
+	mother=127360007
+	employer=101360010
+	8270.1.1 = { birth="8270.1.1"}
+	
+	8286.1.1 = { employer=102360010 }
+	
+	8292.1.1 = { add_spouse = 203360010 }
+	8300.1.1 = {
+		death = {
+			death_reason = death_execution_crucifixion 
+			killer = 77041
+		}
+	}
+}
+203360010 = {
+	name="Hodor"
+	female=yes
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	8275.1.1 = { birth="8275.1.1"}
+}
+104360010 = {
+	name="Hodor" #canon but not specified which family is he member
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	add_trait=slothful
+	employer=102360010
+	8270.1.1 = { birth="8270.1.1"}
+	
+	8300.1.1 = { employer = 77041 }
+}
+105360010 = {
+	name="Hodor"
+	dynasty=360010
+	female = yes
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=102360010
+	mother=127360007
+
+	8273.1.1 = { birth="8273.1.1"}
+}
+106360010 = {
+	name="Hodor"
+	dynasty=360010
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=102360010
+	mother=127360007
+	employer=101360010
+	8277.1.1 = { birth="8277.1.1"}
+	
+	8286.1.1 = { employer=102360010 }
+	8300.1.1 = { employer=109360010 }
+}	
+107360010 = {
+	name="Hodor"
+	female=yes
+	dynasty=360010
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=102360010
+	mother=127360007
+
+	8280.1.1 = { birth="8280.1.1"}
+}	
+109360010 = {
+	name="Hodor"
+	dynasty=360010
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=102360010
+	mother=127360007
+	employer=101360010
+	8275.1.1 = { birth="8275.1.1"}
+	8286.1.1 = { employer=102360010 }
+	8294.1.1 = { add_spouse = 133360007 }
+	8300.1.1 = { employer=109360010 }
+}
+108360010 = {
+	name="Hodor"
+	female=yes
+	dynasty=360010
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=102360010
+	mother=127360007
+	employer=102360010
+	8291.1.1 = { birth="8291.1.1"}
+	
+	8300.1.1 = { employer = 77041 }
+}	
+
+### House Hazkar
+
+101360011 = {
+	name="Hodor"
+	dynasty=360011 
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	8212.1.1 = { birth="8212.1.1"}
+	8240.1.1 = { add_spouse=201360011 }
+	8300.1.1 = {
+		death = {
+			death_reason = death_execution_crucifixion 
+			killer = 77041
+		}
+	}
+}
+201360011 = {
+	name="Hodor"
+	female=yes
+	religion="harpy"
+	culture="meereenese"
+	
+	8223.1.1 = { birth="8223.1.1"}
+	8271.1.1 = { death="8271.1.1"}
+}
+102360011 = {
+	name="Hodor"
+	dynasty=360011
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=101360011
+	mother=201360011
+	
+	employer = 101360011
+	
+	8242.1.1 = { birth="8242.1.1"}
+	8271.1.1 = { add_spouse=202360011 }
+	8300.1.1 = {
+		death = {
+			death_reason = death_execution_crucifixion 
+			killer = 77041
+		}
+	}
+}
+202360011 = {
+	name="Hodor"
+	female=yes
+	religion="harpy"
+	culture="meereenese"
+	
+	8242.1.1 = { birth="8242.1.1"}
+}
+104360011 = {
+	name="Hodor"
+	dynasty=360011
+	religion="harpy"
+	culture="meereenese"
+	
+	father=102360011
+	mother=202360011
+	employer = 101360011
+	8272.1.1 = { birth="8272.1.1" }
+	
+}
+105360011 = {
+	name="Hodor"
+	dynasty=360011
+	religion="harpy"
+	culture="meereenese"
+	
+	father=102360011
+	mother=202360011
+	
+	employer = 101360011
+	8286.1.1 = { birth="8286.1.1" }
+	
+	8300.1.1 = { employer=77041 }
+}
+106360011 = {
+	name="Hodor"
+	dynasty=360011
+	female=yes
+	religion="harpy"
+	culture="meereenese"
+	
+	father=102360011
+	mother=202360011
+	employer = 101360011
+	8291.1.1 = { birth="8291.1.1" }
+	8300.1.1 = { employer=77041 }
+}
+103360011 = {
+	name="Hodor"
+	dynasty=360011
+	female=yes
+	religion="harpy"
+	culture="meereenese"
+	
+	father=101360011
+	mother=201360011
+	
+	8259.1.1 = { birth="8259.1.1" }
+}
+204360016 = {
+	name="Hodor"
+	female=yes
+	dynasty=360011
+	father=101360011
+	mother=201360011
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	8264.1.1 = {birth="8264.1.1"} 
+}
+### House Rhazdar
+101360014 = {
+	name="Hodor"
+	dynasty=360014
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	8245.1.1 = { birth="8245.1.1" }
+	8300.1.1 = {
+		death = {
+			death_reason = death_execution_crucifixion 
+			killer = 77041
+		}
+	}
+}
+201360014 = {
+	name="Hodor"
+	female=yes
+	dynasty=360030
+
+	father=101360030
+	mother=201360030
+
+	religion="harpy"
+	culture="meereenese"
+	8261.1.1 = { birth="8261.1.1" }
+	8283.1.1 = { add_spouse=101360014 }
+}
+102360014 = {
+	name="Hodor"
+	dynasty=360014
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=101360014
+	mother=201360014
+	
+	employer=101360014
+	8284.1.1 = { birth="8284.1.1" }
+}
+103360014 = {
+	name="Hodor"
+	dynasty=360014
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=101360014
+	mother=201360014
+	
+	employer=101360014
+	8290.1.1 = { birth="8290.1.1" }
+	8300.1.1 = { employer=77041 }
+}
+104360014 = {
+	name="Hodor"
+	dynasty=360014
+	female=yes
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=101360014
+	mother=201360014
+	
+	employer=101360014
+	8291.1.1 = { birth="8291.1.1" }
+	8300.1.1 = { employer=77041 }
+}
+### House Ghazeen
+
+101360030 = {
+	name="Hodor"
+	dynasty=360030
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	8238.1.1 = { birth="8238.1.1" }
+	8260.1.1 = { add_spouse = 201360030 }
+	8300.1.1 = {
+		death = {
+			death_reason = death_execution_crucifixion 
+			killer = 77041
+		}
+	}
+}
+201360030 = {
+	name="Hodor"
+	female=yes
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	8241.1.1 = { birth="8241.1.1" }
+}
+
+102360030 = {
+	name="Hodor"
+	dynasty=360030
+	
+	father=101360030
+	mother=201360030
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	employer=101360030
+	8270.1.1 = { birth="8270.1.1" }
+}
+202360030 = {
+	name="Hodor"
+	dynasty=360006
+	female=yes
+	
+	father=101360006
+	mother=201360006
+	
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	employer=101360030
+	8272.1.1 = { birth="8272.1.1" }
+	8291.1.1 = { add_spouse=102360030 }
+}
+103360030 = {
+	name="Hodor"
+	dynasty=360030
+	
+	father=102360030
+	mother=202360030
+	
+	religion="harpy"
+	culture="meereenese"
+	employer=101360030
+	8292.1.1 = { birth="8292.1.1" }
+	8300.1.1 = { employer = 77041 }
+}
+### house Yherizan
+101360006 = {
+	name="Hodor"
+	dynasty=360006
+
+	religion="harpy"
+	culture="meereenese"
+	
+	8232.1.1 = { birth="8232.1.1" }
+	8300.1.1 = {
+		death = {
+			death_reason = death_execution_crucifixion 
+			killer = 77041
+		}
+	}
+}
+201360006 = {
+	name="Hodor"
+	female=yes
+	dynasty=360015
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=101360015
+	mother=201360015
+	
+	8246.1.1 = { birth="8246.1.1" }
+	8270.1.1 = { add_spouse=101360006 }
+}
+102360006 = {
+	name="Hodor"
+	female=yes
+	dynasty=360006
+	
+	father=101360006
+	mother=201360006
+	
+	religion="harpy"
+	culture="meereenese"
+	employer=101360006
+	8273.1.1 = { birth="8273.1.1" }
+	8276.1.1 = { death="8276.1.1" }
+}
+103360006 = {
+	name="Hodor"
+	dynasty=360006
+	
+	father=101360006
+	mother=201360006
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	employer=101360006
+	8275.1.1 = { birth="8275.1.1" }
+}
+104360006 = {
+	name="Hodor"
+	dynasty=360006
+	
+	father=101360006
+	mother=201360006
+	
+	religion="harpy"
+	culture="meereenese"
+	employer=101360006
+	8277.1.1 = { birth="8277.1.1" }
+}
+105360006 = {
+	name="Hodor"
+	dynasty=360006
+	
+	father=104360006
+
+	add_trait=bastard
+	
+	religion="harpy"
+	culture="meereenese"
+	employer=101360006
+	8291.1.1 = { birth="8291.1.1" }
+	8300.1.1 = { employer=77041 }
+}
+106360006 = {
+	name="Hodor"
+	dynasty=360006
+	
+	father=101360006
+	mother=201360006
+	
+	religion="harpy"
+	culture="meereenese"
+	employer=101360006
+	8290.1.1 = { birth="8290.1.1" }
+	8300.1.1 = { employer=77041 }
+}
+107360006 = {
+	name="Hodor"
+	dynasty=360006
+	
+	father=101360006
+	mother=201360006
+	
+	religion="harpy"
+	culture="meereenese"
+	employer=101360006
+	8285.1.1 = { birth="8285.1.1" }
+	8287.1.1 = { death="8287.1.1" }
+}
+### house Uhlez
+
+101360015 = {
+	name="Hodor"
+	dynasty=360015 
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	8204.1.1 = { birth="8204.1.1" }
+	8281.1.1 = { death="8281.1.1" }
+}
+201360015 = {
+	name="Hodor"
+	female=yes
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	8215.1.1 = { birth="8215.1.1" }
+	8232.1.1 = { add_spouse=101360015 }
+	8272.1.1 = { death="8272.1.1" }
+}
+102360015 = {
+	name="Hodor"
+	dynasty=360015
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=101360015
+	mother=201360015
+	
+	8235.1.1 = { birth="8235.1.1" }
+	8269.1.1 = { add_spouse=102360012 }
+	8300.1.1 = {
+		death = {
+			death_reason = death_execution_crucifixion 
+			killer = 77041
+		}
+	}
+}
+226360004 = {
+	name="Hodor"
+	dynasty=360015
+	female=yes
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=101360015
+	mother=201360015
+	
+	8251.1.1 = { birth="8251.1.1" }
+}
+103360015 = {
+	name="Hodor"
+	dynasty=360015
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=102360015
+	mother=102360012
+
+	8271.1.1 = { birth="8271.1.1"}
+}
+104360015 = {
+	name="Hodor"
+	dynasty=360015
+	female=yes
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=103360015
+	
+	add_trait = bastard
+	
+	8292.1.1 = { birth="8292.1.1" }
+	8300.1.1 = { employer=77041 }
+}
+
+### House Dhazak #mentioned ONCE in books. Confirmed at least one child
+
+101360012 = {
+	name="Hodor" #Dhazak zo Dhazak sounds badass
+	dynasty=360012 
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	8222.1.1 = { birth="8222.1.1" }
+	8300.1.1 = {
+		death = {
+			death_reason = death_execution_crucifixion 
+			killer = 77041
+		}
+	}
+}
+201360012 = {
+	name="Hodor"
+	female=yes
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	8231.1.1 = { birth="8231.1.1" }
+	8250.1.1 = { add_spouse=101360012 }
+	8291.1.1 = { death="8291.1.1" }
+}
+102360012 = {
+	name="Hodor"
+	dynasty=360012
+	female=yes
+	
+	father=101360012
+	mother=201360012
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	8252.1.1 = { birth="8252.1.1" }
+	8294.1.1 = { death="8294.1.1" }
+}
+103360012 = {
+	name="Hodor"
+	dynasty=360012
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=101360012
+	mother=201360012
+	
+	8275.1.1 = { birth="8275.1.1" }
+}
+104360012 = {
+	name="Hodor" #canon
+	dynasty=360012
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	father=101360012
+	mother=201360012
+	
+	8291.1.1 = { birth="8291.1.1" }
+	8300.1.1 = { employer=77041 }
+}
+109360029 = {
+	name="Hodor"
+	
+	dna=bgaffuicgas
+	properties=ai0cck000000
+	
+	religion="moonsingers"
+	culture="braavosi"
+	
+	add_trait=trusting 
+	add_trait=gluttonous
+	add_trait=slow
+	add_trait=proud 
+	add_trait=wroth
+	
+	8279.1.1 = { birth="8279.1.1" }
+	8295.1.1 = { add_trait=poor_warrior add_trait=indulgent_wastrel add_trait=depressed give_nickname=nick_the_new_one }
+}
+####PITFIGHTERS####
+
+101360029 = {
+	name="Hodor" #canon
+	
+	religion="harpy"
+	culture="meereenese"
+	dna="bekdjzlkaav"
+	properties="kk0ebk00000"
+			
+	add_trait=strong
+	add_trait=honorable
+	add_trait=proud
+	add_trait=honest
+	
+	8277.1.1 = {birth="8277.1.1" add_trait=slave }
+	8277.1.1 = { 
+		employer=16571013
+		add_trait=slave
+		effect = {
+			b_loraq = {
+				holder_scope = {
+				ROOT = { move_character = PREV }
+				reverse_opinion = { who = ROOT modifier = opinion_my_owner }
+				reverse_opinion = { who = ROOT modifier = opinion_loyal_servant }
+				opinion = { who = ROOT modifier = opinion_my_slave }
+				}
+			}
+		}
+	}
+	8277.1.1 = { employer=16571013 } #i dont know if he was in his collection from very beggining but he was meereenese so its possible
+	8287.1.1 = { add_trait=trained_warrior add_trait=brave }
+	8290.1.1 = { remove_trait=trained_warrior add_trait=skilled_warrior add_trait=duelist }
+	8293.1.1 = { add_trait=master_warrior remove_trait=skilled_warrior add_trait=misguided_warrior }
+	8300.1.1 = { remove_trait=slave  add_trait=former_slave }
+}
+102360029 = {
+	name="Hodor" #canon
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	add_trait=strong
+	add_trait=tall
+	add_trait=proud
+	add_trait=greedy
+	
+	8273.1.1 = { birth="8273.1.1" }
+	8273.1.1 = {
+		employer=16571013
+		add_trait = slave
+		effect = {
+			b_loraq = {
+				holder_scope = {
+				ROOT = { move_character = PREV }
+				reverse_opinion = { who = ROOT modifier = opinion_my_owner }
+				opinion = { who = ROOT modifier = opinion_my_slave }
+				}
+			}
+		}
+	}
+	8276.1.1 = { add_trait=poor_warrior }
+	8279.1.1 = { remove_trait=poor_warrior add_trait=trained_warrior }
+	8289.1.1 = { remove_trait=trained_warrior add_trait=skilled_warrior add_trait=misguided_warrior give_nickname=nick_the_giant add_trait=scarred } #to ensure that they have martial education
+	8298.1.1 = { employer=16571013 }
+	8300.1.1 = { remove_trait=slave  add_trait=former_slave }
+}
+103360029 = {
+	name="Hodor" #canon
+	female=yes
+	
+	dna="bldlgzffgfd"
+	properties="cl0chk00000"
+	
+	add_trait=strong
+	add_trait=brave
+	
+	religion="harpy"
+	culture="qohorik"
+	
+	8270.1.1 = { birth="8270.1.1" }
+	8270.1.1 = { effect = { culture="meereenese" } }
+	8270.1.1 = { 
+		employer=16571013
+		add_trait = slave
+		add_trait = scarred
+		effect = {
+			b_loraq = {
+				holder_scope = {
+				ROOT = { move_character = PREV }
+				reverse_opinion = { who = ROOT modifier = opinion_my_owner }
+				opinion = { who = ROOT modifier = opinion_my_slave }
+				}
+			}
+		}
+	}
+	8286.1.1 = { add_trait=skilled_warrior add_trait=misguided_warrior give_nickname=nick_blackhair } #ensure that she have martial education and not steward or diplomate
+	8295.1.1 = { remove_trait=skilled_warrior add_trait=master_warrior }
+	8298.1.1 = { employer=16571013 }
+	8300.1.1 = { remove_trait=slave  add_trait=former_slave }
+}
+104360029 = {
+	name="Hodor" #canon
+	
+	religion="harpy"
+	culture="meereenese"
+	
+	add_trait=deceitful
+	add_trait=brave
+	
+	8275.1.1 = { birth="8275.1.1" }
+	8275.1.1 = { 
+		employer=16571013
+		add_trait = slave
+		effect = {
+			b_loraq = {
+				holder_scope = {
+				ROOT = { move_character = PREV }
+				reverse_opinion = { who = ROOT modifier = opinion_my_owner }
+				opinion = { who = ROOT modifier = opinion_my_slave }
+				}
+			}
+		}
+	}
+	8287.1.1 = { add_trait = trained_warrior give_nickname=nick_of_the_count }
+	8291.1.1 = { remove_trait = trained_warrior add_trait = skilled_warrior add_trait = flamboyant_schemer } #he had plan to attack yunkaii from rear with stealing some boats...
+	8298.1.1 = { employer=16571013 }
+	8300.1.1 = { remove_trait=slave  add_trait=former_slave }
+}
+105360029 = {
+	name="Hodor" #canon but name is uncanon
+	
+	religion="rhllor"
+	culture="volantene" #tigers and other wild cats...
+	
+	add_trait=cruel
+	add_trait=ruthless
+	add_trait=brave
+	
+	8269.1.1 = { birth="8269.1.1" }
+	8281.1.1 = { 
+		employer=16571013
+		add_trait = trained_warrior
+		add_trait = slave
+		effect = {
+			religion="harpy"
+			b_loraq = {
+				holder_scope = {
+				ROOT = { move_character = PREV }
+				reverse_opinion = { who = ROOT modifier = opinion_my_owner }
+				opinion = { who = ROOT modifier = opinion_my_slave }
+				}
+			}
+		}
+	}
+	8285.1.1 = {
+		remove_trait = trained_warrior
+		add_trait = master_warrior
+		give_nickname=nick_the_spotted_cat
+	}
+	8298.1.1 = { employer=16571013 }
+	8300.1.1 = { remove_trait=slave  add_trait=former_slave }
+}
+106360029 = {
+	name="Hodor" #canon
+	
+	religion="lion_night" #not canon but Ithoke sounds so weird that i put him here
+	culture="lengi"
+	
+	add_trait=brave
+	
+	8280.1.1 = { birth="8280.1.1" }
+	8286.1.1 = {
+		employer=16571013
+		add_trait = trained_warrior
+		add_trait = slave
+		effect = {
+			religion="harpy"
+			b_loraq = {
+				holder_scope = {
+				ROOT = { move_character = PREV }
+				reverse_opinion = { who = ROOT modifier = opinion_my_owner }
+				opinion = { who = ROOT modifier = opinion_my_slave }
+				}
+			}
+		}
+	}
+	8296.1.1 = {
+		remove_trait = trained_warrior
+		add_trait = skilled_warrior
+		give_nickname=nick_the_fearless
+	}
+	8298.1.1 = { employer=16571013 }
+	8300.1.1 = { remove_trait=slave  add_trait=former_slave }
+}
+107360029 = {
+	name="Hodor"
+	
+	dna="bcffhykbgbg"
+	properties="cc0dik00000"
+	
+	religion="moonsingers"
+	culture="braavosi"
+	
+	add_trait=strong
+	add_trait=ruthless 
+	
+	8273.1.1 = { birth="8273.1.1" }
+	8286.1.1 = {
+		employer=16571013
+		add_trait = trained_warrior
+		add_trait = slave
+		effect = {
+			religion="harpy"
+			b_loraq = {
+				holder_scope = {
+				ROOT = { move_character = PREV }
+				reverse_opinion = { who = ROOT modifier = opinion_my_owner }
+				opinion = { who = ROOT modifier = opinion_my_slave }
+				}
+			}
+		}
+	}
+	8289.1.1 = {
+		remove_trait = trained_warrior
+		add_trait = master_warrior
+		add_trait = duelist
+		give_nickname=nick_bonebreaker
+	}
+	8298.1.1 = { employer=16571013 }
+	8300.1.1 = { remove_trait=slave  add_trait=former_slave }
+}
+108360029 = {
+	name="Hodor" #canon but name is uncanon. He was known as Steelskin
+	
+	religion="bearded_priests"
+	culture="norvosi" #used longaxe... not so hard proof but they cant be all meereenese
+	
+	add_trait=tall
+	
+	8282.1.1 = { birth="8282.1.1" }
+	8284.1.1 = {
+		employer=16571013
+		add_trait = slave
+		effect = {
+			culture="meereenese"
+			religion="harpy"
+			b_loraq = {
+				holder_scope = {
+				ROOT = { move_character = PREV }
+				reverse_opinion = { who = ROOT modifier = opinion_my_owner }
+				reverse_opinion = { who = ROOT modifier = opinion_loyal_servant }
+				opinion = { who = ROOT modifier = opinion_my_slave }
+				}
+			}
+		}
+	}
+	8288.1.1 = {
+		add_trait = trained_warrior
+	}
+	8298.1.1 = {
+		remove_trait = trained_warrior
+		add_trait = skilled_warrior
+		add_trait = scarred
+		give_nickname=nick_the_steelskin
+	}
+	8298.1.1 = { employer=16571013 }
+	8300.1.1 = { remove_trait=slave  add_trait=former_slave }
+}
+
+	

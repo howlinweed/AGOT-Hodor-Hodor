@@ -1,0 +1,590 @@
+##Astapori##
+
+360000 = {
+	name = "mo Ullhor"
+	culture = astapori
+}
+360001 = {
+	name = "mo Nakloz"
+	culture = astapori
+}
+360002 = {
+	name = "mo Grazdhan"
+	culture = astapori
+}
+360026 = {
+	name = "zo Grazlar"
+	culture = astapori
+}
+360027 = {
+	name = "zo Mazlaq"
+	culture = astapori
+}
+360028 = {
+	name = "of Astapor" #Cleon's dynasty
+	culture = astapori
+}
+#non-canon
+360050 = {
+	name = "zo Rhanda"
+	culture = astapori
+}
+360051 = {
+	name = "na Leaq"
+	culture = astapori
+}
+360052 = {
+	name = "zo Naquan"
+	culture = astapori
+}
+360053 = {
+	name = "zo Hasnu"
+	culture = astapori
+}
+360054 = {
+	name = "na Shezdahl"
+	culture = astapori
+}
+360055 = {
+	name = "zo Ruzza"
+	culture = astapori
+}
+360056 = {
+	name = "mo Yhirar"
+	culture = astapori
+}
+360057 = {
+	name = "zo Iun"
+	culture = astapori
+}
+360058 = {
+	name = "mo Rharroz"
+	culture = astapori
+}
+360059 = {
+	name = "mo Akna"
+	culture = astapori
+}
+360060 = {
+	name = "na Quoqu"
+	culture = astapori
+}
+360061 = {
+	name = "na Zindek"
+	culture = astapori
+}
+360062 = {
+	name = "mo Zoknu"
+	culture = astapori
+}
+360063 = {
+	name = "na Dhiin"
+	culture = astapori
+}
+360064 = {
+	name = "mo Liahl"
+	culture = astapori
+}
+360065 = {
+	name = "na Ghaznuk"
+	culture = astapori
+}
+360066 = {
+	name = "na Yhorra"
+	culture = astapori
+}
+360067 = {
+	name = "zo Lazkk"
+	culture = astapori
+}
+360068 = {
+	name = "na Karn"
+	culture = astapori
+}
+360069 = {
+	name = "mo Shozzon"
+	culture = astapori
+}
+360070 = {
+	name = "zo Puhzez"
+	culture = astapori
+}
+360071 = {
+	name = "na Nazzar"
+	culture = astapori
+}
+360072 = {
+	name = "zo Guhzur"
+	culture = astapori
+}
+360073 = {
+	name = "zo Gimdu"
+	culture = astapori
+}
+360074 = {
+	name = "zo Yhurduk"
+	culture = astapori
+}
+
+
+##Meereenese##
+360003 = {
+	name = "zo Loraq"
+	culture = meereenese
+}
+360004 = {
+	name = "zo Galare"
+	culture = meereenese
+}
+360005 = {
+	name = "zo Merreq"
+	culture = meereenese
+}
+360006 = {
+	name = "zo Yherizan"
+	culture = meereenese
+}
+360007 = {
+	name = "zo Pahl"
+	culture = meereenese
+}
+360008 = {
+	name = "mo Reznak"
+	culture = meereenese
+}
+360009 = {
+	name = "mo Kandaq"
+	culture = meereenese
+}
+360010 = {
+	name = "zo Quazzar"
+	culture = meereenese
+}
+360011 = {
+	name = "zo Hazkar"
+	culture = meereenese
+}
+360012 = {
+	name = "zo Dhazak"
+	culture = meereenese
+}
+360013 = {
+	name = "zo Naqqan"
+	culture = meereenese
+}
+360014 = {
+	name = "zo Rhazadr"
+	culture = meereenese
+}
+360015 = {
+	name = "zo Uhlez"
+	culture = meereenese
+}
+360016 = {
+	name = "zo Zhak"
+	culture = meereenese
+}
+360030 = {
+	name = "zo Ghazeen"
+	culture = meereenese
+}
+#non canon
+360100 = {
+	name = "zo Dhahnez"
+	culture = meereenese
+}
+360101 = {
+	name = "zo Dimdaz"
+	culture = meereenese
+}
+360102 = {
+	name = "mo Yhamde"
+	culture = meereenese
+}
+360103 = {
+	name = "mo Dhuzh"
+	culture = meereenese
+}
+360104 = {
+	name = "mo Ahna"
+	culture = meereenese
+}
+360105 = {
+	name = "mo Lari"
+	culture = meereenese
+}
+360106 = {
+	name = "zo Le"
+	culture = meereenese
+}
+360107 = {
+	name = "zo Zhehnaz"
+	culture = meereenese
+}
+360108 = {
+	name = "mo Rhuzdak"
+	culture = meereenese
+}
+360109 = {
+	name = "na Zemdaz"
+	culture = meereenese
+}
+360110 = {
+	name = "zo Lahni"
+	culture = meereenese
+}
+360111 = {
+	name = "mo Riaq"
+	culture = meereenese
+}
+360112 = {
+	name = "zo Ghandoz"
+	culture = meereenese
+}
+360113 = {
+	name = "zo Mush"
+	culture = meereenese
+}
+360114 = {
+	name = "na Nosha"
+	culture = meereenese
+}
+360115 = {
+	name = "mo Zhuqok"
+	culture = meereenese
+}
+360116 = {
+	name = "mo Zhakluhl"
+	culture = meereenese
+}
+360117 = {
+	name = "zo Rahzozn"
+	culture = meereenese
+}
+360118 = {
+	name = "zo Kaga"
+	culture = meereenese
+}
+360119 = {
+	name = "na Dhumdazn"
+	culture = meereenese
+}
+360120 = {
+	name = "na Aknohl"
+	culture = meereenese
+}
+360121 = {
+	name = "zo Doqaz"
+	culture = meereenese
+}
+360122 = {
+	name = "zo Zaqueq"
+	culture = meereenese
+}
+360123 = {
+	name = "mo Rhurru"
+	culture = meereenese
+}
+360124 = {
+	name = "na Zhazdo"
+	culture = meereenese
+}
+
+##Yunkaii##
+360017 = {
+	name = "zo Rhaezn"
+	culture = yunkaii
+}
+360018 = {
+	name = "zo Faez"
+	culture = yunkaii
+}
+360019 = {
+	name = "zo Ahlaq"
+	culture = yunkaii
+}
+360020 = {
+	name = "zo Eraz"
+	culture = yunkaii
+}
+360021 = {
+	name = "zo Zherzyn"
+	culture = yunkaii
+}
+360022 = {
+	name = "zo Myraq"
+	culture = yunkaii
+}
+360023 = {
+	name = "zo Qaggaz"
+	culture = yunkaii
+}
+360024 = {
+	name = "zo Yunzak"
+	culture = yunkaii
+}
+#non canon
+360150 = {
+	name = "mo Ghazkuz"
+	culture = yunkaii
+}
+360151 = {
+	name = "na Harraz"
+	culture = yunkaii
+}
+360152 = {
+	name = "na Kua"
+	culture = yunkaii
+}
+360153 = {
+	name = "na Azka"
+	culture = yunkaii
+}
+360154 = {
+	name = "zo Narde"
+	culture = yunkaii
+}
+360155 = {
+	name = "zo Yhuar"
+	culture = yunkaii
+}
+360156 = {
+	name = "mo Hoqqa"
+	culture = yunkaii
+}
+360157 = {
+	name = "mo Eznazn"
+	culture = yunkaii
+}
+360158 = {
+	name = "mo Roqqazn"
+	culture = yunkaii
+}
+360159 = {
+	name = "na Zaiq"
+	culture = yunkaii
+}
+360160 = {
+	name = "zo Zhazhaq"
+	culture = yunkaii
+}
+360161 = {
+	name = "mo Garriq"
+	culture = yunkaii
+}
+360162 = {
+	name = "mo Dhahluzn"
+	culture = yunkaii
+}
+360163 = {
+	name = "zo Heznaz"
+	culture = yunkaii
+}
+360164 = {
+	name = "mo Zheznuq"
+	culture = yunkaii
+}
+360165 = {
+	name = "na Lazd"
+	culture = yunkaii
+}
+360166 = {
+	name = "na Pallhiz"
+	culture = yunkaii
+}
+360167 = {
+	name = "mo Rhozno"
+	culture = yunkaii
+}
+360168 = {
+	name = "zo Rhuzzer"
+	culture = yunkaii
+}
+360169 = {
+	name = "zo Mollhaz"
+	culture = yunkaii
+}
+360170 = {
+	name = "zo Kekna"
+	culture = yunkaii
+}
+360171 = {
+	name = "mo Hezhiq"
+	culture = yunkaii
+}
+360172 = {
+	name = "na Shuzka"
+	culture = yunkaii
+}
+360173 = {
+	name = "mo Zaqui"
+	culture = yunkaii
+}
+360174 = {
+	name = "na Quirriz"
+	culture = yunkaii
+}
+
+
+##Ghiscari##
+174361 = {
+	name="na Ghezn"
+	culture = ghiscari
+}
+69148 = {
+	name = "zo Jaghaz"
+	culture = ghiscari
+}
+69149 = {
+	name = "zo Qarghiz"
+	culture = ghiscari
+}
+69150 = {
+	name = "zo Zarghaz"
+	culture = ghiscari
+}
+69151 = {
+	name = "mo Bezzlar"
+	culture = ghiscari
+}
+69152 = {
+	name = "zo Riznahz"
+	culture = ghiscari
+}
+69153 = {
+	name = "zo Larhak"
+	culture = ghiscari
+}
+69154 = {
+	name = "mo Taraq"
+	culture = ghiscari
+}
+69155 = {
+	name = "zo Marlaq"
+	culture = ghiscari
+}
+69190 = {
+	name = "zo Hazdahn"
+	culture = ghiscari
+}
+69200 = {
+	name = "mo Tazraaq"
+	culture = ghiscari
+}
+69201 = {
+	name = "zo Bahraz"
+	culture = ghiscari
+}
+69202 = {
+	name = "mo Larghaz"
+	culture = ghiscari
+}
+69205 = {
+	name = "mo Hiznhak"
+	culture = ghiscari
+}
+360025 = {
+	name = "zo Grazdan"
+	culture = ghiscari
+}
+#non-canon
+360200 = {
+	name = "mo Giran"
+	culture = ghiscari
+}
+360201 = {
+	name = "na Ghazkozn"
+	culture = ghiscari
+}
+360202 = {
+	name = "na Ozne"
+	culture = ghiscari
+}
+360203 = {
+	name = "zo Uzhon"
+	culture = ghiscari
+}
+360204 = {
+	name = "zo Yherra"
+	culture = ghiscari
+}
+360205 = {
+	name = "zo Gharde"
+	culture = ghiscari
+}
+360206 = {
+	name = "mo Ghuknak"
+	culture = ghiscari
+}
+360207 = {
+	name = "zo Ghun"
+	culture = ghiscari
+}
+360208 = {
+	name = "zo Pazaq"
+	culture = ghiscari
+}
+360209 = {
+	name = "mo Dohlu"
+	culture = ghiscari
+}
+360210 = {
+	name = "na Shugor"
+	culture = ghiscari
+}
+360211 = {
+	name = "zo Puazn"
+	culture = ghiscari
+}
+360212 = {
+	name = "zo Aaq"
+	culture = ghiscari
+}
+360213 = {
+	name = "zo Zasnzn"
+	culture = ghiscari
+}
+360214 = {
+	name = "na Rhizdozn"
+	culture = ghiscari
+}
+360215 = {
+	name = "zo Gamda"
+	culture = ghiscari
+}
+360216 = {
+	name = "zo Darduz"
+	culture = ghiscari
+}
+360217 = {
+	name = "zo Mallha"
+	culture = ghiscari
+}
+360218 = {
+	name = "na Zandahl"
+	culture = ghiscari
+}
+360219 = {
+	name = "mo Ezhk"
+	culture = ghiscari
+}
+360220 = {
+	name = "na Yhezher"
+	culture = ghiscari
+}
+360221 = {
+	name = "zo Mimde"
+	culture = ghiscari
+}
+360222 = {
+	name = "mo Aquazn"
+	culture = ghiscari
+}
+360223 = {
+	name = "mo Pohlan"
+	culture = ghiscari
+}
+360224 = {
+	name = "na Zazkoq"
+	culture = ghiscari
+}

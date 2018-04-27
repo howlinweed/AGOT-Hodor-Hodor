@@ -1,0 +1,1060 @@
+##non canon for random##
+802000 = {
+	name = Hornsby
+	culture = westerman
+}
+802001 = {
+	name = Thorpe
+	culture = westerman
+}
+802002 = {
+	name = Jaswell
+	culture = westerman
+}
+802003 = {
+	name = Carlet
+	culture = westerman
+}
+802004 = {
+	name = Folman
+	culture = westerman
+}
+802005 = {
+	name = Carnaby
+	culture = westerman
+}
+802006 = {
+	name = Laxley
+	culture = westerman
+}
+802007 = {
+	name = Rutland
+	culture = westerman
+}
+802008 = {
+	name = Brightmyre
+	culture = westerman
+}
+802009 = {
+	name = Yellowbrook
+	culture = westerman
+}
+802010 = {
+	name = Moatwell
+	culture = westerman
+}
+802011 = {
+	name = Egelston
+	culture = westerman
+}
+802012 = {
+	name = Ysley
+	culture = westerman
+}
+802013 = {
+	name = Chamberlyng
+	culture = westerman
+}
+802014 = {
+	name = Mackelsworth
+	culture = westerman
+}
+802015 = {
+	name = Upton
+	culture = westerman
+}
+802016 = {
+	name = Chacewell
+	culture = westerman
+}
+802017 = {
+	name = Cynders
+	culture = westerman
+}
+802018 = {
+	name = Felton
+	culture = westerman
+}
+802019 = {
+	name = Evenhart
+	culture = westerman
+}
+802020 = {
+	name = Turner
+	culture = westerman
+}
+802021 = {
+	name = Dedwyck
+	culture = westerman
+}
+802022 = {
+	name = Stockwayn
+	culture = westerman
+}
+802023 = {
+	name = Burdyck
+	culture = westerman
+}
+802024 = {
+	name = Paston
+	culture = westerman
+}
+802025 = {
+	name = Hillcroft
+	culture = westerman
+}
+802026 = {
+	name = Clint
+	culture = westerman
+}
+802027 = {
+	name = Layton
+	culture = westerman
+}
+802028 = {
+	name = Mendham
+	culture = westerman
+}
+802029 = {
+	name = Wyckling
+	culture = westerman
+}
+802030 = {
+	name = Rumbold
+	culture = westerman
+}
+802031 = {
+	name = Morholt
+	culture = westerman
+}
+802032 = {
+	name = Bradgood
+	culture = westerman
+}
+802033 = {
+	name = Pendric
+	culture = westerman
+}
+802034 = {
+	name = Brakenell
+	culture = westerman
+}
+802035 = {
+	name = Goldmere
+	culture = westerman
+}
+802036 = {
+	name = Lindingham
+	culture = westerman
+}
+802037 = {
+	name = Lannet
+	culture = westerman
+}
+802038 = {
+	name = Ashwick
+	culture = westerman
+}
+802039 = {
+	name = Westfield
+	culture = westerman
+}
+802040 = {
+	name = Brakenell
+	culture = westerman
+}
+802041 = {
+	name = Overdam
+	culture = westerman
+}
+802042 = {
+	name = Kyndall
+	culture = westerman
+}
+802046 = {
+	name = Rockson
+	culture = westerman
+}
+802047 = {
+	name = Goldfallow
+	culture = westerman
+}
+802048 = {
+	name = Rockemar
+	culture = westerman
+}
+802049 = {
+	name = Maeson
+	culture = westerman
+}
+802050 = {
+	name = Seltar
+	culture = westerman
+}
+802051 = {
+	name = Lanser
+	culture = westerman
+}
+802052 = {
+	name = Merchin
+	culture = westerman
+}
+802053 = {
+	name = Campiron
+	culture = westerman
+}
+802054 = {
+	name = Rocke
+	culture = westerman
+}
+802055 = {
+	name = Linster
+	culture = westerman
+}
+802056 = {
+	name = Crooke
+	culture = westerman
+}
+802057 = {
+	name = Farheart
+	culture = westerman
+}
+802058 = {
+	name = Hearock
+	culture = westerman
+}
+802059 = {
+	name = Cinderton
+	culture = westerman
+}
+802060 = {
+	name = Gloryridge
+	culture = westerman
+}
+802061 = {
+	name = Silverfall
+	culture = westerman
+}
+802062 = {
+	name = Stoutspear
+	culture = westerman
+}
+802063 = {
+	name = Silverfist
+	culture = westerman
+}
+802064 = {
+	name = Goldhammer
+	culture = westerman
+}
+802065 = {
+	name = Leadbetter
+	culture = westerman
+}
+802066 = {
+	name = Smythe
+	culture = westerman
+}
+802067 = {
+	name = Goldhyl
+	culture = westerman
+}
+##canon##
+190 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+191 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+192 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 50
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+193 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+194 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+195 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+196 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+197 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 41
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	used_for_random = no
+	can_appear = no
+}
+198 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+199 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+200 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+201 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 9
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 10
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+203 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 11
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 12
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 13
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+206 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 37
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 39
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+208 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 14
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+209 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 47
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+210 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 49
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+212 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 15
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+213 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 16
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+214 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 17
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+215 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 18
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+216 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 19
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+217 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 20
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+218 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 21
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+219 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 22
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+220 = {
+	name="Hodor" 
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 23
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+221 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 24
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+222 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 25
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+223 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 26
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+224 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 42
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+225 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 40
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+226 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 27
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+227 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 28
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+228 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 29
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+229 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 30
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+230 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 31
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+231 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 32
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+232 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 33
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+233 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 34
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1006 = {
+	name="Hodor"
+	culture = westerman
+	used_for_random = no
+	can_appear = no
+}
+2158 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 36
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2159 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 35
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2161 = { 
+	name="Hodor"
+    	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 48
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+174358 = {
+	name="Hodor"
+	culture = westerman
+}
+174362 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 44
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+174406 = {
+	name="Hodor"
+	culture = westerman
+	used_for_random = no
+	can_appear = no
+}
+174409 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 43
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+174414 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 46
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+802043 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 51
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+802044 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 52
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+802045 = {
+	name="Hodor"
+	culture = westerman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 53
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}

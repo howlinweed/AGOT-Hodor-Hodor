@@ -1,0 +1,11 @@
+#CODE;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
+TYRANTTOOLTIP5;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
+TYRANTTOOLTIP10;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
+TYRANTTOOLTIP15;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
+TYRANTTOOLTIP20;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
+TYRANTTOOLTIP30;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
+TYRANTTOOLTIP40;Hodor;Hodor;Hodor;Hodor;Hodor;;;;;;;;;x
+CUSTOMTOOLTIP1;[Root.GetTitledFirstName] §GWILL§W become your landed vassal.\n;[Root.GetTitledFirstName] §Gva§W devenir votre vassal.\n;[Root.GetTitledFirstName] §GWILL§W become your landed vassal.\n;[Root.GetTitledFirstName] §GWILL§W become your landed vassal.\n;[Root.GetTitledFirstName] §GSE§W convertirá en tu vasallo.\n;;;;;;;;x;
+CUSTOMTOOLTIP2;[Root.GetTitledFirstName] will §RNOT§W become your landed vassal.\n;[Root.GetTitledFirstName] §Rne va pas§W devenir votre vassal.\n;[Root.GetTitledFirstName] will §RNOT§W become your landed vassal.\n;[Root.GetTitledFirstName] will §RNOT§W become your landed vassal.\n;[Root.GetTitledFirstName] §RNO SE§W convertirá en tu vasallo.\n;;;;;;;;x;
+CUSTOMTOOLTIP3;[This.GetTitledFirstName] will become the independent ruler of all lands taken in the Crusade.\n;[This.GetTitledFirstName] va devenir le souverain indépendant de toutes les terres conquises lors de la Croisade.\n;[This.GetTitledFirstName] will become the independent ruler of all lands taken in the Crusade.\n;[This.GetTitledFirstName] will become the independent ruler of all lands taken in the Crusade.\n;[This.GetTitledFirstName] se convertirá en el soberano independiente de todas las tierras conseguidas en la Cruzada.\n;;;;;;;;x;
+CUSTOMTOOLTIP4;A distant relative will become the independent ruler of all lands taken in the Crusade.\n;Un parent éloigné va devenir le souverain indépendant de toutes les terres conquises lors de la Croisade.\n;A distant relative will become the independent ruler of all lands taken in the Crusade.\n;A distant relative will become the independent ruler of all lands taken in the Crusade.\n;Un pariente lejano se convertirá en el soberano independiente de todas las tierras conseguidas en la Cruzada.\n;;;;;;;;x;

@@ -1,0 +1,12 @@
+314000 = {
+	name="Hodor"
+	culture = ruin
+}
+# 314001 = {
+	# name="Hodor"
+	# culture = dothraki_domain_culture
+# }
+# 314002 = {
+	# name="Hodor"
+	# culture = jogos_domain_culture
+# }

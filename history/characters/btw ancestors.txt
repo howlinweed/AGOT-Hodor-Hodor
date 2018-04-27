@@ -1,0 +1,1437 @@
+#### Beyond the Wall Ancestors ####
+20359 = {
+	name="Hodor" #  the Bard, King beyond the Wall. Had a child with Bran the daughterless' daughter.
+	dynasty = 559131
+	
+	martial=6
+	diplomacy=15
+	intrigue=14
+	stewardship=8
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	add_trait="ambitious"
+	add_trait="proud"
+	add_trait="patient"
+	add_trait="brave"
+	add_trait="poet"
+	add_trait="elusive_shadow"
+	add_trait="lustful"
+	
+	give_nickname = the_bard
+	
+	7212.1.1 = {birth="7212.1.1"}
+	7228.1.1 = {
+		add_trait = trained_warrior
+	}
+	7274.1.1={
+		#Killed by his own son!
+		death = {
+			death_reason = death_battle #killed in Battle against Jon Stark @ Frozen Ford, changed from execution
+			killer = 1120459
+		}
+	}
+}
+# #random family
+# 401559131 = {
+	# name="Hodor"
+	# female=yes
+
+	# religion="beyond_wall_old_gods"
+	# culture="wildling"
+
+	# 8021.1.1 = {birth="8021.1.1"}
+	# 8078.1.1={death="8078.1.1"}
+# }
+# 100559131 = {
+	# name="Hodor" 
+	# dynasty = 559131
+	
+	# religion="beyond_wall_old_gods"
+	# culture="wildling"
+	
+	# father=20359
+	# mother=401559131
+	
+	# 8045.1.1 = {birth="8045.1.1"}
+	# 8061.1.1 = {
+		# add_trait = trained_warrior
+	# }
+	# 8068.1.1={
+		# death = {
+			# death_reason = death_battle
+		# }
+	# }
+# }
+# 101559131 = {
+	# name="Hodor" 
+	# dynasty = 559131
+	
+	# religion="beyond_wall_old_gods"
+	# culture="wildling"
+	
+	# father=20359
+	# mother=401559131
+	
+	# 8047.1.1 = {birth="8047.1.1"}
+	# 8063.1.1 = {
+		# add_trait = trained_warrior
+	# }
+	# 8068.1.1={
+		# death = {
+			# death_reason = death_battle
+		# }
+	# }
+# }
+# 102559131 = {
+	# name="Hodor" 
+	# dynasty = 559131
+	
+	# religion="beyond_wall_old_gods"
+	# culture="wildling"
+	
+	# father=20359
+	# mother=401559131
+	
+	# 8051.1.1 = {birth="8051.1.1"}
+	# 8067.1.1 = {
+		# add_trait = trained_warrior
+	# }
+	# 8068.1.1={
+		# death = {
+			# death_reason = death_battle
+		# }
+	# }
+# }
+# 103559131 = {
+	# name="Hodor" 
+	# dynasty = 559131
+	# female = yes
+	
+	# religion="beyond_wall_old_gods"
+	# culture="wildling"
+	
+	# father=20359
+	# mother=401559131
+	
+	# 8052.1.1 = {birth="8052.1.1"}
+	# 8097.1.1={death="8097.1.1"}
+# }
+# 104559131 = {
+	# name="Hodor" 
+	# dynasty = 559131
+	
+	# religion="beyond_wall_old_gods"
+	# culture="wildling"
+	
+	# father=20359
+	# mother=401559131
+	
+	# 8054.1.1 = {birth="8054.1.1"}
+	# 8070.1.1 = {
+		# add_trait = trained_warrior
+	# }
+	# 8086.1.1={death="8086.1.1"}
+# }
+### Redbeard/Kingsblood
+1021359 = {
+	name="Hodor" # Father of Raymun Redbeard
+	dynasty=174408 # of Antler Vale
+	
+	martial=4
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	
+	add_trait="brave"
+	add_trait="just"
+    	add_trait= "honest"
+	add_trait="skilled_tactician"
+		
+	8136.1.1 = {birth="8136.1.1"}
+	8197.1.1 = {death="8197.1.1"}
+}
+21359 = {
+	name="Hodor" # Raymun Redbeard
+	dynasty=174408 # of Antler Vale
+	dna="cakefzeedaz"
+	properties="ce0dbk0000"
+	
+	martial=7
+	diplomacy=6
+	intrigue=5
+	stewardship=6
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	
+	add_trait="brave"
+	add_trait="wroth"
+	add_trait="just"
+    add_trait= "honest"
+	add_trait="skilled_tactician"
+
+	father=1021359
+	
+	give_nickname="Hodor"
+		
+	8188.1.1 = {birth="8188.1.1"}
+	8226.9.9 ={
+		# Killed by Artos Stark
+		add_trait="ice"
+		death = {
+			death_reason = death_battle
+			killer = 21459
+		}
+	}
+}
+221359 = {
+	name="Hodor" # Son of Raymun Redbeard
+	dynasty=174408 # of Antler Vale
+	
+	martial=4
+	intrigue=3
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	
+	add_trait="wroth"
+	add_trait="skilled_tactician"
+	
+	father=21359
+		
+	8204.1.1 = {birth="8204.1.1"}
+	8226.9.9 ={
+		# Killed by Artos Stark
+		death = {
+			death_reason = death_battle
+			killer = 21459
+		}
+	}
+}
+321359 = {
+	name="Hodor" # Son of Raymun Redbeard
+	dynasty=174408 # of Antler Vale
+	
+	martial=4
+	intrigue=3
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	
+	add_trait="wroth"
+	add_trait="skilled_tactician"
+	
+	father=21359
+		
+	8206.1.1 = {birth="8206.1.1"}
+	8226.9.9 ={
+		# Killed by Artos Stark
+		death = {
+			death_reason = death_battle
+			killer = 21459
+		}
+	}
+}
+121359 = {
+	name="Hodor" # Red Raven
+	dynasty=174408 # of Antler Vale
+	dna="cakefzeedaz"
+	properties="ce0d0k0000"
+	
+	martial=2
+	diplomacy=2
+	intrigue=1
+	stewardship=2
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	
+	add_trait="wroth"
+	add_trait="craven"
+	add_trait="skilled_tactician"
+	
+	father=1021359
+		
+	8192.1.1 = {birth="8192.1.1"}
+	8227.6.1 = {
+		give_nickname="Hodor"
+		dynasty=174348 # Kingsblood
+	}
+	8230.1.1 = {death="8230.1.1"}
+}
+421359 = {
+	name="Hodor" # Son of Red Raven
+	dynasty=174348 # Kingsblood
+	
+	martial=4
+	intrigue=3
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	
+	add_trait="wroth"
+	add_trait="skilled_tactician"
+	
+	father=121359
+		
+	8219.1.1 = {birth="8219.1.1"}
+	8252.1.1 = {death="8252.1.1"}
+}
+521359 = {
+	name="Hodor" # Son of Borroq, father of Gerrick Kingsblood.
+	dynasty=174348 # Kingsblood
+	
+	martial=4
+	intrigue=3
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	
+	add_trait="wroth"
+	add_trait="skilled_tactician"
+	
+	father=421359
+		
+	8231.1.1 = {birth="8231.1.1"}
+	8278.1.1 = {death="8278.1.1"}
+}
+
+### Magnar's of Thenn
+112344 = {
+	name="Hodor"
+	dynasty=174344
+	
+	religion="thenn_rel"
+	culture="thenn"
+	
+	add_trait="cruel"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	
+	father=111344
+	
+	8235.1.1 = {birth="8235.1.1"}
+	8276.1.1 = {death="8276.1.1"}
+}
+111344 = {
+	name="Hodor"
+	dynasty=174344
+	
+	religion="thenn_rel"
+	culture="thenn"
+	
+	add_trait="cruel"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	
+	father=110344
+	
+	8210.1.1 = {birth="8210.1.1"}
+	8255.1.1 = {death="8255.1.1"}
+}
+110344 = {
+	name="Hodor"
+	dynasty=174344
+	
+	religion="thenn_rel"
+	culture="thenn"
+	
+	add_trait="cruel"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	
+	father=109344
+	
+	8187.1.1 = {birth="8187.1.1"}
+	8228.1.1 = {death="8228.1.1"}
+}
+109344 = {
+	name="Hodor"
+	dynasty=174344
+	
+	religion="thenn_rel"
+	culture="thenn"
+	
+	add_trait="cruel"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	
+	father=108344
+	
+	8159.1.1 = {birth="8159.1.1"}
+	8208.1.1 = {death="8208.1.1"}
+}
+108344 = {
+	name="Hodor"
+	dynasty=174344
+	
+	religion="thenn_rel"
+	culture="thenn"
+	
+	add_trait="cruel"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	
+	father=107344
+	
+	8142.1.1 = {birth="8142.1.1"}
+	8168.1.1 = {death="8168.1.1"}
+}
+107344 = {
+	name="Hodor"
+	dynasty=174344
+	
+	religion="thenn_rel"
+	culture="thenn"
+	
+	add_trait="cruel"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	
+	father=106344
+	
+	8116.1.1 = {birth="8116.1.1"}
+	8162.1.1 = {death="8162.1.1"}
+}
+106344 = {
+	name="Hodor"
+	dynasty=174344
+	
+	religion="thenn_rel"
+	culture="thenn"
+	
+	add_trait="cruel"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	
+	father=105344
+	
+	8092.1.1 = {birth="8092.1.1"}
+	8141.1.1 = {death="8141.1.1"}
+}
+105344 = {
+	name="Hodor"
+	dynasty=174344
+	
+	religion="thenn_rel"
+	culture="thenn"
+	
+	add_trait="cruel"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	
+	father=104344
+	
+	8054.1.1 = {birth="8054.1.1"}
+	8107.1.1 = {death="8107.1.1"}
+}
+104344 = {
+	name="Hodor"
+	dynasty=174344
+	
+	religion="thenn_rel"
+	culture="thenn"
+	
+	add_trait="cruel"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	
+	father=103344
+	
+	8033.1.1 = {birth="8033.1.1"}
+	8086.1.1 = {death="8086.1.1"}
+}
+103344 = {
+	name="Hodor"
+	dynasty=174344
+	
+	religion="thenn_rel"
+	culture="thenn"
+	
+	add_trait="cruel"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	
+	father=102344
+	
+	8019.1.1 = {birth="8019.1.1"}
+	8052.1.1 = {death="8052.1.1"}
+}
+102344 = {
+	name="Hodor"
+	dynasty=174344
+	
+	religion="thenn_rel"
+	culture="thenn"
+	
+	add_trait="cruel"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	
+	father=100344
+	
+	7996.1.1 = {birth="7996.1.1"}
+	8037.1.1 = {death="8037.1.1"}
+}
+100344 = {
+	name="Hodor"
+	dynasty=174344
+	
+	religion="thenn_rel"
+	culture="thenn"
+	
+	add_trait="cruel"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	
+	7978.1.1 = {birth="7978.1.1"}
+	8009.1.1 = {death="8009.1.1"}
+}
+
+#Ancient Kings Beyond the Wall
+
+900347 = {
+	name="Hodor"	#non-canon, a father to make Gorne and Gendel brothers
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	add_trait="trained_warrior"
+	
+	4952.1.1 = {birth="4952.1.1"}
+	4993.1.1 = {death="4993.1.1"}
+}
+
+901347 = {
+	name="Hodor"
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=900347	
+
+	add_trait="twin"
+	add_trait="ambitious"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="skilled_warrior"
+	
+	4978.1.1 = {birth="4978.1.1"}
+	5024.6.1 ={ 
+		#Killed in battle against the Starks
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+902347 = {
+	name="Hodor"
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=900347	
+	
+	add_trait="twin"
+	add_trait="ambitious"
+	add_trait="stubborn"
+	add_trait="skilled_tactician"
+	add_trait="trained_warrior"
+	
+	4980.1.1 = {birth="4980.1.1"}
+	5025.1.1 = {
+		#Either lost forever or killed in battle against the Starks
+		death = {
+			death_reason = death_missing 
+		}
+	}
+}
+
+903347 = {
+	name="Hodor"		#The Horned King
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	#give_nickname="Hodor"
+
+	add_trait="ambitious"
+	add_trait="hunter"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	add_trait="mystic"
+	
+	3950.1.1 = {birth="3950.1.1"}
+	4025.1.1 = {death="4025.1.1"}
+}
+
+904347 = {
+	name="Hodor"
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	add_trait="mystic"
+	add_trait="honorable"
+	add_trait="brilliant_strategist"
+	add_trait="skilled_warrior"
+	
+	950.1.1 = {birth="950.1.1"}
+	1025.1.1 = {death="1025.1.1"}
+}
+
+###Thankskull of Northern Frostfangs###
+101559112 = {
+	name="Hodor"	# a lord
+	dynasty=559112
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	7955.1.1 = {birth="7955.1.1"}
+	7971.1.1 = {add_trait=trained_warrior}
+	7973.1.1 = {add_spouse=401559112}
+	8008.1.1 = {death="8008.1.1"}
+}
+401559112 = {
+	name="Hodor"
+	female=yes
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	7955.1.1 = {birth="7955.1.1"}
+	8008.1.1 = {death="8008.1.1"}
+}
+102559112 = {
+	name="Hodor"	# a lord
+	dynasty=559112
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=101559112
+	mother=401559112
+
+	7984.1.1 = {birth="7984.1.1"}
+	8000.1.1 = {add_trait=skilled_warrior}
+	8002.1.1 = {add_spouse=402559112}
+	8041.1.1 = {death="8041.1.1"}
+}
+402559112 = {
+	name="Hodor"
+	female=yes
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	7984.1.1 = {birth="7984.1.1"}
+	8041.1.1 = {death="8041.1.1"}
+}
+103559112 = {
+	name="Hodor"	# a lord
+	dynasty=559112
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=102559112
+	mother=402559112
+
+	8009.1.1 = {birth="8009.1.1"}
+	8025.1.1 = {add_trait=trained_warrior}
+	8027.1.1 = {add_spouse=403559112}
+	8073.1.1 = {death="8073.1.1"}
+}
+403559112 = {
+	name="Hodor"
+	female=yes
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	8009.1.1 = {birth="8009.1.1"}
+	8073.1.1 = {death="8073.1.1"}
+}
+104559112 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=559112
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=102559112
+	mother=402559112
+
+	8012.1.1 = {birth="8012.1.1"}
+	8075.1.1 = {death="8075.1.1"}
+}
+105559112 = {
+	name="Hodor"	# not a lord
+	dynasty=559112
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=103559112
+	mother=403559112
+
+	8042.1.1 = {birth="8042.1.1"}
+	8058.1.1 = {add_trait=trained_warrior}
+	8072.1.1 = {death="8072.1.1"}
+}
+106559112 = {
+	name="Hodor"	# a lord
+	dynasty=559112
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=103559112
+	mother=403559112
+
+	8045.1.1 = {birth="8045.1.1"}
+	8061.1.1 = {add_trait=trained_warrior}
+	8063.1.1 = {add_spouse=406559112}
+	8091.1.1 = {death="8091.1.1"}
+}
+406559112 = {
+	name="Hodor"
+	female=yes
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	8045.1.1 = {birth="8045.1.1"}
+	8091.1.1 = {death="8091.1.1"}
+}
+107559112 = {
+	name="Hodor"	# a lord
+	dynasty=559112
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=106559112
+	mother=406559112
+
+	8074.1.1 = {birth="8074.1.1"}
+	8090.1.1 = {add_trait=master_warrior}
+	8092.1.1 = {add_spouse=407559112}
+	8144.1.1 = {death="8144.1.1"}
+}
+407559112 = {
+	name="Hodor"
+	female=yes
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	8074.1.1 = {birth="8074.1.1"}
+	8144.1.1 = {death="8144.1.1"}
+}
+108559112 = {
+	name="Hodor"	# not a lord
+	dynasty=559112
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=106559112
+	mother=406559112
+
+	8076.1.1 = {birth="8076.1.1"}
+	8092.1.1 = {add_trait=skilled_warrior}
+	8128.1.1 = {death="8128.1.1"}
+}
+109559112 = {
+	name="Hodor"	# a lord
+	dynasty=559112
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=107559112
+	mother=407559112
+
+	8096.1.1 = {birth="8096.1.1"}
+	8112.1.1 = {add_trait=trained_warrior}
+	8114.1.1 = {add_spouse=409559112}
+	8176.1.1 = {death="8176.1.1"}
+}
+409559112 = {
+	name="Hodor"
+	female=yes
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	8096.1.1 = {birth="8096.1.1"}
+	8176.1.1 = {death="8176.1.1"}
+}
+110559112 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=559112
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=109559112
+	mother=409559112
+
+	8121.1.1 = {birth="8121.1.1"}
+	8181.1.1 = {death="8181.1.1"}
+}
+112559112 = {
+	name="Hodor"	# not a lord
+	dynasty=559112
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=109559112
+	mother=409559112
+
+	8124.1.1 = {birth="8124.1.1"}
+	8140.1.1 = {add_trait=trained_warrior}
+	8142.1.1 = {add_spouse=412559112}
+	8172.1.1 = {death="8172.1.1"}
+}
+412559112 = {
+	name="Hodor"
+	female=yes
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	8124.1.1 = {birth="8124.1.1"}
+	8172.1.1 = {death="8172.1.1"}
+}
+114559112 = {
+	name="Hodor"	# a lord
+	dynasty=559112
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=112559112
+	mother=412559112
+
+	8147.1.1 = {birth="8147.1.1"}
+	8163.1.1 = {add_trait=skilled_warrior}
+	8165.1.1 = {add_spouse=414559112}
+	8199.1.1 = {death="8199.1.1"}
+}
+414559112 = {
+	name="Hodor"
+	female=yes
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	8147.1.1 = {birth="8147.1.1"}
+	8199.1.1 = {death="8199.1.1"}
+}
+115559112 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=559112
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=112559112
+	mother=412559112
+
+	8148.1.1 = {birth="8148.1.1"}
+	8210.1.1 = {death="8210.1.1"}
+}
+116559112 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=559112
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=114559112
+	mother=414559112
+
+	8166.1.1 = {birth="8166.1.1"}
+	8224.1.1 = {death="8224.1.1"}
+}
+117559112 = {
+	name="Hodor"	# a lord
+	dynasty=559112
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=114559112
+	mother=414559112
+
+	8168.1.1 = {birth="8168.1.1"}
+	8184.1.1 = {add_trait=poor_warrior}
+	8186.1.1 = {add_spouse=417559112}
+	8211.1.1 = {death="8211.1.1"}
+}
+417559112 = {
+	name="Hodor"
+	female=yes
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	8168.1.1 = {birth="8168.1.1"}
+	8211.1.1 = {death="8211.1.1"}
+}
+118559112 = {
+	name="Hodor"	# a lord
+	dynasty=559112
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=117559112
+	mother=417559112
+
+	8189.1.1 = {birth="8189.1.1"}
+	8205.1.1 = {add_trait=trained_warrior}
+	8207.1.1 = {add_spouse=418559112}
+	8247.1.1 = {death="8247.1.1"}
+}
+418559112 = {
+	name="Hodor"
+	female=yes
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	8189.1.1 = {birth="8189.1.1"}
+	8247.1.1 = {death="8247.1.1"}
+}
+119559112 = {
+	name="Hodor"	# a lord
+	dynasty=559112
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=118559112
+	mother=418559112
+
+	8210.1.1 = {birth="8210.1.1"}
+	8226.1.1 = {add_trait=poor_warrior}
+	8228.1.1 = {add_spouse=419559112}
+	8262.1.1 = {death="8262.1.1"}
+}
+419559112 = {
+	name="Hodor"
+	female=yes
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	8210.1.1 = {birth="8210.1.1"}
+	8262.1.1 = {death="8262.1.1"}
+}
+121559112 = {
+	name="Hodor"	# a lord
+	dynasty=559112
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=119559112
+	mother=419559112
+
+	8233.1.1 = {birth="8233.1.1"}
+	8249.1.1 = {add_trait=trained_warrior}
+	8251.1.1 = {add_spouse=421559112}
+	8278.1.1 = {death="8278.1.1"}
+}
+421559112 = {
+	name="Hodor"
+	female=yes
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	8233.1.1 = {birth="8233.1.1"}
+	8278.1.1 = {death="8278.1.1"}
+}
+122559112 = {
+	name="Hodor"	# not a lord
+	dynasty=559112
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=119559112
+	mother=419559112
+
+	8236.1.1 = {birth="8236.1.1"}
+	8252.1.1 = {add_trait=trained_warrior}
+	8272.1.1 = {death = {death_reason = death_battle}}
+}
+123559112 = {
+	name="Hodor"	# not a lord
+	dynasty=559112
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=121559112
+	mother=421559112
+
+	8252.1.1 = {birth="8252.1.1"}
+	8268.1.1 = {add_trait=trained_warrior}
+}
+124559112 = {
+	name="Hodor"	# not a lord
+	dynasty=559112
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=121559112
+	mother=421559112
+
+	8254.1.1 = {birth="8254.1.1"}
+	8270.1.1 = {add_trait=trained_warrior}
+}
+###Crowhunters of Skirling Pass###
+101559122 = {
+	name="Hodor"	# a lord
+	dynasty=559122
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	7962.1.1 = {birth="7962.1.1"}
+	7978.1.1 = {add_trait=skilled_warrior}
+	7980.1.1 = {add_spouse=401559122}
+	8013.1.1 = {death="8013.1.1"}
+}
+401559122 = {
+	name="Hodor"
+	female=yes
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	7962.1.1 = {birth="7962.1.1"}
+	8013.1.1 = {death="8013.1.1"}
+}
+102559122 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=559122
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=101559122
+	mother=401559122
+
+	7989.1.1 = {birth="7989.1.1"}
+	8033.1.1 = {death="8033.1.1"}
+}
+103559122 = {
+	name="Hodor"	# a lord
+	dynasty=559122
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=101559122
+	mother=401559122
+
+	7992.1.1 = {birth="7992.1.1"}
+	8008.1.1 = {add_trait=poor_warrior}
+	8010.1.1 = {add_spouse=403559122}
+	8051.1.1 = {death="8051.1.1"}
+}
+403559122 = {
+	name="Hodor"
+	female=yes
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	7992.1.1 = {birth="7992.1.1"}
+	8051.1.1 = {death="8051.1.1"}
+}
+104559122 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=559122
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=103559122
+	mother=403559122
+
+	8015.1.1 = {birth="8015.1.1"}
+	8095.1.1 = {death="8095.1.1"}
+}
+105559122 = {
+	name="Hodor"	# a lord
+	dynasty=559122
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=103559122
+	mother=403559122
+
+	8017.1.1 = {birth="8017.1.1"}
+	8033.1.1 = {add_trait=trained_warrior}
+	8035.1.1 = {add_spouse=405559122}
+	8065.1.1 = {death="8065.1.1"}
+}
+405559122 = {
+	name="Hodor"
+	female=yes
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	8017.1.1 = {birth="8017.1.1"}
+	8065.1.1 = {death="8065.1.1"}
+}
+106559122 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=559122
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=105559122
+	mother=405559122
+
+	8046.1.1 = {birth="8046.1.1"}
+	8102.1.1 = {death="8102.1.1"}
+}
+107559122 = {
+	name="Hodor"	# a lord
+	dynasty=559122
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=105559122
+	mother=405559122
+
+	8048.1.1 = {birth="8048.1.1"}
+	8064.1.1 = {add_trait=trained_warrior}
+	8066.1.1 = {add_spouse=407559122}
+	8093.1.1 = {death="8093.1.1"}
+}
+407559122 = {
+	name="Hodor"
+	female=yes
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	8048.1.1 = {birth="8048.1.1"}
+	8093.1.1 = {death="8093.1.1"}
+}
+108559122 = {
+	name="Hodor"	# not a lord
+	dynasty=559122
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=105559122
+	mother=405559122
+
+	8049.1.1 = {birth="8049.1.1"}
+	8065.1.1 = {add_trait=trained_warrior}
+	8084.1.1 = {death="8084.1.1"}
+}
+109559122 = {
+	name="Hodor"	# a lord
+	dynasty=559122
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=107559122
+	mother=407559122
+
+	8066.1.1 = {birth="8066.1.1"}
+	8082.1.1 = {add_trait=skilled_warrior}
+	8084.1.1 = {add_spouse=409559122}
+	8135.1.1 = {death = {death_reason = death_accident}}
+}
+409559122 = {
+	name="Hodor"
+	female=yes
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	8066.1.1 = {birth="8066.1.1"}
+	8135.1.1 = {death="8135.1.1"}
+}
+110559122 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=559122
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=107559122
+	mother=407559122
+
+	8068.1.1 = {birth="8068.1.1"}
+	8098.1.1 = {death="8098.1.1"}
+}
+111559122 = {
+	name="Hodor"	# not a lord
+	dynasty=559122
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=109559122
+	mother=409559122
+
+	8089.1.1 = {birth="8089.1.1"}
+	8105.1.1 = {add_trait=poor_warrior}
+	8107.1.1 = {add_spouse=411559122}
+	8130.1.1 = {death="8130.1.1"}
+}
+411559122 = {
+	name="Hodor"
+	female=yes
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	8089.1.1 = {birth="8089.1.1"}
+	8130.1.1 = {death="8130.1.1"}
+}
+112559122 = {
+	name="Hodor"	# a lord
+	dynasty=559122
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=111559122
+	mother=411559122
+
+	8123.1.1 = {birth="8123.1.1"}
+	8139.1.1 = {add_trait=skilled_warrior}
+	8141.1.1 = {add_spouse=412559122}
+	8191.1.1 = {death="8191.1.1"}
+}
+412559122 = {
+	name="Hodor"
+	female=yes
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	8123.1.1 = {birth="8123.1.1"}
+	8191.1.1 = {death="8191.1.1"}
+}
+113559122 = {
+	name="Hodor"	# not a lord
+	dynasty=559122
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=112559122
+	mother=412559122
+
+	8155.1.1 = {birth="8155.1.1"}
+	8171.1.1 = {add_trait=trained_warrior}
+	8173.1.1 = {add_spouse=413559122}
+	8184.1.1 = {death="8184.1.1"}
+}
+413559122 = {
+	name="Hodor"
+	female=yes
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	8155.1.1 = {birth="8155.1.1"}
+	8184.1.1 = {death="8184.1.1"}
+}
+114559122 = {
+	name="Hodor"	# a lord
+	dynasty=559122
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=113559122
+	mother=413559122
+
+	8180.1.1 = {birth="8180.1.1"}
+	8196.1.1 = {add_trait=skilled_warrior}
+	8198.1.1 = {add_spouse=414559122}
+	8230.1.1 = {death="8230.1.1"}
+}
+414559122 = {
+	name="Hodor"
+	female=yes
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	8180.1.1 = {birth="8180.1.1"}
+	8230.1.1 = {death="8230.1.1"}
+}
+115559122 = {
+	name="Hodor"	# not a lord
+	dynasty=559122
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=113559122
+	mother=413559122
+
+	8182.1.1 = {birth="8182.1.1"}
+	8198.1.1 = {add_trait=poor_warrior}
+	8226.1.1 = {death="8226.1.1"}
+}
+116559122 = {
+	name="Hodor"	# a lord
+	dynasty=559122
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=114559122
+	mother=414559122
+
+	8203.1.1 = {birth="8203.1.1"}
+	8219.1.1 = {add_trait=trained_warrior}
+	8221.1.1 = {add_spouse=416559122}
+	8253.1.1 = {death="8253.1.1"}
+}
+416559122 = {
+	name="Hodor"
+	female=yes
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	8203.1.1 = {birth="8203.1.1"}
+	8253.1.1 = {death="8253.1.1"}
+}
+117559122 = {
+	name="Hodor"	# not a lord
+	dynasty=559122
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=114559122
+	mother=414559122
+
+	8206.1.1 = {birth="8206.1.1"}
+	8222.1.1 = {add_trait=trained_warrior}
+	8263.1.1 = {death = {death_reason = death_accident}}
+}
+118559122 = {
+	name="Hodor"	# not a lord
+	dynasty=559122
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=116559122
+	mother=416559122
+
+	8225.1.1 = {birth="8225.1.1"}
+	8241.1.1 = {add_trait=skilled_warrior}
+	8251.1.1 = {death="8251.1.1"}
+}
+119559122 = {
+	name="Hodor"	# a lord
+	dynasty=559122
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=116559122
+	mother=416559122
+
+	8227.1.1 = {birth="8227.1.1"}
+	8243.1.1 = {add_trait=trained_warrior}
+	8245.1.1 = {add_spouse=419559122}
+	8280.1.1 = {death="8280.1.1"}
+}
+419559122 = {
+	name="Hodor"
+	female=yes
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	8227.1.1 = {birth="8227.1.1"}
+	8280.1.1 = {death="8280.1.1"}
+}
+120559122 = {
+	name="Hodor"	# not a lord
+	dynasty=559122
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=119559122
+	mother=419559122
+
+	8259.1.1 = {birth="8259.1.1"}
+	8275.1.1 = {add_trait=poor_warrior}
+}
+121559122 = {
+	name="Hodor"	# not a lord
+	dynasty=559122
+
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+
+	father=119559122
+	mother=419559122
+
+	8262.1.1 = {birth="8262.1.1"}
+	8278.1.1 = {add_trait=skilled_warrior}
+}

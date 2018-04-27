@@ -1,0 +1,10764 @@
+###
+###House Stark
+###
+###The Lord###
+###THE Eddard###
+59 = {
+	name="Hodor"
+	dynasty=59
+	
+	dna="ddglfridbcr"
+	properties="0e00c"
+	
+	martial = 8
+	diplomacy = 9
+	intrigue = 1
+	stewardship = 6 
+	learning = 5
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="honest"
+	add_trait="brave"
+	#add_trait="shy"
+	add_trait="temperate"
+	add_trait="proud"
+	add_trait="honorable"
+	add_trait="trusting"
+	add_trait="just"
+	#add_trait="house_stark"
+	add_trait="authoritative"
+	
+	add_trait=heavy_infantry_leader
+	add_trait=back_seat_leader
+	disallow_random_traits = yes
+
+	father=2058
+	mother=42058 #Lyarra Stark
+	
+	8263.1.1 = {birth="8263.1.1" effect = { set_character_flag = ned_stark } }
+	8269.1.1 = { guardian = 94002 } # Jon Aryn
+	8273.1.1 = { 
+		effect = { #Robert
+			add_friend = 317
+		}
+	}
+	8279.1.1 = {
+		add_trait="skilled_tactician"
+		add_trait="skilled_warrior"		
+	}
+	8279.1.1 = { 
+		effect = { 
+			add_friend = 94002 #Jon Arryn
+			add_friend = 126 #Howland Reed
+		}
+	}	
+	8282.1.1 = {
+		add_spouse = 1059
+		add_trait="ice"
+		effect = {
+			#lore children
+			character_event = { id = lore_children.1 days = 365 random = 180 }
+		}
+	}
+	8282.9.15 = { #RR
+		effect = {
+			if = {
+				limit = { NOT = { year = 8284 } }
+				set_character_flag = TOJ_leader
+				character_event = { id = roberts_rebellion.6 }
+				set_defacto_liege = THIS
+				k_stormlands = {
+					holder_scope = { 
+						ROOT = {
+							join_attacker_wars = PREV
+						}
+					}
+				}
+			}
+			any_vassal = { set_character_flag = against_king  }
+			set_character_flag = against_king
+			set_character_flag = warden_of_the_north
+			c_77037 = { 
+				opinion = {
+					modifier = opinion_joined_rebellion
+					who = ROOT
+					years = 20
+				}
+				opinion = {
+					modifier = opinion_traitor
+					who = ROOT
+				}
+			}
+			c_317 = { 
+				reverse_opinion = {
+					modifier = opinion_with_rebel_leader
+					who = ROOT
+					years = 100
+				}
+			}
+			if = {
+				limit = { 
+					ai = no 
+					NOT = { year = 8284 }
+				}
+				spouse = { impregnate = ROOT } #Robb
+			}	
+		}
+	}	
+	8284.1.1 = { #CS
+		effect = {
+			character_event = { id = roberts_rebellion.14 }
+			any_vassal = { clr_character_flag = against_king  }
+			clr_character_flag = against_king
+			set_character_flag = one_beheading
+			set_character_flag = experienced_beheader
+			set_character_flag = ned_stark
+			clr_character_flag = warden_of_the_north
+			c_317 = { 
+				reverse_remove_opinion = {
+					modifier = opinion_with_rebel_leader
+					who = ROOT
+				}
+			}
+		}
+	}	
+	8288.1.1 = {
+		effect = { spouse = { add_lover = ROOT } } #Formed a loving relationship
+	}
+	8298.10.28 = {
+		effect = {
+			e_iron_throne = {
+				holder_scope = {
+					ROOT = { imprison = PREV }
+					opinion = { who = ROOT modifier = opinion_conspired_against_me }
+					mother = {
+						opinion = { who = ROOT modifier = opinion_conspired_against_child }
+					}
+				}
+			}
+		}
+	}
+	8298.11.2 = {
+		add_trait = dead_target #For the finding Stark children events
+		# The death that needs no explanation!
+		death = {
+			death_reason = death_execution_beheading
+			killer = 9316
+		}
+	}
+}
+###Father###
+2058 = {
+	name="Hodor" #Killed by the mad king.
+	dynasty=59
+	dna="ckbcfybcbea"
+	properties="cd00bk00000"
+	
+	martial = 7
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 5 
+	learning = 5
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=21169 # Edwyle Stark
+	mother=1025088 # Marna Locke
+	
+	add_trait="tough_soldier"
+	add_trait="honorable"
+	add_trait="authoritative"
+	add_trait="just"
+	add_trait="brave"
+	add_trait="proud"
+	add_trait="ambitious"
+
+	8239.1.1 = {birth="8239.1.1"} 
+	8255.1.1 = {add_spouse = 42058}
+	8255.1.1 = {
+		add_trait="trained_warrior"				
+	}
+	8262.1.1 = { add_trait="ice" }
+	8282.1.1={
+		# Executed by the mad king.
+		death = {
+			death_reason = death_execution_burning
+			killer = 77037
+		}
+	}
+}
+
+###Siblings###
+1058 = {
+	name="Hodor" #Joined the nightswatch like a boss.
+	dynasty=59
+	dna="bmcfebgfgbo"
+	properties="aj0aia0000"
+	
+	martial = 6
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 5 
+	learning = 5
+	
+	religion="old_gods"
+	culture="northman"
+		
+	#add_trait="kind"
+	#add_trait="proud"
+	add_trait="honest"
+	add_trait="honorable"
+	add_trait="brave"
+	add_trait="content"
+	#add_trait="just"
+	
+	disallow_random_traits = yes
+
+	father=2058
+	mother=42058
+	
+	8267.1.1 = {birth="8267.1.1"}
+	8282.1.1 = {add_trait="skilled_tactician"
+				add_trait="skilled_warrior"
+	}
+	8285.1.1={
+		add_trait="nightswatch"
+		effect = {
+			add_character_modifier = {
+				name = nw_ranger
+				duration = -1
+			}
+			d_nightswatch = {
+				holder_scope = {
+					ROOT = { move_character = PREV }
+				}
+			}
+			remove_title = job_castellan
+			remove_title = job_chancellor
+			remove_title = job_treasurer
+			remove_title = job_spymaster
+			remove_title = job_spiritual
+			give_job_title = job_marshal			
+		}
+	}
+	8298.1.1={
+		death = { death_reason = death_missing } # Or is he?? DAM DAM DAM!
+	}
+}
+3058 = {
+	name="Hodor" #made into soup.
+	dynasty=59
+	dna="dddfffjeegt"
+	properties="cd00ck00000"
+	
+	martial = 6
+	diplomacy = 3
+	intrigue = 4
+	stewardship = 6 
+	learning = 4
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="tough_soldier"
+	add_trait="wroth"
+	add_trait="lustful"
+	add_trait="authoritative"
+	add_trait="brave"
+	add_trait="proud"
+	add_trait="honest"	
+	add_trait="strong"
+
+	father=2058
+	mother=42058
+	
+	8262.1.1 = {birth="8262.1.1"} 
+	8278.1.1 = {	
+		add_trait="skilled_warrior"		
+		add_trait="duelist"	 #excellent jouster
+		effect = {
+			add_friend = 94005 #Elbert Arryn
+			add_friend = 1062 #Ethan Glover
+			add_friend = 1128 #Jeffory mallister
+			add_friend = 494089 #Kyle Royce
+		}		
+	}
+	8282.1.1={
+		# Executed by the mad king.
+		death = {
+			death_reason = death_execution
+			killer = 77037
+		}
+	}
+}
+4059 = {
+	name="Hodor"
+	female=yes
+	dynasty=59
+	
+	dna="dabfejkbegc"
+	properties="0c0eek00000"
+	
+	martial = 6
+	diplomacy = 9
+	intrigue = 4
+	stewardship = 6 
+	learning = 6
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="fair"
+
+	father=2058
+	mother=42058
+	
+	8266.1.1 = {birth="8266.1.1"} 
+	8280.1.1 = {
+		effect = { character_event = { id = tower_of_joy.5099 } }
+	}
+	8281.1.1 = {
+		add_trait="charismatic_negotiator"
+		add_trait="trained_warrior"
+		add_trait="wroth"
+		add_trait="kind"
+		add_trait="proud"
+		add_trait="brave"
+		add_trait="stubborn"
+	}
+	8281.12.31 = {add_spouse = 317} 
+	8282.9.15 = {
+		employer = 59
+		add_trait=has_missing
+		effect = {
+			set_character_flag = lyanna_stark
+			character_event = { id = tower_of_joy.198 days = 10 } #Tower of Joy companion/kingsguard maintenance
+			add_character_modifier = { #To stop impregnation
+				name = child
+				duration = -1
+				hidden = yes
+			}
+			reverse_opinion = {
+				modifier = opinion_infatuated
+				who = 77039 #Rhaegar
+				years = 100
+			}
+			# imprison = ROOT
+			# hidden_tooltip = {
+				# remove_character_modifier = the_dungeon
+				# add_character_modifier = { 
+					# name = house_arrest
+					# duration = -1
+				# }
+			# }
+		}
+	} 
+	8283.1.1 = {
+		death="8283.1.1" #Lets not argue... leave it like this.
+	} 
+}
+###Neds wife###
+#Catelyn
+###Neds Children & Future Children###
+2059 = {
+	name="Hodor"
+	dynasty=59
+	dna="dmffglbhdbp"
+	properties="0h00i"
+	
+	martial = 7
+	diplomacy = 7
+	intrigue = 3
+	stewardship = 4 
+	learning = 5
+	
+	religion="old_gods"
+	culture="northman"
+	
+	#add_trait="lustful" #lost his virginity, doesn't count
+	
+	add_trait="proud"
+	add_trait="authoritative"
+	add_trait="honorable"
+
+	father=59
+	mother = 1059
+	
+	add_trait=cavalry_leader
+	add_trait=trickster
+	add_trait=inspiring_leader
+	disallow_random_traits = yes
+	
+	8283.1.1 = {birth="8283.1.1"}
+	8290.1.1 = {add_trait="brave"
+				add_trait="just"
+				add_trait="honest"
+				add_trait="kind"
+				add_trait="diligent"
+	}
+	8297.1.1 = {
+				add_trait="skilled_tactician"
+				add_trait="trained_warrior"
+				add_trait="trickster"
+				add_trait="cavalry_leader"
+	}
+	8298.1.1 = {
+		add_trait="direwolf"  # Grey Wind
+	}
+	8298.12.20 = {
+		effect = { k_north = { destroy_landed_title = ROOT } }
+		give_nickname = nick_the_young_wolf
+	}	
+	8299.2.11 = {
+		raise_levies = {
+			location = 101 #Riverrun (after whispering wood)
+			force_mult = 1
+		}
+		add_spouse = 4130 #Roslin frey betrothal
+		effect = {
+			add_friend = 3093 #The Great Jon
+			# set_character_flag = no_wedding_event
+			# d_thecrossing = {
+				# holder_scope = {
+					# random_child = {
+						# limit = {
+							# is_female = yes
+							# age = 14
+							# NOT = { age = 23 }
+							# is_married = no
+							# is_betrothed = no
+						# }
+						# set_character_flag = no_wedding_event
+						# ROOT = { add_spouse = PREV }
+						# clr_character_flag = no_wedding_event
+					# }
+				# }	
+			# }
+			# clr_character_flag = no_wedding_event
+			d_the_crag = {
+				holder_scope = {
+					random_child = {
+						limit = { character = 2199 }
+						random = {
+							chance = 50
+							ROOT = { impregnate = PREV }
+						}
+					}
+				}
+			}
+			if = {
+				limit = { ai = no }
+				long_character_event = { id = clash_of_kings.500 }
+			}	
+			if = {
+				limit = { ai = yes }
+				long_character_event = { id = clash_of_kings.500 days = 1 }
+			}
+			set_character_flag = robb_stark
+			set_character_flag = rebel_leader
+			any_vassal = { set_character_flag = against_king }
+			add_trait = rebel_leader
+			set_character_flag = warden_of_the_north
+			e_north = { set_title_flag = indep_war }
+			k_north = {
+				de_jure_liege = e_north
+			}
+			# troops = -0.6
+			# any_realm_character = {
+				# limit = {
+					# at_location = ROOT
+					# in_command = yes
+				# }
+				# troops = -0.6
+			# }
+			e_iron_throne = {
+				holder_scope = {
+					opinion = {
+						who = ROOT
+						modifier = opinion_traitor
+					}
+				}
+			}
+			#Councillors
+			c_87 = { give_job_title = job_spymaster } # Roose
+			c_80 = { give_job_title = job_chancellor } # Manderly
+		}
+	}
+	# 8299.2.21 = {
+		# raise_levies = {
+			# dismiss = yes
+			# #location = 71 #greywater
+			# location = 101 #Riverrun (after whispering wood)
+			# force_mult = 1
+		# }	
+	# }
+	8299.6.1 = {
+		remove_spouse = 4130
+		add_spouse = 2199
+		effect = {
+			spouse = { add_lover = ROOT }
+			d_thecrossing = {
+				holder_scope = {
+					opinion = {
+						who = ROOT
+						modifier = opinion_betrothal_broken
+						multiplier = 2
+					}
+				}
+			}
+		}
+	} # Jeyne Westerling
+	8299.11.5 = {
+		# The Red Wedding
+		death = {
+			death_reason = death_murder
+			killer = 127 #walder frey
+		}
+	}
+}
+1002059 = {
+	name="Hodor"
+	dynasty=59
+	#dna="dmmdbzgiecd"
+	#properties="0e000"
+	dna="decfbzliecd"
+	properties="0t00i"
+	
+	martial = 4
+	diplomacy = 9
+	intrigue = 3
+	stewardship = 9 
+	learning = 5
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="bastard"
+	add_trait="proud"
+	add_trait="authoritative"
+	add_trait="honorable"
+	give_nickname = nick_snow
+
+	father=59
+	
+	add_trait=defensive_leader
+	add_trait=inspiring_leader
+	disallow_random_traits = yes
+	
+	8283.2.1 = {
+		birth="8283.2.1"
+		effect = { 
+			set_character_flag = jon_snow
+			character_event = { id = tower_of_joy.50 } #submod event
+		} 
+	}
+	8292.1.1 = {
+		add_trait="brave"
+		add_trait="just"
+		add_trait="honest"
+		add_trait="kind"
+		add_trait="diligent"
+		add_trait="trained_warrior"
+		effect = { add_friend = 2059 } #robb
+	}
+	8297.1.1 = {
+		add_trait="tough_soldier"
+		remove_trait="trained_warrior"
+		add_trait="skilled_warrior"
+		effect = { add_friend = 7059 } #arya
+	}
+	8298.1.1 = {
+		# Gets a Direwolf, joins the Night's Watch, kills a Wight, gets Longclaw. Like a boss.
+		add_trait="direwolf"
+		add_trait="longclaw_snow"
+		add_trait="nightswatch"
+		effect = { 
+			add_rival = 1030 #Rivals with Allister Thorne
+			add_friend = 1296 #Sam
+			add_friend = 121421 #Grenn
+			add_friend = 121420 #Pyp
+			add_friend = 121419 #toad
+			add_character_modifier = {
+				name = nw_steward
+				duration = -1
+			}
+			set_character_flag = NW_personal_steward
+			give_minor_title = title_personal_steward
+		}
+	}
+	8299.1.1 = {
+		effect = { c_574349 = { add_lover = ROOT } }
+		add_trait = sympathy_wildling_religion
+	}
+	8299.2.11 = {
+		add_claim = e_north	
+		effect = {
+			k_north = { remove_claim = ROOT }
+			set_character_flag = robb_stark_sibling
+			add_rival = 2087 #Ramsay Snow
+		}
+	}
+	#Jon is with Mance
+	8299.7.1 = {
+		employer = 174347 #Mance
+	}
+	8299.11.5 = {
+		effect = { 
+			d_thecrossing = { #Frey Blood Feud
+				holder_scope = {
+					set_dynasty_flag = in_blood_feud
+					add_trait = blood_feud #blood feud tracker
+					character_event = { id = feast_for_crows.29 days = 1 } 
+					any_dynasty_member = {
+						limit = {
+							is_alive = yes
+							NOT = { character = PREV }
+						}
+						character_event = { id = feast_for_crows.29 days = 1 } 
+					}
+				}
+			}
+			k_westerlands = { #Stark-Lannister Blood Feud
+				holder_scope = {
+					set_dynasty_flag = in_blood_feud
+					add_trait = blood_feud #blood feud tracker
+					character_event = { id = feast_for_crows.30 days = 1 } 
+					any_dynasty_member = {
+						limit = {
+							is_alive = yes
+							NOT = { character = PREV }
+						}
+						character_event = { id = feast_for_crows.30 days = 1 } 
+					}
+				}
+			}
+		} 
+	}
+	8300.3.1 = {
+		employer = 1002059 #Becomes LC
+		effect = { #To try and stop Jon helping Roose Bolton :s
+			remove_title = title_personal_steward
+			k_stormlands = {
+				holder_scope = {
+					opinion = {
+						who = ROOT
+						modifier = opinion_respects
+					}
+					reverse_opinion = {
+						who = ROOT
+						modifier = opinion_respects
+					}
+					random_courtier = {
+						limit = { trait = red_priest }
+						opinion = {
+							who = ROOT
+							modifier = opinion_respects
+						}
+					}
+				}
+			}
+		}
+	}	
+}    
+6059 = {
+	name="Hodor"
+	female=yes
+	dynasty=59
+	dna="cghhgcgbdbu"
+	properties="0a00f"
+	
+	martial = 2
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 4 
+	learning = 5
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="fair"
+		
+	disallow_random_traits = yes
+	
+	father = 59
+	mother = 1059
+	
+	8286.12.12 = {
+		birth="8286.12.12"
+		effect = {
+			c_winterfell = { holder_scope = { ROOT = { move_character = PREV } } }
+		}
+	}
+	8292.12.12 = { 
+		guardian = 2001159 # Septa Mordane 
+		effect = { 
+			if = {
+				limit = { NOT = { has_dlc = "Zeus" } }
+				add_character_modifier = {
+					name = court_education
+					duration = -1
+				}
+			}
+			if = {
+				limit = { has_dlc = "Zeus" }
+				set_focus = focus_ed_diplomacy
+			}
+			add_trait="trusting"
+			add_trait="proud"
+			add_trait="fashionable"
+		}
+	} 
+	# Character development!
+	8297.1.1 = {
+		effect = {
+			add_trait="deceitful" #She lies to Ned about the incident, then she keeps on tryign to deceit Joff...
+		}	
+	}
+	8298.1.1 = {	
+		effect = { 
+			religion = the_seven 
+			add_trait="direwolf"
+			remove_trait="trusting"
+			add_trait="stressed"
+		}
+	}
+	8298.3.1 = {
+		remove_trait="direwolf"
+		effect = { remove_trait="direwolf" }
+	}
+	8299.1.1 = {
+		effect = {
+			add_trait="patient"
+			remove_trait="proud"
+			c_kings_landing = { holder_scope = { ROOT = { move_character = PREV } } }
+		}	
+	}
+	8299.2.11 = {
+		effect = {
+			set_character_flag = robb_stark_sibling
+			e_north = { add_pressed_claim = ROOT }
+			k_north = { remove_claim = ROOT }			
+		}
+		add_trait = "chaste" #temp solution until we can make unfertile childrens
+	}
+	8299.11.5 = {
+		effect = { 
+			add_weak_claim = k_riverlands #Mother dies
+		} 
+	}	
+	8300.1.2 = {
+		add_trait="has_missing" #Goes underground with littlefinger
+		death = { death_reason = death_missing }
+	}
+}
+7059 = {
+	name="Hodor"
+	female=yes
+	dynasty=59
+	
+	dna="dghgarcgech"
+	properties="0r0dek00000"
+	
+	martial = 6
+	diplomacy = 2
+	intrigue = 6
+	stewardship = 2 
+	learning = 4
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=59
+	mother=1059
+	
+	disallow_random_traits = yes
+	
+	8289.1.1 = {birth="8289.1.1"}
+	8295.1.1 = { guardian = 2001159 } # Septa Mordane
+	8298.1.1 = {	
+		add_trait="elusive_shadow"
+		guardian=126009 # Syrio Forel
+		add_trait="trained_warrior"
+		effect = {
+			add_artifact = needle
+			add_trait="direwolf"
+			add_trait="wroth"
+			add_trait="proud"
+			add_trait="duelist"
+			add_trait="brave"
+			add_trait="honorable"
+		}
+	}
+	8298.6.1 = {
+		effect = { remove_trait="direwolf" }
+	}
+	8298.11.2 = {
+		add_trait="has_missing"
+		death = { death_reason = death_missing }
+	} 
+} 
+8059 = {
+	name="Hodor"
+	dynasty=59
+	
+	dna="dagig0afcb0"
+	properties="gs0ebkbebcb"
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=59
+	mother = 1059
+	
+	disallow_random_traits = yes
+	
+	8291.1.1 = {birth="8291.1.1"}
+	8298.1.1 = {
+		add_trait="direwolf"
+		add_trait="crippled"
+		guardian=10074
+		effect = {		
+			add_trait="proud"
+			add_trait="brave"
+			add_trait="honorable"
+		}
+	}
+	8299.1.1 = { add_trait="greensight" } #starts to have visions
+	8299.2.11 = {
+		add_claim = e_north
+		effect = {
+			set_character_flag = robb_stark_sibling
+			k_north = { remove_claim = ROOT }
+		}
+	}
+	8299.6.29 = {
+		add_trait="has_missing"
+		death = {
+			death_reason = death_murder #This is what the world believes, they will be given the arya treatment
+			killer = 8107
+		}
+	} 
+}
+9059 = {
+	name="Hodor"
+	dynasty=59
+	
+	dna="bcgmg0bfcb0"
+	properties="gf0jakbebcb"
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=59
+	mother=1059
+	
+	add_trait="rowdy"
+	
+	8295.1.1 = {birth="8295.1.1"}
+	8298.1.1 = {
+		add_trait="direwolf"
+		guardian=10074
+		effect = { add_trait="wroth" }
+	}
+	8299.2.11 = {
+		add_claim = e_north
+		effect = {
+			set_character_flag = robb_stark_sibling
+			k_north = { remove_claim = ROOT }
+		}
+	}
+	8299.6.29 = {
+		add_trait="has_missing"
+		death = {
+			death_reason = death_murder #This is what the world believes, they will be given the arya treatment
+			killer = 8107
+		}
+	} 
+}
+#Dummy characters for missing Stark children
+9266059 = {
+	name="Hodor"
+	female=yes
+
+	dna="cghhgcgbdbu"
+	properties="0a00f"
+	
+	martial = 2
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 4 
+	learning = 5
+	
+	religion="old_gods"
+	culture="northman"
+	
+	disallow_random_traits = yes
+	
+	8286.12.12 = {
+		birth="8286.12.12"
+		effect = {
+			add_trait="trusting"
+			add_trait="proud"
+			add_trait="fashionable"
+			if = {
+				limit = { NOT = { trait = fair } }
+				death = yes
+			}
+			dynasty = none
+		}
+	}
+	# Character development!
+	8297.1.1 = {
+		effect = { add_trait="deceitful" }#She lies to Ned about the incident, then she keeps on tryign to deceit Joff...
+	}
+	8298.1.1 = {		
+		effect = { 
+			remove_trait="trusting"
+			add_trait="stressed"
+			religion = the_seven
+		}
+	}
+	8299.1.1 = {
+		effect = { 
+			add_trait="patient"
+			remove_trait="proud"
+		}	
+	}
+	8299.2.11 = {
+		effect = { add_trait = "chaste" }#temp solution until we can make unfertile childrens
+	}	
+	8300.1.2 = {
+		add_trait="fair"
+		employer = 94043 #petyr
+		guardian = 94043 #petyr	
+		effect = { 
+			remove_trait="stressed"
+			#add_trait="deceitful"
+			add_trait = fair	
+			set_focus = focus_ed_intrigue # Thanks, Littlefinger			
+			set_character_flag = sansa_stark 
+			set_character_flag = missing_stark_child
+			set_name = Alayne
+			add_trait = bastard
+			give_nickname = nick_stone
+			dynasty=171
+			liege = { ROOT = { set_father = PREV } }
+			if = {
+				limit = { liege = { ai = yes } }
+				add_trait = forbid_marriage
+			}
+			if = {
+				limit = { NOT = { has_dlc = "Zeus" } }
+				add_character_modifier = {
+					name = court_education
+					duration = -1
+				}
+			}
+			if = {
+				limit = { has_dlc = "Zeus" }
+				set_focus = focus_ed_diplomacy
+			}
+		}
+	}
+	8302.12.12 = {
+		add_trait = elusive_shadow # Thanks, Littlefinger
+	}
+}
+9267059 = {
+	name="Hodor"
+	female=yes
+
+	dna="dghgarcgech"
+	properties="0r0dek00000"
+	
+	martial = 6
+	diplomacy = 2
+	intrigue = 6
+	stewardship = 2 
+	learning = 4
+	
+	religion="old_gods"
+	culture="northman"
+	
+	disallow_random_traits = yes
+	
+	8289.1.1 = { 
+		birth="8289.1.1" 
+		effect = {
+			if = {
+				limit = { NOT = { trait = direwolf } }
+				death = yes
+			}
+			add_trait="wroth"
+			add_trait="proud"
+			add_trait="duelist"
+			add_trait="brave"
+			add_trait="honorable"
+			dynasty = none
+		}
+	}
+	8298.1.1 = {	
+		effect = {
+			add_trait="elusive_shadow"
+			add_trait="trained_warrior"
+		}	
+	}
+	8298.11.2 = {
+		add_trait="direwolf" #spawned
+		effect = { 	
+			set_character_flag = missing_stark_child
+			add_artifact = needle
+			b_kingharren1 = {
+				holder_scope = {
+					reverse_banish = PREVPREV
+				}
+			}
+			#Fake father to avoid culling
+			liege = {
+				create_character = {
+					random_traits = yes
+					dynasty = NONE
+					female = no
+					age = 36
+					culture = ROOT
+					religion = ROOT
+				}
+				new_character = {
+					ROOT = { set_father = PREV }
+					death = yes
+				}
+			}
+		}		
+	}	
+	8299.9.1 = {
+		effect = { 						
+			c_saltpans = {
+				holder_scope = {
+					reverse_banish = PREVPREV
+				}
+			}
+		}
+	}
+	8300.1.1 = {
+		effect = { 	
+			religion = many_faced_god
+			culture = braavosi
+			k_braavos = {
+				holder_scope = {
+					reverse_banish = PREVPREV
+				}
+			}
+		}
+	}
+} 
+9268059 = {
+	name="Hodor"
+
+	dna="dagig0afcb0"
+	properties="gs0ebkbebcb"
+	
+	religion="old_gods"
+	culture="northman"
+		
+	disallow_random_traits = yes
+	
+	8291.1.1 = {
+		birth="8291.1.1"
+		effect = {
+			if = {
+				limit = { NOT = { trait = direwolf } }
+				death = yes
+			}
+			add_trait="proud"
+			add_trait="brave"
+			dynasty = none
+		}
+	}
+	8299.1.1 = { add_trait="greensight" } #starts to have visions
+	8299.6.29 = {
+		add_trait="direwolf"
+		effect = {
+			add_trait = crippled
+			add_trait="brave"
+			add_trait="proud"
+			add_trait="honorable"
+			set_character_flag = brandon_stark
+			set_character_flag = missing_stark_child
+			add_trait = forbid_marriage
+			add_friend = 1126 #Meera
+			add_friend = 2126 #Jojen
+			add_friend = 10174 #Hodor
+			c_shivering_forest = {
+				holder_scope = {
+					reverse_banish = PREVPREV
+				}
+			}
+			#Fake father to avoid culling
+			liege = {
+				create_character = {
+					random_traits = yes
+					dynasty = NONE
+					female = no
+					age = 36
+					culture = ROOT
+					religion = ROOT
+				}
+				new_character = {
+					ROOT = { set_father = PREV }
+					death = yes
+				}
+			}
+		}	
+	} 
+}
+9269059 = {
+	name="Hodor"
+
+	dna="bcgmg0bfcb0"
+	properties="gf0jakbebcb"
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="rowdy"
+		
+	8295.1.1 = {
+		birth="8295.1.1"
+		effect = {
+			if = {
+				limit = { NOT = { trait = direwolf } }
+				death = yes
+			}
+			add_trait="wroth"	
+			dynasty = none			
+		}
+	}
+	8299.6.29 = {
+		add_trait="direwolf"
+		effect = { #Spawn Bran and Rickon
+			add_trait = dead_target
+			add_trait = wroth
+			set_character_flag = rickon_stark
+			set_character_flag = missing_stark_child
+			c_kingshouse = {
+				holder_scope = {
+					reverse_banish = PREVPREV
+				}
+			}
+			add_friend = 10274 #Osha
+			c_10274 = { ROOT = { set_guardian = PREV } }
+			#Fake father to avoid culling
+			liege = {
+				create_character = {
+					random_traits = yes
+					dynasty = NONE
+					female = no
+					age = 36
+					culture = ROOT
+					religion = ROOT
+				}
+				new_character = {
+					ROOT = { set_father = PREV }
+					death = yes
+				}
+			}
+		}
+	}
+}
+############
+###Skagos### All made up, till next book.
+############
+###House Stane
+106 = {
+	name="Hodor"
+	dynasty=106
+	
+	religion="beyond_wall_old_gods"
+	culture="skagosi"
+	
+	add_trait="cruel"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	
+	father=4106
+	
+	8252.1.1 = {birth="8252.1.1"}
+	8268.1.1 = {add_spouse = 3106}
+	8299.11.5 = {
+		effect = {
+			set_defacto_liege = ROOT
+			any_demesne_title = {
+				limit = { 
+					OR = {
+						tier = COUNT
+						tier = DUKE
+					}
+				}				
+				set_variable = { which = "de_facto_kingdom" value = 2 } #north
+			}
+			set_character_flag = neutral
+			clr_character_flag = supporting_king
+			clr_character_flag = against_king
+		}
+	}
+}
+3106 = {
+	name="Hodor"
+	female=yes
+	
+	religion="beyond_wall_old_gods"
+	culture="skagosi"
+	
+	add_trait="cruel"
+	add_trait="flamboyant_schemer"
+	add_trait="proud"
+	
+	8252.1.1 = {birth="8252.1.1"}
+}
+1106 = {
+	name="Hodor"
+	dynasty=106
+	
+	religion="beyond_wall_old_gods"
+	culture="skagosi"
+	
+	add_trait="cruel"
+	add_trait="proud"
+	
+	father=106
+	mother=3106
+	
+	8271.1.1 = {birth="8271.1.1"}
+}
+2106 = {
+	name="Hodor"
+	female=yes
+	dynasty=106
+	
+	religion="beyond_wall_old_gods"
+	culture="skagosi"
+	
+	father=106
+	mother=3106
+	
+	add_trait="cruel"
+	add_trait="proud"
+	
+	8281.1.1 = {birth="8281.1.1"}
+}
+###House Crowl###
+105 = {
+	name="Hodor"
+	dynasty=105
+	
+	religion="beyond_wall_old_gods"
+	culture="skagosi"
+	
+	add_trait="cruel"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	
+	father=3105
+	
+	8262.1.1 = {birth="8262.1.1"}
+	8278.1.1 = {add_spouse = 2105}
+	8299.11.5 = {
+		effect = {
+			set_defacto_liege = ROOT
+			any_demesne_title = {
+				limit = { 
+					OR = {
+						tier = COUNT
+						tier = DUKE
+					}
+				}				
+				set_variable = { which = "de_facto_kingdom" value = 2 } #north
+			}
+			set_character_flag = neutral
+			clr_character_flag = supporting_king
+			clr_character_flag = against_king
+		}
+	}
+}
+2105 = {
+	name="Hodor"
+	female=yes
+
+	religion="beyond_wall_old_gods"
+	culture="skagosi"
+	
+	add_trait="cruel"
+	add_trait="flamboyant_schemer"
+	add_trait="proud"
+	
+	8262.1.1 = {birth="8262.1.1"}
+}
+1105 = {
+	name="Hodor"
+	female=yes
+	dynasty=105
+	
+	religion="beyond_wall_old_gods"
+	culture="skagosi"
+	
+	add_trait="cruel"
+	add_trait="proud"
+	
+	father=105
+	mother=2105
+	
+	8280.1.1 = {birth="8280.1.1"}
+}
+###House Magnar###
+104 = {
+	name="Hodor"
+	dynasty=104
+	
+	religion="beyond_wall_old_gods"
+	culture="skagosi"
+	
+	add_trait="cruel"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	
+	father=3104
+	
+	8262.1.1 = {birth="8262.1.1"}
+	8278.1.1 = {add_spouse = 1104}
+	8299.11.5 = {
+		effect = {
+			set_defacto_liege = ROOT
+			any_demesne_title = {
+				limit = { 
+					OR = {
+						tier = COUNT
+						tier = DUKE
+					}
+				}				
+				set_variable = { which = "de_facto_kingdom" value = 2 } #north
+			}
+			set_character_flag = neutral
+			clr_character_flag = supporting_king
+			clr_character_flag = against_king
+		}
+	}
+}
+1104 = {
+	name="Hodor"
+	female=yes
+	
+	religion="beyond_wall_old_gods"
+	culture="skagosi"
+	
+	add_trait="cruel"
+	add_trait="flamboyant_schemer"
+	add_trait="proud"
+	
+	8262.1.1 = {birth="8262.1.1"}
+}
+2104 = {
+	name="Hodor"
+	dynasty=104
+	
+	religion="beyond_wall_old_gods"
+	culture="skagosi"
+	
+	add_trait="cruel"
+	add_trait="proud"
+	
+	father=104
+	mother=1104
+	
+	8279.1.1 = {birth="8279.1.1"}
+}
+###
+###House Burley
+###
+92 = {
+	name="Hodor"
+	dynasty=92
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	father=2092
+	
+	add_trait="skilled_tactician"
+	add_trait="trained_warrior"
+	
+	8260.1.1 = {birth="8260.1.1"}
+}
+###
+###House Umber
+###
+93 = {
+	name="Hodor"
+	dynasty=93
+	dna="dhiigdccgaj"
+	properties="ce0dfd0000"
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="strong"
+	add_trait="proud"
+		
+	father=5093
+	mother=6093
+	
+	8234.1.1 = {birth="8234.1.1"}
+	8249.1.1 = {
+		add_trait="tough_soldier"
+		add_trait="trained_warrior"
+	}
+	8250.1.1 = {add_spouse = 7093}
+	8291.1.1 = {death="8291.1.1"}
+}
+7093 = {
+	name="Hodor"
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="naive_appeaser"
+	
+	8234.1.1 = {birth="8234.1.1"}
+}
+1093 = {
+	name="Hodor"
+	dynasty=93
+	dna="beaedlbcgck"
+	properties="ce0dck0000"
+	
+	martial=7
+	
+	religion="old_gods"
+	culture="northman"
+	
+	#add_trait="maimed"
+	
+	add_trait="strong"
+	add_trait="proud"
+	add_trait="drunkard"
+	add_trait="tall"
+	add_trait="wroth"
+	
+	father=5093
+	mother=6093
+	
+	8240.1.1 = {birth="8240.1.1"}
+	8255.1.1 = {
+		add_trait="tough_soldier"
+		add_trait="skilled_warrior"
+	}
+	8256.1.1 = {add_spouse=25093}
+	8265.1.1 = {
+		add_trait=widowed
+	}
+	8279.1.1 = {
+		give_nickname = nick_crowfood
+		add_trait = one_eyed
+	}
+	8295.1.1 = {
+		remove_trait=widowed
+	}
+}
+2093 = {
+	name="Hodor"
+	dynasty=93
+	dna="dhiigdccgaj"
+	properties="ce0dfd0000"
+	
+	martial=7
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="homosexual"
+	add_trait="tough_soldier"
+	add_trait="skilled_warrior"
+	add_trait="strong"
+	add_trait="proud"
+	
+	father=5093
+	mother=6093
+	
+	8244.1.1 = {birth="8244.1.1"}
+	8279.1.1 = {give_nickname = nick_whoresbane}
+}
+
+#Mors' Family#
+25093 = {
+	name="Hodor" #wife
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+	
+	8240.1.1 = {birth="8240.1.1"}
+	8265.1.1 = {
+		death = {
+			death_reason = death_childbirth
+		}
+	}
+}
+
+26093 = {
+	name="Hodor" #son
+	dynasty=93
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=1093
+	mother=25093
+	
+	add_trait="strong"
+	
+	8259.1.1 = {birth="8259.1.1"}
+	8275.1.1 = {
+		add_trait = trained_warrior
+	}
+	8283.1.1={
+		death = {
+			death_reason = death_battle #Trident
+		}
+	}
+}
+
+27093 = {
+	name="Hodor" #son
+	dynasty=93
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="tall"
+	
+	father=1093
+	mother=25093
+	
+	8262.1.1 = {birth="8262.1.1"}
+	8275.1.1 = {
+		add_trait = trained_warrior
+	}
+	8283.1.1={
+		death = {
+			death_reason = death_battle #Trident
+		}
+	}
+}
+222093 = {
+	name="Hodor" #daughter
+	dynasty=93
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=1093
+	mother=25093
+	
+	8265.1.1 = {birth="8265.1.1"}
+	8290.1.1={
+		death = { death_reason = death_missing } #abducted by wildlings
+	}
+}
+
+#The Greatjon#
+3093 = {
+	name="Hodor" #he is 30
+	dynasty=93
+	dna="bmfkjqbbgag"
+	properties="ce0dbk0000"
+	
+	martial = 8
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 4
+	learning = 4
+	
+	religion="old_gods"
+	culture="northman"
+
+	add_trait="tall"
+	add_trait="misguided_warrior"
+	add_trait="strong"
+	add_trait="brave"
+	add_trait="proud"
+	add_trait="authoritative"
+	
+	father=93
+	mother=7093
+	
+	8252.1.1 = {birth="8252.1.1"}
+	8268.1.1 = { 
+		add_spouse = 8093 
+		add_trait="trained_warrior"
+	}
+	8279.1.1 = {give_nickname = nick_greatjon}
+	8299.11.5 = {
+		effect = {
+			d_thecrossing = {
+				holder_scope = {
+					ROOT = { 
+						imprison = PREV 
+						set_character_flag = captured_in_battle
+					}
+				}
+			}
+			set_defacto_liege = ROOT
+			set_character_flag = neutral
+			clr_character_flag = supporting_king
+			clr_character_flag = against_king
+			any_demesne_title = {
+				limit = { 
+					OR = {
+						tier = COUNT
+						tier = DUKE
+					}
+				}				
+				set_variable = { which = "de_facto_kingdom" value = 2 } #north
+			}
+		}
+	}
+}
+8093 = {
+	name="Hodor"
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="naive_appeaser"
+	
+	8252.1.1 = {birth="8252.1.1"}
+}
+
+#Greatjon brothers#
+28093 = {
+	name="Hodor"
+	dynasty=93
+	dna="cclhacdheab"
+	properties="ci0cbk00000"
+
+	martial = 6
+	diplomacy = 5
+	intrigue = 2
+	stewardship = 5
+	learning = 4
+	
+	religion="old_gods"
+	culture="northman"
+
+	add_trait="strong"
+	
+	father=93
+	mother=7093
+	
+	8254.1.1 = {birth="8254.1.1"}
+	8269.1.1 = { add_trait="misguided_warrior"
+			add_trait="trained_warrior"
+			add_trait="brave" 
+			add_trait="wroth"
+			add_trait="content"
+			add_trait="stubborn"}
+}
+29093 = {
+	name="Hodor"
+	dynasty=93
+	dna="bkadescieav"
+	properties="ch0cbk00000"
+	
+	religion="old_gods"
+	culture="northman"
+
+	martial = 8
+	diplomacy = 4
+	intrigue = 3
+	stewardship = 6
+	learning = 4
+
+	add_trait="strong"
+	
+	father=93
+	mother=7093
+	
+	8256.1.1 = {birth="8256.1.1"}
+	8272.1.1 = { add_trait="tough_soldier"
+			add_trait="trained_warrior"
+			add_trait="brave" 
+			add_trait="proud"
+			add_trait="just"
+			add_trait="kind"}
+}
+#Great Jon's children
+4093 = {
+	name="Hodor" #he is 11
+	dynasty=93
+	dna="bmfkjqbbgag"
+	properties="ce0dbk0000"
+	
+	martial = 8
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 5
+	learning = 5
+	
+	religion="old_gods"
+	culture="northman"
+
+	add_trait="tall"	
+	add_trait="brave"
+	add_trait="tough_soldier"
+	add_trait="strong"
+	add_trait="proud"
+	
+	father=3093
+	mother=8093
+	
+	8271.1.1 = {birth="8271.1.1"}
+	8279.1.1 = {give_nickname = nick_littlejon}
+	8286.1.1 = {add_trait="trained_warrior"}
+	8299.11.5 = {
+		# The Red Wedding
+		death = {
+			death_reason = death_murder
+			killer = 127
+		}
+	}
+}
+95093 = {
+	name="Hodor" 
+	dynasty=93
+
+	religion="old_gods"
+	culture="northman"
+
+	add_trait="tall"	
+	add_trait="tough_soldier"
+	
+	father=3093
+	mother=8093
+	
+	8273.1.1 = {birth="8273.1.1"}
+	8289.1.1 = {add_trait="trained_warrior"}
+}
+96093 = {
+	name="Hodor" 
+	female=yes
+	dynasty=93
+
+	religion="old_gods"
+	culture="northman"
+
+	add_trait="strong"	
+	
+	father=3093
+	mother=8093
+	
+	8275.1.1 = {birth="8275.1.1"}
+	8294.1.1 = {add_trait="trained_warrior"}
+}
+97093 = {
+	name="Hodor" 
+	dynasty=93
+
+	religion="old_gods"
+	culture="northman"
+
+	add_trait="strong"	
+	add_trait="tough_soldier"
+	
+	father=3093
+	mother=8093
+	
+	8278.1.1 = {birth="8278.1.1"}
+	8294.1.1 = {add_trait="trained_warrior"}
+}
+98093 = {
+	name="Hodor" 
+	female=yes
+	dynasty=93
+
+	religion="old_gods"
+	culture="northman"
+
+	add_trait="tall"	
+	
+	father=3093
+	mother=8093
+	
+	8282.1.1 = {birth="8282.1.1"}
+	8298.1.1 = {add_trait="trained_warrior"}
+}
+###
+5093 = {
+	name="Hodor" #all father.
+	dynasty=93
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	
+	father=9093
+	
+	8215.1.1 = {birth="8215.1.1"}
+	8231.1.1 = {add_spouse = 6093}
+	8279.1.1 = {death="8279.1.1"}
+}
+6093 = {
+	name="Hodor" #all mother.
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="naive_appeaser"
+	
+	8215.1.1 = {birth="8215.1.1"}
+	8279.1.1 = {death="8279.1.1"}
+}
+###House Lake
+94 = {
+	name="Hodor"
+	dynasty=94
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="naive_appeaser"
+	add_trait="proud"
+	
+	father=3094
+	
+	8254.1.1 = {birth="8254.1.1"}
+	8270.1.1 = {add_spouse = 1094}
+}
+1094 = {
+	name="Hodor" #mother.
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="naive_appeaser"
+	
+	8254.1.1 = {birth="8254.1.1"}
+}
+2094 = {
+	name="Hodor"
+	dynasty=94
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=94
+	mother=1094
+	
+	8272.1.1 = {birth="8272.1.1"}
+}
+####################
+###House Karstark###
+####################
+89 = {
+	name="Hodor" #Children die, kills some more innocent shildren, gets his head cut off. Like a boss. Spoiler alert.
+	dynasty=89
+	dna="bljkejkagau"
+	properties="cj0dcd0000"	
+	
+	martial = 6
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 5
+	learning = 5
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="wroth"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	add_trait="proud"
+	
+	father=7089
+	
+	8247.1.1 = {birth="8247.1.1"}
+	8266.1.1 = {add_spouse = 6089}
+	8299.8.1 = {
+		death = {
+			# Executed by Robb for killing lanister children.
+			death_reason = death_execution_beheading
+			killer = 2059
+		}
+	}
+}
+6089 = {
+	name="Hodor"
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="naive_appeaser"
+	add_trait="proud"
+	
+	8248.1.1 = {birth="8248.1.1"}
+}
+1089 = {
+	name="Hodor" #Asshole
+	dynasty=89
+	
+	martial = 7
+	diplomacy = 9
+	intrigue = 9
+	stewardship = 5
+	learning = 5
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=1003089
+	
+	add_trait="charismatic_negotiator"
+	add_trait="wroth"		
+	add_trait="envious"
+	add_trait="ambitious"
+	add_trait="proud"
+	
+	8232.1.1 = {birth="8232.1.1"} #age has been adjusted from 242 to make him Rickard's uncle
+	8253.1.1 = {
+		add_trait=poor_warrior
+	}
+	8290.1.1 = {
+		remove_trait=poor_warrior
+	}
+}
+#Arnolf's family#
+771089 = {
+	name="Hodor" 
+	dynasty=89
+
+	dna="bljka0kbba0"
+	properties="cb0ddlbebcb"
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=1089
+	
+	add_trait=strong
+	add_trait="deceitful"
+	add_trait="ambitious"
+	add_trait="proud"
+	add_trait="ruthless"
+	add_trait="cruel"
+	
+	8249.1.1 = {birth="8249.1.1"}
+	8266.1.1 = {	
+		add_trait="trained_warrior"
+	}
+	8270.1.1 = {	
+		add_spouse=471089
+	}
+	8295.1.1 = {	
+		add_spouse=472089
+	}
+}
+471089 = {
+	name="Hodor" 
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+			
+	8249.1.1 = {birth="8249.1.1"}
+	8277.1.1 = {
+		death = {
+			death_reason = death_murder_unknown
+			killer = 771089
+		}
+	}
+}
+472089 = {
+	name="Hodor" 
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+			
+	8270.1.1 = {birth="8270.1.1"}
+	8298.1.1 = {
+		death = {
+			death_reason = death_murder_unknown
+			killer = 771089
+		}
+	}
+}
+
+781089 = {
+	name="Hodor" 
+	dynasty=89
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=1089
+			
+	8261.1.1 = {birth="8261.1.1"}
+	8268.1.1 = {
+		add_trait="ambitious"
+		add_trait="proud"
+	}
+	8277.1.1 = {add_spouse=791089}
+}
+791089 = {
+	name="Hodor" 
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+			
+	8261.1.1 = {birth="8261.1.1"}
+}
+801089 = {
+	name="Hodor" 
+	dynasty=89
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=781089
+	mother=791089
+			
+	8278.1.1 = {birth="8278.1.1"}
+}
+811089 = {
+	name="Hodor" 
+	dynasty=89
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=781089
+	mother=791089
+			
+	8280.1.1 = {birth="8280.1.1"}
+}
+821089 = {
+	name="Hodor" 
+	dynasty=89
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=781089
+	mother=791089
+			
+	8281.1.1 = {birth="8281.1.1"}
+}
+
+825089 = {
+	name="Hodor" 
+	female=yes
+	dynasty=89
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=771089
+	mother=471089
+			
+	8276.1.1 = {birth="8276.1.1"}
+}
+826089 = {
+	name="Hodor" 
+	dynasty=89
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=771089
+	mother=472089
+			
+	8297.1.1 = {birth="8297.1.1"}
+}
+#Rickard's Family#
+2089 = {
+	name="Hodor"
+	dynasty=89
+	
+	martial = 3
+	diplomacy = 5
+	intrigue = 2
+	stewardship = 5
+	learning = 5
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="brave"
+	add_trait="wroth"
+	add_trait="tough_soldier"
+	
+	father=89
+	mother=6089
+	
+	8273.1.1 = {birth="8273.1.1"}
+	8289.1.1 = {
+		add_trait=trained_warrior
+	}
+	8299.2.11 = {
+		effect = {
+			c_harrenhal = {
+				holder_scope = {
+					ROOT = { 
+						imprison = PREV 
+						set_character_flag = captured_in_battle
+					}
+				}
+			}
+		}
+	}
+	8299.6.1 = {
+		effect = { prisoner = no }
+	}
+	8299.9.1 = { #battle of Duskendale
+		effect = {
+			e_iron_throne = {
+				holder_scope = {
+					ROOT = { 
+						imprison = PREV 
+						set_character_flag = captured_in_battle
+					}
+				}
+			}
+		}
+	}
+	8300.3.1 = {
+		effect = {
+			set_defacto_liege = ROOT
+			any_demesne_title = {
+				limit = { 
+					OR = {
+						tier = COUNT
+						tier = DUKE
+					}
+				}				
+				set_variable = { which = "de_facto_kingdom" value = 2 } #north
+			}
+			k_stormlands = {
+				holder_scope = { 
+					ROOT = {
+						join_attacker_wars = PREV
+					}
+					reverse_opinion = {
+						modifier = opinion_with_rebel_leader
+						who = ROOT
+						years = 100
+					}
+				}
+			}
+			k_north = {
+				holder_scope = { 
+					opinion = {
+						modifier = opinion_traitor
+						who = ROOT
+					}
+				}
+			}
+			set_character_flag = against_king
+			set_character_flag = against_loyal_liege
+		}
+	}
+}
+4089 = {
+	name="Hodor"
+	dynasty=89
+	
+	martial = 4
+	diplomacy = 6
+	intrigue = 5
+	stewardship = 4
+	learning = 5
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="shy"
+	add_trait="tough_soldier"
+	add_trait="proud"
+	
+	father=89
+	mother=6089
+		
+	8275.1.1 = {birth="8275.1.1"}
+	8294.1.1 = {
+		add_trait=trained_warrior
+	}
+	8298.10.24 = {
+		death = {
+			# Killed by the kingslayer.
+			death_reason = death_battle
+			killer = 3190
+		}
+	}
+}
+3089 = {
+	name="Hodor"
+	dynasty=89
+	
+	martial = 5
+	diplomacy = 4
+	intrigue = 5
+	stewardship = 6
+	learning = 5
+	
+	religion="old_gods"
+	culture="northman"
+
+	add_trait="brave"	
+	add_trait="tough_soldier"
+	
+	father=89
+	mother=6089
+	
+	8278.1.1 = {birth="8278.1.1"}
+	8291.1.1 = {
+		add_trait=trained_warrior
+	}
+	8298.10.24 = {
+		death = {
+			# Killed by the kingslayer.
+			death_reason = death_battle
+			killer = 3190
+		}
+	}
+}
+
+5089 = {
+	name="Hodor"
+	female=yes
+	dynasty=89
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="cynical"
+	add_trait="proud"
+	add_trait="brave"
+	add_trait="charismatic_negotiator"
+	
+	father=89
+	mother=6089
+	
+	8284.1.1 = {birth="8284.1.1"}
+	8300.3.1={
+		add_claim=d_karhold
+		effect = {
+			opinion = { who = 1002059 modifier = rescued_my_sorry_ass } #jon snow
+		}
+	}
+}
+###
+###House Lightfoot - Made up
+###
+91 = {
+	name="Hodor"
+	dynasty=91
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=4091
+	
+	8262.1.1 = {birth="8262.1.1"}
+	8278.1.1 = {add_spouse = 3091}
+}
+3091 = {
+	name="Hodor"
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="naive_appeaser"
+	
+	8262.1.1 = {birth="8262.1.1"}
+}
+1091 = {
+	name="Hodor"
+	female=yes
+	dynasty=91
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=91
+	mother=3091
+	
+	8279.1.1 = {birth="8279.1.1"}
+}
+2091 = {
+	name="Hodor"
+	female=yes
+	dynasty=91
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=91
+	mother=3091
+	
+	8280.1.1 = {birth="8280.1.1"}
+}
+##################
+###house Bolton###
+##################
+87 = {
+	name="Hodor"
+	dynasty=87
+	dna="djbehscabgz"
+	#properties="cq0dhd0000"
+	properties="bq0jok00000000db00"
+	
+	martial = 6
+	diplomacy = 9
+	intrigue = 12
+	stewardship = 6 
+	learning = 8
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="temperate"
+	add_trait="elusive_shadow"
+	add_trait="ruthless"
+	add_trait="quick"
+	add_trait="impaler"
+	add_trait="deceitful"
+	add_trait="patient"
+	add_trait="authoritative"
+	
+	add_trait=back_seat_leader
+	add_trait=organizer
+	disallow_random_traits = yes
+
+	father=4087
+	
+	8255.1.1 = {
+		birth="8255.1.1"
+	}
+	8261.1.1={
+		effect = {
+			b_dreadfort = {
+				ROOT = { capital = PREV }
+			}
+		}
+	}
+	8271.1.1 = {
+		add_trait = trained_warrior
+	}
+	8272.1.2 = {add_spouse = 250087}
+	8275.1.1 = {give_nickname = nick_the_leech_lord}
+	8276.1.2 = {add_spouse = 5068}
+	8299.1.1 = {add_spouse = 669137}
+	8299.11.5={
+		#add_trait=dishonorable2
+		effect = { 
+			set_variable = { which = "dishonorable" value = 20 }
+			hidden_tooltip = { character_event = { id = maintenance.3 } }#dishonour trait
+			set_character_flag = neutral
+			clr_character_flag = supporting_king
+			clr_character_flag = against_king
+			spouse = { ROOT = { impregnate = PREV } } 
+			d_nightswatch = {
+				holder_scope = {
+					opinion = { modifier = opinion_vengeance who = ROOT }
+					opinion = { modifier = opinion_traitor who = ROOT }
+					any_sibling = {
+						opinion = { modifier = opinion_vengeance who = ROOT }
+						opinion = { modifier = opinion_traitor who = ROOT }
+					}
+				}
+			}
+			#hidden starks
+			c_9266059 = {
+				opinion = { modifier = opinion_vengeance who = ROOT }
+				opinion = { modifier = opinion_traitor who = ROOT }
+			}
+			c_9267059 = {
+				opinion = { modifier = opinion_vengeance who = ROOT }
+				opinion = { modifier = opinion_traitor who = ROOT }
+			}
+			c_9268059 = {
+				opinion = { modifier = opinion_vengeance who = ROOT }
+				opinion = { modifier = opinion_traitor who = ROOT }
+			}
+			c_9269059 = {
+				opinion = { modifier = opinion_vengeance who = ROOT }
+				opinion = { modifier = opinion_traitor who = ROOT }
+			}
+			k_stormlands = {
+				holder_scope = { 
+					opinion = {
+						modifier = opinion_traitor
+						who = ROOT
+					}
+				}
+			}				
+		}
+	}
+}
+250087 = { #unnamed first wife
+	name="Hodor"
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+	
+	8255.1.1 = {
+		birth="8255.1.1"
+	}
+	8275.1.1 = {
+		death = {
+			death_reason = death_childbirth
+		}
+	}
+}
+1087 = {
+	name="Hodor"
+	dynasty=87
+	
+	martial = 8
+	diplomacy = 10
+	intrigue = 4
+	stewardship = 11
+	learning = 15
+	
+	religion="old_gods"
+	culture="northman"
+
+	add_trait="tough_soldier"
+	add_trait="kind"
+	add_trait="trusting"
+	add_trait="shy"
+	add_trait="diligent"
+	add_trait="poet"
+
+	father=87
+	mother=5068
+	
+	8277.7.1 = {birth="8277.7.1"}
+	8283.1.1 = {
+		guardian=2068 #Barbary Ryswell
+		add_trait=poor_warrior
+	}
+	8287.1.1 = {
+		add_trait=squire
+		remove_trait=poor_warrior
+		add_trait=trained_warrior
+		guardian=94058 #Lord Redfort
+	}  	
+	8293.1.1 = {
+		remove_trait=trained_warrior
+		add_trait=skilled_warrior
+		effect = {
+			c_redfort = {
+				holder_scope = {
+					any_child = {
+						opinion = {
+							who = ROOT
+							modifier = opinion_grew_up_together
+							years = 100
+						}
+						reverse_opinion = {
+							who = ROOT
+							modifier = opinion_grew_up_together
+							years = 100
+						}
+					}
+				}
+			}
+		}
+	}
+	8297.6.1 = {
+		# Murdered by Ramsay
+		death = {
+			death_reason = death_murder_unknown_poison
+			killer = 2087
+		}
+	}
+}
+2087 = {
+	name="Hodor"
+	
+	dynasty=87
+	#dna="cihlkikgggh"
+	#properties="bj0c0k00000"
+	dna="cahlaikgggh"
+	properties="bn0c0k00000"
+	
+	martial = 5
+	diplomacy = 3
+	intrigue = 7
+	stewardship = 5
+	learning = 5
+	
+	religion="old_gods"
+	culture="northman"
+	
+	#on birth
+	add_trait="quick"
+	add_trait="ugly"
+	add_trait="bastard"
+	add_trait="lunatic"
+	give_nickname = nick_snow
+	
+	
+	father=87
+	
+	8274.1.1 = {birth="8274.1.1"}
+	8280.1.1 = { #age 6
+		add_trait="impaler"
+		guardian=200087 #Reek
+	}
+	8282.1.1 = { #age 8
+		add_trait="ambitious"
+		effect = {
+			add_friend = 200087
+		}
+	}
+	8284.1.1 = { #age 10
+		add_trait="paranoid"
+		add_trait="arbitrary"
+		add_trait="cruel"
+	}
+	8290.1.1 = { #Age 16
+		add_trait="proud"
+		add_trait="lustful"
+		#add_trait="hedonist"
+		add_trait="hunter"
+		add_trait="impaler"
+		add_trait="tough_soldier"	
+		add_trait="poor_warrior"
+	}
+	8297.6.1 = {
+		remove_trait=bastard 
+		add_trait=legit_bastard
+		effect = { remove_nickname = yes }
+	}
+	8299.3.4 = {add_spouse=4080}
+	# 8299.6.29 = {
+		# effect = {
+			# 47 = {
+				# add_province_modifier = {
+					# name = sacked
+					# duration = -1
+				# }
+			# }
+		# }	
+	# }
+	8299.3.7 = {
+		effect = {
+			if = {
+				limit = { NOT = { has_landed_title = c_hornwood } }
+				c_hornwood = { add_pressed_claim = ROOT }
+			}
+		}	
+	}
+	8299.11.5={
+		#add_trait=dishonorable2
+		effect = { 
+			set_variable = { which = "dishonorable" value = 20 }
+			hidden_tooltip = { character_event = { id = maintenance.3 } }#dishonour trait
+			set_character_flag = neutral
+			clr_character_flag = supporting_king
+			clr_character_flag = against_king
+			d_nightswatch = {
+				holder_scope = {
+					opinion = { modifier = opinion_vengeance who = ROOT }
+					opinion = { modifier = opinion_traitor who = ROOT }
+					any_sibling = {
+						opinion = { modifier = opinion_vengeance who = ROOT }
+						opinion = { modifier = opinion_traitor who = ROOT }
+					}
+				}
+			}
+			#hidden starks
+			c_9266059 = {
+				opinion = { modifier = opinion_vengeance who = ROOT }
+				opinion = { modifier = opinion_traitor who = ROOT }
+			}
+			c_9267059 = {
+				opinion = { modifier = opinion_vengeance who = ROOT }
+				opinion = { modifier = opinion_traitor who = ROOT }
+			}
+			c_9268059 = {
+				opinion = { modifier = opinion_vengeance who = ROOT }
+				opinion = { modifier = opinion_traitor who = ROOT }
+			}
+			c_9269059 = {
+				opinion = { modifier = opinion_vengeance who = ROOT }
+				opinion = { modifier = opinion_traitor who = ROOT }
+			}
+			k_stormlands = {
+				holder_scope = { 
+					opinion = {
+						modifier = opinion_traitor
+						who = ROOT
+					}
+				}
+			}				
+		}
+	}
+	8300.1.1 = {
+		add_spouse=99992095 #'Arya'
+	}	
+	# 8299.11.6 = { #age 19 after the red wedding
+		# remove_trait="bastard"
+		# add_trait="legit_bastard"
+	# }
+}
+200087 = {
+	name="Hodor" # THE Reek
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="cruel"
+	add_trait="lunatic"
+	add_trait="impaler"
+	add_trait="paranoid"
+	add_trait="lustful"
+	add_trait="hedonist"
+	add_trait="hunter"
+	add_trait="wroth"
+	
+	give_nickname = nick_reek
+	
+	8262.1.1 = {
+		birth="8262.1.1"
+		effect = {	
+			dynasty = none
+			c_dreadfort = { holder_scope = { ROOT = { move_character = PREV } } }
+		}
+	}
+	8299.4.25 = {
+		death = { 
+			death_reason = death_execution
+			killer = 3060
+		}
+	}
+}
+201087 = {
+	name="Hodor"
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="tough_soldier"
+	add_trait="brave"
+	add_trait="ruthless"
+	add_trait="content"
+
+	give_nickname = nick_steelshanks
+	
+	8260.1.1 = {
+		birth="8260.1.1"
+		effect = {	
+			dynasty = none
+			c_dreadfort = { holder_scope = { ROOT = { move_character = PREV } } }
+		}
+	}
+	8276.1.1 = {
+		add_trait = trained_warrior
+	}
+}
+#bastards boys
+202087 = {
+	name="Hodor"
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="tough_soldier"
+	add_trait="cruel"
+	add_trait="impaler"
+	add_trait="lustful"
+		
+	employer=87
+	
+	8273.1.1 = {
+		birth="8273.1.1"
+		effect = {	
+			dynasty = none
+			c_dreadfort = { holder_scope = { ROOT = { move_character = PREV } } }
+		}
+	}
+	8289.1.1 = {
+		give_nickname = nick_yellow
+		add_trait = poor_warrior
+		effect = { add_friend = 2087 }
+	}
+	8299.11.5={
+		effect = {	#Ramsay
+			c_winterfell = { holder_scope = { ROOT = { move_character = PREV } } }
+		}
+	}
+	8300.6.1 = {
+		add_trait = eunuch
+		death = { 
+			death_reason = death_murder_unknown
+			killer = 174347 #disguised mance
+		}
+	}
+}
+203087 = {
+	name="Hodor"
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="tough_soldier"
+	add_trait="cruel"
+	add_trait="lustful"
+		
+	employer=87
+	
+	8275.1.1 = {
+		birth="8275.1.1"
+		effect = {	
+			dynasty = none
+			c_dreadfort = { holder_scope = { ROOT = { move_character = PREV } } }
+		}
+	}
+	8291.1.1 = {
+		add_trait = trained_warrior
+		give_nickname = nick_dance_for_me
+	}
+	8299.11.5={
+		effect = {	#Ramsay
+			c_winterfell = { holder_scope = { ROOT = { move_character = PREV } } }
+		}
+	}
+}
+204087 = {
+	name="Hodor"
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="misguided_warrior"
+	add_trait="cruel"
+	add_trait="wroth"
+	add_trait="craven"
+	
+	employer=87
+	
+	8277.1.1 = {
+		birth="8277.1.1"
+		effect = {	
+			dynasty = none
+			c_dreadfort = { holder_scope = { ROOT = { move_character = PREV } } }
+		}
+	}
+	8293.1.1 = {
+		add_trait = poor_warrior
+	}
+	8299.11.5={
+		effect = {	#Ramsay
+			c_winterfell = { holder_scope = { ROOT = { move_character = PREV } } }
+		}
+	}
+	8300.6.1 = {
+		add_trait = maimed
+		death = { 
+			death_reason = death_murder_slayed
+		}
+	}	
+}
+205087 = {
+	name="Hodor"
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="misguided_warrior"
+	add_trait="cruel"
+	add_trait="wroth"
+	add_trait="proud"
+	add_trait="ugly"
+	add_trait="slow"
+	
+	employer=87
+	
+	8271.1.1 = {
+		birth="8271.1.1"
+		effect = {	
+			dynasty = none
+			c_dreadfort = { holder_scope = { ROOT = { move_character = PREV } } }
+		}
+	}
+	8287.1.1 = {
+		add_trait = poor_warrior
+		give_nickname = nick_the_sour
+	}
+	8299.11.5={
+		effect = {	#Ramsay
+			c_winterfell = { holder_scope = { ROOT = { move_character = PREV } } }
+		}
+	}
+}
+206087 = {
+	name="Hodor"
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="tough_soldier"
+	add_trait="cruel"
+	add_trait="impaler"
+	
+	employer=87
+	
+	8272.1.1 = {
+		birth="8272.1.1"
+		effect = {	
+			dynasty = none
+			c_dreadfort = { holder_scope = { ROOT = { move_character = PREV } } }
+		}
+	}
+	8288.1.1 = {
+		add_trait = poor_warrior
+		effect = { add_friend = 2087 }
+	}
+	8299.11.5={
+		effect = {	#Ramsay
+			c_winterfell = { holder_scope = { ROOT = { move_character = PREV } } }
+		}
+	}
+}
+207087 = {
+	name="Hodor"
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="misguided_warrior"
+	add_trait="cruel"
+	add_trait="wroth"
+	add_trait="rude"
+	
+	employer=87
+	
+	8270.1.1 = {
+		birth="8270.1.1"
+		effect = {	
+			dynasty = none
+			c_dreadfort = { holder_scope = { ROOT = { move_character = PREV } } }
+		}
+	}
+	8286.1.1 = {
+		add_trait = poor_warrior
+	}
+	8292.1.1 = {
+		add_trait="lisp"
+	}
+	8299.11.5={
+		effect = {	#Ramsay
+			c_winterfell = { holder_scope = { ROOT = { move_character = PREV } } }
+		}
+	}
+}
+###########
+###Clans###
+###########
+###Norrey###
+100 = {
+	name="Hodor"
+	dynasty=100
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	add_trait="proud"
+	add_trait="tough_soldier"
+	
+	father=4100
+	
+	8233.1.1 = {birth="8233.1.1"}
+	8249.1.1 = {add_spouse = 100771 add_trait="trained_warrior"}
+	8262.1.1 = {give_nickname=nick_the_Norrey}
+	8300.3.1 = {
+		effect = {
+			set_defacto_liege = ROOT
+			any_demesne_title = {
+				limit = { 
+					OR = {
+						tier = COUNT
+						tier = DUKE
+					}
+				}				
+				set_variable = { which = "de_facto_kingdom" value = 2 } #north
+			}
+			k_stormlands = {
+				holder_scope = { 
+					ROOT = {
+						join_attacker_wars = PREV
+					}
+					reverse_opinion = {
+						modifier = opinion_with_rebel_leader
+						who = ROOT
+						years = 100
+					}
+				}
+			}
+			k_north = {
+				holder_scope = { 
+					opinion = {
+						modifier = opinion_traitor
+						who = ROOT
+					}
+				}
+			}
+			set_character_flag = against_king
+			set_character_flag = against_loyal_liege
+		}
+	}
+}
+100771 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	add_trait="proud"
+	
+	8233.1.1 = {birth="8233.1.1"}
+}
+8351 = {
+	name="Hodor"
+	dynasty=100
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	add_trait="proud"
+	add_trait="tough_soldier"
+	
+	father=100
+	mother=100771
+	
+	8255.1.1 = {birth="8255.1.1"}
+	8271.1.1 = {add_trait=trained_warrior}
+	8275.1.1 = { add_spouse = 450100 }
+}
+450100 = {
+	name="Hodor"
+	female=yes
+
+	religion="old_gods"
+	culture="hill_clansman"
+
+	8255.1.1 = {birth="8255.1.1"}
+}
+8352 = {
+	name="Hodor"
+	dynasty=100
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	add_trait="proud"
+	add_trait="tough_soldier"
+	
+	father=100
+	mother=100771
+	
+	8266.1.1 = {birth="8266.1.1"}
+	8282.1.1 = {add_trait=trained_warrior}
+	8299.11.5 = {
+		# The Red Wedding
+		death = {
+			death_reason = death_murder
+			killer = 127
+		}
+	}
+}
+150100 = {
+	name="Hodor"
+	dynasty=100
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	father=8351
+	mother=450100
+	
+	8276.1.1 = {birth="8276.1.1"}
+	8292.1.1 = {add_trait=trained_warrior}
+}
+151100 = {
+	name="Hodor"
+	dynasty=100
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	father=8351
+	mother=450100
+	
+	8279.1.1 = {birth="8279.1.1"}
+	8295.1.1 = {add_trait=trained_warrior}
+}
+152100 = {
+	name="Hodor"
+	dynasty=100
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	father=8351
+	mother=450100
+	
+	8281.1.1 = {birth="8281.1.1"}
+	8297.1.1 = {add_trait=trained_warrior}
+}
+###Knott - made up.###
+98 = {
+	name="Hodor"
+	dynasty=98
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	
+	father=10098
+	mother=20098
+	
+	8257.1.1 = {birth="8257.1.1"}
+	8277.1.1 = {give_nickname=nick_the_Knott}
+	8300.3.1 = {
+		effect = {
+			set_defacto_liege = ROOT
+			any_demesne_title = {
+				limit = { 
+					OR = {
+						tier = COUNT
+						tier = DUKE
+					}
+				}				
+				set_variable = { which = "de_facto_kingdom" value = 2 } #north
+			}
+			k_stormlands = {
+				holder_scope = { 
+					ROOT = {
+						join_attacker_wars = PREV
+					}
+					reverse_opinion = {
+						modifier = opinion_with_rebel_leader
+						who = ROOT
+						years = 100
+					}
+				}
+			}
+			k_north = {
+				holder_scope = { 
+					opinion = {
+						modifier = opinion_traitor
+						who = ROOT
+					}
+				}
+			}
+			set_character_flag = against_king
+			set_character_flag = against_loyal_liege
+		}
+	}
+}
+1098 = {
+	name="Hodor"
+	dynasty=98
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	
+	father=10098
+	mother=20098
+	
+	8263.1.1 = {birth="8263.1.1"}
+}
+10098 = {
+	name="Hodor"
+	dynasty=98
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+
+	add_trait="strong"
+	
+	father=11098
+	
+	8237.1.1 = {birth="8237.1.1"}
+	8250.1.1 = 	{add_trait="proud"
+	             add_trait="tough_soldier"
+	             add_trait="trained_warrior"}
+	8252.1.1 = {give_nickname=nick_the_Knott}			 
+	8253.1.1 = {add_spouse = 20098}
+	8277.1.1 = {death="8277.1.1"}
+}
+20098 = {
+	name="Hodor"
+	female=yes
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	add_trait="proud"
+	
+	8237.1.1 = {birth="8237.1.1"}
+	8277.1.1 = {death="8277.1.1"}
+}
+###House Wull###
+99 = {
+	name="Hodor" #ends up helping stannis
+	dynasty=99
+
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	martial=8
+	
+	add_trait="proud"
+	add_trait="strong"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	
+	father=10099
+	mother=20099
+	
+	8251.1.1 = {birth="8251.1.1"}
+	8260.1.1 = {give_nickname = nick_the_big_buket}
+	8267.1.1 = {add_spouse = 30099}
+	8300.3.1 = {
+		effect = {
+			set_defacto_liege = ROOT
+			any_demesne_title = {
+				limit = { 
+					OR = {
+						tier = COUNT
+						tier = DUKE
+					}
+				}				
+				set_variable = { which = "de_facto_kingdom" value = 2 } #north
+			}
+			k_stormlands = {
+				holder_scope = { 
+					ROOT = {
+						join_attacker_wars = PREV
+					}
+					reverse_opinion = {
+						modifier = opinion_with_rebel_leader
+						who = ROOT
+						years = 100
+					}
+				}
+			}
+			k_north = {
+				holder_scope = { 
+					opinion = {
+						modifier = opinion_traitor
+						who = ROOT
+					}
+				}
+			}
+			set_character_flag = against_king
+			set_character_flag = against_loyal_liege
+		}
+	}
+}
+30099 = {
+	name="Hodor"
+	female=yes
+
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	add_trait="proud"
+	add_trait="naive_appeaser"
+	
+	8231.1.1 = {birth="8231.1.1"}
+	8281.1.1 = {death="8281.1.1"}
+}
+1099 = {
+	name="Hodor"
+	dynasty=99
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	add_trait="proud"
+	
+	father=99
+	mother=30099
+	
+	8272.1.1 = {birth="8272.1.1"}
+}
+2099 = {
+	name="Hodor" 6 friends, that he gets killed by the kingsguard.
+	dynasty=99
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	martial=6
+	
+	add_trait="proud"
+	add_trait="strong"
+	add_trait="tough_soldier"
+	
+	father=10099
+	mother=20099
+	
+	8262.1.1 = {birth="8262.1.1"}
+	8265.1.1 = {give_nickname = nick_buckets}
+	8278.1.1 = {
+		add_trait="trained_warrior"
+	}
+	8282.9.15 = { #RR
+		effect = {
+			set_character_flag = TOJ_companion
+			character_event = { id = tower_of_joy.1 days = 2 }
+		}
+	}
+	8284.1.1 = {
+		# Died at the Tower of Joy
+		death = {
+			# Killed by Gerold Hightower
+			death_reason = death_duel
+			killer = 56
+		}
+	}
+}
+10099 = {
+	name="Hodor"
+	dynasty=99
+
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	
+	father=31099
+	
+	8231.1.1 = {birth="8231.1.1"}
+	8243.1.1 = {give_nickname=nick_the_Wull}
+	8247.1.1 = {add_spouse = 20099}
+	8261.6.1 = {death="8261.6.1"}
+}
+20099 = {
+	name="Hodor"
+	female=yes
+
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	add_trait="proud"
+	add_trait="naive_appeaser"
+	
+	8231.1.1 = {birth="8231.1.1"}
+	8271.1.1 = {death="8271.1.1"}
+}
+###House Liddle###
+97 = {
+	name="Hodor" # The Liddle
+	dynasty=97
+	
+	religion="old_gods"
+	culture="hill_clansman"
+
+	
+	add_trait="strong"
+	
+	father=4097
+	
+	8242.1.1 = {birth="8242.1.1"}
+	8258.1.1 = {add_trait="proud"
+	            add_trait="tough_soldier"
+	            add_trait="trained_warrior"}
+	8259.1.1 = {add_spouse = 3097}
+	8282.1.1 = {give_nickname=nick_the_Liddle}
+	8300.3.1 = {
+		effect = {
+			set_defacto_liege = ROOT
+			any_demesne_title = {
+				limit = { 
+					OR = {
+						tier = COUNT
+						tier = DUKE
+					}
+				}				
+				set_variable = { which = "de_facto_kingdom" value = 2 } #north
+			}
+			k_stormlands = {
+				holder_scope = { 
+					ROOT = {
+						join_attacker_wars = PREV
+					}
+					reverse_opinion = {
+						modifier = opinion_with_rebel_leader
+						who = ROOT
+						years = 100
+					}
+				}
+			}
+			k_north = {
+				holder_scope = { 
+					opinion = {
+						modifier = opinion_traitor
+						who = ROOT
+					}
+				}
+			}
+			set_character_flag = against_king
+			set_character_flag = against_loyal_liege
+		}
+	}
+}
+3097 = {
+	name="Hodor"
+	female=yes
+	
+	religion="old_gods"
+	culture="hill_clansman"
+
+	add_trait="proud"
+	add_trait="naive_appeaser"
+	
+	8243.1.1 = {birth="8243.1.1"}
+}
+1097 = {
+	name="Hodor" # Big Liddle, joined the Nightswatch
+	dynasty=97
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	add_trait="strong"
+	add_trait="tall"
+	
+	father=97
+	mother=3097
+	
+	8261.1.1 = {birth="8261.1.1"}
+	8272.1.1 = {add_trait=humble}
+	8277.1.1 = {add_trait=tough_soldier add_trait=skilled_warrior add_trait=brave add_trait=content}
+	8280.1.1 = {give_nickname=nick_Big_Liddle}
+	8283.1.1 = {
+		add_trait=nightswatch 
+		effect = { 
+			add_character_modifier = {
+				name = nw_ranger
+				duration = -1
+			}
+		}
+	} 
+}
+2097 = {
+	name="Hodor" # Middle Liddle
+	dynasty=97
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	add_trait="strong"
+	
+	father=97
+	mother=3097
+	
+	8264.1.1 = {birth="8264.1.1"}
+	8268.6.1 = {give_nickname=nick_Middle_Liddle}
+	8280.1.1 = {add_trait=tough_soldier add_trait=trained_warrior add_trait=brave add_trait=proud}
+	8281.1.1 = {add_spouse=4500097}
+}
+4500097 = {
+	name="Hodor"
+	female=yes
+	
+	religion="old_gods"
+	culture="hill_clansman"
+
+	
+	8265.1.1 = {birth="8265.1.1"}
+}
+5500097 = {
+	name="Hodor" # Little Liddle
+	dynasty=97
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	add_trait="strong"
+	
+	father=97
+	mother=3097
+	
+	8268.1.1 = {birth="8268.1.1"}
+	8268.6.1 = {give_nickname=nick_Little_Liddle}
+	8284.1.1 = {add_trait=tough_soldier add_trait=trained_warrior add_trait=brave add_trait=proud}
+	8285.1.1 = {add_spouse=4510097}
+}
+4510097 = {
+	name="Hodor"
+	female=yes
+	
+	religion="old_gods"
+	culture="hill_clansman"
+
+	
+	8267.1.1 = {birth="8267.1.1"}
+}
+###The Middle Liddle's children###
+5510097 = {
+	name="Hodor" #
+	dynasty=97
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	add_trait="strong"
+	
+	father=2097
+	mother=4500097
+	
+	8282.1.1 = {birth="8282.1.1"}
+}
+5520097 = {
+	name="Hodor" #
+	dynasty=97
+	female=yes
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	add_trait="strong"
+	
+	father=2097
+	mother=4500097
+	
+	8284.1.1 = {birth="8284.1.1"}
+}
+5530097 = {
+	name="Hodor" #
+	dynasty=97
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	add_trait="strong"
+	
+	father=2097
+	mother=4500097
+	
+	8287.1.1 = {birth="8287.1.1"}
+}
+5540097 = {
+	name="Hodor" # The Little Liddle's child
+	dynasty=97
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	add_trait="strong"
+	
+	father=5500097
+	mother=4510097
+	
+	8295.1.1 = {birth="8295.1.1"}
+	8295.1.2 = {give_nickname=nick_Wee_Liddle}
+}
+#########
+#########
+###House Poole###
+95 = {
+	name="Hodor"
+	dynasty=95
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=5095
+	
+	8244.1.1 = {birth="8244.1.1"}
+	8260.1.1 = {add_spouse = 3095}
+}
+3095 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="old_gods"
+	culture="northman"
+	
+	8244.1.1 = {birth="8244.1.1"}
+}
+1095 = {
+	name="Hodor" #Winterfell steward
+	dynasty=95
+	
+	martial = 5
+	diplomacy = 5
+	intrigue = 3
+	stewardship = 9
+	learning = 5
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="fortune_builder"
+	add_trait="kind"
+	
+	employer=59
+	
+	father=95
+	mother=3095
+	
+	8260.1.1 = {birth="8260.1.1"}
+	8282.1.1 = {add_spouse = 4095}
+	8298.10.29 = { # Killed along with Neds household guard in Kings landing
+		death = {
+			death_reason = death_execution
+			killer = 9316
+		}
+	} 
+}
+4095 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="old_gods"
+	culture="northman"
+	
+	8260.1.1 = {birth="8260.1.1"}
+}
+2095 = {
+	name="Hodor"
+	female=yes
+	dynasty=95
+	
+	religion="old_gods"
+	culture="northman"
+
+	add_trait="fair"
+	add_trait="craven"	
+	
+	father=1095
+	mother=4095
+	
+	8286.1.1 = { birth="8286.1.1" }
+	8299.2.11 = { #ACoK
+		effect = {
+			e_iron_throne = { #Imprison jeyne Poole
+				holder_scope = {
+					ROOT = {
+						imprison = PREV
+						remove_character_modifier = the_dungeon
+						set_character_flag = captured_in_battle
+						add_character_modifier = { 
+							name = house_arrest
+							duration = -1
+						}
+					}
+				}
+			}	
+		}
+	}	
+	8299.2.11 = { #ACoK
+		effect = {
+			e_iron_throne = { #Imprison jeyne Poole
+				holder_scope = {
+					ROOT = {
+						imprison = PREV
+						remove_character_modifier = the_dungeon
+						set_character_flag = captured_in_battle
+						add_character_modifier = { 
+							name = house_arrest
+							duration = -1
+						}
+					}
+				}
+			}	
+		}
+	}
+	8300.1.1 = {
+		add_trait="has_missing"
+		death = { death_reason = death_missing } #See Sansa for Arry	
+	}
+}
+99992095 = {
+	name="Hodor" #Dummy Arya
+	female=yes
+	#dynasty=95
+	
+	religion="old_gods"
+	culture="northman"
+
+	add_trait="fair"
+	add_trait="craven"	
+	
+	#father=1095
+	#mother=4095
+	
+	8286.1.1 = { 
+		birth="8286.1.1" 
+		effect = {
+			if = {
+				limit = { NOT = { year = 8300 } }
+				death = yes
+			}
+		}
+	}
+	8300.1.1 = {		
+		effect = {
+			dynasty = 59
+			set_character_flag = jeyne_poole
+			add_weak_pressed_claim = k_north
+			add_weak_pressed_claim = d_winterfell
+			add_weak_pressed_claim = c_winterfell
+			add_weak_claim = k_riverlands
+			#Add starks as 'parents'
+			c_59 = {
+				ROOT = { set_father = PREV }
+			}
+			c_1059 = {
+				ROOT = { set_mother = PREV }
+			}
+		}
+	}
+}
+###House Harclay###
+96 = {
+	name="Hodor"
+	dynasty=96
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	father=2096
+	mother=3096
+	
+	8241.1.1 = {birth="8241.1.1"}
+	8257.1.1 = {add_spouse = 4096}
+}
+4096 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	8241.1.1 = {birth="8241.1.1"}
+}
+5096 = {
+	name="Hodor"
+	dynasty=96
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	father=96
+	mother=4096
+	
+	8266.1.1 = {birth="8266.1.1"}
+}
+1096 = {
+	name="Hodor"
+	dynasty=96
+	
+	martial = 7
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	father=2096
+	mother=3096
+	
+	add_trait = tough_soldier
+	
+	8250.1.1 = {birth="8250.1.1"}
+	8266.1.1 = {
+		add_trait = trained_warrior
+	}
+	8270.1.1={
+		add_trait="nightswatch"
+		effect = { 
+			add_character_modifier = {
+				name = nw_ranger
+				duration = -1
+			}
+		} 
+	}
+	8299.12.1 = {
+		effect = {		
+			d_nightswatch = {
+				holder_scope = {
+					ROOT = { move_character = PREV }
+				}
+			}
+			remove_title = job_castellan
+			remove_title = job_chancellor
+			remove_title = job_treasurer
+			remove_title = job_spymaster
+			remove_title = job_spiritual
+			give_job_title = job_marshal			
+		}
+	}
+}
+2096 = {
+	name="Hodor"
+	dynasty=96
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	father=6096
+	
+	8221.1.1 = {birth="8221.1.1"}
+	8237.1.1 = {add_spouse = 3096}
+	8261.1.1 = {death="8261.1.1"}
+}
+3096 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	8221.1.1 = {birth="8221.1.1"}
+	8261.1.1 = {death="8261.1.1"}
+}
+###House Glover###
+5062 = {
+	name="Hodor" #Linking founder
+	dynasty=62
+	dna="cagebtgbean"
+	properties="cj0cbd0000"
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=7062
+	
+	8232.1.1 = {birth="8232.1.1"} 
+	8248.1.1 = {add_spouse = 6062}
+	8249.1.1 = { effect = { character_event = { id = roberts_rebellion.21 } } }
+	8281.1.1 = {death="8281.1.1"}
+}
+6062 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="old_gods"
+	culture="northman"
+
+	8232.1.1 = {birth="8232.1.1"} 
+	8281.1.1 = {death="8281.1.1"}
+}
+1005062 = {
+	name="Hodor" #Jorahs Wife
+	dynasty=62
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="pneumonic"
+	add_trait="naive_appeaser"
+	
+	father=5062
+	mother=6062
+
+	8260.1.1 = {birth="8260.1.1"}
+	8286.1.1 = {
+		death="8286.1.1"
+	}
+}
+62 = {
+	name="Hodor"
+	dynasty=62
+	dna="cagebtgbean"
+	properties="cj0cbd0000"
+	
+	martial = 6
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 5 
+	learning = 5
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="just"
+	add_trait="tough_soldier"
+	add_trait="proud"
+	add_trait="content"
+
+	father=5062
+	mother=6062
+	
+	8260.1.1 = {birth="8260.1.1"}
+	8276.1.1 = { add_trait="trained_warrior" }
+	8281.1.1 = { effect = { character_event = { id = roberts_rebellion.21 } } }
+	8300.3.1 = {
+		effect = {
+			set_defacto_liege = ROOT
+			any_demesne_title = {
+				limit = { 
+					OR = {
+						tier = COUNT
+						tier = DUKE
+					}
+				}				
+				set_variable = { which = "de_facto_kingdom" value = 2 } #north
+			}
+			k_stormlands = {
+				holder_scope = { 
+					ROOT = {
+						join_attacker_wars = PREV
+					}
+					reverse_opinion = {
+						modifier = opinion_with_rebel_leader
+						who = ROOT
+						years = 100
+					}
+				}
+			}
+			k_north = {
+				holder_scope = { 
+					opinion = {
+						modifier = opinion_traitor
+						who = ROOT
+					}
+				}
+			}
+			set_character_flag = against_king
+			set_character_flag = against_loyal_liege
+		}
+	}	
+}
+2062 = {
+	name="Hodor"
+	dynasty=62
+	
+	martial = 5
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 5 
+	learning = 5
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="proud"
+	add_trait="gregarious"
+	add_trait="kind"
+	add_trait="just"
+	add_trait="tough_soldier"
+
+	father=5062
+	mother=6062
+	
+	8262.1.1 = {birth="8262.1.1"}
+	8278.1.1 = { add_trait="trained_warrior" }
+	8281.1.1 = {add_spouse = 3088}
+	8299.9.1 = { #battle of Duskendale
+		effect = {
+			e_iron_throne = {
+				holder_scope = {
+					ROOT = { 
+						imprison = PREV 
+						set_character_flag = captured_in_battle
+					}
+				}
+			}
+		}
+	}
+	8300.3.1 = { 
+		effect = { prisoner = no clr_character_flag = captured_in_battle } 
+	}
+}
+1062 = {
+	name="Hodor" 
+	dynasty=62
+
+	religion="old_gods"
+	culture="northman"
+	
+	father=5062
+	mother=6062
+	
+	8263.1.1 = {birth="8263.1.1"}
+	8278.1.1 = {
+		guardian=3058
+	}
+	8279.1.1 = { 
+		add_trait="trained_warrior" 
+		effect = {
+			add_friend = 94005 #Elbert Arryn
+			add_friend = 1128 #Jeffory mallister
+			add_friend = 494089 #Kyle Royce
+		}
+	}
+	8282.9.15 = { #RR
+		
+		effect = {
+			set_character_flag = TOJ_companion
+			character_event = { id = tower_of_joy.1 days = 2 }
+		}
+	}
+	8284.1.1 = {
+		# Died at the Tower of Joy
+		death = {
+			#Killed by Oswell Wheant
+			death_reason = death_duel
+			killer = 77114
+		}
+	}
+}
+3062 = {
+	name="Hodor"
+	dynasty=62
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=2062
+	mother = 3088
+	
+	8296.1.1 = {birth="8296.1.1"}
+}
+4062 = {
+	name="Hodor"
+	female=yes
+	dynasty=62
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=2062
+	mother = 3088
+	
+	8298.1.1 = {birth="8298.1.1"}
+}
+###
+###House Cassel
+###
+2060 = {
+	name="Hodor" #founder
+	dynasty=60
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=10060
+	
+	8231.1.1 = {birth="8231.1.1"}
+	8253.1.1 = {add_spouse = 1060}	
+	8281.1.1 = {death="8281.1.1"}
+}
+1060 = {
+	name="Hodor" #Wife
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+
+	8237.1.1 = {birth="8237.1.1"} 
+	8296.1.1 = {death="8296.1.1"}
+}
+60 = {
+	name="Hodor" friends, who he got killed by the kingsguard.
+	dynasty=60
+	
+	martial=7
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=2060
+	mother = 1060
+	
+	add_trait="proud"
+		
+	8253.1.1 = {birth="8253.1.1"} 
+	8269.1.1 = {
+		add_spouse = 10660
+		add_trait="skilled_warrior"
+		add_trait="knight"
+	}
+	8282.9.15 = { #RR
+		effect = {
+			set_character_flag = TOJ_companion
+			character_event = { id = tower_of_joy.1 days = 2 }
+		}
+	}
+	8284.1.1 = {
+		death = { #Killed by Oswell Wheant			
+			death_reason = death_duel
+			killer = 77114
+		}
+	}
+}
+10660 = {
+	name="Hodor" #Wife
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="old_gods"
+	culture="northman"
+
+	8254.1.1 = {birth="8254.1.1"} 
+	8296.1.1 = {death="8296.1.1"}
+}
+3060 = {
+	name="Hodor" #Master-at-arms of winterfell.
+	dynasty=60
+
+	dna="ceddd0gccf0"
+	properties="ck0efkbebcb"
+	
+	martial = 8
+	diplomacy = 8
+	intrigue = 5
+	stewardship = 10 
+	learning = 3
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="brave"
+	add_trait="tough_soldier"
+	add_trait="proud"
+	add_trait="diligent"
+	add_trait="content"
+	add_trait="just"
+	add_trait="trusting"
+
+	employer=59
+	
+	father=2060
+	mother = 1060
+	
+	8256.1.1 = {birth="8256.1.1"} 
+	8272.1.1 = {
+		add_trait="skilled_warrior"
+		add_trait="knight"
+	}
+	8286.1.1 = {add_spouse = 10760}
+	8299.6.29 = {
+		death = {
+			#Killed by Ramsey Snow/Bolton
+			death_reason = death_battle
+			killer = 2087
+		}
+	}
+}
+10760 = {
+	name="Hodor" #Wife
+	female=yes
+
+	add_trait="naive_appeaser"
+
+	religion="old_gods"
+	culture="northman"
+
+	8252.1.1 = {birth="8252.1.1"} 
+}
+4060 = {
+	name="Hodor"
+	dynasty=60
+	
+	martial = 6
+	diplomacy = 6
+	intrigue = 2
+	stewardship = 4 
+	learning = 3
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=60
+	mother=10660
+	add_trait=honorable
+	add_trait=kind
+	add_trait=diligent
+	
+	8270.1.1 = {birth="8270.1.1"} 
+	8282.1.1 = {
+		employer=59 #Eddard Stark
+		add_trait=trained_warrior
+	} 
+	8286.1.1 = {
+		remove_trait=trained_warrior
+		add_trait=skilled_warrior
+		add_trait="tough_soldier"
+	} 
+	8290.1.1 = {
+		add_trait=knight #captain of the guard
+	} 
+	8298.1.1 = {
+		death = {
+			# Killed by the Kingslayer
+			death_reason = death_duel
+			killer = 3190
+		}
+	}
+}
+9060 = {
+	name="Hodor"
+	female=yes
+	dynasty=60
+
+	dna="ccfdd0icdc0"
+	properties="ci0efkbebcb"
+	
+	religion="old_gods"
+	culture="northman"
+
+	add_trait="kind"
+	add_trait="gregarious"
+	add_trait="humble"
+	
+	father=3060
+	mother=10760
+	
+	8287.1.1 = {birth="8287.1.1"}
+}
+1004060 = {
+	name="Hodor"
+	dynasty=60
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="weak"
+	add_trait="has_tuberculosis"
+
+	father=60
+	mother=10660
+	
+	8270.1.1 = {birth="8270.1.1"} 
+	8280.1.1 = {
+		death = {
+			death_reason = death_trait
+		}
+	}
+}
+1014060 = {
+	name="Hodor"
+	dynasty=60
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=60
+	mother=10660
+	
+	add_trait="weak"
+	add_trait="has_tuberculosis"
+	
+	8273.1.1 = {birth="8273.1.1"} 
+	8281.1.1 = {
+		death = {
+			death_reason = death_trait
+		}
+	}
+}
+1024060 = {
+	name="Hodor"
+	dynasty=60
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=60
+	mother=10660
+	
+	add_trait="weak"
+	add_trait="has_tuberculosis"
+	
+	8280.1.1 = {birth="8280.1.1"} 
+	8285.1.1 = {
+		death = {
+			death_reason = death_trait
+		}
+	}
+}
+1034060 = {
+	name="Hodor"
+	dynasty=60
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="weak"
+	add_trait="has_tuberculosis"
+
+	father=3060
+	mother=10760
+	
+	8270.1.1 = {birth="8270.1.1"} 
+	8280.1.1 = {
+		death = {
+			death_reason = death_trait
+		}
+	}
+}
+1044060 = {
+	name="Hodor"
+	dynasty=60
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=3060
+	mother=10760
+	
+	add_trait="weak"
+	add_trait="has_tuberculosis"
+	
+	8273.1.1 = {birth="8273.1.1"} 
+	8281.1.1 = {
+		death = {
+			death_reason = death_trait
+		}
+	}
+}
+1054060 = {
+	name="Hodor"
+	dynasty=60
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=3060
+	mother=10760
+	
+	add_trait="weak"
+	add_trait="has_tuberculosis"
+	
+	8280.1.1 = {birth="8280.1.1"} 
+	8281.1.1 = {
+		death = {
+			death_reason = death_trait
+		}
+	}
+}
+###
+###House Mollen
+###
+86 = {
+	name="Hodor"
+	dynasty=86
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=1086
+	mother=5086
+	
+	8261.1.1 = {birth="8261.1.1"}
+}
+1086 = {
+	name="Hodor"
+	dynasty=86
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=6086
+	
+	8236.1.1 = {birth="8236.1.1"} 
+	8252.1.1 = {add_spouse = 5086}
+	8281.1.1 = {death="8281.1.1"}
+}
+5086 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="old_gods"
+	culture="northman"
+
+	8236.1.1 = {birth="8236.1.1"} 
+	8281.1.1 = {death="8281.1.1"}
+}
+2086 = {
+	name="Hodor" #becomes captain of the guard for Ned.
+	dynasty=86
+	
+	martial=7
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+
+	employer=59
+	
+	mother=5086
+	father=1086
+	
+	8271.1.1 = {birth="8271.1.1"}
+}
+3086 = {
+	name="Hodor"
+	female=yes
+	dynasty=86
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=1086
+	mother=5086
+	
+	8262.1.1 = {birth="8262.1.1"}
+}
+4086 = {
+	name="Hodor"
+	female=yes
+	dynasty=86
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=1086
+	mother=5086
+	
+	8257.1.1 = {birth="8257.1.1"}
+}
+###
+###House Cerwyn
+###
+61 = {
+	name="Hodor"
+	dynasty=61
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=4061
+	
+	8244.1.1 = {birth="8244.1.1"} 
+	8260.1.1 = {
+		add_spouse = 3061
+		add_trait=trained_warrior
+	}
+	8298.1.1 = {add_trait="wounded"}
+	8299.2.11 = {
+		effect = {
+			c_harrenhal = {
+				holder_scope = {
+					ROOT = { 
+						imprison = PREV 
+						set_character_flag = captured_in_battle
+					}
+				}
+			}
+		}
+	}
+	8299.3.1 = {
+		# Died imprisoned at Harrenhal
+		death = {
+			death_reason = death_dungeon
+			killer = 190
+		}
+	}
+}
+3061 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="old_gods"
+	culture="northman"
+
+	8244.1.1 = {birth="8244.1.1"} 
+	8297.1.1 = {death="8297.1.1"}
+}
+1061 = {
+	name="Hodor"
+	dynasty=61
+	
+	martial=8
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=61
+	mother=3061
+	
+	add_trait=brave
+	
+	8285.1.1 = {birth="8285.1.1"} 
+	8298.1.1 = { add_trait=trained_warrior } 
+	8299.6.29 = {
+		death = {
+			death_reason = death_battle
+			killer = 2087
+		}
+	}
+}
+2061 = {
+	name="Hodor"
+	female=yes
+	dynasty=61
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=61
+	mother=3061
+	
+	8267.1.1 = {birth="8267.1.1"}
+}
+###
+###House Overton - Made Up.
+###
+85 = {
+	name="Hodor"
+	dynasty=85
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=3085
+	
+	8260.1.1 = {birth="8260.1.1"}
+	8278.1.1 = {add_spouse = 1085}
+}
+1085 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="old_gods"
+	culture="northman"
+
+	8262.1.1 = {birth="8262.1.1"}
+}
+2085 = {
+	name="Hodor"
+	dynasty=85
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=85
+	mother=1085
+
+	8280.1.1 = {birth="8280.1.1"}
+}
+###
+###House Hornwood
+###
+151083 = { #mentioned landed grandfather
+	name="Hodor"
+
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait=tough_soldier
+	add_trait=strong
+	
+	8224.1.1 = {birth="8224.1.1"}
+	8240.1.1 = {
+		add_trait = trained_warrior
+	}
+	8299.1.1 = {
+		add_trait = infirm
+		add_trait = incapable
+	}
+}
+10083 = {
+	name="Hodor"
+	dynasty=83
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=11083
+	
+	8238.1.1 = {birth="8238.1.1"}
+	8254.1.1 = {add_spouse = 4083}
+	8276.1.1 = {death="8276.1.1"}
+}
+4083 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father = 151083
+
+	8242.1.1 = {
+		birth="8242.1.1"
+		effect = {
+			father_even_if_dead = { ROOT = { dynasty = PREV } }
+		}
+	}
+	8296.1.1 = {death="8296.1.1"}
+}
+83 = {
+	name="Hodor"
+	dynasty=83
+	
+	martial = 4
+	diplomacy = 4
+	intrigue = 4
+	stewardship = 4 
+	learning = 4
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="proud"
+	add_trait="gregarious"
+	add_trait="kind"
+	add_trait="honorable"
+	add_trait="misguided_warrior"
+	
+	father=10083
+	mother=4083
+
+	8258.1.1 = {birth="8258.1.1"}
+	8274.1.1 = {add_trait=trained_warrior}
+	8276.1.1 = {add_spouse = 4080}
+	8299.1.1 = {
+		death = {
+			# Was defeated by Tywin Lannister, yet not slain by his hands.
+			death_reason = death_battle
+			killer = 190
+		}
+	}
+}
+1083 = {
+	name="Hodor"
+	dynasty=83
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=83
+	mother = 4080
+	
+	8276.1.1 = {birth="8276.1.1"} 
+	8292.1.1 = {add_trait=trained_warrior}
+	8299.1.1 = {
+		death = {
+			#Killed by the Kingslayer
+			death_reason = death_battle
+			killer = 3190
+		}
+	}
+}
+1001083 = {
+	name="Hodor"
+	dynasty=83
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=83
+	
+	add_trait="bastard"
+	give_nickname = nick_snow
+	
+	add_trait=brave
+	add_trait=diligent
+	
+	8288.1.1 = {birth="8288.1.1"} 
+	8298.1.1 = {add_trait=poor_warrior}
+	8299.1.1 = {
+		add_claim = c_hornwood
+		employer = 62 #Glovers
+	}
+}
+3083 = {
+	name="Hodor"
+	female=yes
+	dynasty=83
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=10083
+	mother=4083
+
+	8261.1.1 = {birth="8261.1.1"}
+	8299.1.1 = {
+		add_claim = c_hornwood
+	}
+}
+###
+###House Woolfield
+###
+82 = {
+	name="Hodor"
+	dynasty=82
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=3082
+	
+	8248.1.1 = {birth="8248.1.1"}
+	8264.1.1 = {add_spouse = 2082}
+	8265.1.1 = {add_trait=trained_warrior add_trait=tough_soldier}
+}
+2082 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="old_gods"
+	culture="northman"
+
+	8248.1.1 = {birth="8248.1.1"}
+}
+1082 = {
+	name="Hodor" #Will marry Wilis Manderly
+	female=yes
+	dynasty=82
+
+	dna="bijci0ldaa0"
+	properties="cf0efkbebcb"
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=82
+	mother=2082
+	
+	8264.1.1 = {birth="8264.1.1"}
+}
+16082 = {
+	name="Hodor" # Son of Lord Woolfield, so the Manderlys don't inherit straight away.
+	dynasty=82
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=82
+	mother=2082
+	
+	8266.1.1 = {birth="8266.1.1"}
+	8282.1.1 = {add_spouse=17082}
+	8282.1.2 = {add_trait=trained_warrior add_trait=tough_soldier}
+}
+17082 = {
+	name="Hodor" # Wife of Wayn
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+
+	
+	8266.1.1 = {birth="8266.1.1"}
+}
+18082 = {
+	name="Hodor" # Younger son of Lord Woolfield.
+	dynasty=82
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=82
+	mother=2082
+	
+	8271.1.1 = {birth="8271.1.1"}
+	8287.1.1 = {add_trait=trained_warrior add_trait=tough_soldier}
+}
+###Grand children of Lord Woolfield###
+19082 = {
+	name="Hodor" # 
+	dynasty=82
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=16082
+	mother=17082
+	
+	add_trait=twin
+	
+	8283.1.1 = {birth="8283.1.1"}
+	8999.1.1 = {add_trait=trained_warrior add_trait=tough_soldier}
+}
+20082 = {
+	name="Hodor" # 
+	dynasty=82
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=16082
+	mother=17082
+	
+	add_trait=twin
+	
+	8283.1.1 = {birth="8283.1.1"}
+}
+21082 = {
+	name="Hodor" # 
+	dynasty=82
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=16082
+	mother=17082
+	
+	8286.1.1 = {birth="8286.1.1"}
+}
+####################
+###House Manderly###
+####################
+1034080 = {
+	name="Hodor" #All father
+	dynasty=80
+	
+	religion="the_seven"
+	culture="half_southron"
+	
+	father=10080
+	
+	8194.1.1 = {birth="8194.1.1"} 
+	8210.1.1 = {add_spouse = 10580}
+	8210.1.1 = {
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+	8251.1.1 = {death="8251.1.1"}
+}
+10580 = {
+	name="Hodor" #All mother
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="half_southron"
+	
+	8194.1.1 = {birth="8194.1.1"} 
+	8251.1.1 = {death="8251.1.1"}
+}
+##Issue of Brandon
+1004080 = {
+	name="Hodor"
+	dynasty=80
+	
+	religion="the_seven"
+	culture="half_southron"
+	
+	father=1034080
+	mother=10580
+	
+	8220.1.1 = {birth="8220.1.1"} 
+	8236.1.1 = {
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+	8239.1.1 = { add_spouse = 4004080 }
+	8260.1.1 = {death="8260.1.1"}
+}
+4004080 = {
+	name="Hodor"
+	female=yes
+	
+	religion="the_seven"
+	culture="half_southron"
+	
+	8220.1.1 = {birth="8220.1.1"} 
+	8289.1.1 = {death="8289.1.1"}
+}
+1025080 = {
+	name="Hodor"
+	dynasty=80
+	female = yes
+	
+	religion="the_seven"
+	culture="half_southron"
+	
+	father=1034080
+	mother=10580
+	
+	8221.1.1 = {birth="8221.1.1"} 
+	8292.1.1 = {death="8292.1.1"}
+}
+1014080 = {
+	name="Hodor"
+	dynasty=80
+	
+	religion="the_seven"
+	culture="half_southron"
+	
+	father=1034080
+	mother=10580
+	
+	8228.1.1 = {birth="8228.1.1"}
+	8242.1.1 = {
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}	
+	8285.1.1 = {death="8285.1.1"}
+}
+1024080 = {
+	name="Hodor"
+	dynasty=80
+	
+	religion="the_seven"
+	culture="half_southron"
+	
+	father=1034080
+	mother=10580
+	
+	8230.1.1 = {birth="8230.1.1"} 
+	8246.1.1 = {
+		add_trait="knight"
+		add_trait="poor_warrior"
+	}
+	8290.1.1 = {death="8290.1.1"}
+}
+##Issue of Ofgar
+80 = {
+	name="Hodor"
+	dynasty=80
+	dna="cikai0cfag0"
+	properties="cd0gikbebcb"
+	
+	martial = 6
+	diplomacy = 9
+	intrigue = 10
+	stewardship = 9 
+	learning = 6
+	
+	religion="the_seven"
+	culture="half_southron"
+		
+	father=1004080
+	mother=4004080
+
+	8239.1.1 = {birth="8239.1.1"}
+	8245.1.1 = {add_trait="gluttonous"}
+	8250.1.1 = {
+		add_trait="charitable"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="deceitful"
+	}
+	8254.1.1 = { #Fooled Freys and Boltons
+		add_trait="intricate_webweaver"
+		add_trait=knight
+		add_trait=poor_warrior
+	} 
+	8260.1.1 = {add_spouse = 10680}
+	8260.1.1 = {
+		 
+	}
+	8280.1.1 = {
+		give_nickname=nick_the_lord_lamprey
+		remove_trait=poor_warrior
+	}
+	8292.1.1 = {
+		add_trait=widowed
+	}
+}
+10680 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="half_southron"
+	
+	8246.1.1 = {birth="8246.1.1"}
+	8292.1.1 = {
+		death = yes
+	}
+}
+##Issue of Wyman
+1080 = {
+	name="Hodor"
+	dynasty=80
+
+	dna="cikai0bfag0"
+	properties="ck0ggkbebcb"
+	
+	religion="the_seven"
+	culture="half_southron"
+		
+	add_trait="proud"
+
+	father=80
+	mother=10680
+	
+	8261.1.1 = {birth="8261.1.1"}
+	8271.1.1 = {add_trait="squire"}
+	8277.1.1 = {add_trait="poor_warrior"}
+	8280.1.1 = {add_spouse=1082}
+	8281.1.1 = {remove_trait="squire"
+				add_trait="knight"
+				add_trait="brave"
+	}
+	8299.2.11 = {
+		effect = {
+			c_harrenhal = {
+				holder_scope = {
+					ROOT = { 
+						imprison = PREV 
+						set_character_flag = captured_in_battle
+					}
+				}
+			}
+		}
+	}
+	8299.6.1 = {
+		effect = { prisoner = no clr_character_flag = captured_in_battle }
+	}
+	8299.9.1 = {
+		effect = {
+			e_iron_throne = {
+				holder_scope = {
+					ROOT = { 
+						imprison = PREV 
+						set_character_flag = captured_in_battle
+					}
+				}
+			}
+		}
+	}
+	8300.3.1 = {
+		effect = { prisoner = no clr_character_flag = captured_in_battle }
+	}
+}
+2080 = {
+	name="Hodor"
+	dynasty=80
+
+	dna="cbkei0cfag0"
+	properties="cn0gekbebcb"
+	
+	religion="the_seven"
+	culture="half_southron"
+
+	add_trait="brave"
+	add_trait="proud"
+	add_trait="squire"
+	add_trait="poor_warrior"
+	
+	father=80
+	mother=10680
+	
+	8263.1.1 = {birth="8263.1.1"} 
+	8274.1.1 = {add_trait="squire"}
+	8279.1.1 = {add_trait="poor_warrior"}
+	8282.1.1 = {remove_trait="squire"
+				add_trait="knight"
+				add_trait="brave"
+	}
+	
+	8299.11.5 = {
+		# The Red Wedding
+		death = {
+			death_reason = death_murder
+			killer = 127
+		}
+	}
+}
+##Issue of Wylis
+771080 = {
+	name="Hodor"
+	dynasty=80
+	female=yes
+
+	dna="bjbai0bfac0"
+	properties="cl0ggkbebcb"
+	
+	religion="the_seven"
+	culture="half_southron"
+		
+	add_trait="proud"
+
+	father=1080
+	mother=1082
+	
+	8280.1.1 = {birth="8280.1.1"}
+	8289.1.1 = {add_trait="deceitful"}
+	8295.1.1 = {add_trait="flamboyant_schemer"}
+}
+781080 = {
+	name="Hodor"
+	dynasty=80
+	female=yes
+
+	dna="dkkai0bfac0"
+	properties="cj0ggkbebcb"
+	
+	religion="the_seven"
+	culture="half_southron"
+		
+	add_trait="honorable"
+	add_trait="honest"
+	add_trait="wroth"
+	
+	father=1080
+	mother=1082
+	
+	8284.1.1 = {birth="8284.1.1"}
+	8292.1.1 = {
+		add_trait="brave"
+	}
+}
+##Issue of Damon
+3080 = {
+	name="Hodor" #captain of the guard
+	dynasty=80
+
+	dna="cegmi0cfbg0"
+	properties="cl0hbkbebcb"
+	
+	martial = 7
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 3 
+	learning = 5
+	
+	religion="the_seven"
+	culture="half_southron"
+	
+	add_trait="deceitful"
+	add_trait="skilled_tactician"
+	
+	father=1014080
+
+	8258.1.1 = {birth="8258.1.1"}
+	8274.1.1 = {
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+}
+##Issue of Willem
+4080 = {
+	name="Hodor" #Ramsay Starves her
+	female=yes
+	dynasty=80
+	
+	religion="the_seven"
+	culture="half_southron"
+	
+	father=1024080
+	
+	add_trait = kind
+	add_trait = proud	
+	add_trait = fair
+	
+	8249.1.1 = {birth="8249.1.1"} 
+	8299.1.1 = { #Husband is killed, forced to marry Ramsay
+		add_trait = depressed		
+		add_trait = widowed
+	}
+	8299.3.4 = {
+		add_trait = stressed
+	}	
+	8299.3.7 = {
+		death = {
+			# Ramsey Starves her
+			death_reason = death_dungeon
+			killer = 2087
+		}
+	}
+}
+
+151080 = { #Castellan of the Wolf's Den
+	name="Hodor"
+	
+	martial = 4
+	stewardship = 4
+	diplomacy = 3
+	intrigue = 2
+	learning = 2
+
+	religion="old_gods"
+	culture="northman"
+		
+	add_trait="brave"
+	add_trait="tough_soldier"
+	add_trait="honorable"
+	
+	8234.1.1 = {
+		birth="8234.1.1"
+		effect = {
+			dynasty = none
+			if = {
+				limit = { is_ruler = no }
+				c_whiteharbor = { holder_scope = { ROOT = { move_character = PREV } } }
+			}
+		}
+	}
+	8240.1.1 = {
+		add_trait=skilled_warrior
+		add_trait=drunkard
+	}
+	8260.1.1={
+		employer = 80
+	}
+	8284.1.1 = {
+		employer = 151080
+		add_trait = knight #after battle of trident?
+		add_trait = one_eyed
+	}
+	8293.1.1 = {
+		effect = {
+			if = {
+				limit = { has_dlc = "Reapers" }
+				add_trait = one_legged
+			}
+			if = {
+				limit = { NOT = { has_dlc = "Reapers" } }
+				add_trait = crippled
+			}
+		}
+	}
+}
+152080 = { #Unnamed knight, possibly son of manderly/woolfield
+	name="Hodor"
+	dynasty = 800867
+	
+	martial = 4
+	stewardship = 3
+	diplomacy = 4
+	intrigue = 2
+	learning = 2
+
+	religion="the_seven"
+	culture="half_southron"
+		
+	add_trait="tough_soldier"
+	add_trait="honorable"	
+	add_trait="wroth"
+	add_trait="brave"
+	add_trait="bastard"
+	
+	give_nickname = nick_snow
+	
+	father = 4082
+	mother = 1025080
+	
+	8237.1.1 = {
+		birth="8237.1.1"
+		effect = {
+			if = {
+				limit = { is_ruler = no }
+				c_whiteharbor = { holder_scope = { ROOT = { move_character = PREV } } }
+			}
+		}
+	}
+	8253.1.1 = {
+		add_trait=trained_warrior
+		add_trait=knight
+	}
+}
+###
+###House Flint
+###
+###Of the fingers
+75 = {
+	name="Hodor"
+	dynasty=84
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	
+	father=10077
+	mother=10577
+
+	8241.1.1 = {birth="8241.1.1"}
+	8257.1.1 = {add_spouse = 10677}
+}
+10677 = {
+	name="Hodor"
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+
+	add_trait="naive_appeaser"
+	
+	8221.1.1 = {birth="8221.1.1"}
+	8280.1.1 = {death="8280.1.1"}
+}
+10175 = {
+	name="Hodor"
+	dynasty=84
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	
+	father=75
+	mother=10677
+
+	8261.1.1 = {birth="8261.1.1"}
+}
+10275 = {
+	name="Hodor"
+	dynasty=84
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="proud"
+	
+	father=75
+	mother=10677
+
+	8271.1.1 = {birth="8271.1.1"}
+}
+77 = {
+	name="Hodor"
+	dynasty=84
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=10077
+	mother=10577
+
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	
+	8245.1.1 = {birth="8245.1.1"}
+	8261.1.1 = {add_spouse = 10777}
+	8265.1.1 = {
+		add_trait = blinded_age
+	}
+}
+10777 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="proud"
+	add_trait="naive_appeaser"
+	
+	religion="old_gods"
+	culture="northman"
+	
+	8245.1.1 = {birth="8245.1.1"}
+}
+10375 = {
+	name="Hodor"
+	dynasty=84
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=77
+	mother=10777
+	
+	add_trait="proud"
+
+	8261.1.1 = {birth="8261.1.1"}
+}
+150084 = {
+	name="Hodor"
+	dynasty=84
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=77
+	mother=10777
+	
+	add_trait=tough_soldier
+	
+	8265.1.1 = {birth="8265.1.1"}
+	8284.1.1 = {
+		add_trait=knight
+		add_trait=trained_warrior
+		add_trait=nightswatch
+		effect = { d_nightswatch = { holder_scope = { ROOT = { move_character = PREV } } } }
+	}
+	8299.7.8 = {
+		# Killed in the mutiny at Craster's Keep
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+10475 = {
+	name="Hodor"
+	dynasty=84
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=77
+	mother=10777
+	
+	add_trait="proud"
+
+	8271.1.1 = {birth="8271.1.1"}
+}
+10077 = {
+	name="Hodor" #all father
+	dynasty=84
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+	
+	father=11077
+	
+	8221.1.1 = {birth="8221.1.1"}
+	8236.1.1 = {add_spouse = 10577}
+	8260.1.1 = {death="8260.1.1"}
+}
+10577 = {
+	name="Hodor" #all mother
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+
+	add_trait="naive_appeaser"
+	
+	8221.1.1 = {birth="8221.1.1"}
+	8260.1.1 = {death="8260.1.1"}
+}
+###Of widows Watch
+84 = {
+	name="Hodor"
+	female=yes
+	dynasty=84
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="proud"
+	add_trait="underhanded_rogue"
+	
+	father=3084
+	mother=1002083 # Hornwood bride
+
+	8257.1.1 = {birth="8257.1.1"}
+	8273.1.2 = {
+		add_matrilineal_spouse = 2084
+	}
+}
+2084 = {
+	name="Hodor"
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+
+	8257.1.1 = {birth="8257.1.1"}
+	8299.11.5 = {
+		# The Red Wedding
+		death = {
+			death_reason = death_murder
+			killer = 127
+		}
+	}
+}
+100084 = {
+	name="Hodor" # Lady Flint was preggers during the harest fair in winterfell.
+	dynasty=84
+	
+	religion="old_gods"
+	culture="northman"
+		
+	father=2084
+	mother=84
+
+	8299.10.5 = {birth="8299.10.5"}
+}
+1084 = {
+	name="Hodor"
+	dynasty=84
+	
+	martial = 7
+	diplomacy = 5
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="proud"
+	add_trait="tough_soldier"
+	
+	mother = 84
+	father = 2084
+	
+	8277.1.1 = {birth="8277.1.1"}
+	8299.11.5 = {
+		# The Red Wedding
+		death = {
+			death_reason = death_murder
+			killer = 127
+		}
+	}
+}
+###Of the hill clans, Mountains (True Flints)
+2075 = {
+	name="Hodor"
+	dynasty=84
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	add_trait="proud"
+	add_trait="tough_soldier"	
+	
+	father=17075
+	mother=2010075
+
+	8232.1.1 = {birth="8232.1.1"}
+	8255.1.1 = {add_spouse=3075 add_trait="trained_warrior" }
+	8263.1.1 = {add_spouse=5075}
+	8295.1.1 = {give_nickname = nick_the_old}
+	8300.3.1 = {
+		effect = {
+			set_defacto_liege = ROOT
+			any_demesne_title = {
+				limit = { 
+					OR = {
+						tier = COUNT
+						tier = DUKE
+					}
+				}				
+				set_variable = { which = "de_facto_kingdom" value = 2 } #north
+			}
+			k_stormlands = {
+				holder_scope = { 
+					ROOT = {
+						join_attacker_wars = PREV
+					}
+					reverse_opinion = {
+						modifier = opinion_with_rebel_leader
+						who = ROOT
+						years = 100
+					}
+				}
+			}
+			k_north = {
+				holder_scope = { 
+					opinion = {
+						modifier = opinion_traitor
+						who = ROOT
+					}
+				}
+			}
+			set_character_flag = against_king
+			set_character_flag = against_loyal_liege
+		}
+	}
+}
+3075 = {
+	name="Hodor"
+	female = yes
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	8238.1.1 = {birth="8238.1.1"}
+	8259.1.1 = {death="8259.1.1"}
+}
+4075 = {
+	name="Hodor"
+	dynasty=84
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	add_trait="proud"
+	add_trait="cruel"
+	add_trait="tough_soldier"	
+	
+	father = 2075
+	mother = 3075
+	
+	8257.1.1 = {birth="8257.1.1"}
+	8273.1.1 = {add_trait="trained_warrior"}
+	8277.1.1 = {give_nickname = nick_the_black}
+}
+5075 = {
+	name="Hodor"
+	female = yes
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	8240.1.1 = {birth="8240.1.1"}
+}
+6075 = {
+	name="Hodor"
+	dynasty=84
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	father = 2075
+	mother = 5075
+	
+	8264.1.1 = {birth="8264.1.1"}
+	8280.1.1 = {add_trait="trained_warrior"}
+}
+175084 = {
+	name="Hodor"
+	dynasty=84
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	father = 4075
+	mother = 5075
+	
+	8280.1.1 = {birth="8280.1.1"}
+	8296.1.1 = {add_trait="trained_warrior"}
+}
+176084 = {
+	name="Hodor"
+	dynasty=84
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	father = 4075
+	mother = 5075
+	
+	8282.1.1 = {birth="8282.1.1"}
+	8298.1.1 = {add_trait="trained_warrior"}
+}
+177084 = {
+	name="Hodor"
+	dynasty=84
+	female = yes
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	father = 4075
+	mother = 5075
+	
+	8284.1.1 = {birth="8284.1.1"}
+}
+178084 = {
+	name="Hodor"
+	dynasty=84
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	father = 4075
+	mother = 5075
+	
+	8287.1.1 = {birth="8287.1.1"}
+}
+###Torghens non-canon brothers, nephews and mother### So there's more Mountain Flints. Figures there'd be loads if they have two large cadet houses already.
+
+1010075 = {
+	name="Hodor"
+	dynasty=84
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	father=17075
+	mother=2010075
+	
+	8235.1.1 = {birth="8235.1.1"}
+	8257.1.1 = {add_trait=content add_trait=trained_warrior add_trait=tough_soldier add_trait=lustful}
+	8305.1.1 = {death="8305.1.1"}
+}
+1011075 = {
+	name="Hodor"
+	dynasty=84
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	father=17075
+	mother=2010075
+	
+	8237.1.1 = {birth="8237.1.1"}
+	8255.1.1 = {add_trait=content add_trait=trained_warrior add_trait=tough_soldier}
+	8303.1.1 = {death="8303.1.1"}
+}
+#############
+###Nephews###
+#############
+1012075 = {
+	name="Hodor" # Son of Willem
+	dynasty=84
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	father=1011075
+	mother=2011075
+	
+	8271.1.1 = {birth="8271.1.1"}
+	8287.1.1 = {add_trait=content add_trait=trained_warrior add_trait=tough_soldier}
+	8305.1.1 = {death="8305.1.1"}
+}
+1013075 = {
+	name="Hodor" # Bastard of Barth
+	dynasty=84
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	father=1010075
+	
+	add_trait="bastard"
+	give_nickname = nick_snow
+	
+	8272.1.1 = {birth="8272.1.1"}
+	8288.1.1 = {add_trait=content add_trait=trained_warrior add_trait=tough_soldier}
+	8301.1.1 = {death="8301.1.1"}
+}
+1014075 = {
+	name="Hodor" # Son of Willem
+	dynasty=84
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	father=1011075
+	mother=2011075
+	
+	8274.1.1 = {birth="8274.1.1"}
+	8291.1.1 = {add_trait=content add_trait=trained_warrior add_trait=tough_soldier}
+	8317.1.1 = {death="8317.1.1"}
+}
+### Flint grandmother###
+2010075 = {
+	name="Hodor"
+	female=yes
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	
+	8210.1.1 = {birth="8210.1.1"}
+	8230.1.1 = {add_spouse=17075}
+	8268.1.1 = {death="8268.1.1"}
+}
+###Flint aunt###
+2011075 = {
+	name="Hodor"
+	female=yes
+	
+	religion="old_gods"
+	culture="hill_clansman"
+	
+	
+	8237.1.1 = {birth="8237.1.1"}
+	8259.1.1 = {add_spouse=1011075} # Willem Flint
+	8276.1.1 = {death="8276.1.1"}
+}
+#################
+###House Locke###
+#################
+88 = {
+	name="Hodor"
+	dynasty=88
+	
+	religion="the_seven"
+	culture="northman"
+	
+	father=5088
+	
+	8234.1.1 = {birth="8234.1.1"}
+	8250.1.1 = {add_spouse = 4088}
+}
+###
+4088 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="northman"
+	
+	8234.1.1 = {birth="8234.1.1"}
+}
+1088 = {
+	name="Hodor"
+	dynasty=88
+	
+	martial = 6
+	
+	religion="the_seven"
+	culture="northman"
+	
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="knight"
+	
+	father=88
+	mother=4088
+
+	8261.1.1 = {birth="8261.1.1"}
+	8280.1.1 = {add_spouse=1090} # Sybelle Waterman
+	8299.2.11 = {
+		effect = {
+			c_harrenhal = {
+				holder_scope = {
+					ROOT = { 
+						imprison = PREV 
+						set_character_flag = captured_in_battle
+					}
+				}
+			}
+		}
+	}
+	8299.6.1 = {
+		effect = { prisoner = no }
+	}
+	8299.11.5 = {
+		# The Red Wedding
+		death = {
+			death_reason = death_murder
+			killer = 127
+		}
+	}
+}
+2088 = {
+	name="Hodor"
+	
+	dynasty=88
+	
+	martial = 4
+	diplomacy = 4
+	intrigue = 1
+	stewardship = 3
+	learning = 2
+	
+	religion="the_seven"
+	culture="northman"
+	
+	add_trait="shy"
+	add_trait="tough_soldier"
+	add_trait="knight"
+	
+	father=88
+	mother=4088
+	
+	8262.1.1 = {birth="8262.1.1"}
+	8281.1.1 = {	
+		add_trait="nightswatch"
+	}
+	8299.7.7={
+		death = { death_reason = death_battle } ##fist of first men
+	}
+}
+3088 = {
+	name="Hodor"
+	female=yes
+	dynasty=88
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=88
+	mother=4088
+
+	8265.1.1 = {birth="8265.1.1"}
+}
+17088 = {
+	name="Hodor" # Added son so the Glovers don't inherit Oldcastle through Sybelle
+	dynasty=88
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=88
+	mother=4088
+
+	8267.1.1 = {birth="8267.1.1"}
+	8283.2.1 = {add_trait=trained_warrior add_trait=tough_soldier}
+}
+###Ondrews grandchildren###
+18088 = {
+	name="Hodor"
+	dynasty=88
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=1088
+	mother=1090 # Sybelle Waterman
+
+	8285.1.1 = {birth="8285.1.1"}
+}
+19088 = {
+	name="Hodor"
+	dynasty=88
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=1088
+	mother=1090 # Sybelle Waterman
+
+	8288.1.1 = {birth="8288.1.1"}
+}
+20088 = {
+	name="Hodor"
+	dynasty=88
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=1088
+	mother=1090 # Desanya Waterman
+
+	8291.1.1 = {birth="8291.1.1"}
+}
+#################
+###House Wells###
+#################
+81 = {
+	name="Hodor"
+	dynasty=81
+	
+	religion="the_seven"
+	culture="northman"
+
+	father=3081
+	
+	8253.1.1 = {birth="8253.1.1"}
+	8269.1.1 = {add_spouse = 2081}
+}
+60000081 = {
+	name="Hodor" # Joined warriors sons
+	dynasty=81
+	
+	martial=7
+	
+	religion="the_seven"
+	culture="northman"
+
+	father=3081
+	
+	add_trait=zealous
+	add_trait=content
+	add_trait=chaste
+	add_trait=brave
+	add_trait=just
+	
+	8261.1.1 = {birth="8261.1.1"}
+	8277.1.1 = {
+		add_trait=knight 
+		add_trait=skilled_warrior 
+		add_trait=tough_soldier
+	}
+	8300.3.1 = { #Becomes Commander of The Warrior's Sons
+		add_trait = disinherited
+		add_trait = celibate
+	}
+}
+2081 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="northman"
+
+	8253.1.1 = {birth="8253.1.1"}
+}
+1081 = {
+	name="Hodor"
+	female=yes
+	dynasty=81
+	
+	religion="the_seven"
+	culture="northman"
+
+	father=81
+	mother=2081
+	
+	8272.1.1 = {birth="8272.1.1"}
+}
+20081 = {
+	name="Hodor"
+	dynasty=81
+	
+	religion="the_seven"
+	culture="northman"
+
+	father=81
+	mother=2081
+	
+	8278.1.1 = {birth="8278.1.1"}
+}
+21081 = {
+	name="Hodor"
+	dynasty=81
+	
+	religion="the_seven"
+	culture="northman"
+
+	father=81
+	mother=2081
+	
+	8281.1.1 = {birth="8281.1.1"}
+}
+####################
+###House Waterman###
+####################
+90 = {
+	name="Hodor"
+	dynasty=90
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=2090
+	mother=3090
+	
+	8266.1.1 = {birth="8266.1.1"}
+}
+1001090 = {
+	name="Hodor"
+	dynasty=90
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=2090
+	mother=3090
+	
+	8269.1.1 = {birth="8269.1.1"}
+	8281.1.1 = {add_trait=content}
+}
+1090 = {
+	name="Hodor" # Married Desmond Locke
+	female=yes
+	dynasty=90
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=2090
+	mother=3090
+	
+	8270.1.1 = {birth="8270.1.1"}
+}
+2090 = {
+	name="Hodor"
+	dynasty=90
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=4090
+	
+	8250.1.1 = {birth="8250.1.1"}
+	8266.1.1 = {add_spouse = 3090}
+	8281.1.1 = {death="8281.1.1"}
+}
+3090 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="old_gods"
+	culture="northman"
+	
+	8250.1.1 = {birth="8250.1.1"}
+	8281.1.1 = {death="8281.1.1"}
+}
+####################
+###House Mormont###
+####################
+1102 = {
+	name="Hodor" #Founder.
+	dynasty=102
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=8102
+	
+	8207.1.1 = {birth="8207.1.1"}
+	8223.1.1 = {add_spouse = 11002}
+	8247.1.1 = { add_trait="longclaw" }
+	8272.1.1 = {death="8272.1.1"}
+}
+11002 = {
+	name="Hodor"
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+	
+	8207.1.1 = {birth="8207.1.1"}
+	8281.1.1 = {death="8281.1.1"}
+}
+336 = {
+	name="Hodor" #BADASS!
+	dynasty=102
+	dna="bkbhfwjhegx"
+	properties="0g00c"
+	
+	martial = 10
+	diplomacy = 5
+	intrigue = 2
+	stewardship = 6
+	learning = 4
+	
+	religion="old_gods"
+	culture="northman"
+	
+	#add_trait="honest"
+	add_trait="skilled_tactician"
+	add_trait="knight"
+	add_trait="strong"
+	#add_trait="patient"
+	add_trait="proud"
+	add_trait="brave"
+	add_trait="content"
+	add_trait="cynical"
+	add_trait="crow"
+	#add_trait="mystic"
+	add_trait="authoritative"
+	add_trait="familyperson"
+	
+	father=1102
+	mother=11002
+	
+	8230.1.1 = {birth="8230.1.1"}
+	8246.1.1 = { add_trait="skilled_warrior" }
+	8255.1.1 = { 		
+		add_spouse = 4000336
+	}
+	8272.1.1 = { add_trait="longclaw" }
+	8279.1.1 = {give_nickname = nick_the_old_bear}
+	8280.1.1 = { add_trait="widowed" }	
+	8281.1.1 = {
+		#Takes the Black, leaves Jorah Longclaw
+		add_trait="nightswatch"
+		remove_trait="longclaw"
+	}
+	8293.6.1 = {
+		#Gets Longclaw back after Jorah flees
+		add_trait="longclaw"
+	}
+	8298.1.1 = {
+		# Gave Longclaw to Jon
+		remove_trait="longclaw"
+	}
+	# 8299.2.1 = {
+		# raise_levies = {
+			# location = 9 #Fist of the First Men
+			# force_mult = 1
+		# }
+	# }
+	# 8299.7.7 = {
+		# raise_levies = {
+			# dismiss = yes
+			# location = 9 #Fist of the First Men
+			# force_mult = 1
+		# }
+	# }
+	8299.7.8 = {
+		# Killed in the mutiny at Craster's Keep
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+4000336 = {
+	name="Hodor"
+	female = yes
+	
+	religion="old_gods"
+	culture="northman"
+
+	8230.1.1 = {birth="8230.1.1"}
+	8280.1.1 = {
+		death = yes
+	}
+}
+102 = {
+	name="Hodor" #Jorah Motherfucking Mormont!
+	dynasty=102
+	dna="cmliglcdbba"
+	properties="0a00c"
+	
+	martial = 10
+	diplomacy = 4
+	intrigue = 4
+	stewardship = 1
+	learning = 4
+	
+	religion="the_seven"
+	culture="northman"
+	
+	add_trait="deceitful"
+	add_trait="tough_soldier"
+	add_trait="strong"
+	add_trait="proud"
+	add_trait="brave"
+	add_trait="content"
+	add_trait="cynical"
+	#add_trait="slow"
+	
+	father=336
+	mother=4000336
+	
+	8255.1.1 = {birth="8255.1.1"}
+	8265.1.1 = {
+		add_trait="squire"
+		add_trait="trained_warrior"
+	}
+	8271.1.1 = {
+		remove_trait="squire"
+		add_trait="knight"
+	}
+	8276.1.1 = {add_spouse = 1005062} #A sick Glover, should die soon, his new wife is scripted in the reach files to marry him at 8290.
+	8281.1.1 = {
+		# Jeor left him Longclaw
+		add_trait="longclaw"
+	}
+	8293.6.1 = {
+		# Exiled
+		remove_trait="longclaw"
+		effect = {
+			if = {
+				limit = { NOT = { year = 8298 } }
+				b_mopatis = {
+					holder_scope = {
+						reverse_banish = ROOT
+					}
+				}
+			}
+			father = {
+				opinion = {
+					modifier = opinion_resentful_agot
+					who = ROOT
+					years = 20
+				}
+				reverse_opinion = {
+					modifier = opinion_resentful_agot
+					who = ROOT
+					years = 20
+				}
+			}
+			if = { #Asshole wont stay exiled in the east
+				limit = { father = { is_alive = yes } }
+				set_father = 0
+				c_336 = {
+					ROOT = { set_real_father = PREV }
+				}
+			}
+			if = {
+				limit = { NOT = { year = 8299 } }
+				k_north = {
+					holder_scope = { 
+						reverse_opinion = {
+							modifier = opinion_resentful_agot
+							who = ROOT
+							years = 100
+						}
+						opinion = {
+							modifier = opinion_slaver
+							who = ROOT
+							years = 100
+						}
+					}
+				}
+			}
+		}
+	}
+	# Takes up with Khal Drogo and later Dany
+	8298.1.1 = { employer = 300100 }
+	8298.1.2 = { employer = 0 }
+	8298.10.10 = {  # Drogo's death
+		employer = 77041 #Dany	
+	} 
+	8300.3.1 = {
+		effect = {
+			if = {
+				limit = { is_ruler = no }
+				c_volantis = {
+					holder_scope = {
+						reverse_banish = ROOT
+					}
+				}
+			}
+		}
+	}
+}
+
+2102 = {
+	name="Hodor"
+	female=yes
+	dynasty=102
+	dna="clfddfgbgaz"
+	properties="cl0ddk0000"
+	
+	martial = 7
+	diplomacy = 5
+	intrigue = 6
+	stewardship = 7
+	learning = 5
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="tough_soldier"	
+	add_trait="strong"
+	add_trait="proud"
+	add_trait="zealous"
+	add_trait="brave"
+	add_trait="kind"
+	add_trait="wroth"
+	add_trait="stubborn"
+	add_trait="familyperson"
+	
+	father=1102
+	mother=11002
+	
+	8249.1.1 = {birth="8249.1.1" }
+	8265.1.1 = {
+		add_trait="trained_warrior"
+	}
+	8272.1.1 = {
+		add_matrilineal_spouse = 4002102
+	}
+	8300.3.1 = {
+		effect = {
+			set_defacto_liege = ROOT
+			any_demesne_title = {
+				limit = { 
+					OR = {
+						tier = COUNT
+						tier = DUKE
+					}
+				}				
+				set_variable = { which = "de_facto_kingdom" value = 2 } #north
+			}
+			k_stormlands = {
+				holder_scope = { 
+					ROOT = {
+						join_attacker_wars = PREV
+					}
+					reverse_opinion = {
+						modifier = opinion_with_rebel_leader
+						who = ROOT
+						years = 100
+					}
+				}
+			}
+			k_north = {
+				holder_scope = { 
+					opinion = {
+						modifier = opinion_traitor
+						who = ROOT
+					}
+				}
+			}
+			set_character_flag = against_king
+			set_character_flag = against_loyal_liege
+		}
+	}
+}
+4002102 = {
+	name="Hodor"
+
+	dna="bfedj0blga0"
+	properties="ul0fckbebcb"
+
+	religion="old_gods"
+	culture="northman"
+
+	8249.1.1 = {birth="8249.1.1"}
+	8265.1.1 = {
+		add_trait="trained_warrior"
+	}
+}
+3102 = {
+	name="Hodor"
+	female=yes
+	dynasty=102
+	dna="ckjebujbgaj"
+	properties="cm0dqk0000"
+	
+	martial = 7
+	diplomacy = 6
+	intrigue = 6
+	stewardship = 6
+	learning = 4
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="misguided_warrior"	
+	add_trait="strong"
+	add_trait="proud"
+	add_trait="brave"
+	add_trait="fair"
+	add_trait="kind"
+	
+	mother = 2102
+	father = 4002102
+	
+	8273.1.1 = {birth="8273.1.1" }
+	8289.1.1 = { add_trait="trained_warrior" }
+	8299.11.5 = {
+		# The Red Wedding
+		death = {
+			death_reason = death_murder
+			killer = 5306 # Ryman Frey
+		}
+	}
+}
+5102 = {
+	name="Hodor"
+	female=yes
+	dynasty=102
+	dna="cicbdzhbgag"
+	properties="cl0drk0000"
+	
+	martial = 9
+	diplomacy = 4
+	intrigue = 6
+	stewardship = 6
+	learning = 4
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="tough_soldier"
+	add_trait="strong"
+	add_trait="proud"
+	add_trait="brave"
+	add_trait="ugly"
+	add_trait="kind"
+	add_trait="wroth"
+	
+	mother = 2102
+	father = 4002102
+	
+	8275.1.1 = {birth="8275.1.1"}
+	8284.1.1 = {give_nickname = nick_the_shebear}	
+	8291.1.1 = { add_trait="trained_warrior" }	
+	8294.1.1 = { 
+		add_matrilineal_spouse = 4005102
+	}
+}
+4005102 = {
+	name="Hodor"
+
+	religion="old_gods"
+	culture="northman"
+
+	8275.1.1 = {birth="8275.1.1"}
+	8291.1.1 = {
+		add_trait="trained_warrior"
+	}
+}
+
+4102 = {
+	name="Hodor"
+	female=yes
+	dynasty=102
+	
+	martial = 7
+
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="strong"
+	add_trait="proud"
+	
+	mother = 2102
+	father = 4002102
+
+	8280.1.1 = {birth="8280.1.1" }
+}
+7102 = {
+	name="Hodor"
+	female=yes
+	dynasty=102
+	
+	martial = 7
+
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="strong"
+	add_trait="proud"
+	
+	mother = 2102
+	father = 4002102
+	
+	8284.1.1 = {birth="8284.1.1" }
+}
+6102 = {
+	name="Hodor"
+	female=yes
+	dynasty=102
+	
+	martial = 7
+
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="strong"
+	add_trait="proud"
+	
+	mother = 2102
+	father = 4002102
+	
+	8290.1.1 = {birth="8290.1.1" }
+}
+#Alysane's children
+1005102 = {
+	name="Hodor"
+	female=yes
+	dynasty=102
+
+	religion="old_gods"
+	culture="northman"
+
+	mother = 5102
+	father = 4005102
+	
+	8294.1.1 = {birth="8294.1.1" }
+}
+1015102 = {
+	name="Hodor"
+	dynasty=102
+
+	religion="old_gods"
+	culture="northman"
+
+	mother = 5102
+	father = 4005102
+	
+	8297.1.1 = {birth="8297.1.1" }
+}
+###################
+###House Ryswell###
+###################
+68 = {
+	name="Hodor"
+	dynasty=68
+	dna="cegahzgbgcb"
+	properties="ci0ead0000"
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=10168
+	
+	add_trait="proud"
+	add_trait="tough_soldier"
+	add_trait="trained_warrior"
+
+	8234.1.1 = {birth="8234.1.1"}
+	8260.1.1 = {add_spouse = 10568}
+}
+10568 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	add_trait="proud"
+	
+	religion="old_gods"
+	culture="northman"
+
+	8234.1.1 = {birth="8234.1.1"}
+}
+2068 = {
+	name="Hodor"
+	female=yes
+	dynasty=68
+	dna="dgkiibhgbcu"
+	properties="cg0elk0000"
+	
+	martial = 2
+	diplomacy = 5
+	intrigue = 8
+	stewardship = 5 
+	learning = 5
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="underhanded_rogue"
+	add_trait="envious"
+	add_trait="proud"
+	add_trait="fair"
+	
+	father=68
+	mother=10568
+	
+	8259.1.1 = {birth="8259.1.1"}
+	8284.1.1 = {add_trait="widowed"}
+}
+5068 = {
+	name="Hodor"
+	female=yes
+	dynasty=68
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="naive_appeaser"
+	add_trait="proud"
+	
+	father = 68
+	mother=10568
+	
+	8250.1.1 = {birth="8250.1.1"}
+	8298.1.1 = {
+		# Died of a fever
+		add_trait="ill"
+		death = { death_reason = death_trait }
+	}
+}
+10068 = {
+	name="Hodor" ###the all father
+	dynasty=68
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=11068
+	mother=40020068
+	
+	8204.1.1 = {birth="8204.1.1"}
+	8223.1.1 = { add_spouse=40010068 }
+	8250.1.1 = {death="8250.1.1"}
+}
+1001068 = {
+	name="Hodor" ### brother of Uhtred, married a Flint of the Mountain. Neds maternal grandfather.
+	dynasty=68
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=11068
+	mother=40020068
+	
+	8205.1.1 = {birth="8205.1.1"}
+	8250.1.1 = {death="8250.1.1"}
+}
+1002068 = {
+	name="Hodor" # 
+	dynasty=68
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=1001068
+
+	8233.1.1 = {birth="8233.1.1"}
+	8275.1.1 = {death= {death_reason = death_accident}}
+}
+40010068 = {
+	name="Hodor" ###the all mother
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+
+	8204.1.1 = {birth="8204.1.1"}
+	8250.1.1 = {death="8250.1.1"}
+}
+10168 = {
+	name="Hodor"
+	dynasty=68
+
+	religion="old_gods"
+	culture="northman"
+	
+	father=10068
+	mother=40010068
+
+	8218.1.1 = {birth="8218.1.1"}
+	8255.1.1 = {death="8255.1.1"}
+}
+##Rogers Branch### \Changed/ in aDwD Reek chapter. Roger, Rickard and Roose are stated to be Rodriks sons rather than cousin. (They are still placed as cousins in the appendix however.)
+10268 = {
+	name="Hodor" # Made him male as the Ryswells succession in later scenarios was only from Rodrik to Barbary. \Chrisjm89/
+	dynasty=68
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=10068
+	mother=40010068
+
+	8236.1.1 = {birth="8236.1.1"}
+	8276.1.1 = {death="8276.1.1"}
+}
+3068 = {
+	name="Hodor"
+	dynasty=68
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="ambitious"
+	add_trait="proud"
+	
+	father=68
+	mother=10568
+
+	8260.1.1 = {birth="8260.1.1"}
+	8284.1.1 = { add_spouse=4003068 }
+}
+4003068 = {
+	name="Hodor"
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+
+	8254.1.1 = {birth="8254.1.1"}
+}
+200068 = {
+	name="Hodor"
+	dynasty=68
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=3068
+	mother=4003068
+
+	8286.1.1 = {birth="8286.1.1"}
+}
+201068 = {
+	name="Hodor"
+	dynasty=68
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=3068
+	mother=4003068
+
+	8288.1.1 = {birth="8288.1.1"}
+}
+###Rickard's Branch # Rickard changed to Rodriks son.
+10368 = {
+	name="Hodor" # Made male so the Ryswell cousins are in the Ryswell succession. \Chrisjm89/
+	dynasty=68
+
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=10068
+	mother=40010068
+
+	8240.1.1 = {birth="8240.1.1"}
+	8273.1.1 = {death="8273.1.1"}
+}
+4007068 = {
+	name="Hodor"
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+
+	8241.1.1 = {birth="8241.1.1"}
+}
+207068 = {
+	name="Hodor"
+	dynasty=68
+
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=10368
+	mother=4007068
+
+	8262.1.1 = {birth="8262.1.1"}
+	8278.1.1 = {add_trait=trained_warrior}
+}
+206068 = {
+	name="Hodor"
+	dynasty=68
+	female=yes
+
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=10368
+	mother=4007068
+
+	8273.1.1 = {birth="8273.1.1"}
+}
+6068 = {
+	name="Hodor" # Changed to Rodrik's son.
+	dynasty=68
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="ambitious"
+	add_trait="proud"
+	
+	father=68
+	mother=10568
+
+	8259.1.1 = {birth="8259.1.1"}
+	8275.1.1 = {add_trait=trained_warrior}
+	8280.1.1 = { add_spouse=4006068}
+}
+4006068 = {
+	name="Hodor"
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+
+	8258.1.1 = {birth="8258.1.1"}
+}
+202068 = {
+	name="Hodor"
+	dynasty=68
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=6068
+	mother=4006068
+
+	8284.1.1 = {birth="8284.1.1"}
+}
+###Roose's Branch # Changed to Rodrik's son.
+10468 = {
+	name="Hodor"
+	dynasty=68
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=10068
+	mother=40010068
+
+	8243.1.1 = {birth="8243.1.1"}
+	8275.1.1 = {death="8275.1.1"}
+}
+205068 = {
+	name="Hodor"
+	dynasty=68
+	
+	religion="old_gods"
+	culture="northman"
+	
+	mother=10468
+
+	8271.1.1 = {birth="8271.1.1"}
+	8287.1.1 = {add_trait=trained_warrior}
+	8321.1.1 = {death="8321.1.1"}
+}
+4068 = {
+	name="Hodor" # Changed to be Rodriks son
+	dynasty=68
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="ambitious"
+	add_trait="proud"
+	
+	father=68
+	mother=10568
+
+	8265.1.1 = {birth="8265.1.1"}
+	8281.1.1 = {add_trait=trained_warrior}
+	8284.1.1 = { add_spouse=4004068}
+}
+4004068 = {
+	name="Hodor"
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+
+	8265.1.1 = {birth="8265.1.1"}
+}
+203068 = {
+	name="Hodor"
+	dynasty=68
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=4068
+	mother=4004068
+	
+	add_trait=twin
+
+	8290.1.1 = {birth="8290.1.1"}
+}
+204068 = {
+	name="Hodor"
+	dynasty=68
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=4068
+	mother=4004068
+	
+	add_trait=twin
+
+	8290.1.1 = {birth="8290.1.1"}
+}
+###
+9068 = {
+	name="Hodor" #Eddard stark companion at TOJ, ### Moved Mark to different branch, above.
+	dynasty=68
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="knight"
+	add_trait="brave"
+	add_trait="kind"
+	add_trait="honorable"
+		
+	father=1002068
+
+	8262.1.1 = {birth="8262.1.1"}
+	8278.1.1 = {
+		add_trait="skilled_warrior"
+	}
+	8282.9.15 = { #RR
+		effect = {
+			set_character_flag = TOJ_companion
+			character_event = { id = tower_of_joy.1 days = 2 }
+		}
+	}
+	8284.1.1 = {
+		death = {
+			# Killed by Arthur Dayne
+			death_reason = death_duel
+			killer = 16
+		}
+	}
+}
+##########################
+###House Slate - Made up
+##########################
+71 = {
+	name="Hodor"
+	dynasty=71
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=13071
+	
+	8259.1.1 = {birth="8259.1.1"}
+	8275.1.1 = {add_spouse = 1071}
+}
+1071 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="old_gods"
+	culture="northman"
+
+	8259.1.1 = {birth="8259.1.1"}
+}
+1171 = {
+	name="Hodor"
+	dynasty=71
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=71
+	mother=1071
+
+	8276.1.1 = {birth="8276.1.1"}
+}
+12071 = {
+	name="Hodor"
+	dynasty=71
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=71
+	mother=1071
+
+	8280.1.1 = {birth="8280.1.1"}
+}
+###House Whitehill
+70 = {
+	name="Hodor"
+	dynasty=70
+	
+	dna = "bcgefihdabs"
+	properties = "0d0ehk00000000"
+	
+	religion="the_seven"
+	culture="northman"
+
+	father=13070
+	
+	diplomacy = 2
+	learning = 3
+	stewardship = 6
+	
+	add_trait = proud
+	add_trait = rude
+	add_trait = familyperson
+	add_trait = ambitious
+	
+	8252.1.1 = {birth="8252.1.1"}
+	8273.1.1 = {add_spouse = 1070}
+	8300.1.1 = {
+		add_claim = c_blackgrove
+		effect = {
+			c_blackgrove = {
+				holder_scope = {
+					any_sibling = { # Takes Ryon hostage
+						limit = {
+							is_female = no
+							NOT = { trait = disinherited }
+						}
+						imprison = ROOT
+						hidden_tooltip = {
+							remove_character_modifier = the_dungeon
+							add_character_modifier = { 
+								name = house_arrest
+								duration = -1
+							}
+						}
+						opinion = {
+							modifier = opinion_arrest_attempt
+							who = ROOT
+							years = 100
+						}
+					}
+				}
+			}
+		}
+	}
+}
+1070 = {
+	name="Hodor"
+	female=yes
+	
+	dna = "aehferidaek"
+	properties = "0k0cck00000000"
+
+	add_trait="naive_appeaser"
+	
+	religion="the_seven"
+	culture="northman"
+
+	8251.1.1 = {birth="8251.1.1"}
+	8281.1.1 = {
+		death = {
+			death_reason = death_childbirth
+		}
+	}
+}
+1370 = {
+	name="Hodor"
+	dynasty=70
+	
+	religion="the_seven"
+	culture="northman"
+	
+	father=70
+	mother=1070
+
+	8271.1.1 = {birth="8271.1.1"}
+	8283.1.1 = {
+		effect = {
+			c_the_citadel = {
+				holder_scope = {
+					ROOT = { move_character = PREV }
+				}
+			}
+			add_character_modifier = {
+				name = maester_education
+				duration = -1
+			}
+		}
+	}
+	8287.1.1 = { add_trait="fortune_builder" }
+	8291.1.1 = {
+		add_trait="maester"
+		add_trait="mastermind_theologian"
+		remove_trait="fortune_builder"
+		effect = { remove_character_modifier = maester_education }
+	}
+}
+1470 = {
+	name="Hodor"
+	dynasty=70
+	
+	religion="the_seven"
+	culture="northman"
+	
+	father=70
+	mother=1070
+
+	8273.1.1 = {birth="8273.1.1"}
+}
+1570 = {
+	name="Hodor"
+	dynasty=70
+	
+	religion="the_seven"
+	culture="northman"
+	
+	father=70
+	mother=1070
+
+	8276.1.1 = {birth="8276.1.1"}
+	8297.1.1 = {
+		add_trait = has_greyscale
+		death = { death_reason = death_trait }
+	}
+}
+1170 = {
+	name="Hodor"
+	dynasty=70
+	
+	dna = "cdekflkbabp"
+	properties = "cj0dhk00000000"
+	
+	religion="the_seven"
+	culture="northman"
+	
+	father=70
+	mother=1070
+
+	8281.1.1 = {birth="8281.1.1"}
+}
+12070 = {
+	name="Hodor"
+	dynasty=70
+	female=yes
+	
+	dna = "cdkjaljaabw"
+	properties = "cm0cfk00000000"
+	
+	religion="the_seven"
+	culture="northman"
+	
+	father=70
+	mother=1070
+
+	8278.1.1 = {birth="8278.1.1"}
+}
+11111070 = { # Courtier of House Whitehill, killed Gared Tuttle's father and sister
+	name="Hodor"
+	
+	religion="the_seven"
+	culture="northman"
+	
+	8270.1.1 = {
+		birth="8270.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8286.1.1 = {add_trait=trained_warrior add_trait=misguided_warrior }
+	8299.8.1 = {
+		effect = {
+			add_rival = 511443 # Gared Tuttle
+		}
+	}
+	8300.1.1 = {
+		add_trait=nightswatch
+	}
+	8300.2.1 = {
+		death = {
+			death_reason = death_duel
+			killer = 511443 # Gared Tuttle
+		}
+	}
+}
+###That house that sounds french.
+65 = {
+	name="Hodor"
+	dynasty=65
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="weak"
+	
+	father=13065
+	
+	8259.1.1 = {birth="8259.1.1"}
+	8275.1.1 = {add_spouse = 1065}
+}
+1065 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="old_gods"
+	culture="northman"
+
+	8259.1.1 = {birth="8259.1.1"}
+}
+1165 = {
+	name="Hodor"
+	dynasty=65
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=65
+	mother=1065
+
+	8276.1.1 = {birth="8276.1.1"}
+}
+12065 = {
+	name="Hodor"
+	dynasty=65
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=65
+	mother=1065
+
+	8280.1.1 = {birth="8280.1.1"}
+}
+###
+###House Tallhart
+###
+101 = {
+	name="Hodor"
+	dynasty=101
+	dna="dkaiioedbaa"
+	properties="cc0dxk0000"
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=6101
+	mother=7101
+	
+	add_trait="proud"
+	
+	
+	8256.1.1 = {birth="8256.1.1"}
+	8272.1.1 = {
+		add_trait="brilliant_strategist"
+		add_trait="skilled_warrior"
+	}
+	8282.1.1 = {add_spouse = 8101}
+	8285.1.1 = {add_trait="knight"}
+	8299.9.1 = {
+		death = {
+			# Killed by Randyll Tarly
+			death_reason = death_battle
+			killer = 296
+		}
+	}
+}
+8101 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="old_gods"
+	culture="northman"
+	
+	8253.1.1 = {birth="8253.1.1"}
+}
+1101 = {
+	name="Hodor"
+	dynasty=101
+	
+	religion="old_gods"
+	culture="northman"
+	#add_trait="romantic"
+	add_trait="tough_soldier"
+	add_trait="rude"
+	add_trait="proud"
+	
+	father=101
+	mother=8101
+	
+	8281.1.1 = {birth="8281.1.1"}
+	8297.1.1 = { add_trait="poor_warrior" }
+	8299.4.1 = {
+		death = {
+			# Killed by Theon Greyjoy
+			death_reason = death_execution
+			killer = 4107
+		}
+	}
+}
+2101 = {
+	name="Hodor"
+	female=yes
+	dynasty=101
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=101
+	mother=8101
+	
+	8290.1.1 = {birth="8290.1.1"}
+}
+3101 = {
+	name="Hodor"
+	dynasty=101
+	
+	martial=8
+	stewardship=10
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=6101
+	mother=7101
+	
+	8260.1.1 = {birth="8260.1.1"}
+	8276.1.1 = { add_trait="trained_warrior" }
+	8280.1.1 = {add_spouse = 3083}
+
+	8299.6.29 = {
+		death = {
+			# Killed by Ramsey Snow/Bolton
+			death_reason = death_battle
+			killer = 2087
+		}
+	}
+}
+4101 = {
+	name="Hodor"
+	dynasty=101
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=3101
+	mother = 3083
+	
+	8284.1.1 = {birth="8284.1.1"}
+	8299.1.1 = {
+		effect = { c_hornwood = { add_claim = ROOT } }
+	}
+}
+5101 = {
+	name="Hodor"
+	dynasty=101
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=3101
+	mother = 3083
+	
+	8289.1.1 = {birth="8289.1.1"}
+	8299.1.1 = {
+		effect = { c_hornwood = { add_claim = ROOT } }
+	}
+}
+6101 = {
+	name="Hodor"
+	dynasty=101
+	dna="dkaiioedbaa"
+	properties="cc0dxk0000"
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="proud"
+	
+	father=19101
+	
+	8232.1.1 = {birth="8232.1.1"}
+	8248.1.1 = {add_spouse = 7101}
+	8281.1.1 = {death="8281.1.1"}
+}
+7101 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	add_trait="proud"
+	
+	religion="old_gods"
+	culture="northman"
+	
+	8232.1.1 = {birth="8232.1.1"}
+	8281.1.1 = {death="8281.1.1"}
+}
+###
+###House Dustin
+###
+79 = {
+	name="Hodor" #One of eddard special 6.
+	dynasty=79
+	dna="bmamkeehcgg"
+	properties="ce0cid0000"
+	
+	martial = 8
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 5 
+	learning = 5
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait="strong"
+	add_trait="fair"
+	add_trait="gregarious"
+	add_trait="just"
+	add_trait="tough_soldier"
+	
+	father=1079
+	
+	8253.1.1 = {birth="8253.1.1"}
+	8269.1.1 = {
+		add_trait="trained_warrior"
+	}
+	8281.1.1 = {add_spouse = 2068}
+	8282.9.15 = { #RR
+		effect = {
+			set_character_flag = TOJ_companion
+			character_event = { id = tower_of_joy.1 days = 2 }
+		}
+	}
+	8284.1.1 = {
+		death = { # Killed by Arthur Dayne		
+			death_reason = death_duel
+			killer = 16
+		}
+	}
+}
+###
+###House Stout
+###
+10069 = {
+	name="Hodor" #the retarted nightswatchmen
+	dynasty=69
+	
+	martial = 6
+	diplomacy = 6
+	intrigue = 6
+	stewardship = 6 
+	learning = 6
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=11069
+	
+	add_trait=tough_soldier
+	
+	8203.1.1 = {
+		birth="8203.1.1"
+		effect = { health = 5 }
+	}
+	8220.1.1 = {
+		add_trait="nightswatch"
+		add_trait=knight
+		add_trait=skilled_warrior
+		employer=3067362 #Sleepy Jack Musgood
+		effect = {
+			add_character_modifier = {
+				name = nw_ranger
+				duration = -1
+			}
+		}
+	}
+	8290.1.1 = {
+		add_trait="incapable"
+	}	
+}
+69 = {
+	name="Hodor" #The lord
+	dynasty=69
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=10169
+	mother=10269
+
+	8250.1.1 = {birth="8250.1.1"}
+	8274.1.1 = {add_spouse = 10369}
+	8283.1.1 = {			#Lost arm. Not sure when, but RR looks like perfect time for such things
+		effect = {
+			if = {
+				limit = { has_dlc = "Reapers" }
+				add_trait = one_handed
+			}
+			if = {
+				limit = { NOT = { has_dlc = "Reapers" } }
+				add_trait = "disfigured_AGOT"
+			}
+		}
+	}
+}
+10369 = {
+	name="Hodor" #Wife
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="old_gods"
+	culture="northman"
+
+	8250.1.1 = {birth="8250.1.1"}
+}
+10169 = {
+	name="Hodor"
+	dynasty=69
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=22069
+	
+
+	8222.1.1 = {birth="8222.1.1"}
+	8244.1.1 = {add_spouse = 10269}
+	8268.1.1 = {death="8268.1.1"}
+}
+10269 = {
+	name="Hodor"
+	female=yes
+
+	add_trait="naive_appeaser"
+	
+	religion="old_gods"
+	culture="northman"
+
+	8222.1.1 = {birth="8222.1.1"}
+	8268.1.1 = {death="8268.1.1"}
+}
+1069 = {
+	name="Hodor"
+	dynasty=69
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=69
+	mother=10369
+	
+	8271.1.1 = {birth="8271.1.1"}
+}
+2069 = {
+	name="Hodor"
+	female=yes
+	dynasty=69
+	
+	religion="old_gods"
+	culture="northman"
+
+	father=69
+	mother=10369
+	
+	8280.1.1 = {birth="8280.1.1"}
+}
+################
+###Crannogmen###
+################
+###
+###House Marsh
+###
+78 = {
+	name="Hodor"
+	dynasty=78
+	
+	religion="old_gods"
+	culture="crannogman"
+	
+	add_trait="proud"
+	add_trait="mystic"
+	
+	father=10078
+	mother=10178
+	
+	8250.1.1 = {birth="8250.1.1"}
+	8266.1.1 = {add_spouse = 10278}
+}
+10278 = {
+	name="Hodor"
+	female=yes
+	
+	religion="old_gods"
+	culture="crannogman"
+	
+	add_trait="proud"
+	add_trait="mystic"
+	
+	
+	8250.1.1 = {birth="8250.1.1"}
+}
+10078 = {
+	name="Hodor"
+	dynasty=78
+	
+	religion="old_gods"
+	culture="crannogman"
+	
+	add_trait="proud"
+	add_trait="mystic"
+	
+	father=11078
+	
+	8230.1.1 = {birth="8230.1.1"}
+	8246.1.1 = {add_spouse = 10178}
+	8270.1.1 = {death="8270.1.1"}
+}
+10178 = {
+	name="Hodor"
+	female=yes
+	
+	religion="old_gods"
+	culture="crannogman"
+	
+	add_trait="proud"
+	add_trait="mystic"
+	
+	8230.1.1 = {birth="8230.1.1"}
+	8270.1.1 = {death="8270.1.1"}
+}
+1078 = {
+	name="Hodor"
+	dynasty=78
+	
+	religion="old_gods"
+	culture="crannogman"
+	
+	add_trait="proud"
+	add_trait="mystic"
+
+	father=78
+	mother=10278
+	
+	8281.1.1 = {birth="8281.1.1"}
+}
+3336 = {
+	name="Hodor"
+	
+	dynasty=78
+
+	dna="bedgc0lgba0"
+	properties="cj0qhkbebcb"
+	
+	martial = 3
+	diplomacy = 4
+	intrigue = 5
+	stewardship = 10
+	learning = 5
+	
+	religion="old_gods"
+	culture="crannogman"
+	
+	father=10078
+	mother=10178
+	
+	add_trait="cynical"
+	add_trait="thrifty_clerk"
+	add_trait="mystic"
+
+	8263.1.1 = {birth="8263.1.1"}
+	8281.1.1 = {	
+		add_trait="nightswatch"
+		effect = { 
+			add_character_modifier = {
+				name = nw_steward
+				duration = -1
+			}
+		} 
+	}
+	8294.1.1 = {
+		effect = { 
+			d_nightswatch = {
+				holder_scope = {
+					ROOT = { move_character = PREV }
+				}
+			}
+			remove_title = job_chancellor
+			remove_title = job_marshal
+			remove_title = job_treasurer
+			remove_title = job_spymaster
+			remove_title = job_spiritual
+			give_job_title = job_castellan
+		} 
+	}
+}
+###
+###House Fenn
+###
+73 = {
+	name="Hodor"
+	female=yes
+	dynasty=73
+	
+	religion="old_gods"
+	culture="crannogman"
+	
+	add_trait="proud"
+	add_trait="mystic"
+
+	father=2073
+	
+	8237.1.1 = {birth="8237.1.1"}
+}
+1173 = {
+	name="Hodor"
+	
+	religion="old_gods"
+	culture="crannogman"
+	
+	add_trait="proud"
+	add_trait="mystic"
+	
+	8237.1.1 = {birth="8237.1.1"}
+	8253.1.1 = {add_spouse = 73}
+}
+1073 = {
+	name="Hodor"
+	dynasty=73
+	
+	religion="old_gods"
+	culture="crannogman"
+	
+	add_trait="proud"
+	add_trait="mystic"
+	
+	mother=73
+	father=1173
+
+	8272.1.1 = {birth="8272.1.1"}
+}
+###
+###House Reed
+###
+126 = {
+	name="Hodor" #One of eddard special 6.
+	dynasty=126
+	dna="cjddktcbaak"
+	properties="cm0did0000"
+	
+	martial = 7
+	diplomacy = 7
+	intrigue = 7
+	stewardship = 7
+	learning = 7
+	
+	religion="old_gods"
+	culture="crannogman"
+	
+	add_trait="proud"	
+	add_trait="brave"
+	add_trait="mystic"
+	add_trait="tough_soldier"
+	
+	father=3126
+	
+	8264.1.1 = {birth="8264.1.1"}
+	8280.1.1 = {
+		add_spouse = 1226
+		add_trait="master_warrior"
+	}
+	8282.9.15 = { #RR
+		effect = {
+			set_character_flag = TOJ_companion
+			character_event = { id = tower_of_joy.1 days = 2 }
+		}
+	}
+	8284.1.1 = { #RR
+		effect = {
+			clr_character_flag = TOJ_companion
+		}
+	}
+	8299.11.5 = {
+		effect = {
+			set_defacto_liege = ROOT
+			any_demesne_title = {
+				limit = { 
+					OR = {
+						tier = COUNT
+						tier = DUKE
+					}
+				}				
+				set_variable = { which = "de_facto_kingdom" value = 2 } #north
+			}
+			set_character_flag = neutral
+			clr_character_flag = supporting_king
+			clr_character_flag = against_king
+		}
+	}
+}
+1226 = {
+	name="Hodor"
+	female=yes
+	
+	religion="old_gods"
+	culture="crannogman"
+	
+	add_trait="proud"
+	add_trait="mystic"
+	
+	8264.1.1 = {birth="8264.1.1"}
+}
+1126 = {
+	name="Hodor" #She took on Summer in a mock fight and won. Personally trained to fight by Howland goddamn Reed.
+	female=yes
+	dynasty=126
+
+	dna="akffc0egbf0"
+	properties="ce0iakbebcb"
+	
+	martial = 5
+	diplomacy = 8
+	intrigue = 5
+	stewardship = 5
+	learning = 5
+	
+	religion="old_gods"
+	culture="crannogman"
+	
+	add_trait="diligent"
+	add_trait="fair"
+	add_trait="kind"
+	add_trait="proud"
+	add_trait="brave"
+	
+	
+	father=126
+	mother=1226
+	
+	8283.1.1 = {birth="8283.1.1"}
+	8290.1.1 = { add_trait="mystic"
+			add_trait="hunter" }
+	8298.1.1 = { add_trait="trained_warrior"
+			add_trait="tough_soldier"
+				}
+	8299.6.29 = {
+		add_trait="has_missing"
+		effect = { 
+			character_event = { id = clash_of_kings.47 days = 3650 } #reveal after 10 years
+			add_friend = 9268059 #Bran
+			add_friend = 2126 #Jojen
+			add_friend = 10174 #Hodor
+		} 
+	}
+}
+2126 = {
+	name="Hodor"
+	dynasty=126
+
+	dna="ajgfc0lgbf0"
+	properties="cd0ghkbebcb"
+	
+	martial = 2
+	diplomacy = 4
+	intrigue = 5
+	stewardship = 5
+	learning = 8
+	
+	religion="old_gods"
+	culture="crannogman"
+	
+	add_trait="weak"
+	add_trait="proud"
+	add_trait="brave"
+	add_trait="mystic"
+	add_trait="grey_eminence"
+	add_trait="greensight"
+	
+	father=126
+	mother=1226
+	
+	8285.1.1 = {birth="8285.1.1"}
+	8299.6.29 = {
+		add_trait="has_missing"
+		effect = { 
+			character_event = { id = clash_of_kings.47 days = 3650 } #reveal after 10 years
+			add_friend = 9268059 #Bran
+			add_friend = 1126 #Meera
+			add_friend = 10174 #Hodor
+		} 
+	}
+}
+###
+###House Cray
+###
+72 = {
+	name="Hodor"
+	dynasty=1448
+	
+	religion="old_gods"
+	culture="crannogman"
+	
+	add_trait="proud"
+	add_trait="mystic"
+
+	father=2072
+	
+	8253.1.1 = {birth="8253.1.1"}
+	8269.1.1 = {add_spouse = 1272}
+}
+1272 = {
+	name="Hodor"
+	female=yes
+	
+	religion="old_gods"
+	culture="crannogman"
+	
+	add_trait="proud"
+	add_trait="mystic"
+
+	8253.1.1 = {birth="8253.1.1"}
+}
+1072 = {
+	name="Hodor"
+	dynasty=1448
+	
+	religion="old_gods"
+	culture="crannogman"
+	
+	add_trait="proud"
+	add_trait="mystic"
+	
+	father=72
+	mother=1272
+
+	8277.1.1 = {birth="8277.1.1"}
+}
+1172 = {
+	name="Hodor"
+	dynasty=1448
+	
+	religion="old_gods"
+	culture="crannogman"
+	
+	add_trait="proud"
+	add_trait="mystic"
+	
+	father=72
+	mother=1272
+
+	8280.1.1 = {birth="8280.1.1"}
+}
+###
+###House Blackmyre
+###
+74 = {
+	name="Hodor"
+	dynasty=74
+	
+	religion="old_gods"
+	culture="crannogman"
+	
+	add_trait="proud"
+	add_trait="mystic"
+
+	father=2074
+	
+	8256.1.1 = {birth="8256.1.1"}
+	8272.1.1 = {add_spouse = 1274}
+}
+1274 = {
+	name="Hodor"
+	female=yes
+	
+	religion="old_gods"
+	culture="crannogman"
+	
+	add_trait="proud"
+	add_trait="mystic"
+
+	8253.1.1 = {birth="8253.1.1"}
+}
+1074 = {
+	name="Hodor"
+	dynasty=74
+	
+	religion="old_gods"
+	culture="crannogman"
+	
+	add_trait="proud"
+	add_trait="mystic"
+	
+	father=74
+	mother=1274
+
+	8277.1.1 = {birth="8277.1.1"}
+}
+1174 = {
+	name="Hodor"
+	dynasty=74
+	
+	religion="old_gods"
+	culture="crannogman"
+	
+	add_trait="proud"
+	add_trait="mystic"
+	
+	father=74
+	mother=1274
+
+	8280.1.1 = {birth="8280.1.1"}
+}
+
+##House Woods
+10001444 = {
+	name="Hodor"
+	dynasty=1444
+	
+	martial = 6
+	
+	religion="old_gods"
+	culture="northman"
+	father=341444
+	mother=841444
+	
+	8253.1.1 = {birth="8253.1.1"}
+	8269.1.1 = {
+		add_trait = trained_warrior
+		add_trait = tough_soldier
+	}
+	8273.1.1 = { add_spouse = 40001444 }
+}
+40001444 = {
+	name="Hodor"
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+	
+	8253.1.1 = {birth="8253.1.1"}
+}
+10011444 = {
+	name="Hodor"
+	dynasty=1444
+
+	religion="old_gods"
+	culture="northman"
+	father=10001444
+	mother=40001444
+	
+	8275.1.1 = {birth="8275.1.1"}
+	8291.1.1 = {
+		add_trait = trained_warrior
+		add_trait = tough_soldier
+	}
+}
+10021444 = {
+	name="Hodor"
+	dynasty=1444
+	female=yes
+
+	religion="old_gods"
+	culture="northman"
+	
+	father=10001444
+	mother=40001444
+	
+	8277.1.1 = {birth="8277.1.1"}
+}
+
+341444 = {
+	name="Hodor"	# a lord
+	dynasty=1444
+
+	religion="old_gods"
+	culture="northman"
+
+	father=291444
+	mother=791444
+
+	8222.1.1 = {birth="8222.1.1"}
+	8238.1.1 = {add_trait=poor_warrior}
+	8240.1.1 = {add_spouse=841444}
+	8282.1.1 = {death = {death_reason = death_battle}}
+}
+841444 = {
+	name="Hodor"	# not a lord
+	female=yes
+
+	religion="old_gods"
+	culture="northman"
+
+	8225.1.1 = {birth="8225.1.1"}
+	8280.1.1 = {death="8280.1.1"}
+}
+351444 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=1444
+
+	religion="old_gods"
+	culture="northman"
+
+	father=291444
+	mother=791444
+
+	8223.1.1 = {birth="8223.1.1"}
+	8283.1.1 = {death="8283.1.1"}
+}
+851444 = {
+	name="Hodor"	# not a lord
+
+	religion="old_gods"
+	culture="northman"
+
+	8220.1.1 = {birth="8220.1.1"}
+	8236.1.1 = {add_trait=poor_warrior}
+	8238.1.1 = {add_spouse=351444}
+	8282.1.1 = {death = {death_reason = death_battle}}
+}
+361444 = {
+	name="Hodor"	# not a lord
+	dynasty=1444
+
+	religion="old_gods"
+	culture="northman"
+
+	father=851444
+	mother=351444
+
+	8244.1.1 = {birth="8244.1.1"}
+	8260.1.1 = {add_trait=poor_warrior}
+	8262.1.1 = {add_spouse=861444}
+}
+861444 = {
+	name="Hodor"	# not a lord
+	female=yes
+
+	religion="old_gods"
+	culture="northman"
+
+	8249.1.1 = {birth="8249.1.1"}
+}
+
+371444 = {
+	name="Hodor"	# not a lord
+	dynasty=1444
+
+	religion="old_gods"
+	culture="northman"
+
+	father=811444
+	mother=311444
+
+	8227.1.1 = {birth="8227.1.1"}
+	8243.1.1 = {add_trait=trained_warrior}
+	8245.1.1 = {add_spouse=871444}
+	8264.1.1 = {death = {death_reason = death_murder}}
+}
+871444 = {
+	name="Hodor"	# not a lord
+	female=yes
+
+	religion="old_gods"
+	culture="northman"
+
+	8229.1.1 = {birth="8229.1.1"}
+	8293.1.1 = {death="8293.1.1"}
+}
+381444 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=1444
+
+	religion="old_gods"
+	culture="northman"
+
+	father=371444
+	mother=871444
+
+	8253.1.1 = {birth="8253.1.1"}
+}
+
+##House Branch
+10001445 = {
+	name="Hodor"
+	dynasty=1445
+	
+	martial = 4
+	
+	religion="old_gods"
+	culture="northman"
+	
+	father=251445
+	mother=751445
+	
+	8250.1.1 = {birth="8250.1.1"}
+	8266.1.1 = {
+		add_trait = trained_warrior
+		add_trait = tough_soldier
+	}
+	8279.1.1 = { add_spouse = 40001445 }
+}
+40001445 = {
+	name="Hodor"
+	female=yes
+	
+	religion="old_gods"
+	culture="northman"
+	
+	8253.1.1 = {birth="8253.1.1"}
+}
+10011445 = {
+	name="Hodor"
+	dynasty=1445
+
+	religion="old_gods"
+	culture="northman"
+	
+	father=10001445
+	mother=40001445
+	
+	8275.1.1 = {birth="8275.1.1"}
+	
+	8291.1.1 = {
+		add_trait = trained_warrior
+	}
+}
+10021445 = {
+	name="Hodor"
+	dynasty=1445
+	female=yes
+
+	religion="old_gods"
+	culture="northman"
+	
+	father=10001445
+	mother=40001445
+	
+	8277.1.1 = {birth="8277.1.1"}
+}
+
+291445 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=1445
+
+	religion="old_gods"
+	culture="northman"
+
+	father=771445
+	mother=271445
+
+	8259.1.1 = {birth="8259.1.1"}
+}
+
+791445 = {
+	name="Hodor"	# not a lord
+
+	religion="old_gods"
+	culture="northman"
+
+	8259.1.1 = {birth="8259.1.1"}
+	8275.1.1 = {add_trait=poor_warrior}
+	8277.1.1 = {add_spouse=291445}
+}
+301445 = {
+	name="Hodor"	# not a lord
+	dynasty=1445
+
+	religion="old_gods"
+	culture="northman"
+
+	father=791445
+	mother=291445
+
+	8282.1.1 = {birth="8282.1.1"}
+	8298.1.1 = {add_trait=poor_warrior}
+}
+
+##House Forrester
+
+301443 = {
+	name="Hodor"	# canon, a lord
+	dynasty=1443
+
+	religion="old_gods"
+	culture="northman"
+
+	father=271443
+	mother=4131443
+	
+	give_nickname=nick_the_bold
+
+	8216.1.1 = {birth="8216.1.1"}
+	8232.1.1 = {add_trait=trained_warrior}
+	8234.1.1 = {add_spouse=4141443}
+	8273.1.1 = {death="8273.1.1"}
+}
+4141443 = {
+	name="Hodor"
+	female=yes
+
+	religion="old_gods"
+	culture="northman"
+
+	8216.1.1 = {birth="8216.1.1"}
+	8273.1.1 = {death="8273.1.1"}
+}
+311443 = { ### Gregor the Good
+	name="Hodor"	# canon, a lord
+	dynasty=1443
+	
+	dna="cgfgbkicagr"
+	properties="0c0dck00000"
+
+	religion="old_gods"
+	culture="northman"
+
+	father=301443
+	mother=4141443
+	
+	diplomacy = 6
+	martial = 8
+	stewardship = 5
+	intrigue = 3
+	learning = 5
+	
+	8250.1.1 = {birth="8250.1.1"}
+	8256.1.1 = {
+		add_trait=skilled_warrior
+		add_trait=brave
+		add_trait=honorable
+		add_trait=kind
+		add_trait=diligent
+		add_trait=just
+		add_trait=skilled_tactician
+		give_nickname = nick_the_good
+	}
+	8279.1.1 = {add_spouse=4151443}
+	8299.1.1 = {
+		effect = {
+			random_courtier = {
+				limit = { character = 391443 }
+				remove_title = job_chancellor	
+				remove_title = job_treasurer
+				remove_title = job_marshal	
+				remove_title = job_spymaster
+				remove_title = job_castellan
+				remove_title = job_spiritual
+				give_job_title = job_marshal
+			}
+			random_courtier = {
+				limit = { character = 501443 }
+				remove_title = job_chancellor	
+				remove_title = job_treasurer
+				remove_title = job_marshal	
+				remove_title = job_spymaster
+				remove_title = job_castellan
+				remove_title = job_spiritual
+				give_job_title = job_castellan
+			}
+		}
+	}
+	8299.8.1 = { 
+		death = { 
+			death_reason = death_murder
+			killer = 127 # Walder Frey - Red Wedding
+		}
+	}
+}
+571443 = {
+	name="Hodor"
+
+	religion="old_gods"
+	culture="northman"
+	
+	dna=baeebbbjkew
+	
+	#father = 311443
+	mother = 5951443
+
+	diplomacy = 2
+	martial = 6
+	stewardship = 1
+	intrigue = 1
+	learning = 2
+	
+	add_trait="bastard"
+	add_trait="twin"
+	give_nickname = nick_snow
+
+	8270.1.1 = {
+		birth="8270.1.1"
+		guardian=450999
+		effect = {
+			c_thenn = {
+				holder_scope = {
+					ROOT = { move_character = PREV }
+				}
+			}
+			c_311443 = {
+				ROOT = { set_real_father = PREV }			
+			}
+		}
+	}
+	8286.1.1 = {
+		add_trait=tough_soldier
+		add_trait=skilled_warrior
+		add_trait=ruthless
+		add_trait=paranoid
+		add_trait=brave
+		add_trait=snowbear
+		add_trait=wroth
+		add_trait=rude
+		add_trait=familyperson
+	}
+}
+581443 = {
+	name="Hodor"
+	female=yes
+
+	religion="old_gods"
+	culture="northman"
+	
+	dna=beffapmjkfb
+	
+	#father = 311443
+	mother = 5951443
+
+	diplomacy = 8
+	martial = 3
+	stewardship = 2
+	intrigue = 4
+	learning = 8
+	
+	add_trait="bastard"
+	add_trait="twin"
+	give_nickname = nick_snow
+
+	8270.1.1 = {
+		birth="8270.1.1"
+		guardian=450999
+		effect = {
+			c_thenn = {
+				holder_scope = {
+					ROOT = { move_character = PREV }
+				}
+			}
+			c_311443 = {
+				ROOT = { set_real_father = PREV }			
+			}
+		}
+	}
+	8286.1.1 = {
+		add_trait=charismatic_negotiator
+		add_trait=back_seat_leader
+		add_trait=ruthless
+		add_trait=gregarious
+		add_trait=brave
+		add_trait=mystic
+		add_trait=familyperson
+		add_trait=honest
+	}
+}
+5951443 = {
+	name="Hodor"
+	female=yes
+
+	religion="old_gods"
+	culture="northman"
+
+	8252.1.1 = {birth="8252.1.1"}
+	8270.1.1 = {
+		effect = {
+			c_thenn = {
+				holder_scope = {
+					ROOT = { move_character = PREV }
+				}
+			}
+		}
+	}
+	8275.1.1 = {death="8275.1.1"}
+}
+4151443 = {
+	name="Hodor"
+	female=yes
+	dynasty=1873 # Branfield
+
+	religion="old_gods"
+	culture="crownlander"
+	
+	father = 551443
+	mother = 40361873
+
+	diplomacy = 8
+	martial = 3
+	stewardship = 5
+	intrigue = 6
+	learning = 6
+
+	8255.1.1 = {birth="8255.1.1"}
+	8271.1.1 = {
+		add_trait=charismatic_negotiator
+		add_trait=familyperson
+		add_trait=patient
+		add_trait=diligent
+		add_trait=just
+	}
+	8299.8.1 = {
+		add_trait = widowed
+	}
+	8301.1.1 = {death="8301.1.1"}
+}
+321443 = {
+	name="Hodor"	# canon, not a lord
+	dynasty=1443
+	
+	dna="cgcibkifeaq"
+	properties="0e0eck0d000"
+
+	religion="old_gods"
+	culture="northman"
+
+	father=311443
+	mother=4151443
+	
+	diplomacy = 6
+	martial = 8
+	stewardship = 5
+	intrigue = 4
+	learning = 5
+
+	8273.1.1 = {birth="8273.1.1"}
+	8289.1.1 = {
+		add_trait=master_warrior
+		add_trait=brave
+		add_trait=diligent
+		add_trait=just
+		add_trait=skilled_tactician
+	}
+	8299.8.1 = {
+		effect = {
+			if = { 
+				limit = { NOT = { has_landed_title = c_blackgrove } }
+				c_127 = {
+					ROOT = {
+						death = { 
+							death_reason = death_murder
+							killer = PREV # Walder Frey - Red Wedding
+						}
+					}	
+				}	
+			}
+			if = { 
+				limit = { has_landed_title = c_blackgrove }
+				if = {
+					limit = { has_dlc = "Reapers" }
+					add_trait_severely_injured_effect = yes
+				}
+				if = {
+					limit = { NOT = { has_dlc = "Reapers" } }
+					add_trait = disfigured_AGOT
+				}
+				remove_trait = master_warrior
+				add_trait = trained_warrior
+				give_nickname = nick_the_ruined
+			}
+		}
+	}
+	8300.1.1 = {
+		effect = {
+			random_courtier = {
+				limit = { character = 391443 }
+				remove_title = job_chancellor	
+				remove_title = job_treasurer
+				remove_title = job_marshal	
+				remove_title = job_spymaster
+				remove_title = job_castellan
+				remove_title = job_spiritual
+				give_job_title = job_marshal
+			}
+			random_courtier = {
+				limit = { character = 501443 }
+				remove_title = job_chancellor	
+				remove_title = job_treasurer
+				remove_title = job_marshal	
+				remove_title = job_spymaster
+				remove_title = job_castellan
+				remove_title = job_spiritual
+				give_job_title = job_castellan
+			}
+			any_courtier = {
+				opinion = {
+					modifier = opinion_loyal_servant
+					who = ROOT
+				}		
+			}
+			random_sibling = {
+				limit = { trait = disinherited } # Asher
+				opinion = {
+					modifier = opinion_loyal_servant
+					who = ROOT
+				}
+			}
+			random_sibling = {
+				limit = {
+					is_female = yes # Mira
+					NOT = { trait = twin }
+				}
+				opinion = {
+					modifier = opinion_loyal_servant
+					who = ROOT
+				}
+			}
+			if = {
+				limit = { 
+					ai = yes 
+					is_ruler = yes
+				}
+				random_list = {
+					1 = {
+						random_courtier = {
+							limit = { character = 391443 }
+							give_minor_title = title_sentinel
+						}
+					}
+					1 = {
+						random_courtier = {
+							limit = { character = 501443 }
+							give_minor_title = title_sentinel
+						}
+					}
+				}
+			}
+		}
+		add_spouse = 10301874
+	}
+}
+331443 = {
+	name="Hodor"	# canon, not a lord
+	dynasty=1443
+	
+	dna="cgmgingcacz"
+	properties="0i0eck00000"
+
+	religion="old_gods"
+	culture="northman"
+
+	father=311443
+	mother=4151443
+
+	diplomacy = 2
+	martial = 8
+	stewardship = 2
+	intrigue = 6
+	learning = 3
+
+	8278.1.1 = {birth="8278.1.1"}
+	8294.1.1 = {
+		add_trait=skilled_warrior
+		add_trait=lustful
+		add_trait=wroth
+		add_trait=familyperson
+		add_trait=skilled_tactician
+		add_trait=ruthless
+		add_trait=rude
+	}
+	8297.1.1 = { # Banished to essos picked a random merc company
+		add_trait = disinherited
+		add_trait = forbid_marriage # Stop him from breaking Forrester inheritance 
+		employer = 1684230 #Tattered Prince
+		effect = { 
+			father = {
+				reverse_opinion = {
+					modifier = opinion_exiled_me
+					who = ROOT
+				}
+				reverse_opinion = {
+					modifier = opinion_disinherited_me
+					who = ROOT
+				}
+			}
+			add_friend = 1684248 # Beskha
+		}
+	}
+	8350.1.1 = {death="8350.1.1"}
+}
+341443 = {
+	name="Hodor"	# canon, not a lord
+	female=yes
+	dynasty=1443
+	
+	dna="dgadaelabbb"
+	properties="0l0dik00000"
+
+	religion="old_gods"
+	culture="northman"
+
+	father=311443
+	mother=4151443
+
+	diplomacy = 8
+	martial = 3
+	stewardship = 6
+	intrigue = 5
+	learning = 4
+
+	8283.1.1 = {birth="8283.1.1"}
+	8299.1.1 = {
+		add_trait=charismatic_negotiator
+		add_trait=temperate
+		add_trait=humble
+		add_trait=trusting
+		add_trait=familyperson
+		add_trait=shy
+	}
+	8300.1.1 = {
+		employer=7316
+		effect = { add_friend=7253 }# Margaery Tyrell
+	}
+	8350.1.1 = {death="8350.1.1"}
+}
+351443 = {
+	name="Hodor"	# canon, a lord
+	dynasty=1443
+
+	religion="old_gods"
+	culture="northman"
+
+	father=311443
+	mother=4151443
+	
+	add_trait=twin
+
+	8286.1.1 = {birth="8286.1.1"}
+	8299.1.1 = {
+		add_trait=poor_warrior
+		add_trait=brave
+		add_trait=diligent
+		add_trait=familyperson
+		add_trait=just
+	}
+	8299.8.1 = {
+		effect = {
+			random_courtier = {
+				limit = { character = 391443 }
+				remove_title = job_chancellor	
+				remove_title = job_treasurer
+				remove_title = job_marshal	
+				remove_title = job_spymaster
+				remove_title = job_castellan
+				remove_title = job_spiritual
+				give_job_title = job_marshal
+			}
+			random_courtier = {
+				limit = { character = 501443 }
+				remove_title = job_chancellor	
+				remove_title = job_treasurer
+				remove_title = job_marshal	
+				remove_title = job_spymaster
+				remove_title = job_castellan
+				remove_title = job_spiritual
+				give_job_title = job_castellan
+			}
+			any_courtier = {
+				opinion = {
+					modifier = opinion_loyal_servant
+					who = ROOT
+				}		
+			}
+			if = {
+				limit = { 
+					ai = yes 
+					is_ruler = yes
+				}
+				random_list = {
+					1 = {
+						random_courtier = {
+							limit = { character = 391443 }
+							give_minor_title = title_sentinel
+						}
+					}
+					1 = {
+						random_courtier = {
+							limit = { character = 501443 }
+							give_minor_title = title_sentinel
+						}
+					}
+				}
+			}
+		}
+	}
+	8300.1.1 = { 
+		death = { 
+			death_reason = death_murder
+			killer = 2087 # Ramsay Snow
+		}
+	}
+}
+361443 = {
+	name="Hodor"	# canon, not a lord
+	female=yes
+	dynasty=1443
+
+	religion="old_gods"
+	culture="northman"
+
+	father=311443
+	mother=4151443
+	
+	add_trait=twin
+
+	8286.1.1 = {birth="8286.1.1"}
+	8299.1.1 = {
+		add_trait=kind
+		add_trait=poet
+		add_trait=familyperson
+		add_trait=just
+	}
+	8350.1.1 = {death="8350.1.1"}
+}
+371443 = {
+	name="Hodor"	# canon, a lord
+	dynasty=1443
+
+	religion="old_gods"
+	culture="northman"
+
+	father=311443
+	mother=4151443
+	
+	add_trait=shy
+	add_trait=quick
+
+	8290.1.1 = {birth="8290.1.1"}
+	8300.1.1 = {
+		guardian = 70 # Ludd Whitehill
+	}
+	8306.1.1 = {add_trait=poor_warrior}
+	8350.1.1 = {death="8350.1.1"}
+}
+# House Forrester courtiers
+381443 = {
+	name="Hodor"	# canon, not a lord
+	dynasty=180 # Supposedly a from a minor vale house
+
+	religion="old_gods"
+	culture="valeman"
+	
+	father=3024180
+	mother=4024180
+	
+	learning = 10
+	
+	employer=311443 # Gregor Forrester
+
+	8253.1.1 = {birth="8253.1.1"}
+	8266.1.1 = {
+		add_trait=maester
+		add_trait=mastermind_theologian
+		add_trait=kind
+		add_trait=patient
+		add_trait=gregarious
+		add_trait=temperate
+		add_trait=trusting
+	}
+	8299.8.1 = {
+		employer=351443 # Ethan Forrester
+	}
+	8300.1.1 = {
+		employer=321443 # Rodrik Forrester
+	}
+	8350.1.1 = {death="8350.1.1"}
+}
+391443 = {
+	name="Hodor"	# canon, not a lord
+	dynasty = 800838 #degore
+	
+	martial=7
+	learning=1
+	intrigue=4
+	stewardship=2
+	diplomacy=4
+
+	religion="old_gods"
+	culture="northman"
+	
+	employer=311443 # Gregor Forrester
+
+	8255.1.1 = {birth="8255.1.1"}
+	8271.1.1 = {		
+		add_trait=trained_warrior
+		add_trait=brilliant_strategist
+		add_trait=rude
+		add_trait=wroth
+		add_trait=brave
+	}
+	8289.6.1 = {
+		add_trait=knight
+		add_trait=scarred
+	}
+	8299.8.1 = {
+		employer=351443 # Ethan Forrester
+	}
+	8300.1.1 = {
+		employer=321443 # Rodrik Forrester
+	}
+	8350.1.1 = {death="8350.1.1"}
+}
+501443 = {
+	name="Hodor"	# canon, not a lord
+	dynasty=1872 # Tuttle
+
+	religion="old_gods"
+	culture="northman"
+	
+	father = 541443
+	
+	stewardship=12
+	diplomacy=5
+	martial=1
+	
+	add_trait=diligent
+	add_trait=trusting
+	add_trait=honest
+	add_trait=just
+	
+	8260.1.1 = {
+		birth="8260.1.1"
+		effect = {
+			if = {
+				limit = { is_ruler = no }
+				c_blackgrove = { holder_scope = { ROOT = { move_character = PREV } } }
+			}
+		}
+	}
+	8276.1.1 = {add_trait=poor_warrior add_trait=fortune_builder}
+}
+511443 = {
+	name="Hodor"	# canon, not a lord
+	dynasty=1872 # Tuttle
+	
+	dna="bafgjegdbga"
+	properties="0e0dhk00000"
+
+	religion="old_gods"
+	culture="northman"
+	
+	father = 531443
+	
+	add_trait=proud
+	add_trait=diligent
+	add_trait=honorable
+	add_trait=kind
+	
+	8281.1.1 = {
+		birth="8281.1.1"
+		effect = {
+			if = {
+				limit = { is_ruler = no }
+				c_blackgrove = { holder_scope = { ROOT = { move_character = PREV } } }
+			}
+		}
+	}
+	8297.1.1 = {add_trait=trained_warrior add_trait=tough_soldier}
+	8299.8.1 = {
+		effect = {
+			add_rival = 11111070 # Britt - Whitehill courtier
+		}
+	}
+	8300.1.1 = {
+		add_trait=nightswatch
+		effect = {
+			add_friend = 121423 # Finn
+			add_friend = 121424 # Cotter
+			add_character_modifier = {
+				name = nw_ranger
+				duration = -1
+			}
+		}
+	}
+}
+521443 = {
+	name="Hodor"	# canon, not a lord
+	dynasty=1873 # Branfield
+
+	religion="old_gods"
+	culture="crownlander"
+	
+	father = 551443
+	mother = 40361873
+	
+	8259.1.1 = {
+		birth="8259.1.1"
+		effect = {
+			if = {
+				limit = { is_ruler = no }
+				c_blackgrove = { holder_scope = { ROOT = { move_character = PREV } } }
+			}
+		}
+	}
+	8275.1.1 = {add_trait=knight add_trait=skilled_warrior add_trait=skilled_tactician}
+}
+531443 = {
+	name="Hodor"	# not a lord
+	dynasty=1872 # Tuttle
+
+	religion="old_gods"
+	culture="northman"
+	
+	father = 541443
+	
+	stewardship=10
+	
+	8251.1.1 = {
+		birth="8251.1.1"
+		effect = {
+			if = {
+				limit = { is_ruler = no }
+				c_blackgrove = { holder_scope = { ROOT = { move_character = PREV } } }
+			}
+		}
+	}
+	8299.8.1 = {
+		death = {
+			death_reason = death_execution
+			killer = 11111070 # Britt - Whitehill courtier
+		}
+	}
+}
+541443 = {
+	name="Hodor"	# not a lord
+	dynasty=1872 # Tuttle
+
+	religion="old_gods"
+	culture="northman"
+	
+	stewardship=10
+	
+	8211.1.1 = {
+		birth="8211.1.1"
+		effect = {
+			if = {
+				limit = { is_ruler = no }
+				c_blackgrove = { holder_scope = { ROOT = { move_character = PREV } } }
+			}
+		}
+	}
+	8260.1.1 = {death="8260.1.1"}
+}
+561443 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=1872 # Tuttle
+
+	religion="old_gods"
+	culture="northman"
+	
+	father = 531443
+	
+	8291.1.1 = {
+		birth="8291.1.1"
+		effect = {
+			if = {
+				limit = { is_ruler = no }
+				c_blackgrove = { holder_scope = { ROOT = { move_character = PREV } } }
+			}
+		}
+	}
+	8299.8.1 = {
+		death = {
+			death_reason = death_execution
+			killer = 11111070 # Britt - Whitehill courtier
+		}
+	}
+}
+
+## House Bole
+
+221446 = {
+	name="Hodor"	# a lord
+	dynasty=1446
+
+	religion="old_gods"
+	culture="northman"
+
+	father=211446
+	mother=711446
+
+	8224.1.1 = {birth="8224.1.1"}
+	8240.1.1 = {add_trait=trained_warrior}
+	8242.1.1 = {add_spouse=721446}
+	8284.1.1 = {death="8284.1.1"}
+}
+721446 = {
+	name="Hodor"	# not a lord
+	female=yes
+
+	religion="old_gods"
+	culture="northman"
+
+	8226.1.1 = {birth="8226.1.1"}
+	8289.1.1 = {death="8289.1.1"}
+}
+231446 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=1446
+
+	religion="old_gods"
+	culture="northman"
+
+	father=211446
+	mother=711446
+
+	8227.1.1 = {birth="8227.1.1"}
+	8282.1.1 = {death="8282.1.1"}
+}
+731446 = {
+	name="Hodor"	# not a lord
+
+	religion="old_gods"
+	culture="northman"
+
+	8224.1.1 = {birth="8224.1.1"}
+	8243.1.1 = {add_trait=poor_warrior}
+	8245.1.1 = {add_spouse=231446}
+	8280.1.1 = {death="8280.1.1"}
+}
+241446 = {
+	name="Hodor"	# a lord
+	dynasty=1446
+
+	religion="old_gods"
+	culture="northman"
+
+	father=221446
+	mother=721446
+
+	8253.1.1 = {birth="8253.1.1"}
+	8269.1.1 = {add_trait=poor_warrior}
+	8271.1.1 = {add_spouse=741446}
+	8296.1.1 = {death="8296.1.1"}
+}
+741446 = {
+	name="Hodor"	# not a lord
+	female=yes
+
+	religion="old_gods"
+	culture="northman"
+
+	8255.1.1 = {birth="8255.1.1"}
+	8297.1.1 = {death="8297.1.1"}
+}
+251446 = {
+	name="Hodor"	# not a lord
+	dynasty=1446
+
+	religion="old_gods"
+	culture="northman"
+
+	father=221446
+	mother=721446
+
+	8254.1.1 = {birth="8254.1.1"}
+	8270.1.1 = {add_trait=trained_warrior}
+	8272.1.1 = {add_spouse=751446}
+}
+751446 = {
+	name="Hodor"	# not a lord
+	female=yes
+
+	religion="old_gods"
+	culture="northman"
+
+	8257.1.1 = {birth="8257.1.1"}
+}
+261446 = {
+	name="Hodor"	# not a lord
+	dynasty=1446
+
+	religion="old_gods"
+	culture="northman"
+
+	father=221446
+	mother=721446
+
+	8256.1.1 = {birth="8256.1.1"}
+	8272.1.1 = {add_trait=trained_warrior}
+	8274.1.1 = {add_spouse=761446}
+}
+761446 = {
+	name="Hodor"	# not a lord
+	female=yes
+
+	religion="old_gods"
+	culture="northman"
+
+	8259.1.1 = {birth="8259.1.1"}
+}
+271446 = {
+	name="Hodor"	# not a lord
+	dynasty=1446
+
+	religion="old_gods"
+	culture="northman"
+
+	father=221446
+	mother=721446
+
+	8258.1.1 = {birth="8258.1.1"}
+	8265.1.1 = {death = {death_reason = death_accident}}
+}
+281446 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=1446
+
+	religion="old_gods"
+	culture="northman"
+
+	father=731446
+	mother=231446
+
+	8251.1.1 = {birth="8251.1.1"}
+}
+781446 = {
+	name="Hodor"	# not a lord
+
+	religion="old_gods"
+	culture="northman"
+
+	8251.1.1 = {birth="8251.1.1"}
+	8267.1.1 = {add_trait=poor_warrior}
+	8269.1.1 = {add_spouse=281446}
+}
+291446 = {
+	name="Hodor"	# a lord
+	dynasty=1446
+
+	religion="old_gods"
+	culture="northman"
+
+	father=241446
+	mother=741446
+
+	8271.1.1 = {birth="8271.1.1"}
+	8287.1.1 = {add_trait=trained_warrior}
+	8289.1.1 = {add_spouse=791446}
+}
+791446 = {
+	name="Hodor"	# not a lord
+	female=yes
+
+	religion="old_gods"
+	culture="northman"
+
+	8272.1.1 = {birth="8272.1.1"}
+}
+801446 = {
+	name="Hodor"	# not a lord
+	dynasty=1446
+
+	religion="old_gods"
+	culture="northman"
+
+	father=241446
+	mother=741446
+
+	8272.1.1 = {birth="8272.1.1"}
+	8288.1.1 = {add_trait=skilled_warrior}
+	8289.1.1 = {death="8289.1.1"}
+}
+311446 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=1446
+
+	religion="old_gods"
+	culture="northman"
+
+	father=251446
+	mother=751446
+
+	8273.1.1 = {birth="8273.1.1"}
+}
+811446 = {
+	name="Hodor"	# not a lord
+
+	religion="old_gods"
+	culture="northman"
+
+	8273.1.1 = {birth="8273.1.1"}
+	8289.1.1 = {add_trait=poor_warrior}
+	8291.1.1 = {add_spouse=311446}
+}
+321446 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=1446
+
+	religion="old_gods"
+	culture="northman"
+
+	father=251446
+	mother=751446
+
+	8276.1.1 = {birth="8276.1.1"}
+	8284.1.1 = {death="8284.1.1"}
+}
+331446 = {
+	name="Hodor"	# not a lord
+	dynasty=1446
+
+	religion="old_gods"
+	culture="northman"
+
+	father=251446
+	mother=751446
+
+	8278.1.1 = {birth="8278.1.1"}
+	8294.1.1 = {add_trait=skilled_warrior}
+	8299.1.1 = {death = {death_reason = death_execution}}
+}
+
+# House Peat
+
+191450 = {
+	name="Hodor"	# a lord
+	dynasty=1450
+
+	religion="old_gods"
+	culture="crannogman"
+
+	father=661450
+	mother=161450
+
+	8229.1.1 = {birth="8229.1.1"}
+	8245.1.1 = {add_trait=trained_warrior}
+	8247.1.1 = {add_spouse=691450}
+	8287.1.1 = {death="8287.1.1"}
+}
+691450 = {
+	name="Hodor"	# not a lord
+	female=yes
+
+	religion="old_gods"
+	culture="crannogman"
+
+	8229.1.1 = {birth="8229.1.1"}
+	8287.1.1 = {death="8287.1.1"}
+}
+201450 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=1450
+
+	religion="old_gods"
+	culture="crannogman"
+
+	father=191450
+	mother=691450
+
+	8250.1.1 = {birth="8250.1.1"}
+	8298.1.1 = {death="8298.1.1"}
+}
+211450 = {
+	name="Hodor"	# a lord
+	dynasty=1450
+
+	religion="old_gods"
+	culture="crannogman"
+
+	father=191450
+	mother=691450
+
+	8253.1.1 = {birth="8253.1.1"}
+	8269.1.1 = {add_trait=skilled_warrior}
+	8271.1.1 = {add_spouse=711450}
+	8297.1.1 = {death="8297.1.1"}
+}
+711450 = {
+	name="Hodor"	# not a lord
+	female=yes
+
+	religion="old_gods"
+	culture="crannogman"
+
+	8253.1.1 = {birth="8253.1.1"}
+	8297.1.1 = {death="8297.1.1"}
+}
+221450 = {
+	name="Hodor"	# not a lord
+	dynasty=1450
+
+	religion="old_gods"
+	culture="crannogman"
+
+	father=191450
+	mother=691450
+
+	8254.1.1 = {birth="8254.1.1"}
+	8270.1.1 = {add_trait=skilled_warrior}
+	8277.1.1 = {death="8277.1.1"}
+}
+231450 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=1450
+
+	religion="old_gods"
+	culture="crannogman"
+
+	father=211450
+	mother=711450
+
+	8288.1.1 = {birth="8288.1.1"}
+}
+241450 = {
+	name="Hodor"	# a lord
+	dynasty=1450
+
+	religion="old_gods"
+	culture="crannogman"
+
+	father=211450
+	mother=711450
+
+	8291.1.1 = {birth="8291.1.1"}
+	8307.1.1 = {add_trait=trained_warrior}
+}
+251450 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=1450
+
+	religion="old_gods"
+	culture="crannogman"
+
+	father=211450
+	mother=711450
+
+	8294.1.1 = {birth="8294.1.1"}
+}
+
+###Glenmore###
+10001874 = {
+	name="Hodor"	# a lord
+	dynasty=1874
+
+	religion="old_gods"
+	culture="northman"
+
+	7900.1.1 = {birth="7900.1.1"}
+	7916.1.1 = {add_trait=knight add_trait=master_warrior}
+	7918.1.1 = {add_spouse=40001874}
+	7980.1.1 = {death="7980.1.1"}
+}
+40001874 = {
+	name="Hodor"
+	female=yes
+
+	religion="old_gods"
+	culture="northman"
+
+	7900.1.1 = {birth="7900.1.1"}
+	7980.1.1 = {death="7980.1.1"}
+}
+10011874 = {
+	name="Hodor"	# a lord
+	dynasty=1874
+
+	religion="old_gods"
+	culture="northman"
+
+	father=10001874
+	mother=40001874
+
+	7929.1.1 = {birth="7929.1.1"}
+	7945.1.1 = {add_trait=poor_warrior}
+	7947.1.1 = {add_spouse=40011874}
+	7985.1.1 = {death="7985.1.1"}
+}
+40011874 = {
+	name="Hodor"
+	female=yes
+
+	religion="old_gods"
+	culture="northman"
+
+	7929.1.1 = {birth="7929.1.1"}
+	7985.1.1 = {death="7985.1.1"}
+}
+10021874 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=1874
+
+	religion="old_gods"
+	culture="northman"
+
+	father=10001874
+	mother=40001874
+
+	7932.1.1 = {birth="7932.1.1"}
+	7978.1.1 = {death="7978.1.1"}
+}
+10031874 = {
+	name="Hodor"	# a lord
+	dynasty=1874
+
+	religion="old_gods"
+	culture="northman"
+
+	father=10011874
+	mother=40011874
+
+	7954.1.1 = {birth="7954.1.1"}
+	7970.1.1 = {add_trait=poor_warrior}
+	7972.1.1 = {add_spouse=40031874}
+	8019.1.1 = {death="8019.1.1"}
+}
+40031874 = {
+	name="Hodor"
+	female=yes
+
+	religion="old_gods"
+	culture="northman"
+
+	7954.1.1 = {birth="7954.1.1"}
+	8019.1.1 = {death="8019.1.1"}
+}
+10041874 = {
+	name="Hodor"	# a lord
+	dynasty=1874
+
+	religion="old_gods"
+	culture="northman"
+
+	father=10031874
+	mother=40031874
+
+	7975.1.1 = {birth="7975.1.1"}
+	7991.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7993.1.1 = {add_spouse=40041874}
+	8044.1.1 = {death="8044.1.1"}
+}
+40041874 = {
+	name="Hodor"
+	female=yes
+
+	religion="old_gods"
+	culture="northman"
+
+	7975.1.1 = {birth="7975.1.1"}
+	8044.1.1 = {death="8044.1.1"}
+}
+10051874 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=1874
+
+	religion="old_gods"
+	culture="northman"
+
+	father=10031874
+	mother=40031874
+
+	7977.1.1 = {birth="7977.1.1"}
+	8037.1.1 = {death="8037.1.1"}
+}
+10061874 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=1874
+
+	religion="old_gods"
+	culture="northman"
+
+	father=10031874
+	mother=40031874
+
+	7980.1.1 = {birth="7980.1.1"}
+	8041.1.1 = {death="8041.1.1"}
+}
+10071874 = {
+	name="Hodor"	# a lord
+	dynasty=1874
+
+	religion="old_gods"
+	culture="northman"
+
+	father=10041874
+	mother=40041874
+
+	8004.1.1 = {birth="8004.1.1"}
+	8020.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8022.1.1 = {add_spouse=40071874}
+	8053.1.1 = {death = {death_reason = death_accident}}
+}
+40071874 = {
+	name="Hodor"
+	female=yes
+
+	religion="old_gods"
+	culture="northman"
+
+	8004.1.1 = {birth="8004.1.1"}
+	8053.1.1 = {death="8053.1.1"}
+}
+10081874 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=1874
+
+	religion="old_gods"
+	culture="northman"
+
+	father=10041874
+	mother=40041874
+
+	8006.1.1 = {birth="8006.1.1"}
+	8080.1.1 = {death="8080.1.1"}
+}
+10091874 = {
+	name="Hodor"	# a lord
+	dynasty=1874
+
+	religion="old_gods"
+	culture="northman"
+
+	father=10071874
+	mother=40071874
+
+	8024.1.1 = {birth="8024.1.1"}
+	8040.1.1 = {add_trait=poor_warrior}
+	8042.1.1 = {add_spouse=40091874}
+	8073.1.1 = {death="8073.1.1"}
+}
+40091874 = {
+	name="Hodor"
+	female=yes
+
+	religion="old_gods"
+	culture="northman"
+
+	8024.1.1 = {birth="8024.1.1"}
+	8073.1.1 = {death="8073.1.1"}
+}
+10101874 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=1874
+
+	religion="old_gods"
+	culture="northman"
+
+	father=10071874
+	mother=40071874
+
+	8026.1.1 = {birth="8026.1.1"}
+	8092.1.1 = {death="8092.1.1"}
+}
+10111874 = {
+	name="Hodor"	# a lord
+	dynasty=1874
+
+	religion="old_gods"
+	culture="northman"
+
+	father=10091874
+	mother=40091874
+
+	8051.1.1 = {birth="8051.1.1"}
+	8067.1.1 = {add_trait=knight add_trait=skilled_warrior}
+	8069.1.1 = {add_spouse=40111874}
+	8109.1.1 = {death="8109.1.1"}
+}
+40111874 = {
+	name="Hodor"
+	female=yes
+
+	religion="old_gods"
+	culture="northman"
+
+	8051.1.1 = {birth="8051.1.1"}
+	8109.1.1 = {death="8109.1.1"}
+}
+10121874 = {
+	name="Hodor"	# not a lord
+	dynasty=1874
+
+	religion="old_gods"
+	culture="northman"
+
+	father=10091874
+	mother=40091874
+
+	8054.1.1 = {birth="8054.1.1"}
+	8070.1.1 = {add_trait=trained_warrior}
+	8096.1.1 = {death="8096.1.1"}
+}
+10131874 = {
+	name="Hodor"	# not a lord
+	dynasty=1874
+
+	religion="old_gods"
+	culture="northman"
+
+	father=10091874
+	mother=40091874
+
+	8056.1.1 = {birth="8056.1.1"}
+	8072.1.1 = {add_trait=knight add_trait=skilled_warrior}
+	8121.1.1 = {death="8121.1.1"}
+}
+10141874 = {
+	name="Hodor"	# a lord
+	female=yes
+	dynasty=1874
+
+	religion="old_gods"
+	culture="northman"
+
+	father=10111874
+	mother=40111874
+
+	8074.1.1 = {birth="8074.1.1"}
+	8134.1.1 = {death="8134.1.1"}
+}
+40141874 = {
+	name="Hodor"
+
+	religion="old_gods"
+	culture="northman"
+
+	8074.1.1 = {birth="8074.1.1"}
+	8090.1.1 = {add_trait=poor_warrior}
+	8092.1.1 = {add_spouse=10141874}
+	8134.1.1 = {death="8134.1.1"}
+}
+10151874 = {
+	name="Hodor"	# a lord
+	dynasty=1874
+
+	religion="old_gods"
+	culture="northman"
+
+	father=40141874
+	mother=10141874
+
+	8092.1.1 = {birth="8092.1.1"}
+	8108.1.1 = {add_trait=poor_warrior}
+	8110.1.1 = {add_spouse=40151874}
+	8145.1.1 = {death="8145.1.1"}
+}
+40151874 = {
+	name="Hodor"
+	female=yes
+
+	religion="old_gods"
+	culture="northman"
+
+	8092.1.1 = {birth="8092.1.1"}
+	8145.1.1 = {death="8145.1.1"}
+}
+10161874 = {
+	name="Hodor"	# a lord
+	dynasty=1874
+
+	religion="old_gods"
+	culture="northman"
+
+	father=10151874
+	mother=40151874
+
+	8114.1.1 = {birth="8114.1.1"}
+	8130.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8132.1.1 = {add_spouse=40161874}
+	8152.1.1 = {death="8152.1.1"}
+}
+40161874 = {
+	name="Hodor"
+	female=yes
+
+	religion="old_gods"
+	culture="northman"
+
+	8114.1.1 = {birth="8114.1.1"}
+	8152.1.1 = {death="8152.1.1"}
+}
+10171874 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=1874
+
+	religion="old_gods"
+	culture="northman"
+
+	father=10151874
+	mother=40151874
+
+	8116.1.1 = {birth="8116.1.1"}
+	8173.1.1 = {death="8173.1.1"}
+}
+10181874 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=1874
+
+	religion="old_gods"
+	culture="northman"
+
+	father=10151874
+	mother=40151874
+
+	8118.1.1 = {birth="8118.1.1"}
+	8152.1.1 = {death="8152.1.1"}
+}
+10191874 = {
+	name="Hodor"	# a lord
+	dynasty=1874
+
+	religion="old_gods"
+	culture="northman"
+
+	father=10161874
+	mother=40161874
+
+	8136.1.1 = {birth="8136.1.1"}
+	8152.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8154.1.1 = {add_spouse=40191874}
+	8179.1.1 = {death="8179.1.1"}
+}
+40191874 = {
+	name="Hodor"
+	female=yes
+
+	religion="old_gods"
+	culture="northman"
+
+	8136.1.1 = {birth="8136.1.1"}
+	8179.1.1 = {death="8179.1.1"}
+}
+10201874 = {
+	name="Hodor"	# a lord
+	female=yes
+	dynasty=1874
+
+	religion="old_gods"
+	culture="northman"
+
+	father=10191874
+	mother=40191874
+
+	8158.1.1 = {birth="8158.1.1"}
+	8219.1.1 = {death="8219.1.1"}
+}
+40201874 = {
+	name="Hodor"
+
+	religion="old_gods"
+	culture="northman"
+
+	8158.1.1 = {birth="8158.1.1"}
+	8174.1.1 = {add_trait=poor_warrior}
+	8176.1.1 = {add_spouse=10201874}
+	8219.1.1 = {death="8219.1.1"}
+}
+10211874 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=1874
+
+	religion="old_gods"
+	culture="northman"
+
+	father=10191874
+	mother=40191874
+
+	8160.1.1 = {birth="8160.1.1"}
+	8216.1.1 = {death="8216.1.1"}
+}
+10221874 = {
+	name="Hodor"	# a lord
+	dynasty=1874
+
+	religion="old_gods"
+	culture="northman"
+
+	father=40201874
+	mother=10201874
+
+	8193.1.1 = {birth="8193.1.1"}
+	8209.1.1 = {add_trait=poor_warrior}
+	8211.1.1 = {add_spouse=40221874}
+	8244.1.1 = {death="8244.1.1"}
+}
+40221874 = {
+	name="Hodor"
+	female=yes
+
+	religion="old_gods"
+	culture="northman"
+
+	8193.1.1 = {birth="8193.1.1"}
+	8244.1.1 = {death="8244.1.1"}
+}
+10231874 = {
+	name="Hodor"	# a lord
+	dynasty=1874
+
+	religion="old_gods"
+	culture="northman"
+
+	father=10221874
+	mother=40221874
+
+	8215.1.1 = {birth="8215.1.1"}
+	8231.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8233.1.1 = {add_spouse=40231874}
+	8262.1.1 = {death="8262.1.1"}
+}
+40231874 = {
+	name="Hodor"
+	female=yes
+
+	religion="old_gods"
+	culture="northman"
+
+	8215.1.1 = {birth="8215.1.1"}
+	8262.1.1 = {death="8262.1.1"}
+}
+10241874 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=1874
+
+	religion="old_gods"
+	culture="northman"
+
+	father=10221874
+	mother=40221874
+
+	8215.1.1 = {birth="8215.1.1"}
+	8291.1.1 = {death="8291.1.1"}
+}
+10251874 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=1874
+
+	religion="old_gods"
+	culture="northman"
+
+	father=10221874
+	mother=40221874
+
+	8216.1.1 = {birth="8216.1.1"}
+	8267.1.1 = {death="8267.1.1"}
+}
+10261874 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=1874
+
+	religion="old_gods"
+	culture="northman"
+
+	father=10221874
+	mother=40221874
+
+	8218.1.1 = {birth="8218.1.1"}
+	8283.1.1 = {death="8283.1.1"}
+}
+10271874 = {
+	name="Hodor"	# a lord
+	dynasty=1874
+
+	religion="old_gods"
+	culture="northman"
+
+	father=10231874
+	mother=40231874
+
+	8239.1.1 = {birth="8239.1.1"}
+	8255.1.1 = {add_trait=poor_warrior}
+	8305.1.1 = {death="8305.1.1"}
+}
+40271874 = {
+	name="Hodor"
+	female=yes
+
+	religion="old_gods"
+	culture="northman"
+
+	8239.1.1 = {birth="8239.1.1"}
+	8257.1.1 = {add_spouse=10271874}
+	8305.1.1 = {death="8305.1.1"}
+}
+10281874 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=1874
+
+	religion="old_gods"
+	culture="northman"
+
+	father=10231874
+	mother=40231874
+
+	8240.1.1 = {birth="8240.1.1"}
+	8293.1.1 = {death="8293.1.1"}
+}
+10291874 = {
+	name="Hodor"	# not a lord
+	dynasty=1874
+	
+	dna="bmacezjjdbf "
+	properties="ce0dhk00000000"
+
+	religion="old_gods"
+	culture="northman"
+
+	father=10271874
+	mother=40271874
+
+	add_trait = brave
+	add_trait = familyperson
+	add_trait = honorable
+	add_trait = proud
+	add_trait = tough_soldier
+	
+	disallow_random_traits = yes
+	
+	8279.1.1 = {birth="8279.1.1"}
+	8295.1.1 = {
+		add_trait=knight 
+		add_trait=trained_warrior
+		give_nickname = nickname_quiver
+	}
+	8300.1.1 = {
+		death = {
+			death_reason = death_execution_flaying
+			killer = 2087
+		}
+	}
+}
+10301874 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=1874
+
+	religion="old_gods"
+	culture="northman"
+
+	father=10271874
+	mother=40271874
+	
+	add_trait = fair
+	add_trait = kind
+	add_trait = familyperson
+	add_trait = trusting
+	add_trait = temperate
+	
+	disallow_random_traits = yes
+
+	8274.1.1 = {birth="8274.1.1"}
+	8292.1.1 = {add_trait = charismatic_negotiator}
+	8327.1.1 = {death="8327.1.1"}
+}
+10401874 = {
+	name="Hodor"	# not a lord
+	dynasty=1874
+
+	religion="old_gods"
+	culture="northman"
+
+	father=10271874
+	mother=40271874
+
+	8281.1.1 = {birth="8281.1.1"}
+	8297.1.1 = {add_trait = trained_warrior add_trait=knight}
+}
+
+############
+###Lowborn##
+############
+10074 = {
+	name="Hodor" # Maester Luwin
+	properties="0k00i"
+	
+	martial = 4
+	diplomacy = 9
+	intrigue = 5
+	stewardship = 9
+	learning = 8
+	
+	religion="the_seven"
+	culture="crownlander"
+	
+	add_trait="humble"
+	add_trait="scholarly_theologian"
+	add_trait="celibate"
+	add_trait="content"
+	add_trait="maester"
+	add_trait="diligent"
+	add_trait="patient"
+	add_trait="honest"
+	add_trait="just"
+	
+	8247.1.1 = {
+		birth="8247.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8272.1.1 = {
+		employer=59
+		effect = { set_character_flag = serving_with_lord }
+	}
+	8299.1.1 = {employer=2059}
+	8299.6.29 = {
+		death = {
+			# Killed by Ramsey Snow/Bolton
+			death_reason = death_battle
+			killer = 2087
+		}
+	}
+}
+10274 = {
+	name="Hodor"
+	female=yes
+	
+	dna="ffidzlribdv"
+	properties="gahchk0a00"
+	
+	martial = 1
+	stewardship = 1
+	diplomacy = 2
+	intrigue = 1
+	learning = 6
+	
+	religion="beyond_wall_old_gods"
+	culture="wildling"
+	
+	add_trait="patient"
+	add_trait="proud"
+	add_trait="diligent"
+	add_trait="zealous"
+	add_trait="wildling"
+	add_trait="robust"
+	add_trait="underhanded_rogue"
+	
+	8280.1.1 = {
+		birth="8280.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8296.1.1 = {
+		add_trait=trained_warrior
+		add_trait=scarred
+	}
+	8298.1.1={employer=2059}
+	8299.6.29 = {
+		effect = {
+			c_kingshouse = {
+				holder_scope = {
+					reverse_banish = PREVPREV
+				}
+			}
+			add_friend = 9269059 #Rickon
+		}
+	}
+}
+10174 = {
+	name="Hodor" #HODOR! Hodor? Hodor-hodor!
+	dna="bbjdbwaegax"
+	properties="ap0bcka000"
+	
+	martial = 5
+	diplomacy = 2
+	intrigue = 1
+	stewardship = 1
+	learning = 2
+	
+	religion="old_gods"
+	culture="northman"
+	
+	#add_trait="humble"
+	add_trait="naive_appeaser"
+	#add_trait="celibate"
+	add_trait="content"
+	add_trait="imbecile"
+	add_trait="diligent"
+	#add_trait="patient"
+	#add_trait="honest"
+	add_trait="shy"
+	add_trait="craven"
+	add_trait="trusting"
+	add_trait="strong"
+	add_trait="tall"
+	give_nickname = nick_hodor
+	
+	employer=59
+	
+	8263.1.1 = {
+		birth="8263.1.1"
+		effect = { 
+			fertility = -0.25 
+			dynasty = none
+		}
+	}
+	8299.1.29 = {employer=2059}
+	8299.6.29 = {
+		add_trait="has_missing"
+		effect = {
+			c_lasthearth = {
+				holder_scope = {
+					reverse_banish = PREVPREV
+				}
+			}
+			character_event = { id = clash_of_kings.47 days = 3650 } #reveal after 10 years
+			add_friend = 9268059 #Bran
+			add_friend = 1126 #Meera
+			add_friend = 2126 #Jojen
+		}
+	}
+}
+10374 = {
+	name="Hodor" 
+	
+	learning = 7
+	
+	religion="the_seven"
+	culture="half_southron"
+	
+	employer=59
+	
+	8263.1.1 = {
+		birth="8263.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8282.1.1 = {
+		add_trait=septon
+	}
+	8299.1.29 = {employer=2059}
+	8299.5.4 = {
+		death = {
+			death_reason = death_execution 
+			killer = 8107
+		}
+	}
+}
+10574 = {
+	name="Hodor" #Master of horse
+
+	martial = 4
+	diplomacy = 3
+	intrigue = 4
+	stewardship = 3
+	learning = 2
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait = diligent
+	add_trait = honorable
+	add_trait = tough_soldier
+	
+	employer = 21169 #Edwyle Stark {Willem's son}
+
+	8248.1.1 = {
+		birth="8248.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}
+	8262.1.1 = {
+		employer = 2058 #Rickard Stark
+	}	
+	8264.1.1 = {add_trait=trained_warrior }
+	8282.1.1={
+		employer = 59 #Eddard Stark
+	}
+	8298.10.28={ #killed when ned was arrested
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+10674 = {
+	name="Hodor" #Hullen's son
+
+	martial = 4
+	diplomacy = 2
+	intrigue = 5
+	stewardship = 2
+	learning = 3
+	
+	religion="old_gods"
+	culture="northman"
+	
+	add_trait = brave
+	add_trait = authoritative
+	add_trait = gregarious
+	add_trait = tough_soldier
+	
+	father = 10574
+	
+	employer = 2058 #Rickard Stark
+
+	8272.1.1 = {
+		birth="8272.1.1"
+		effect = {	
+			dynasty = none
+		}
+	}	
+	8282.1.1={
+		employer = 59 #Eddard Stark
+	}
+	8288.1.1 = {add_trait=trained_warrior }
+	8298.10.28={	
+		employer = 1303 #Beric
+		effect = { religion = rhllor }
+	}
+	8299.11.5 = {
+		employer = 250159 #Stoneheart
+	}
+}
+###House Condon###
+
+1028351 = {
+	name="Hodor"	# canon, Knight in service to Medger Cerwyn.
+	dynasty=351
+
+	religion="old_gods"
+	culture="northman"
+	
+	martial=10
+
+	father=1027351
+	mother=5027351
+
+	8273.1.1 = {birth="8273.1.1"}
+	8289.1.1 = {add_trait=knight add_trait=skilled_warrior add_trait=brave}
+	8292.1.1 = {add_trait=proud}
+	8338.1.1 = {death="8338.1.1"}
+}
+
+###House Ashwood###
+127800839 = {
+	name="Hodor"	# a lord
+	dynasty=800839
+
+	religion="old_gods"
+	culture="northman"
+
+	father=122800839
+	mother=422800839
+
+	8215.1.1 = {birth="8215.1.1"}
+	8231.1.1 = {add_trait=trained_warrior}
+	8292.1.1 = {death="8292.1.1"}
+}
+128800839 = {
+	name="Hodor"	# not a lord
+	dynasty=800839
+
+	religion="old_gods"
+	culture="northman"
+
+	father=122800839
+	mother=422800839
+
+	8218.1.1 = {birth="8218.1.1"}
+	8234.1.1 = {add_trait=skilled_warrior}
+	8236.1.1 = {add_spouse=428800839}
+	8278.1.1 = {death="8278.1.1"}
+}
+428800839 = {
+	name="Hodor"
+	female=yes
+
+	religion="old_gods"
+	culture="northman"
+
+	8218.1.1 = {birth="8218.1.1"}
+	8278.1.1 = {death="8278.1.1"}
+}
+129800839 = {
+	name="Hodor"	# not a lord
+	dynasty=800839
+
+	religion="old_gods"
+	culture="northman"
+
+	father=122800839
+	mother=422800839
+
+	8219.1.1 = {birth="8219.1.1"}
+	8235.1.1 = {add_trait=skilled_warrior}
+	8288.1.1 = {death="8288.1.1"}
+}
+130800839 = {
+	name="Hodor"	# not a lord
+	dynasty=800839
+
+	religion="old_gods"
+	culture="northman"
+
+	father=128800839
+	mother=428800839
+
+	8239.1.1 = {birth="8239.1.1"}
+	8255.1.1 = {add_trait=poor_warrior}
+	8257.1.1 = {add_spouse=430800839}
+	8273.1.1 = {death="8273.1.1"}
+}
+430800839 = {
+	name="Hodor"
+	female=yes
+
+	religion="old_gods"
+	culture="northman"
+
+	8239.1.1 = {birth="8239.1.1"}
+	8273.1.1 = {death="8273.1.1"}
+}
+131800839 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=800839
+
+	religion="old_gods"
+	culture="northman"
+
+	father=128800839
+	mother=428800839
+
+	8240.1.1 = {birth="8240.1.1"}
+}
+132800839 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=800839
+
+	religion="old_gods"
+	culture="northman"
+
+	father=128800839
+	mother=428800839
+
+	8242.1.1 = {birth="8242.1.1"}
+	8291.1.1 = {death = {death_reason = death_accident}}
+}
+133800839 = {
+	name="Hodor"	# a lord
+	dynasty=800839
+
+	religion="old_gods"
+	culture="northman"
+
+	father=130800839
+	mother=430800839
+
+	8261.1.1 = {birth="8261.1.1"}
+	8277.1.1 = {add_trait=poor_warrior}
+	8279.1.1 = {add_spouse=433800839}
+}
+433800839 = {
+	name="Hodor"
+	female=yes
+
+	religion="old_gods"
+	culture="northman"
+
+	8261.1.1 = {birth="8261.1.1"}
+}
+134800839 = {
+	name="Hodor"	# not a lord
+	dynasty=800839
+
+	religion="old_gods"
+	culture="northman"
+
+	father=130800839
+	mother=430800839
+
+	8262.1.1 = {birth="8262.1.1"}
+	8278.1.1 = {add_trait=poor_warrior}
+}
+135800839 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=800839
+
+	religion="old_gods"
+	culture="northman"
+
+	father=130800839
+	mother=430800839
+
+	8265.1.1 = {birth="8265.1.1"}
+}
+136800839 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=800839
+
+	religion="old_gods"
+	culture="northman"
+
+	father=130800839
+	mother=430800839
+
+	8267.1.1 = {birth="8267.1.1"}
+}
+137800839 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=800839
+
+	religion="old_gods"
+	culture="northman"
+
+	father=130800839
+	mother=430800839
+
+	8269.1.1 = {birth="8269.1.1"}
+}
+138800839 = {
+	name="Hodor"	# not a lord
+	dynasty=800839
+
+	religion="old_gods"
+	culture="northman"
+
+	father=133800839
+	mother=433800839
+
+	8285.1.1 = {birth="8285.1.1"}
+	8301.1.1 = {add_trait=poor_warrior}
+}
+139800839 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=800839
+
+	religion="old_gods"
+	culture="northman"
+
+	father=133800839
+	mother=433800839
+
+	8287.1.1 = {birth="8287.1.1"}
+}
+###House Holt###
+119800840 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=800840
+
+	religion="old_gods"
+	culture="northman"
+
+	father=117800840
+	mother=417800840
+
+	8213.1.1 = {birth="8213.1.1"}
+	8258.1.1 = {death="8258.1.1"}
+}
+120800840 = {
+	name="Hodor"	# a lord
+	dynasty=800840
+
+	religion="old_gods"
+	culture="northman"
+
+	father=117800840
+	mother=417800840
+
+	8215.1.1 = {birth="8215.1.1"}
+	8231.1.1 = {add_trait=poor_warrior}
+	8233.1.1 = {add_spouse=420800840}
+	8275.1.1 = {death="8275.1.1"}
+}
+420800840 = {
+	name="Hodor"
+	female=yes
+
+	religion="old_gods"
+	culture="northman"
+
+	8215.1.1 = {birth="8215.1.1"}
+	8275.1.1 = {death="8275.1.1"}
+}
+121800840 = {
+	name="Hodor"	# a lord
+	dynasty=800840
+
+	religion="old_gods"
+	culture="northman"
+
+	father=120800840
+	mother=420800840
+
+	8239.1.1 = {birth="8239.1.1"}
+	8255.1.1 = {add_trait=skilled_warrior}
+	8257.1.1 = {add_spouse=421800840}
+	8293.1.1 = {death="8293.1.1"}
+}
+421800840 = {
+	name="Hodor"
+	female=yes
+
+	religion="old_gods"
+	culture="northman"
+
+	8239.1.1 = {birth="8239.1.1"}
+	8293.1.1 = {death="8293.1.1"}
+}
+122800840 = {
+	name="Hodor"	# not a lord
+	dynasty=800840
+
+	religion="old_gods"
+	culture="northman"
+
+	father=120800840
+	mother=420800840
+
+	8241.1.1 = {birth="8241.1.1"}
+	8257.1.1 = {add_trait=skilled_warrior}
+}
+123800840 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=800840
+
+	religion="old_gods"
+	culture="northman"
+
+	father=120800840
+	mother=420800840
+
+	8244.1.1 = {birth="8244.1.1"}
+	8287.1.1 = {death="8287.1.1"}
+}
+124800840 = {
+	name="Hodor"	# not a lord, canon
+	dynasty=800840
+	
+	martial = 3
+
+	religion="old_gods"
+	culture="northman"
+
+	father=120800840
+	mother=420800840
+	
+	add_trait = skilled_tactician
+
+	8252.1.1 = {birth="8252.1.1"}
+	8268.1.1 = {add_trait=trained_warrior}
+	8272.1.1 = {
+		add_trait=nightswatch
+		add_trait=knight
+		effect = {
+			add_character_modifier = {
+				name = nw_ranger
+				duration = -1
+			}
+			c_eastwatch = { holder_scope = { ROOT = { move_character = PREV } } }
+		}
+	}
+}
+125800840 = {
+	name="Hodor"	# a lord
+	dynasty=800840
+
+	religion="old_gods"
+	culture="northman"
+
+	father=121800840
+	mother=421800840
+
+	8272.1.1 = {birth="8272.1.1"}
+	8288.1.1 = {add_trait=poor_warrior}
+}
+126800840 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=800840
+
+	religion="old_gods"
+	culture="northman"
+
+	father=121800840
+	mother=421800840
+
+	8275.1.1 = {birth="8275.1.1"}
+}
+127800840 = {
+	name="Hodor"	# not a lord
+	dynasty=800840
+
+	religion="old_gods"
+	culture="northman"
+
+	father=121800840
+	mother=421800840
+
+	8278.1.1 = {birth="8278.1.1"}
+	8294.1.1 = {add_trait=trained_warrior}
+	8296.1.1 = {add_spouse=427800840}
+}
+427800840 = {
+	name="Hodor"
+	female=yes
+
+	religion="old_gods"
+	culture="northman"
+
+	8278.1.1 = {birth="8278.1.1"}
+}
+128800840 = {
+	name="Hodor"	# not a lord
+	dynasty=800840
+
+	religion="old_gods"
+	culture="northman"
+
+	father=121800840
+	mother=421800840
+
+	8279.1.1 = {birth="8279.1.1"}
+	8295.1.1 = {add_trait=trained_warrior}
+}
+129800840 = {
+	name="Hodor"	# not a lord
+	dynasty=800840
+
+	religion="old_gods"
+	culture="northman"
+
+	father=127800840
+	mother=427800840
+
+	8297.1.1 = {birth="8297.1.1"}
+	8313.1.1 = {add_trait=skilled_warrior}
+}
+130800840 = {
+	name="Hodor"	# not a lord
+	dynasty=800840
+
+	religion="old_gods"
+	culture="northman"
+
+	father=127800840
+	mother=427800840
+
+	8300.1.1 = {birth="8300.1.1"}
+	8316.1.1 = {add_trait=master_warrior}
+}

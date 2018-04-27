@@ -1,0 +1,1970 @@
+###High Valyrian###
+359 = {
+	name="Hodor"
+	culture=high_valyrian
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 37
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	used_for_random = no
+	can_appear = no
+}
+496 = {
+	name="Hodor"
+	culture = high_valyrian
+	divine_blood=yes
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 33
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	used_for_random = no
+	can_appear = no
+}
+497 = {
+	name="of Essos"
+	culture = high_valyrian
+	used_for_random = no
+	can_appear = no
+}
+496001 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496002 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496003 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496004 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496005 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496006 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496007 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496008 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496009 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496010 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496011 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496012 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496013 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496014 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496015 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496016 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496017 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496018 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496019 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496020 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496021 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496022 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496023 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+
+
+496024 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496025 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496026 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496027 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496028 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496029 = {
+	name="Hodor"
+	culture = high_valyrian
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 65
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+496030 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496031 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496032 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496033 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496034 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496035 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496036 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496037 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496038 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496039 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496040 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496041 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496042 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496043 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496044 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496045 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496046 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496047 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496048 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496049 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496050 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496051 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+496052 = {
+	name="Hodor"
+	culture = high_valyrian
+}
+570250 = {
+	name = "Unendia"
+	culture = high_valyrian
+}
+570251 = {
+	name = "Voksia"
+	culture = high_valyrian
+}
+570252 = {
+	name = "Galgaeron"
+	culture = high_valyrian
+}
+570253 = {
+	name = "Laergyr"
+	culture = high_valyrian
+}
+570254 = {
+	name = "Enreos"
+	culture = high_valyrian
+}
+570255 = {
+	name = "Merntys"
+	culture = high_valyrian
+}
+570256 = {
+	name = "Qryzyrys"
+	culture = high_valyrian
+}
+570257 = {
+	name = "Maznareon"
+	culture = high_valyrian
+}
+570258 = {
+	name = "Henaeris"
+	culture = high_valyrian
+}
+570259 = {
+	name = "Ronnon"
+	culture = high_valyrian
+}
+570260 = {
+	name = "Yrvala"
+	culture = high_valyrian
+}
+570261 = {
+	name = "Pirepty"
+	culture = high_valyrian
+}
+570262 = {
+	name = "Daergaryen"
+	culture = high_valyrian
+}
+570263 = {
+	name = "Haeteros"
+	culture = high_valyrian
+}
+570264 = {
+	name = "Gevgarys"
+	culture = high_valyrian
+}
+570265 = {
+	name = "Hurys"
+	culture = high_valyrian
+}
+570266 = {
+	name = "Maenzenka"
+	culture = high_valyrian
+}
+570267 = {
+	name = "Pyllyr"
+	culture = high_valyrian
+}
+570268 = {
+	name = "Ondovys"
+	culture = high_valyrian
+}
+570269 = {
+	name = "Raegaros"
+	culture = high_valyrian
+}
+570270 = {
+	name = "Daekrys"
+	culture = high_valyrian
+}
+570271 = {
+	name = "Raellarys"
+	culture = high_valyrian
+}
+570272 = {
+	name = "Laennaris"
+	culture = high_valyrian
+}
+570273 = {
+	name = "Skorros"
+	culture = high_valyrian
+}
+570274 = {
+	name = "Naelaros"
+	culture = high_valyrian
+}
+570275 = {
+	name = "Myrktion"
+	culture = high_valyrian
+}
+570276 = {
+	name = "Tyvozi"
+	culture = high_valyrian
+}
+570277 = {
+	name = "Arastys"
+	culture = high_valyrian
+}
+570278 = {
+	name = "Imagyreon"
+	culture = high_valyrian
+}
+570279 = {
+	name = "Remion"
+	culture = high_valyrian
+}
+570280 = {
+	name = "Toare"
+	culture = high_valyrian
+}
+570281 = {
+	name = "Sonvaedagon"
+	culture = high_valyrian
+}
+570282 = {
+	name = "Rinaeros"
+	culture = high_valyrian
+}
+570283 = {
+	name = "Guyr"
+	culture = high_valyrian
+}
+570284 = {
+	name = "Dreralis"
+	culture = high_valyrian
+}
+570285 = {
+	name = "Valmon"
+	culture = high_valyrian
+}
+570286 = {
+	name = "Qilembyr"
+	culture = high_valyrian
+}
+570287 = {
+	name = "Radaerys"
+	culture = high_valyrian
+}
+570288 = {
+	name = "Ezuepa"
+	culture = high_valyrian
+}
+570289 = {
+	name = "Gaelyne"
+	culture = high_valyrian
+}
+570290 = {
+	name = "Celtalos"
+	culture = high_valyrian
+}
+570291 = {
+	name = "Kestalor"
+	culture = high_valyrian
+}
+570292 = {
+	name = "Rapennis"
+	culture = high_valyrian
+}
+570293 = {
+	name = "Raendar"
+	culture = high_valyrian
+}
+570294 = {
+	name = "Nylaeron"
+	culture = high_valyrian
+}
+570295 = {
+	name = "Hartaris"
+	culture = high_valyrian
+}
+570296 = {
+	name = "Payreos"
+	culture = high_valyrian
+}
+570297 = {
+	name = "Dalsio"
+	culture = high_valyrian
+}
+570298 = {
+	name = "Raqinarys"
+	culture = high_valyrian
+}
+570299 = {
+	name = "Kyvero"
+	culture = high_valyrian
+}
+570300 = {
+	name = "Nozinon"
+	culture = high_valyrian
+}
+570301 = {
+	name = "Tollitsos"
+	culture = high_valyrian
+}
+570302 = {
+	name = "Aeryka"
+	culture = high_valyrian
+}
+570303 = {
+	name = "Quvaleos"
+	culture = high_valyrian
+}
+570304 = {
+	name = "Mizandy"
+	culture = high_valyrian
+}
+###Dragons###
+497000 = {
+	name="Hodor" #Targaryen Dragons
+	culture = dragon_culture
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 33
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	can_appear = no
+}
+497001 = {
+	name="Hodor" #Drogon's line
+	culture = dragon_culture
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 33
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	can_appear = no
+}
+497002 = {
+	name="Hodor" #Viserion's line
+	culture = dragon_culture
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 33
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	can_appear = no
+}
+497003 = {
+	name="Hodor" #Rhaegal's line
+	culture = dragon_culture
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 33
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	can_appear = no
+}
+497004 = { #Terrax's Line
+	name=" " 
+	culture = dragon_culture
+}
+497005 = {
+	name=" " 
+	culture = dragon_culture
+}
+497006 = { #Aurions dragon Line
+	name=" " 
+	culture = dragon_culture
+}
+497007 = { #Yi Ti dragon Line
+	name=" " 
+	culture = dragon_culture
+}
+497008 = { #Tyrosh dragon Line
+	name=" " 
+	culture = dragon_culture
+}
+497009 = { #Lys dragon Line
+	name=" " 
+	culture = dragon_culture
+}
+###Western Valyrian###
+498 = {
+	name="Hodor"
+	culture = western_valyrian
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 39
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	used_for_random = no
+	can_appear = no
+}
+50 = {
+	name="Hodor"
+	culture = western_valyrian
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 29
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+51 = {
+	name="Hodor"
+	culture = western_valyrian
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 30
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+52 = {
+	name="Hodor"
+	culture = western_valyrian
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 31
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+57 = {
+	name="Hodor"
+	culture = western_valyrian
+	divine_blood=yes
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 32
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	used_for_random = no
+	can_appear = no
+}
+7000 = {
+	name="Hodor"
+	culture = western_valyrian
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 19
+			texture_internal = 48
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	used_for_random = no
+	can_appear = no
+}
+7001 = {
+	name="Hodor"
+	culture = western_valyrian
+	used_for_random = no
+	can_appear = no
+}
+7002 = {
+	name="Hodor"
+	culture = western_valyrian
+	used_for_random = no
+	can_appear = no
+}
+1875 = {
+	name="Hodor"
+	culture = western_valyrian
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 64
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	used_for_random = no
+	can_appear = no
+}
+5700001 = {
+	name="Hodor"
+	culture = western_valyrian
+}
+5700002 = {
+	name="Hodor"
+	culture = western_valyrian
+}
+5700003 = {
+	name="Hodor"
+	culture = western_valyrian
+}
+5700004 = {
+	name="Hodor"
+	culture = western_valyrian
+}
+5700005 = {
+	name="Hodor"
+	culture = western_valyrian
+}
+5700006 = {
+	name="Hodor"
+	culture = western_valyrian
+}
+5700007 = {
+	name="Hodor"
+	culture = western_valyrian
+}
+5700008 = {
+	name="Hodor"
+	culture = western_valyrian
+}
+5700009 = {
+	name="Hodor"
+	culture = western_valyrian
+}
+5700010 = {
+	name="Hodor"
+	culture = western_valyrian
+}
+5700011 = {
+	name="Hodor"
+	culture = western_valyrian
+}
+5700012 = {
+	name="Hodor"
+	culture = western_valyrian
+}
+5700013 = {
+	name="Hodor"
+	culture = western_valyrian
+}
+5700014 = {
+	name="Hodor"
+	culture = western_valyrian
+}
+5700015 = {
+	name="Hodor"
+	culture = western_valyrian
+}
+5700600 = {
+	name="Hodor"
+	culture = western_valyrian
+}
+5700601 = {
+	name="Hodor"
+	culture = western_valyrian
+}
+5700602 = {
+	name="Hodor"
+	culture = western_valyrian
+}
+5700603 = {
+	name="Hodor"
+	culture = western_valyrian
+}
+5700604 = {
+	name="Hodor"
+	culture = western_valyrian
+}
+5700605 = {
+	name="Hodor"
+	culture = western_valyrian
+}
+5700606 = {
+	name="Hodor"
+	culture = western_valyrian
+}
+5700607 = {
+	name="Hodor"
+	culture = western_valyrian
+}
+5700608 = {
+	name="Hodor"
+	culture = western_valyrian
+}
+5700609 = {
+	name="Hodor"
+	culture = western_valyrian
+}
+5700610 = {
+	name="Hodor"
+	culture = western_valyrian
+}
+5700611 = {
+	name="Hodor"
+	culture = western_valyrian
+}
+5700612 = {
+	name="Hodor"
+	culture = western_valyrian
+}
+5700613 = {
+	name="Hodor"
+	culture = western_valyrian
+}
+5700614 = {
+	name="Hodor"
+	culture = western_valyrian
+}
+5700615 = {
+	name="Hodor"
+	culture = western_valyrian
+}
+570305 = {
+	name = "Byssar"
+	culture = western_valyrian
+}
+570306 = {
+	name = "Berlaeris"
+	culture = western_valyrian
+}
+570307 = {
+	name = "Eghon"
+	culture = western_valyrian
+}
+570308 = {
+	name = "Naqabrar"
+	culture = western_valyrian
+}
+570309 = {
+	name = "Gitigar"
+	culture = western_valyrian
+}
+570310 = {
+	name = "Barrtir"
+	culture = western_valyrian
+}
+570311 = {
+	name = "Maldeks"
+	culture = western_valyrian
+}
+570312 = {
+	name = "Ozakses"
+	culture = western_valyrian
+}
+570313 = {
+	name = "Morghraenos"
+	culture = western_valyrian
+}
+570314 = {
+	name = "Onrepsa"
+	culture = western_valyrian
+}
+570315 = {
+	name = "Kymion"
+	culture = western_valyrian
+}
+570316 = {
+	name = "Mitheos"
+	culture = western_valyrian
+}
+570317 = {
+	name = "Samtheon"
+	culture = western_valyrian
+}
+570318 = {
+	name = "Taentar"
+	culture = western_valyrian
+}
+570319 = {
+	name = "Kotion"
+	culture = western_valyrian
+}
+570320 = {
+	name = "Erdrizes"
+	culture = western_valyrian
+}
+570321 = {
+	name = "Kaegaris"
+	culture = western_valyrian
+}
+570322 = {
+	name = "Nedgone"
+	culture = western_valyrian
+}
+570323 = {
+	name = "Menitheos"
+	culture = western_valyrian
+}
+570324 = {
+	name = "Doraez"
+	culture = western_valyrian
+}
+570325 = {
+	name = "Qhaenalys"
+	culture = western_valyrian
+}
+570326 = {
+	name = "Iliurdon"
+	culture = western_valyrian
+}
+570327 = {
+	name = "Eriareon"
+	culture = western_valyrian
+}
+570328 = {
+	name = "Baeleris"
+	culture = western_valyrian
+}
+570329 = {
+	name = "Dornir"
+	culture = western_valyrian
+}
+570330 = {
+	name = "Gargarys"
+	culture = western_valyrian
+}
+570331 = {
+	name = "Malnebion"
+	culture = western_valyrian
+}
+570332 = {
+	name = "Myreneos"
+	culture = western_valyrian
+}
+570333 = {
+	name = "Onnon"
+	culture = western_valyrian
+}
+570334 = {
+	name = "Paengone"
+	culture = western_valyrian
+}
+570335 = {
+	name = "Barennis"
+	culture = western_valyrian
+}
+570336 = {
+	name = "Gevros"
+	culture = western_valyrian
+}
+570337 = {
+	name = "Ovaleos"
+	culture = western_valyrian
+}
+570338 = {
+	name = "Ruksia"
+	culture = western_valyrian
+}
+570339 = {
+	name = "Nohmion"
+	culture = western_valyrian
+}
+570340 = {
+	name = "Lynaris"
+	culture = western_valyrian
+}
+570341 = {
+	name = "Vaelrepsa"
+	culture = western_valyrian
+}
+570342 = {
+	name = "Rizvys"
+	culture = western_valyrian
+}
+570343 = {
+	name = "Bagaryen"
+	culture = western_valyrian
+}
+570344 = {
+	name = "Melgyr"
+	culture = western_valyrian
+}
+570345 = {
+	name = "Rytzinon"
+	culture = western_valyrian
+}
+570346 = {
+	name = "Miraenos"
+	culture = western_valyrian
+}
+570347 = {
+	name = "Zukrys"
+	culture = western_valyrian
+}
+570348 = {
+	name = "Raqvero"
+	culture = western_valyrian
+}
+570349 = {
+	name = "Pissar"
+	culture = western_valyrian
+}
+570350 = {
+	name = "Nodaerys"
+	culture = western_valyrian
+}
+570351 = {
+	name = "Qrymion"
+	culture = western_valyrian
+}
+570352 = {
+	name = "Kozenka"
+	culture = western_valyrian
+}
+570353 = {
+	name = "Toyka"
+	culture = western_valyrian
+}
+570354 = {
+	name = "Taez"
+	culture = western_valyrian
+}
+570355 = {
+	name = "Mistheos"
+	culture = western_valyrian
+}
+570356 = {
+	name = "Ondoralis"
+	culture = western_valyrian
+}
+570357 = {
+	name = "Raelmereon"
+	culture = western_valyrian
+}
+570358 = {
+	name = "Egrys"
+	culture = western_valyrian
+}
+570359 = {
+	name = "Revadagon"
+	culture = western_valyrian
+}
+570360 = {
+	name = "Teltar"
+	culture = western_valyrian
+}
+###Eastern Valyrian###
+174371 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+174372 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+174373 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+174396 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+174397 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+174600 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+174601 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+174602 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+174603 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+#non-canon
+5700103 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+5700107 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+5700111 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+5700114 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+5700119 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+5700123 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+5700127 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+5700131 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+5700135 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+5700500 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+5700501 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+5700502 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+5700503 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+5700504 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+5700505 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+5700506 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+5700507 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+5700508 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+5700509 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+5700510 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+5700511 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+5700512 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+5700513 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+5700514 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+5700515 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+5700516 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+5700517 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+5700518 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+5700519 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+5700520 = {
+	name="Hodor"
+	culture = eastern_valyrian
+}
+570361 = {
+	name = "Erlaeron"
+	culture = eastern_valyrian
+}
+570362 = {
+	name = "Leyreos"
+	culture = eastern_valyrian
+}
+570363 = {
+	name = "Hepastys"
+	culture = eastern_valyrian
+}
+570364 = {
+	name = "Henepty"
+	culture = eastern_valyrian
+}
+570365 = {
+	name = "Armbyr"
+	culture = eastern_valyrian
+}
+570366 = {
+	name = "Daeneros"
+	culture = eastern_valyrian
+}
+570367 = {
+	name = "Ozbagaron"
+	culture = eastern_valyrian
+}
+570368 = {
+	name = "Velrolvie"
+	culture = eastern_valyrian
+}
+570369 = {
+	name = "Valteros"
+	culture = eastern_valyrian
+}
+570370 = {
+	name = "Taenntys"
+	culture = eastern_valyrian
+}
+570371 = {
+	name = "Nareon"
+	culture = eastern_valyrian
+}
+570372 = {
+	name = "Naelembyr"
+	culture = eastern_valyrian
+}
+570373 = {
+	name = "Tartheon"
+	culture = eastern_valyrian
+}
+570374 = {
+	name = "Jution"
+	culture = eastern_valyrian
+}
+570375 = {
+	name = "Palitsos"
+	culture = eastern_valyrian
+}
+570376 = {
+	name = "Laennalys"
+	culture = eastern_valyrian
+}
+570377 = {
+	name = "Nuqyreon"
+	culture = eastern_valyrian
+}
+570378 = {
+	name = "Raetalor"
+	culture = eastern_valyrian
+}
+570379 = {
+	name = "Maztalos"
+	culture = eastern_valyrian
+}
+570380 = {
+	name = "Haenir"
+	culture = eastern_valyrian
+}
+570381 = {
+	name = "Goeris"
+	culture = eastern_valyrian
+}
+570382 = {
+	name = "Kiqiarzy"
+	culture = eastern_valyrian
+}
+570383 = {
+	name = "Skoraeris"
+	culture = eastern_valyrian
+}
+570384 = {
+	name = "Nugaomio"
+	culture = eastern_valyrian
+}
+570385 = {
+	name = "Perzaeris"
+	culture = eastern_valyrian
+}
+570386 = {
+	name = "Qelynagon"
+	culture = eastern_valyrian
+}
+570387 = {
+	name = "Quktion"
+	culture = eastern_valyrian
+}
+570388 = {
+	name = "Raqiyne"
+	culture = eastern_valyrian
+}
+570389 = {
+	name = "Gaegidaves"
+	culture = eastern_valyrian
+}
+570390 = {
+	name = "Kyvbrar"
+	culture = eastern_valyrian
+}
+570391 = {
+	name = "Rhideks"
+	culture = eastern_valyrian
+}
+570392 = {
+	name = "Raptaris"
+	culture = eastern_valyrian
+}
+570393 = {
+	name = "Myrves"
+	culture = eastern_valyrian
+}
+570394 = {
+	name = "Tyaelor"
+	culture = eastern_valyrian
+}
+570395 = {
+	name = "Laervala"
+	culture = eastern_valyrian
+}
+570396 = {
+	name = "Galiar"
+	culture = eastern_valyrian
+}
+570397 = {
+	name = "Zozyrys"
+	culture = eastern_valyrian
+}
+570398 = {
+	name = "Dyendia"
+	culture = eastern_valyrian
+}
+570399 = {
+	name = "Syznir"
+	culture = eastern_valyrian
+}
+570400 = {
+	name = "Calinarys"
+	culture = eastern_valyrian
+}
+570401 = {
+	name = "Hereos"
+	culture = eastern_valyrian
+}
+570402 = {
+	name = "Kytigar"
+	culture = eastern_valyrian
+}
+570403 = {
+	name = "Tomghon"
+	culture = eastern_valyrian
+}
+570404 = {
+	name = "Udgaris"
+	culture = eastern_valyrian
+}
+570405 = {
+	name = "Havlaros"
+	culture = eastern_valyrian
+}
+570406 = {
+	name = "Rijanyon"
+	culture = eastern_valyrian
+}
+570407 = {
+	name = "Ezgaros"
+	culture = eastern_valyrian
+}
+570408 = {
+	name = "Narlarys"
+	culture = eastern_valyrian
+}
+570409 = {
+	name = "Qandrizes"
+	culture = eastern_valyrian
+}
+570410 = {
+	name = "Lenhegon"
+	culture = eastern_valyrian
+}
+570411 = {
+	name = "Biozi"
+	culture = eastern_valyrian
+}
+570412 = {
+	name = "Gaitheos"
+	culture = eastern_valyrian
+}
+570413 = {
+	name = "Jalanareon"
+	culture = eastern_valyrian
+}
+570414 = {
+	name = "Grytilla"
+	culture = eastern_valyrian
+}
+570415 = {
+	name = "Kedar"
+	culture = eastern_valyrian
+}
+570416 = {
+	name = "Payr"
+	culture = eastern_valyrian
+}
+###Mantaryan###
+5700100 = {
+	name="Hodor"
+	culture = mantaryan
+}
+5700104 = {
+	name="Hodor"
+	culture = mantaryan
+}
+5700108 = {
+	name="Hodor"
+	culture = mantaryan
+}
+5700112 = {
+	name="Hodor"
+	culture = mantaryan
+}
+5700116 = {
+	name="Hodor"
+	culture = mantaryan
+}
+5700120 = {
+	name="Hodor"
+	culture = mantaryan
+}
+5700124 = {
+	name="Hodor"
+	culture = mantaryan
+}
+5700128 = {
+	name="Hodor"
+	culture = mantaryan
+}
+5700132 = {
+	name="Hodor"
+	culture = mantaryan
+}
+5700136 = {
+	name="Hodor"
+	culture = mantaryan
+}
+5700143 = {
+	name="Hodor"
+	culture = mantaryan
+}
+5700139 = {
+	name="Hodor"
+	culture = mantaryan
+}
+5700142 = {
+	name="Hodor"
+	culture = mantaryan
+}
+570417 = {
+	name = "Rokarys"
+	culture = mantaryan
+}
+570418 = {
+	name = "Lizandy"
+	culture = mantaryan
+}
+570419 = {
+	name = "Vosio"
+	culture = mantaryan
+}
+570420 = {
+	name = "Keqiarzy"
+	culture = mantaryan
+}
+570421 = {
+	name = "Vestheon"
+	culture = mantaryan
+}
+570422 = {
+	name = "Raqtalor"
+	culture = mantaryan
+}
+570423 = {
+	name = "Galtigar"
+	culture = mantaryan
+}
+570424 = {
+	name = "Erissar"
+	culture = mantaryan
+}
+570425 = {
+	name = "Numraenos"
+	culture = mantaryan
+}
+570426 = {
+	name = "Jestir"
+	culture = mantaryan
+}
+570427 = {
+	name = "Nogaros"
+	culture = mantaryan
+}
+570428 = {
+	name = "Daervala"
+	culture = mantaryan
+}
+570429 = {
+	name = "Lylaeris"
+	culture = mantaryan
+}
+570430 = {
+	name = "Gelgone"
+	culture = mantaryan
+}
+570431 = {
+	name = "Malreos"
+	culture = mantaryan
+}
+570432 = {
+	name = "Rygaron"
+	culture = mantaryan
+}
+570433 = {
+	name = "Rahrys"
+	culture = mantaryan
+}
+570434 = {
+	name = "Narksia"
+	culture = mantaryan
+}
+570435 = {
+	name = "Calnnon"
+	culture = mantaryan
+}
+570436 = {
+	name = "Egembyr"
+	culture = mantaryan
+}
+570437 = {
+	name = "Rhidrizes"
+	culture = mantaryan
+}
+570438 = {
+	name = "Bazandy"
+	culture = mantaryan
+}
+570439 = {
+	name = "Heplarys"
+	culture = mantaryan
+}
+570440 = {
+	name = "Tikteros"
+	culture = mantaryan
+}
+570441 = {
+	name = "Qhaetaris"
+	culture = mantaryan
+}
+570442 = {
+	name = "Naeris"
+	culture = mantaryan
+}
+570443 = {
+	name = "Sylareon"
+	culture = mantaryan
+}
+570444 = {
+	name = "Odtion"
+	culture = mantaryan
+}
+570445 = {
+	name = "Akarys"
+	culture = mantaryan
+}
+570446 = {
+	name = "Aezinon"
+	culture = mantaryan
+}
+###Tolosi###
+5700101 = {
+	name="Hodor"
+	culture = tolosi
+}
+5700105 = {
+	name="Hodor"
+	culture = tolosi
+}
+5700109 = {
+	name="Hodor"
+	culture = tolosi
+}
+5700113 = {
+	name="Hodor"
+	culture = tolosi
+}
+5700117 = {
+	name="Hodor"
+	culture = tolosi
+}
+5700121 = {
+	name="Hodor"
+	culture = tolosi
+}
+5700125 = {
+	name="Hodor"
+	culture = tolosi
+}
+5700129 = {
+	name="Hodor"
+	culture = tolosi
+}
+5700133 = {
+	name="Hodor"
+	culture = tolosi
+}
+5700137 = {
+	name="Hodor"
+	culture = tolosi
+}
+5700140 = {
+	name="Hodor"
+	culture = tolosi
+}
+570447 = {
+	name = "Ezvys"
+	culture = tolosi
+}
+570448 = {
+	name = "Uderis"
+	culture = tolosi
+}
+570449 = {
+	name = "Unekyr"
+	culture = tolosi
+}
+570450 = {
+	name = "Qarriblie"
+	culture = tolosi
+}
+570451 = {
+	name = "Tolgidaves"
+	culture = tolosi
+}
+570452 = {
+	name = "Pehegon"
+	culture = tolosi
+}
+570453 = {
+	name = "Nynir"
+	culture = tolosi
+}
+570454 = {
+	name = "Kinaris"
+	culture = tolosi
+}
+570455 = {
+	name = "Azavero"
+	culture = tolosi
+}
+570456 = {
+	name = "Kaeneos"
+	culture = tolosi
+}
+570457 = {
+	name = "Kyvmon"
+	culture = tolosi
+}
+570458 = {
+	name = "Tetar"
+	culture = tolosi
+}
+570459 = {
+	name = "Onyka"
+	culture = tolosi
+}
+570460 = {
+	name = "Rareon"
+	culture = tolosi
+}
+570461 = {
+	name = "Nohareon"
+	culture = tolosi
+}
+570462 = {
+	name = "Erlitsos"
+	culture = tolosi
+}
+570463 = {
+	name = "Spastys"
+	culture = tolosi
+}
+570464 = {
+	name = "Maektion"
+	culture = tolosi
+}
+570465 = {
+	name = "Quvtalos"
+	culture = tolosi
+}
+570466 = {
+	name = "Doretilla"
+	culture = tolosi
+}
+570467 = {
+	name = "Zaelor"
+	culture = tolosi
+}
+570468 = {
+	name = "Paralis"
+	culture = tolosi
+}
+570469 = {
+	name = "Nedabrar"
+	culture = tolosi
+}
+570470 = {
+	name = "Harkepty"
+	culture = tolosi
+}
+570471 = {
+	name = "Vamareon"
+	culture = tolosi
+}
+570472 = {
+	name = "Ralepty"
+	culture = tolosi
+}
+570473 = {
+	name = "Nalzyrys"
+	culture = tolosi
+}
+570474 = {
+	name = "Myraleos"
+	culture = tolosi
+}
+570475 = {
+	name = "Rijvedagon"
+	culture = tolosi
+}
+570476 = {
+	name = "Gadeks"
+	culture = tolosi
+}
+570477 = {
+	name = "Mazllyr"
+	culture = tolosi
+}
+570478 = {
+	name = "Taennalys"
+	culture = tolosi
+}
+570479 = {
+	name = "Daliar"
+	culture = tolosi
+}
+570480 = {
+	name = "Tarntys"
+	culture = tolosi
+}
+570481 = {
+	name = "Qanrepsa"
+	culture = tolosi
+}
+570482 = {
+	name = "Qukrys"
+	culture = tolosi
+}
+570483 = {
+	name = "Valgyreon"
+	culture = tolosi
+}
+570484 = {
+	name = "Bigyr"
+	culture = tolosi
+}
+570485 = {
+	name = "Vaelaros"
+	culture = tolosi
+}
+570486 = {
+	name = "Vaelsio"
+	culture = tolosi
+}
+###Elyrian###
+5700102 = {
+	name="Hodor"
+	culture = elyrian
+}
+5700106 = {
+	name="Hodor"
+	culture = elyrian
+}
+5700110 = {
+	name="Hodor"
+	culture = elyrian
+}
+5700115 = {
+	name="Hodor"
+	culture = elyrian
+}
+5700118 = {
+	name="Hodor"
+	culture = elyrian
+}
+5700122 = {
+	name="Hodor"
+	culture = elyrian
+}
+5700126 = {
+	name="Hodor"
+	culture = elyrian
+}
+5700130 = {
+	name="Hodor"
+	culture = elyrian
+}
+5700134 = {
+	name="Hodor"
+	culture = elyrian
+}
+5700138 = {
+	name="Hodor"
+	culture = elyrian
+}
+5700141 = {
+	name="Hodor"
+	culture = elyrian
+}
+570487 = {
+	name = "Lenzenka"
+	culture = elyrian
+}
+570488 = {
+	name = "Ozinarys"
+	culture = elyrian
+}
+570489 = {
+	name = "Rovennis"
+	culture = elyrian
+}
+570490 = {
+	name = "Haerolvie"
+	culture = elyrian
+}
+570491 = {
+	name = "Kivnaeros"
+	culture = elyrian
+}
+570492 = {
+	name = "Agakses"
+	culture = elyrian
+}
+570493 = {
+	name = "Dynebion"
+	culture = elyrian
+}
+570494 = {
+	name = "Vogaomio"
+	culture = elyrian
+}
+570495 = {
+	name = "Hennir"
+	culture = elyrian
+}
+570496 = {
+	name = "Paentheos"
+	culture = elyrian
+}
+570497 = {
+	name = "Leghon"
+	culture = elyrian
+}
+570498 = {
+	name = "Garymion"
+	culture = elyrian
+}
+570499 = {
+	name = "Rhaedar"
+	culture = elyrian
+}
+570500 = {
+	name = "Beraellis"
+	culture = elyrian
+}
+570501 = {
+	name = "Laeyreos"
+	culture = elyrian
+}
+570502 = {
+	name = "Naqrves"
+	culture = elyrian
+}
+570503 = {
+	name = "Tirros"
+	culture = elyrian
+}
+570504 = {
+	name = "Lokgarys"
+	culture = elyrian
+}
+570505 = {
+	name = "Laeritheos"
+	culture = elyrian
+}
+570506 = {
+	name = "Abmion"
+	culture = elyrian
+}
+570507 = {
+	name = "Sylmbyr"
+	culture = elyrian
+}
+570508 = {
+	name = "Bygaris"
+	culture = elyrian
+}
+570509 = {
+	name = "Vhagaryen"
+	culture = elyrian
+}
+570510 = {
+	name = "Havdaerys"
+	culture = elyrian
+}
+570511 = {
+	name = "Melendia"
+	culture = elyrian
+}
+570512 = {
+	name = "Dohanyon"
+	culture = elyrian
+}
+570513 = {
+	name = "Mapynagon"
+	culture = elyrian
+}
+570514 = {
+	name = "Samozi"
+	culture = elyrian
+}
+
+
+
+
+
+

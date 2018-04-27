@@ -1,0 +1,2978 @@
+################
+###House Frey###
+################
+###THE Walder Frey###
+127 = {
+	name="Hodor"
+	dynasty=127
+	dna="dffjd0efea0"
+	properties="e0n0iilbebcb"	#en0eilbebcb
+	
+	martial = 3
+	diplomacy = 5
+	intrigue = 12
+	stewardship = 9
+	learning = 5
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=10127
+	mother=6500127
+	
+	add_trait="authoritative"
+	add_trait="rude"
+	add_trait="familyperson"
+	add_trait="deceitful"
+	add_trait="lustful"
+	#add_trait="greedy"
+	add_trait="proud"
+	add_trait="elusive_shadow"
+	#add_trait="ambitious"
+	add_trait="hedonist"
+	
+	8208.1.1 = {
+		birth="8208.1.1"
+		effect = { 
+			health = 6
+			fertility = 2
+		}
+	}
+	8230.1.4 = {add_spouse= 5187} #Perra Royce - Mother to Stevron, Emmon, Aenys & Perriane.
+	8235.1.1 = { add_trait = knight add_trait = poor_warrior }
+	8247.1.1 = {add_spouse= 203306} #Cyrenna Swann - Mother to Jared & Lucion
+	8255.1.3 = {add_spouse= 4227} #Amarei Crackhall - Mother to Hosteen, Lythene, Danwell, Merret, Geremy & Rymund.	
+	8266.1.1 = {add_spouse= 1150} #Alyssa Blackwood - Mother to Lothar, Jammos, Whelan, Morya & Tyta.
+	8271.1.2 = {add_spouse=75056 } #Sarya Whent -  No Progeny
+	8276.1.1 = {add_spouse= 2038} #Bethany Rosby - Mother to Perwyn, Benfry, Willamen, Olyvar & Roslin.
+	8282.9.15 = { #RR
+		effect = {
+			set_character_flag = neutral
+			clr_character_flag = supporting_king
+			clr_character_flag = against_king
+			any_demesne_title = {
+				limit = { 
+					OR = {
+						tier = COUNT
+						tier = DUKE
+					}
+				}				
+				set_variable = { which = "de_facto_kingdom" value = 3 } #riverlands
+			}
+		}
+	}
+	8283.1.1 = {give_nickname=nick_the_late_lord}
+	8284.1.1 = { 
+		effect = {
+			clr_character_flag = neutral
+		}
+	}	
+	8284.1.1 = { add_spouse= 2024} #Annara Farring - 
+	8298.1.1 = { add_spouse= 12129} #Joyeuse Erenford
+	8299.6.1 = { 
+		effect = {
+			set_character_flag = neutral
+			clr_character_flag = supporting_king
+			clr_character_flag = against_king
+		}
+	}
+	8299.11.5 = { 
+		#add_trait=dishonorable3
+		effect = {
+			set_variable = { which = "dishonorable" value = 30 }
+			hidden_tooltip = { character_event = { id = maintenance.3 } }#dishonour trait
+			d_nightswatch = {
+				holder_scope = {
+					opinion = {
+						modifier = opinion_vengeance
+						who = ROOT
+					}
+					any_sibling = {
+						opinion = {
+							modifier = opinion_vengeance
+							who = ROOT
+						}
+					}
+				}
+			}
+			set_defacto_liege = ROOT
+			clr_character_flag = neutral
+			set_character_flag = supporting_king
+			k_stormlands = {
+				holder_scope = { 
+					opinion = {
+						modifier = opinion_traitor
+						who = ROOT
+					}
+				}
+			}
+			e_iron_throne = {
+				holder_scope = { 
+					ROOT = {
+						opinion = {
+							who = PREV
+							modifier = opinion_with_king
+							years = 100
+						}	
+					}
+					opinion = {
+						who = ROOT
+						modifier = opinion_loyal_to_crown
+						years = 5
+					}
+				}
+			}
+			d_nightswatch = { #Stark Blood Feud
+				holder_scope = {
+					random_courtier = {
+						limit = { dynasty = 59 }
+						set_dynasty_flag = in_blood_feud
+						add_trait = blood_feud #blood feud tracker
+						character_event = { id = feast_for_crows.29 days = 1 } 
+						any_dynasty_member = {
+							limit = {
+								is_alive = yes
+								NOT = { character = PREV }
+							}
+							character_event = { id = feast_for_crows.29 days = 1 } 
+						}
+					}	
+				}
+			}
+		}
+	}
+}
+###Walders Wifes###
+5187 = {
+	name="Hodor" #Mother to Stevron, Emmon & Aenys.
+	female=yes
+	dynasty=187
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=94088
+	
+	8208.1.1 = {birth="8208.1.1"}
+	8245.1.1 = {death="8245.1.1"}
+}
+# Cyrenna Swann : moved to stormlands.txt
+4227 = {		
+	name="Hodor"	
+	female=yes	
+	dynasty=227	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father = 10227
+	
+	8227.1.1 = {birth="8227.1.1"}
+	8265.6.1 = {death="8265.6.1"}	
+}	
+1150 = {
+	name="Hodor" #Mother to Lothar, Jammos, Whelan, Morya & Tyta
+	female=yes
+	dynasty=150
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait="flamboyant_schemer"
+	
+	father=19150
+	
+	8246.1.1 = { birth="8246.1.1"}
+	8270.6.1 = { death="8270.6.1"}
+}
+
+#
+#sarya whent
+#
+
+12129 = {
+	name="Hodor"
+	dynasty=129
+	female=yes
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father= 129
+	mother= 11291
+	
+	add_trait = weak
+	
+	8282.12.1 = {
+		birth="8282.12.1"
+	}
+	8300.1.1 = {
+		effect = { #pregnant in AFFC
+			spouse = { ROOT = { impregnate = PREV } }
+		}
+	}
+}
+##################################
+###Perra Royce's Sons (post 30)###
+##################################
+1127 = {
+	name="Hodor"
+	dynasty=127
+
+	dna="amfje0efea0"
+	properties="ek0eblbebc0"
+	
+	martial = 5
+	diplomacy = 7
+	intrigue = 4
+	stewardship = 6
+	learning = 5
+	
+	religion="the_seven"
+	culture="riverlander"
+
+	add_trait="tough_soldier"
+	add_trait="gregarious"
+	add_trait="patient"
+	add_trait="envious"
+	add_trait="familyperson"
+	add_trait="honorable"
+	
+	father=127
+	mother = 5187
+	
+	8234.1.1 = {birth="8234.1.1" effect = { health = 2 } }	
+	8249.1.1 = {add_spouse= 205306} #Corenna Swann - Mother to Ryman.
+	8250.1.1 = { add_trait = knight add_trait = trained_warrior }
+	8251.1.1 = {add_spouse= 2217} #Jeyne Lydden - Mother to Aegon & Maegelle.
+	8253.1.1 = {add_spouse= 666182} #Marsella Waynwood - Mother to Walton.
+	8255.1.1 = { 
+		add_trait="widowed"
+	}
+	8299.6.1 = { #Died 3 days after the battle of Oxcross
+		add_trait = wounded
+		death = { death_reason = death_trait }
+	} 
+}
+###Stevrons Wifes###
+# Corenna Swann : moved to stormlands.txt
+2217 = {
+	name="Hodor"
+	female=yes	
+	dynasty=217	
+	
+	religion="the_seven"	
+	culture="westerman"
+	
+	father = 1217
+	mother=3217
+	
+	8235.1.1 = {birth="8235.1.1"}	
+	8253.1.1 = {
+		death = { death_reason = death_accident }
+	}	
+}
+#Marsella Waynwood, moved to vale.txt
+
+######
+2127 = {
+	name="Hodor" #Red Walder father, sided with the Laanisters. Jamie told him he is not the new overlord of the trident.
+	dynasty=127
+
+	dna="ahfje0hfca0"
+	properties="ek0eelbebc0"
+	
+	martial = 3
+	diplomacy = 7
+	intrigue = 3
+	stewardship = 6
+	learning = 5
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait="slow"
+	add_trait="greedy"
+	add_trait="ambitious"
+	add_trait="envious"
+	add_trait="flamboyant_schemer"
+	
+	father=127
+	mother=5187
+	
+	8238.1.1 = { birth="8238.1.1" }
+	8252.1.1 = {add_spouse= 6190} #Genna Lannister seven at the time - Mother to Cleos, Lyonel, Tion & Walder (Red walder)
+	8254.1.1 = { add_trait = knight add_trait = poor_warrior }
+	8267.1.1 = {	
+		employer=190 # Tywin
+	}
+	8300.2.9={
+		employer=4190 #Cersei
+	}
+}
+###Emmons 1st Child###
+6137 = {
+	name="Hodor" #The enyoy Rob sent...
+	dynasty=127
+	dna="ahbje0ffab0"
+	properties="ej0eilbebcb"
+	
+	martial = 5
+	diplomacy = 5
+	intrigue = 4
+	stewardship = 5
+	learning = 5
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait="proud"
+	add_trait="craven"
+	add_trait="misguided_warrior"
+	
+	father=2127
+	mother = 6190
+	
+	8265.1.1 = {birth="8265.1.1"}
+	8267.1.1 = {	
+		employer=190 # Tywin
+	}
+	8282.1.1 = {
+		add_spouse= 4137 #Jeyne Darry
+		add_trait="knight"
+		add_trait = poor_warrior
+	} 
+	8299.2.11 = {
+		effect = {
+			e_north = {
+				holder_scope = {
+					ROOT = { 
+						imprison = PREV 
+						set_character_flag = captured_in_battle
+					}
+				}
+			}
+		}
+	}
+	8299.7.1 = {
+		death = { death_reason = death_accident }
+	}
+}
+###Cleos 2 sons###
+7137 = {
+	name="Hodor"
+	dynasty=127
+	dna="ahcge0ffab0"
+	properties="ee0ehlbebcb"
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	
+	father=6137
+	mother = 4137
+	
+	employer=190
+	
+	8288.1.1 = {birth="8288.1.1"}
+	8298.1.1 = { add_trait = "squire" }
+	8300.2.9={
+		employer=4190 #Cersei
+	}
+}
+71371 = {
+	name="Hodor"
+	dynasty=127
+	dna="ahfge0ddab0"
+	properties="ea0eilbebcb"
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=6137
+	mother = 4137
+	
+	employer=190
+	
+	8290.1.1 = {birth="8290.1.1"}
+	8300.2.9={
+		employer=4190 #Cersei
+	}
+	##page at ashemark
+}
+###Emmons 2nd Son###
+6188 = {
+	name="Hodor"
+	dynasty=127
+	dna="ajege0cfca0"
+	properties="el0eclbebcb"
+	
+	martial = 6
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	add_trait="tough_soldier"
+
+	father=2127
+	mother = 6190
+	
+	employer=190
+	
+	8276.1.1 = { birth="8276.1.1"}
+	8292.1.1 = {
+		add_spouse=5227
+		add_trait = knight
+		add_trait = poor_warrior
+	}
+	8300.2.9={
+		employer=4190 #Cersei
+	}
+}
+###Emmons 3rd Son###
+7188 = {
+	name="Hodor"
+	dynasty=127
+	dna="akdkf0bjab0"
+	properties="ek0hilbebcb"
+	
+	martial = 6
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	add_trait="tough_soldier"
+	
+	employer=190
+	
+	father=2127
+	mother = 6190
+	
+	8284.1.1 = { birth="8284.1.1"}
+	8298.1.1 = { add_trait = "squire"  add_trait = trained_warrior }
+	8299.2.11 = {
+		effect = {
+			e_north = {
+				holder_scope = {
+					ROOT = { 
+						imprison = PREV 
+						set_character_flag = captured_in_battle
+					}
+				}
+			}
+		}
+	}
+	8299.8.1={
+		death = {
+			# Executed by Rickard Karstark.
+			death_reason = death_murder
+			killer = 89
+		}
+	}
+}
+###Emmons 4th Son###
+8188 = {
+	name="Hodor" #Red Walder
+	dynasty=127
+	dna="dkckg0ajcb0"
+	properties="eb0hilbebcb"
+	
+	martial = 6
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	add_trait="tough_soldier"
+	
+	employer=190
+	
+	father=2127
+	mother = 6190
+	
+	8285.1.1 = {birth="8285.1.1"}
+	8285.1.1 = { give_nickname = nick_red_walder }
+	8300.2.9={
+		employer=4190 #Cersei
+	}
+}
+###
+###Aenys (son 3)
+###
+3127 = {
+	name="Hodor" #Took Hrrenhall with the Goat.
+	dynasty=127
+	dna="cjfih0hgda0"
+	properties="en0ialbebcb"
+	
+	martial = 8
+	diplomacy = 5
+	intrigue = 6
+	stewardship = 5
+	learning = 5
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait="brilliant_strategist"
+	add_trait="cruel"
+	add_trait="diligent"
+	add_trait="content"
+	
+	father=127
+	mother = 5187
+	
+	8242.1.1 = { birth="8242.1.1"}		
+	8258.1.1 = { 
+		add_trait="trained_warrior"
+		add_trait="knight"
+	}
+	8258.1.1 = { add_spouse= 2329} # Tyana Wylde - Mother to Aegon & Rahegar.
+	8300.5.1 = {
+		# mors umber trap
+		death = {
+			death_reason = death_accident
+		}
+	}
+}
+###Aenys Wife###
+# Tyana Wylde : moved to stormlands.txt
+4127 = {
+	name="Hodor" #Married Leslyn Haigh
+	female=yes
+	dynasty=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=127
+	mother = 5187
+	
+	8244.10.1 = {birth="8244.10.1"}
+}
+####################################
+###Cyrenna Swann's Sons (post 34)###
+####################################
+5127 = {
+	name="Hodor"
+	dynasty=127
+	dna="dldjh0lgca0"
+	properties="ek0lglbebcb"
+	
+	martial = 5
+	diplomacy = 3
+	intrigue = 5
+	stewardship = 7
+	learning = 5
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait="brave"
+	add_trait="charismatic_negotiator"
+	add_trait="deceitful"
+	add_trait="arbitrary"
+	add_trait="proud"
+	
+	father=127
+	mother = 203306
+	
+	8248.1.1 = {birth="8248.1.1"}
+	8264.1.1 = {
+		add_spouse= 666000666 #Some peasant girl.
+		add_trait="knight"
+		add_trait="skilled_warrior"
+	} 
+	8275.1.1 = { add_trait="widowed" }	
+	8299.2.11 = {
+		effect = {
+			c_harrenhal = {
+				holder_scope = {
+					ROOT = { 
+						imprison = PREV 
+						set_character_flag = captured_in_battle
+					}
+				}
+			}
+		}
+	}
+	8299.6.1 = {
+		effect = { prisoner = no }
+	}
+	8300.2.1={
+		death = {
+			death_reason = death_murder_unknown
+			#Manderly Pie
+		}
+	}
+}
+###Jared's Wife###
+666000666 = {
+	name="Hodor"	# Made a sister of Jyanna Frey, a lesser branch
+	female=yes
+	dynasty=127
+	
+	father=5510127
+	
+	religion="the_seven"	
+	culture="riverlander"
+
+	8252.1.1 = {birth="8252.1.1"}	
+	8275.1.1 = {death="8275.1.1"}	
+}
+6127 = {
+	name="Hodor" #Septon
+	dynasty=127
+	dna="dlmjh0kida0"
+	properties="if0milbebcz"
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait="temperate"
+	
+	add_trait="zealous"
+	add_trait="detached_priest"
+	
+	father=127
+	mother = 203306
+	
+	8249.1.1 = {birth="8249.1.1"}
+	8269.1.1 = {
+		add_trait="septon"
+		employer=77113
+		effect = { set_character_flag = themost_devout }
+	}
+}
+##########################################
+###Amareis Crakehall Children (post 42)###
+##########################################
+7127 = {
+	name="Hodor" #Good Torney Knight
+	dynasty=127
+	dna="cccjh0heea0"
+	properties="fa0iilbebc0"
+	
+	martial = 7
+	diplomacy = 3
+	intrigue = 5
+	stewardship = 4
+	learning = 5
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait="brave"
+	add_trait="slow"
+	add_trait="misguided_warrior"
+	add_trait="duelist"
+	add_trait="proud"
+	add_trait="strong"
+	
+	father=127
+	mother = 4227
+	
+	8257.1.1 = { birth="8257.1.1"}
+	8273.1.1 = {
+		add_trait="skilled_warrior"
+		add_trait="knight"
+		add_spouse= 139 #Bellena Hawick - Mother to Arnwood.
+	} 
+	8299.2.11 = {
+		effect = {
+			c_harrenhal = {
+				holder_scope = {
+					ROOT = { 
+						imprison = PREV 
+						set_character_flag = captured_in_battle
+					}
+				}
+			}
+		}
+	}
+	8299.6.1 = {
+		effect = { prisoner = no }
+	}
+	8299.11.5={
+		effect = { 
+			set_variable = { which = "dishonorable" value = 10 } 
+			hidden_tooltip = { character_event = { id = maintenance.3 } }#dishonour trait
+		} 
+	}
+}
+8127 = {
+	name="Hodor" #Married Lucias Vypren.
+	female=yes
+	dynasty=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=127
+	mother = 4227
+	
+	8259.1.1 = {birth="8259.1.1"}
+}
+100129 = {
+	name="Hodor"
+	dynasty=127
+	dna="aegjg0hfea0"
+	properties="mg0hhlbebcb"
+	
+	intrigue = 15
+	stewardship = 10
+	add_trait = "intricate_webweaver"
+	add_trait = "deceitful"
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=127
+	mother = 4227
+	
+	8260.1.1 = {birth="8260.1.1"}
+	8277.1.1 = {add_spouse= 101129 add_trait = poor_warrior } 
+	8300.2.1={
+		death = {
+			death_reason = death_murder_unknown
+			#Manderly Pie
+		}
+	}
+}
+9127 = {
+	name="Hodor" #Drunakard Knight
+	dynasty=127
+	dna="agidg0ddea0"
+	properties="eh0gflbebcb"
+	
+	martial = 5
+	diplomacy = 5
+	intrigue = 6
+	stewardship = 5
+	learning = 4
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait="drunkard"
+	add_trait="misguided_warrior"	
+	add_trait="proud"
+	
+	father=127
+	mother =4227
+	
+	8261.1.1 = {birth="8261.1.1"}
+	8277.1.1 = {
+		add_spouse= 5146
+		add_trait="knight"
+		add_trait="poor_warrior"
+	} #Wynafrei Whent - Omg NO CHILDREN!
+	8299.2.11 = {
+		effect = {
+			c_harrenhal = {
+				holder_scope = {
+					ROOT = { 
+						imprison = PREV 
+						set_character_flag = captured_in_battle
+					}
+				}
+			}
+		}
+	}
+	8299.6.1 = {
+		effect = { prisoner = no }
+	}
+	8299.11.5={
+		effect = { 
+			set_variable = { which = "dishonorable" value = 10 } 
+			hidden_tooltip = { character_event = { id = maintenance.3 } }#dishonour trait
+		} 
+	}
+	8300.3.1 = {
+		effect = {
+			c_darry = {
+				holder_scope = { ROOT = { move_character = PREV } }
+			}
+		}
+	}
+}
+###Danwells Wife###
+##Wynafrei Whent
+
+1129 = {
+	name="Hodor" #the guy that got hunged by dead Catytlin. Spoiler! MUHAHAHA!
+	dynasty=127
+	dna="bbhdf0gjea0"
+	properties="ek0eilbebcb"
+
+	martial = 5
+	diplomacy = 3
+	intrigue = 3
+	stewardship = 1
+	learning = 3
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait="gregarious"
+	add_trait="strong"
+	add_trait="tough_soldier"
+	add_trait="envious"
+	add_trait="slothful"
+
+	father=127
+	mother = 4227
+	
+	8262.1.1 = { birth="8262.1.1"}
+	8268.1.1 = { guardian=227 } #Crakehall
+	8273.1.1 = { add_trait="squire" }
+	8278.1.1 = { 
+		add_trait="poor_warrior" 
+		remove_trait="squire" 
+	}
+	8279.1.1 = { 
+		add_trait="drunkard"
+		add_trait="scarred"
+	}
+	8282.1.1 = {
+		add_spouse= 3137 #Marya Darry - Mother of Amerei, Walda (Fat one that Roose took as wife), Marissa, Walder.
+	} 
+	8299.11.5={
+		effect = { 
+			set_variable = { which = "dishonorable" value = 10 } 
+			hidden_tooltip = { character_event = { id = maintenance.3 } }#dishonour trait
+		} 
+	}
+	8300.3.1 = {
+		death = {
+			death_reason = death_execution_hanging
+			killer = 250159 #Lady Stoneheart
+		}
+	}
+}
+###His Wife###
+#Mariya Darry
+######################
+###Meretts Children###
+######################
+9137 = {
+	name="Hodor"
+	female=yes
+	dynasty=127
+	dna="bfhff0ejea0"
+	properties="bi0gikbebcb"
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait="lustful"
+	add_trait="fair"
+	add_trait="craven"
+	add_trait="dull"
+	
+	father=1129
+	mother = 3137
+	
+	8282.1.1 = { birth="8282.1.1"}
+	
+}
+###Amerei's Husband###
+202137 = {
+	name="Hodor"
+	##dynasty=#of the Blue Fork
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	employer=127
+
+	8278.1.1 = { birth="8278.1.1"}
+	8294.1.1 = {
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+	8297.1.1 = { add_spouse = 9137 }
+	8299.7.1 = {
+		death = {
+			death_reason = death_battle
+			killer=1230
+		}
+	}
+}
+########
+669137 = {
+	name="Hodor" #Fat Walda
+	female=yes
+	dynasty=127
+	
+	martial = 3
+	
+	dna="bifdf0ekfa0"
+	properties="el0hilbebc0"
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait="gluttonous"
+	add_trait="lustful"
+	add_trait="flamboyant_schemer"
+	
+	father=1129
+	mother = 3137
+	
+	8284.1.1 = { birth="8284.1.1" effect = { fertility = 0.4 } }
+	8294.1.1 = { give_nickname = nick_the_fat }
+	8299.11.12 = { add_spouse = 87 } #roose bolton
+}
+7136 = {
+	name="Hodor"
+	female=yes
+	dynasty=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=1129
+	mother = 3137
+	
+	8286.1.1 = {birth="8286.1.1"}
+	8300.3.1 = {
+		effect = {
+			c_darry = {
+				holder_scope = { ROOT = { move_character = PREV } }
+			}
+		}
+	}
+}
+6669137 = {
+	name="Hodor" #little walder
+	dynasty=127
+	dna="bifdf0ekaa0"
+	properties="ea0hilbebcb"
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait = "gluttonous"
+	
+	father=1129
+	mother = 3137
+	
+	8290.11.1 = { birth="8290.11.1"}
+	8299.2.11 = {
+		employer = 2059
+		guardian = 1059
+	}
+	8299.6.29 = {
+		employer = 2087 #Ramsey
+		guardian = 2087
+		add_trait=squire
+		add_trait=cruel
+	}
+	8300.1.1 = { #after ramsey snow's wedding
+		death = {
+			death_reason = death_murder_unknown
+			#mance rayder
+		}
+	}
+}
+################
+2129 = {
+	name="Hodor" #Drowned like a boss.
+	dynasty=127
+	dna="cedgg0hdea0"
+	properties="el0iilbebcz"
+	
+	martial = 5
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 3
+	learning = 5
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait="proud"
+	add_trait="misguided_warrior"
+	add_trait="wroth"
+	
+	father=127
+	mother = 4227
+	
+	8263.1.1 = { birth="8263.1.1"}
+	8279.1.1 = { add_spouse= 1182} #Carolei Waynwood - Mother of Sandor, Cynthia
+	8279.1.1 = {
+		add_trait="knight"
+		add_trait="trained_warrior"
+	}
+	8293.1.1 = {
+		death = { death_reason = death_accident }
+	}
+}
+###Geremy's Children###
+62129 = {
+	name="Hodor"
+	dynasty=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=2129
+	mother = 1182
+	
+	8287.1.1 = { birth="8287.1.1"}
+	8298.1.1 = { 
+		add_trait=poor_warrior
+		add_trait=squire
+		guardian=94023 #Donnel Waynwood
+	}
+}
+662129 = {
+	name="Hodor"
+	dynasty=127
+	female=yes
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=2129
+	mother = 1182
+	
+	8290.1.1 = { birth="8290.1.1"}
+	8298.1.1 = {  
+		guardian=94021 #Anya Waynwood
+	}
+}
+####
+3129 = {
+	name="Hodor" #Killed Cat, Spolier alert.
+	dynasty=127
+	dna="beckg0heba0"
+	properties="ek0gflbebcz"
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait="ruthless"
+	add_trait="tough_soldier"
+	
+	father=127
+	mother = 4227
+	
+	8265.1.1 = { birth="8265.1.1"}
+	8281.1.1 = {
+		add_trait="knight"
+		add_trait="trained_warrior"
+		add_spouse=5282 #Beony Beesbury. Mother of - Robert, Malwyn, Serra, Sarra, (Cersei, Tywin & Jaime).
+	} 
+	8299.11.5={
+		effect = { 
+			set_variable = { which = "dishonorable" value = 10 } 
+			hidden_tooltip = { character_event = { id = maintenance.3 } }#dishonour trait
+		} 
+	}
+}
+###His Wife###
+5282 = {
+	name="Hodor"
+	dynasty=282 #Beesbury
+	female=yes
+	
+	religion="the_seven"
+	culture="reachman"
+	
+	father=2282
+	mother=111282
+	
+	8267.1.1={ birth="8267.1.1"}	
+}
+####Rymunds Children###
+7282 = {
+	name="Hodor"
+	dynasty=127
+	dna="bflke0heba0"
+	properties="el0oilbebcb"
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	learning=15
+	
+	father=3129
+	mother = 5282
+	
+	8283.1.1 = { birth="8283.1.1"}
+	8298.1.1 = { 
+		employer=88130 #learning at citadel
+	}
+}
+18282 = {
+	name="Hodor"
+	dynasty=127
+	
+	learning = 9
+	martial = 1
+	intrigue = 4
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=3129
+	mother = 5282
+	
+	add_trait = scholar
+	add_trait = erudite
+	add_trait = diligent
+	add_trait = intricate_webweaver
+	
+	8284.1.1 = {birth="8284.1.1"}
+	8294.1.1 = {
+		add_trait="poor_warrior"
+	}
+	8300.1.1 = {
+		effect = {
+			add_trait = scholar
+			join_society = alchemists_guild
+		}
+	}
+}
+28282 = {
+	name="Hodor"
+	female=yes
+	dynasty=127
+	dna="bflke0heba0"
+	properties="el0eikbebcb"
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait="twin"
+	
+	father=3129
+	mother = 5282
+	
+	8285.1.1 = {birth="8285.1.1"}
+}
+38282 = {
+	name="Hodor"
+	female=yes
+	dynasty=127
+	dna="bfike0heba0"
+	properties="ea0iikbebcb"
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait="twin"
+	
+	father=3129
+	mother = 5282
+	
+	8285.1.1 = {birth="8285.1.1"}
+}
+48282 = {
+	name="Hodor"
+	female=yes
+	dynasty=127
+	
+	religion="the_seven"
+	culture="riverlander"
+
+	father=3129
+	mother = 5282
+	
+	8293.1.1 = {birth="8293.1.1"}
+}
+58282 = {
+	name="Hodor"
+	dynasty=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait="twin"
+	
+	father=3129
+	mother = 5282
+	
+	8299.2.1 = {birth="8299.2.1"}
+}
+68282 = {
+	name="Hodor"
+	dynasty=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait="twin"
+	
+	father=3129
+	mother = 5282
+	
+	8299.2.1 = {birth="8299.2.1"}
+}
+#########################################
+###Alyssa Blackwood Children (post 56)###
+#########################################
+4129 = {
+	name="Hodor" #Lame Lothar
+	dynasty=127
+	dna="ajcif0eeea0"
+	properties="ed0idibebc0"
+	
+	martial = 1
+	diplomacy = 7
+	intrigue = 14 # Lothar was one of the prime engineers of the Red Wedding massacre
+	stewardship = 13
+	learning = 7
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait="genius"
+	add_trait="grey_eminence"
+	add_trait="clubfooted"
+	add_trait="gregarious"
+	add_trait="ruthless"
+	add_trait="deceitful"
+	
+	father=127
+	mother = 1150
+	
+	8266.1.1 = {birth="8266.1.1"}
+	8269.1.1 = {give_nickname = nick_the_lame}
+	8290.1.1 = { add_spouse= 1213} #Leonella Lefford. Mother of Tysane & Walda.
+	8299.11.5={
+		effect = { 
+			set_variable = { which = "dishonorable" value = 10 } 
+			hidden_tooltip = { character_event = { id = maintenance.3 } }#dishonour trait
+		} 
+	}
+}
+###Lothars Children###
+6150 = {
+	name="Hodor"
+	female=yes
+	dynasty=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=4129
+	mother = 1213
+	
+	8292.1.1 = {birth="8292.1.1"}
+}
+7150 = {
+	name="Hodor"
+	female=yes
+	dynasty=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=4129
+	mother = 1213
+	
+	8295.1.1 = {birth="8295.1.1"}
+}
+17150 = {
+	name="Hodor"
+	female=yes
+	dynasty=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=4129
+	mother = 1213
+	
+	8297.1.1 = {birth="8297.1.1"}
+}
+27150 = {
+	name="Hodor"
+	female=yes
+	dynasty=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=4129
+	mother = 1213
+	
+	8300.1.1 = { birth="8300.1.1"}
+}
+####
+5129 = {
+	name="Hodor"
+	dynasty=127
+	dna="ajmii0hgga0"
+	properties="el0iglbebc0"
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=127
+	mother = 1150
+	
+	8267.11.1 = {birth="8267.11.1"}
+	8287.1.1 = {
+		add_spouse= 2134 #Sallei Paege - Mother of Walder, Dickon & Mathis. 
+		add_trait=knight
+		add_trait="trained_warrior"
+	} 
+}
+###His Wife###
+2134 = {
+	name="Hodor"
+	female=yes
+	dynasty=134
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=134
+	mother=10134
+	
+	8263.1.1 = {birth="8263.1.1"}
+}
+###Jammos Children###
+15129 = {
+	name="Hodor"
+	dynasty=127
+	dna="ajfii0hgda0"
+	properties="eg0hilbebcb"
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=5129
+	mother = 2134
+	add_trait="kind"
+	#big walder
+	
+	8290.9.10 = {birth="8290.9.10"} #52 days older than little walder
+	8299.2.11 = {
+		employer = 2059
+		guardian = 1059
+	}
+	8299.6.29 = {
+		employer = 2087 #Ramsey
+		guardian = 2087
+	}
+}
+25129 = {
+	name="Hodor"
+	dynasty=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	add_trait = "twin"
+	
+	father=5129
+	mother = 2134
+	
+	8294.1.1 = {birth="8294.1.1"}
+}
+35129 = {
+	name="Hodor"
+	dynasty=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	add_trait = "twin"
+	
+	father=5129
+	mother = 2134
+	
+	8294.1.1 = {birth="8294.1.1"}
+}
+#####
+6129 = {
+	name="Hodor"
+	dynasty=127
+	dna="dhajf0efga0"
+	properties="ee0ihlbebc0"
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=127
+	mother = 1150
+	
+	8268.8.1 = {birth="8268.8.1"}
+	8284.1.1 = {
+		add_spouse= 3134 #Sylwa Paege - Mother of Hoster & Merianne.
+		add_trait=knight
+		add_trait="trained_warrior"
+	} 
+	8299.11.5={
+		effect = { 
+			set_variable = { which = "dishonorable" value = 10 } 
+			hidden_tooltip = { character_event = { id = maintenance.3 } }#dishonour trait
+		} 
+	}
+}
+###His Wife###
+3134 = {
+	name="Hodor"
+	female=yes
+	dynasty=134
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=134
+	mother=10134
+	
+	8265.1.1 = {birth="8265.1.1"}
+}
+###His Children###
+1016129 = {
+	name="Hodor"
+	dynasty=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=6129
+	mother=3134
+	
+	8287.1.1 = { birth="8287.1.1"}
+	8297.1.1 = {
+		guardian=11134 #Damon Paege
+		add_trait=squire
+		add_trait="poor_warrior"
+	} 
+}
+1026129 = {
+	name="Hodor"
+	female=yes
+	dynasty=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=6129
+	mother=3134
+	
+	8288.1.1 = {birth="8288.1.1"}
+
+}
+#####
+7129 = {
+	name="Hodor"
+	female=yes
+	dynasty=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=127
+	mother = 1150
+	
+	8269.6.1 = {birth="8269.6.1"}
+}
+8129 = {
+	name="Hodor"
+	female=yes
+	dynasty=127
+	dna="dkelk0fgga0"
+	properties="ef0ihkbebcb"
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=127
+	mother = 1150
+	8270.6.1 = { birth="8270.6.1"}
+}
+######################################
+###Bethany Rosby Children (post 61)###
+######################################
+9129 = {
+	name="Hodor"
+	dynasty=127
+	dna="almmd0djbc0"
+	properties="ee0eglbebcb"
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait=honest
+	
+	father=127
+	mother =2038
+	
+	8277.1.1 = { birth="8277.1.1"}
+	8293.1.1 = { 
+		add_trait=knight
+		add_trait=skilled_warrior
+	}
+}
+1130 = {
+	name="Hodor"
+	dynasty=127
+	dna="djmmc0libc0"
+	properties="eh0eilbebcb"
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=127
+	mother = 2038
+	
+	8278.1.1 = {birth="8278.1.1"}
+	8294.1.1 = { 
+		add_trait=knight
+		add_trait=poor_warrior
+		add_spouse=101130
+	}
+	8299.11.5 = {
+		add_trait=wounded
+		death = { #red wedding
+			death_reason = death_trait
+		}
+	}
+}
+###His Wife###
+101130 = {
+	name="Hodor" # Cousin of Benfrey
+	dynasty=127
+	female=yes
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=5510127
+	
+	8275.1.1 = {birth="8275.1.1"}
+}
+
+###His Children
+102130 = {
+	name="Hodor"
+	dynasty=127
+	female=yes
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=1130
+	mother=101130
+	
+	8296.1.1 = {birth="8296.1.1"}
+}
+103130 = {
+	name="Hodor"
+	dynasty=127
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=1130
+	mother=101130
+	
+	8297.1.1 = {birth="8297.1.1"}
+}
+######
+2130 = {
+	name="Hodor"
+	dynasty=127
+	dna="alcmd0giac0"
+	properties="el0oilbebcb"
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	learning=13
+	add_trait=martial_cleric
+	
+	father=127
+	mother=2038
+	
+	8279.1.1 = { birth="8279.1.1"}
+	8298.1.1 = {
+		add_trait=maester
+		employer=94052 #House Hunter
+		effect = { set_character_flag = serving_with_lord }
+	}
+	8300.1.1 = {
+		employer=94053 #House Hunter
+	}
+}
+3130 = {
+	name="Hodor"
+	dynasty=127
+	dna="blgme0fjcc0"
+	properties="fa0jilbebc0"
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait="honorable"
+	add_trait="honest"
+	add_trait="diligent"
+	add_trait="brave"
+	add_trait="shy"
+	
+	father=127
+	mother = 2038
+	
+	8281.1.1 = {birth="8281.1.1"}
+	8299.2.1 = {
+		add_trait="squire"
+		add_trait="skilled_warrior"
+		employer = 2059 #robb stark's squire
+	}
+	8299.7.7 = {
+		employer = 127 
+		remove_trait="squire"
+	}
+}
+4130 = {
+	name="Hodor"
+	female=yes
+	dynasty=127
+	dna="dmkmi0kjbc0"
+	properties="ec0dikbebcb"
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait="fair"
+	add_trait="kind"
+	add_trait="craven"
+	add_trait="shy"
+	add_trait="familyperson"
+	add_trait="naive_appeaser"
+	
+	father=127
+	mother = 2038
+	
+	8283.1.1 = { birth="8283.1.1"}
+}
+######################################
+###Annara Farring Children ###
+######################################
+8787874 = {
+	name="Hodor"
+	dynasty=127
+	female=yes
+	dna="bdafk0lfgc0"
+	properties="be0ehkbebb0"
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=127
+	mother = 2024
+	
+	8285.1.1 = { birth="8285.1.1"}
+}
+8787875 = {
+	name="Hodor"
+	dynasty=127
+	dna="bkafk0kfgc0"
+	properties="be0ehkbebbb"
+
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=127
+	mother = 2024
+	
+	8286.1.1 = { birth="8286.1.1"}
+	8292.1.1 = { guardian=128 } #seaguard page
+	8296.1.1 = {
+		add_trait="poor_warrior"
+	}
+}
+8787876 = {
+	name="Hodor"
+	dynasty=127
+
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=127
+	mother = 2024
+	
+	8288.1.1 = { birth="8288.1.1"}
+	8298.1.1 = {
+		add_trait="trained_warrior"
+	}
+}
+8787877 = {
+	name="Hodor"
+	dynasty=127
+	dna="dmmdb0lfgc0"
+	properties="be0ehkbebbb"
+
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=127
+	mother = 2024
+	
+	8289.1.1 = { birth="8289.1.1"}
+	8299.1.1 = {
+		add_trait="poor_warrior"
+	}
+}
+
+8787878 = {
+	name="Hodor"
+	dynasty=127
+	dna="ckcdb0lfgc0"
+	properties="bb0hdkbebbb"
+
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=127
+	mother = 2024
+	
+	8290.2.1 = { birth="8290.2.1"}
+	8299.1.1 = { 
+		add_trait=squire
+		guardian=87 #roose bolton
+		add_trait="trained_warrior"
+	}
+}
+8787879 = {
+	name="Hodor"
+	dynasty=127
+	female=yes
+	dna="ckcdb0lfgc0"
+	properties="bb0hdkbebbb"
+
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=127
+	mother = 2024
+	
+	8293.1.1 = { birth="8293.1.1"}
+}
+
+#################################
+###Stevrons Children & Family ###
+#################################
+###by Corenna Swann###
+5306 = {
+	name="Hodor" #Competent knight, Killed daecy Mormont.
+	dynasty=127
+	dna="bmcjd0edea0"
+	properties="em0jelbebc0"
+	
+	martial = 3
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 6
+	learning = 5
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait="gluttonous"
+	add_trait="lustful"
+	add_trait="drunkard"
+	add_trait="ambitious"
+	add_trait="misguided_warrior"
+	
+	father=1127
+	mother = 205306
+	
+	8250.1.1 = {birth="8250.1.1"}
+	8266.1.1 = {
+		add_spouse= 6660666
+		add_trait="trained_warrior"
+		add_trait="knight"
+	} #No one important.
+	8299.11.5={
+		effect = { 
+			set_variable = { which = "dishonorable" value = 10 } 
+			hidden_tooltip = { character_event = { id = maintenance.3 } }#dishonour trait
+		} 
+	}
+	8300.3.1 = {
+		death = {
+			death_reason = death_execution_hanging
+			killer = 250159 #Lady Stoneheart
+		}
+	}
+}
+###Rymans wife###
+6660666 = {
+	name="Hodor"
+	female=yes
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	8246.1.1 = {birth="8246.1.1"}
+}
+###Rymans 1st son###
+5177 = {
+	name="Hodor"
+	dynasty=127
+	dna="dhbjd0hdga0"
+	properties="ej0hilbebc0"
+	
+	martial = 3
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait="wroth"
+	add_trait="rude"
+	add_trait="flamboyant_schemer"
+	add_trait="shy"
+	add_trait="deceitful"
+	
+	father=5306
+	mother=6660666
+	
+	8266.1.1 = {birth="8266.1.1"}
+	8282.1.1 = { 
+		add_trait=trained_warrior 
+		effect = {
+			add_rival = 6177 #Black Walder
+		}
+	}
+	8285.1.1 = {add_spouse= 94056} #Janyce Hunter, mother of Walda Frey
+}
+###Edwyns Wife###
+94056 = {
+	name="Hodor"
+	female=yes
+	dynasty=177
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94052
+	
+	8266.1.1 = {birth="8266.1.1"}
+}
+###Edwins Daughter###
+66606661 = {
+	name="Hodor"
+	female=yes
+	dynasty=127
+	
+	mother=94056
+	father=5177
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	8291.1.1 = { birth="8291.1.1"}
+}
+###Rymans 2nd son###
+6177 = {
+	name="Hodor" # Black Walder
+	dynasty=127
+	dna="aebgk0kdgg0"
+	properties="ed0iclbebc0"
+	
+	martial = 7
+	diplomacy = 5
+	intrigue = 10 
+	stewardship = 6
+	learning = 4
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait="tough_soldier"
+	add_trait="lustful"
+	add_trait="ruthless"
+	add_trait="proud"
+	add_trait="ambitious"
+	add_trait="deceitful"
+	add_trait="wroth" #Always in a bad mood
+	
+	father=5306
+	mother=6660666
+	
+	8268.1.1 = {birth="8268.1.1"}
+	8276.1.1 = { give_nickname = nick_black_walder }
+	8282.1.1 = { 
+		add_trait="trained_warrior" 
+		effect = {
+			add_rival = 5177 #Edwyn Frey
+		}
+	}
+	8284.1.1 = { 
+		remove_trait="trained_warrior"
+		add_trait="skilled_warrior" 
+	}
+	8299.11.5={
+		effect = { 
+			set_variable = { which = "dishonorable" value = 10 } 
+			hidden_tooltip = { character_event = { id = maintenance.3 } }#dishonour trait
+		} 
+	}
+}
+###Rymans 3rd Son###
+4301 = {
+	name="Hodor"
+	dynasty=127
+	dna="afjgb0ffgg0"
+	properties="el0iilbebc0"
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=5306
+	mother=6660666
+	
+	add_trait = "ugly"
+	
+	8281.1.1 = { birth="8281.1.1"}
+	8289.1.1 = { give_nickname = nick_pimple }
+	8291.1.1 = { add_spouse= 3301} #Mylenda Caron mother of Perra.
+	8297.1.1 = {
+		add_trait="poor_warrior"
+	}
+	8299.11.5={
+		effect = { 
+			set_variable = { which = "dishonorable" value = 10 } 
+			hidden_tooltip = { character_event = { id = maintenance.3 } }#dishonour trait
+		} 
+	}
+	8300.1.1 = {
+		death = {
+			death_reason = death_execution_hanging
+			killer = 250159 #Lady Stoneheart
+		}
+	}
+}
+###Pimples Daughter###
+6664301 = {
+	name="Hodor"
+	dynasty=127
+	female=yes
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=4301
+	mother=3301
+	
+	8294.1.1 = { birth="8294.1.1"}
+}
+###by Jeyne Lydden###
+93217 = {
+	name="Hodor" #jingelbells
+	dynasty=127
+	dna="amije0lecd0"
+	properties="ej0gilbebcb"
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	add_trait="harelip"
+	add_trait="imbecile"
+	add_trait="kind"
+	add_trait="content"
+	add_trait="honest"
+	add_trait="charitable"
+	
+	father=1127
+	mother = 2217
+	
+	8251.12.1 = { birth="8251.12.1"}
+	8251.12.1 = { give_nickname = nick_jingelbells}
+	8299.11.5 = {
+		death = {
+			death_reason = death_murder
+			killer = 250159 #Lady Stoneheart
+		}
+	}
+}
+6153 = {
+	name="Hodor"
+	female=yes
+	dynasty=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=1127
+	mother = 2217
+	
+	8252.8.1 = { birth="8252.8.1"}
+	8288.1.1 = { 
+		death = { death_reason = death_childbirth } #died in child birth
+	}
+}
+###Maegelle's Husband### # Moved to Riverlands.txt
+###Maegelle's Children###
+6665153 = {
+	name="Hodor"
+	dynasty=153
+	female=yes
+	
+	father=5153
+	mother=6153
+	employer=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	8282.1.1 = {birth="8282.1.1"}
+}
+16665153 = {
+	name="Hodor"
+	dynasty=153
+	
+	father=5153
+	mother=6153
+	employer=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	8284.1.1 = {birth="8284.1.1"}
+	8294.1.1 = {
+		add_trait = "squire"
+	}
+	8296.1.1 = {
+		add_trait="trained_warrior"
+	}
+}
+26665153 = {
+	name="Hodor"
+	dynasty=153
+	
+	father=5153
+	mother=6153
+	employer=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	8288.1.1 = {birth="8288.1.1"}
+	8298.1.1 = {
+		add_trait="poor_warrior"
+	}
+}
+###by Marsella Waynwood###
+999217 = {
+	name="Hodor"
+	dynasty=127
+	
+	religion="the_seven"
+	culture="westerman"
+	
+	father=1127
+	mother = 666182
+	
+	8255.1.1 = { birth="8255.1.1"}
+	8271.1.1 = {
+		add_trait="poor_warrior"
+	}
+	8275.1.1 = { add_spouse= 66651531} #Deana Hardyng, wife of Walton Frey
+}
+###Waldons Wife###
+66651531 = {
+	name="Hodor"
+	dynasty=184
+	female=yes
+	
+	religion="the_seven"
+	culture="valeman"
+	
+	father=94087
+	
+	8249.1.1 = {birth="8249.1.1"}
+}
+###Waldons 3 children###
+9992171 = {
+	name="Hodor"
+	dynasty=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=999217
+	mother = 66651531
+	
+	add_trait = kind
+	add_trait = gregarious
+	
+	8278.1.1 = { birth="8278.1.1"}
+	8294.1.1 = {
+		add_trait="poor_warrior"
+		give_nickname = nick_the_sweet
+	}
+}
+9992172 = {
+	name="Hodor" #fair walda
+	dynasty=127
+	female=yes
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait="fair"
+	
+	father=999217
+	mother = 66651531
+	
+	8281.1.1 = { birth="8281.1.1"}
+	8297.1.1 = {
+		give_nickname = nick_the_fair
+	}
+}
+9992173 = {
+	name="Hodor"
+	dynasty=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=999217
+	mother = 66651531
+	
+	8282.1.1 = { birth="8282.1.1"}
+	8295.1.1 = { add_trait = "squire" }
+	8298.1.1 = {
+		add_trait="trained_warrior"
+	}
+}
+##############################
+###Aenys Children & Family ###
+##############################
+53291 = {
+	name="Hodor" 
+	dynasty=127
+	
+	martial = 3
+	diplomacy = 2
+	intrigue = 5
+	stewardship = 3
+	learning = 3
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait="gregarious"
+	add_trait="tough_soldier"
+	add_trait="arbitrary"
+	add_trait="ruthless"
+		
+	father=3127
+	mother = 2329
+	
+	8262.1.1 = {birth="8262.1.1"}
+	8278.1.1 = { 
+		add_trait="knight" 
+		add_trait=trained_warrior
+	}
+	8284.1.1 = { #became an outlaw
+		give_nickname=nick_bloodborn
+		add_trait=disinherited
+		effect = { banish = yes }
+	}
+}
+5329 = {
+	name="Hodor"
+	dynasty=127
+	dna="ciaij0hgda0"
+	properties="ek0iflbebcb"
+	
+	martial = 5
+	diplomacy = 5
+	intrigue = 3
+	stewardship = 3
+	learning = 5
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait="deceitful"
+	add_trait="rude"
+	add_trait="envious"
+	add_trait="arbitrary"
+	add_trait="tough_soldier"
+	
+	father=3127
+	mother = 2329
+	
+	8270.1.1 = { birth="8270.1.1"}
+	8284.1.1 = { 
+		add_spouse=4282 
+	}
+	8286.1.1 = { 
+		add_trait="knight" 
+		add_trait=trained_warrior
+	}
+	8300.2.1={
+		death = {
+			death_reason = death_murder_unknown
+			#Manderly Pie
+		}
+	}
+}
+###Rahegars Wife###
+4282 = {
+	name="Hodor" 
+	dynasty=282 #Beesbury
+	female=yes
+	
+	religion="the_seven"
+	culture="reachman"
+	
+	father=2282
+	mother=111282
+	
+	8263.1.1={birth="8263.1.1"}	
+}
+###Rahegars Sons###
+532911 = {
+	name="Hodor"
+	dynasty=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=5329
+	mother = 4282
+	
+	8286.1.1 = {birth="8286.1.1"}
+}
+532921 = {
+	name="Hodor"
+	dynasty=127
+	female=yes
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=5329
+	mother = 4282
+	
+	8289.1.1 = {birth="8289.1.1"}
+	8298.1.1 = {give_nickname = nick_the_white}
+}
+532931 = {
+	name="Hodor"
+	dynasty=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=5329
+	mother = 4282
+	
+	8291.1.1 = {birth="8291.1.1"}
+}
+################################################
+###Perriane Children & Family aka the Haighs ###
+################################################
+132 = {
+	name="Hodor"
+	dynasty=132
+	
+	martial = 3
+	diplomacy = 5
+	intrigue = 9
+	stewardship = 5
+	learning = 5
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=4132
+	
+	add_trait=brave #took on the great jon
+	
+	8237.1.1 = { birth="8237.1.1"}
+	8253.1.1 = { 
+		add_trait="knight" 
+		add_trait=trained_warrior
+	}
+	8263.1.1 = { add_spouse= 4127 } 
+	8299.11.5={
+		effect = { 
+			set_variable = { which = "dishonorable" value = 10 } 
+			hidden_tooltip = { character_event = { id = maintenance.3 } }#dishonour trait
+		} 
+	}
+}
+1132 = {
+	name="Hodor"
+	dynasty=132
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	martial = 6
+	
+	add_trait="brave"
+	add_trait="tough_soldier"
+	add_trait=deceitful
+	
+	father=132
+	mother = 4127
+	
+	8266.1.1 = {birth="8266.1.1"}
+	8282.1.1 = {add_spouse= 9991132}
+	8282.1.1 = { 
+		add_trait="knight" 
+		add_trait=trained_warrior
+	}
+}
+###Harys Wife###
+9991132 = {
+	name="Hodor"
+	female=yes
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	8263.1.1 = {birth="8263.1.1"}
+}
+###Harys Son###
+99911321 = {
+	name="Hodor" #Walder Heigh
+	dynasty=132
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=1132
+	mother = 9991132
+	
+	8295.1.1 = {birth="8295.1.1"}
+}
+2132 = {
+	name="Hodor" #Sandor Tricked him.
+	dynasty=132
+	dna="bdjmjxaeeau"
+	properties="ca0did0000"
+	
+	martial = 5
+	diplomacy = 4
+	intrigue = 4
+	stewardship = 4
+	learning = 2
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait="slow"
+	add_trait="misguided_warrior"
+	
+	father=132
+	mother = 4127
+	
+	8270.1.1 = { birth="8270.1.1"}
+	8286.1.1 = { 
+		add_trait="knight" 
+		add_trait=trained_warrior
+	}
+}
+3132 = {
+	name="Hodor"
+	dynasty=132
+	
+	religion="the_seven"
+	culture="riverlander"
+
+	father=132
+	mother = 4127
+	
+	8284.1.1 = { birth="8284.1.1"}
+	8294.1.1 = { add_trait="squire" }
+	8299.1.1 = { 
+		add_trait=trained_warrior
+	}
+}
+#############################
+###Jareds Extended Family ###
+#############################
+3155 = {
+	name="Hodor"
+	dynasty=127
+	
+	martial = 6
+	diplomacy = 2
+	intrigue = 5
+	stewardship = 4
+	learning = 5
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait="quick"
+	add_trait="tough_soldier"
+	
+	father=5127
+	mother=666000666
+	
+	8265.1.1 = {birth="8265.1.1"}
+	8282.1.1 = {
+		add_spouse= 1155 #Zoe Blantree - Mother of Zia & Zachery
+		add_trait="trained_warrior"
+		add_trait="knight"
+	} 
+	8299.11.5={
+		death = {
+			death_reason = death_battle
+			killer=2230
+		}
+	}
+}
+###Tyros Wife###
+1155 = {
+	name="Hodor"
+	female=yes
+	dynasty=155
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=155
+	mother=10155
+	
+	8260.1.1 = {birth="8260.1.1"}
+}
+###Tytos Children###
+4155 = {
+	name="Hodor"
+	female=yes
+	dynasty=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=3155
+	mother = 1155
+	
+	8285.1.1 = {birth="8285.1.1"}
+}
+9994155 = {
+	name="Hodor"
+	dynasty=127
+	
+	learning = 15
+	
+	add_trait="temperate"
+	add_trait="diligent"
+	add_trait="humble"
+	add_trait="zealous"
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=3155
+	mother = 1155
+	
+	8287.1.1 = {birth="8287.1.1"}
+}
+5148 = {
+	name="Hodor"
+	female=yes
+	dynasty=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=5127
+	mother=666000666
+	
+	8267.1.1 = {birth="8267.1.1"}
+	8299.11.5={
+		add_trait="widowed"
+	}
+}
+###Kyra's Husband### Garse Goodbrook
+##############################
+###Hosteen Extended Family ###
+##############################
+139 = {
+	name="Hodor"
+	female=yes
+	dynasty=139
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	mother=100139
+	father=1139
+	
+	8252.1.1 = {birth="8252.1.1"}
+}
+###Hosteens Eldest Son###
+3139 = {
+	name="Hodor"
+	dynasty=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait="craven"
+	add_trait="tough_soldier"
+	
+	
+	father=7127
+	mother = 139
+	
+	8274.1.1 = {birth="8274.1.1"}
+	8290.1.1 = {
+		add_spouse= 10139 #Ryella Royce
+		add_trait="knight" 
+		add_trait=trained_warrior
+	} 
+	8300.3.1 = {
+		effect = {
+			c_darry = {
+				holder_scope = { ROOT = { move_character = PREV } }
+			}
+		}
+	}
+}
+###Arnwoods Children###
+11139 = {
+	name="Hodor"
+	female=yes
+	dynasty=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=3139
+	mother = 10139
+	
+	8294.1.1 = {birth="8294.1.1"}
+}
+12139 = {
+	name="Hodor"
+	dynasty=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=3139
+	mother = 10139
+	
+	add_trait = "twin"
+	
+	8296.1.1 = {birth="8296.1.1"}
+}
+13139 = {
+	name="Hodor"
+	dynasty=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	add_trait = "twin"
+	
+	father=3139
+	mother = 10139
+	
+	8296.1.1 = {birth="8296.1.1"}
+}
+14139 = {
+	name="Hodor"
+	female=yes
+	dynasty=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=3139
+	mother = 10139
+	
+	8299.1.1 = {birth="8299.1.1"}
+}
+#######################################
+####Lythene Extended Family - Vypren###
+#######################################
+131 = {
+	name="Hodor"
+	dynasty=131
+	
+	religion="the_seven"
+	culture="riverlander"
+		
+	father=3131
+	
+	8247.1.1 = {birth="8247.1.1"}
+	8263.1.1 = { 
+		add_trait="knight" 
+		add_trait=trained_warrior
+	}
+	8274.1.1 = {add_spouse= 8127} 
+}
+###His Children###
+1131 = {
+	name="Hodor"
+	female=yes
+	dynasty=131
+	
+	religion="old_gods"
+	culture="riverlander"
+	
+	father=131
+	mother = 8127
+	
+	8276.1.1 = {birth="8276.1.1"}
+}
+2131 = {
+	name="Hodor"
+	dynasty=131
+	
+	religion="old_gods"
+	culture="riverlander"
+	
+	father=131
+	mother = 8127
+	
+	8278.1.1 = {birth="8278.1.1"}
+	8294.1.1 = { 
+		add_trait="knight" 
+		add_trait=trained_warrior
+	}
+}
+####################
+###Symond's Bravosi Branch###
+####################
+###The Braavosi wife###
+101129 = {
+	name="Hodor"
+	female=yes
+	dna="dadfcsdbdci"
+	properties="cm0dxd0000"
+	
+	religion="the_seven"
+	culture="braavosi"
+	
+	add_trait=fair
+	
+	8261.1.1 = {birth="8261.1.1"}
+}
+###Their Children###
+102129 = {
+	name="Hodor"
+	dynasty=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=100129
+	mother = 101129
+
+	8278.1.1 = { birth="8278.1.1"}
+	8294.1.1 = { 
+		add_trait="poet" 
+		add_trait=poor_warrior
+	}
+}
+103129 = {
+	name="Hodor"
+	dynasty=127
+	female=yes
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=100129
+	mother = 101129
+	
+	8282.1.1 = {birth="8282.1.1"}
+}
+104129 = {
+	name="Hodor"
+	dynasty=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=100129
+	mother = 101129
+	
+	8289.1.1 = {birth="8289.1.1"}
+	8297.1.1 = {employer= 600000048} #fostered by Oro Tendyris
+}
+################
+###The Bastards###
+###############
+6000127 = {
+	name="Hodor"
+	dynasty=127
+	
+	martial=12
+	stewardship=10
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=127
+	give_nickname = nick_rivers
+	add_trait="bastard"
+	add_trait="tough_soldier"
+	
+	8245.1.1 = { birth="8245.1.1"}
+	8261.1.1 = { 
+		add_trait="knight"
+		add_trait="skilled_warrior"
+	}
+	8269.1.1 = { 
+		add_spouse=18125
+		effect = {
+			dynasty = father_bastard
+			any_child_even_if_dead = {
+				dynasty = ROOT
+			}
+		}
+	}
+	8299.11.5={
+		effect = { 
+			set_variable = { which = "dishonorable" value = 10 } 
+			hidden_tooltip = { character_event = { id = maintenance.3 } }#dishonour trait
+		} 
+	}
+}
+###His Wife###
+18125 = {
+	name="Hodor" # Charlton bride
+	dynasty=125
+	female=yes
+	
+	religion="the_seven"
+	culture="riverlander"
+
+	father=4125
+	
+	8250.1.1 = { birth="8250.1.1"}
+}
+###His Children###
+6001127 = {
+	name="Hodor"
+	dynasty=125
+	female=yes
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=6000127
+	mother=18125
+	give_nickname = nick_rivers
+
+	8270.1.1 = { birth="8270.1.1"}
+}
+6002127 = {
+	name="Hodor"
+	dynasty=125
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=6000127
+	mother=18125
+	give_nickname = nick_rivers
+
+	8272.1.1 = { birth="8272.1.1"}
+	8288.1.1 = { 
+		add_trait="knight"
+		add_trait="skilled_warrior"
+	}
+	8293.1.1 = { 
+		add_spouse=6003127
+	}
+}
+###His Wife & Child###
+6003127 = {
+	name="Hodor"
+	female=yes
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	8274.1.1 = { birth="8274.1.1"}
+}
+6004127 = {
+	name="Hodor"
+	dynasty=125
+	female=yes
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=6002127
+	mother=6003127
+	give_nickname = nick_rivers
+
+	8295.1.1 = { birth="8295.1.1"}
+}
+######
+6005127 = {
+	name="Hodor"
+	dynasty=127
+	
+	learning=14
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=127
+	give_nickname = nick_rivers
+	add_trait="bastard"
+	add_trait="martial_cleric"
+	
+	8250.1.1 = { birth="8250.1.1"}
+	8270.1.1 = { 
+		add_trait="maester"
+		employer=38 #Rosbys
+		effect = { set_character_flag = serving_with_lord }
+	}
+}
+6006127 = {
+	name="Hodor"
+	dynasty=127
+	
+	female=yes
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=127
+	give_nickname = nick_rivers
+	add_trait="bastard"
+	
+	8260.1.1 = { birth="8260.1.1"}
+}
+6007127 = {
+	name="Hodor"
+	dynasty=127
+	
+	martial=8
+
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=127
+	give_nickname = nick_rivers
+	add_trait="bastard"
+	add_trait="tough_soldier"
+	
+	8263.1.1 = { birth="8263.1.1"}
+	8279.1.1 = { 
+		add_trait="trained_warrior"
+	}
+}
+6008127 = {
+	name="Hodor"
+	dynasty=127
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=127
+	give_nickname = nick_rivers
+	add_trait="bastard"
+	add_trait="kind"
+	add_trait=honorable
+
+	8264.1.1 = { birth="8264.1.1"}
+	8280.1.1 = { 
+		add_trait=trained_warrior
+	}
+}
+6009127 = {
+	name="Hodor"
+	dynasty=127
+	
+	martial=8
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=127
+	give_nickname = nick_rivers
+	add_trait="bastard"
+	add_trait="tough_soldier"
+	
+	8266.1.1 = { birth="8266.1.1"}
+	8282.1.1 = { 
+		add_trait=trained_warrior
+	}
+	8299.2.11 = {
+		effect = {
+			c_harrenhal = {
+				holder_scope = {
+					ROOT = { 
+						imprison = PREV 
+						set_character_flag = captured_in_battle
+					}
+				}
+			}
+		}
+	}
+	8299.6.1 = {
+		effect = { prisoner = no }
+	}
+
+}
+6010127 = {
+	name="Hodor"
+	dynasty=127
+	
+	female=yes
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=127
+	give_nickname = nick_rivers
+	add_trait="bastard"
+
+	8265.1.1 = { birth="8265.1.1"}
+}
+
+################################################
+###Unspecified relationship and branch family###
+
+5520127 = {
+	name="Hodor" # Made a brother of Jyanna and Alys
+	dynasty=127
+	
+	
+	father=5510127
+	
+	religion="the_seven"
+	culture="riverlander"
+	
+
+	8267.1.1 = { birth="8267.1.1"}
+	8277.1.1 = {add_trait="squire"}
+	8283.1.1 = {remove_trait="squire" add_trait="knight" add_trait="trained_warrior"}
+}
+###Her frey father-offshoot branch###
+
+5510127 = {
+	name="Hodor" # Nephew of Walder Frey, father of Theo, Jyanna and Alys.
+	dynasty=127
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=5500127
+	
+	8236.4.10 = {birth="8236.4.10"}
+	8252.7.4 = {add_trait="knight" add_trait="poor_warrior"}
+	8281.7.19 = {death="8281.7.19"}
+}
+5500127 = {
+	name="Hodor" # Brother of Walder Frey
+	dynasty=127
+	religion="the_seven"
+	culture="riverlander"
+	
+	father=10127 # Father of Walder
+	mother=6500127
+	
+	8210.2.9 = {birth="8210.2.9"}
+	8226.4.1 = {add_trait="knight" add_trait="trained_warrior"}
+	8259.6.8 = {death = {death_reason = death_battle}}
+}

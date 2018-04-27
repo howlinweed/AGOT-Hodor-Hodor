@@ -1,0 +1,204 @@
+##Sisterman##
+#non-canon
+194800 = {
+	name="Hodor"
+	culture = sisterman
+}
+194801 = {
+	name="Hodor"
+	culture = sisterman
+}
+194802 = {
+	name="Hodor"
+	culture = sisterman
+}
+194803 = {
+	name="Hodor"
+	culture = sisterman
+}
+194804 = {
+	name="Hodor"
+	culture = sisterman
+}
+194805 = {
+	name="Hodor"
+	culture = sisterman
+}
+194806 = {
+	name="Hodor"
+	culture = sisterman
+}
+194807 = {
+	name="Hodor"
+	culture = sisterman
+}
+194808 = {
+	name="Hodor"
+	culture = sisterman
+}
+194809 = {
+	name="Hodor"
+	culture = sisterman
+}
+194810 = {
+	name="Hodor"
+	culture = sisterman
+}
+194811 = {
+	name="Hodor"
+	culture = sisterman
+}
+194812 = {
+	name = Bolthouse
+	culture = sisterman
+}
+194813 = {
+	name = Hardcastle
+	culture = sisterman
+}
+194814 = {
+	name = Lowe
+	culture = sisterman
+}
+194815 = {
+	name = Cerwood
+	culture = sisterman
+}
+194816 = {
+	name = Rockham
+	culture = sisterman
+}
+194817 = {
+	name = Coxworth
+	culture = sisterman
+}
+194818 = {
+	name = Tavner
+	culture = sisterman
+}
+194819 = {
+	name = Goodenow
+	culture = sisterman
+}
+194820 = {
+	name = Roston
+	culture = sisterman
+}
+194821 = {
+	name = Dromonds
+	culture = sisterman
+}
+194822 = {
+	name = Olderly
+	culture = sisterman
+}
+194823 = {
+	name = Qowell
+	culture = sisterman
+}
+194824 = {
+	name = Bandry
+	culture = sisterman
+}
+194825 = {
+	name = Wetstone
+	culture = sisterman
+}
+194826 = {
+	name = Systern
+	culture = sisterman
+}
+194827 = {
+	name = Lightstone
+	culture = sisterman
+}
+194828 = {
+	name = Darklight
+	culture = sisterman
+}
+194829 = {
+	name = Bryne
+	culture = sisterman
+}
+194830 = {
+	name = Watermann
+	culture = sisterman
+}
+194831 = {
+	name = Rowmann
+	culture = sisterman
+}
+194832 = {
+	name = Webley
+	culture = sisterman
+}
+194833 = {
+	name = Horrent
+	culture = sisterman
+}
+194834 = {
+	name = Stormlyte
+	culture = sisterman
+}
+
+#canon
+363 = {
+	name="Hodor"
+	culture = sisterman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 23
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+164 = {
+	name="Hodor"
+	culture = sisterman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 34
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+165 = {
+	name="Hodor"
+	culture = sisterman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+166 = {
+	name="Hodor"
+	culture = sisterman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 36
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}

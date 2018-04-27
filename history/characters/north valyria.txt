@@ -1,0 +1,4076 @@
+#############################################   Mantarys  ####################################################
+
+###House Zobridar of Mantarys
+100570136 = {
+	name="Hodor"	# a lord
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	7944.1.1 = {birth="7944.1.1"}
+	7960.1.1 = {add_trait=trained_warrior}
+	7962.1.1 = {add_spouse=200570136}
+	8012.1.1 = {death="8012.1.1"}
+}
+200570136 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	7944.1.1 = {birth="7944.1.1"}
+	8012.1.1 = {death="8012.1.1"}
+}
+101570136 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=100570136
+	mother=200570136
+
+	7969.1.1 = {birth="7969.1.1"}
+	8011.1.1 = {death="8011.1.1"}
+}
+102570136 = {
+	name="Hodor"	# a lord
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=100570136
+	mother=200570136
+
+	7970.1.1 = {birth="7970.1.1"}
+	7986.1.1 = {add_trait=poor_warrior}
+	7988.1.1 = {add_spouse=202570136}
+	8038.1.1 = {death="8038.1.1"}
+}
+202570136 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	7970.1.1 = {birth="7970.1.1"}
+	8038.1.1 = {death="8038.1.1"}
+}
+103570136 = {
+	name="Hodor"	# a lord
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=102570136
+	mother=202570136
+
+	7988.1.1 = {birth="7988.1.1"}
+	8004.1.1 = {add_trait=poor_warrior}
+	8006.1.1 = {add_spouse=203570136}
+	8040.1.1 = {death="8040.1.1"}
+}
+203570136 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	7988.1.1 = {birth="7988.1.1"}
+	8040.1.1 = {death="8040.1.1"}
+}
+104570136 = {
+	name="Hodor"	# not a lord
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=102570136
+	mother=202570136
+
+	7989.1.1 = {birth="7989.1.1"}
+	8005.1.1 = {add_trait=trained_warrior}
+	8024.1.1 = {death="8024.1.1"}
+}
+105570136 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=102570136
+	mother=202570136
+
+	7991.1.1 = {birth="7991.1.1"}
+	8014.1.1 = {death="8014.1.1"}
+}
+106570136 = {
+	name="Hodor"	# not a lord
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=102570136
+	mother=202570136
+
+	7994.1.1 = {birth="7994.1.1"}
+	8010.1.1 = {add_trait=skilled_warrior}
+	8052.1.1 = {death="8052.1.1"}
+}
+107570136 = {
+	name="Hodor"	# not a lord
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=103570136
+	mother=203570136
+
+	8019.1.1 = {birth="8019.1.1"}
+	8037.1.1 = {add_spouse=207570136}
+	8079.1.1 = {death="8079.1.1"}
+}
+207570136 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8019.1.1 = {birth="8019.1.1"}
+	8079.1.1 = {death="8079.1.1"}
+}
+108570136 = {
+	name="Hodor"	# a lord
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=103570136
+	mother=203570136
+
+	8022.1.1 = {birth="8022.1.1"}
+	8038.1.1 = {add_trait=poor_warrior}
+	8040.1.1 = {add_spouse=208570136}
+	8059.1.1 = {death="8059.1.1"}
+}
+208570136 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8022.1.1 = {birth="8022.1.1"}
+	8059.1.1 = {death="8059.1.1"}
+}
+109570136 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=107570136
+	mother=207570136
+
+	8047.1.1 = {birth="8047.1.1"}
+	8112.1.1 = {death="8112.1.1"}
+}
+110570136 = {
+	name="Hodor"	# a lord
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=108570136
+	mother=208570136
+
+	8041.1.1 = {birth="8041.1.1"}
+	8057.1.1 = {add_trait=poor_warrior}
+	8059.1.1 = {add_spouse=210570136}
+	8090.1.1 = {death="8090.1.1"}
+}
+210570136 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8041.1.1 = {birth="8041.1.1"}
+	8090.1.1 = {death="8090.1.1"}
+}
+111570136 = {
+	name="Hodor"	# not a lord
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=108570136
+	mother=208570136
+
+	8042.1.1 = {birth="8042.1.1"}
+	8058.1.1 = {add_trait=trained_warrior}
+	8093.1.1 = {death="8093.1.1"}
+}
+112570136 = {
+	name="Hodor"	# not a lord
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=108570136
+	mother=208570136
+
+	8044.1.1 = {birth="8044.1.1"}
+	8060.1.1 = {add_trait=poor_warrior}
+	8086.1.1 = {death="8086.1.1"}
+}
+113570136 = {
+	name="Hodor"	# not a lord
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=108570136
+	mother=208570136
+
+	8046.1.1 = {birth="8046.1.1"}
+	8062.1.1 = {add_trait=trained_warrior}
+	8090.1.1 = {death="8090.1.1"}
+}
+114570136 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=108570136
+	mother=208570136
+
+	8049.1.1 = {birth="8049.1.1"}
+	8103.1.1 = {death="8103.1.1"}
+}
+115570136 = {
+	name="Hodor"	# a lord
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=110570136
+	mother=210570136
+
+	8070.1.1 = {birth="8070.1.1"}
+	8086.1.1 = {add_trait=skilled_warrior}
+	8096.1.1 = {death = {death_reason = death_execution}}
+}
+116570136 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=110570136
+	mother=210570136
+
+	8072.1.1 = {birth="8072.1.1"}
+	8121.1.1 = {death="8121.1.1"}
+}
+117570136 = {
+	name="Hodor"	# a lord
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=110570136
+	mother=210570136
+
+	8075.1.1 = {birth="8075.1.1"}
+	8091.1.1 = {add_trait=poor_warrior}
+	8093.1.1 = {add_spouse=217570136}
+	8120.1.1 = {death="8120.1.1"}
+}
+217570136 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8075.1.1 = {birth="8075.1.1"}
+	8120.1.1 = {death="8120.1.1"}
+}
+118570136 = {
+	name="Hodor"	# a lord
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=117570136
+	mother=217570136
+
+	8110.1.1 = {birth="8110.1.1"}
+	8126.1.1 = {add_trait=poor_warrior}
+	8128.1.1 = {add_spouse=218570136}
+	8158.1.1 = {death = {death_reason = death_murder}}
+}
+218570136 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8110.1.1 = {birth="8110.1.1"}
+	8158.1.1 = {death="8158.1.1"}
+}
+119570136 = {
+	name="Hodor"	# a lord
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=118570136
+	mother=218570136
+
+	8129.1.1 = {birth="8129.1.1"}
+	8145.1.1 = {add_trait=skilled_warrior}
+	8147.1.1 = {add_spouse=219570136}
+	8162.1.1 = {death="8162.1.1"}
+}
+219570136 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8129.1.1 = {birth="8129.1.1"}
+	8162.1.1 = {death="8162.1.1"}
+}
+120570136 = {
+	name="Hodor"	# not a lord
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=118570136
+	mother=218570136
+
+	8131.1.1 = {birth="8131.1.1"}
+	8147.1.1 = {add_trait=trained_warrior}
+	8167.1.1 = {death="8167.1.1"}
+}
+121570136 = {
+	name="Hodor"	# a lord
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=119570136
+	mother=219570136
+
+	8149.1.1 = {birth="8149.1.1"}
+	8165.1.1 = {add_trait=trained_warrior}
+	8167.1.1 = {add_spouse=221570136}
+	8190.1.1 = {death="8190.1.1"}
+}
+221570136 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8149.1.1 = {birth="8149.1.1"}
+	8190.1.1 = {death="8190.1.1"}
+}
+122570136 = {
+	name="Hodor"	# a lord
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=119570136
+	mother=219570136
+
+	8150.1.1 = {birth="8150.1.1"}
+	8166.1.1 = {add_trait=poor_warrior}
+	8168.1.1 = {add_spouse=222570136}
+	8214.1.1 = {death="8214.1.1"}
+}
+222570136 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8150.1.1 = {birth="8150.1.1"}
+	8214.1.1 = {death="8214.1.1"}
+}
+123570136 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=119570136
+	mother=219570136
+
+	8152.1.1 = {birth="8152.1.1"}
+	8195.1.1 = {death="8195.1.1"}
+}
+124570136 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=119570136
+	mother=219570136
+
+	8153.1.1 = {birth="8153.1.1"}
+	8196.1.1 = {death="8196.1.1"}
+}
+125570136 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=121570136
+	mother=221570136
+
+	8171.1.1 = {birth="8171.1.1"}
+	8187.1.1 = {death="8187.1.1"}
+}
+126570136 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=121570136
+	mother=221570136
+
+	8172.1.1 = {birth="8172.1.1"}
+	8249.1.1 = {death="8249.1.1"}
+}
+127570136 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=122570136
+	mother=222570136
+
+	8173.1.1 = {birth="8173.1.1"}
+	8225.1.1 = {death="8225.1.1"}
+}
+128570136 = {
+	name="Hodor"	# a lord
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=122570136
+	mother=222570136
+
+	8176.1.1 = {birth="8176.1.1"}
+	8192.1.1 = {add_trait=trained_warrior}
+	8194.1.1 = {add_spouse=228570136}
+	8256.1.1 = {death="8256.1.1"}
+}
+228570136 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8176.1.1 = {birth="8176.1.1"}
+	8256.1.1 = {death="8256.1.1"}
+}
+129570136 = {
+	name="Hodor"	# not a lord
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=122570136
+	mother=222570136
+
+	8178.1.1 = {birth="8178.1.1"}
+	8194.1.1 = {add_trait=poor_warrior}
+	8247.1.1 = {death="8247.1.1"}
+}
+130570136 = {
+	name="Hodor"	# a lord
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=128570136
+	mother=228570136
+
+	8210.1.1 = {birth="8210.1.1"}
+	8226.1.1 = {add_trait=trained_warrior}
+	8228.1.1 = {add_spouse=230570136}
+	8278.1.1 = {death = {death_reason = death_accident}}
+}
+230570136 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8210.1.1 = {birth="8210.1.1"}
+	8278.1.1 = {death="8278.1.1"}
+}
+131570136 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=128570136
+	mother=228570136
+
+	8213.1.1 = {birth="8213.1.1"}
+	8280.1.1 = {death="8280.1.1"}
+}
+132570136 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=128570136
+	mother=228570136
+
+	8215.1.1 = {birth="8215.1.1"}
+	8266.1.1 = {death="8266.1.1"}
+}
+133570136 = {
+	name="Hodor"	# not a lord
+	dynasty=5700136
+	
+	martial = 10
+
+	religion = valyrian_rel
+	culture="mantaryan"
+	
+	add_trait = diligent
+	add_trait = envious
+	add_trait = proud
+
+	father=128570136
+	mother=228570136
+
+	8217.1.1 = {birth="8217.1.1"}
+	8233.1.1 = {add_trait=trained_warrior}
+	8259.6.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+134570136 = {
+	name="Hodor"	# not a lord
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=128570136
+	mother=228570136
+
+	8218.1.1 = {birth="8218.1.1"}
+	8234.1.1 = {add_trait=poor_warrior}
+	8247.1.1 = {death = {death_reason = death_battle}}
+}
+135570136 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=130570136
+	mother=230570136
+
+	8229.1.1 = {birth="8229.1.1"}
+	8283.1.1 = {death="8283.1.1"}
+}
+136570136 = {
+	name="Hodor"	# a lord
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=130570136
+	mother=230570136
+
+	8230.1.1 = {birth="8230.1.1"}
+	8246.1.1 = {add_trait=trained_warrior}
+	8248.1.1 = {add_spouse=236570136}
+	8285.1.1 = {death="8285.1.1"}
+}
+236570136 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8230.1.1 = {birth="8230.1.1"}
+	8285.1.1 = {death="8285.1.1"}
+}
+137570136 = {
+	name="Hodor"	# not a lord
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=130570136
+	mother=230570136
+
+	8232.1.1 = {birth="8232.1.1"}
+	8248.1.1 = {add_trait=trained_warrior}
+}
+138570136 = {
+	name="Hodor"	# not a lord
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=130570136
+	mother=230570136
+
+	8233.1.1 = {birth="8233.1.1"}
+	8249.1.1 = {add_trait=master_warrior}
+	8286.1.1 = {death="8286.1.1"}
+}
+139570136 = {
+	name="Hodor"	# not a lord
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=130570136
+	mother=230570136
+
+	8234.1.1 = {birth="8234.1.1"}
+	8250.1.1 = {add_trait=trained_warrior}
+	8278.1.1 = {death="8278.1.1"}
+}
+140570136 = {
+	name="Hodor"	# a lord
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=136570136
+	mother=236570136
+
+	8252.1.1 = {birth="8252.1.1"}
+	8268.1.1 = {add_trait=poor_warrior}
+	8270.1.1 = {add_spouse=240570136}
+}
+240570136 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8252.1.1 = {birth="8252.1.1"}
+}
+141570136 = {
+	name="Hodor"	# not a lord
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=136570136
+	mother=236570136
+
+	8253.1.1 = {birth="8253.1.1"}
+	8269.1.1 = {add_trait=poor_warrior}
+	8271.1.1 = {add_spouse=241570136}
+}
+241570136 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8253.1.1 = {birth="8253.1.1"}
+}
+142570136 = {
+	name="Hodor"	# not a lord
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=136570136
+	mother=236570136
+
+	8256.1.1 = {birth="8256.1.1"}
+	8272.1.1 = {add_trait=poor_warrior}
+	8274.1.1 = {add_spouse=242570136}
+}
+242570136 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8256.1.1 = {birth="8256.1.1"}
+}
+143570136 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=140570136
+	mother=240570136
+
+	8270.1.1 = {birth="8270.1.1"}
+}
+144570136 = {
+	name="Hodor"	# not a lord
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=140570136
+	mother=240570136
+
+	8273.1.1 = {birth="8273.1.1"}
+	8289.1.1 = {add_trait=poor_warrior}
+}
+145570136 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=140570136
+	mother=240570136
+
+	8275.1.1 = {birth="8275.1.1"}
+}
+146570136 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=141570136
+	mother=241570136
+
+	8287.1.1 = {birth="8287.1.1"}
+}
+147570136 = {
+	name="Hodor"	# not a lord
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=142570136
+	mother=242570136
+
+	8285.1.1 = {birth="8285.1.1"}
+	8301.1.1 = {add_trait=trained_warrior}
+}
+148570136 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=142570136
+	mother=242570136
+
+	8288.1.1 = {birth="8288.1.1"}
+}
+149570136 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700136
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=142570136
+	mother=242570136
+
+	8290.1.1 = {birth="8290.1.1"}
+}
+
+
+####   House Lodaorys
+
+10070116 = {
+	name="Hodor"	# a lord
+	dynasty=5700116
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	7965.1.1 = {birth="7965.1.1"}
+	7981.1.1 = {add_trait=poor_warrior}
+	7983.1.1 = {add_spouse=40070116}
+	8027.1.1 = {death="8027.1.1"}
+}
+40070116 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	7965.1.1 = {birth="7965.1.1"}
+	8027.1.1 = {death="8027.1.1"}
+}
+10170116 = {
+	name="Hodor"	# not a lord
+	dynasty=5700116
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=10070116
+	mother=40070116
+
+	7989.1.1 = {birth="7989.1.1"}
+	8005.1.1 = {add_trait=poor_warrior}
+	8027.1.1 = {death="8027.1.1"}
+}
+10270116 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700116
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=10070116
+	mother=40070116
+
+	7991.1.1 = {birth="7991.1.1"}
+	8051.1.1 = {death="8051.1.1"}
+}
+10370116 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700116
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=10070116
+	mother=40070116
+
+	7994.1.1 = {birth="7994.1.1"}
+	8031.1.1 = {death="8031.1.1"}
+}
+10470116 = {
+	name="Hodor"	# a lord
+	dynasty=5700116
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=10070116
+	mother=40070116
+
+	7996.1.1 = {birth="7996.1.1"}
+	8013.1.1 = {add_trait=skilled_warrior}
+	8015.1.1 = {add_spouse=40470116}
+	8060.1.1 = {death="8060.1.1"}
+}
+40470116 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	7996.1.1 = {birth="7996.1.1"}
+	8060.1.1 = {death="8060.1.1"}
+}
+10570116 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700116
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=10470116
+	mother=40470116
+
+	8029.1.1 = {birth="8029.1.1"}
+	8052.1.1 = {death="8052.1.1"}
+}
+10670116 = {
+	name="Hodor"	# a lord
+	dynasty=5700116
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=10470116
+	mother=40470116
+
+	8031.1.1 = {birth="8031.1.1"}
+	8047.1.1 = {add_trait=poor_warrior}
+	8049.1.1 = {add_spouse=40670116}
+	8079.1.1 = {death="8079.1.1"}
+}
+40670116 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8031.1.1 = {birth="8031.1.1"}
+	8079.1.1 = {death="8079.1.1"}
+}
+10770116 = {
+	name="Hodor"	# a lord
+	dynasty=5700116
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=10670116
+	mother=40670116
+
+	8052.1.1 = {birth="8052.1.1"}
+	8068.1.1 = {add_trait=poor_warrior}
+	8070.1.1 = {add_spouse=40770116}
+	8108.1.1 = {death="8108.1.1"}
+}
+40770116 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8052.1.1 = {birth="8052.1.1"}
+	8108.1.1 = {death="8108.1.1"}
+}
+10870116 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700116
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=10670116
+	mother=40670116
+
+	8054.1.1 = {birth="8054.1.1"}
+	8085.1.1 = {death="8085.1.1"}
+}
+10970116 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700116
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=10770116
+	mother=40770116
+
+	8071.1.1 = {birth="8071.1.1"}
+	8113.1.1 = {death="8113.1.1"}
+}
+11070116 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700116
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=10770116
+	mother=40770116
+
+	8072.1.1 = {birth="8072.1.1"}
+	8103.1.1 = {death="8103.1.1"}
+}
+11170116 = {
+	name="Hodor"	# a lord
+	dynasty=5700116
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=10770116
+	mother=40770116
+
+	8074.1.1 = {birth="8074.1.1"}
+	8090.1.1 = {add_trait=poor_warrior}
+	8092.1.1 = {add_spouse=41170116}
+	8128.1.1 = {death="8128.1.1"}
+}
+41170116 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8074.1.1 = {birth="8074.1.1"}
+	8128.1.1 = {death="8128.1.1"}
+}
+11270116 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700116
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=10770116
+	mother=40770116
+
+	8075.1.1 = {birth="8075.1.1"}
+	8138.1.1 = {death="8138.1.1"}
+}
+11370116 = {
+	name="Hodor"	# a lord
+	dynasty=5700116
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=11170116
+	mother=41170116
+
+	8094.1.1 = {birth="8094.1.1"}
+	8110.1.1 = {add_trait=poor_warrior}
+	8112.1.1 = {add_spouse=41370116}
+	8139.1.1 = {death="8139.1.1"}
+}
+41370116 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8094.1.1 = {birth="8094.1.1"}
+	8139.1.1 = {death="8139.1.1"}
+}
+11470116 = {
+	name="Hodor"	# not a lord
+	dynasty=5700116
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=11170116
+	mother=41170116
+
+	8097.1.1 = {birth="8097.1.1"}
+	8113.1.1 = {add_trait=poor_warrior}
+	8135.1.1 = {death = {death_reason = death_murder}}
+}
+11570116 = {
+	name="Hodor"	# a lord
+	dynasty=5700116
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=11370116
+	mother=41370116
+
+	8114.1.1 = {birth="8114.1.1"}
+	8130.1.1 = {add_trait=poor_warrior}
+	8132.1.1 = {add_spouse=41570116}
+	8181.1.1 = {death="8181.1.1"}
+}
+41570116 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8114.1.1 = {birth="8114.1.1"}
+	8181.1.1 = {death="8181.1.1"}
+}
+11670116 = {
+	name="Hodor"	# a lord
+	dynasty=5700116
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=11570116
+	mother=41570116
+
+	8148.1.1 = {birth="8148.1.1"}
+	8164.1.1 = {add_trait=skilled_warrior}
+	8166.1.1 = {add_spouse=41670116}
+	8213.1.1 = {death="8213.1.1"}
+}
+41670116 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8148.1.1 = {birth="8148.1.1"}
+	8213.1.1 = {death="8213.1.1"}
+}
+11770116 = {
+	name="Hodor"	# not a lord
+	dynasty=5700116
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=11570116
+	mother=41570116
+
+	8151.1.1 = {birth="8151.1.1"}
+	8167.1.1 = {add_trait=trained_warrior}
+	8191.1.1 = {death="8191.1.1"}
+}
+11870116 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700116
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=11670116
+	mother=41670116
+
+	8177.1.1 = {birth="8177.1.1"}
+	8234.1.1 = {death="8234.1.1"}
+}
+11970116 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700116
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=11670116
+	mother=41670116
+
+	8179.1.1 = {birth="8179.1.1"}
+	8220.1.1 = {death="8220.1.1"}
+}
+12070116 = {
+	name="Hodor"	# a lord
+	dynasty=5700116
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=11670116
+	mother=41670116
+
+	8180.1.1 = {birth="8180.1.1"}
+	8196.1.1 = {add_trait=poor_warrior}
+	8198.1.1 = {add_spouse=42070116}
+	8225.1.1 = {death="8225.1.1"}
+}
+42070116 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8180.1.1 = {birth="8180.1.1"}
+	8225.1.1 = {death="8225.1.1"}
+}
+12170116 = {
+	name="Hodor"	# not a lord
+	dynasty=5700116
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=11670116
+	mother=41670116
+
+	8183.1.1 = {birth="8183.1.1"}
+	8199.1.1 = {add_trait=poor_warrior}
+	8237.1.1 = {death="8237.1.1"}
+}
+12270116 = {
+	name="Hodor"	# a lord
+	dynasty=5700116
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=12070116
+	mother=42070116
+
+	8202.1.1 = {birth="8202.1.1"}
+	8218.1.1 = {add_trait=skilled_warrior}
+	8220.1.1 = {add_spouse=42270116}
+	8274.1.1 = {death = {death_reason = death_accident}}
+}
+42270116 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8202.1.1 = {birth="8202.1.1"}
+	8274.1.1 = {death="8274.1.1"}
+}
+12370116 = {
+	name="Hodor"	# not a lord
+	dynasty=5700116
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=12070116
+	mother=42070116
+
+	8203.1.1 = {birth="8203.1.1"}
+	8219.1.1 = {add_trait=trained_warrior}
+	8268.1.1 = {death="8268.1.1"}
+}
+12470116 = {
+	name="Hodor"	# not a lord
+	dynasty=5700116
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=12070116
+	mother=42070116
+
+	8205.1.1 = {birth="8205.1.1"}
+	8221.1.1 = {add_trait=poor_warrior}
+	8281.1.1 = {death="8281.1.1"}
+}
+12570116 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700116
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=12070116
+	mother=42070116
+
+	8207.1.1 = {birth="8207.1.1"}
+	8276.1.1 = {death="8276.1.1"}
+}
+12670116 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700116
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=12270116
+	mother=42270116
+
+	8228.1.1 = {birth="8228.1.1"}
+	8285.1.1 = {death="8285.1.1"}
+}
+12770116 = {
+	name="Hodor"	# a lord
+	dynasty=5700116
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=12270116
+	mother=42270116
+
+	8229.1.1 = {birth="8229.1.1"}
+	8245.1.1 = {add_trait=poor_warrior}
+	8247.1.1 = {add_spouse=42770116}
+	8293.1.1 = {death="8293.1.1"}
+}
+42770116 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8229.1.1 = {birth="8229.1.1"}
+	8293.1.1 = {death="8293.1.1"}
+}
+12870116 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700116
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=12270116
+	mother=42270116
+
+	8232.1.1 = {birth="8232.1.1"}
+	8265.1.1 = {death="8265.1.1"}
+}
+12970116 = {
+	name="Hodor"	# a lord
+	dynasty=5700116
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=12770116
+	mother=42770116
+
+	8249.1.1 = {birth="8249.1.1"}
+	8265.1.1 = {add_trait=trained_warrior}
+	8267.1.1 = {add_spouse=42970116}
+}
+42970116 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8249.1.1 = {birth="8249.1.1"}
+}
+13070116 = {
+	name="Hodor"	# not a lord
+	dynasty=5700116
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=12970116
+	mother=42970116
+
+	8278.1.1 = {birth="8278.1.1"}
+	8294.1.1 = {add_trait=master_warrior}
+	8296.1.1 = {add_spouse=43070116}
+}
+43070116 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8278.1.1 = {birth="8278.1.1"}
+}
+13170116 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700116
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=12970116
+	mother=42970116
+
+	8279.1.1 = {birth="8279.1.1"}
+}
+
+
+####  House Rebagyr
+
+10070124 = {
+	name="Hodor"	# a lord
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	7966.1.1 = {birth="7966.1.1"}
+	7982.1.1 = {add_trait=poor_warrior}
+	7984.1.1 = {add_spouse=40070124}
+	8029.1.1 = {death="8029.1.1"}
+}
+40070124 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	7966.1.1 = {birth="7966.1.1"}
+	8029.1.1 = {death="8029.1.1"}
+}
+10170124 = {
+	name="Hodor"	# a lord
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=10070124
+	mother=40070124
+
+	7987.1.1 = {birth="7987.1.1"}
+	8003.1.1 = {add_trait=skilled_warrior}
+	8005.1.1 = {add_spouse=40170124}
+	8065.1.1 = {death="8065.1.1"}
+}
+40170124 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	7987.1.1 = {birth="7987.1.1"}
+	8065.1.1 = {death="8065.1.1"}
+}
+10270124 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=10170124
+	mother=40170124
+
+	8021.1.1 = {birth="8021.1.1"}
+	8095.1.1 = {death="8095.1.1"}
+}
+10370124 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=10170124
+	mother=40170124
+
+	8024.1.1 = {birth="8024.1.1"}
+	8074.1.1 = {death="8074.1.1"}
+}
+10470124 = {
+	name="Hodor"	# a lord
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=10170124
+	mother=40170124
+
+	8025.1.1 = {birth="8025.1.1"}
+	8041.1.1 = {add_trait=trained_warrior}
+	8043.1.1 = {add_spouse=40470124}
+	8068.1.1 = {death="8068.1.1"}
+}
+40470124 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8025.1.1 = {birth="8025.1.1"}
+	8068.1.1 = {death="8068.1.1"}
+}
+10570124 = {
+	name="Hodor"	# not a lord
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=10170124
+	mother=40170124
+
+	8027.1.1 = {birth="8027.1.1"}
+	8043.1.1 = {add_trait=poor_warrior}
+	8073.1.1 = {death="8073.1.1"}
+}
+10670124 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=10170124
+	mother=40170124
+
+	8029.1.1 = {birth="8029.1.1"}
+	8067.1.1 = {death="8067.1.1"}
+}
+10770124 = {
+	name="Hodor"	# a lord
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=10470124
+	mother=40470124
+
+	8054.1.1 = {birth="8054.1.1"}
+	8070.1.1 = {add_trait=poor_warrior}
+	8072.1.1 = {add_spouse=40770124}
+	8112.1.1 = {death="8112.1.1"}
+}
+40770124 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8054.1.1 = {birth="8054.1.1"}
+	8112.1.1 = {death="8112.1.1"}
+}
+10870124 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=10770124
+	mother=40770124
+
+	8089.1.1 = {birth="8089.1.1"}
+	8136.1.1 = {death = {death_reason = death_accident}}
+}
+10970124 = {
+	name="Hodor"	# a lord
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=10770124
+	mother=40770124
+
+	8090.1.1 = {birth="8090.1.1"}
+	8106.1.1 = {add_trait=master_warrior}
+	8108.1.1 = {add_spouse=40970124}
+	8161.1.1 = {death="8161.1.1"}
+}
+40970124 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8090.1.1 = {birth="8090.1.1"}
+	8161.1.1 = {death="8161.1.1"}
+}
+11070124 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=10770124
+	mother=40770124
+
+	8091.1.1 = {birth="8091.1.1"}
+	8150.1.1 = {death="8150.1.1"}
+}
+11170124 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=10970124
+	mother=40970124
+
+	8118.1.1 = {birth="8118.1.1"}
+	8157.1.1 = {death="8157.1.1"}
+}
+11270124 = {
+	name="Hodor"	# a lord
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=10970124
+	mother=40970124
+
+	8120.1.1 = {birth="8120.1.1"}
+	8136.1.1 = {add_trait=skilled_warrior}
+	8138.1.1 = {add_spouse=41270124}
+	8179.1.1 = {death="8179.1.1"}
+}
+41270124 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8120.1.1 = {birth="8120.1.1"}
+	8179.1.1 = {death="8179.1.1"}
+}
+11370124 = {
+	name="Hodor"	# not a lord
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=10970124
+	mother=40970124
+
+	8121.1.1 = {birth="8121.1.1"}
+	8137.1.1 = {add_trait=poor_warrior}
+	8172.1.1 = {death="8172.1.1"}
+}
+11470124 = {
+	name="Hodor"	# not a lord
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=10970124
+	mother=40970124
+
+	8124.1.1 = {birth="8124.1.1"}
+	8140.1.1 = {add_trait=trained_warrior}
+	8188.1.1 = {death="8188.1.1"}
+}
+11570124 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=11270124
+	mother=41270124
+
+	8139.1.1 = {birth="8139.1.1"}
+	8171.1.1 = {death="8171.1.1"}
+}
+11670124 = {
+	name="Hodor"	# not a lord
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=11270124
+	mother=41270124
+
+	8140.1.1 = {birth="8140.1.1"}
+	8156.1.1 = {add_trait=poor_warrior}
+	8162.1.1 = {death="8162.1.1"}
+}
+11770124 = {
+	name="Hodor"	# a lord
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=11270124
+	mother=41270124
+
+	8141.1.1 = {birth="8141.1.1"}
+	8157.1.1 = {add_trait=poor_warrior}
+	8159.1.1 = {add_spouse=41770124}
+	8195.1.1 = {death="8195.1.1"}
+}
+41770124 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8141.1.1 = {birth="8141.1.1"}
+	8195.1.1 = {death="8195.1.1"}
+}
+11870124 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=11270124
+	mother=41270124
+
+	8142.1.1 = {birth="8142.1.1"}
+	8202.1.1 = {death="8202.1.1"}
+}
+11970124 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=11770124
+	mother=41770124
+
+	8161.1.1 = {birth="8161.1.1"}
+	8220.1.1 = {death="8220.1.1"}
+}
+12070124 = {
+	name="Hodor"	# a lord
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=11770124
+	mother=41770124
+
+	8164.1.1 = {birth="8164.1.1"}
+	8180.1.1 = {add_trait=trained_warrior}
+	8182.1.1 = {add_spouse=42070124}
+	8224.1.1 = {death="8224.1.1"}
+}
+42070124 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8164.1.1 = {birth="8164.1.1"}
+	8224.1.1 = {death="8224.1.1"}
+}
+12170124 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=12070124
+	mother=42070124
+
+	8188.1.1 = {birth="8188.1.1"}
+	8255.1.1 = {death = {death_reason = death_accident}}
+}
+12270124 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=12070124
+	mother=42070124
+
+	8189.1.1 = {birth="8189.1.1"}
+	8262.1.1 = {death="8262.1.1"}
+}
+12370124 = {
+	name="Hodor"	# a lord
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=12070124
+	mother=42070124
+
+	8190.1.1 = {birth="8190.1.1"}
+	8206.1.1 = {add_trait=poor_warrior}
+	8208.1.1 = {add_spouse=42370124}
+	8230.1.1 = {death="8230.1.1"}
+}
+42370124 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8190.1.1 = {birth="8190.1.1"}
+	8230.1.1 = {death="8230.1.1"}
+}
+12470124 = {
+	name="Hodor"	# a lord
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=12370124
+	mother=42370124
+
+	8209.1.1 = {birth="8209.1.1"}
+	8225.1.1 = {add_trait=skilled_warrior}
+	8227.1.1 = {add_spouse=42470124}
+	8241.1.1 = {death="8241.1.1"}
+}
+42470124 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8209.1.1 = {birth="8209.1.1"}
+	8241.1.1 = {death="8241.1.1"}
+}
+12570124 = {
+	name="Hodor"	# not a lord
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=12370124
+	mother=42370124
+
+	8210.1.1 = {birth="8210.1.1"}
+	8226.1.1 = {add_trait=poor_warrior}
+	8251.1.1 = {death="8251.1.1"}
+}
+12670124 = {
+	name="Hodor"	# not a lord
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=12370124
+	mother=42370124
+
+	8211.1.1 = {birth="8211.1.1"}
+	8227.1.1 = {add_trait=trained_warrior}
+	8271.1.1 = {death="8271.1.1"}
+}
+12770124 = {
+	name="Hodor"	# not a lord
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=12370124
+	mother=42370124
+
+	8214.1.1 = {birth="8214.1.1"}
+	8230.1.1 = {add_trait=skilled_warrior}
+	8252.1.1 = {death="8252.1.1"}
+}
+12870124 = {
+	name="Hodor"	# not a lord
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=12370124
+	mother=42370124
+
+	8216.1.1 = {birth="8216.1.1"}
+	8232.1.1 = {add_trait=poor_warrior}
+	8273.1.1 = {death="8273.1.1"}
+}
+12970124 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=12470124
+	mother=42470124
+
+	8237.1.1 = {birth="8237.1.1"}
+	8278.1.1 = {death="8278.1.1"}
+}
+13070124 = {
+	name="Hodor"	# a lord
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=12470124
+	mother=42470124
+
+	8238.1.1 = {birth="8238.1.1"}
+	8254.1.1 = {add_trait=poor_warrior}
+	8256.1.1 = {add_spouse=43070124}
+	8276.1.1 = {death="8276.1.1"}
+}
+43070124 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8238.1.1 = {birth="8238.1.1"}
+	8276.1.1 = {death="8276.1.1"}
+}
+13170124 = {
+	name="Hodor"	# not a lord
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=12470124
+	mother=42470124
+
+	8239.1.1 = {birth="8239.1.1"}
+	8255.1.1 = {add_trait=master_warrior}
+	8318.1.1 = {death="8318.1.1"}
+}
+13270124 = {
+	name="Hodor"	# not a lord
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=12470124
+	mother=42470124
+
+	8240.1.1 = {birth="8240.1.1"}
+	8256.1.1 = {add_trait=poor_warrior}
+	8271.1.1 = {death="8271.1.1"}
+}
+13370124 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=13070124
+	mother=43070124
+
+	8271.1.1 = {birth="8271.1.1"}
+}
+13470124 = {
+	name="Hodor"	# a lord
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=13070124
+	mother=43070124
+
+	8272.1.1 = {birth="8272.1.1"}
+	8288.1.1 = {add_trait=poor_warrior}
+	8290.1.1 = {add_spouse=43470124}
+}
+43470124 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	8272.1.1 = {birth="8272.1.1"}
+}
+13570124 = {
+	name="Hodor"	# not a lord
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=13470124
+	mother=43470124
+
+	8295.1.1 = {birth="8295.1.1"}
+	8311.1.1 = {add_trait=trained_warrior}
+}
+13670124 = {
+	name="Hodor"	# not a lord
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=13470124
+	mother=43470124
+
+	8295.1.1 = {birth="8295.1.1"}
+	8311.1.1 = {add_trait=skilled_warrior}
+}
+13770124 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700124
+
+	religion = valyrian_rel
+	culture="mantaryan"
+
+	father=13470124
+	mother=43470124
+
+	8298.1.1 = {birth="8298.1.1"}
+}
+
+
+
+###############################################   Elyria  ###########################################################
+
+###House Ilvar of Elyria###
+100570110 = {
+	name="Hodor"	# a lord
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	7965.1.1 = {birth="7965.1.1"}
+	7981.1.1 = {add_trait=trained_warrior}
+	7983.1.1 = {add_spouse=200570110}
+	8026.1.1 = {death="8026.1.1"}
+}
+200570110 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	7965.1.1 = {birth="7965.1.1"}
+	8026.1.1 = {death="8026.1.1"}
+}
+101570110 = {
+	name="Hodor"	# a lord
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=100570110
+	mother=200570110
+
+	7984.1.1 = {birth="7984.1.1"}
+	8000.1.1 = {add_trait=trained_warrior}
+	8002.1.1 = {add_spouse=201570110}
+	8030.1.1 = {death="8030.1.1"}
+}
+201570110 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	7984.1.1 = {birth="7984.1.1"}
+	8030.1.1 = {death="8030.1.1"}
+}
+102570110 = {
+	name="Hodor"	# a lord
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=100570110
+	mother=200570110
+
+	7985.1.1 = {birth="7985.1.1"}
+	8001.1.1 = {add_trait=trained_warrior}
+	8003.1.1 = {add_spouse=202570110}
+	8062.1.1 = {death="8062.1.1"}
+}
+202570110 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	7985.1.1 = {birth="7985.1.1"}
+	8062.1.1 = {death="8062.1.1"}
+}
+103570110 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=101570110
+	mother=201570110
+
+	8011.1.1 = {birth="8011.1.1"}
+	8077.1.1 = {death="8077.1.1"}
+}
+104570110 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=102570110
+	mother=202570110
+
+	8012.1.1 = {birth="8012.1.1"}
+	8089.1.1 = {death="8089.1.1"}
+}
+105570110 = {
+	name="Hodor"	# not a lord
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=102570110
+	mother=202570110
+
+	8014.1.1 = {birth="8014.1.1"}
+	8030.1.1 = {add_trait=skilled_warrior}
+	8039.1.1 = {death = {death_reason = death_accident}}
+}
+106570110 = {
+	name="Hodor"	# a lord
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=102570110
+	mother=202570110
+
+	8016.1.1 = {birth="8016.1.1"}
+	8032.1.1 = {add_trait=poor_warrior}
+	8034.1.1 = {add_spouse=206570110}
+	8087.1.1 = {death="8087.1.1"}
+}
+206570110 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	8016.1.1 = {birth="8016.1.1"}
+	8087.1.1 = {death="8087.1.1"}
+}
+107570110 = {
+	name="Hodor"	# not a lord
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=106570110
+	mother=206570110
+
+	8034.1.1 = {birth="8034.1.1"}
+	8050.1.1 = {add_trait=skilled_warrior}
+	8052.1.1 = {add_spouse=207570110}
+	8086.1.1 = {death="8086.1.1"}
+}
+207570110 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	8034.1.1 = {birth="8034.1.1"}
+	8086.1.1 = {death="8086.1.1"}
+}
+108570110 = {
+	name="Hodor"	# not a lord
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=106570110
+	mother=206570110
+
+	8036.1.1 = {birth="8036.1.1"}
+	8052.1.1 = {add_trait=poor_warrior}
+	8104.1.1 = {death="8104.1.1"}
+}
+109570110 = {
+	name="Hodor"	# not a lord
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=106570110
+	mother=206570110
+
+	8038.1.1 = {birth="8038.1.1"}
+	8054.1.1 = {add_trait=trained_warrior}
+	8075.1.1 = {death="8075.1.1"}
+}
+110570110 = {
+	name="Hodor"	# a lord
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=107570110
+	mother=207570110
+
+	8058.1.1 = {birth="8058.1.1"}
+	8074.1.1 = {add_trait=trained_warrior}
+	8076.1.1 = {add_spouse=210570110}
+	8109.1.1 = {death="8109.1.1"}
+}
+210570110 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	8058.1.1 = {birth="8058.1.1"}
+	8109.1.1 = {death="8109.1.1"}
+}
+111570110 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=110570110
+	mother=210570110
+
+	8080.1.1 = {birth="8080.1.1"}
+	8154.1.1 = {death="8154.1.1"}
+}
+112570110 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=110570110
+	mother=210570110
+
+	8082.1.1 = {birth="8082.1.1"}
+	8135.1.1 = {death="8135.1.1"}
+}
+113570110 = {
+	name="Hodor"	# a lord
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=110570110
+	mother=210570110
+
+	8085.1.1 = {birth="8085.1.1"}
+	8101.1.1 = {add_trait=trained_warrior}
+	8103.1.1 = {add_spouse=213570110}
+	8131.1.1 = {death="8131.1.1"}
+}
+213570110 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	8085.1.1 = {birth="8085.1.1"}
+	8131.1.1 = {death="8131.1.1"}
+}
+114570110 = {
+	name="Hodor"	# a lord
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=113570110
+	mother=213570110
+
+	8111.1.1 = {birth="8111.1.1"}
+	8127.1.1 = {add_trait=trained_warrior}
+	8129.1.1 = {add_spouse=214570110}
+	8157.1.1 = {death="8157.1.1"}
+}
+214570110 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	8111.1.1 = {birth="8111.1.1"}
+	8157.1.1 = {death="8157.1.1"}
+}
+115570110 = {
+	name="Hodor"	# not a lord
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=113570110
+	mother=213570110
+
+	8114.1.1 = {birth="8114.1.1"}
+	8130.1.1 = {add_trait=trained_warrior}
+	8160.1.1 = {death = {death_reason = death_battle}}
+}
+116570110 = {
+	name="Hodor"	# a lord
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=114570110
+	mother=214570110
+
+	8136.1.1 = {birth="8136.1.1"}
+	8152.1.1 = {add_trait=master_warrior}
+	8154.1.1 = {add_spouse=216570110}
+	8204.1.1 = {death="8204.1.1"}
+}
+216570110 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	8136.1.1 = {birth="8136.1.1"}
+	8204.1.1 = {death="8204.1.1"}
+}
+117570110 = {
+	name="Hodor"	# not a lord
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=114570110
+	mother=214570110
+
+	8137.1.1 = {birth="8137.1.1"}
+	8153.1.1 = {add_trait=skilled_warrior}
+	8208.1.1 = {death="8208.1.1"}
+}
+118570110 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=114570110
+	mother=214570110
+
+	8139.1.1 = {birth="8139.1.1"}
+	8180.1.1 = {death="8180.1.1"}
+}
+119570110 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=114570110
+	mother=214570110
+
+	8142.1.1 = {birth="8142.1.1"}
+	8167.1.1 = {death="8167.1.1"}
+}
+120570110 = {
+	name="Hodor"	# a lord
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=116570110
+	mother=216570110
+
+	8157.1.1 = {birth="8157.1.1"}
+	8173.1.1 = {add_trait=poor_warrior}
+	8175.1.1 = {add_spouse=220570110}
+	8226.1.1 = {death="8226.1.1"}
+}
+220570110 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	8157.1.1 = {birth="8157.1.1"}
+	8226.1.1 = {death="8226.1.1"}
+}
+121570110 = {
+	name="Hodor"	# not a lord
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=116570110
+	mother=216570110
+
+	8158.1.1 = {birth="8158.1.1"}
+	8174.1.1 = {add_trait=poor_warrior}
+	8184.1.1 = {death="8184.1.1"}
+}
+122570110 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=116570110
+	mother=216570110
+
+	8161.1.1 = {birth="8161.1.1"}
+	8220.1.1 = {death="8220.1.1"}
+}
+123570110 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=120570110
+	mother=220570110
+
+	8177.1.1 = {birth="8177.1.1"}
+	8232.1.1 = {death="8232.1.1"}
+}
+124570110 = {
+	name="Hodor"	# not a lord
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=120570110
+	mother=220570110
+
+	8179.1.1 = {birth="8179.1.1"}
+	8195.1.1 = {add_trait=skilled_warrior}
+	8197.1.1 = {add_spouse=224570110}
+	8224.1.1 = {death="8224.1.1"}
+}
+224570110 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	8179.1.1 = {birth="8179.1.1"}
+	8224.1.1 = {death="8224.1.1"}
+}
+125570110 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=120570110
+	mother=220570110
+
+	8181.1.1 = {birth="8181.1.1"}
+	8234.1.1 = {death="8234.1.1"}
+}
+126570110 = {
+	name="Hodor"	# a lord
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=124570110
+	mother=224570110
+
+	8214.1.1 = {birth="8214.1.1"}
+	8230.1.1 = {add_trait=skilled_warrior}
+	8232.1.1 = {add_spouse=226570110}
+	8260.1.1 = {death="8260.1.1"}
+}
+226570110 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	8214.1.1 = {birth="8214.1.1"}
+	8260.1.1 = {death="8260.1.1"}
+}
+127570110 = {
+	name="Hodor"	# a lord
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=126570110
+	mother=226570110
+
+	8241.1.1 = {birth="8241.1.1"}
+	8257.1.1 = {add_trait=trained_warrior}
+	8259.1.1 = {add_spouse=227570110}
+}
+227570110 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	8241.1.1 = {birth="8241.1.1"}
+}
+128570110 = {
+	name="Hodor"	# not a lord
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=126570110
+	mother=226570110
+
+	8242.1.1 = {birth="8242.1.1"}
+	8258.1.1 = {add_trait=poor_warrior}
+	8260.1.1 = {add_spouse=228570110}
+	8287.1.1 = {death="8287.1.1"}
+}
+228570110 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	8242.1.1 = {birth="8242.1.1"}
+	8287.1.1 = {death="8287.1.1"}
+}
+129570110 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=126570110
+	mother=226570110
+
+	8245.1.1 = {birth="8245.1.1"}
+}
+130570110 = {
+	name="Hodor"	# not a lord
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=126570110
+	mother=226570110
+
+	8246.1.1 = {birth="8246.1.1"}
+	8262.1.1 = {add_trait=trained_warrior}
+	8264.1.1 = {add_spouse=230570110}
+}
+230570110 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	8246.1.1 = {birth="8246.1.1"}
+}
+131570110 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=126570110
+	mother=226570110
+
+	8248.1.1 = {birth="8248.1.1"}
+	8293.1.1 = {death="8293.1.1"}
+}
+132570110 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=127570110
+	mother=227570110
+
+	8274.1.1 = {birth="8274.1.1"}
+}
+133570110 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=128570110
+	mother=228570110
+
+	8260.1.1 = {birth="8260.1.1"}
+}
+134570110 = {
+	name="Hodor"	# not a lord
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=128570110
+	mother=228570110
+
+	8263.1.1 = {birth="8263.1.1"}
+	8279.1.1 = {add_trait=poor_warrior}
+}
+135570110 = {
+	name="Hodor"	# not a lord
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=128570110
+	mother=228570110
+
+	8264.1.1 = {birth="8264.1.1"}
+	8280.1.1 = {add_trait=poor_warrior}
+}
+136570110 = {
+	name="Hodor"	# not a lord
+	dynasty=5700110
+
+	religion = valyrian_rel
+	culture="elyrian"
+
+	father=130570110
+	mother=230570110
+
+	8271.1.1 = {birth="8271.1.1"}
+	8287.1.1 = {add_trait=poor_warrior}
+}
+
+
+##########################################################   Tolos  #########################################################
+
+###House Azantone of Tolos###
+100570101 = {
+	name="Hodor"	# a lord
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	7929.1.1 = {birth="7929.1.1"}
+	7945.1.1 = {add_trait=poor_warrior}
+	7947.1.1 = {add_spouse=200570101}
+	7982.1.1 = {death="7982.1.1"}
+}
+200570101 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	7929.1.1 = {birth="7929.1.1"}
+	7982.1.1 = {death="7982.1.1"}
+}
+101570101 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=100570101
+	mother=200570101
+
+	7957.1.1 = {birth="7957.1.1"}
+	8013.1.1 = {death="8013.1.1"}
+}
+102570101 = {
+	name="Hodor"	# a lord
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=100570101
+	mother=200570101
+
+	7959.1.1 = {birth="7959.1.1"}
+	7975.1.1 = {add_trait=skilled_warrior}
+	7977.1.1 = {add_spouse=202570101}
+	8004.1.1 = {death="8004.1.1"}
+}
+202570101 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	7959.1.1 = {birth="7959.1.1"}
+	8004.1.1 = {death="8004.1.1"}
+}
+103570101 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=100570101
+	mother=200570101
+
+	7961.1.1 = {birth="7961.1.1"}
+	8004.1.1 = {death="8004.1.1"}
+}
+104570101 = {
+	name="Hodor"	# a lord
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=100570101
+	mother=200570101
+
+	7964.1.1 = {birth="7964.1.1"}
+	7980.1.1 = {add_trait=poor_warrior}
+	7982.1.1 = {add_spouse=204570101}
+	8022.1.1 = {death="8022.1.1"}
+}
+204570101 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	7964.1.1 = {birth="7964.1.1"}
+	8022.1.1 = {death="8022.1.1"}
+}
+105570101 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=100570101
+	mother=200570101
+
+	7966.1.1 = {birth="7966.1.1"}
+	8008.1.1 = {death="8008.1.1"}
+}
+106570101 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=102570101
+	mother=202570101
+
+	7993.1.1 = {birth="7993.1.1"}
+	8042.1.1 = {death="8042.1.1"}
+}
+107570101 = {
+	name="Hodor"	# not a lord
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=104570101
+	mother=204570101
+
+	7990.1.1 = {birth="7990.1.1"}
+	8006.1.1 = {add_trait=poor_warrior}
+	8008.1.1 = {add_spouse=207570101}
+	8021.1.1 = {death="8021.1.1"}
+}
+207570101 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	7990.1.1 = {birth="7990.1.1"}
+	8021.1.1 = {death="8021.1.1"}
+}
+108570101 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=104570101
+	mother=204570101
+
+	7991.1.1 = {birth="7991.1.1"}
+	8039.1.1 = {death="8039.1.1"}
+}
+109570101 = {
+	name="Hodor"	# not a lord
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=104570101
+	mother=204570101
+
+	7992.1.1 = {birth="7992.1.1"}
+	8008.1.1 = {add_trait=trained_warrior}
+	8060.1.1 = {death = {death_reason = death_accident}}
+}
+110570101 = {
+	name="Hodor"	# not a lord
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=104570101
+	mother=204570101
+
+	7994.1.1 = {birth="7994.1.1"}
+	8010.1.1 = {add_trait=poor_warrior}
+	8044.1.1 = {death="8044.1.1"}
+}
+111570101 = {
+	name="Hodor"	# a lord
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=107570101
+	mother=207570101
+
+	8018.1.1 = {birth="8018.1.1"}
+	8034.1.1 = {add_trait=trained_warrior}
+	8036.1.1 = {add_spouse=211570101}
+	8090.1.1 = {death="8090.1.1"}
+}
+211570101 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	8018.1.1 = {birth="8018.1.1"}
+	8090.1.1 = {death="8090.1.1"}
+}
+112570101 = {
+	name="Hodor"	# a lord
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=111570101
+	mother=211570101
+
+	8051.1.1 = {birth="8051.1.1"}
+	8067.1.1 = {add_trait=poor_warrior}
+	8069.1.1 = {add_spouse=412570101}
+	8123.1.1 = {death="8123.1.1"}
+}
+412570101 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	8051.1.1 = {birth="8051.1.1"}
+	8123.1.1 = {death="8123.1.1"}
+}
+113570101 = {
+	name="Hodor"	# not a lord
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=111570101
+	mother=211570101
+
+	8054.1.1 = {birth="8054.1.1"}
+	8070.1.1 = {add_trait=skilled_warrior}
+	8072.1.1 = {add_spouse=212570101}
+	8089.1.1 = {death="8089.1.1"}
+}
+212570101 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	8054.1.1 = {birth="8054.1.1"}
+	8089.1.1 = {death="8089.1.1"}
+}
+114570101 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=111570101
+	mother=211570101
+
+	8056.1.1 = {birth="8056.1.1"}
+	8089.1.1 = {death="8089.1.1"}
+}
+115570101 = {
+	name="Hodor"	# a lord
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=113570101
+	mother=212570101
+
+	8077.1.1 = {birth="8077.1.1"}
+	8093.1.1 = {add_trait=poor_warrior}
+	8095.1.1 = {add_spouse=215570101}
+	8122.1.1 = {death="8122.1.1"}
+}
+215570101 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	8077.1.1 = {birth="8077.1.1"}
+	8122.1.1 = {death="8122.1.1"}
+}
+116570101 = {
+	name="Hodor"	# a lord
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=115570101
+	mother=215570101
+
+	8100.1.1 = {birth="8100.1.1"}
+	8116.1.1 = {add_trait=poor_warrior}
+	8118.1.1 = {add_spouse=216570101}
+	8144.1.1 = {death="8144.1.1"}
+}
+216570101 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	8100.1.1 = {birth="8100.1.1"}
+	8144.1.1 = {death="8144.1.1"}
+}
+117570101 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=115570101
+	mother=215570101
+
+	8102.1.1 = {birth="8102.1.1"}
+	8147.1.1 = {death="8147.1.1"}
+}
+118570101 = {
+	name="Hodor"	# not a lord
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=115570101
+	mother=215570101
+
+	8104.1.1 = {birth="8104.1.1"}
+	8120.1.1 = {add_trait=poor_warrior}
+	8163.1.1 = {death="8163.1.1"}
+}
+119570101 = {
+	name="Hodor"	# a lord
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=116570101
+	mother=216570101
+
+	8133.1.1 = {birth="8133.1.1"}
+	8149.1.1 = {add_trait=poor_warrior}
+	8151.1.1 = {add_spouse=219570101}
+	8190.1.1 = {death="8190.1.1"}
+}
+219570101 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	8133.1.1 = {birth="8133.1.1"}
+	8190.1.1 = {death="8190.1.1"}
+}
+120570101 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=116570101
+	mother=216570101
+
+	8136.1.1 = {birth="8136.1.1"}
+	8180.1.1 = {death="8180.1.1"}
+}
+121570101 = {
+	name="Hodor"	# a lord
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=119570101
+	mother=219570101
+
+	8167.1.1 = {birth="8167.1.1"}
+	8183.1.1 = {add_trait=trained_warrior}
+	8185.1.1 = {add_spouse=221570101}
+	8245.1.1 = {death="8245.1.1"}
+}
+221570101 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	8167.1.1 = {birth="8167.1.1"}
+	8245.1.1 = {death="8245.1.1"}
+}
+122570101 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=119570101
+	mother=219570101
+
+	8168.1.1 = {birth="8168.1.1"}
+	8218.1.1 = {death="8218.1.1"}
+}
+123570101 = {
+	name="Hodor"	# not a lord
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=119570101
+	mother=219570101
+
+	8170.1.1 = {birth="8170.1.1"}
+	8186.1.1 = {add_trait=poor_warrior}
+	8206.1.1 = {death="8206.1.1"}
+}
+124570101 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=119570101
+	mother=219570101
+
+	8173.1.1 = {birth="8173.1.1"}
+	8229.1.1 = {death="8229.1.1"}
+}
+125570101 = {
+	name="Hodor"	# a lord
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=121570101
+	mother=221570101
+
+	8193.1.1 = {birth="8193.1.1"}
+	8209.1.1 = {add_trait=poor_warrior}
+	8211.1.1 = {add_spouse=225570101}
+	8253.1.1 = {death="8253.1.1"}
+}
+225570101 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	8193.1.1 = {birth="8193.1.1"}
+	8253.1.1 = {death="8253.1.1"}
+}
+126570101 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=121570101
+	mother=221570101
+
+	8194.1.1 = {birth="8194.1.1"}
+	8239.1.1 = {death="8239.1.1"}
+}
+127570101 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=125570101
+	mother=225570101
+
+	8219.1.1 = {birth="8219.1.1"}
+	8295.1.1 = {death="8295.1.1"}
+}
+128570101 = {
+	name="Hodor"	# a lord
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=125570101
+	mother=225570101
+
+	8220.1.1 = {birth="8220.1.1"}
+	8236.1.1 = {add_trait=poor_warrior}
+	8238.1.1 = {add_spouse=228570101}
+	8270.1.1 = {death = {death_reason = death_murder}}
+}
+228570101 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	8220.1.1 = {birth="8220.1.1"}
+	8270.1.1 = {death="8270.1.1"}
+}
+129570101 = {
+	name="Hodor"	# not a lord
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=125570101
+	mother=225570101
+
+	8222.1.1 = {birth="8222.1.1"}
+	8238.1.1 = {add_trait=poor_warrior}
+	8278.1.1 = {death="8278.1.1"}
+}
+130570101 = {
+	name="Hodor"	# not a lord
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=125570101
+	mother=225570101
+
+	8225.1.1 = {birth="8225.1.1"}
+	8241.1.1 = {add_trait=poor_warrior}
+	8286.1.1 = {death="8286.1.1"}
+}
+131570101 = {
+	name="Hodor"	# a lord
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=128570101
+	mother=228570101
+
+	8243.1.1 = {birth="8243.1.1"}
+	8259.1.1 = {add_trait=trained_warrior}
+	8261.1.1 = {add_spouse=231570101}
+	8295.1.1 = {death="8295.1.1"}
+}
+231570101 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	8243.1.1 = {birth="8243.1.1"}
+	8295.1.1 = {death="8295.1.1"}
+}
+132570101 = {
+	name="Hodor"	# a lord
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=131570101
+	mother=231570101
+
+	8272.1.1 = {birth="8272.1.1"}
+	8288.1.1 = {add_trait=trained_warrior}
+	8290.1.1 = {add_spouse=232570101}
+}
+232570101 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	8272.1.1 = {birth="8272.1.1"}
+}
+133570101 = {
+	name="Hodor"	# not a lord
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=131570101
+	mother=231570101
+
+	8275.1.1 = {birth="8275.1.1"}
+	8291.1.1 = {add_trait=poor_warrior}
+	8293.1.1 = {add_spouse=233570101}
+}
+233570101 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	8275.1.1 = {birth="8275.1.1"}
+}
+134570101 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=131570101
+	mother=231570101
+
+	8277.1.1 = {birth="8277.1.1"}
+}
+135570101 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=131570101
+	mother=231570101
+
+	8279.1.1 = {birth="8279.1.1"}
+}
+136570101 = {
+	name="Hodor"	# not a lord
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=132570101
+	mother=232570101
+
+	8292.1.1 = {birth="8292.1.1"}
+	8308.1.1 = {add_trait=poor_warrior}
+}
+137570101 = {
+	name="Hodor"	# not a lord
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=132570101
+	mother=232570101
+
+	8294.1.1 = {birth="8294.1.1"}
+	8310.1.1 = {add_trait=poor_warrior}
+}
+138570101 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=132570101
+	mother=232570101
+
+	8297.1.1 = {birth="8297.1.1"}
+}
+139570101 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=133570101
+	mother=233570101
+
+	8296.1.1 = {birth="8296.1.1"}
+}
+140570101 = {
+	name="Hodor"	# not a lord
+	dynasty=5700101
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=133570101
+	mother=233570101
+
+	8299.1.1 = {birth="8299.1.1"}
+	8315.1.1 = {add_trait=trained_warrior}
+}
+
+
+#####  House Mazemagyr
+
+10070117 = {
+	name="Hodor"	# a lord
+	dynasty=5700117
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	7964.1.1 = {birth="7964.1.1"}
+	7980.1.1 = {add_trait=poor_warrior}
+	7982.1.1 = {add_spouse=40070117}
+	8030.1.1 = {death="8030.1.1"}
+}
+40070117 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	7964.1.1 = {birth="7964.1.1"}
+	8030.1.1 = {death="8030.1.1"}
+}
+10170117 = {
+	name="Hodor"	# a lord
+	dynasty=5700117
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=10070117
+	mother=40070117
+
+	7991.1.1 = {birth="7991.1.1"}
+	8007.1.1 = {add_trait=master_warrior}
+	8009.1.1 = {add_spouse=40170117}
+	8034.1.1 = {death="8034.1.1"}
+}
+40170117 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	7991.1.1 = {birth="7991.1.1"}
+	8034.1.1 = {death="8034.1.1"}
+}
+10270117 = {
+	name="Hodor"	# a lord
+	dynasty=5700117
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=10170117
+	mother=40170117
+
+	8012.1.1 = {birth="8012.1.1"}
+	8028.1.1 = {add_trait=master_warrior}
+	8030.1.1 = {add_spouse=40270117}
+	8052.1.1 = {death="8052.1.1"}
+}
+40270117 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	8012.1.1 = {birth="8012.1.1"}
+	8052.1.1 = {death="8052.1.1"}
+}
+10370117 = {
+	name="Hodor"	# a lord
+	dynasty=5700117
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=10270117
+	mother=40270117
+
+	8043.1.1 = {birth="8043.1.1"}
+	8059.1.1 = {add_trait=trained_warrior}
+	8061.1.1 = {add_spouse=40370117}
+	8086.1.1 = {death="8086.1.1"}
+}
+40370117 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	8043.1.1 = {birth="8043.1.1"}
+	8086.1.1 = {death="8086.1.1"}
+}
+10470117 = {
+	name="Hodor"	# not a lord
+	dynasty=5700117
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=10270117
+	mother=40270117
+
+	8045.1.1 = {birth="8045.1.1"}
+	8061.1.1 = {add_trait=poor_warrior}
+	8113.1.1 = {death="8113.1.1"}
+}
+10570117 = {
+	name="Hodor"	# not a lord
+	dynasty=5700117
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=10270117
+	mother=40270117
+
+	8046.1.1 = {birth="8046.1.1"}
+	8062.1.1 = {add_trait=trained_warrior}
+	8098.1.1 = {death="8098.1.1"}
+}
+10670117 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700117
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=10270117
+	mother=40270117
+
+	8049.1.1 = {birth="8049.1.1"}
+	8101.1.1 = {death="8101.1.1"}
+}
+10770117 = {
+	name="Hodor"	# not a lord
+	dynasty=5700117
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=10270117
+	mother=40270117
+
+	8050.1.1 = {birth="8050.1.1"}
+	8066.1.1 = {add_trait=poor_warrior}
+	8083.1.1 = {death="8083.1.1"}
+}
+10870117 = {
+	name="Hodor"	# a lord
+	dynasty=5700117
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=10370117
+	mother=40370117
+
+	8068.1.1 = {birth="8068.1.1"}
+	8084.1.1 = {add_trait=poor_warrior}
+	8086.1.1 = {add_spouse=40870117}
+	8121.1.1 = {death="8121.1.1"}
+}
+40870117 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	8068.1.1 = {birth="8068.1.1"}
+	8121.1.1 = {death="8121.1.1"}
+}
+10970117 = {
+	name="Hodor"	# a lord
+	dynasty=5700117
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=10870117
+	mother=40870117
+
+	8087.1.1 = {birth="8087.1.1"}
+	8103.1.1 = {add_trait=trained_warrior}
+	8105.1.1 = {add_spouse=40970117}
+	8133.1.1 = {death="8133.1.1"}
+}
+40970117 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	8087.1.1 = {birth="8087.1.1"}
+	8133.1.1 = {death="8133.1.1"}
+}
+11070117 = {
+	name="Hodor"	# not a lord
+	dynasty=5700117
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=10870117
+	mother=40870117
+
+	8089.1.1 = {birth="8089.1.1"}
+	8105.1.1 = {add_trait=poor_warrior}
+	8141.1.1 = {death="8141.1.1"}
+}
+11170117 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700117
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=10870117
+	mother=40870117
+
+	8092.1.1 = {birth="8092.1.1"}
+	8123.1.1 = {death = {death_reason = death_accident}}
+}
+11270117 = {
+	name="Hodor"	# a lord
+	dynasty=5700117
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=10970117
+	mother=40970117
+
+	8120.1.1 = {birth="8120.1.1"}
+	8136.1.1 = {add_trait=poor_warrior}
+	8138.1.1 = {add_spouse=41270117}
+	8168.1.1 = {death="8168.1.1"}
+}
+41270117 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	8120.1.1 = {birth="8120.1.1"}
+	8168.1.1 = {death="8168.1.1"}
+}
+11370117 = {
+	name="Hodor"	# a lord
+	dynasty=5700117
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=11270117
+	mother=41270117
+
+	8148.1.1 = {birth="8148.1.1"}
+	8164.1.1 = {add_trait=poor_warrior}
+	8166.1.1 = {add_spouse=41370117}
+	8206.1.1 = {death="8206.1.1"}
+}
+41370117 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	8148.1.1 = {birth="8148.1.1"}
+	8206.1.1 = {death="8206.1.1"}
+}
+11470117 = {
+	name="Hodor"	# not a lord
+	dynasty=5700117
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=11270117
+	mother=41270117
+
+	8150.1.1 = {birth="8150.1.1"}
+	8166.1.1 = {add_trait=poor_warrior}
+	8183.1.1 = {death="8183.1.1"}
+}
+11570117 = {
+	name="Hodor"	# a lord
+	dynasty=5700117
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=11370117
+	mother=41370117
+
+	8173.1.1 = {birth="8173.1.1"}
+	8189.1.1 = {add_trait=poor_warrior}
+	8191.1.1 = {add_spouse=41570117}
+	8224.1.1 = {death="8224.1.1"}
+}
+41570117 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	8173.1.1 = {birth="8173.1.1"}
+	8224.1.1 = {death="8224.1.1"}
+}
+11670117 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700117
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=11370117
+	mother=41370117
+
+	8175.1.1 = {birth="8175.1.1"}
+	8232.1.1 = {death="8232.1.1"}
+}
+11770117 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700117
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=11570117
+	mother=41570117
+
+	8197.1.1 = {birth="8197.1.1"}
+	8273.1.1 = {death="8273.1.1"}
+}
+11870117 = {
+	name="Hodor"	# a lord
+	dynasty=5700117
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=11570117
+	mother=41570117
+
+	8200.1.1 = {birth="8200.1.1"}
+	8216.1.1 = {add_trait=trained_warrior}
+	8218.1.1 = {add_spouse=41870117}
+	8230.1.1 = {death="8230.1.1"}
+}
+41870117 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	8200.1.1 = {birth="8200.1.1"}
+	8230.1.1 = {death="8230.1.1"}
+}
+11970117 = {
+	name="Hodor"	# a lord
+	dynasty=5700117
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=11870117
+	mother=41870117
+
+	8219.1.1 = {birth="8219.1.1"}
+	8235.1.1 = {add_trait=trained_warrior}
+	8237.1.1 = {add_spouse=41970117}
+	8244.1.1 = {death="8244.1.1"}
+}
+41970117 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	8219.1.1 = {birth="8219.1.1"}
+	8244.1.1 = {death="8244.1.1"}
+}
+12070117 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700117
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=11870117
+	mother=41870117
+
+	8220.1.1 = {birth="8220.1.1"}
+	8289.1.1 = {death="8289.1.1"}
+}
+12170117 = {
+	name="Hodor"	# a lord
+	dynasty=5700117
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=11970117
+	mother=41970117
+
+	8238.1.1 = {birth="8238.1.1"}
+	8254.1.1 = {add_trait=poor_warrior}
+	8256.1.1 = {add_spouse=42170117}
+	8293.1.1 = {death="8293.1.1"}
+}
+42170117 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	8238.1.1 = {birth="8238.1.1"}
+	8293.1.1 = {death="8293.1.1"}
+}
+12270117 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700117
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=11970117
+	mother=41970117
+
+	8239.1.1 = {birth="8239.1.1"}
+	8283.1.1 = {death="8283.1.1"}
+}
+12370117 = {
+	name="Hodor"	# a lord
+	dynasty=5700117
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=12170117
+	mother=42170117
+
+	8270.1.1 = {birth="8270.1.1"}
+	8286.1.1 = {add_trait=trained_warrior}
+	8288.1.1 = {add_spouse=42370117}
+}
+42370117 = {
+	name="Hodor"
+	female=yes
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	8270.1.1 = {birth="8270.1.1"}
+}
+12470117 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700117
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=12170117
+	mother=42170117
+
+	8271.1.1 = {birth="8271.1.1"}
+}
+12570117 = {
+	name="Hodor"	# not a lord
+	dynasty=5700117
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=12170117
+	mother=42170117
+
+	8273.1.1 = {birth="8273.1.1"}
+	8289.1.1 = {add_trait=poor_warrior}
+}
+12670117 = {
+	name="Hodor"	# not a lord
+	dynasty=5700117
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=12170117
+	mother=42170117
+
+	8275.1.1 = {birth="8275.1.1"}
+	8291.1.1 = {add_trait=poor_warrior}
+}
+12770117 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=5700117
+
+	religion = valyrian_rel
+	culture="tolosi"
+
+	father=12370117
+	mother=42370117
+
+	8299.1.1 = {birth="8299.1.1"}
+}
+

@@ -1,0 +1,3091 @@
+#House Adiur#
+10032901 = {
+	name="Hodor"	# a lord
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	7955.1.1 = {birth="7955.1.1"}
+	7971.1.1 = {add_trait=trained_warrior}
+	7973.1.1 = {add_spouse=40032901}
+	8028.1.1 = {death="8028.1.1"}
+}
+40032901 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	7955.1.1 = {birth="7955.1.1"}
+	8028.1.1 = {death="8028.1.1"}
+}
+10132901 = {
+	name="Hodor"	# not a lord
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=10032901
+	mother=40032901
+
+	7976.1.1 = {birth="7976.1.1"}
+	7992.1.1 = {add_trait=trained_warrior}
+	7994.1.1 = {add_spouse=40132901}
+	8017.1.1 = {death="8017.1.1"}
+}
+40132901 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	7976.1.1 = {birth="7976.1.1"}
+	8017.1.1 = {death="8017.1.1"}
+}
+10232901 = {
+	name="Hodor"	# not a lord
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=10032901
+	mother=40032901
+
+	7978.1.1 = {birth="7978.1.1"}
+	7994.1.1 = {add_trait=poor_warrior}
+	8030.1.1 = {death="8030.1.1"}
+}
+10332901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=10032901
+	mother=40032901
+
+	7979.1.1 = {birth="7979.1.1"}
+	8011.1.1 = {death="8011.1.1"}
+}
+10432901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=10132901
+	mother=40132901
+
+	7995.1.1 = {birth="7995.1.1"}
+	8078.1.1 = {death="8078.1.1"}
+}
+10532901 = {
+	name="Hodor"	# a lord
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=10132901
+	mother=40132901
+
+	7997.1.1 = {birth="7997.1.1"}
+	8013.1.1 = {add_trait=poor_warrior}
+	8015.1.1 = {add_spouse=40532901}
+	8043.1.1 = {death="8043.1.1"}
+}
+40532901 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	7997.1.1 = {birth="7997.1.1"}
+	8043.1.1 = {death="8043.1.1"}
+}
+10632901 = {
+	name="Hodor"	# not a lord
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=10132901
+	mother=40132901
+
+	7998.1.1 = {birth="7998.1.1"}
+	8014.1.1 = {add_trait=poor_warrior}
+	8062.1.1 = {death="8062.1.1"}
+}
+10732901 = {
+	name="Hodor"	# a lord
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=10532901
+	mother=40532901
+
+	8021.1.1 = {birth="8021.1.1"}
+	8037.1.1 = {add_trait=trained_warrior}
+	8039.1.1 = {add_spouse=40732901}
+	8054.1.1 = {death = {death_reason = death_murder}}
+}
+40732901 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	8021.1.1 = {birth="8021.1.1"}
+	8054.1.1 = {death="8054.1.1"}
+}
+10832901 = {
+	name="Hodor"	# not a lord
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=10532901
+	mother=40532901
+
+	8022.1.1 = {birth="8022.1.1"}
+	8038.1.1 = {add_trait=skilled_warrior}
+	8040.1.1 = {add_spouse=40832901}
+	8071.1.1 = {death="8071.1.1"}
+}
+40832901 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	8022.1.1 = {birth="8022.1.1"}
+	8071.1.1 = {death="8071.1.1"}
+}
+10932901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=10532901
+	mother=40532901
+
+	8025.1.1 = {birth="8025.1.1"}
+	8061.1.1 = {death="8061.1.1"}
+}
+11032901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=10532901
+	mother=40532901
+
+	8028.1.1 = {birth="8028.1.1"}
+	8070.1.1 = {death="8070.1.1"}
+}
+11132901 = {
+	name="Hodor"	# a lord
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=10732901
+	mother=40732901
+
+	8048.1.1 = {birth="8048.1.1"}
+	8064.1.1 = {add_trait=poor_warrior}
+	8066.1.1 = {add_spouse=41132901}
+	8114.1.1 = {death="8114.1.1"}
+}
+41132901 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	8048.1.1 = {birth="8048.1.1"}
+	8114.1.1 = {death="8114.1.1"}
+}
+11232901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=10832901
+	mother=40832901
+
+	8047.1.1 = {birth="8047.1.1"}
+	8089.1.1 = {death = {death_reason = death_accident}}
+}
+11332901 = {
+	name="Hodor"	# not a lord
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=10832901
+	mother=40832901
+
+	8050.1.1 = {birth="8050.1.1"}
+	8066.1.1 = {add_trait=trained_warrior}
+	8102.1.1 = {death="8102.1.1"}
+}
+11432901 = {
+	name="Hodor"	# not a lord
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=10832901
+	mother=40832901
+
+	8053.1.1 = {birth="8053.1.1"}
+	8069.1.1 = {add_trait=trained_warrior}
+	8106.1.1 = {death="8106.1.1"}
+}
+11532901 = {
+	name="Hodor"	# a lord
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=11132901
+	mother=41132901
+
+	8079.1.1 = {birth="8079.1.1"}
+	8095.1.1 = {add_trait=trained_warrior}
+	8097.1.1 = {add_spouse=41532901}
+	8133.1.1 = {death="8133.1.1"}
+}
+41532901 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	8079.1.1 = {birth="8079.1.1"}
+	8133.1.1 = {death="8133.1.1"}
+}
+11632901 = {
+	name="Hodor"	# not a lord
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=11132901
+	mother=41132901
+
+	8081.1.1 = {birth="8081.1.1"}
+	8097.1.1 = {add_trait=trained_warrior}
+	8151.1.1 = {death="8151.1.1"}
+}
+11732901 = {
+	name="Hodor"	# not a lord
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=11132901
+	mother=41132901
+
+	8082.1.1 = {birth="8082.1.1"}
+	8098.1.1 = {add_trait=poor_warrior}
+	8147.1.1 = {death="8147.1.1"}
+}
+11832901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=11532901
+	mother=41532901
+
+	8102.1.1 = {birth="8102.1.1"}
+	8151.1.1 = {death="8151.1.1"}
+}
+11932901 = {
+	name="Hodor"	# a lord
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=11532901
+	mother=41532901
+
+	8104.1.1 = {birth="8104.1.1"}
+	8120.1.1 = {add_trait=skilled_warrior}
+	8122.1.1 = {add_spouse=41932901}
+	8147.1.1 = {death="8147.1.1"}
+}
+41932901 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	8104.1.1 = {birth="8104.1.1"}
+	8147.1.1 = {death="8147.1.1"}
+}
+12032901 = {
+	name="Hodor"	# not a lord
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=11532901
+	mother=41532901
+
+	8107.1.1 = {birth="8107.1.1"}
+	8123.1.1 = {add_trait=trained_warrior}
+	8125.1.1 = {add_spouse=42032901}
+	8148.1.1 = {death="8148.1.1"}
+}
+42032901 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	8107.1.1 = {birth="8107.1.1"}
+	8148.1.1 = {death="8148.1.1"}
+}
+12132901 = {
+	name="Hodor"	# a lord
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=11932901
+	mother=41932901
+
+	8131.1.1 = {birth="8131.1.1"}
+	8147.1.1 = {add_trait=poor_warrior}
+	8149.1.1 = {add_spouse=42132901}
+	8176.1.1 = {death="8176.1.1"}
+}
+42132901 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	8131.1.1 = {birth="8131.1.1"}
+	8176.1.1 = {death="8176.1.1"}
+}
+12232901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=11932901
+	mother=41932901
+
+	8132.1.1 = {birth="8132.1.1"}
+	8189.1.1 = {death="8189.1.1"}
+}
+12332901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=12032901
+	mother=42032901
+
+	8135.1.1 = {birth="8135.1.1"}
+	8169.1.1 = {death="8169.1.1"}
+}
+12432901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=12032901
+	mother=42032901
+
+	8137.1.1 = {birth="8137.1.1"}
+	8165.1.1 = {death="8165.1.1"}
+}
+12532901 = {
+	name="Hodor"	# a lord
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=12032901
+	mother=42032901
+
+	8139.1.1 = {birth="8139.1.1"}
+	8155.1.1 = {add_trait=poor_warrior}
+	8157.1.1 = {add_spouse=42532901}
+	8215.1.1 = {death = {death_reason = death_accident}}
+}
+42532901 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	8139.1.1 = {birth="8139.1.1"}
+	8215.1.1 = {death="8215.1.1"}
+}
+12632901 = {
+	name="Hodor"	# not a lord
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=12032901
+	mother=42032901
+
+	8141.1.1 = {birth="8141.1.1"}
+	8157.1.1 = {add_trait=poor_warrior}
+	8198.1.1 = {death="8198.1.1"}
+}
+12732901 = {
+	name="Hodor"	# not a lord
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=12532901
+	mother=42532901
+
+	8164.1.1 = {birth="8164.1.1"}
+	8180.1.1 = {add_trait=skilled_warrior}
+	8182.1.1 = {add_spouse=42732901}
+	8205.1.1 = {death = {death_reason = death_accident}}
+}
+42732901 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	8164.1.1 = {birth="8164.1.1"}
+	8205.1.1 = {death="8205.1.1"}
+}
+12832901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=12532901
+	mother=42532901
+
+	8167.1.1 = {birth="8167.1.1"}
+	8221.1.1 = {death="8221.1.1"}
+}
+12932901 = {
+	name="Hodor"	# a lord
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=12732901
+	mother=42732901
+
+	8184.1.1 = {birth="8184.1.1"}
+	8200.1.1 = {add_trait=trained_warrior}
+	8202.1.1 = {add_spouse=42932901}
+	8240.1.1 = {death="8240.1.1"}
+}
+42932901 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	8184.1.1 = {birth="8184.1.1"}
+	8240.1.1 = {death="8240.1.1"}
+}
+13032901 = {
+	name="Hodor"	# not a lord
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=12732901
+	mother=42732901
+
+	8187.1.1 = {birth="8187.1.1"}
+	8203.1.1 = {add_trait=skilled_warrior}
+	8238.1.1 = {death="8238.1.1"}
+}
+13132901 = {
+	name="Hodor"	# not a lord
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=12732901
+	mother=42732901
+
+	8189.1.1 = {birth="8189.1.1"}
+	8205.1.1 = {add_trait=poor_warrior}
+	8232.1.1 = {death="8232.1.1"}
+}
+13232901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=12732901
+	mother=42732901
+
+	8190.1.1 = {birth="8190.1.1"}
+	8226.1.1 = {death="8226.1.1"}
+}
+13332901 = {
+	name="Hodor"	# a lord
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=12932901
+	mother=42932901
+
+	8212.1.1 = {birth="8212.1.1"}
+	8228.1.1 = {add_trait=poor_warrior}
+	8230.1.1 = {add_spouse=43332901}
+	8273.1.1 = {death="8273.1.1"}
+}
+43332901 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	8212.1.1 = {birth="8212.1.1"}
+	8273.1.1 = {death="8273.1.1"}
+}
+13432901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=12932901
+	mother=42932901
+
+	8214.1.1 = {birth="8214.1.1"}
+	8255.1.1 = {death="8255.1.1"}
+}
+13532901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=13332901
+	mother=43332901
+
+	8230.1.1 = {birth="8230.1.1"}
+	8269.1.1 = {death="8269.1.1"}
+}
+13632901 = {
+	name="Hodor"	# a lord
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=13332901
+	mother=43332901
+
+	8233.1.1 = {birth="8233.1.1"}
+	8249.1.1 = {add_trait=skilled_warrior}
+	8251.1.1 = {add_spouse=43632901}
+	8274.1.1 = {death="8274.1.1"}
+}
+43632901 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	8233.1.1 = {birth="8233.1.1"}
+	8274.1.1 = {death="8274.1.1"}
+}
+13732901 = {
+	name="Hodor"	# not a lord
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=13332901
+	mother=43332901
+
+	8234.1.1 = {birth="8234.1.1"}
+	8250.1.1 = {add_trait=poor_warrior}
+	8291.1.1 = {death="8291.1.1"}
+}
+13832901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=13332901
+	mother=43332901
+
+	8235.1.1 = {birth="8235.1.1"}
+	8288.1.1 = {death="8288.1.1"}
+}
+13932901 = {
+	name="Hodor"	# a lord
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=13632901
+	mother=43632901
+
+	8258.1.1 = {birth="8258.1.1"}
+	8274.1.1 = {add_trait=poor_warrior}
+	8276.1.1 = {add_spouse=43932901}
+}
+43932901 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	8258.1.1 = {birth="8258.1.1"}
+}
+14032901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=32901
+	
+	martial = 2
+	stewardship = 3
+	intrigue = 7
+	learning = 8
+	diplomacy = 7
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=13632901
+	mother=43632901
+	
+	add_trait = elusive_shadow
+	
+	8259.1.1 = {birth="8259.1.1"}
+	8279.1.1 = {
+		add_trait = shadowbinder
+		add_trait = mystic
+		effect = {
+			k_asshai = { holder_scope = { ROOT = { move_character = PREV } } }
+		}
+	}
+}
+14132901 = {
+	name="Hodor"	# not a lord
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=13632901
+	mother=43632901
+
+	8262.1.1 = {birth="8262.1.1"}
+	8278.1.1 = {add_trait=trained_warrior}
+	8280.1.1 = {add_spouse=44132901}
+}
+44132901 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	8262.1.1 = {birth="8262.1.1"}
+}
+14232901 = {
+	name="Hodor"	# not a lord
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=13932901
+	mother=43932901
+
+	8279.1.1 = {birth="8279.1.1"}
+	8295.1.1 = {add_trait=trained_warrior}
+}
+14332901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=14132901
+	mother=44132901
+
+	8294.1.1 = {birth="8294.1.1"}
+}
+14432901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=14132901
+	mother=44132901
+
+	8296.1.1 = {birth="8296.1.1"}
+}
+14532901 = {
+	name="Hodor"	# not a lord
+	dynasty=32901
+
+	religion="shadowbinders"
+	culture="asshai"
+
+	father=14132901
+	mother=44132901
+
+	8299.1.1 = {birth="8299.1.1"}
+	8315.1.1 = {add_trait=trained_warrior}
+}
+##Manpos
+10033911 = {
+	name="Hodor"	# a lord
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	7972.1.1 = {birth="7972.1.1"}
+	7988.1.1 = {add_trait=trained_warrior}
+	7990.1.1 = {add_spouse=40033911}
+	8034.1.1 = {death="8034.1.1"}
+}
+40033911 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	7972.1.1 = {birth="7972.1.1"}
+	8034.1.1 = {death="8034.1.1"}
+}
+10133911 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10033911
+	mother=40033911
+
+	7992.1.1 = {birth="7992.1.1"}
+	8060.1.1 = {death="8060.1.1"}
+}
+10233911 = {
+	name="Hodor"	# a lord
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10033911
+	mother=40033911
+
+	7994.1.1 = {birth="7994.1.1"}
+	8010.1.1 = {add_trait=poor_warrior}
+	8012.1.1 = {add_spouse=40233911}
+	8043.1.1 = {death="8043.1.1"}
+}
+40233911 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	7994.1.1 = {birth="7994.1.1"}
+	8043.1.1 = {death="8043.1.1"}
+}
+10333911 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10033911
+	mother=40033911
+
+	7996.1.1 = {birth="7996.1.1"}
+	8058.1.1 = {death="8058.1.1"}
+}
+10433911 = {
+	name="Hodor"	# not a lord
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10033911
+	mother=40033911
+
+	7997.1.1 = {birth="7997.1.1"}
+	8013.1.1 = {add_trait=skilled_warrior}
+	8052.1.1 = {death="8052.1.1"}
+}
+10533911 = {
+	name="Hodor"	# a lord
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10233911
+	mother=40233911
+
+	8017.1.1 = {birth="8017.1.1"}
+	8033.1.1 = {add_trait=poor_warrior}
+	8035.1.1 = {add_spouse=40533911}
+	8072.1.1 = {death="8072.1.1"}
+}
+40533911 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8017.1.1 = {birth="8017.1.1"}
+	8072.1.1 = {death="8072.1.1"}
+}
+10633911 = {
+	name="Hodor"	# not a lord
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10233911
+	mother=40233911
+
+	8019.1.1 = {birth="8019.1.1"}
+	8035.1.1 = {add_trait=poor_warrior}
+	8044.1.1 = {death="8044.1.1"}
+}
+10733911 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10233911
+	mother=40233911
+
+	8021.1.1 = {birth="8021.1.1"}
+	8052.1.1 = {death="8052.1.1"}
+}
+10833911 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10233911
+	mother=40233911
+
+	8023.1.1 = {birth="8023.1.1"}
+	8075.1.1 = {death="8075.1.1"}
+}
+10933911 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10533911
+	mother=40533911
+
+	8040.1.1 = {birth="8040.1.1"}
+	8098.1.1 = {death="8098.1.1"}
+}
+11033911 = {
+	name="Hodor"	# a lord
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10533911
+	mother=40533911
+
+	8043.1.1 = {birth="8043.1.1"}
+	8059.1.1 = {add_trait=trained_warrior}
+	8061.1.1 = {add_spouse=41033911}
+	8090.1.1 = {death="8090.1.1"}
+}
+41033911 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8043.1.1 = {birth="8043.1.1"}
+	8090.1.1 = {death="8090.1.1"}
+}
+11133911 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10533911
+	mother=40533911
+
+	8045.1.1 = {birth="8045.1.1"}
+	8108.1.1 = {death="8108.1.1"}
+}
+11233911 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=11033911
+	mother=41033911
+
+	8078.1.1 = {birth="8078.1.1"}
+	8138.1.1 = {death="8138.1.1"}
+}
+11333911 = {
+	name="Hodor"	# a lord
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=11033911
+	mother=41033911
+
+	8081.1.1 = {birth="8081.1.1"}
+	8097.1.1 = {add_trait=trained_warrior}
+	8099.1.1 = {add_spouse=41333911}
+	8154.1.1 = {death="8154.1.1"}
+}
+41333911 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8081.1.1 = {birth="8081.1.1"}
+	8154.1.1 = {death="8154.1.1"}
+}
+11433911 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=11033911
+	mother=41033911
+
+	8083.1.1 = {birth="8083.1.1"}
+	8123.1.1 = {death="8123.1.1"}
+}
+11533911 = {
+	name="Hodor"	# not a lord
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=11033911
+	mother=41033911
+
+	8085.1.1 = {birth="8085.1.1"}
+	8101.1.1 = {add_trait=trained_warrior}
+	8103.1.1 = {add_spouse=41533911}
+	8139.1.1 = {death="8139.1.1"}
+}
+41533911 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8085.1.1 = {birth="8085.1.1"}
+	8139.1.1 = {death="8139.1.1"}
+}
+11633911 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=11333911
+	mother=41333911
+
+	8115.1.1 = {birth="8115.1.1"}
+	8147.1.1 = {death="8147.1.1"}
+}
+11733911 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=11333911
+	mother=41333911
+
+	8117.1.1 = {birth="8117.1.1"}
+	8164.1.1 = {death = {death_reason = death_accident}}
+}
+11833911 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=11333911
+	mother=41333911
+
+	8120.1.1 = {birth="8120.1.1"}
+	8186.1.1 = {death="8186.1.1"}
+}
+11933911 = {
+	name="Hodor"	# a lord
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=11333911
+	mother=41333911
+
+	8122.1.1 = {birth="8122.1.1"}
+	8138.1.1 = {add_trait=poor_warrior}
+	8140.1.1 = {add_spouse=41933911}
+	8164.1.1 = {death="8164.1.1"}
+}
+41933911 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8122.1.1 = {birth="8122.1.1"}
+	8164.1.1 = {death="8164.1.1"}
+}
+12033911 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=11933911
+	mother=41933911
+
+	8156.1.1 = {birth="8156.1.1"}
+	8189.1.1 = {death="8189.1.1"}
+}
+12133911 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=11533911
+	mother=41533911
+
+	8108.1.1 = {birth="8108.1.1"}
+	8163.1.1 = {death="8163.1.1"}
+}
+12233911 = {
+	name="Hodor"	# a lord
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=11533911
+	mother=41533911
+
+	8111.1.1 = {birth="8111.1.1"}
+	8127.1.1 = {add_trait=poor_warrior}
+	8129.1.1 = {add_spouse=42233911}
+	8188.1.1 = {death="8188.1.1"}
+}
+42233911 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8111.1.1 = {birth="8111.1.1"}
+	8188.1.1 = {death="8188.1.1"}
+}
+12333911 = {
+	name="Hodor"	# not a lord
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=11533911
+	mother=41533911
+
+	8113.1.1 = {birth="8113.1.1"}
+	8129.1.1 = {add_trait=trained_warrior}
+	8131.1.1 = {add_spouse=42333911}
+	8155.1.1 = {death="8155.1.1"}
+}
+42333911 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8113.1.1 = {birth="8113.1.1"}
+	8155.1.1 = {death="8155.1.1"}
+}
+12433911 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=12233911
+	mother=42233911
+
+	8136.1.1 = {birth="8136.1.1"}
+	8212.1.1 = {death="8212.1.1"}
+}
+12533911 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=12333911
+	mother=42333911
+
+	8136.1.1 = {birth="8136.1.1"}
+	8189.1.1 = {death="8189.1.1"}
+}
+12633911 = {
+	name="Hodor"	# a lord
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=12333911
+	mother=42333911
+
+	8137.1.1 = {birth="8137.1.1"}
+	8153.1.1 = {add_trait=trained_warrior}
+	8155.1.1 = {add_spouse=42633911}
+	8200.1.1 = {death="8200.1.1"}
+}
+42633911 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8137.1.1 = {birth="8137.1.1"}
+	8200.1.1 = {death="8200.1.1"}
+}
+12733911 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=12633911
+	mother=42633911
+
+	8157.1.1 = {birth="8157.1.1"}
+	8189.1.1 = {death="8189.1.1"}
+}
+12833911 = {
+	name="Hodor"	# a lord
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=12633911
+	mother=42633911
+
+	8159.1.1 = {birth="8159.1.1"}
+	8175.1.1 = {add_trait=skilled_warrior}
+	8177.1.1 = {add_spouse=42833911}
+	8215.1.1 = {death="8215.1.1"}
+}
+42833911 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8159.1.1 = {birth="8159.1.1"}
+	8215.1.1 = {death="8215.1.1"}
+}
+12933911 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=12633911
+	mother=42633911
+
+	8162.1.1 = {birth="8162.1.1"}
+	8216.1.1 = {death="8216.1.1"}
+}
+13033911 = {
+	name="Hodor"	# a lord
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=12633911
+	mother=42633911
+
+	8165.1.1 = {birth="8165.1.1"}
+	8181.1.1 = {add_trait=trained_warrior}
+	8183.1.1 = {add_spouse=43033911}
+	8223.1.1 = {death="8223.1.1"}
+}
+43033911 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8165.1.1 = {birth="8165.1.1"}
+	8223.1.1 = {death="8223.1.1"}
+}
+13133911 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=12833911
+	mother=42833911
+
+	8193.1.1 = {birth="8193.1.1"}
+	8256.1.1 = {death="8256.1.1"}
+}
+13233911 = {
+	name="Hodor"	# a lord
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=13033911
+	mother=43033911
+
+	8197.1.1 = {birth="8197.1.1"}
+	8213.1.1 = {add_trait=poor_warrior}
+	8215.1.1 = {add_spouse=43233911}
+	8272.1.1 = {death="8272.1.1"}
+}
+43233911 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8197.1.1 = {birth="8197.1.1"}
+	8272.1.1 = {death="8272.1.1"}
+}
+13333911 = {
+	name="Hodor"	# not a lord
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=13033911
+	mother=43033911
+
+	8199.1.1 = {birth="8199.1.1"}
+	8215.1.1 = {add_trait=skilled_warrior}
+	8251.1.1 = {death = {death_reason = death_murder}}
+}
+13433911 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=13033911
+	mother=43033911
+
+	8201.1.1 = {birth="8201.1.1"}
+	8240.1.1 = {death="8240.1.1"}
+}
+13533911 = {
+	name="Hodor"	# not a lord
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=13033911
+	mother=43033911
+
+	8202.1.1 = {birth="8202.1.1"}
+	8218.1.1 = {add_trait=poor_warrior}
+	8237.1.1 = {death="8237.1.1"}
+}
+13633911 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=13033911
+	mother=43033911
+
+	8203.1.1 = {birth="8203.1.1"}
+	8255.1.1 = {death="8255.1.1"}
+}
+13733911 = {
+	name="Hodor"	# a lord
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=13233911
+	mother=43233911
+
+	8217.1.1 = {birth="8217.1.1"}
+	8233.1.1 = {add_trait=skilled_warrior}
+	8235.1.1 = {add_spouse=43733911}
+	8297.1.1 = {death="8297.1.1"}
+}
+43733911 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8217.1.1 = {birth="8217.1.1"}
+	8297.1.1 = {death="8297.1.1"}
+}
+13833911 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=13233911
+	mother=43233911
+
+	8218.1.1 = {birth="8218.1.1"}
+	8285.1.1 = {death="8285.1.1"}
+}
+13933911 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=13233911
+	mother=43233911
+
+	8221.1.1 = {birth="8221.1.1"}
+	8262.1.1 = {death="8262.1.1"}
+}
+14033911 = {
+	name="Hodor"	# not a lord
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=13233911
+	mother=43233911
+
+	8222.1.1 = {birth="8222.1.1"}
+	8238.1.1 = {add_trait=trained_warrior}
+	8281.1.1 = {death="8281.1.1"}
+}
+14133911 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=13733911
+	mother=43733911
+
+	8242.1.1 = {birth="8242.1.1"}
+	8289.1.1 = {death="8289.1.1"}
+}
+14233911 = {
+	name="Hodor"	# a lord
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=13733911
+	mother=43733911
+
+	8244.1.1 = {birth="8244.1.1"}
+	8260.1.1 = {add_trait=trained_warrior}
+	8262.1.1 = {add_spouse=44233911}
+}
+44233911 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8244.1.1 = {birth="8244.1.1"}
+}
+14333911 = {
+	name="Hodor"	# not a lord
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=13733911
+	mother=43733911
+
+	8245.1.1 = {birth="8245.1.1"}
+	8261.1.1 = {add_trait=trained_warrior}
+	8263.1.1 = {add_spouse=44333911}
+	8295.1.1 = {death="8295.1.1"}
+}
+44333911 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8245.1.1 = {birth="8245.1.1"}
+	8295.1.1 = {death="8295.1.1"}
+}
+14433911 = {
+	name="Hodor"	# not a lord
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=14233911
+	mother=44233911
+
+	8269.1.1 = {birth="8269.1.1"}
+	8285.1.1 = {add_trait=trained_warrior}
+}
+14533911 = {
+	name="Hodor"	# not a lord
+	dynasty=33911
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=14333911
+	mother=44333911
+
+	8273.1.1 = {birth="8273.1.1"}
+	8289.1.1 = {add_trait=trained_warrior}
+}
+##Kumirai
+10033914 = {
+	name="Hodor"	# a lord
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	7944.1.1 = {birth="7944.1.1"}
+	7960.1.1 = {add_trait=trained_warrior}
+	7962.1.1 = {add_spouse=40033914}
+	8009.1.1 = {death="8009.1.1"}
+}
+40033914 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	7944.1.1 = {birth="7944.1.1"}
+	8009.1.1 = {death="8009.1.1"}
+}
+10133914 = {
+	name="Hodor"	# a lord
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10033914
+	mother=40033914
+
+	7976.1.1 = {birth="7976.1.1"}
+	7992.1.1 = {add_trait=trained_warrior}
+	7994.1.1 = {add_spouse=40133914}
+	8036.1.1 = {death="8036.1.1"}
+}
+40133914 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	7976.1.1 = {birth="7976.1.1"}
+	8036.1.1 = {death="8036.1.1"}
+}
+10233914 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10033914
+	mother=40033914
+
+	7978.1.1 = {birth="7978.1.1"}
+	8056.1.1 = {death="8056.1.1"}
+}
+10333914 = {
+	name="Hodor"	# a lord
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10033914
+	mother=40033914
+
+	7981.1.1 = {birth="7981.1.1"}
+	7997.1.1 = {add_trait=trained_warrior}
+	7999.1.1 = {add_spouse=40333914}
+	8054.1.1 = {death="8054.1.1"}
+}
+40333914 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	7981.1.1 = {birth="7981.1.1"}
+	8054.1.1 = {death="8054.1.1"}
+}
+10433914 = {
+	name="Hodor"	# not a lord
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10033914
+	mother=40033914
+
+	7984.1.1 = {birth="7984.1.1"}
+	8000.1.1 = {add_trait=skilled_warrior}
+	8026.1.1 = {death="8026.1.1"}
+}
+10533914 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10133914
+	mother=40133914
+
+	7998.1.1 = {birth="7998.1.1"}
+	8066.1.1 = {death="8066.1.1"}
+}
+10633914 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10133914
+	mother=40133914
+
+	8000.1.1 = {birth="8000.1.1"}
+	8052.1.1 = {death="8052.1.1"}
+}
+10733914 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10333914
+	mother=40333914
+
+	8005.1.1 = {birth="8005.1.1"}
+	8045.1.1 = {death="8045.1.1"}
+}
+10833914 = {
+	name="Hodor"	# not a lord
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10333914
+	mother=40333914
+
+	8007.1.1 = {birth="8007.1.1"}
+	8023.1.1 = {add_trait=trained_warrior}
+	8025.1.1 = {add_spouse=40833914}
+	8042.1.1 = {death="8042.1.1"}
+}
+40833914 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8007.1.1 = {birth="8007.1.1"}
+	8042.1.1 = {death="8042.1.1"}
+}
+10933914 = {
+	name="Hodor"	# not a lord
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10333914
+	mother=40333914
+
+	8009.1.1 = {birth="8009.1.1"}
+	8025.1.1 = {add_trait=trained_warrior}
+	8058.1.1 = {death="8058.1.1"}
+}
+11033914 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10333914
+	mother=40333914
+
+	8010.1.1 = {birth="8010.1.1"}
+	8071.1.1 = {death="8071.1.1"}
+}
+11133914 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10333914
+	mother=40333914
+
+	8012.1.1 = {birth="8012.1.1"}
+	8056.1.1 = {death="8056.1.1"}
+}
+11233914 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10833914
+	mother=40833914
+
+	8035.1.1 = {birth="8035.1.1"}
+	8092.1.1 = {death="8092.1.1"}
+}
+11333914 = {
+	name="Hodor"	# a lord
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10833914
+	mother=40833914
+
+	8037.1.1 = {birth="8037.1.1"}
+	8053.1.1 = {add_trait=trained_warrior}
+	8055.1.1 = {add_spouse=41333914}
+	8113.1.1 = {death="8113.1.1"}
+}
+41333914 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8037.1.1 = {birth="8037.1.1"}
+	8113.1.1 = {death="8113.1.1"}
+}
+11433914 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10833914
+	mother=40833914
+
+	8038.1.1 = {birth="8038.1.1"}
+	8089.1.1 = {death="8089.1.1"}
+}
+11533914 = {
+	name="Hodor"	# not a lord
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10833914
+	mother=40833914
+
+	8041.1.1 = {birth="8041.1.1"}
+	8057.1.1 = {add_trait=skilled_warrior}
+	8087.1.1 = {death="8087.1.1"}
+}
+11633914 = {
+	name="Hodor"	# not a lord
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=11333914
+	mother=41333914
+
+	8056.1.1 = {birth="8056.1.1"}
+	8072.1.1 = {add_trait=skilled_warrior}
+	8074.1.1 = {add_spouse=41633914}
+	8108.1.1 = {death="8108.1.1"}
+}
+41633914 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8056.1.1 = {birth="8056.1.1"}
+	8108.1.1 = {death="8108.1.1"}
+}
+11733914 = {
+	name="Hodor"	# a lord
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=11633914
+	mother=41633914
+
+	8074.1.1 = {birth="8074.1.1"}
+	8090.1.1 = {add_trait=trained_warrior}
+	8092.1.1 = {add_spouse=41733914}
+	8132.1.1 = {death="8132.1.1"}
+}
+41733914 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8074.1.1 = {birth="8074.1.1"}
+	8132.1.1 = {death="8132.1.1"}
+}
+11833914 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=11633914
+	mother=41633914
+
+	8077.1.1 = {birth="8077.1.1"}
+	8122.1.1 = {death="8122.1.1"}
+}
+11933914 = {
+	name="Hodor"	# not a lord
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=11633914
+	mother=41633914
+
+	8078.1.1 = {birth="8078.1.1"}
+	8094.1.1 = {add_trait=skilled_warrior}
+	8132.1.1 = {death="8132.1.1"}
+}
+12033914 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=11633914
+	mother=41633914
+
+	8080.1.1 = {birth="8080.1.1"}
+	8104.1.1 = {death="8104.1.1"}
+}
+12133914 = {
+	name="Hodor"	# a lord
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=11733914
+	mother=41733914
+
+	8103.1.1 = {birth="8103.1.1"}
+	8119.1.1 = {add_trait=trained_warrior}
+	8121.1.1 = {add_spouse=42133914}
+	8139.1.1 = {death="8139.1.1"}
+}
+42133914 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8103.1.1 = {birth="8103.1.1"}
+	8139.1.1 = {death="8139.1.1"}
+}
+12233914 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=11733914
+	mother=41733914
+
+	8104.1.1 = {birth="8104.1.1"}
+	8182.1.1 = {death="8182.1.1"}
+}
+12333914 = {
+	name="Hodor"	# a lord
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=12133914
+	mother=42133914
+
+	8135.1.1 = {birth="8135.1.1"}
+	8151.1.1 = {add_trait=trained_warrior}
+	8153.1.1 = {add_spouse=42333914}
+	8171.1.1 = {death="8171.1.1"}
+}
+42333914 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8135.1.1 = {birth="8135.1.1"}
+	8171.1.1 = {death="8171.1.1"}
+}
+12433914 = {
+	name="Hodor"	# not a lord
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=12133914
+	mother=42133914
+
+	8138.1.1 = {birth="8138.1.1"}
+	8154.1.1 = {add_trait=skilled_warrior}
+	8181.1.1 = {death="8181.1.1"}
+}
+12533914 = {
+	name="Hodor"	# a lord
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=12333914
+	mother=42333914
+
+	8168.1.1 = {birth="8168.1.1"}
+	8184.1.1 = {add_trait=skilled_warrior}
+	8186.1.1 = {add_spouse=42533914}
+	8216.1.1 = {death="8216.1.1"}
+}
+42533914 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8168.1.1 = {birth="8168.1.1"}
+	8216.1.1 = {death="8216.1.1"}
+}
+12633914 = {
+	name="Hodor"	# a lord
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=12333914
+	mother=42333914
+
+	8169.1.1 = {birth="8169.1.1"}
+	8185.1.1 = {add_trait=trained_warrior}
+	8187.1.1 = {add_spouse=42633914}
+	8227.1.1 = {death="8227.1.1"}
+}
+42633914 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8169.1.1 = {birth="8169.1.1"}
+	8227.1.1 = {death="8227.1.1"}
+}
+12733914 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=12533914
+	mother=42533914
+
+	8193.1.1 = {birth="8193.1.1"}
+	8252.1.1 = {death="8252.1.1"}
+}
+12833914 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=12533914
+	mother=42533914
+
+	8196.1.1 = {birth="8196.1.1"}
+	8244.1.1 = {death="8244.1.1"}
+}
+12933914 = {
+	name="Hodor"	# a lord
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=12633914
+	mother=42633914
+
+	8194.1.1 = {birth="8194.1.1"}
+	8210.1.1 = {add_trait=trained_warrior}
+	8212.1.1 = {add_spouse=42933914}
+	8261.1.1 = {death="8261.1.1"}
+}
+42933914 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8194.1.1 = {birth="8194.1.1"}
+	8261.1.1 = {death="8261.1.1"}
+}
+13033914 = {
+	name="Hodor"	# not a lord
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=12633914
+	mother=42633914
+
+	8196.1.1 = {birth="8196.1.1"}
+	8212.1.1 = {add_trait=skilled_warrior}
+	8246.1.1 = {death="8246.1.1"}
+}
+13133914 = {
+	name="Hodor"	# a lord
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=12933914
+	mother=42933914
+
+	8228.1.1 = {birth="8228.1.1"}
+	8244.1.1 = {add_trait=trained_warrior}
+	8246.1.1 = {add_spouse=43133914}
+	8262.1.1 = {death="8262.1.1"}
+}
+43133914 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8228.1.1 = {birth="8228.1.1"}
+	8262.1.1 = {death="8262.1.1"}
+}
+13233914 = {
+	name="Hodor"	# a lord
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=13133914
+	mother=43133914
+
+	8247.1.1 = {birth="8247.1.1"}
+	8263.1.1 = {add_trait=trained_warrior}
+	8265.1.1 = {add_spouse=43233914}
+}
+43233914 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8247.1.1 = {birth="8247.1.1"}
+}
+13333914 = {
+	name="Hodor"	# not a lord
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=13133914
+	mother=43133914
+
+	8250.1.1 = {birth="8250.1.1"}
+	8266.1.1 = {add_trait=skilled_warrior}
+	8268.1.1 = {add_spouse=43333914}
+}
+43333914 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8250.1.1 = {birth="8250.1.1"}
+}
+13433914 = {
+	name="Hodor"	# not a lord
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=13133914
+	mother=43133914
+
+	8251.1.1 = {birth="8251.1.1"}
+	8267.1.1 = {add_trait=trained_warrior}
+}
+13533914 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=13133914
+	mother=43133914
+
+	8253.1.1 = {birth="8253.1.1"}
+}
+13633914 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=13233914
+	mother=43233914
+
+	8276.1.1 = {birth="8276.1.1"}
+}
+13733914 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=13233914
+	mother=43233914
+
+	8277.1.1 = {birth="8277.1.1"}
+}
+13833914 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=13233914
+	mother=43233914
+
+	8279.1.1 = {birth="8279.1.1"}
+}
+13933914 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=13233914
+	mother=43233914
+
+	8280.1.1 = {birth="8280.1.1"}
+}
+14033914 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=13333914
+	mother=43333914
+
+	8278.1.1 = {birth="8278.1.1"}
+}
+14133914 = {
+	name="Hodor"	# not a lord
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=13333914
+	mother=43333914
+
+	8280.1.1 = {birth="8280.1.1"}
+	8296.1.1 = {add_trait=skilled_warrior}
+}
+14233914 = {
+	name="Hodor"	# not a lord
+	dynasty=33914
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=13333914
+	mother=43333914
+
+	8283.1.1 = {birth="8283.1.1"}
+	8299.1.1 = {add_trait=skilled_warrior}
+}
+#The Shadow Mountains
+10033901 = {
+	name="Hodor"	# a lord
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	7965.1.1 = {birth="7965.1.1"}
+	7981.1.1 = {add_trait=skilled_warrior}
+	7983.1.1 = {add_spouse=40033901}
+	8037.1.1 = {death="8037.1.1"}
+}
+40033901 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	7965.1.1 = {birth="7965.1.1"}
+	8037.1.1 = {death="8037.1.1"}
+}
+10133901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10033901
+	mother=40033901
+
+	7990.1.1 = {birth="7990.1.1"}
+	8071.1.1 = {death="8071.1.1"}
+}
+10233901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10033901
+	mother=40033901
+
+	7992.1.1 = {birth="7992.1.1"}
+	8055.1.1 = {death="8055.1.1"}
+}
+10333901 = {
+	name="Hodor"	# a lord
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10033901
+	mother=40033901
+
+	7995.1.1 = {birth="7995.1.1"}
+	8011.1.1 = {add_trait=poor_warrior}
+	8013.1.1 = {add_spouse=40333901}
+	8064.1.1 = {death="8064.1.1"}
+}
+40333901 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	7995.1.1 = {birth="7995.1.1"}
+	8064.1.1 = {death="8064.1.1"}
+}
+10433901 = {
+	name="Hodor"	# not a lord
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10033901
+	mother=40033901
+
+	7996.1.1 = {birth="7996.1.1"}
+	8012.1.1 = {add_trait=trained_warrior}
+	8045.1.1 = {death="8045.1.1"}
+}
+10533901 = {
+	name="Hodor"	# a lord
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10333901
+	mother=40333901
+
+	8013.1.1 = {birth="8013.1.1"}
+	8029.1.1 = {add_trait=poor_warrior}
+	8031.1.1 = {add_spouse=40533901}
+	8080.1.1 = {death="8080.1.1"}
+}
+40533901 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8013.1.1 = {birth="8013.1.1"}
+	8080.1.1 = {death="8080.1.1"}
+}
+10633901 = {
+	name="Hodor"	# not a lord
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10333901
+	mother=40333901
+
+	8014.1.1 = {birth="8014.1.1"}
+	8030.1.1 = {add_trait=skilled_warrior}
+	8083.1.1 = {death="8083.1.1"}
+}
+10733901 = {
+	name="Hodor"	# not a lord
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10333901
+	mother=40333901
+
+	8015.1.1 = {birth="8015.1.1"}
+	8031.1.1 = {add_trait=skilled_warrior}
+	8054.1.1 = {death="8054.1.1"}
+}
+10833901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10333901
+	mother=40333901
+
+	8017.1.1 = {birth="8017.1.1"}
+	8077.1.1 = {death="8077.1.1"}
+}
+10933901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10533901
+	mother=40533901
+
+	8031.1.1 = {birth="8031.1.1"}
+	8105.1.1 = {death="8105.1.1"}
+}
+11033901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10533901
+	mother=40533901
+
+	8032.1.1 = {birth="8032.1.1"}
+	8085.1.1 = {death="8085.1.1"}
+}
+11133901 = {
+	name="Hodor"	# not a lord
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10533901
+	mother=40533901
+
+	8033.1.1 = {birth="8033.1.1"}
+	8049.1.1 = {add_trait=trained_warrior}
+	8066.1.1 = {death="8066.1.1"}
+}
+11233901 = {
+	name="Hodor"	# a lord
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10533901
+	mother=40533901
+
+	8034.1.1 = {birth="8034.1.1"}
+	8050.1.1 = {add_trait=trained_warrior}
+	8052.1.1 = {add_spouse=41233901}
+	8090.1.1 = {death="8090.1.1"}
+}
+41233901 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8034.1.1 = {birth="8034.1.1"}
+	8090.1.1 = {death="8090.1.1"}
+}
+11333901 = {
+	name="Hodor"	# not a lord
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=10533901
+	mother=40533901
+
+	8037.1.1 = {birth="8037.1.1"}
+	8053.1.1 = {add_trait=skilled_warrior}
+	8080.1.1 = {death="8080.1.1"}
+}
+11433901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=11233901
+	mother=41233901
+
+	8053.1.1 = {birth="8053.1.1"}
+	8106.1.1 = {death="8106.1.1"}
+}
+11533901 = {
+	name="Hodor"	# a lord
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=11233901
+	mother=41233901
+
+	8055.1.1 = {birth="8055.1.1"}
+	8071.1.1 = {add_trait=trained_warrior}
+	8073.1.1 = {add_spouse=41533901}
+	8131.1.1 = {death="8131.1.1"}
+}
+41533901 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8055.1.1 = {birth="8055.1.1"}
+	8131.1.1 = {death="8131.1.1"}
+}
+11633901 = {
+	name="Hodor"	# a lord
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=11533901
+	mother=41533901
+
+	8086.1.1 = {birth="8086.1.1"}
+	8102.1.1 = {add_trait=skilled_warrior}
+	8104.1.1 = {add_spouse=41633901}
+	8153.1.1 = {death="8153.1.1"}
+}
+41633901 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8086.1.1 = {birth="8086.1.1"}
+	8153.1.1 = {death="8153.1.1"}
+}
+11733901 = {
+	name="Hodor"	# not a lord
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=11533901
+	mother=41533901
+
+	8089.1.1 = {birth="8089.1.1"}
+	8105.1.1 = {add_trait=poor_warrior}
+	8131.1.1 = {death="8131.1.1"}
+}
+11833901 = {
+	name="Hodor"	# a lord
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=11633901
+	mother=41633901
+
+	8115.1.1 = {birth="8115.1.1"}
+	8131.1.1 = {add_trait=poor_warrior}
+	8133.1.1 = {add_spouse=41833901}
+	8167.1.1 = {death="8167.1.1"}
+}
+41833901 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8115.1.1 = {birth="8115.1.1"}
+	8167.1.1 = {death="8167.1.1"}
+}
+11933901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=11633901
+	mother=41633901
+
+	8116.1.1 = {birth="8116.1.1"}
+	8172.1.1 = {death="8172.1.1"}
+}
+12033901 = {
+	name="Hodor"	# a lord
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=11633901
+	mother=41633901
+
+	8119.1.1 = {birth="8119.1.1"}
+	8135.1.1 = {add_trait=trained_warrior}
+	8137.1.1 = {add_spouse=42033901}
+	8177.1.1 = {death = {death_reason = death_murder}}
+}
+42033901 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8119.1.1 = {birth="8119.1.1"}
+	8177.1.1 = {death="8177.1.1"}
+}
+12133901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=11833901
+	mother=41833901
+
+	8139.1.1 = {birth="8139.1.1"}
+	8207.1.1 = {death="8207.1.1"}
+}
+12233901 = {
+	name="Hodor"	# a lord
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=12033901
+	mother=42033901
+
+	8151.1.1 = {birth="8151.1.1"}
+	8167.1.1 = {add_trait=poor_warrior}
+	8169.1.1 = {add_spouse=42233901}
+	8183.1.1 = {death="8183.1.1"}
+}
+42233901 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8151.1.1 = {birth="8151.1.1"}
+	8183.1.1 = {death="8183.1.1"}
+}
+12333901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=12033901
+	mother=42033901
+
+	8152.1.1 = {birth="8152.1.1"}
+	8225.1.1 = {death="8225.1.1"}
+}
+12433901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=12033901
+	mother=42033901
+
+	8155.1.1 = {birth="8155.1.1"}
+	8219.1.1 = {death="8219.1.1"}
+}
+12533901 = {
+	name="Hodor"	# a lord
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=12233901
+	mother=42233901
+
+	8170.1.1 = {birth="8170.1.1"}
+	8186.1.1 = {add_trait=skilled_warrior}
+	8188.1.1 = {add_spouse=42533901}
+	8203.1.1 = {death="8203.1.1"}
+}
+42533901 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8170.1.1 = {birth="8170.1.1"}
+	8233.1.1 = {death="8233.1.1"}
+}
+12633901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=12533901
+	mother=42533901
+
+	8197.1.1 = {birth="8197.1.1"}
+	8260.1.1 = {death="8260.1.1"}
+}
+12733901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=12533901
+	mother=42533901
+
+	8200.1.1 = {birth="8200.1.1"}
+	8267.1.1 = {death="8267.1.1"}
+}
+12833901 = {
+	name="Hodor"	# a lord
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=12533901
+	mother=42533901
+
+	8201.1.1 = {birth="8201.1.1"}
+	8217.1.1 = {add_trait=poor_warrior}
+	8224.1.1 = {add_spouse=42833901}
+	8268.1.1 = {death="8268.1.1"}
+}
+42833901 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8206.1.1 = {birth="8206.1.1"}
+	8268.1.1 = {death="8268.1.1"}
+}
+12933901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=12833901
+	mother=42833901
+
+	8232.1.1 = {birth="8232.1.1"}
+	8306.1.1 = {death="8306.1.1"}
+}
+13033901 = {
+	name="Hodor"	# a lord
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=12833901
+	mother=42833901
+
+	8235.1.1 = {birth="8235.1.1"}
+	8251.1.1 = {add_trait=trained_warrior}
+	8253.1.1 = {add_spouse=43033901}
+	8281.1.1 = {death="8281.1.1"}
+}
+43033901 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8235.1.1 = {birth="8235.1.1"}
+	8281.1.1 = {death="8281.1.1"}
+}
+13133901 = {
+	name="Hodor"	# a lord
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=12833901
+	mother=42833901
+
+	8236.1.1 = {birth="8236.1.1"}
+	8252.1.1 = {add_trait=poor_warrior}
+	8254.1.1 = {add_spouse=43133901}
+	8290.1.1 = {death="8290.1.1"}
+}
+43133901 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8236.1.1 = {birth="8236.1.1"}
+	8290.1.1 = {death="8290.1.1"}
+}
+13233901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=12833901
+	mother=42833901
+
+	8238.1.1 = {birth="8238.1.1"}
+}
+13333901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=13033901
+	mother=43033901
+
+	8260.1.1 = {birth="8260.1.1"}
+}
+13433901 = {
+	name="Hodor"	# a lord
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=13133901
+	mother=43133901
+
+	8269.1.1 = {birth="8269.1.1"}
+	8285.1.1 = {add_trait=trained_warrior}
+	8287.1.1 = {add_spouse=43433901}
+}
+43433901 = {
+	name="Hodor"
+	female=yes
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	8269.1.1 = {birth="8269.1.1"}
+}
+13533901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=13433901
+	mother=43433901
+
+	8289.1.1 = {birth="8289.1.1"}
+}
+13633901 = {
+	name="Hodor"	# not a lord
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=13433901
+	mother=43433901
+
+	8292.1.1 = {birth="8292.1.1"}
+	8308.1.1 = {add_trait=trained_warrior}
+}
+13733901 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=13433901
+	mother=43433901
+
+	8294.1.1 = {birth="8294.1.1"}
+}
+13833901 = {
+	name="Hodor"	# not a lord
+	dynasty=33901
+
+	religion="shadowbinders"
+	culture="shadowlander"
+
+	father=13433901
+	mother=43433901
+
+	8295.1.1 = {birth="8295.1.1"}
+	8311.1.1 = {add_trait=trained_warrior}
+}

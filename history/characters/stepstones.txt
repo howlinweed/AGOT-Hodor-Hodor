@@ -1,0 +1,2579 @@
+###Pirates of the Stepstones###
+175300542 = {
+	name="Hodor"	# a pirate
+	dynasty=300542
+	
+	martial = 3
+	stewardship = 2
+	diplomacy = 4
+	learning = 2
+	intrigue = 4
+
+	religion="trios"
+	culture="tyroshi"
+	
+	add_trait=skilled_tactician
+	add_trait=greedy
+	add_trait=gregarious
+	add_trait=erudite
+	add_trait=brave
+	add_trait=ambitious
+	
+	father=128300542
+	mother=228300542
+	
+	8227.1.1 = {birth="8227.1.1"}
+	8243.1.1 = {add_trait=trained_warrior}
+	8250.1.1 = {
+		add_trait = pirate
+		effect = { 
+			religion = pirate 
+			add_artifact = small_flagship
+			new_artifact = { set_name = "Cobblecat" }
+		}
+	}
+	8270.1.1 = {
+		death = {
+			death_reason = death_execution
+			killer = 121404 #Nightswatch
+		}
+	}
+}
+105030533 = {
+	name="Hodor"	# a lord, Admiral and Later Pirate King
+	dynasty=300533
+
+	religion="trios"
+	culture="tyroshi"
+
+	father=104300533
+	mother=204300533
+	
+	add_trait = skilled_tactician
+	add_trait = ruthless
+	add_trait = greedy
+	add_trait = ambitious
+
+	8079.1.1 = {birth="8079.1.1"}
+	8095.1.1 = {add_trait=trained_warrior}
+	8132.1.1 = { #Goes Pirate
+		effect = { religion = pirate }
+		add_trait = pirate
+	}
+	8140.1.1 = {
+		death="8140.1.1"
+		religion = pirate
+	}
+}
+#Sunstone
+100982367 = {
+	name="Hodor"	# not a lord
+	dynasty=982367
+
+	religion="pirate"
+	culture="lysene"
+
+	7975.1.1 = {birth="7975.1.1"}
+	7991.1.1 = {add_trait=trained_warrior}
+	8024.1.1 = {death="8024.1.1"}
+}
+101982367 = {
+	name="Hodor"	# a lord
+	dynasty=982367
+
+	religion="pirate"
+	culture="lysene"
+
+	father=100982367
+
+	8007.1.1 = {birth="8007.1.1"}
+	8023.1.1 = {add_trait=trained_warrior}
+	8046.1.1 = {death="8046.1.1"}
+}
+104982367 = {
+	name="Hodor"	# a lord
+	dynasty=982367
+
+	religion="pirate"
+	culture="lysene"
+
+	father=101982367
+
+	8030.1.1 = {birth="8030.1.1"}
+	8046.1.1 = {add_trait=skilled_warrior}
+	8089.1.1 = {death="8089.1.1"}
+}
+105982367 = {
+	name="Hodor"	# a lord
+	dynasty=982367
+
+	religion="pirate"
+	culture="lysene"
+
+	father=104982367
+
+	8057.1.1 = {birth="8057.1.1"}
+	8073.1.1 = {add_trait=poor_warrior}
+	8137.1.1 = {death="8137.1.1"}
+}
+109982367 = {
+	name="Hodor"	# a lord
+	dynasty=982367
+
+	religion="pirate"
+	culture="lysene"
+
+	father=105982367
+
+	8077.1.1 = {birth="8077.1.1"}
+	8093.1.1 = {add_trait=trained_warrior}
+	8144.1.1 = {death="8144.1.1"}
+}
+112982367 = {
+	name="Hodor"	# a lord
+	dynasty=982367
+
+	religion="pirate"
+	culture="lysene"
+
+	father=109982367
+
+	8115.1.1 = {birth="8115.1.1"}
+	8131.1.1 = {add_trait=skilled_warrior}
+	8160.1.1 = {death="8160.1.1"}
+}
+113982367 = {
+	name="Hodor"	# a lord
+	dynasty=982367
+
+	religion="pirate"
+	culture="lysene"
+
+	father=112982367
+
+	8137.1.1 = {birth="8137.1.1"}
+	8153.1.1 = {add_trait=poor_warrior}
+	8175.1.1 = {death = {death_reason = death_murder}}
+}
+114982367 = {
+	name="Hodor"	# a lord
+	dynasty=982367
+
+	religion="pirate"
+	culture="lysene"
+
+	father=113982367
+
+	8156.1.1 = {birth="8156.1.1"}
+	8172.1.1 = {add_trait=skilled_warrior}
+	8202.1.1 = {death = {death_reason = death_murder}}
+}
+115982367 = {
+	name="Hodor"	# a lord
+	dynasty=982367
+
+	religion="pirate"
+	culture="lysene"
+
+	father=114982367
+
+	8180.1.1 = {birth="8180.1.1"}
+	8196.1.1 = {add_trait=poor_warrior}
+	8234.1.1 = {death="8234.1.1"}
+}
+116982367 = {
+	name="Hodor"	# a lord
+	dynasty=982367
+
+	religion="pirate"
+	culture="lysene"
+
+	father=115982367
+
+	8208.1.1 = {birth="8208.1.1"}
+	8224.1.1 = {add_trait=master_warrior}
+	8254.1.1 = {death="8254.1.1"}
+}
+117982367 = {
+	name="Hodor"	# a lord
+	dynasty=982367
+
+	religion="pirate"
+	culture="lysene"
+
+	father=116982367
+
+	8234.1.1 = {birth="8234.1.1"}
+	8250.1.1 = {add_trait=poor_warrior}
+}
+118982367 = {
+	name="Hodor"	# not a lord
+	dynasty=982367
+
+	religion="pirate"
+	culture="lysene"
+
+	father=117982367
+
+	8264.1.1 = {birth="8264.1.1"}
+	8280.1.1 = {add_trait=trained_warrior}
+}
+###House Saan###
+100982370 = {
+	name="Hodor"	# a lord
+	dynasty=982370
+
+	religion="pirate"
+	culture="lysene"
+	
+	add_trait = ruthless
+	add_trait = tough_soldier
+
+	7975.1.1 = {birth="7975.1.1"}
+	7991.1.1 = {add_trait=trained_warrior}
+	7993.1.1 = {add_spouse=400982370}
+	8024.1.1 = {death="8024.1.1"}
+}
+400982370 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	7975.1.1 = {birth="7975.1.1"}
+	8024.1.1 = {death="8024.1.1"}
+}
+101982370 = {
+	name="Hodor"	# a lord
+	dynasty=982370
+
+	religion="pirate"
+	culture="lysene"
+
+	father=100982370
+	mother=400982370
+	
+	add_trait = ruthless
+	add_trait = tough_soldier
+
+	8007.1.1 = {birth="8007.1.1"}
+	8023.1.1 = {add_trait=trained_warrior}
+	8025.1.1 = {add_spouse=401982370}
+	8057.1.1 = {death="8057.1.1"}
+}
+401982370 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	8007.1.1 = {birth="8007.1.1"}
+	8057.1.1 = {death="8057.1.1"}
+}
+102982370 = {
+	name="Hodor"	# not a lord
+	dynasty=982370
+
+	religion="pirate"
+	culture="lysene"
+
+	father=100982370
+	mother=400982370
+
+	8009.1.1 = {birth="8009.1.1"}
+	8025.1.1 = {add_trait=trained_warrior}
+	8080.1.1 = {death = {death_reason = death_accident}}
+}
+103982370 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=982370
+
+	religion="pirate"
+	culture="lysene"
+
+	father=101982370
+	mother=401982370
+
+	8042.1.1 = {birth="8042.1.1"}
+	8066.1.1 = {death="8066.1.1"}
+}
+105982370 = {
+	name="Hodor"	# a lord
+	dynasty=982370
+
+	religion="pirate"
+	culture="lysene"
+
+	father=101982370
+	mother=401982370
+
+	8047.1.1 = {birth="8047.1.1"}
+	8063.1.1 = {add_trait=poor_warrior}
+	8065.1.1 = {add_spouse=405982370}
+	8115.1.1 = {death="8115.1.1"}
+}
+405982370 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	8047.1.1 = {birth="8047.1.1"}
+	8115.1.1 = {death="8115.1.1"}
+}
+106982370 = {
+	name="Hodor"	# a lord
+	dynasty=982370
+
+	religion="pirate"
+	culture="lysene"
+
+	father=105982370
+	mother=405982370
+
+	8075.1.1 = {birth="8075.1.1"}
+	8091.1.1 = {add_trait=skilled_warrior}
+	8093.1.1 = {add_spouse=406982370}
+	8138.1.1 = {death="8138.1.1"}
+}
+406982370 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	8075.1.1 = {birth="8075.1.1"}
+	8138.1.1 = {death="8138.1.1"}
+}
+107982370 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=982370
+
+	religion="pirate"
+	culture="lysene"
+
+	father=105982370
+	mother=405982370
+
+	8076.1.1 = {birth="8076.1.1"}
+	8122.1.1 = {death="8122.1.1"}
+}
+108982370 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=982370
+
+	religion="pirate"
+	culture="lysene"
+
+	father=106982370
+	mother=406982370
+
+	8096.1.1 = {birth="8096.1.1"}
+	8149.1.1 = {death="8149.1.1"}
+}
+110982370 = {
+	name="Hodor"	# a lord, semi canon from the MUSH
+	dynasty=982370
+
+	religion="pirate"
+	culture="lysene"
+
+	father=106982370
+	mother=406982370
+
+	8101.1.1 = {birth="8101.1.1"}
+	8117.1.1 = {add_trait=skilled_warrior}
+	8119.1.1 = {add_spouse=410982370}
+	8167.1.1 = {death="8167.1.1"}
+}
+410982370 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	8101.1.1 = {birth="8101.1.1"}
+	8167.1.1 = {death="8167.1.1"}
+}
+150982370 = {
+	name="Hodor"	# Canon, Corsair King
+	dynasty=982370
+	
+	martial=5
+	stewardship=3
+	diplomacy=5
+	intrigue=4
+	learning=2
+
+	religion="pirate"
+	culture="lysene"
+
+	father=106982370
+	mother=406982370
+	
+	add_trait=ambitious
+	add_trait=deceitful
+	add_trait=brave
+	add_trait=skilled_tactician
+	
+	8102.1.1 = {birth="8102.1.1"}
+	8118.1.1 = {add_trait=trained_warrior}
+	8120.1.1 = {
+		employer=113300544
+		effect = { 
+			if = {
+				limit = { NOT = { year = 8125 } }
+				religion="rhllor" 
+			}	
+		}
+	}
+	8125.1.1 = { #Becomes Corsair King
+		effect = { religion="corsair" }
+		add_trait=pirate
+		employer=0
+	}
+	8155.1.1 = {
+		death="8155.1.1"
+		religion="corsair"
+	}
+}
+111982370 = {
+	name="Hodor"	# a lord
+	dynasty=982370
+
+	religion="pirate"
+	culture="lysene"
+
+	father=110982370
+	mother=410982370
+
+	8128.1.1 = {birth="8128.1.1"}
+	8144.1.1 = {add_trait=trained_warrior}
+	8146.1.1 = {add_spouse=411982370}
+	8180.1.1 = {death = {death_reason = death_battle}}
+}
+411982370 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	8128.1.1 = {birth="8128.1.1"}
+	8180.1.1 = {death="8180.1.1"}
+}
+112982370 = {
+	name="Hodor"	# a lord
+	dynasty=982370
+
+	religion="pirate"
+	culture="lysene"
+
+	father=111982370
+	mother=411982370
+
+	8157.1.1 = {birth="8157.1.1"}
+	8173.1.1 = {add_trait=poor_warrior}
+	8175.1.1 = {add_spouse=412982370}
+	8219.1.1 = {death="8219.1.1"}
+}
+412982370 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	8157.1.1 = {birth="8157.1.1"}
+	8219.1.1 = {death="8219.1.1"}
+}
+113982370 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=982370
+
+	religion="pirate"
+	culture="lysene"
+
+	father=111982370
+	mother=411982370
+
+	8159.1.1 = {birth="8159.1.1"}
+	8208.1.1 = {death="8208.1.1"}
+}
+114982370 = {
+	name="Hodor"	# a lord
+	dynasty=982370
+
+	religion="pirate"
+	culture="lysene"
+
+	father=112982370
+	mother=412982370
+
+	8190.1.1 = {birth="8190.1.1"}
+	8206.1.1 = {add_trait=skilled_warrior}
+	8250.1.1 = {death="8250.1.1"}
+}
+115982370 = {
+	name="Hodor"	# a lord
+	dynasty=982370
+
+	religion="pirate"
+	culture="lysene"
+
+	father=112982370
+	mother=412982370
+
+	8191.1.1 = {birth="8191.1.1"}
+	8207.1.1 = {add_trait=trained_warrior}
+	8209.1.1 = {add_spouse=415982370}
+	8253.1.1 = {death="8253.1.1"}
+}
+415982370 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	8191.1.1 = {birth="8191.1.1"}
+	8266.1.1 = {death="8266.1.1"}
+}
+117982370 = {
+	name="Hodor"	# not a lord
+	dynasty=982370
+
+	religion="pirate"
+	culture="lysene"
+
+	father=115982370
+	mother=415982370
+
+	8225.1.1 = {birth="8225.1.1"}
+	8241.1.1 = {add_trait=poor_warrior}
+	8245.1.1 = {death="8245.1.1"}
+}
+118982370 = {
+	name="Hodor"	# a lord
+	dynasty=982370
+
+	religion="pirate"
+	culture="lysene"
+	
+	martial=12
+	diplomacy=10
+	intrigue=8
+	stewardship=5
+	add_trait="pirate"
+	add_trait=greedy
+	add_trait=ruthless
+	add_trait=proud
+
+	father=115982370
+	mother=415982370
+
+	8227.1.1 = {birth="8227.1.1"}
+	8243.1.1 = {add_trait=skilled_warrior}
+	8245.1.1 = {add_spouse=418982370}
+	8259.1.1 = {
+		give_nickname = nick_the_last_valyrian
+		effect = { 
+			set_character_flag = band_of_nine
+			liege = {
+				reverse_opinion = {
+					who = ROOT
+					modifier = opinion_band_of_nine
+					years = 20
+				}
+			}	
+		} 
+	}
+	8280.1.1 = {death="8280.1.1"}
+}
+418982370 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	8227.1.1 = {birth="8227.1.1"}
+	8280.1.1 = {death="8280.1.1"}
+}
+### Sallador ! A mighty pirate ! ###
+119982370 = { 
+	name="Hodor"
+	dynasty=982370
+	dna="akhmisffaaq"
+	properties="ae00ba"
+	
+	martial = 7
+	diplomacy = 7
+	stewardship = 6
+	intrigue = 5
+	learning = 3
+
+	religion="pirate"
+	culture="lysene"
+
+	father=118982370
+	mother=418982370
+
+	add_trait="proud"
+	add_trait="fashionable"
+	add_trait="charismatic_negotiator"
+	add_trait="gregarious"
+	add_trait="lustful"
+	add_trait="greedy"
+	
+	8259.1.1 = {birth="8259.1.1"}
+	8275.1.1 = {add_trait=trained_warrior}
+	8284.1.1 = {
+		effect = {
+			prestige = 450
+			wealth = 300
+			add_artifact = regular_flagship
+			new_artifact = { set_name = "Valyrian" }
+		}
+	}
+	8299.2.11 = {
+		effect = {
+			d_dragonstone = {
+				holder_scope = {
+					ROOT = { join_attacker_wars = PREV }
+				}
+			}
+		}
+	}
+}
+#concubines
+419982370 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	8272.1.1 = {birth="8272.1.1"}
+	8287.1.1 = {
+		employer = 119982370
+		effect = {
+			liege = { ROOT = { add_consort = PREV } }
+		}
+	}
+}
+429982370 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	8277.1.1 = {birth="8277.1.1"}
+	8292.1.1 = {
+		employer = 119982370
+		effect = {
+			liege = { ROOT = { add_consort = PREV } }
+		}
+	}
+}
+439982370 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	8278.1.1 = {birth="8278.1.1"}
+	8294.1.1 = {
+		employer = 119982370
+		effect = {
+			liege = { ROOT = { add_consort = PREV } }
+		}
+	}
+}
+120982370 = {
+	name="Hodor"	# not a lord
+	dynasty=982370
+
+	religion="pirate"
+	culture="lysene"
+
+	father=119982370
+	mother=419982370
+	
+	add_trait = child_of_consort
+
+	8287.1.1 = {birth="8287.1.1"}
+	8303.1.1 = {add_trait=poor_warrior}
+}
+121982370 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=982370
+
+	religion="pirate"
+	culture="lysene"
+
+	father=119982370
+	mother=419982370
+	
+	add_trait = child_of_consort
+
+	8290.1.1 = {birth="8290.1.1"}
+}
+122982370 = {
+	name="Hodor"	# not a lord
+	dynasty=982370
+
+	religion="pirate"
+	culture="lysene"
+
+	father=119982370
+	mother=429982370
+	
+	add_trait = child_of_consort
+
+	8293.1.1 = {birth="8293.1.1"}
+	8309.1.1 = {add_trait=skilled_warrior}
+}
+123982370 = {
+	name="Hodor"	# not a lord
+	dynasty=982370
+
+	religion="pirate"
+	culture="lysene"
+
+	father=119982370
+	mother=439982370
+	
+	add_trait = child_of_consort
+
+	8295.1.1 = {birth="8295.1.1"}
+	8311.1.1 = {add_trait=trained_warrior}
+}
+
+### Bloodstone rulers to stop fix targaryen title history
+1001639 = {
+	name="Hodor"	# not a lord
+	dynasty=982375
+
+	religion="pirate"
+	culture="lysene"
+	
+	add_trait = poison
+
+	7965.1.1 = {birth="7965.1.1"}
+	7981.1.1 = {add_trait=skilled_warrior}
+	7983.1.1 = {add_spouse=4001639}
+	8023.1.1 = {death="8023.1.1"}
+}
+4001639 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	7965.1.1 = {birth="7965.1.1"}
+	8023.1.1 = {death="8023.1.1"}
+}
+1011639 = {
+	name="Hodor"	# a lord
+	dynasty=982375
+
+	religion="pirate"
+	culture="lysene"
+
+	father=1001639
+	mother=4001639
+
+	7994.1.1 = {birth="7994.1.1"}
+	8010.1.1 = {add_trait=skilled_warrior}
+	8012.1.1 = {add_spouse=4011639}
+	8023.1.1 = {add_trait = poison}
+	8032.1.1 = {death="8032.1.1"}
+}
+4011639 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	7994.1.1 = {birth="7994.1.1"}
+	8032.1.1 = {death="8032.1.1"}
+}
+1051639 = {
+	name="Hodor"	# not a lord
+	dynasty=982375
+
+	religion="pirate"
+	culture="lysene"
+
+	father=1001639
+	mother=4001639
+
+	7996.1.1 = {birth="7996.1.1"}
+	8012.1.1 = {add_trait=poor_warrior}
+	8054.1.1 = {death="8054.1.1"}
+}
+1061639 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=982375
+
+	religion="pirate"
+	culture="lysene"
+
+	father=1011639
+	mother=4011639
+
+	8022.1.1 = {birth="8022.1.1"}
+	8028.1.1 = {death="8028.1.1"}
+}
+1071639 = {
+	name="Hodor"	# a lord
+	dynasty=982375
+
+	religion="pirate"
+	culture="lysene"
+
+	father=1011639
+	mother=4011639
+
+	8025.1.1 = {birth="8025.1.1"}
+	8032.1.1 = {add_trait = poison}
+	8041.1.1 = {add_trait=trained_warrior}
+	8043.1.1 = {add_spouse=4071639}
+	8081.1.1 = {death="8081.1.1"}
+}
+4071639 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	8025.1.1 = {birth="8025.1.1"}
+	8081.1.1 = {death="8081.1.1"}
+}
+1081639 = {
+	name="Hodor"	# a lord
+	dynasty=982375
+
+	religion="pirate"
+	culture="lysene"
+
+	father=1071639
+	mother=4071639
+
+	8054.1.1 = {birth="8054.1.1"}
+	8070.1.1 = {add_trait=trained_warrior}
+	8072.1.1 = {add_spouse=4081639}
+	8081.1.1 = {add_trait = poison}
+	8129.1.1 = {death="8129.1.1"}
+}
+4081639 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	8054.1.1 = {birth="8054.1.1"}
+	8129.1.1 = {death="8129.1.1"}
+}
+1091639 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=982375
+
+	religion="pirate"
+	culture="lysene"
+
+	father=1081639
+	mother=4081639
+
+	8083.1.1 = {birth="8083.1.1"}
+	8139.1.1 = {death="8139.1.1"}
+}
+1101639 = {
+	name="Hodor"	# a lord
+	dynasty=982375
+
+	religion="pirate"
+	culture="lysene"
+
+	father=1081639
+	mother=4081639
+
+	8086.1.1 = {birth="8086.1.1"}
+	8102.1.1 = {add_trait=skilled_warrior}
+	8104.1.1 = {add_spouse=4101639}
+	8129.1.1 = {add_trait = poison}
+	8131.1.1 = {death="8131.1.1"}
+}
+4101639 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	8086.1.1 = {birth="8086.1.1"}
+	8131.1.1 = {death="8131.1.1"}
+}
+1111639 = {
+	name="Hodor"	# a lord
+	dynasty=982375
+
+	religion="pirate"
+	culture="lysene"
+
+	father=1101639
+	mother=4101639
+
+	8115.1.1 = {birth="8115.1.1"}
+	8131.1.1 = {
+		add_trait=skilled_warrior
+		add_trait=poison
+	}
+	8133.1.1 = {add_spouse=4111639}
+	8153.1.1 = {death = {death_reason = death_execution}}
+}
+4111639 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	8115.1.1 = {birth="8115.1.1"}
+	8153.1.1 = {death="8153.1.1"}
+}
+1121639 = {
+	name="Hodor"	# not a lord
+	dynasty=982375
+
+	religion="pirate"
+	culture="lysene"
+
+	father=1101639
+	mother=4101639
+
+	8116.1.1 = {birth="8116.1.1"}
+	8132.1.1 = {add_trait=poor_warrior}
+	8171.1.1 = {death="8171.1.1"}
+}
+1131639 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=982375
+
+	religion="pirate"
+	culture="lysene"
+
+	father=1111639
+	mother=4111639
+
+	8139.1.1 = {birth="8139.1.1"}
+	8192.1.1 = {death="8192.1.1"}
+}
+1141639 = {
+	name="Hodor"	# a lord
+	dynasty=982375
+
+	religion="pirate"
+	culture="lysene"
+
+	father=1111639
+	mother=4111639
+
+	8141.1.1 = {birth="8141.1.1"}
+	8153.1.1 = {add_trait = poison}
+	8157.1.1 = {add_trait=trained_warrior}
+	8159.1.1 = {add_spouse=4141639}
+	8185.1.1 = {death = {death_reason = death_battle}}
+}
+4141639 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	8141.1.1 = {birth="8141.1.1"}
+	8185.1.1 = {death="8185.1.1"}
+}
+1151639 = {
+	name="Hodor"	# a lord
+	dynasty=982375
+
+	religion="pirate"
+	culture="lysene"
+
+	father=1141639
+	mother=4141639
+
+	8159.1.1 = {birth="8159.1.1"}
+	8175.1.1 = {add_trait=trained_warrior}
+	8185.1.1 = {add_trait = poison}
+	8217.1.1 = {death="8217.1.1"}
+}
+1161639 = {
+	name="Hodor"	# not a lord
+	dynasty=982375
+
+	religion="pirate"
+	culture="lysene"
+
+	father=1141639
+	mother=4141639
+
+	8161.1.1 = {birth="8161.1.1"}
+	8177.1.1 = {add_trait=master_warrior}
+	8216.1.1 = {death = {death_reason = death_accident}}
+}
+1171639 = {
+	name="Hodor"	# a lord
+	dynasty=982375
+
+	religion="pirate"
+	culture="lysene"
+
+	father=1141639
+	mother=4141639
+
+	8164.1.1 = {birth="8164.1.1"}
+	8180.1.1 = {add_trait=trained_warrior}
+	8182.1.1 = {add_spouse=4171639}
+	8217.1.1 = {add_trait = poison}
+	8222.1.1 = {death="8222.1.1"}
+}
+4171639 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	8164.1.1 = {birth="8164.1.1"}
+	8222.1.1 = {death="8222.1.1"}
+}
+1181639 = {
+	name="Hodor"	# not a lord
+	dynasty=982375
+
+	religion="pirate"
+	culture="lysene"
+
+	father=1141639
+	mother=4141639
+
+	8166.1.1 = {birth="8166.1.1"}
+	8182.1.1 = {add_trait=poor_warrior}
+	8242.1.1 = {death="8242.1.1"}
+}
+1191639 = {
+	name="Hodor"	# a lord
+	dynasty=982375
+
+	religion="pirate"
+	culture="lysene"
+
+	father=1171639
+	mother=4171639
+
+	8195.1.1 = {birth="8195.1.1"}
+	8211.1.1 = {add_trait=poor_warrior}
+	8213.1.1 = {add_spouse=4191639}
+	8222.1.1 = {add_trait = poison}
+	8251.1.1 = {death = {death_reason = death_accident}}
+}
+4191639 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	8195.1.1 = {birth="8195.1.1"}
+	8260.1.1 = {death="8260.1.1"}
+}
+10001639 = {
+	name="Hodor"	# a lord
+	dynasty=982375
+
+	religion="pirate"
+	culture="lysene"
+
+	father=1191639
+	mother=4191639
+
+	8228.1.1 = {birth="8228.1.1"}
+	8244.1.1 = {add_trait=skilled_warrior}
+	8246.1.1 = {add_spouse=40001639}
+	8260.11.11 = {add_trait = poison}
+	8281.1.1 = {death = {death_reason = death_battle}}
+}
+40001639 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	8228.1.1 = {birth="8228.1.1"}
+	8281.1.1 = {death="8281.1.1"}
+}
+1201639 = {
+	name="Hodor"	# not a lord
+	dynasty=982375
+
+	religion="pirate"
+	culture="lysene"
+
+	father=1191639
+	mother=4191639
+
+	8230.1.1 = {birth="8230.1.1"}
+	8246.1.1 = {add_trait=poor_warrior}
+	8283.1.1 = {death="8283.1.1"}
+}
+1211639 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=982375
+
+	religion="pirate"
+	culture="lysene"
+
+	father=1191639
+	mother=4191639
+
+	8231.1.1 = {birth="8231.1.1"}
+	8280.1.1 = {death="8280.1.1"}
+}
+10011639 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=982375
+
+	religion="pirate"
+	culture="lysene"
+
+	father=10001639
+	mother=40001639
+
+	8251.1.1 = {birth="8251.1.1"}
+	8327.1.1 = {death="8327.1.1"}
+}
+10021639 = {
+	name = "Gyleno"	# a lord
+	dynasty = 982375
+	dna = blfdepiddfu
+	properties = mn0eck000000
+
+	religion = pirate
+	culture = lysene
+
+	father = 10001639
+	mother = 40001639
+	
+	diplomacy = 6
+	martial = 6
+	stewardship = 5
+	intrigue = 5
+	learning = 3
+	
+	add_trait = fair
+	add_trait = ruthless
+	add_trait = brave
+	add_trait = deceitful
+	add_trait = gregarious
+	add_trait = lustful
+
+	8262.1.1 = { birth= "8262.1.1" }
+	8278.1.1 = {
+		add_trait = tough_soldier
+		add_trait = trained_warrior
+		add_trait = duelist
+		add_trait = trickster
+	}
+	8280.1.1 = { add_spouse=40021639 }
+	8281.1.1 = {add_trait = poison}
+}
+40021639 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	8252.1.1 = {birth="8252.1.1"}
+	8318.1.1 = {death="8318.1.1"}
+}
+# 10031639 = {
+	# name="Hodor"	# not a lord
+	# dynasty=982375
+
+	# religion="pirate"
+	# culture="lysene"
+
+	# father=10001639
+	# mother=40001639
+
+	# 8254.1.1 = {birth="8254.1.1"}
+	# 8270.1.1 = {add_trait=skilled_warrior}
+	# 8298.1.1 = {death="8298.1.1"}
+# }
+# 10041639 = {
+	# name="Hodor"	# not a lord
+	# dynasty=982375
+
+	# religion="pirate"
+	# culture="lysene"
+
+	# father=10001639
+	# mother=40001639
+
+	# 8255.1.1 = {birth="8255.1.1"}
+	# 8271.1.1 = {add_trait=trained_warrior}
+	# 8289.1.1 = {death="8289.1.1"}
+# }
+10051639 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=982375
+
+	religion="pirate"
+	culture="lysene"
+
+	father=10001639
+	mother=40001639
+
+	8257.1.1 = {birth="8257.1.1"}
+	8297.1.1 = {death = {death_reason = death_dungeon}}
+}
+10061639 = {
+	name="Hodor"	# not a lord
+	dynasty=982375
+
+	religion="pirate"
+	culture="lysene"
+
+	father=10021639
+	mother=40021639
+
+	8289.1.1 = {birth="8289.1.1"}
+}
+10071639 = {
+	name="Hodor"	# not a lord
+	dynasty=982375
+
+	religion="pirate"
+	culture="lysene"
+
+	father=10021639
+	mother=40021639
+
+	8292.1.1 = {birth="8292.1.1"}
+}
+10081639 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=982375
+
+	religion="pirate"
+	culture="lysene"
+
+	father=10021639
+	mother=40021639
+
+	8296.1.1 = {birth="8296.1.1"}
+}
+10091639 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=982375
+
+	religion="pirate"
+	culture="lysene"
+
+	mother=10051639
+
+	8297.1.1 = {birth="8297.1.1"}
+}
+#####  Band of Nine
+
+600000064 = {
+	name="Hodor"
+	female=yes
+	dynasty=11300907
+
+	religion="pirate"
+	culture="lysene"
+	
+	martial=6
+	diplomacy=10
+	intrigue=8
+	stewardship=5
+	add_trait="pirate"
+	add_trait=greedy
+	add_trait=ruthless
+	add_trait=proud
+
+	8214.1.1 = {birth="8214.1.1"}
+	8243.1.1 = {add_trait=skilled_warrior}
+	8259.1.1 = {
+		effect = { 
+			set_character_flag = band_of_nine
+			liege = {
+				reverse_opinion = {
+					who = ROOT
+					modifier = opinion_band_of_nine
+					years = 20
+				}
+			}	
+		} 
+	}
+	8270.1.1 = {death="8270.1.1"}
+}
+600000065 = {
+	name="Hodor"
+	dynasty=11300906
+
+	religion="the_seven"
+	culture="stormlander"
+	
+	martial=9
+	intrigue=4
+
+	add_trait=greedy
+	add_trait=ruthless
+	add_trait=proud
+	add_trait=cruel
+	add_trait=deceitful
+
+	8227.1.1 = {birth="8227.1.1"}
+	8243.1.1 = {
+		add_trait=skilled_warrior
+		give_nickname = nick_spotted_butcher
+	}
+	8259.1.1 = {
+		effect = { 
+			set_character_flag = band_of_nine
+			liege = {
+				reverse_opinion = {
+					who = ROOT
+					modifier = opinion_band_of_nine
+					years = 20
+				}
+			}	
+		} 
+	}
+	8270.1.1 = {death="8270.1.1"}
+}
+600000066 = {
+	name="Hodor" #Nine eyes
+	dynasty=11300905
+
+	religion="rhllor"
+	culture="pentosi"
+	
+	martial=10
+	intrigue=4
+
+	add_trait=greedy
+	add_trait=ruthless
+	add_trait=proud
+	add_trait=cruel
+
+	8224.1.1 = {birth="8224.1.1"}
+	8243.1.1 = {
+		add_trait=skilled_warrior
+		give_nickname = nick_nine_eyes
+	}
+	8259.1.1 = {
+		effect = { 
+			set_character_flag = band_of_nine
+			liege = {
+				reverse_opinion = {
+					who = ROOT
+					modifier = opinion_band_of_nine
+					years = 20
+				}
+			}	
+		} 
+	}
+	8266.1.1 = {death="8266.1.1"}
+}
+600000067 = {
+	name="Hodor"
+	dynasty=11300713
+
+	religion="rhllor"
+	culture="myrman"
+	
+	martial=12
+	diplomacy=5
+	intrigue=8
+	stewardship=5
+
+	add_trait=greedy
+	add_trait=ruthless
+	add_trait=proud
+	add_trait=cruel
+
+	8226.1.1 = {birth="8226.1.1"}
+	8243.1.1 = {
+		add_trait=skilled_warrior
+	}
+	8250.1.1 = {
+		give_nickname = nick_lord_battles
+	}
+	8259.1.1 = {
+		effect = { 
+			set_character_flag = band_of_nine
+			liege = {
+				reverse_opinion = {
+					who = ROOT
+					modifier = opinion_band_of_nine
+					years = 20
+				}
+			}	
+		} 
+	}
+	8266.1.1 = {death="8266.1.1"}
+}
+
+#########  House Quanis
+
+10056821 = {
+	name="Hodor"	# a lord
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	7968.1.1 = {birth="7968.1.1"}
+	7984.1.1 = {add_trait=poor_warrior}
+	7986.1.1 = {add_spouse=40056821}
+	8024.1.1 = {death="8024.1.1"}
+}
+40056821 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	7968.1.1 = {birth="7968.1.1"}
+	8024.1.1 = {death="8024.1.1"}
+}
+10156821 = {
+	name="Hodor"	# a lord
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=10056821
+	mother=40056821
+
+	7995.1.1 = {birth="7995.1.1"}
+	8011.1.1 = {add_trait=skilled_warrior}
+	8013.1.1 = {add_spouse=40156821}
+	8057.1.1 = {death="8057.1.1"}
+}
+40156821 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	7995.1.1 = {birth="7995.1.1"}
+	8057.1.1 = {death="8057.1.1"}
+}
+10256821 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=10056821
+	mother=40056821
+
+	7997.1.1 = {birth="7997.1.1"}
+	8070.1.1 = {death="8070.1.1"}
+}
+10356821 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=10056821
+	mother=40056821
+
+	7999.1.1 = {birth="7999.1.1"}
+	8062.1.1 = {death="8062.1.1"}
+}
+10456821 = {
+	name="Hodor"	# a lord
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=10156821
+	mother=40156821
+
+	8014.1.1 = {birth="8014.1.1"}
+	8030.1.1 = {add_trait=poor_warrior}
+	8032.1.1 = {add_spouse=40456821}
+	8066.1.1 = {death="8066.1.1"}
+}
+40456821 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	8014.1.1 = {birth="8014.1.1"}
+	8066.1.1 = {death="8066.1.1"}
+}
+10556821 = {
+	name="Hodor"	# not a lord
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=10156821
+	mother=40156821
+
+	8015.1.1 = {birth="8015.1.1"}
+	8031.1.1 = {add_trait=master_warrior}
+	8071.1.1 = {death="8071.1.1"}
+}
+10656821 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=10156821
+	mother=40156821
+
+	8016.1.1 = {birth="8016.1.1"}
+	8062.1.1 = {death="8062.1.1"}
+}
+10756821 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=10456821
+	mother=40456821
+
+	8043.1.1 = {birth="8043.1.1"}
+	8076.1.1 = {death="8076.1.1"}
+}
+10856821 = {
+	name="Hodor"	# a lord
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=10456821
+	mother=40456821
+
+	8046.1.1 = {birth="8046.1.1"}
+	8062.1.1 = {add_trait=poor_warrior}
+	8064.1.1 = {add_spouse=40856821}
+	8102.1.1 = {death="8102.1.1"}
+}
+40856821 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	8046.1.1 = {birth="8046.1.1"}
+	8102.1.1 = {death="8102.1.1"}
+}
+10956821 = {
+	name="Hodor"	# a lord
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=10856821
+	mother=40856821
+
+	8071.1.1 = {birth="8071.1.1"}
+	8087.1.1 = {add_trait=poor_warrior}
+	8089.1.1 = {add_spouse=40956821}
+	8106.1.1 = {death="8106.1.1"}
+}
+40956821 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	8071.1.1 = {birth="8071.1.1"}
+	8106.1.1 = {death="8106.1.1"}
+}
+11056821 = {
+	name="Hodor"	# not a lord
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=10956821
+	mother=40956821
+
+	8091.1.1 = {birth="8091.1.1"}
+	8099.1.1 = {death="8099.1.1"}
+}
+11156821 = {
+	name="Hodor"	# a lord
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=10956821
+	mother=40956821
+
+	8093.1.1 = {birth="8093.1.1"}
+	8109.1.1 = {add_trait=poor_warrior}
+	8111.1.1 = {add_spouse=41156821}
+	8149.1.1 = {death="8149.1.1"}
+}
+41156821 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	8093.1.1 = {birth="8093.1.1"}
+	8149.1.1 = {death="8149.1.1"}
+}
+11256821 = {
+	name="Hodor"	# not a lord
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=10956821
+	mother=40956821
+
+	8095.1.1 = {birth="8095.1.1"}
+	8111.1.1 = {add_trait=poor_warrior}
+	8155.1.1 = {death="8155.1.1"}
+}
+11356821 = {
+	name="Hodor"	# not a lord
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=10956821
+	mother=40956821
+
+	8098.1.1 = {birth="8098.1.1"}
+	8114.1.1 = {add_trait=poor_warrior}
+	8169.1.1 = {death="8169.1.1"}
+}
+600000062 = {
+	name="Hodor"	# canon, MUSH
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=11156821
+	mother=41156821
+
+	martial=6
+	diplomacy=2
+	intrigue=5
+	stewardship=2
+	add_trait="charismatic_negotiator"
+
+	8114.1.1 = {birth="8114.1.1"}
+	8130.1.1 = {add_trait=trained_warrior}
+	8132.1.1 = {add_spouse=41456821}
+	8159.1.1 = {death="8159.1.1"}
+}
+41456821 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	8114.1.1 = {birth="8114.1.1"}
+	8159.1.1 = {death="8159.1.1"}
+}
+11556821 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=11156821
+	mother=41156821
+
+	8112.1.1 = {birth="8112.1.1"}
+	8190.1.1 = {death="8190.1.1"}
+}
+11656821 = {
+	name="Hodor"	# a lord
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=600000062
+	mother=41456821
+
+	8137.1.1 = {birth="8137.1.1"}
+	8153.1.1 = {add_trait=trained_warrior}
+	8155.1.1 = {add_spouse=41656821}
+	8178.1.1 = {death="8178.1.1"}
+}
+41656821 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	8137.1.1 = {birth="8137.1.1"}
+	8178.1.1 = {death="8178.1.1"}
+}
+11756821 = {
+	name="Hodor"	# not a lord
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=600000062
+	mother=41456821
+
+	8138.1.1 = {birth="8138.1.1"}
+	8154.1.1 = {add_trait=trained_warrior}
+	8192.1.1 = {death="8192.1.1"}
+}
+11856821 = {
+	name="Hodor"	# a lord
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=11656821
+	mother=41656821
+
+	8165.1.1 = {birth="8165.1.1"}
+	8181.1.1 = {add_trait=trained_warrior}
+	8183.1.1 = {add_spouse=41856821}
+	8218.1.1 = {death="8218.1.1"}
+}
+41856821 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	8165.1.1 = {birth="8165.1.1"}
+	8218.1.1 = {death="8218.1.1"}
+}
+11956821 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=11656821
+	mother=41656821
+
+	8167.1.1 = {birth="8167.1.1"}
+	8229.1.1 = {death="8229.1.1"}
+}
+12056821 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=11856821
+	mother=41856821
+
+	8183.1.1 = {birth="8183.1.1"}
+	8235.1.1 = {death="8235.1.1"}
+}
+12156821 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=11856821
+	mother=41856821
+
+	8185.1.1 = {birth="8185.1.1"}
+	8238.1.1 = {death="8238.1.1"}
+}
+12256821 = {
+	name="Hodor"	# a lord
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=11856821
+	mother=41856821
+
+	8186.1.1 = {birth="8186.1.1"}
+	8202.1.1 = {add_trait=skilled_warrior}
+	8204.1.1 = {add_spouse=42256821}
+	8231.1.1 = {death="8231.1.1"}
+}
+42256821 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	8186.1.1 = {birth="8186.1.1"}
+	8231.1.1 = {death="8231.1.1"}
+}
+12356821 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=11856821
+	mother=41856821
+
+	8189.1.1 = {birth="8189.1.1"}
+	8227.1.1 = {death="8227.1.1"}
+}
+12456821 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=12256821
+	mother=42256821
+
+	8209.1.1 = {birth="8209.1.1"}
+	8264.1.1 = {death="8264.1.1"}
+}
+12556821 = {
+	name="Hodor"	# a lord
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=12256821
+	mother=42256821
+
+	8212.1.1 = {birth="8212.1.1"}
+	8228.1.1 = {add_trait=poor_warrior}
+	8230.1.1 = {add_spouse=42556821}
+	8265.1.1 = {death="8265.1.1"}
+}
+42556821 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	8212.1.1 = {birth="8212.1.1"}
+	8265.1.1 = {death="8265.1.1"}
+}
+12656821 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=12256821
+	mother=42256821
+
+	8215.1.1 = {birth="8215.1.1"}
+	8255.1.1 = {death="8255.1.1"}
+}
+12756821 = {
+	name="Hodor"	# a lord
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=12556821
+	mother=42556821
+
+	8246.1.1 = {birth="8246.1.1"}
+	8262.1.1 = {add_trait=poor_warrior}
+	8264.1.1 = {add_spouse=42756821}
+}
+42756821 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	8246.1.1 = {birth="8246.1.1"}
+}
+12856821 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=12556821
+	mother=42556821
+
+	8249.1.1 = {birth="8249.1.1"}
+	8276.1.1 = {death = {death_reason = death_murder}}
+}
+12956821 = {
+	name="Hodor"	# not a lord
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=12556821
+	mother=42556821
+
+	8250.1.1 = {birth="8250.1.1"}
+	8266.1.1 = {add_trait=poor_warrior}
+	8288.1.1 = {death = {death_reason = death_execution}}
+}
+13056821 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=12756821
+	mother=42756821
+
+	8275.1.1 = {birth="8275.1.1"}
+	8341.1.1 = {death="8341.1.1"}
+}
+13156821 = {
+	name="Hodor"	# not a lord
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=12756821
+	mother=42756821
+
+	8278.1.1 = {birth="8278.1.1"}
+	8294.1.1 = {add_trait=trained_warrior}
+	8296.1.1 = {add_spouse=43156821}
+}
+43156821 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="lysene"
+
+	8278.1.1 = {birth="8278.1.1"}
+}
+13256821 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=13156821
+	mother=43156821
+
+	8298.1.1 = {birth="8298.1.1"}
+}
+13356821 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=56821
+
+	religion="pirate"
+	culture="lysene"
+
+	father=13156821
+	mother=43156821
+
+	8299.1.1 = {birth="8299.1.1"}
+}
+#Pirates of Torturers Deep
+100300206 = {
+	name="Hodor"	# a lord
+	dynasty=300206
+
+	religion="pirate"
+	culture="tyroshi"
+
+	7969.1.1 = {birth="7969.1.1"}
+	7985.1.1 = {add_trait=trained_warrior}
+	7987.1.1 = {add_spouse=400300206}
+	8015.1.1 = {death="8015.1.1"}
+}
+400300206 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="tyroshi"
+
+	7969.1.1 = {birth="7969.1.1"}
+	8015.1.1 = {death="8015.1.1"}
+}
+101300206 = {
+	name="Hodor"	# a lord
+	dynasty=300206
+
+	religion="pirate"
+	culture="tyroshi"
+
+	father=100300206
+	mother=400300206
+
+	7994.1.1 = {birth="7994.1.1"}
+	8010.1.1 = {add_trait=poor_warrior}
+	8012.1.1 = {add_spouse=401300206}
+	8040.1.1 = {death="8040.1.1"}
+}
+401300206 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="tyroshi"
+
+	7994.1.1 = {birth="7994.1.1"}
+	8040.1.1 = {death="8040.1.1"}
+}
+102300206 = {
+	name="Hodor"	# a lord
+	dynasty=300206
+
+	religion="pirate"
+	culture="tyroshi"
+
+	father=101300206
+	mother=401300206
+
+	8014.1.1 = {birth="8014.1.1"}
+	8030.1.1 = {add_trait=poor_warrior}
+	8032.1.1 = {add_spouse=402300206}
+	8072.1.1 = {death="8072.1.1"}
+}
+402300206 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="tyroshi"
+
+	8014.1.1 = {birth="8014.1.1"}
+	8072.1.1 = {death="8072.1.1"}
+}
+103300206 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300206
+
+	religion="pirate"
+	culture="tyroshi"
+
+	father=101300206
+	mother=401300206
+
+	8017.1.1 = {birth="8017.1.1"}
+	8096.1.1 = {death="8096.1.1"}
+}
+104300206 = {
+	name="Hodor"	# not a lord
+	dynasty=300206
+
+	religion="pirate"
+	culture="tyroshi"
+
+	father=101300206
+	mother=401300206
+
+	8020.1.1 = {birth="8020.1.1"}
+	8036.1.1 = {add_trait=trained_warrior}
+	8096.1.1 = {death="8096.1.1"}
+}
+105300206 = {
+	name="Hodor"	# a lord
+	dynasty=300206
+
+	religion="pirate"
+	culture="tyroshi"
+
+	father=102300206
+	mother=402300206
+
+	8040.1.1 = {birth="8040.1.1"}
+	8056.1.1 = {add_trait=skilled_warrior}
+	8058.1.1 = {add_spouse=405300206}
+	8110.1.1 = {death="8110.1.1"}
+}
+405300206 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="tyroshi"
+
+	8040.1.1 = {birth="8040.1.1"}
+	8110.1.1 = {death="8110.1.1"}
+}
+106300206 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300206
+
+	religion="pirate"
+	culture="tyroshi"
+
+	father=102300206
+	mother=402300206
+
+	8042.1.1 = {birth="8042.1.1"}
+	8079.1.1 = {death="8079.1.1"}
+}
+108300206 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300206
+
+	religion="pirate"
+	culture="tyroshi"
+
+	father=105300206
+	mother=405300206
+
+	8071.1.1 = {birth="8071.1.1"}
+	8140.1.1 = {death="8140.1.1"}
+}
+109300206 = {
+	name="Hodor"	# a lord
+	dynasty=300206
+
+	religion="pirate"
+	culture="tyroshi"
+
+	father=105300206
+	mother=405300206
+
+	8072.1.1 = {birth="8072.1.1"}
+	8088.1.1 = {add_trait=trained_warrior}
+	8090.1.1 = {add_spouse=409300206}
+	8143.1.1 = {death="8143.1.1"}
+}
+409300206 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="tyroshi"
+
+	8072.1.1 = {birth="8072.1.1"}
+	8143.1.1 = {death="8143.1.1"}
+}
+111300206 = {
+	name="Hodor"	# not a lord
+	dynasty=300206
+
+	religion="pirate"
+	culture="tyroshi"
+
+	father=105300206
+	mother=405300206
+
+	8076.1.1 = {birth="8076.1.1"}
+	8092.1.1 = {add_trait=poor_warrior}
+	8114.1.1 = {death="8114.1.1"}
+}
+112300206 = {
+	name="Hodor"	# a lord
+	dynasty=300206
+
+	religion="pirate"
+	culture="tyroshi"
+
+	father=109300206
+	mother=409300206
+
+	8096.1.1 = {birth="8096.1.1"}
+	8112.1.1 = {add_trait=trained_warrior}
+	8114.1.1 = {add_spouse=412300206}
+	8146.1.1 = {death="8146.1.1"}
+}
+412300206 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="tyroshi"
+
+	8096.1.1 = {birth="8096.1.1"}
+	8146.1.1 = {death="8146.1.1"}
+}
+113300206 = {
+	name="Hodor"	# a lord
+	dynasty=300206
+
+	religion="pirate"
+	culture="tyroshi"
+
+	father=112300206
+	mother=412300206
+
+	8115.1.1 = {birth="8115.1.1"}
+	8131.1.1 = {add_trait=skilled_warrior}
+	8133.1.1 = {add_spouse=413300206}
+	8175.1.1 = {death="8175.1.1"}
+}
+413300206 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="tyroshi"
+
+	8115.1.1 = {birth="8115.1.1"}
+	8175.1.1 = {death="8175.1.1"}
+}
+114300206 = {
+	name="Hodor"	# not a lord
+	dynasty=300206
+
+	religion="pirate"
+	culture="tyroshi"
+
+	father=113300206
+	mother=413300206
+
+	8138.1.1 = {birth="8138.1.1"}
+	8154.1.1 = {add_trait=poor_warrior}
+	8173.1.1 = {death="8173.1.1"}
+}
+115300206 = {
+	name="Hodor"	# a lord
+	dynasty=300206
+
+	religion="pirate"
+	culture="tyroshi"
+
+	father=113300206
+	mother=413300206
+
+	8139.1.1 = {birth="8139.1.1"}
+	8155.1.1 = {add_trait=skilled_warrior}
+	8157.1.1 = {add_spouse=415300206}
+	8182.1.1 = {death="8182.1.1"}
+}
+415300206 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="tyroshi"
+
+	8139.1.1 = {birth="8139.1.1"}
+	8182.1.1 = {death="8182.1.1"}
+}
+116300206 = {
+	name="Hodor"	# not a lord
+	dynasty=300206
+
+	religion="pirate"
+	culture="tyroshi"
+
+	father=113300206
+	mother=413300206
+
+	8140.1.1 = {birth="8140.1.1"}
+	8156.1.1 = {add_trait=trained_warrior}
+	8179.1.1 = {death="8179.1.1"}
+}
+117300206 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300206
+
+	religion="pirate"
+	culture="tyroshi"
+
+	father=115300206
+	mother=415300206
+
+	8164.1.1 = {birth="8164.1.1"}
+	8194.1.1 = {death="8194.1.1"}
+}
+118300206 = {
+	name="Hodor"	# a lord
+	dynasty=300206
+
+	religion="pirate"
+	culture="tyroshi"
+
+	father=115300206
+	mother=415300206
+
+	8165.1.1 = {birth="8165.1.1"}
+	8181.1.1 = {add_trait=trained_warrior}
+	8183.1.1 = {add_spouse=418300206}
+	8200.1.1 = {death="8200.1.1"}
+}
+418300206 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="tyroshi"
+
+	8165.1.1 = {birth="8165.1.1"}
+	8200.1.1 = {death="8200.1.1"}
+}
+119300206 = {
+	name="Hodor"	# not a lord
+	dynasty=300206
+
+	religion="pirate"
+	culture="tyroshi"
+
+	father=115300206
+	mother=415300206
+
+	8168.1.1 = {birth="8168.1.1"}
+	8184.1.1 = {add_trait=poor_warrior}
+	8205.1.1 = {death="8205.1.1"}
+}
+120300206 = {
+	name="Hodor"	# a lord
+	dynasty=300206
+
+	religion="pirate"
+	culture="tyroshi"
+
+	father=118300206
+	mother=418300206
+
+	8192.1.1 = {birth="8192.1.1"}
+	8208.1.1 = {add_trait=skilled_warrior}
+	8210.1.1 = {add_spouse=420300206}
+	8254.1.1 = {death="8254.1.1"}
+}
+420300206 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="tyroshi"
+
+	8192.1.1 = {birth="8192.1.1"}
+	8254.1.1 = {death="8254.1.1"}
+}
+121300206 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300206
+
+	religion="pirate"
+	culture="tyroshi"
+
+	father=118300206
+	mother=418300206
+
+	8195.1.1 = {birth="8195.1.1"}
+	8248.1.1 = {death="8248.1.1"}
+}
+122300206 = {
+	name="Hodor"	# a lord
+	dynasty=300206
+
+	religion="pirate"
+	culture="tyroshi"
+
+	father=120300206
+	mother=420300206
+
+	8219.1.1 = {birth="8219.1.1"}
+	8235.1.1 = {add_trait=trained_warrior}
+	8237.1.1 = {add_spouse=422300206}
+	8291.1.1 = {death="8291.1.1"}
+}
+422300206 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="tyroshi"
+
+	8219.1.1 = {birth="8219.1.1"}
+	8291.1.1 = {death="8291.1.1"}
+}
+123300206 = {
+	name="Hodor"	# not a lord
+	dynasty=300206
+
+	religion="pirate"
+	culture="tyroshi"
+
+	father=120300206
+	mother=420300206
+
+	8221.1.1 = {birth="8221.1.1"}
+	8237.1.1 = {add_trait=skilled_warrior}
+	8263.1.1 = {death="8263.1.1"}
+}
+124300206 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300206
+
+	religion="pirate"
+	culture="tyroshi"
+
+	father=120300206
+	mother=420300206
+
+	8222.1.1 = {birth="8222.1.1"}
+	8269.1.1 = {death="8269.1.1"}
+}
+125300206 = {
+	name="Hodor"	# a lord
+	dynasty=300206
+
+	religion="pirate"
+	culture="tyroshi"
+
+	father=122300206
+	mother=422300206
+
+	8253.1.1 = {birth="8253.1.1"}
+	8269.1.1 = {add_trait=poor_warrior}
+	8271.1.1 = {add_spouse=425300206}
+}
+425300206 = {
+	name="Hodor"
+	female=yes
+
+	religion="pirate"
+	culture="tyroshi"
+
+	8253.1.1 = {birth="8253.1.1"}
+}
+126300206 = {
+	name="Hodor"	# not a lord
+	dynasty=300206
+
+	religion="pirate"
+	culture="tyroshi"
+
+	father=122300206
+	mother=422300206
+
+	8256.1.1 = {birth="8256.1.1"}
+	8272.1.1 = {add_trait=skilled_warrior}
+}
+127300206 = {
+	name="Hodor"	# not a lord
+	dynasty=300206
+
+	religion="pirate"
+	culture="tyroshi"
+
+	father=125300206
+	mother=425300206
+
+	8281.1.1 = {birth="8281.1.1"}
+	8297.1.1 = {add_trait=skilled_warrior}
+}
+128300206 = {
+	name="Hodor"	# not a lord
+	female=yes
+	dynasty=300206
+
+	religion="pirate"
+	culture="tyroshi"
+
+	father=125300206
+	mother=425300206
+
+	8283.1.1 = {birth="8283.1.1"}
+}
